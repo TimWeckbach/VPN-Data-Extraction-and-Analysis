@@ -15,3 +15,11 @@ Year,Service,Country,Original_Price_Local,Currency,Exchange_Rate_2024,PPP_Factor
 2024,Disney+,Turkey,64.99,TRY,0.032,0.25,2.08,8.32,0.59
 2024,Spotify,USA,11.99,USD,1.00,1.00,11.99,11.99,1.00
 2024,Spotify,Turkey,39.99,TRY,0.032,0.25,1.28,5.12,0.43
+2024,Apple Music,USA,10.99,USD,1.00,1.00,10.99,10.99,1.00
+2024,Apple Music,Germany,10.99,EUR,1.09,0.95,11.98,12.61,1.09
+2024,Apple Music,Turkey,39.99,TRY,0.032,0.25,1.28,5.12,0.12
+2024,Apple Music,India,99,INR,0.012,0.30,1.19,3.96,0.11
+2024,Apple Music,Switzerland,13.90,CHF,1.13,1.3,15.70,12.08,1.43
+2024,Microsoft 365,USA,6.99,USD,1.00,1.00,6.99,6.99,1.00
+2024,Microsoft 365,Turkey,159.99,TRY,0.032,0.25,5.12,20.48,0.73
+2024,Microsoft 365,Germany,7.00,EUR,1.09,0.95,7.63,8.03,1.09
