@@ -98,24 +98,30 @@ The data (derived from Phase 1 sampling) indicates a massive disparity between m
 
 This disparity creates a "super-normal" profit margin for the consumer-arbitrageur, which explains the high persistence of the behavior despite the technical barriers described in Section \ref{sec:classification_results}.
 
+\subsection{The Affordability Paradox: Nominal vs. Real Cost}
+While the nominal price differences create an arbitrage incentive for Western users, it is crucial to understand the "Real Cost" for local users. Figure \ref{fig:affordability} maps the cost of digital services as a percentage of the average local monthly salary.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/affordability_heatmap.pdf}
+    \caption{The Affordability Gap: Digital Service Cost as Percentage of Local Monthly Income. Darker red indicates higher relative cost for local citizens.}
+    \label{fig:affordability}
+\end{figure}
+
+The data reveals a paradox: while Turkey and Argentina offer the cheapest nominal prices for international arbitrageurs ($<$\$4/month), these services are significantly \textit{more expensive} for locals in real terms. For instance, a Standard Netflix subscription in Turkey consumes a higher percentage of the average monthly wage ($\approx 0.6\%$) compared to the USA ($\approx 0.3\%$). This suggests that the low nominal prices are not "discounts" but necessary adjustments to local purchasing power, which are then exploited by external actors.
+
 \section{Correlation Analysis: The Strategic Trade-off}
 \label{sec:correlation}
-To empirically validate the relationship between pricing strategy and enforcement intensity, we conducted a correlation analysis across the sampled service providers. We conceptualized the two variables as follows:
-\begin{itemize}
-    \item \textbf{Price Discrimination Score (X-axis):} The Standard Deviation of the DSPI for a given service across all sampled countries. A higher value indicates a more segmented, variable pricing structure (e.g., Netflix).
-    \item \textbf{Enforcement Intensity (Y-axis):} The percentage of Terms of Service clauses categorized as "Technical Blocking," "Account Action," or "Content Licensing." This represents the "protectionist" effort of the firm.
-\end{itemize}
-
-Figure \ref{fig:correlation} illustrates the relationship between these two variables.
+To empirically validate the relationship between pricing strategy and enforcement intensity, we utilized the cleaned Risk Factor dataset (filtering out general corporate noise) and calculated the correlation coefficient.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/protection_vs_pricing.pdf}
-    \caption{Strategic Alignment: firms with higher Price Discrimination scores exhibit higher Enforcement intensities.}
+    \caption{Strategic Alignment: firms with higher Price Discrimination scores (Standard Deviation of DSPI) generally exhibit higher Enforcement intensities.}
     \label{fig:correlation}
 \end{figure}
 
-The initial analysis reveals a complex relationship ($R \approx 0.36$) between price discrimination and legal enforcement intensity. While firms like \textbf{Netflix} and \textbf{Disney+} fit the expected "Fortress" model (High Price Variance $\rightarrow$ High Enforcement), \textbf{Apple Music} emerges as a significant strategic outlier.
+The refined analysis yields a moderate positive correlation ($R \approx 0.55$). This statistically confirms the "Fortress" hypothesis: firms with higher price variance (Netflix, Disney+) tend to employ more aggressive legal threats. However, the correlation is not perfect due to strategic outliers like \textbf{Apple Music}, which maintains high price discrimination but relies on "hard" ecosystem barriers (hardware/payment friction) rather than "soft" ToS threats (see Chapter 5 for discussion on "Ecosystem Fortresses").
 
 Despite having high price discrimination (e.g., Turkey vs. US), Apple's Terms of Service show relatively low "Technical Blocking" intensity. This suggests a third strategic archetype: the **"Ecosystem Fortress."** Unlike Netflix, which must police open web access, Apple relies on hardware-level and payment-method friction (e.g., requiring a local credit card and Apple ID) to enforce segmentation. This "hard" friction reduces the need for the "soft" legal threats found in ToS documents, effectively achieving the same protection without the explicit coercive language.
 
