@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 # Paths
-TOS_DATA_PATH = r"Quantitative DATA\Thesis_Dataset_Master_Redefined.csv"
+TOS_DATA_PATH = r"Quantitative DATA\Thesis_Dataset_Master_RiskFactorsOnly.csv"
 DSPI_DATA_PATH = r"Quantitative DATA\dspi_raw_data.csv"
 OUTPUT_DIR = r"Latex Thesis\figures"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
