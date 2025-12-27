@@ -1,30 +1,28 @@
 This chapter details how the research will be conducted.
+\label{chap:methodology}
 
 To operationalize the 'Coercive' and 'Technical Barrier' constructs, this study employs the 'Litigious' and 'Constraining' word lists developed by Loughran and McDonald (2011), which are the established standard for detecting legal risk and restriction in financial texts.
 
 \section{Research Design}
-\begin{itemize}
-    \item A mixed-methods approach is used.
-    \item Combines quantitative analysis (to build and test the DSPI) with qualitative analysis (to understand strategic responses).
-\end{itemize}
+\section{Research Design}
+This study adopts a sequential explanatory mixed-methods design, combining quantitative price analysis with qualitative text classification. The rationale for this dual approach is to first establish the \textit{magnitude} of the economic phenomenon (the arbitrage incentive) and then investigate the \textit{strategic responses} of the actors involved (firms and consumers). 
 
-\section{Phase 1: Quantitative Data Collection \& Analysis (for RQ1)}
+The quantitative phase (Phase 1) constructs the "Digital Services Price Index" (DSPI) to objectively measure the variance in global digital pricing. The qualitative phase (Phase 2) leverages a Large Language Model (LLM) pipeline to classify corporate disclosures and Terms of Service, mapping the strategic "frames" firms use to legitimize or combat this variance. This integration allows for a holistic understanding of the geo-arbitrage ecosystem.
+
+\section{Phase 1: Quantitative Data Collection (for RQ1)}
 
 \subsection{Data Collection}
-\begin{itemize}
-    \item Development of the Digital Services Price Index (DSPI).
-    \item Service Selection: Streaming, SaaS, gaming.
-    \item Country Selection: High-, middle-, and low-income countries.
-    \item Method: VPN-controlled price sampling.
-    \item Data Points: Price, currency, and Purchasing Power Parity (PPP) data.
-\end{itemize}
+To construct the DSPI, a representative basket of digital services was selected, covering three primary categories: Video on Demand (e.g., Netflix, Disney+), Music Streaming (e.g., Spotify, Apple Music), and Software/Gaming (e.g., Microsoft 365, Steam).
+
+Price data was collected from a diverse sample of 12 countries, stratified by income level (High, Middle, Low) to capture the full spectrum of purchasing power. The sample includes data from key arbitrage markets such as Turkey, Argentina, and India, alongside distinct "payer" markets like Switzerland, the USA, and Germany.
+
+Data collection was performed using a VPN-controlled sampling method. A virtual presence was established in each target country to bypass geo-blocks and access local pricing tiers. For each service and country, the "Standard" monthly subscription price was recorded in the local currency. Concurrently, Purchasing Power Parity (PPP) conversion factors were sourced from the World Bank's International Comparison Program database to allow for "fair value" comparisons.
 
 \subsection{Data Analysis}
-\begin{itemize}
-    \item Normalization of prices across different currencies and markets.
-    \item Calculation of the DSPI.
-    \item Statistical analysis (e.g., ANOVA, regression) to identify patterns and drivers of price differentiation.
-\end{itemize}
+\subsection{Data Analysis}
+The raw price data was processed in two stages. First, all local prices were converted to a common currency (USD) using market exchange rates to determine the "Nominal Price Inequality." Second, these prices were adjusted using PPP conversion factors to calculate the "Real Affordability."
+
+The DSPI was then calculated as the ratio of the local price to the US baseline price. A DSPI of 1.0 indicates price parity; a DSPI < 1.0 indicates a cheaper market (potential arbitrage source), and a DSPI > 1.0 indicates a more expensive market. Statistical variance analysis was performed to identify which service categories exhibit the highest degree of price discrimination.
 
 \section{Phase 2: Qualitative Data Collection \& Analysis (for RQ2)}
 
@@ -37,5 +35,15 @@ While initially conceptualized for manual coding \parencite{duriau2007content}, 
 \subsection{Standard Qualitative Coding}
 In addition to the automated pipeline, manual qualitative coding is applied to a sub-sample to capture themes that escape rigid categorization, such as the specific "tone" of VPN provider marketing (e.g., empowering vs. technical).
 
-\section{Analysis}
-Description of the analytical process and data handling procedures, excluding the final results.
+\section{Data Analysis Procedures}
+\label{sec:analysis_procedures}
+
+The final analytical step involved synthesizing the quantitative and qualitative data streams. 
+
+\subsection{Statistical Analysis of the DSPI}
+The quantitative pricing data was analyzed using Python (Pandas/SciPy). Descriptive statistics (mean, median, standard deviation) were calculated for the DSPI across all service categories. Correlation matrices were generated to pinpoint the relationship between a country's GDP per capita and the assigned subscription price, testing the hypothesis that price discrimination is strictly a function of national income.
+
+\subsection{Interpretation of Qualitative Classifications}
+For the qualitative data, the JSON outputs from the Gemini 3 Flash pipeline were parsed and aggregated. The frequency of each "Strategic Frame" (e.g., \textit{Legal Compliance} vs. \textit{User Freedom}) and "Firm Action" (e.g., \textit{Technical Blocking}) was calculated per company and per year. 
+
+To visualize the evolution of enforcement strategies, these frequencies were normalized against the total number of sentences per year to account for the growing length of ToS documents. This allowed for the generation of longitudinal trend lines (see Chapter 4). Finally, a comparative analysis was conducted to contrast the rhetoric of "Fortress" strategy firms (high blocking) against "Globalist" strategy firms (price harmonization), identifying the key markers of each business model archetype.
