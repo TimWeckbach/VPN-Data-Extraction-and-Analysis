@@ -4,9 +4,9 @@
 This section presents the findings from the automated reclassification of the Terms of Service (ToS) and annual reports using the Gemini 3 Flash pipeline. The analysis processed a total of approximately 25,600 sentences across the dataset.
 
 \subsection{Distribution of Enforcement Categories}
-The classification revealed a significant dominance of ``General Terms'' within the corpus, with approximately \textbf{91\%} of the processed sentences identified as legal boilerplate. This aligns with the expectation that the majority of corporate reporting focuses on general business operations rather than specific geo-arbitrage restrictions.
+The classification showed that \textbf{91\%} of the sentences were "General Terms" (legal boilerplate). This is expected, as most corporate reporting is about general operations, not specific geo-arbitrage rules.
 
-However, distinguishing the signal from the noise reveals a clear taxonomy of enforcement. The following distribution (see Table \ref{tab:category_dist}) highlights the varying approaches of digital service providers.
+After filtering out the general terms, we found a clear structure of enforcement. Table \ref{tab:category_dist} shows how different providers approach this.
 
 \begin{table}[ht]
     \centering
@@ -62,7 +62,7 @@ Global platforms like \textbf{Amazon} and \textbf{Apple Music} also show notable
 \subsection{Temporal Evolution of Enforcement}
 To understand how these strategies have evolved over time, we analyzed the frequency of category specific clauses across the dataset's years. Figure \ref{fig:timeline_all} shows the aggregate trend, while Figure \ref{fig:timeline_service} breaks this down by service provider.
 
-The aggregate data reveals a clear upward trend in specific enforcement clauses, particularly starting from 2022. This correlates with the increased global awareness of digital price arbitrage and the deployment of more sophisticated VPN detection technologies. The "cat-and-mouse" dynamic is evident in the data, where waves of new restrictive clauses often follow periods of increased user workaround activity.
+The data shows an increase in specific enforcement clauses, especially from 2022. This correlates with more global awareness of price arbitrage and better VPN detection tools. The cycle of "action and reaction" is visible: new restrictive clauses often follow periods of increased user workaround activity.
 
 \begin{figure}[ht]
     \centering
@@ -78,8 +78,8 @@ The aggregate data reveals a clear upward trend in specific enforcement clauses,
     \label{fig:timeline_service}
 \end{figure}
 
-\subsection{High-Confidence Findings: The "Smoking Gun" Clauses}
-The Gemini 3 Flash model identified specific, high-confidence clauses that serve as the "teeth" of the coercive strategy. For example, clauses explicitly stating "You may not use any technology to obscure or disguise your location" were consistently categorized as \textit{Technical Blocking} with $>0.95$ confidence. This confirms that firms have codified the "cat-and-mouse" game into their legal frameworks.
+\subsection{High-Confidence Findings: The Core Clauses}
+The Gemini 3 Flash model identified specific, high-confidence clauses that are central to the coercive strategy. For example, clauses stating "You may not use any technology to obscure or disguise your location" were consistently categorized as \textit{Technical Blocking} with $>0.95$ confidence. This confirms that firms have made technical countermeasures a formal part of their legal rules.
 
 \section{The Digital Services Price Index (DSPI)}
 \label{sec:dspi_results}

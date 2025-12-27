@@ -1,9 +1,9 @@
 \label{chap:discussion}
 
-This chapter synthesizes the quantitative findings from the DSPI and the qualitative insights from the automated classifcation pipeline to answer the research questions. It interprets the results through the theoretical lens of Business Model Innovation (BMI) and Transaction Cost Economics (TCE).
+This chapter uses the result from the DSPI and the text analysis to answer the research questions. It interprets them using Business Model Innovation (BMI) theory.
 
-\section{The Strategic Archetypes of Geo-Arbitrage}
-Based on the analysis of Terms of Service and corporate enforcement actions across our expanded sample ($N=11$), we identify three distinct strategic archetypes that govern how digital firms respond to price arbitrage:
+\section{Strategic Archetypes}
+Based on the Terms of Service analysis ($N=11$), we identify three distinct strategies that digital firms use:
 
 \subsection{The Content Fortress (Coercive)}
 Firms adhering to this strategy, typified by streaming giants like \textbf{Netflix} and \textbf{Disney+}, prioritize the maintenance of regional licensing agreements over user convenience. Our quantitative analysis reveals that within the "Content Licensing Sector," the specific correlation between price variance and enforcement is negligible ($R \approx 0.006$). This indicates that strict enforcement is not a *reaction* to specific price arbitrage risks, but an \textbf{industry standard}—a baseline requirement for operating a licensed streaming service. \textbf{Disney+} and \textbf{Netflix} allocate approximately \textbf{8.5\%} and \textbf{6.2\%} of their enforcement clauses to \textbf{Content Licensing} issues, respectively.
@@ -11,7 +11,7 @@ Firms adhering to this strategy, typified by streaming giants like \textbf{Netfl
 This aligns with the "Fortress" strategy described by \textcite{schmidt2020transnational}, where incumbent firms build digital walls to protect legacy revenue streams. However, as noted by \textcite{lobato2019geoblocking}, such strategies often suffer from a "legibility" problem—users do not see the legal contracts, only the "This content is not available" error.
 
 \subsection{The Ecosystem Fortress (Adaptive)}
-In contrast, platforms like \textbf{Apple Music} exemplify a "Globalist" or adaptive approach. With negligible focus on \textbf{Technical Blocking} (0.15\%) and a strong emphasis on \textbf{Price Discrimination} (5.7\%), Apple appears to accept the reality of the international "ibusiness" fragmentation described by \textcite{brouthers2016explaining}. Rather than fighting a futile technological war against security compromises \parencite{ransbotham2009choice}, they focus on minimizing transaction costs through hardware and payment integration.
+Platforms like \textbf{Apple Music} exemplify a "Globalist" approach. With almost no focus on \textbf{Technical Blocking} (0.15\%) and a strong emphasis on \textbf{Price Discrimination} (5.7\%), Apple appears to accept the reality of international fragmentation \parencite{brouthers2016explaining}. Rather than fighting an unwinnable technical struggle against security compromises \parencite{ransbotham2009choice}, they focus on hardware and payment integration.
 
 \subsection{The Enterprise Fortress (Defensive)}
 A new archetype identified in this study is the "Enterprise Fortress," exemplified by \textbf{Microsoft}. Despite having the lowest global price variance in the dataset (indicating a relatively harmonized global price for Microsoft 365), Microsoft exhibits the highest intensity of "Account Action" clauses. This suggests that for utility software, enforcement is not driven by *geo-arbitrage* (pennies on the dollar) but by *license compliance* and *security*. The "Fortress" is built to keep unauthorized resellers out, not necessarily to stop a user from saving \$2 a month.
@@ -20,8 +20,8 @@ A new archetype identified in this study is the "Enterprise Fortress," exemplifi
 \textbf{Adobe} presents a unique case. It has high price discrimination (similar to Netflix) but relatively low "Technical Blocking" enforcement. This is likely because Adobe's enforcement mechanism is "on-device" (software activation keys) rather than "on-network" (IP filtering). This highlights that "Technical Blocking" is a strategy specific to *cloud-streamed* content, whereas *downloaded software* relies on different protection mechanisms.
 
 However, a hybrid future is emerging in the form of \textbf{"Always-Online DRM"}. Features like Adobe's "Generative Fill" require strictly authenticated cloud connections to function, effectively merging the "Content Fortress" reliance on IP checks with the "Enterprise Fortress" reliance on strong identity. This reflects the "Opportunities and Risks" of SaaS adoption \parencite{benlian2011opportunities}, where the control shifts completely from the client to the cloud provider, rendering traditional offline circumvention obsolete.
-\subsection{The Cat-and-Mouse Game: A Longitudinal View}
-The adversarial relationship between providers and consumers is not static. Our historical analysis reveals a clear "Action-Reaction" cycle, which we visualize in Figure \ref{fig:timeline}.
+\subsection{The Adversarial Cycle: A Longitudinal View}
+The relationship between providers and consumers is not static. Our historical analysis reveals a clear "Action-Reaction" cycle, visualized in Figure \ref{fig:timeline}.
 
 \begin{figure}[ht]
     \centering
@@ -53,7 +53,7 @@ The adversarial relationship between providers and consumers is not static. Our 
         \draw[thin] (3.5,-0.2) -- (wireguard);
 
     \end{tikzpicture}
-    \caption{The "Cat-and-Mouse" Timeline: Coercive Barriers vs. Technical Circumvention.}
+    \caption{The Adversarial Timeline: Coercive Barriers vs. Technical Circumvention.}
     \label{fig:timeline}
 \end{figure}
 

@@ -1,7 +1,7 @@
 This chapter details how the research will be conducted.
 \label{chap:methodology}
 
-To operationalize the 'Coercive' and 'Technical Barrier' constructs, this study employs the 'Litigious' and 'Constraining' word lists developed by Loughran and McDonald (2011), which are the established standard for detecting legal risk and restriction in financial texts.
+To measure the concepts of 'Coercion' and 'Technical Barriers', we used the 'Litigious' and 'Constraining' word lists from Loughran and McDonald (2011). These are the standard for finding legal risk in financial texts.
 
 \section{Research Design}
 
@@ -40,7 +40,7 @@ In addition to the automated pipeline, manual qualitative coding is applied to a
 The final analytical step involved synthesizing the quantitative and qualitative data streams. 
 
 \subsection{Statistical Analysis of the DSPI}
-The quantitative pricing data was analyzed using Python (Pandas/SciPy). Descriptive statistics (mean, median, standard deviation) were calculated for the DSPI across all service categories. Correlation matrices were generated to pinpoint the relationship between a country's GDP per capita and the assigned subscription price, testing the hypothesis that price discrimination is strictly a function of national income.
+The pricing data was analyzed using Python. We calculated descriptive statistics (mean, median, standard deviation) for the DSPI. We also generated correlation matrices to find the link between a country's income and the subscription price, testing if price discrimination depends strictly on national wealth.
 
 \subsection{Interpretation of Qualitative Classifications}
 For the qualitative data, the JSON outputs from the Gemini 3 Flash pipeline were parsed and aggregated. The frequency of each "Strategic Frame" (e.g., \textit{Legal Compliance} vs. \textit{User Freedom}) and "Firm Action" (e.g., \textit{Technical Blocking}) was calculated per company and per year. 
