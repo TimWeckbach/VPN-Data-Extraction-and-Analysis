@@ -1,0 +1,35 @@
+Prime Day also occurred in Q2 last year, and contributed about 400 basis points to our Q2 2021 year-to-year revenue growth rate.
+Prime members have meaningfully increased their spend since the start of the pandemic.
+Over that period, we've seen stronger usage of prime benefits by prime members, and a greater reliance on Amazon for their shopping and entertainment.
+Our prime membership program remains a key driver of our worldwide stores business, and we continue innovating to make the membership even more useful and valuable.
+Developers at organizations of all sizes from governments and not-for-profits to startups and enterprises continue to choose Amazon web services.
+This third quarter guidance assumes we see approximately $1.5 billion in quarter-over-quarter sequential cost improvement and our fulfillment network operations, which we expect will be largely offset by investments in AWS and additional digital content for prime members.
+Quarter-over-quarter increase in digital content primarily relates to new prime video content in Q3, including Thursday and I football and the Lord of the Rings, the rings of power.
+You talked about the efficiencies of the one and a half billion quarter-over-quarter and some of the incremental investments in content, et cetera.
+If you look at a stock-based comp is a percent of revenue.
+Some of your peers in the cloud space have talked about some slow down and booking rates just as customers take longer to work through deal terms and duration.
+As we extend contracts, we've seen really good progress with our customer base longer and longer commitments, really committing to the cloud.
+I think the last time we saw this was back in 2008-ish and it's hard to draw lessons from that, but we did notice that it did help our cloud business at the time because, again, when you're trying to launch a new product or service and you have to face with building your own data center and getting capital for a data center and building yourself or moving to the cloud and essentially buying incremental infrastructure capacity, the cloud computing really shows its value.
+If you look again where our investments have been over the last few years in the growth of our Salesforce and our sales support, it is showing benefits and we expect that to continue.
+How are you feeling about the positioning and the investment you need to make around things like connected TV and programmatic advertising where, from the outside in, it looks like you're continuing to make greater levels of investment and increasing your exposure to a wider array of advertising products.
+And we're also, as you mentioned, expanding our array of advertising products from our consumer websites to video opportunities, Twitch and others.
+So we've of course introduced interactive ads last year for streaming video content, things like free V. We've got Amazon Music's ad supported tier as well for audio ads.
+So looking for opportunities like that where customers can more easily engage with brands while streaming content.
+Video advertising, as you mentioned, it's still early in that space.
+But it's increasingly becoming mainstream and I think viewing behaviors have really shifted away from some of the more traditional cable or kind of traditional viewing and advertisers are using our ad supported content to reach those viewers.
+But Thursday night football and Amazon streaming TD ads, capabilities that we're going to continue to work with these partners and work with our own kind of technology capabilities to keep building out.
+I think our advantage is that we have highly efficient advertising.
+And when people are looking, your companies are looking to potentially streamline or optimize their advertising spend, we think our products compete very well in that regard.
+In addition to maybe longer term things like brand building and brings new selection to bear in front of customers.
+What we're all about, obviously, is price selection and convenience.
+And when it's part of FBA can also help as being more prime eligible and available to ship in one, two days or whatever the prime offer happens to be.
+A lot of that of course is driving improvements through our key pillars with price selection and convenience and working with vendors on commercial terms.
+That's investments in prime video, not just in some of the flagship shows that are kind of sourced here in the US, but also you've seen us continue to push for opportunities for in-country and local language video content that resonates with customers and can be a meaningful reason people sign up for the prime program, engage and renew.
+One, can you discuss the impact the price action you took on prime, on merchant fees, etc.
+Then on buy with prime, I know it's early, but how do you see the role out of this initiative from being binevitational only today to all merchants using FBA to off Amazon merchants, etc.
+So on the prime fee increase earlier in the year, we're happy with the results we're seeing in the prime program, prime membership and retention is still strong.
+I think the benefit of the program continues to get better and better.
+You said, this is Dave on your buy with prime question.
+Yeah, I mean, it's right now it's allowing US based prime members to shop directly from merchants on the online stores.
+I think it's we're interested in learning and working with FBA sellers that we've known and had good trust with, but also expanding.
+But that's an opportunity for us to support merchants who may or may not be FBA sellers with the tools and the opportunity to sell their products online and scale their business and build their brand.

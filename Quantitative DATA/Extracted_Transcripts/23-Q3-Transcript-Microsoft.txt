@@ -1,0 +1,113 @@
+The Microsoft Cloud delivered over $28 billion in quarterly revenue, up 22% and 25% in constant currency, demonstrating our continued leadership across the tech stack.
+We continue to focus on three priorities: First, helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend.
+Azure took share, as customers continue to choose our ubiquitous computing fabric – from cloud to edge, especially as every application becomes AI-powered.
+Our Azure OpenAI Service brings together advanced models, including ChatGPT and GPT-4, with the enterprise capabilities of Azure.
+From Coursera and Grammarly, to Mercedes-Benz and Shell, we now have more than 2,500 Azure OpenAI Service customers, up 10X quarter-over- quarter.
+Just last week, Epic Systems shared that it was using Azure OpenAI Service to integrate the next generation of AI with its industry-leading EHR software.
+And we’re pleased to see brands like Shopify and Snap use the API to integrate OpenAI’s models.
+More broadly, we continue to see the world’s largest enterprises migrate key workloads to our cloud.
+Unilever, for example, went all-in on Azure this quarter, in one of the largest-ever cloud migrations in the consumer goods industry.
+IKEA Retail, ING Bank, Rabobank, Telstra, and Wolverine Worldwide all use Azure Arc to run Azure services across on-premises, edge, and multi-cloud environments.
+We now have more than 15,000 Azure Arc customers, up over 150% year-over-year.
+And we’re extending our infrastructure to 5G network edge with Azure for Operators.
+We are the cloud of choice for telcos, and at MWC last month, AT&T, Deutsche Telekom, Singtel, and Telefonica all shared how they are using our infrastructure to modernize and monetize their networks.
+Cosmos DB is the go-to database powering the world’s most demanding workloads at any scale.
+And, we are taking share with our analytics solutions.
+From Visual Studio to GitHub, we have the most popular tools to help every developer go from idea to code and code to cloud – all while staying in their flow.
+In three months since we made Copilot for Business broadly available, over 10,000 organizations have signed up, including the likes of Coca-Cola and GM, as well as Duolingo and Mercado Libre, all of which credit Copilot with increasing the speed for their developers.
+All-up, we now have nearly 33 million monthly active users of Power Platform, up nearly 50% year-over-year.
+And we’re going further, with Dynamics 365 Copilot, which works across CRM and ERP systems to bring the next generation of AI to employees in every job function, reducing burdensome tasks like manual data entry, content generation, and notetaking.
+Our Cloud for Sustainability is seeing strong adoption from companies in every industry, including BBC, Nissan, and PCL, as they deliver on their respective environmental commitments.
+Our Cloud for Healthcare was front and center at HIMSS last week, as we expanded our offerings for payors and added new AI-powered capabilities for providers.
+And, at Hannover-Messe manufacturing trade show, Siemens shared how it will use a Teams app integrated with Azure OpenAI Service to optimize factory workflows.
+Microsoft 365 Copilot combines next generation AI with business data in the Microsoft Graph and Microsoft 365 applications, removing the drudgery and unleashing the creativity of work.
+Copilot works alongside users, embedded in the Microsoft 365 applications millions use every day, and it also powers Business Chat, which uses natural language to surface information and insights based on business content and context.
+And we once again took share across every category — from collaboration, to chat, to meetings, to calling — as we add value for existing customers and win new ones like ABN AMRO, Jaguar Land Rover, Mattress Firm, Unisys, and Vodafone.
+Nearly 60% of our enterprise Teams customers buy Teams Phone, Rooms, or Premium.
+Teams Phone is the undisputed market leader in cloud calling, helping our customers reduce costs with a three-year ROI of over 140%.
+And Teams Premium meets enterprise demand for AI-powered features like intelligent recaps.
+Now generally available, it’s one of our fastest growing Modern Work products ever, with thousands of paid customers just two months in.
+With Microsoft Viva, we’ve created a completely new suite for employee experience.
+Across industries, companies like Dell, Mastercard, and SES are using Viva to help their employees thrive.
+And with Viva Sales, we’ve extended the platform to specific job functions, helping sellers apply large language models to their CRM and Microsoft 365 data, so they can automatically generate content, like customer mails.
+All this innovation is driving growth across Microsoft 365.
+Ferrovial, Goldman Sachs, Novo Nordisk, and Rogers all chose E5 to empower their employees with our best-in-class productivity apps, along with advanced security, compliance, voice, and analytics.
+While the PC market continues to face headwinds, we again saw record monthly active Windows devices, and higher usage, compared to pre- pandemic.
+And with Windows 365 and Azure Virtual Desktop, we continue to transform how employees at companies like Mazda and Nationwide access Windows.
+All-up, over one-third of our enterprise customer base has purchased cloud-delivered Windows to date.
+And new Windows 365 Frontline extends the power and security of Cloud PCs to shift workers for the first time.
+And we continue to introduce new products and functionality to further protect customers.
+Nearly 720,000 organizations now use Azure Active Directory, up 33% year-over-year.
+And, all-up, nearly 600,000 customers now have four or more security workloads, up 35% year-over-year, underscoring our end-to-end differentiation.
+We are winning new customers on Windows and mobile.
+As we look towards a future where chat becomes a new way for people to seek information, consumers have real choice in business model and modalities with Azure-powered chat entrypoints across Bing, Edge, Windows, and OpenAI’s ChatGPT.
+Across our content & services business, we are delivering on our commitment to offer gamers more ways to experience the games they love.
+This quarter, we also brought PC Game Pass to 40 new countries, nearly doubling the number of markets we’re available.
+We saw better-than-expected renewal strength, including across Microsoft 365 which also benefited Windows Commercial given the higher in-period revenue recognition.
+In Office 365 standalone products, we saw improvement in new business growth, while growth trends in EMS and Windows Commercial standalone products remained consistent with Q2.
+In Azure, customers continued to exercise some caution as optimization and new workload trends from the prior quarter continued as expected.
+In our consumer business, PC demand was a bit better than we expected, particularly in the commercial segment, which benefited Windows OEM and Surface even as channel inventory levels remain elevated which negatively impacted results.
+We have seen share gains in Azure, Dynamics, Teams, Security, Edge, and Bing as we continue to focus on delivering high value as well as new innovative solutions to our customers, including next generation AI capabilities.
+Microsoft Cloud revenue was $28.5 billion and grew 22% and 25% in constant currency, slightly ahead of expectations.
+Microsoft Cloud gross margin percentage increased roughly 2 points year- over-year to 72%, a point ahead of expectations driven by cloud engineering efficiencies.
+Excluding the impact of the change in accounting estimate for useful lives, Microsoft Cloud gross margin percentage decreased slightly driven by lower Azure margin.
+Operating expense growth was driven by roughly 2 points from the Nuance and Xandr acquisitions, as well as investments in cloud engineering and LinkedIn.
+Office 365 commercial revenue increased 14% and 18% in constant currency, slightly better than expected with the strong renewal execution mentioned earlier and E5 momentum.
+Paid Office 365 commercial seats grew 11% year-over-year to over 382 million, with installed base expansion across all workloads and customer segments.
+Office consumer revenue increased 1% and 4% in constant currency with continued momentum in Microsoft 365 subscriptions, which grew 12% to 65.4 million.
+Dynamics revenue grew 17% and 21% in constant currency driven by Dynamics 365, which grew 25% and 29% in constant currency with healthy growth across all workloads.
+Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly driven by improvements in Office 365, partially offset by sales mix shift to cloud offerings.
+Overall, server products and cloud services revenue increased 17% and 21% in constant currency.
+Azure and other cloud services revenue grew 27% and 31% in constant currency.
+In our on-premises server business, revenue decreased 2% and was relatively unchanged in constant currency, with continued demand for our hybrid offerings, including Windows Server and SQL Server running in multi-cloud environments, offset by transactional licensing.
+We saw better-than-expected PC demand as noted earlier, particularly in the commercial segment which has higher revenue per license, although results continue to be negatively impacted by elevated channel inventory levels.
+Windows commercial products and cloud services revenue increased 14% and 18% in constant currency, significantly ahead of expectations primarily due to the strong renewal execution with higher in-period revenue recognition noted earlier.
+Xbox hardware revenue declined 30% and 28% in constant currency on a high prior year comparable that benefited from increased console supply.
+Xbox content and services revenue increased 3% and 5% in constant currency driven by better-than-expected monetization in third- party and first-party content, and growth in Xbox Game Pass.
+Capital expenditures including finance leases were $7.8 billion to support cloud demand.
+Cash flow from operations was $24.4 billion, down 4% year-over-year as strong cloud billings and collections as well as lower supplier payments were more than offset by a tax payment related to the R&D capitalization provision and employee payments primarily related to headcount growth and an increase in employee compensation.
+Within the segments, we anticipate roughly 2 points of negative FX impact on revenue growth in Productivity and Business Processes and Intelligent Cloud and roughly 1 point in More Personal Computing.
+In our largest quarter of the year, we expect customer demand for our differentiated solutions including our AI platform and consistent execution across the Microsoft Cloud to drive another quarter of healthy revenue growth.
+Excluding that impact, Q4 cloud gross margin percentage will be relatively flat as improvements in Office 365 will offset the lower Azure margin and the impact of scaling our AI infrastructure to meet growing demand.
+We expect capital expenditures to have a material sequential increase on a dollar basis driven by investments in Azure AI infrastructure.
+Reminder there can be normal quarterly spend variability in the timing of our cloud infrastructure buildout.
+In Office Commercial, revenue growth will again be driven by Office 365 with seat growth across customer segments and ARPU growth thru E5.
+We expect Office 365 revenue growth to be roughly 16% in constant currency.
+In our on-premises business, we expect revenue to decline in the low 30s.
+In Office consumer, we expect revenue growth in the mid-single digits, driven by Microsoft 365 subscriptions.
+And in Dynamics, we expect revenue growth in the mid to high-teens driven by continued growth in Dynamics 365.
+For Intelligent Cloud we expect revenue to grow between 15% and 16% in constant currency or $23.6 to $23.9 billion US dollars.
+Revenue will continue to be driven by Azure which, as a reminder, can have quarterly variability primarily from our per-user business and from in- period revenue recognition depending on the mix of contracts.
+In Azure, we expect revenue growth to be 26% to 27% in constant currency, including roughly 1 point from AI services.
+Growth continues to be driven by our Azure consumption business and we expect the trends from Q3 to continue into Q4 as noted earlier.
+Our per-user business should continue to benefit from Microsoft 365 suite momentum, though we expect continued moderation in growth rates given the size of the installed base.
+And in Enterprise Services, revenue should be relatively unchanged year- over-year as growth in Enterprise Support Services will be offset by a decline in Microsoft Consulting Services.
+While we expect healthy annuity billings growth driven by continued customer demand for Microsoft 365 and our advanced security solutions, a reminder that our quarterly revenue growth can have variability primarily from in-period revenue recognition depending on the mix of contracts.
+We expect Xbox content and services revenue growth in the low to mid- teens driven by third-party and first-party content as well as Xbox Game Pass.
+We will continue to invest in our cloud infrastructure, particularly AI-related spend, as we scale with the growing demand driven by customer transformation.
+I think it really illustrates Microsoft’s advantages, and a lot of these technology innovations that you guys have been talking about.
+I wanted to ask you a question that I get probably more often than anything else, and one that I, frankly, don’t have a good answer to, and that’s around the OpenAI partnership, and particularly the accounting for that partnership.
+I was hoping you could give us a little bit of color about whether or not revenue is flowing from OpenAI into Microsoft on the CapEx side of the equation, whether there’s any impact, just to give us a better understanding of how the accounting around that relationship is working.
+But specifically to your question on how does it show up, it’s easiest in this situation to think about them as a customer of ours, like any other customer who would use the Azure infrastructure and our Azure AI Services in service of supporting their end customers.
+I’d like to drill into Azure, and more specifically, Azure IaaS PaaS consumption.
+We incent our people to help our customers with optimization, because we believe, in the long run, that’s the best way to secure the loyalty and long-term contracts with customers, when they know that they can count on a cloud provider like us to help them continuously optimize their workflow.
+That’s sort of the fundamental benefit of public cloud, and we’re taking every opportunity to prove that out with customers in real time.
+If you think about the consumer tech companies that are all spinning essentially Azure meters, because they have gone to OpenAI and are using their API.
+Second, even Azure OpenAI API customers are all new and the workload conversations, whether it’s B2C conversations in financial services, or drug discovery on another side, these are all new workloads that we really were not in the game in the past, whereas we now are.
+And just staying on the AI theme and more thinking about the gross margin impact on Azure, can you just, Satya, maybe talk a little bit about how you see the cost of compute for AI workloads versus kind of the classic workloads?
+So, you can expect us to do what we have done over the decade plus the public cloud to bring the benefits of, I would say, continuous optimization of our COGS to a diverse set of workloads.
+The other thing I would mention is that there are a lot of workloads now.
+And I think one of the important things to keep in mind, which Satya is pointing to, is that it’s not really just the cost of Azure and the ability to optimize across the Azure workloads.
+It’s that really, even our first-party workloads and apps that are built are built on the same platform.
+Right now, we have the largest commercial cloud with increasing commitments by customers, with new workloads, new TAM opportunities that Satya’s talking about with customers.
+And our focus is going to be and will be on continuing to take a growing share of that, while we continue to focus on our customers’ success and getting a ton of value out of what we are selling, whether that’s the E5 product of Microsoft 365, whether that’s Windows 365 to help.
+Maybe it’s on compute costs and PC cost, whether it’s working across the Azure stack.
+And so, with that opportunity plus in our consumer business, the largest number of active devices we’ve had in Windows that are still being used more, being able to focus on Edge share, and Bing share and gaming, bringing it to the PC as well as across to mobile, these are the opportunities that we focus on, as we think about next year.
+We’ve had a lot of questions on AI and Azure, so maybe just to round it out, just on the Office 365 business, Amy, 16% constant currency guide for June, not really seeing much seat degradation despite obviously a tight labor market.
+I think I would step back and say we have seen, I mean, the Office 365 suite, but broadly, the Microsoft 365 suite adds a ton of value for users.
+And so, this is not something that I think our focus has really been on continuing to get healthy renewals, continuing to add new products and renewal where it makes sense to save customers money and increase value.
+How are you thinking about the potential for regulation around AI, some of the concerns around data, and customer privacy and governance?
+So, it would just be great to hear your view on the Microsoft consolidation playbook in the current environment, and if there are certain areas you’re particularly focused on or seeing the most traction around.
+I think Amy referenced this in the context of Microsoft 365 and Office 365, but fundamentally, what we’re focused on is making sure that the customers are able to derive the value out of our offerings, whether it’s the Microsoft 365 suite value, which is significant, whether it’s E3 or E5.
+And so, therefore, we want to make sure that our services, as they are competitive, get used together, whether it’s the IaaS layer, or the PaaS layer, or the SaaS layer.
+AMY HOOD: And maybe one thing I would add, Michael, is that I know the question is consolidation, but another aspect of that is that some of the new business process automation work that’s going to get done, whether that’s the Dynamics workloads that we’ve talked about, it also will benefit from having the AI services available in Azure, from having the core Azure capabilities, as well actually some front end stuff that people are buying in Microsoft 365 to close these loops in a new way.

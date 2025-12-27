@@ -1,0 +1,436 @@
+PART I ITEM 1. BUSINESS GENERAL Embracing Our Future Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more.
+Our platforms and tools help drive small business productivity, large business competitiveness, and public-sector efficiency.
+They also support new startups, improve educational and health outcomes, and empower human ingenuity.
+We bring technology and products together into experiences and solutions that unlock value for our customers.
+Our ecosystem of customers and partners has stepped up to help people and organizations in every country use technology to be resilient and transform during the most trying of circumstances.
+Amid rapid change we’ve witnessed technology empower telehealth, remote manufacturing, and new ways of working from home and serving customers.
+These capabilities have relied on the public cloud, which is built on the investments we have made over time.
+In the next phase of innovation, computing is more powerful and ubiquitous from the cloud to the edge.
+What We Offer Founded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people and businesses realize their full potential.
+We offer an array of services, including cloud-based solutions that provide customers with software, services, platforms, and content, and we provide solution support and consulting services.
+Our products include operating systems, cross-device productivity applications, server applications, business solution applications, desktop and server management tools, software development tools, and video games.
+We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.
+• Build the intelligent cloud and intelligent edge platform.
+Reinvent Productivity and Business Processes At Microsoft, we’re providing technology and resources to help our customers navigate a remote environment.
+Our growth depends on securely delivering continuous innovation and advancing our leading productivity and collaboration tools and services, including Office, Dynamics, and LinkedIn.
+Microsoft 365 brings together Office 365, Windows, and Enterprise Mobility + Security to help organizations empower their employees with AI-backed tools that unlock creativity, increase teamwork, and fuel innovation, all the while enabling compliance coverage and data protection.
+Microsoft Teams is enabling rapid digital transformation by giving people a single tool to chat, call, meet, and collaborate.
+Microsoft Viva is an employee experience platform that brings together communications, knowledge, learning, resources, and insights powered by Microsoft 365.
+Microsoft Power Platform empowers employees to build custom applications, automate workflow, and analyze data no matter their technical expertise.
+These scenarios represent a move to unlock creativity and discover new habits, while simplifying security and management.
+Organizations of all sizes have digitized business-critical functions, redefining what they can expect from their business applications.
+This creates an opportunity to reach new customers and increase usage and engagement with existing customers.
+Build the Intelligent Cloud and Intelligent Edge Platform In the new remote world, companies have accelerated their own digital transformation to empower their employees, optimize their operations, engage customers, and in some cases, change the very core of their products and services.
+Our strategy requires continued investment in datacenters and other hybrid and edge infrastructure to support our services.
+Azure is a trusted cloud with comprehensive compliance coverage and AI-based security built in.
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs.
+The Microsoft Cloud is the most comprehensive and trusted cloud, providing the best integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility.
+Being a global-scale cloud, Azure uniquely offers hybrid consistency, developer productivity, AI capabilities, and trusted security and compliance.
+With Azure Stack, organizations can extend Azure into their own datacenters to create a consistent stack across the public cloud and the intelligent edge.
+Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on- premises management platform.
+We offer integrated, end-to- end capabilities to protect people and organizations.
+The acquisition will build on our industry-specific cloud offerings.
+4 PART I Item 1 We are accelerating our development of mixed reality solutions with new Azure services and devices.
+The opportunity to merge the physical and digital worlds, when combined with the power of Azure cloud services, unlocks the potential for entirely new workloads and experiences which we believe will shape the next era of computing.
+Azure SQL Database makes it possible for customers to take SQL Server from their on-premises datacenter to a fully managed instance in the cloud to utilize built-in AI.
+Azure Synapse Analytics, a limitless analytics service, brings together data integration, enterprise data warehousing, and big data analytics for immediate business intelligence and machine learning needs.
+From GitHub to Visual Studio, we provide a developer tool chain for everyone, no matter the technical experience, across all platforms, whether Azure, Windows, or any other cloud or client platform.
+Microsoft 365 is empowering people and organizations to be productive and secure as they adapt to more fluid ways of working and learning.
+The PC has been mission-critical across work, school, and life to sustain productivity in a remote everything world.
+Our ambition for Windows 10 monetization opportunities includes gaming, services, subscriptions, and search advertising.
+Windows 11 builds on the strengths of productivity, versatility, and security on Windows 10 today and adds in new experiences that include powerful task switching tools like new snap layouts, snap groups, and desktops; new ways to stay connected through chat; the information you want at your fingertips; and more.
+Windows also plays a critical role in fueling our cloud business and Microsoft 365 strategy, and it powers the growing range of devices on the “intelligent edge.” Microsoft Edge is our fast and secure browser that helps protect your data, with built-in shopping tools designed to save you time and money.
+Organizational tools such as Collections, Vertical Tabs, and Immersive Reader help you make the most of your time while browsing, streaming, searching, sharing, and more.
+We are committed to designing and marketing first-party devices to help drive innovation, create new device categories, and stimulate demand in the Windows ecosystem.
+To expand usage and deepen engagement, we continue to invest in content, community, and cloud services as we pursue the expansive opportunity in the gaming industry.
+We have broadened our approach to how we think about gaming end-to-end, from the way games are created and distributed to how they are played, including cloud gaming so players can stream across PC, console, and mobile.
+Xbox Game Pass is a community with access to a curated library of over 100 first- and third-party console and PC titles.
+Xbox Cloud Gaming is Microsoft’s game streaming technology that is complementary to our console hardware and gives fans the ultimate choice to play the games they want, with the people they want, on the devices they want.
+5 PART I Item 1 Our Future Opportunity In a time of great disruption and uncertainty, customers are looking to us to accelerate their own digital transformations as software and cloud computing play a huge role across every industry and around the world.
+We continue to develop complete, intelligent solutions for our customers that empower people to stay productive and collaborate, while safeguarding businesses and simplifying IT management.
+We are investing significant resources in: • Transforming the workplace to deliver new modern, modular business applications to improve how people communicate, collaborate, learn, work, play, and interact with one another.
+• Building and running cloud-based services in ways that unleash new experiences and opportunities for businesses and individuals.
+• Using Windows to fuel our cloud business, grow our share of the PC market, and drive increased engagement with our services like Microsoft 365 Consumer, Teams, Edge, Bing, Xbox Game Pass, and more.
+We have the opportunity to redefine what customers and partners can expect and are working to deliver new solutions that reflect the best of Microsoft.
+The COVID-19 pandemic continues to have widespread and unpredictable impacts on global society, economies, financial markets, and business practices, and continues to impact our business operations, including our employees, customers, partners, and communities.
+We also help our suppliers and customers around the world use Microsoft technology to reduce their own carbon footprint.
+In January 2021, we announced that in fiscal year 2020 we reduced Microsoft’s carbon emissions by 586,683 metric tons.
+6 PART I Item 1 The investments we make in sustainability carry through to our products, services, and devices.
+We design our devices, from Surface to Xbox, to minimize their impact on the environment.
+Our cloud and AI services and datacenters help businesses cut energy consumption, reduce physical footprints, and design sustainable products.
+Additionally, we have seen growth in our Black- and African American-owned supplier base and in Black- and African American- owned technology partners in the Microsoft Partner Network, and we launched the Black Channel Partner Alliance community to support partners onboarding to the Microsoft Cloud and to unlock partner benefits for co-selling with Microsoft.
+Investing in Digital Skills With a continued focus on digital transformation, Microsoft is helping to ensure that no one is left behind, particularly as economies recover from the COVID-19 pandemic.
+We announced in June 2020 that we are expanding access to the digital skills that have become increasingly vital to many of the world’s jobs, and especially to individuals hardest hit by recent job losses.
+We also invested $20 million in key non-profit partnerships through Microsoft Philanthropies to help people from underserved communities that are often excluded by the digital economy.
+7 PART I Item 1 HUMAN CAPITAL RESOURCES Overview Microsoft aims to recruit, develop, and retain diverse, world-changing talent.
+• Operating as one company, One Microsoft, instead of multiple siloed businesses.
+• Making a difference in the lives of each other, our customers, and the world around us.
+Diversity and Inclusion At Microsoft we have an inherently inclusive mission: to empower every person and every organization on the planet to achieve more.
+The better we represent that diversity inside Microsoft, the more effectively we can innovate for those we seek to empower.
+As part of our effort to promote a One Microsoft and inclusive culture, we expanded stock eligibility to all Microsoft employees as part of our annual rewards process.
+This includes all non-exempt and exempt employees and equivalents across the globe including business support professionals and datacenter and retail employees.
+We implemented a global Paid Pandemic School and Childcare Closure Leave to support working parents, added wellbeing days for those who needed to take time off for mental health and wellness, implemented on-demand COVID-19 testing and vaccinations on our Redmond, Washington campus, and extended full medical plan coverage for coronavirus testing, treatment, and telehealth services.
+We also expanded existing programs such as our Microsoft CARES Employee Assistance Program and family backup care.
+In addition to the extraordinary steps and programs relating to COVID-19, our comprehensive benefits package includes many physical, emotional, and financial wellness programs including counseling through the Microsoft CARES Employee Assistance Program, flexible fitness benefits, savings and investment tools, adoption assistance, and back-up care for children and elders.
+OPERATING SEGMENTS We operate our business and report our financial performance using three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.
+Productivity and Business Processes Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services, spanning a variety of devices and platforms.
+This segment primarily comprises: • Office Commercial (Office 365 subscriptions, the Office 365 portion of Microsoft 365 Commercial subscriptions, and Office licensed on-premises), comprising Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, and Skype for Business.
+• Office Consumer, including Microsoft 365 Consumer subscriptions and Office licensed on-premises, and Office Consumer Services, including Skype, Outlook.com, and OneDrive.
+• LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, Sales Solutions, and Learning Solutions.
+• Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM, Customer Insights, Power Apps, and Power Automate; and on-premises ERP and CRM applications.
+10 PART I Item 1 Office Commercial Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services.
+Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance.
+Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365.
+Office Consumer Office Consumer is designed to increase personal productivity through a range of products and services.
+Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets.
+Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions.
+Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes.
+In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, Sales Solutions, and Learning Solutions.
+Premium Subscriptions enables professionals to manage their professional identity, grow their network, and connect with talent through additional services like premium search.
+Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities.
+Dynamics Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises.
+Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate.
+11 PART I Item 1 Competition Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Facebook, Google, IBM, Okta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers.
+Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones.
+Skype for Business and Skype also compete with a variety of instant messaging, voice, and video communication providers, ranging from start-ups to established enterprises.
+Okta, Proofpoint, and Symantec provide security solutions across email security, information protection, identity, and governance.
+Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services.
+We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud.
+Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights.
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce.com, and SAP.
+Intelligent Cloud Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers.
+This segment primarily comprises: • Server products and cloud services, including Azure; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (“CALs”); and GitHub.
+• Enterprise Services, including Premier Support Services and Microsoft Consulting Services.
+Server Products and Cloud Services Azure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage applications on any platform or device.
+Customers can use Azure through our global network of datacenters for computing, networking, storage, mobile and web application services, AI, IoT, cognitive services, and machine learning.
+Azure enables customers to devote more resources to development and use of applications that benefit their organizations, rather than managing on-premises hardware and software.
+Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumption-based services, and per user-based services such as Enterprise Mobility + Security.
+Our server products are designed to make IT professionals, developers, and their systems more productive and efficient.
+This includes the server platform, database, business intelligence, storage, management and operations, virtualization, service-oriented architecture platform, security, and identity software.
+We also license standalone and software development lifecycle tools for software architects, developers, testers, and project managers.
+Server products revenue is mainly affected by purchases through volume licensing programs, licenses sold to original equipment manufacturers (“OEM”), and retail packaged products.
+Enterprise Services Enterprise Services, including Premier Support Services and Microsoft Consulting Services, assist customers in developing, deploying, and managing Microsoft server and desktop solutions and provide training and certification to developers and IT professionals on various Microsoft products.
+12 PART I Item 1 Competition Azure faces diverse competition from companies such as Amazon, Google, IBM, Oracle, VMware, and open source offerings.
+Our Enterprise Mobility + Security offerings also compete with products from a range of competitors including identity vendors, security solution vendors, and numerous other security point solution vendors.
+Azure’s competitive advantage includes enabling a hybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a scale that meets the needs of businesses of all sizes and complexities.
+We believe our cloud’s global scale, coupled with our broad portfolio of identity and security solutions, allows us to effectively solve complex cybersecurity challenges for our customers and differentiates us from the competition.
+Our server products face competition from a wide variety of server operating systems and applications offered by companies with a range of market approaches.
+We compete to provide enterprise-wide computing solutions and point solutions with numerous commercial software vendors that offer solutions and middleware technology platforms, software applications for connectivity (both Internet and intranet), security, hosting, database, and e-business servers.
+Commercial competitors for our server applications for PC-based distributed client-server environments include CA Technologies, IBM, and Oracle.
+Our database, business intelligence, and data warehousing solutions offerings compete with products from IBM, Oracle, SAP, and other companies.
+Our system management solutions compete with server management and server virtualization platform providers, such as BMC, CA Technologies, Hewlett-Packard, IBM, and VMware.
+Our products for software developers compete against offerings from Adobe, IBM, Oracle, and other companies, and also against open-source projects, including Eclipse (sponsored by CA Technologies, IBM, Oracle, and SAP), PHP, and Ruby on Rails.
+We believe our server products provide customers with advantages in performance, total costs of ownership, and productivity by delivering superior applications, development tools, compatibility with a broad base of hardware and software applications, security, and manageability.
+Our Enterprise Services business competes with a wide range of companies that provide strategy and business planning, application development, and infrastructure services, including multinational consulting firms and small niche businesses focused on specific technologies.
+More Personal Computing Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology.
+This segment primarily comprises: • Windows, including Windows OEM licensing (“Windows OEM”) and other non-volume licensing of the Windows operating system; Windows Commercial, comprising volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; Windows IoT; and MSN advertising.
+• Gaming, including Xbox hardware and Xbox content and services, comprising digital transactions, Xbox Game Pass and other subscriptions, video games, third-party video game royalties, cloud services, and advertising.
+In addition to computing device market volume, Windows OEM revenue is impacted by: • The mix of computing devices based on form factor and screen size.
+Windows Commercial revenue, which includes volume licensing of the Windows operating system and Windows cloud services such as Microsoft Defender Advanced Threat Protection, is affected mainly by the demand from commercial customers for volume licensing and Software Assurance (“SA”), as well as advanced security offerings.
+Patent licensing includes our programs to license patents we own for use across a broad array of technology areas, including mobile devices and cloud offerings.
+Devices We design and sell devices, including Surface and PC accessories.
+Our devices are designed to enable people and organizations to connect to the people and content that matter most using Windows and integrated Microsoft products and services.
+Growth in Devices is dependent on total PC shipments, the ability to attract new customers, our product roadmap, and expanding into new categories.
+Gaming Our gaming platform is designed to provide a variety of entertainment through a unique combination of content, community, and cloud.
+We continue to invest in new gaming studios and content to expand our IP roadmap and leverage new content creators.
+These unique gaming experiences are the cornerstone of Xbox Game Pass, a subscription service and gaming community with access to a curated library of over 100 first- and third-party console and PC titles.
+The gamer remains at the heart of the Xbox ecosystem.
+We continue to open new opportunities for gamers to engage both on- and off- console with both the launch of Xbox Cloud Gaming, our game streaming service, and continued investment in gaming hardware.
+Xbox Cloud Gaming utilizes Microsoft’s Azure cloud technology to allow direct and on-demand streaming of games to PCs, consoles, and mobile devices, enabling gamers to take their favorites games with them and play on the device most convenient to them.
+14 PART I Item 1 Xbox enables people to connect and share online gaming experiences that are accessible on Xbox consoles, Windows-enabled devices, and other devices.
+Xbox is designed to benefit users by providing access to a network of certified applications and services and to benefit our developer and partner ecosystems by providing access to a large customer base.
+Xbox revenue is mainly affected by subscriptions and sales of first- and third-party content, as well as advertising.
+Growth of our Gaming business is determined by the overall active user base through Xbox enabled content, availability of games, providing exclusive game content that gamers seek, the computational power and reliability of the devices used to access our content and services, and the ability to create new experiences through first-party content creators.
+We have several partnerships with other companies, including Verizon Media Group, through which we provide and monetize search queries.
+We believe Windows competes effectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware and software applications, including those that enable productivity.
+Xbox and our cloud gaming services face competition from various online gaming ecosystems and game streaming services, including those operated by Amazon, Apple, Facebook, Google, and Tencent.
+We also compete with other providers of entertainment services such as video streaming platforms.
+Our gaming platform competes with console platforms from Nintendo and Sony, both of which have a large, established base of customers.
+We believe our gaming platform is effectively positioned against, and uniquely differentiated from, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online gaming and entertainment services, and continued strong exclusive content from our own first-party game franchises as well as other digital content offerings.
+In addition to the operations centers, we also operate datacenters throughout the Americas, Europe, Australia, and Asia, as well as in the Middle East and Africa.
+15 PART I Item 1 RESEARCH AND DEVELOPMENT Product and Service Development, and Intellectual Property We develop most of our products and services internally through the following engineering groups.
+• Cloud and AI, focuses on making IT professionals, developers, and their systems more productive and efficient through development of cloud infrastructure, server, database, CRM, ERP, management and development tools, AI cognitive services, and other business process applications and services for enterprises.
+• Experiences and Devices, focuses on instilling a unifying product ethos across our end-user experiences and devices, including Office, Windows, Enterprise Mobility + Security, and Surface.
+• Gaming, focuses on developing hardware, content, and services across a large range of platforms to help grow our user base through game experiences and social interaction.
+Before releasing new software platforms, and as we make significant modifications to existing platforms, we provide application vendors with a range of resources and guidelines for development, training, and testing.
+We work actively in the U.S. and internationally to ensure the enforcement of copyright, trademark, trade secret, and other protections that apply to our software and hardware products, services, business plans, and branding.
+We may also purchase or license technology that we incorporate into our products and services.
+We invest in a range of emerging technology trends and breakthroughs that we believe offer significant opportunities to deliver value to our customers and growth for the Company.
+Based on our assessment of key technology trends, we maintain our long-term commitment to research and development across a wide spectrum of technologies, tools, and platforms spanning digital work and life experiences, cloud computing, AI, devices, and operating systems.
+16 PART I Item 1 In addition to our main research and development operations, we also operate Microsoft Research.
+DISTRIBUTION, SALES, AND MARKETING We market and distribute our products and services through the following channels: OEMs, direct, and distributors and resellers.
+Our sales force performs a variety of functions, including working directly with commercial enterprises and public-sector organizations worldwide to identify and meet their technology and digital transformation requirements; managing OEM relationships; and supporting system integrators, independent software vendors, and other partners who engage directly with our customers to perform sales, consulting, and fulfillment functions for our products and services.
+OEMs We distribute our products and services through OEMs that pre-install our software on new devices and servers they sell.
+OEMs also sell devices pre-installed with other Microsoft products and services, including applications such as Office and the capability to subscribe to Office 365.
+We have distribution agreements covering one or more of our products with virtually all the multinational OEMs, including Dell, Hewlett-Packard, Lenovo, and with many regional and local OEMs.
+Direct Many organizations that license our products and services transact directly with us through Enterprise Agreements and Enterprise Services contracts, with sales support from system integrators, independent software vendors, web agencies, and partners that advise organizations on licensing our products and services (“Enterprise Agreement Software Advisors” or “ESA”).
+Microsoft offers direct sales programs targeted to reach small, medium, and corporate customers, in addition to those offered through the reseller channel.
+We also sell commercial and consumer products and services directly to customers, such as cloud services, search, and gaming, through our digital marketplaces and online stores.
+In fiscal year 2021, we closed our Microsoft Store physical locations and opened our Microsoft Experience Centers.
+Microsoft Experience Centers are designed to facilitate deeper engagement with our partners and customers across industries.
+ESAs are also typically authorized as LSPs and operate as resellers for our other volume licensing programs.
+Microsoft Cloud Solution Provider is our main partner program for reselling cloud services.
+17 PART I Item 1 We distribute our retail packaged products primarily through independent non-exclusive distributors, authorized replicators, resellers, and retail outlets.
+We distribute our devices through third-party retailers.
+Our Dynamics business solutions are also licensed to enterprises through a global network of channel partners providing vertical solutions and specialized services.
+LICENSING OPTIONS We offer options for organizations that want to purchase our cloud services, on-premises software, and SA.
+We license software to organizations under volume licensing agreements to allow the customer to acquire multiple licenses of products and services instead of having to acquire separate licenses through retail channels.
+SA conveys rights to new software and upgrades for perpetual licenses released over the contract period.
+It also provides support, tools, training, and other licensing benefits to help customers deploy and use software efficiently.
+SA is included with certain volume licensing agreements and is an optional purchase with others.
+Volume Licensing Programs Enterprise Agreement Enterprise Agreements offer large organizations a manageable volume licensing program that gives them the flexibility to buy cloud services and software licenses under one agreement.
+Enterprise Agreements are designed for medium or large organizations that want to license cloud services and on-premises software organization-wide over a three-year period.
+Microsoft Product and Services Agreement Microsoft Product and Services Agreements are designed for medium and large organizations that want to license cloud services and on- premises software as needed, with no organization-wide commitment, under a single, non-expiring agreement.
+Organizations purchase perpetual licenses or subscribe to licenses.
+SA is optional for customers that purchase perpetual licenses.
+Open Open agreements are a simple, cost-effective way to acquire the latest Microsoft technology.
+Open agreements are designed for small and medium organizations that want to license cloud services and on-premises software over a one- to three-year period.
+Under the Open agreements, organizations purchase perpetual licenses and SA is optional.
+Under Open Value agreements, organizations can elect to purchase perpetual licenses or subscribe to licenses and SA is included.
+18 PART I Item 1 Select Plus Select Plus agreements are designed for government and academic organizations to acquire on-premises licenses at any affiliate or department level, while realizing advantages as one organization.
+Organizations purchase perpetual licenses and SA is optional.
+Microsoft Online Subscription Agreement Microsoft Online Subscription Agreements are designed for small and medium organizations that want to subscribe to, activate, provision, and maintain cloud services seamlessly and directly via the web.
+The agreement allows customers to acquire monthly or annual subscriptions for cloud-based services.
+Partner Programs The Microsoft Cloud Solution Provider program offers customers an easy way to license the cloud services they need in combination with the value-added services offered by their systems integrator, managed services provider, or cloud reseller partner.
+Partners in this program can easily package their own products and services to directly provision, manage, and support their customer subscriptions.
+The Microsoft Services Provider License Agreement allows hosting service providers and independent software vendors who want to license eligible Microsoft software products to provide software services and hosted applications to their end customers.
+Partners license software over a three-year period and are billed monthly based on consumption.
+The Independent Software Vendor Royalty program enables partners to integrate Microsoft products into other applications and then license the unified business solution to their end users.
+CUSTOMERS Our customers include individual consumers, small and medium organizations, large global enterprises, public-sector institutions, Internet service providers, application developers, and OEMs.
+He was responsible for marketing productivity solutions including Microsoft Office, Office 365, SharePoint, Exchange, Skype for Business, Project, and Visio.
+20 PART I Item 1 AVAILABLE INFORMATION Our Internet address is www.microsoft.com.
+• Announcements of investor conferences, speeches, and events at which our executives talk about our product, service, and competitive strategies.
+We publish a variety of reports and resources related to our Corporate Social Responsibility programs and progress on our Reports hub website, www.microsoft.com/corporate-responsibility/reports-hub, including reports on sustainability, responsible sourcing, accessibility, digital trust, and public policy engagement.
+STRATEGIC AND COMPETITIVE RISKS We face intense competition across all markets for our products and services, which may lead to lower revenue or operating margins.
+Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services.
+Competition among platform-based ecosystems An important element of our business model has been to create platform-based ecosystems on which many participants can build diverse solutions.
+A well-established ecosystem creates beneficial network effects among users, application developers, and the platform provider that can accelerate growth.
+• A competing vertically-integrated model, in which a single firm controls the software and hardware elements of a product and related services, has succeeded with some consumer products such as personal computers, tablets, phones, gaming consoles, wearables, and other endpoint devices.
+Competitors pursuing this model also earn revenue from services integrated with the hardware and software platform, including applications and content sold through their integrated marketplaces.
+They may also be able to claim security and performance benefits from their vertically integrated offer.
+We also offer some vertically-integrated hardware and software products and services.
+• We derive substantial revenue from licenses of Windows operating systems on PCs.
+We face significant competition from competing platforms developed for new devices and form factors such as smartphones and tablet computers.
+Popular products or services offered on competing platforms could increase their competitive strength.
+• Competing platforms have content and application marketplaces with scale and significant installed bases.
+The variety and utility of content and applications available on a platform are important to device purchasing decisions.
+Users may incur costs to move data and buy new content and applications when switching platforms.
+Efforts to compete with competitors’ content and application marketplaces may increase our cost of revenue and lower our operating margins.
+Competitors’ rules governing their content and applications marketplaces may restrict our ability to distribute products and services through them in accordance with our technical and business model objectives.
+• Even as we transition more of our business to infrastructure-, platform-, and software-as-a-service business model, the license- based proprietary software model generates a substantial portion of our software revenue.
+We bear the costs of converting original ideas into software products through investments in research and development, offsetting these costs with the revenue received from licensing our products.
+Many of our competitors also develop and sell software to businesses and consumers under this model.
+• Other competitors develop and offer free applications, online services and content, and make money by selling third-party advertising.
+Advertising revenue funds development of products and services these competitors provide to users at no or little cost, competing directly with our revenue-generating products.
+• Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, and earning revenue on advertising or integrated products and services.
+Our increasing focus on cloud-based services presents execution and competitive risks.
+A growing part of our business involves cloud-based services available across the spectrum of computing devices.
+Our strategic vision is to compete and grow by building best-in- class platforms and productivity services for an intelligent cloud and an intelligent edge infused with artificial intelligence (“AI”).
+At the same time, our competitors are rapidly developing and deploying cloud-based services for consumers and business customers.
+Devices and form factors influence how users access services in the cloud and sometimes the user’s choice of which cloud-based services to use.
+We are devoting significant resources to develop and deploy our cloud-based strategies.
+Our success in the IoT will depend on the level of adoption of our offerings such as Azure, Azure Stack, Azure IoT Edge, and Azure Sphere.
+Besides software development costs, we are incurring costs to build and maintain infrastructure to support cloud computing services.
+Whether we succeed in cloud-based services depends on our execution in several areas, including: • Continuing to bring to market compelling cloud-based experiences that generate increasing traffic and market share.
+• Maintaining the utility, compatibility, and performance of our cloud-based services on the growing array of computing devices, including PCs, smartphones, tablets, gaming consoles, and other devices, as well as sensors and other IoT endpoints.
+• Continuing to enhance the attractiveness of our cloud platforms to third-party developers.
+• Ensuring our cloud-based services meet the reliability expectations of our customers and maintain the security of their data as well as help them meet their own compliance needs.
+• Making our suite of cloud-based services platform-agnostic, available on a wide range of devices and ecosystems, including those of our competitors.
+We will continue to make significant investments in research, development, and marketing for existing products, services, and technologies, including the Windows operating system, Microsoft 365, Office, Bing, SQL Server, Windows Server, Azure, Office 365, Xbox, LinkedIn, and other products and services.
+We also invest in the development and acquisition of a variety of hardware for productivity, communication, and entertainment including PCs, tablets, gaming devices, and HoloLens.
+If customers do not perceive our latest offerings as providing significant new functionality or other value, they may reduce their purchases of new software and hardware products or upgrades, unfavorably affecting revenue.
+We may not get engagement in certain features, like Edge and Bing, that drive post-sale monetization opportunities.
+Significant delays in new releases or significant problems in creating new products or services could adversely affect our revenue.
+24 PART I Item 1A CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position.
+These actors may use a wide variety of methods, which may include developing and deploying malicious software or exploiting vulnerabilities in hardware, software, or other infrastructure in order to attack our products and services or gain access to our networks and datacenters, using social engineering techniques to induce our employees, users, partners, or customers to disclose passwords or other sensitive information or take other actions to gain access to our data or our users’ or customers’ data, or acting in a coordinated manner to launch distributed denial of service or other coordinated attacks.
+We embrace new ways of sharing data and communicating internally and with partners and customers using methods such as social networking and other consumer-oriented technologies.
+25 PART I Item 1A Security of our products, services, devices, and customers’ data The security of our products and services is important in our customers’ decisions to purchase or use our products or services across cloud and on-premises environments.
+Threats to our own IT infrastructure can also affect our customers.
+Customers using our cloud-based services rely on the security of our infrastructure, including hardware and other elements provided by third parties, to ensure the reliability of our services and the protection of their data.
+In addition, adversaries can attack our customers’ on-premises or cloud environments, sometimes exploiting previously unknown (“zero day”) vulnerabilities, such as occurred in early calendar year 2021 with several of our Exchange Server on-premises products.
+Adversaries will continue to attack customers using our cloud services as customers embrace digital transformation.
+Inadequate account security practices may also result in unauthorized access, and user activity may result in ransomware or other malicious software impacting a customer’s use of our products or services.
+We are increasingly incorporating open source software into our products.
+Our customers operate complex IT systems with third-party hardware and software from multiple vendors that may include systems acquired over many years.
+They expect our products and services to support all these systems and products, including those that no longer incorporate the strongest current security advances or standards.
+Further, customers of widely varied size and technical sophistication use our technology, and consequently may have limited capabilities and resources to help them adopt and implement state of the art cybersecurity practices and technologies.
+We are committed to notifying our customers whose systems have been impacted as we become aware and have available information and actions for customers to help protect themselves.
+26 PART I Item 1A The cost of measures to protect products and customer-facing services could reduce our operating margins.
+If we fail to do these things well, actual or perceived security vulnerabilities in our products and services, data corruption issues, or reduced performance could harm our reputation and lead customers to reduce or delay future purchases of products or subscriptions to services, or to use competing products or services.
+Customers may also spend more on protecting their existing computer systems from attack, which could delay adoption of additional products or services.
+As we continue to grow the number and scale of our cloud-based offerings, we store and process increasingly large amounts of personally identifiable information of our customers and users.
+Our software products and services also enable our customers and users to store and process personal data on- premises or, increasingly, in a cloud-based environment we host.
+Despite our efforts to protect customer and user data, perceptions that the collection, use, and retention of personal information is not satisfactorily protected could inhibit sales of our products or services and could limit adoption of our cloud-based solutions by consumers, businesses, and government entities.
+Additional security measures we may take to address customer or user concerns, or constraints on our flexibility to determine where and how to operate datacenters in response to customer or user expectations or governmental rules or actions, may cause higher operating expenses or hinder growth of our products and services.
+LinkedIn and other Microsoft products and services contain valuable information and content protected by contractual restrictions or technical measures.
+Advertising, professional, and social platform abuses For platform products and services that provide content or host ads that come from or can be influenced by third parties, including GitHub, LinkedIn, Microsoft Advertising, MSN, and Xbox, our reputation or user engagement may be negatively affected by activity that is hostile or inappropriate.
+27 PART I Item 1A Digital safety and service misuse Our hosted consumer services as well as our enterprise services may be used by third parties to disseminate harmful or illegal content in violation of our terms or applicable law.
+Regulations and other initiatives to make platforms responsible for preventing or eliminating harmful content online are gaining momentum and we expect this to continue.
+We envision a future in which AI operating in our devices, applications, and the cloud helps our customers be more productive in their work and personal lives.
+Our increasing user traffic, growth in services, and the complexity of our products and services demand more computing power.
+We spend substantial amounts to build, purchase, or lease datacenters and equipment and to upgrade our technology and network infrastructure to handle more traffic on our websites and in our datacenters.
+These demands continue to increase as we introduce new products and services and support the growth of existing services such as Bing, Azure, Microsoft Account services, Microsoft 365, Microsoft Teams, Dynamics 365, OneDrive, SharePoint Online, Skype, Xbox, and Outlook.com.
+We are rapidly growing our business of providing a platform and back-end hosting for services provided by third parties to their end users.
+It requires that we maintain an Internet connectivity infrastructure and storage and compute capacity that is robust and reliable within competitive and regulatory constraints that continue to evolve.
+Inefficiencies or operational failures, including temporary or permanent loss of customer data, insufficient Internet connectivity, or inadequate storage and compute capacity, could diminish the quality of our products, services, and user experience resulting in contractual liability, claims by customers and other third parties, regulatory actions, damage to our reputation, and loss of current and potential users, subscribers, and advertisers, each of which may adversely impact our consolidated financial statements.
+Our hardware products such as Xbox consoles, Surface devices, and other devices we design and market are highly complex and can have defects in design, manufacture, or associated software.
+28 PART I Item 1A Our software products and services also may experience quality or reliability problems.
+Our customers increasingly rely on us for critical business functions and multiple workloads.
+Many of our products and services are interdependent with one another.
+We acquire some device and datacenter components from sole suppliers.
+Xbox consoles, Surface devices, datacenter servers, and other hardware are assembled in Asia and other geographies that may be subject to disruptions in the supply chain, resulting in shortages that would affect our revenue and operating margins.
+The remaining obligations may limit our ability to innovate in Windows or other products in the future, diminish the developer appeal of the Windows platform, and increase our product development costs.
+The availability of licenses related to protocols and file formats may enable competitors to develop software products that better mimic the functionality of our products, which could hamper sales of our products.
+Our portfolio of first-party devices continues to grow; at the same time our OEM partners offer a large variety of devices for our platforms.
+Government regulatory actions and court decisions such as these may result in fines or hinder our ability to provide the benefits of our software to consumers and businesses, reducing the attractiveness of our products and the revenue that come from them.
+• Our ability to realize anticipated Windows post-sale monetization opportunities may be limited.
+U.S. export controls restrict Microsoft from offering many of its products and services to, or making investments in, certain entities in specified countries.
+Other regulatory areas that may apply to our products and online services offerings include requirements related to user privacy, telecommunications, data storage and protection, advertising, and online content.
+This trend may continue and will result in these offerings being subjected to additional data protection, security, and law enforcement surveillance obligations.
+Legislative or regulatory action relating to cybersecurity requirements may increase the costs to develop, implement, or secure our products and services.
+We strive to empower all people and organizations to achieve more, and accessibility of our products is an important aspect of this goal.
+There is increasing pressure from advocacy groups, regulators, competitors, customers, and other stakeholders to make technology more accessible.
+If our products do not meet customer expectations or global accessibility requirements, we could lose sales opportunities or face regulatory or legal actions.
+30 PART I Item 1A Laws and regulations relating to the handling of personal data may impede the adoption of our services or result in increased costs, legal claims, fines against us, or reputational damage.
+The growth of our Internet- and cloud-based services internationally relies increasingly on the movement of data across national boundaries.
+Potential new rules and restrictions on the flow of data across borders could increase the cost and complexity of delivering our products and services in some markets.
+The Company’s investment in gaining insights from data is becoming central to the value of the services we deliver to customers, to our operational efficiency and key opportunities in monetization, customer perceptions of quality, and operational efficiency.
+Ongoing legal analyses, reviews, and inquiries by regulators of Microsoft practices, or relevant practices of other organizations, may result in burdensome or inconsistent requirements, including data sovereignty and localization requirements, affecting the location, movement, collection, and use of our customer and internal employee data as well as the management of that data.
+These claims may arise from a wide variety of business practices and initiatives, including major new product releases such as Windows, significant business transactions, warranty or product claims, and employment practices.
+It may then become easier for third parties to compete with our products by copying functionality, which could adversely affect our revenue and operating margins.
+Damage to our reputation or our brands may occur from, among other things: • The introduction of new features, products, services, or terms of service that customers, users, or partners do not like.
+• Data security breaches, compliance failures, or actions of partners or individual employees.
+If demand for PCs, servers, and other computing devices declines, or consumer or business spending for those products declines, our revenue will be adversely affected.
+Our product distribution system relies on an extensive partner and retail network.
+Providing our customers with more services and solutions in the cloud puts a premium on the resilience of our systems and strength of our business continuity management plans and magnifies the potential impact of prolonged service outages in our consolidated financial statements.
+These factors may adversely impact consumer, business, and government spending on technology as well as customers' ability to pay for our products and services on an ongoing basis.
+Any of these may adversely impact our ability to: • Maintain our operations infrastructure, including the reliability and adequate capacity of cloud services.
+• Satisfy our contractual and regulatory compliance obligations as we adapt to changing usage patterns, such as through datacenter load balancing.
+• Sustain the effectiveness and productivity of our operations including our sales, marketing, engineering, and distribution functions.
+We may incur increased costs to effectively manage these aspects of our business.
+34 PART I Item 1A The long-term effects of climate change on the global economy and the IT industry in particular are unclear.
+Changes in climate where we operate may increase the costs of powering and cooling computer hardware we use to develop software and provide cloud-based services.
+Disruptions of these kinds in developed or emerging markets could negatively impact demand for our products and services or increase operating costs.
+OVERVIEW Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more.
+Our platforms and tools help drive small business productivity, large business competitiveness, and public-sector efficiency.
+They also support new startups, improve educational and health outcomes, and empower human ingenuity.
+We generate revenue by offering a wide range of cloud-based and other services to people and businesses; licensing and supporting an array of software products; designing, manufacturing, and selling devices; and delivering relevant online advertising to a global audience.
+Our most significant expenses are related to compensating employees; designing, manufacturing, marketing, and selling our products and services; datacenter costs in support of our cloud-based services; and income taxes.
+Highlights from fiscal year 2021 compared with fiscal year 2020 included: • Commercial cloud revenue increased 34% to $69.1 billion.
+• Office Commercial products and cloud services revenue increased 13% driven by Office 365 Commercial growth of 22%.
+• Office Consumer products and cloud services revenue increased 10% and Microsoft 365 Consumer subscribers increased to 51.9 million.
+• Dynamics products and cloud services revenue increased 25% driven by Dynamics 365 growth of 43%.
+• Server products and cloud services revenue increased 27% driven by Azure growth of 50%.
+• Windows Commercial products and cloud services revenue increased 14%.
+At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces.
+Economic Conditions, Challenges, and Risks The markets for software, devices, and cloud-based services are dynamic and highly competitive.
+Our competitors are developing new software and devices, while also deploying competing cloud-based services for consumers and businesses.
+The devices and form factors customers prefer evolve rapidly, and influence how users access services in the cloud, and in some cases, the user’s choice of which suite of cloud-based services to use.
+Aggregate demand for our software, services, and devices is correlated to global macroeconomic and geopolitical factors, which remain dynamic.
+Cloud usage and demand benefited as customers accelerate their digital transformation priorities.
+Our consumer businesses also benefited from the remote environment, with continued demand for PCs and productivity tools, as well as strong engagement across our Gaming platform.
+We saw improvement in customer advertising spend and savings in operating expenses related to COVID-19, but experienced weakness in transactional licensing.
+Reportable Segments We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.
+Commercial Our commercial business primarily consists of Server products and cloud services, Office Commercial, Windows Commercial, the commercial portion of LinkedIn, Enterprise Services, and Dynamics.
+Commercial remaining performance obligation Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods Commercial cloud revenue Revenue from our commercial cloud business, which includes Azure, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties Commercial cloud gross margin percentage Gross margin percentage for our commercial cloud business 41 PART II Item 7 Productivity and Business Processes and Intelligent Cloud Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within these segments.
+The metrics reflect our cloud and on-premises product strategies and trends.
+These metrics provide strategic product insights which allow us to assess the performance across our commercial and consumer businesses.
+Intelligent Cloud revenue increased driven by Azure.
+Productivity and Business Processes revenue increased driven by Office 365 Commercial and LinkedIn.
+More Personal Computing revenue increased driven by Gaming.
+Cost of revenue increased $6.2 billion or 13% driven by growth in commercial cloud and Gaming, offset in part by a reduction in depreciation expense due to the change in estimated useful lives of our server and network equipment.
+Commercial cloud gross margin percentage increased 4 points to 71% driven by gross margin percentage improvement in Azure and the change in estimated useful lives of our server and network equipment, offset in part by sales mix shift to Azure.
+Operating expenses increased $2.0 billion or 4% driven by investments in cloud engineering and commercial sales, offset in part by savings related to COVID-19 across each of our segments, prior year charges associated with the closing of our Microsoft Store physical locations, and a reduction in bad debt expense.
+Key changes in operating expenses were: • Research and development expenses increased $1.4 billion or 8% driven by investments in cloud engineering.
+• General and administrative expenses were relatively unchanged, driven by prior year charges associated with the closing of our Microsoft Store physical locations, offset in part by an increase in certain employee-related expenses and business taxes.
+SEGMENT RESULTS OF OPERATIONS Percentage ( In millions, except percentages) 2021 2020 Change R evenue Productivity and Business Processes $ 53,915 $ 46,398 16% Intelligent Cloud 60,080 48,366 24% More Personal Computing 54,093 48,251 12% Total $ 168,088 $ 143,015 18% Operating Income Productivity and Business Processes $ 24,351 $ 18,724 30% Intelligent Cloud 26,126 18,324 43% More Personal Computing 19,439 15,911 22% Total $ 69,916 $ 52,959 32% Reportable Segments Productivity and Business Processes Revenue increased $7.5 billion or 16%.
+• Office Commercial products and cloud services revenue increased $4.0 billion or 13%.
+Office 365 Commercial revenue grew 22% driven by seat growth of 17% and higher revenue per user.
+Office Commercial products revenue declined 23% driven by continued customer shift to cloud offerings and transactional weakness.
+• Office Consumer products and cloud services revenue increased $474 million or 10% driven by Microsoft 365 Consumer subscription revenue, on a strong prior year comparable that benefited from transactional strength in Japan.
+Microsoft 365 Consumer subscribers increased 22% to 51.9 million.
+• Dynamics products and cloud services revenue increased 25% driven by Dynamics 365 growth of 43%.
+• Gross margin increased $6.5 billion or 18% driven by growth in Office 365 Commercial and LinkedIn, and the change in estimated useful lives of our server and network equipment.
+• Operating expenses increased $839 million or 5% driven by investments in commercial sales, cloud engineering, and LinkedIn.
+44 PART II Item 7 Intelligent Cloud Revenue increased $11.7 billion or 24%.
+• Server products and cloud services revenue increased $11.2 billion or 27% driven by Azure.
+Azure revenue grew 50% due to growth in our consumption-based services.
+Server products revenue increased 6% driven by hybrid and premium solutions, on a strong prior year comparable that benefited from demand related to SQL Server 2008 and Windows Server 2008 end of support.
+• Gross margin increased $9.7 billion or 29% driven by growth in Azure and the change in estimated useful lives of our server and network equipment.
+• Operating expenses increased $1.9 billion or 12% driven by investments in Azure.
+More Personal Computing Revenue increased $5.8 billion or 12%.
+Windows Commercial products and cloud services revenue increased 14% driven by demand for Microsoft 365.
+• Gaming revenue increased $3.8 billion or 33% driven by growth in Xbox content and services and Xbox hardware.
+Xbox content and services revenue increased $2.3 billion or 23% driven by growth in third-party titles, Xbox Game Pass subscriptions, and first-party titles.
+• Operating expenses decreased $752 million or 6% driven by prior year charges associated with the closing of our Microsoft Store physical locations and reductions in retail store expenses and marketing, offset in part by investments in Gaming.
+Research and development expenses also include third-party development and programming costs, localization costs incurred to translate software for international markets, and the amortization of purchased software code and services content.
+General and administrative expenses were relatively unchanged, driven by prior year charges associated with the closing of our Microsoft Store physical locations, offset in part by an increase in certain employee-related expenses and business taxes.
+49 PART II Item 7 Unearned Revenue Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include Software Assurance (“SA”) and cloud services.
+The following table outlines the expected future recognition of unearned revenue as of June 30, 2021: ( In millions) T hree Months Ending September 30, 2021 $ 15,922 December 31, 2021 12,646 March 31, 2022 8,786 June 30, 2022 4,171 Thereafter 2,616 Total $ 44,141 If our customers choose to license cloud-based versions of our products and services rather than licensing transaction-based products and services, the associated revenue will shift from being recognized at the time of the transaction to being recognized over the subscription period or upon consumption, as applicable.
+Off-Balance Sheet Arrangements We provide indemnifications of varying scope and size to certain customers against claims of intellectual property infringement made by third parties arising from the use of our products and certain other matters.
+Additionally, we have agreed to cover damages resulting from breaches of certain security and privacy commitments in our cloud business.
+Additions to property and equipment will continue, including new facilities, datacenters, and computer systems for research and development, sales and marketing, support, and administrative staff.
+We expect capital expenditures to increase in coming years to support growth in our cloud offerings.
+We have operating and finance leases for datacenters, corporate offices, research and development facilities, Microsoft Experience Centers, and certain equipment.
+Revenue Recognition Our contracts with customers often include promises to transfer multiple products and services to a customer.
+When a cloud-based service includes both on-premises software licenses and cloud services, judgment is required to determine whether the software license is considered distinct and accounted for separately, or not distinct and accounted for together with the cloud service and recognized over time.
+Certain cloud services, primarily Office 365, depend on a significant level of integration, interdependency, and interrelation between the desktop applications and cloud services, and are accounted for together as one performance obligation.
+Revenue from Office 365 is recognized ratably over the period in which the cloud services are provided.
+These reviews include analysis of demand forecasts, product life cycle status, product development plans, current sales levels, pricing strategy, and component cost trends.
+Revenue Product Revenue and Service and Other Revenue Product revenue includes sales from operating systems, cross-device productivity applications, server applications, business solution applications, desktop and server management tools, software development tools, video games, and hardware such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.
+Service and other revenue includes sales from cloud-based solutions that provide customers with software, services, platforms, and content such as Office 365, Azure, Dynamics 365, and Xbox; solution support; and consulting services.
+Service and other revenue also includes sales from online advertising and LinkedIn.
+We enter into contracts that can include various combinations of products and services, which are generally capable of being distinct and accounted for as separate performance obligations.
+Nature of Products and Services Licenses for on-premises software provide the customer with a right to use the software as it exists when made available to the customer.
+Customers may purchase perpetual licenses or subscribe to licenses, which provide customers with the same functionality and differ mainly in the duration over which the customer benefits from the software.
+Revenue from distinct on-premises licenses is recognized upfront at the point in time when the software is made available to the customer.
+In cases where we allocate revenue to software updates, primarily because the updates are provided at no additional charge, revenue is recognized as the updates are provided, which is generally ratably over the estimated life of the related device or license.
+Certain volume licensing programs, including Enterprise Agreements, include on-premises licenses combined with Software Assurance (“SA”).
+SA conveys rights to new software and upgrades released over the contract period and provides support, tools, and training to help customers deploy and use products more efficiently.
+On-premises licenses are considered distinct performance obligations when sold with SA.
+Revenue allocated to SA is generally recognized ratably over the contract period as customers simultaneously consume and receive benefits, given that SA comprises distinct performance obligations that are satisfied over time.
+Cloud services, which allow customers to use hosted software over the contract period without taking possession of the software, are provided on either a subscription or consumption basis.
+Revenue related to cloud services provided on a subscription basis is recognized ratably over the contract period.
+Revenue related to cloud services provided on a consumption basis, such as the amount of storage used in a period, is recognized based on the customer utilization of such resources.
+When cloud services require a significant level of integration and interdependency with software and the individual components are not considered distinct, all revenue is recognized over the period in which the cloud services are provided.
+In these cases, the hardware and software license are accounted for as a single performance obligation and revenue is recognized at the point in time when ownership is transferred to resellers or directly to end customers through retail stores and online marketplaces.
+When a cloud-based service includes both on-premises software licenses and cloud services, judgment is required to determine whether the software license is considered distinct and accounted for separately, or not distinct and accounted for together with the cloud service and recognized over time.
+Certain cloud services, primarily Office 365, depend on a significant level of integration, interdependency, and interrelation between the desktop applications and cloud services, and are accounted for together as one performance obligation.
+Revenue from Office 365 is recognized ratably over the period in which the cloud services are provided.
+Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include SA and cloud services.
+Unearned revenue also includes payments for consulting services to be performed in the future, LinkedIn subscriptions, Office 365 subscriptions, Xbox subscriptions, Windows 10 post-delivery support, Dynamics business solutions, and other offerings for which we have been paid in advance and earn the revenue when we transfer control of the product or service.
+Examples include invoicing at the beginning of a subscription term with revenue recognized ratably over the contract period, and multi-year on-premises licenses that are invoiced annually with revenue recognized upfront.
+64 PART II Item 8 Activity in the allowance for doubtful accounts was as follows: (In millions) Year Ended June 30, 2021 2020 2019 Balance, beginning of period $ 816 $ 434 $ 397 Charged to costs and other 234 560 153 Write-offs (252) (178) (116) Balance, end of period $ 798 $ 816 $ 434 Allowance for doubtful accounts included in our consolidated balance sheets: (In millions) June 30, 2021 2020 2019 Accounts receivable, net of allowance for doubtful accounts $ 751 $ 788 $ 411 Other long-term assets 47 28 23 Total $ 798 $ 816 $ 434 We record financing receivables when we offer certain of our customers the option to acquire our software products and services offerings through a financing program in a limited number of countries.
+Cost of Revenue Cost of revenue includes: manufacturing and distribution costs for products sold and programs licensed; operating costs related to product support service centers and product distribution centers; costs incurred to include software on PCs sold by original equipment manufacturers (“OEM”), to drive traffic to our websites, and to acquire online advertising space; costs incurred to support and maintain online products and services, including datacenter costs and royalties; warranty costs; inventory valuation adjustments; costs associated with the delivery of consulting services; and the amortization of capitalized software development costs.
+Capitalized software development costs are amortized over the estimated lives of the products.
+Research and development expenses also include third-party development and programming costs, localization costs incurred to translate software for international markets, and the amortization of purchased software code and services content.
+Bethesda is one of the largest, privately held game developers and publishers in the world, and brings a broad portfolio of games, technology, and talent to Xbox.
+The acquisition is expected to empower developers to achieve more at every stage of the development lifecycle, accelerate enterprise use of GitHub, and bring Microsoft’s developer tools and services to new audiences.
+We assigned the goodwill to our Intelligent Cloud segment.
+78 PART II Item 8 NOTE 9 — GOODWILL Changes in the carrying amount of goodwill were as follows: June 30, June 30, June 30, (In millions) 2019 Acquisitions Other 2020 Acquisitions Other 2021 Productivity and Business Processes $ 24,277 $ 7 $ (94) $ 24,190 $ 0 $ 127 $ 24,317 Intelligent Cloud 11,351 1,351 (5) 12,697 505 54 13,256 More Personal Computing 6,398 96 (30) 6,464 5,556(a) 118(a) 12,138 Total $ 42,026 $ 1,454 $ (129) $ 43,351 $ 6,061 $ 299 $ 49,711 (a) Includes goodwill of $5.5 billion related to ZeniMax.
+NOTE 13 — UNEARNED REVENUE Unearned revenue by segment was as follows: ( In millions) June 30, 2021 2020 Productivity and Business Processes $ 22,120 $ 18,643 Intelligent Cloud 17,710 16,620 More Personal Computing 4,311 3,917 Total $ 44,141 $ 39,180 85 PART II Item 8 Changes in unearned revenue were as follows: (In millions) Y ear Ended June 30, 2021 Balance, beginning of period $ 39,180 Deferral of revenue 94,565 Recognition of unearned revenue (89,604) Balance, end of period $ 44,141 Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods, was $146 billion as of June 30, 2021, of which $141 billion is related to the commercial portion of revenue.
+NOTE 14 — LEASES We have operating and finance leases for datacenters, corporate offices, research and development facilities, Microsoft Experience Centers, and certain equipment.
+All three have been certified on behalf of Canadian indirect purchasers who acquired licenses for Microsoft operating system software and/or productivity application software between 1998 and 2010.
+During the periods presented, we reported our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.
+Productivity and Business Processes Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services, spanning a variety of devices and platforms.
+This segment primarily comprises: • Office Commercial (Office 365 subscriptions, the Office 365 portion of Microsoft 365 Commercial subscriptions, and Office licensed on-premises), comprising Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, and Skype for Business.
+• Office Consumer, including Microsoft 365 Consumer subscriptions and Office licensed on-premises, and Office Consumer Services, including Skype, Outlook.com, and OneDrive.
+• LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, Sales Solutions, and Learning Solutions.
+• Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM, Customer Insights, Power Apps, and Power Automate; and on-premises ERP and CRM applications.
+Intelligent Cloud Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers.
+This segment primarily comprises: • Server products and cloud services, including Azure; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (“CALs”); and GitHub.
+• Enterprise Services, including Premier Support Services and Microsoft Consulting Services.
+More Personal Computing Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology.
+This segment primarily comprises: • Windows, including Windows OEM licensing and other non-volume licensing of the Windows operating system; Windows Commercial, comprising volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; Windows Internet of Things; and MSN advertising.
+93 PART II Item 8 • Gaming, including Xbox hardware and Xbox content and services, comprising digital transactions, Xbox Game Pass and other subscriptions, video games, third-party video game royalties, cloud services, and advertising.
+These allocated costs include legal, including settlements and fines, information technology, human resources, finance, excise taxes, field selling, shared facilities services, and customer service and support.
+Segment revenue and operating income were as follows during the periods presented: (In millions) Year Ended June 30, 2021 2020 2019 Revenue Productivity and Business Processes $ 53,915 $ 46,398 $ 41,160 Intelligent Cloud 60,080 48,366 38,985 More Personal Computing 54,093 48,251 45,698 Total $ 168,088 $ 143,015 $ 125,843 Operating Income Productivity and Business Processes $ 24,351 $ 18,724 $ 16,219 Intelligent Cloud 26,126 18,324 13,920 More Personal Computing 19,439 15,911 12,820 Total $ 69,916 $ 52,959 $ 42,959 No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2021, 2020, or 2019.
+94 PART II Item 8 Revenue from external customers, classified by significant product and service offerings, was as follows: ( In millions) Year Ended June 30, 2021 2020 2019 Server products and cloud services $ 52,589 $ 41,379 $ 32,622 Office products and cloud services 39,872 35,316 31,769 Windows 23,227 22,294 20,395 Gaming 15,370 11,575 11,386 LinkedIn 10,289 8,077 6,754 Search advertising 8,528 7,740 7,628 Enterprise Services 6,943 6,409 6,124 Devices 6,791 6,457 6,095 Other 4,479 3,768 3,070 Total $ 168,088 $ 143,015 $ 125,843 Our commercial cloud revenue, which includes Azure, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties, was $69.1 billion, $51.7 billion and $38.1 billion in fiscal years 2021, 2020, and 2019, respectively.
+These amounts are primarily included in Server products and cloud services, Office products and cloud services, and LinkedIn in the table above.
+The Company offers customers the ability to acquire multiple licenses of software products and services, including cloud-based services, in its customer agreements through its volume licensing programs.
+Significant judgment is exercised by the Company in determining revenue recognition for these customer agreements, and includes the following: • Determination of whether products and services are considered distinct performance obligations that should be accounted for separately versus together, such as software licenses and related services that are sold with cloud-based services.
+• Identification and treatment of contract terms that may impact the timing and amount of revenue recognized (e.g., variable consideration, optional purchases, and free services).
+• We evaluated management's significant accounting policies related to these customer agreements for reasonableness.
+MICROSOFT CORPORATION /s/ ALICE L. JOLLA Alice L. Jolla Corporate Vice President and Chief Accounting Officer (Principal Accounting Officer) 109 Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of Registrant and in the capacities indicated on July 29, 2021.
+I have reviewed this annual report on Form 10-K of Microsoft Corporation; 2.
+I have reviewed this annual report on Form 10-K of Microsoft Corporation; 2.

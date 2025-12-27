@@ -1,0 +1,60 @@
+Today I'll start with Search, then move to our AI momentum more generally; followed by Cloud, YouTube and some closing thoughts.
+And we're seeing that Ads appearing either above or below AI Overviews continue to provide valuable options for people to take action and connect with businesses.
+YouTube is focused on a clear strategy: connecting creators with a massive audience, and enabling them to build successful businesses through ads and subscriptions, while helping advertisers reach their desired audience.
+YouTube has remained number one in U.S. streaming watchtime, according to Nielsen.
+Views of YouTube Shorts on connected TVs more than doubled last year, and we're making it easier for creators to add captions, and turn regular videos into Shorts.
+I'm looking forward to our Made by Google event happening in August.
+YouTube Ads revenues were up 13% year-on-year, driven by growth in brand, as well as direct response.
+In Subscriptions, Platforms and Devices, year-on-year revenues increased 14%, driven again by strong growth in YouTube subscriptions.
+Second, YouTube's position as the leading multi-format platform.
+This quarter we announced over 30 new Ads features and products to help advertisers leverage AI and keep pace with the evolving expectations of customers and users.
+We are beta testing virtual try-on in shopping ads, and plan to roll it out widely later this year.
+Lastly, Demand Gen is rolling out to Display & Video 360 and Search Ads 360 in the coming months, with new generative image tools that create stunning, high-quality image assets for social marketers.
+Our own Google Marketing team used Demand Gen to create nearly 4,500 ad variations for a Pixel 8 Campaign shown across YouTube, Discover and Gmail, delivering twice the click-through rate at nearly a quarter of the cost.
+In addition to strengthening our Ads products for customers, we continue to evolve our existing systems and products with improved models, delivering further performance gains.
+We'll continue to listen to our customers and use their feedback to drive innovation across our products.
+As you can hear, I continue to be excited about the AI era for Ads.
+I've talked before about our approach to making YouTube the best place to create, watch and monetize.
+What sets YouTube apart from every other platform are the creators and the connection they have with their fans.
+7 According to Nielsen, YouTube is the number one most-watched streaming platform on TV screens in the U.S. for the 17th consecutive month.
+Zooming out, when you look not just at streaming but at all media companies and their combined TV viewership, YouTube is the second most-watched after Disney.
+CTV on YouTube is continuing to benefit from a combination of strong watchtime growth, viewer and advertiser innovation, and a shift in brand advertising budgets from linear TV to YouTube.
+Our largest advertisers across verticals, including retail, entertainment, telco, and home and personal care are partnering with creators on ads and organic integrations.
+Verizon, for example, worked with a YouTube creator and Verizon customer to show the many ways their plans and offerings can be customized to fit people's lives.
+Verizon's creator ads had a 15% lower CPA and 38% higher conversion rate versus other ads.
+Last quarter, I shared that in the U.S., the monetization rate of YouTube Shorts relative to instream viewing is showing a healthy rate of growth.
+Again, this quarter, we continued to see an improvement in Shorts monetization, particularly in the U.S. We're also seeing a very encouraging contribution from brand advertising on Shorts, which we launched on the product in Q4 last year.
+Last year, viewers watched 30 billion hours of shopping-related videos, and we saw a 25% increase in watchtime for videos that help people shop.
+At GML, we rolled out several product updates to YouTube Shopping, helping creators sell products to their viewers.
+These updates included; product tagging, where creators can tag products in their videos for viewers to discover and purchase, product collections, and a new Affiliate Hub, a one-stop shop for creators to find deals and promotional offers from brands and track their affiliate earnings.
+9 Google Search & Other advertising revenues of $48.5 billion in the quarter were up 14%, led again by growth in Retail, followed by the Financial Services vertical.
+YouTube advertising revenues of $8.7 billion were up 13%, driven by brand, followed by direct response advertising.
+Network advertising revenues of $7.4 billion were down 5%.
+Subscriptions, Platforms and Devices revenues were $9.3 billion, up 14%, primarily reflecting growth in YouTube subscription revenues.
+We had healthy watchtime growth, continued to close the monetization gap in Shorts, and had continued momentum in Connected TV with brand benefiting in part from an ongoing shift in budgets from linear television to digital.
+First, we continue to have significant growth in our subscriptions business, which drives the majority of revenue growth in this line.
+However, there was a sequential decline in the year-on-year growth rate as we anniversaried the impact of the price increase for YouTube TV in the second quarter last year.
+10 Finally, with respect to Devices, the most important point as we look forward is that our Made by Google launches have been pulled forward into the third quarter from the fourth quarter last year, benefiting revenues in Q3 this year.
+Then any more color around sort of click-through rates and monetization levels relative to your traditional searches?
+Philipp Schindler, SVP and CBO, Google: Yeah, look, innovation and improvements to the user experience on Search have historically opened up new opportunities for advertisers.
+And as we said before, people are finding ads either above or below AI Overviews helpful.
+And as you have probably noticed at GML, we announced that soon we'll actually start testing Search and Shopping ads in AI Overviews for users in the U.S. And they will have the opportunity to actually appear within the AI Overview in a section clearly labeled as "sponsored" when they're relevant to both the query and the information in the AI Overview, really giving us the ability to innovate here and take this to the next level.
+Is there anything on the AI front you can see maybe reaccelerating YouTube growth, as you have seen happen in Search?
+And as both Philipp and I noted, we are really pleased with YouTube, the YouTube team, all that was done, it was driven by brand, followed by direct response.
+Because at that point, as you probably recall, YouTube was lapping negative year-on-year growth in Q1 last year.
+And so what you're also seeing here is, with YouTube, we were anniversarying the ramp in APAC-based retailers that began in the second quarter last year and foreign exchange headwinds as well that we noted.
+But over time, obviously, it will be deeply relevant to YouTube.and so it's an area I'm excited about in the future.
+And then following up, the last set of the questions on YouTube were really about the macro or the ad environment.
+What do you guys as a team continue to learn about the subscription side of YouTube and the appetite for consumers to engage with a broader array of media products at the subscription layer?
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: And then on your second question, with respect to the subscriptions, implicit in your question, how strong is it, as I noted in opening comments, that overall line, Subscriptions, Platforms and Devices delivered healthy growth, and that was led by Subscriptions.
+And as we've said on many calls here in a row, the Subscription revenue growth continued to be quite strong.
+It was driven by subscriber growth in both YouTube TV and YouTube Music Premium.
+And then the other component within that line is Google One, that also delivered strong subscriber and revenue growth.
+I think the heart of your question is really around YouTube, and that is the heart of the revenues in that line.
+But at the heart of it are people interested in the subscription offerings, and it's a takeup that's significant.
+And in technology, when you are going through these transitions, aggressively investing upfront in a defining category, particularly in an area, which in a leveraged way, cuts across all our core areas, our products, including Search, YouTube and Other Services as well as fuels growth in Cloud and supports the innovative long-term bets and Other Bets.
+And if we continue to think that the one you bring up first is the larger factor, and tying this into your prior commentary about Shopping being an important consideration, when do you think we'll start talking about direct response being a much bigger contributor to YouTube's growth versus brand?
+Customers are obviously benefiting from including video in their AI-powered campaigns.
+On average, advertisers who run both image and video ads with Demand Gen campaign see 6% more conversions per dollar than those running image-only ads on Discovery.
+The brand side, as you know, Google AI continues to make it easier for brands to show up next to the content where viewers are obviously the most engaged.
+We're also quite excited about some of the recent launches on the YouTube Shopping side, if you want to put that into the direct response bucket.

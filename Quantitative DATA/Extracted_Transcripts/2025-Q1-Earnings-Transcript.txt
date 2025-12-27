@@ -1,0 +1,45 @@
+1 In Subscriptions, we surpassed 270 million paid subscriptions, with YouTube and Google One as key drivers.
+Looking ahead to I/O, Brandcast, and Google Marketing Live, I can't wait for our teams to showcase the innovations they have been working on.
+Now, moving on to key highlights from across Search, Cloud, YouTube and Waymo.
+From that single 19-second upload the platform has grown into a global phenomenon, fundamentally changing how billions of people create, share, and experience content.
+Through all this growth, subscriptions are now a big part of the business.
+We continue to diversify subscription options, recently expanding our Premium Lite pilot to the U.S, giving users a new way to enjoy most videos on YouTube ad-free.
+According to Nielsen, YouTube has been number one in streaming watch time in the U.S. for the last two years.
+And YouTube now has over one billion monthly active podcast users.
+YouTube Music and Premium reached over 125 million subscribers, including trials, globally.
+I'll quickly cover performance for the quarter, and then frame the rest of my remarks around the progress we are delivering across Search, Ads, YouTube and Partnerships.
+Google Services revenues were $77 billion for the quarter, up 10% year-on-year, driven by strong growth in Search and YouTube, partially offset by a year-on-year decline in Network 5 revenues.
+Throughout 2024, we launched several features that leverage LLMs to enhance advertiser value, and we're seeing this work pay off.
+The combination of these launches now allows us to match ads to more relevant search queries.
+And this helps advertisers reach customers in searches where we would not previously have shown their ads.
+Focusing on our customers, we continue to solve advertisers' pain points and find opportunities to help them create, distribute and measure more performant ads; infusing AI at every step of the marketing process.
+On creatives, advertisers can now generate a broader variety of lifestyle imagery, customized to their business to better engage their customers, and use them across PMax, Demand Gen, Display, and Apps campaigns.
+On media buying, advertisers continue to see how AI-powered campaigns help them find new customers.
+In Demand Gen, advertisers can more precisely manage ad placements across YouTube, Gmail, Discover and Google Display Network globally, and understand which assets work best at a channel level.
+Turning to YouTube, where we saw strong growth in revenues across Ads and Subscriptions.
+This week, we're celebrating YouTube's 20th anniversary.
+We're proud of its leadership as a streaming destination where people come to watch everything they love; from live sports and creator-produced content, to Shorts and podcasts.
+Creators are what drives viewership, and, on average, they upload 20 million videos a day to YouTube.
+In Q1, the growth of our reservation-based ads business more than doubled year-over-year.
+We continue to be pleased with the progress we are making globally in Shorts monetization, relative to in-stream viewing, and are particularly encouraged by the trend in the U.S. As always, I'll wrap up with the strong momentum we are seeing in Partnerships, where our customers increasingly recognize the strength and breadth of what Google has to offer.
+For instance, Roblox is partnering with Google Ad Manager to bring immersive ads to gamers.
+Gen Z gamers are Roblox' biggest users, and thanks to our partnership, advertisers will be able to reach this audience with ads that blend seamlessly into the gaming experience.
+Search and YouTube advertising; Subscriptions, Platforms and Devices; and Google Cloud each had double-digit revenue growth this quarter, reflecting strong momentum across the business.
+Other Cost of Revenues was $22.6 billion, up 9%, with the increase primarily driven by content acquisition costs, largely for YouTube, followed by depreciation and other technical infrastructure operations costs.
+Turning to segment results, Google Services revenues increased 10% to $77.3 billion, reflecting strength in Google Search and YouTube advertising and subscriptions.
+Google Search and Other advertising revenues increased by 10% to $50.7 billion.The robust performance of Search was, once again broad-based across verticals, led by Financial Services due primarily to strength in Insurance, followed by Retail.
+YouTube advertising revenues increased 10% to $8.9 billion, driven by direct response advertising, followed by brand.
+Network advertising [revenues] of $7.3 billion were down 2%.
+Subscriptions, Platforms and Devices revenues increased 19% to $10.4 billion, primarily reflecting growth in subscription revenues.
+This growth was primarily driven by YouTube subscription offerings, followed by Google One, with growth in the number of subscribers being the biggest driver of revenue growth.
+First, in Google Services, advertising revenue in 2025 will be impacted by lapping the strength we experienced in the Financial Services vertical throughout 2024.
+As we announced last quarter, YouTube and Cloud exited 2024 at a combined annual run rate of $110 billion.
+The first one is sort of the macro advertising backdrop.
+And the second one, Philipp, I think I heard you mention how the volume of commercial queries has increased.
+Maybe can you just walk us through which of the products are driving that increase in commercial queries?
+Philipp Schindler, SVP and CBO, Google: Look, on the ads in AI Overviews.
+Gemini Live, which is based on Project Astra, has been very well-received.
+And then, Philipp, just curious to hear what you're seeing on the brand advertising side at YouTube in 1Q and into early 2Q.
+The operating metrics for YouTube were strong in Q1.
+Philipp, I wanted to touch a little bit more on your comments around direct response and YouTube.
+Sundar Pichai, CEO, Alphabet and Google: And I'll just chime in to say, YouTube just celebrated its 20th birthday and we now have more than 20 billion videos on YouTube, and we get 20 million videos uploaded every day.

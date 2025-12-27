@@ -1,0 +1,76 @@
+To enable our long term growth, we’re investing in areas like Cloud, AI, YouTube, Search and beyond.
+We’ll share more about these investments at Google I/O, our annual developer conference on May 11, and I encourage you to tune in.
+With ads automation, search ads, powered by AI, are helping our customers quickly respond to the market conditions most relevant to their business.
+We continue to support our community of creators, advertisers and viewers.
+And even as people have returned to in-person activities, time spent on YouTube has continued to grow.
+Just as YouTube evolved from desktop to mobile, and that created huge opportunities, we’re excited about the new opportunities we see now.
+YouTube Shorts is now averaging over 30 billion daily views -- that’s four times as much as a year ago.
+In the first quarter we added new capabilities to video editing, and we’re continuing to invest in making Shorts a fantastic experience for creators and viewers alike.
+As we've always done with products, we focus on building a great user experience first, and we will work to build monetization over time.
+And in the year ahead, we’ll give YouTube’s Connected TV viewers new smartphone-controlled navigation and interactivity features, allowing people to comment and share content they’re watching on television directly from their devices.
+And on Android, we'll showcase at I/O the many helpful features and services that Android and its platforms provide.
+Over the coming years, we'll continue to invest in new form factors, seamless multi-device experiences, and raising the bar for user privacy, while giving developers the tools they need to succeed on mobile.
+As you know, we’ve made changes to our Google Play pricing model to help all developers on our platform succeed.
+While this impacted our short term results, we think it’s the right long term approach to support the ecosystem and to be the most developer friendly app store and gaming platform available.
+I am excited about the products we have coming and look forward to sharing more at Google I/O.
+Google Meet can now livestream to up to one hundred thousand people who can also participate in Q&A and polls.
+In March, free hotel booking links expanded to Search and Maps - travel partners can extend their reach; users get a more 4 comprehensive set of options.
+And earlier this month, we made it possible for hoteliers to easily share their rates and availability directly on Google via Business Profile.
+Let’s talk Performance Max – our newest AI-powered campaign that allows businesses to harness the best of automation to drive the most optimal performance across all Google Ads inventory.
+We’re also continuing our investments to make shopping on Google as effortless, delightful, and as engaging as possible.
+Brands are turning to us to tap into the shift to streaming and reach new audiences in smarter and more efficient ways.
+Over 135 million people in the U.S. were reached via YouTube on Connected TVs in December.
+We’ve recently rolled out new tools to help advertisers consistently plan and measure their CTV spend across platforms – and later this year, in partnership with Nielsen, we’ll help brands directly compare their YouTube reach to linear TV – including the ability to measure “co viewing.” This apples-to-apples comparison will be a game-changer in helping advertisers make smarter investment decisions.
+According to Nielsen, in the U.S., YouTube accounts for over 50% of ad-supported streaming watch time on connected TVs among people ages 18 and up, and over 35% of viewers in this group can’t be reached by any other ad-supported streaming service.
+In other words, we're seeing that when users choose to watch ad-supported CTV, they choose to watch YouTube and YouTube delivers CTV audiences that advertisers can't reach anywhere else.
+By using a combination of best-performing video creative, Connected TV media, and Video Ad Sequencing, Warner Bros. expanded its target audience in the two weeks leading up to its release - helping contribute to its successful $134 million opening weekend.
+For direct response - we continue to believe there’s great opportunity to address commercial intent on YouTube - between Video Action Campaigns, App Campaigns, product feed and, new live commerce features.
+Engagement is strong, and we’re focused on delivering great experiences for users, creators, and advertisers.
+In fact, we’re testing ads on Shorts with products like App Install and Video Action Campaigns – and while it’s still early days, we’re encouraged by initial advertiser feedback and results.
+Then, Sundar mentioned Sony’s Crunchyroll – beyond Cloud, we’re working across Android, Google Play, Google TV and more to help Sony and Crunchyroll acquire and retain more users and fans and strengthen its leadership in the direct-to-consumer anime streaming market.
+The biggest factors here were: costs associated with data centers and other operations; followed by content acquisition costs, primarily driven by costs for subscription content and then costs for YouTube’s advertising-supported content.
+Growth in Sales & Marketing also reflects an increase in advertising and promo expense as we ramped back from the lower levels of spend last year.
+Google search and other advertising revenues of $39.6 billion in the quarter were up 24%, led again by retail, followed by continued recovery in travel.
+YouTube advertising revenues of $6.9 billion, were up 14%, reflecting ongoing strong growth in brand and more modest growth in direct response.
+Network advertising revenues of $8.2 billion, were up 20%, driven by AdSense and AdMob.
+The growth rate reflects substantial growth in YouTube non-advertising revenues driven by subscriber growth in YouTube Music and Premium and YouTube TV, which were largely offset by a year-on-year decline in Play revenues primarily as a result of the pricing changes that we’ve discussed with you previously.
+7 In terms of outlook by segment, for Google Services: the revenue growth rates we delivered in 2021 in our advertising businesses benefited from lapping the COVID-related weakness in 2020.
+Within Other Revenues, in the first quarter, the substantial growth in YouTube’s subscription revenues was offset by a decline in Play revenues versus the first quarter last year due to the fee changes we previously announced.
+So in terms of the Ad business, I would say, as I did in opening comments, we were very pleased with the year-on-year Search revenue growth in the first quarter, up 24%.
+It really brings together the best of Google's automation to help advertisers maximize their reach and efficiency across our channels.
+So we're very, very committed to helping Performance Max deliver for our advertisers, and have been very open to advertiser feedback, how we can do this.
+And then sticking with all the commentary you gave on YouTube, how should we be thinking about the strategic goals of driving longer engagement and user growth and monetization for YouTube against some of the initiatives you called out?
+Versus how to think about the 9 performance of the business as we go through '22, short-form video versus long-form video, or maybe mix of direct-response versus brand advertising.
+Ruth Porat, CFO Alphabet and Google: So I'll start on the first question and -- revenue impact.
+And across Google we're doing a lot to provide support.
+In terms of revenues, the most direct impact is the fact that we suspended the vast majority of our commercial activities in Russia, as we announced in early March.
+And to your question, about 1% of Google revenues were from Russia in 2021, and that was primarily from advertising.
+In addition, from the outset of the war, there was a pull-back in advertiser spend, particularly on YouTube in Europe.
+I guess over to Philipp with respect to YouTube and trends there.
+And if we take the creator view, we're taking a fresh look at what it means to monetize Shorts and reward creators for their short-form videos.
+The first step I think is our $100 million YouTube Shorts Fund, which is now available in over 100 countries globally.
+And over 40% of creators who received payment from the Shorts Fund in 2021 weren't in the YouTube Partner Program, just as an interesting number.
+And then on the advertiser view side, as I mentioned earlier, we're testing ads on Shorts with products like App Install and Video Action campaigns and are encouraged by the early results.
+And so all in all, I think we're deeply committed to supporting the next generation of mobile creators here on YouTube and are very actively working on what monetization could look like in the future.
+First, just on advertising, just thinking about industry conversations, it seems pretty clear that you're able to capture some dollars that shifted to Search from social related to Apple's iOS privacy changes.
+So in terms of YouTube, I think there are a couple of questions in your question.
+That did have an outsized impact on YouTube ads relative to the rest of Google, and that was both from suspending the vast majority of our commercial activities in Russia as well as, as I noted earlier, the related reduction in spend primarily by brand advertisers in Europe.
+I would say to the other part of your question, we are experiencing a slight headwind to revenue growth as Shorts viewership grows as a percentage of total YouTube time.
+We are testing monetization on Shorts, and early advertiser feedback and results are encouraging.
+And the team is focused on closing the gap with traditional YouTube ads over time.
+And if you step back and just look at overall YouTube usage, and I know you've mentioned some numbers in the prepared comments, just given the much broader array now, I think, of content options, including in short-form video and long-form video, are you seeing the overall growth – any impact on the overall growth in YouTube users or in engagement per YouTube user?
+And then overall in terms of YouTube and engagement, I noted on both YouTube's advertising business as well as the subscription businesses that the performance there, I'd say, over the past few years, we've seen significant investment in online video.
+Broadly, we continue to benefit from the fact that there are 2 billion logged-in viewers who visit YouTube every single month.
+On YouTube, I think what we're hearing is that there's an emerging concern that TikTok is a competitor to YouTube's mobile position.
+And I know you call out the strength of Shorts, but if you talk big-picture, are you seeing any meaningful shift in consumer demand for the mobile YouTube product?
+And any type of advertising, maybe, shift on mobile because of TikTok?
+We've seen significant investment in online 12 video and there's been a ton of innovation, but there are 2 billion plus logged-in viewers who visit YouTube every single month.
+And just to give you a number, in 2021, the number of YouTube channels that had made at least $10,000 in revenue was up more than 40% year over year.
+And new monetization options for creators beyond ads are a big part of what we're doing.
+And as I said before, we're testing ads on Shorts and are encouraged by initial results.
+And so this really reflects lapping that sizable growth relative to more muted ads performance in APAC this first quarter, and it really takes you just back to last quarter.
+So, Sundar, I think your Search team recently released a blog posting talking about the desire to help your users out with their management of money.
+I think we talked about some of this last time with the rollout of Tez in India and the evolution to Google Pay.
+Simple examples you saw was we rolled out the ability for users to pay for parking on Google Pay with their voice just using Google Assistant.
+That's always been a really important tool for advertisers and publishers to measure the impact of your advertising.
+Ruth Porat, CFO Alphabet and Google: And then in terms of the subscription businesses, as I said, they continue to deliver substantial revenue growth, and that was driven by subscriber growth for both YouTube TV as well as YouTube Music and Premium.

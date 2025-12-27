@@ -1,0 +1,54 @@
+Wearables, Home and Accessories Wearables, Home and Accessories includes AirPods®, Apple TV®, Apple Watch®, Beats® products, HomePod®, iPod touch® and other Apple-branded and third-party accessories.
+Apple Inc. | 2020 Form 10-K | 1 AppleCare The Company offers a portfolio of fee-based service and support products under the AppleCare® brand.
+The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage and/or theft and loss, depending on the country and type of product.
+Cloud Services The Company’s cloud services store and keep customers’ content up-to-date and available across multiple Apple devices and Windows personal computers.
+Digital Content The Company operates various platforms, including the App Store®, that allow customers to discover and download applications and digital content, such as books, music, video, games and podcasts.
+The Company also offers digital content through subscription-based services, including Apple ArcadeSM, a game subscription service; Apple Music®, which offers users a curated listening experience with on-demand radio stations; Apple News+SM, a subscription news and magazine service; and Apple TV+SM, which offers exclusive original content.
+In September 2020, the Company announced Apple Fitness+SM, a personalized fitness service built for Apple Watch, which is expected to be available before the end of calendar 2020.
+Payment Services The Company offers payment services, including Apple Card™, a co-branded credit card, and Apple Pay®, a cashless payment service.
+Apple Inc. | 2020 Form 10-K | 2 The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets and other electronic devices and services.
+The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications.
+Apple Inc. | 2020 Form 10-K | 3 Business Seasonality and Product Introductions The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.
+Apple Inc. | 2020 Form 10-K | 5 In addition to an adverse impact on demand for the Company’s products, uncertainty about, or a decline in, global or regional economic conditions could have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners.
+The Company also competes with illegitimate means to obtain third-party digital content and applications.
+Apple Inc. | 2020 Form 10-K | 6 To remain competitive and stimulate customer demand, the Company must successfully manage frequent introductions and transitions of products and services.
+Some carriers providing cellular network service for iPhone offer financing, installment payment plans or subsidies for users’ purchases of the device.
+Apple Inc. | 2020 Form 10-K | 8 The Company’s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company’s business and result in harm to the Company’s reputation.
+In addition, the Company’s service offerings may have quality issues and from time to time experience outages, service slowdowns or errors.
+The Company contracts with numerous third parties to offer their digital content to customers.
+Some third- party content providers and distributors currently or in the future may offer competing products and services, and can take actions to make it more difficult or impossible for the Company to license or otherwise distribute their content in the future.
+Other content owners, providers or distributors may seek to limit the Company’s access to, or increase the cost of, such content.
+Some third-party digital content providers require the Company to provide digital rights management and other security solutions.
+The Company believes decisions by customers to purchase its hardware products depend in part on the availability of third-party software applications and services.
+The Company believes the availability of third-party software applications and services for its products depends in part on the developers’ perception and analysis of the relative benefits of developing, maintaining and upgrading such software and services for the Company’s products compared to competitors’ platforms, such as Android for smartphones and tablets and Windows for personal computers.
+If developers focus their efforts on these competing platforms, the availability and quality of applications for the Company’s devices may suffer.
+Apple Inc. | 2020 Form 10-K | 9 The Company relies on the continued availability and development of compelling and innovative software applications for its products.
+For the vast majority of applications, developers keep all of the revenue they generate on the App Store.
+The Company only retains a commission from sales of applications through its platforms and in situations where a developer offers purchases for digital features, services, or goods within an application.
+If developers reduce their use of the Company’s platforms, including in-app purchases, then the volume of sales, and the commission that the Company earns on those sales, would decrease.
+Apple Inc. | 2020 Form 10-K | 10 The Company is subject to complex and changing laws and regulations worldwide, which exposes the Company to potential liabilities, increased costs and other adverse effects on the Company’s business.
+Apple Inc. | 2020 Form 10-K | 11 The Company’s business and reputation may be impacted by information technology system failures or network disruptions.
+Apple Inc. | 2020 Form 10-K | 12 The Company’s business is subject to a variety of U.S. and international laws, rules, policies and other obligations regarding data protection.
+Apple Inc. | 2020 Form 10-K | 20 Products and Services Performance The following table shows net sales by category for 2020, 2019 and 2018 (dollars in millions): 2020 Change 2019 Change 2018 Net sales by category: iPhone (1) $ 137,781 (3) % $ 142,381 (14) % $ 164,888 Mac (1) 28,622 11 % 25,740 2 % 25,198 iPad (1) 23,724 11 % 21,280 16 % 18,380 Wearables, Home and Accessories (1)(2) 30,620 25 % 24,482 41 % 17,381 Services (3) 53,768 16 % 46,291 16 % 39,748 Total net sales $ 274,515 6 % $ 260,174 (2) % $ 265,595 (1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.
+(2) Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and Apple-branded and third-party accessories.
+(3) Services net sales include sales from the Company’s advertising, AppleCare, digital content and other services.
+Services net sales also include amortization of the deferred value of Maps, Siri, and free iCloud® storage and Apple TV+ services, which are bundled in the sales price of certain products.
+Revenue Recognition The Company has identified up to three performance obligations regularly included in arrangements involving the sale of iPhone, Mac, iPad and certain other products.
+The second performance obligation is the right to receive certain product-related bundled services, which include iCloud, Siri and Maps.
+Revenue allocated to the product-related bundled services and unspecified software upgrade rights is deferred and recognized on a straight-line basis over the estimated period they are expected to be provided.
+Should future facts and circumstances change, the Company’s SSPs and the future rate of related amortization for product-related bundled services and unspecified software upgrade rights related to future sales of these devices could change.
+Factors subject to change include the nature of the product-related bundled services and unspecified software upgrade rights offered, their estimated value and the estimated period they are expected to be provided.
+The Company has identified up to three performance obligations regularly included in arrangements involving the sale of iPhone, Mac, iPad and certain other products.
+The second performance obligation is the right to receive certain product-related bundled services, which include iCloud, Siri and Maps.
+Revenue allocated to the delivered hardware and bundled software is recognized when control has transferred to the customer, which generally occurs when the product is shipped.
+Revenue allocated to the product-related bundled services and unspecified software upgrade rights is deferred and recognized on a straight-line basis over the estimated period they are expected to be provided.
+Costs incurred to provide product-related bundled services and unspecified software upgrade rights are recognized as cost of sales as incurred.
+Apple Inc. | 2020 Form 10-K | 38 For the sale of third-party products where the Company obtains control of the product before transferring it to the customer, the Company recognizes revenue based on the gross amount billed to customers.
+Disaggregated Revenue Net sales disaggregated by significant products and services for 2020, 2019 and 2018 were as follows (in millions): 2020 2019 2018 iPhone (1) $ 137,781 $ 142,381 $ 164,888 Mac (1) 28,622 25,740 25,198 iPad (1) 23,724 21,280 18,380 Wearables, Home and Accessories (1)(2) 30,620 24,482 17,381 Services (3) 53,768 46,291 39,748 Total net sales (4) $ 274,515 $ 260,174 $ 265,595 (1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.
+(2) Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and Apple-branded and third-party accessories.
+(3) Services net sales include sales from the Company’s advertising, AppleCare, digital content and other services.
+Services net sales also include amortization of the deferred value of Maps, Siri, and free iCloud storage and Apple TV+ services, which are bundled in the sales price of certain products.
+Apple Inc. | 2020 Form 10-K | 44 The Company generally enters into master netting arrangements, which are designed to reduce credit risk by permitting net settlement of transactions with the same counterparty.
+Apple Inc. | 2020 Form 10-K | 53 Unconditional Purchase Obligations The Company has entered into certain off–balance sheet commitments that require the future purchase of goods or services (“unconditional purchase obligations”).
+I have reviewed this annual report on Form 10-K of Apple Inc.; 2.
+I have reviewed this annual report on Form 10-K of Apple Inc.; 2.

@@ -1,0 +1,52 @@
+The integration of ads within AI Overviews is also performing well, helping people connect with businesses as they search.
+It's designed to improve the customer experience online and in mobile apps, as well as in call centers, retail stores, and more.
+For the first time ever, YouTube's combined ad and subscription revenue over the past four quarters has surpassed $50 billion.
+Together, YouTube TV, NFL Sunday Ticket, and YouTube Music Premium are driving subscription growth for the platform.
+At Made On YouTube, we announced that Google DeepMind's most capable model for video generation, Veo, is coming to YouTube Shorts to help creators later this year.
+I'll start with performance for the quarter and then describe the progress we are seeing across Ads, YouTube and Partnerships, highlighting the impact AI is already having on our business.
+Google Services delivered revenues of $76.5 billion for the quarter, up 13% year-on-year.
+YouTube Ads revenues grew 12% year-on-year, driven by brand, closely followed by direct response.
+In Subscriptions, Platforms and Devices, year-on-year revenues were up 28%, driven by growth 6 in subscriptions as well as the launch of our Made by Google devices in the third quarter.
+Before I double-click into Ads, YouTube, and Partnerships, a few comments on Search.
+New behaviors create new opportunities to help us connect businesses and consumers via amazing commercial experiences.
+This allows us to connect highly relevant users with the most helpful ad, and deliver business impact to our customers.
+Let me share two new ad experiences we have rolled out alongside our popular AI-powered features in Search.
+Given these new user behaviors, earlier this month we announced the rollout of Shopping Ads above and alongside relevant Lens visual search results to help better connect consumers and businesses.
+Second, AI Overviews, where we have now started showing Search and Shopping ads within the overview for mobile users in the U.S. As you remember, we've already been running ads above and below AI Overviews.
+We're now seeing that people find ads directly within AI Overviews helpful because they can quickly connect with relevant businesses, products and services to take the next step at the exact moment they need.
+Advertisers can now create even higher-performing assets for PMax, DemandGen, App, and Display campaigns.
+AI-powered campaigns help advertisers get faster feedback on what creatives work where, and redirect their media buying.
+Using DemandGen, DoorDash tested a mix of image and video assets to drive more impact across Google and YouTube's visually immersive surfaces.
+This quarter we extended availability of our open source marketing mix model "Meridian" to more customers, helping to scale measurement of cross-channel budgets to drive better business outcomes.
+Creators are at the heart of the YouTube ecosystem, and the content they are making is driving robust growth in watchtime across the platform.
+We are also using AI to greatly improve recommendations on YouTube.
+Driven by Gemini, our large language models have a deeper understanding of video content and viewers' preferences; as a result, they can recommend more relevant, fresher, and personalized content to the viewer.
+Short-form creation continues to thrive on YouTube.
+Shorts monetization improved again this quarter, and we continued to significantly close the gap with in-stream video, particularly in the U.S. and other more highly monetizing markets.
+And we recently announced a top-requested feature, the ability to upload Shorts up to three-minutes long.
+The number of creators making the majority of their YouTube revenue on TV screens is up more than 30% year-on-year.
+For example, our recently announced strategic partnership with Vodafone Group spans Google Cloud, AI, Android, ads and digital services.
+Other Cost of Revenue was $22.8 billion, up 11%, with the increase primarily driven by; content acquisition costs primarily for YouTube, an increase in depreciation associated with higher level of investment in our Technical Infrastructure, and higher hardware cost associated with the pull forward of our Made by Google launches from the fourth to the third quarter.
+Sales and Marketing expenses increased 5%, primarily reflecting investment in advertising and promotional efforts related to the Made by Google launches, as well as for AI and Gemini.
+Google Search & Other Advertising revenue increased by 12% to $49.4 billion.
+YouTube advertising revenue increased 12% to $8.9 billion, driven by brand, followed by direct response advertising.
+As Philipp mentioned, we're seeing strong momentum in YouTube, including robust growth in watchtime across the platform, and are excited about the new features and products we're bringing to creators.
+Network advertising revenue of $7.5 billion were down 2%.
+In the third quarter, the year-on-year growth in all our advertising revenue lines was impacted by the increasing strength in advertising revenue in Q3 of last year, in part from APAC-based retailers.
+Subscriptions, Platforms and Devices revenue increased 28% to $10.7 billion, reflecting growth in subscription revenues as well as the launch of our Made by Google devices in the third quarter.
+We continue to have significant growth in our subscription products, driven primarily by YouTube TV and YouTube Music Premium, as well as Google One, primarily due to increases in the number of paid subscribers.
+In terms of revenue, year-on-year growth in advertising revenue will continue to be impacted by the increasing strength in advertising revenue in the second half of 2023, in part from APAC-based retailers.
+And there will be a headwind to year-over-year growth in Subscriptions, Platforms and Devices revenue in the fourth quarter due to the pull forward of our Made by Google launches into the third quarter this year.
+I mentioned in my remarks about Circle to Search, Lens now with video search approaching over 20 billion queries a month.
+In terms of looking at YouTube trends by long-form versus short-form video or Shorts, how are you seeing consumption versus monetization trends continue to evolve for YouTube, as broken down maybe in that means?
+And to your question on YouTube Shorts, consumption versus monetization, maybe we start with the watchtime.
+Just to give you a number, over 70 billion YouTube Shorts are watched every day.
+On the monetization side, the monetization rate of Shorts relative to in-stream viewing is continuing to show a healthy rate of growth.
+Shorts are also integrated into video reach campaigns, YouTube Select.
+And then the second question is - I'm sure this is something you guys have been thinking about for a while, but it looks like the way that the Google versus DOJ Search trial is going, there's a decent likelihood that the Apple ISA contract and some of the Android pre-install contracts are going to be voided out at some point in the future.
+The Gemini app itself has very strong momentum on user growth.
+Our API volume, I commented on Gemini APIs having gone up 14x in the past six months.
+Philipp Schindler, SVP and CBO, Google: Look, the transition here is working well, including for ads.
+As you know, we recently launched ads within AI Overviews on mobile in the U.S. and this really builds on our previous rollout of ads above and below the AI Overviews.
+Maybe specifically, to election-related ad spend, we had a slight tailwind from election-related ad spend in the third quarter, which was a little more pronounced in YouTube ads.
+It's very cost effective, and it really finds customers wherever they are across all the different Google channels.

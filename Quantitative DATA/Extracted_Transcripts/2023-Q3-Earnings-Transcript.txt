@@ -1,0 +1,58 @@
+I’m pleased with our business results this quarter, which demonstrate strong growth in Search and YouTube, and momentum in Cloud.
+As we add features and expand into new markets, we’re engaging with the broader ecosystem and will continue to prioritize approaches that add value for our users, send valuable traffic to publishers, and support a healthy, open Internet.
+Of course, ads will continue to play an important role in this new Search experience.
+People are finding ads helpful here, as they provide useful options to take action and connect with businesses.
+We’ll experiment with new formats native to SGE that use generative AI to create relevant, high-quality ads, customized to every step of the search journey.
+Our collaborative tools in Workspace and YouTube are also part of how we boost creativity and productivity, and they are seeing great initial traction.
+Turning next to YouTube, which saw solid momentum in both its ads and subscription businesses in Q3.
+I’m really pleased with the growth and engagement on YouTube Shorts.
+Shorts now average over 70 billion daily views and are watched by over 2 billion signed-in users every month.
+At Made On YouTube in September, we announced new tools that make it easier to create engaging content.
+And YouTube Create is a new mobile app with a suite of production tools for editing Shorts, longer videos or both.
+These innovations enable us to provide new services and grow our base of 10 million paying customers, including enterprises like Grupo Boticario, Unilever and Warner Music.
+I’ll start with our performance for the quarter and then give color into the three key priority areas for Ads -- Google AI, Retail, and YouTube -- that we’ve identified on past calls as opportunities for long-term growth in advertising.
+Google Services revenues of $68 billion were up 11% year-on-year.
+In Google Advertising, Search & Other, revenues grew 11% year-on-year, led by solid growth in the Retail vertical.
+In YouTube Ads, revenues were up 12% year-on-year, driven by growth in both brand and direct response.
+Google Other revenues were up 21% year-on-year, led by strong growth in YouTube subscription revenues.
+We covered many innovations last quarter after GML, like our conversational experience in Google Ads, significant updates to Performance Max and new campaign types like Demand Gen. And as Sundar said, we’re continuing to experiment with new ad formats on SGE.
+It’s extremely important to us that in this new experience, advertisers still have the opportunity to reach potential customers along their search journeys.
+With our suite of omni-product solutions including Local Inventory Ads, omnibidding, and PMax for Store Goals, retailers big and small are capturing demand and incremental store budgets while engaging with high-value customers.
+It’s worth repeating: our intense focus on creator success coupled with our multiformat strategy are at the center of how we think about YouTube’s long-term growth.
+Shorts, Connected TV and our subscription offerings are key drivers here, and we’re investing across each to solidify YouTube’s position as the best place to create, the best place to watch and the best place to deliver results.
+He also covered subscription growth and NFL Sunday Ticket.
+150 million+ people are watching YouTube on CTV screens every month in the U.S.
+Whether it’s music videos, NFL Sunday Ticket, free movies, Shorts, a continuous stream of MrBeast or some other creator-led content, viewers want choice and variety and we’re giving it 6 to them all in one place.
+From Dream Screen and YouTube Create -- which Sundar talked about -- to features that autodub content in multiple languages, flip and trim existing assets, remix and clip videos, and more, we’re just getting started.
+There’s Video Reach Campaigns, which are expanding to in-feed and Shorts and will be generally available in November.
+And then with Video View campaigns, AI is serving skippable ads across in-stream, in-feed, and Shorts and helping advertisers earn the maximum number of views at the lowest possible cost.
+Then for YouTube and other feed-based surfaces, there’s our new Demand Gen campaign which launched in April, rolled out worldwide last week, and was designed for the needs of today’s social marketers to engage people as they stream, scroll and connect.
+It combines video and image ads in one campaign, with access to 3 billion users across YouTube and Google, and the ability to optimize and measure across the funnel using Google AI.
+In July, we launched Google News Showcase in the U.S., our curated online news experience and licensing program, with more than 150 news publications, 90% of which are local or regional.
+7 We are very pleased with our financial results for the third quarter, driven by meaningful growth in Search and YouTube, and momentum in Cloud.
+Growth here was primarily driven by Content Acquisition Costs, mainly for YouTube subscription offerings.
+8 Google Search and Other advertising revenues of $44 billion in the quarter were up 11%, led again by growth in retail.
+YouTube advertising revenues of $8 billion, were up 12% driven by both brand advertising and direct response.
+Network advertising revenues of $7.7 billion were down 3%.
+Other Revenues were $8.3 billion, up 21%, primarily reflecting growth in YouTube non-advertising revenues, driven by subscriber growth in YouTube TV, followed by YouTube Music Premium.
+First, within Advertising, after a period of historic volatility, we were pleased with the year-on-year revenue growth of Search and YouTube advertising in the third quarter.
+Second, within Other Revenues, in our YouTube subscription products, the substantial growth in revenues primarily reflects subscriber growth.
+With respect to sequential quarter-on-quarter trends, two further points: First, Cost of Sales in the fourth quarter will reflect both higher hardware costs given Pixel family launches, as well as increased CAC for YouTube as previously noted.
+Through it all, we're making sure the product works well and we are generating value for our ecosystem and that Ads transitions well.
+I think with the AI work, there are subscription models as a possible path as well.
+And then about a year ago, Philipp and Ruth started talking about some of the brand advertising headwinds that YouTube was facing.
+As we start to lap those headwinds, how should we be thinking about a broad recovery in brand advertising versus elements of still headwinds that are being faced in the broader Ads spaces, specifically with YouTube?
+Since rolling it out about two years ago, we've continued to expand the features, give advertisers additional ways to steer how it works.
+Nearly 80% of our advertisers already use at least one AI-powered Search Ads product.
+Yeah, we're hearing a lot of good feedback on, number one, our Ads AI Essentials, which are really helping to unlock the power of AI and set up for durable ROI growth on the advertiser side.
+Those are products like the foundation for our data and measurement, things like Google Tag, Consent Mode and so on.
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: Then on to your second question regarding YouTube.
+I would say the other thing benefiting YouTube is the retail strength we talked about with Search -- retail strength in APAC in both Search and YouTube.
+And how do you balance the product rollout and consumer uptake versus monetization in that transition?
+So it's nothing new, and I feel very comfortable that as we go through it, the strength of our teams -- both on the organic side as well as Ads side -- to drive the right experience for users including Ads will pay dividends.
+I think in the broader context, you have to look at it as our overall YouTube subscription strategy.
+The great feedback we've gotten so far on the YouTube experience is very, very significant.
+And this is really a clear example of our ability to execute big partnerships with excellence at scale and really leverage a lot of the extraordinary magic at YouTube and across Google.
+What have you seen so far based on your early testing of Privacy Sandbox, and what advertiser feedback have you received?
+And as we shared back in April, the preliminary results of our interest-based ads testing showed a combination of what we call privacy-preserving signals and AI optimization actually provides positive results for businesses preparing for a cookieless future.
+We also recently announced that in Q1 of '24 we plan to deprecate third-party cookies for 1% of Chrome users, and this will support developers, obviously, in conducting their real-world experiments to assess the readiness and effectiveness of their products without third-party cookies.

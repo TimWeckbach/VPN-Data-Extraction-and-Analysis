@@ -1,0 +1,104 @@
+And Microsoft Cloud revenue surpassed $135 billion, up 23%.
+Similar to the cloud, this transition involves both knowledge and capital intensive investments.
+As we go through this shift, we are focused on two fundamental things: First, driving innovation across a product portfolio that spans infrastructure and applications so as to ensure we are maximizing our opportunity, while in parallel continuing to scale our cloud business and prioritizing fundamentals, starting with security.
+With that, let me highlight examples, starting with Azure.
+We expanded our datacenter footprint, announcing investments across four continents.
+Azure Arc is helping customers in every industry, from ABB and Cathay Pacific, to LALIGA, to streamline their cloud migrations.
+We remain the hyperscale cloud of choice for SAP and Oracle workloads.
+Atos, Coles, Daimler Truck AG, Domino’s, Haleon, for example, all migrated their mission-critical SAP workloads to our cloud.
+And with our Azure VMware Solution, we offer the fastest and most cost- effective way for customers to migrate their VMware workloads too.
+With Azure AI, we are building out the app server for the AI wave, providing access to the most diverse selection of models to meet customers’ unique cost, latency, and design considerations.
+All-up, we now have over 60,000 Azure AI customers, up nearly 60% year- over-year, and average spend per customer continues to grow.
+And with Models as a Service, we provide API access to third party models, including as of last week the latest from Cohere, Meta, and Mistral.
+The number of paid Models as a Service customers more than doubled quarter-over-quarter, and we are seeing increased usage by leaders in every industry, from Adobe and Bridgestone, to Novo Nordisk and Palantir.
+Our Microsoft Intelligent Data Platform provides customers with the broadest capabilities spanning databases, analytics, business intelligence, and governance – along with seamless integration with all of our AI services.
+The number of Azure AI customers also using our data and analytics tools grew nearly 50% year-over-year.
+Microsoft Fabric – our AI-powered next generation data platform – now has over 14,000 paid customers, including leaders in every industry, from Accenture and Kroger, to Rockwell Automation and Zeiss – up 20% quarter- over-quarter.
+In total, we now have 48 million monthly active users of Power Platform, up 40% year-over-year.
+Copilot for Microsoft 365 is becoming a daily habit for knowledge workers, as it transforms work, workflow, and work artifacts.
+And, with Copilot Studio, customers can extend Copilot for Microsoft 365 and build custom copilots that proactively respond to data and events using their own first and third-party business data.
+And Dynamics 365 Business Central is now trusted by over 40,000 organizations for core ERP.
+Microsoft Teams has become essential to how hundreds of millions of people meet, call, chat, collaborate, and do business.
+And we are seeing accelerated adoption of Windows 11 by companies like Carlsberg, E.ON, National Australia Bank.
+And Defender for Cloud, our cloud security solution, surpassed $1 billion in revenue over the past 12 months as we protect customer workloads across multi-cloud and hybrid environments.
+Now, let me turn to our consumer businesses, starting with LinkedIn.
+And when it comes to our subscription businesses, Premium sign ups increased 51% this fiscal year, and we are adding even more value to our members and customers with new AI tools.
+We are ensuring that Bing, Edge, and Copilot are collectively driving more engagement and value to end-users, publishers, and advertisers.
+Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft Start.
+We now have over 500 million monthly active users across platforms and devices.
+18 of them – such as Call of Duty: Black Ops 6 – will be available on Game Pass.
+Game Pass Ultimate subscribers can now stream games directly on the devices they already have, including as of last month, Amazon Fire TVs.
+In our largest quarter of the year, we again delivered double-digit top and bottom-line growth with continued share gains across many of our businesses and record commitments to our Microsoft Cloud platform.
+This record commitment quarter was driven by growth in the number of 10-million-dollar-plus and 100-million-dollar-plus contracts for both Azure and Microsoft 365 and consistent execution across our core annuity sales motions.
+A reminder that this net impact includes adjusting for the movement of Activision content from our prior relationship as a third-party partner to first-party, and includes $938 million from purchase accounting adjustments, integration, and transaction-related costs.
+Microsoft Cloud revenue was $36.8 billion and grew 21% and 22% in constant currency, roughly in line with expectations.
+Excluding the impact of the change in accounting estimate for useful lives, gross margin percentage decreased slightly driven by sales mix shift to Azure, partially offset by improvement in Azure even with the impact of scaling our AI infrastructure.
+Office 365 commercial revenue increased 13% and 14% in constant currency with ARPU growth primarily from E5 momentum as well as Copilot for Microsoft 365.
+Paid Office 365 commercial seats grew 7% year-over-year with installed base expansion across all customer segments.
+Office commercial licensing declined 9% and 7% in constant currency, with continued customer shift to cloud offerings.
+Office consumer revenue increased 3% and 4% in constant currency with continued momentum in Microsoft 365 subscriptions, which grew 10% to 82.5 million.
+We saw continued growth across all workloads and better-than-expected new business.
+Dynamics 365 now represents roughly 90% of total Dynamics revenue.
+Excluding the impact of the change in accounting estimate, gross margin percentage decreased slightly driven by Office 365 as we scale our AI infrastructure.
+Overall, server products and cloud services revenue grew 21% and 22% in constant currency.
+Azure and other cloud services revenue grew 29% and 30% in constant currency, in line with expectations and consistent with Q3 when adjusting for leap year.
+Azure growth included 8 points from AI services where demand remained higher than our available capacity.
+In our per-user business, the enterprise mobility and security installed base grew 10% to over 281 million seats with continued impact from moderated growth in seats sold outside the Microsoft 365 suite.
+Therefore, our Azure consumption business continues to grow faster than total Azure.
+Windows commercial products and cloud services revenue increased 11% and 12% in constant currency, ahead of expectations due to higher in- period revenue recognition from the mix of contracts.
+Xbox content and services revenue increased 61%, slightly ahead of expectations, with 58 points of net impact from the Activision acquisition.
+Xbox hardware revenue decreased 42% and 41% in constant currency.
+Cloud and AI related spend represents nearly all of total capital expenditures.
+The remaining cloud and AI related spend is primarily for servers, both CPUs and GPUs, to serve customers based on demand signals.
+For the full fiscal year, the mix of our cloud and AI related spend was similar to Q4.
+Free cash flow was $23.3 billion, up 18% year-over- year, reflecting higher capital expenditures to support our cloud and AI offerings.
+To meet the growing demand signal for our AI and cloud products, we will scale our infrastructure investments with FY25 capital expenditures expected to be higher than FY24.
+As a reminder, these expenditures are dependent on demand signals and adoption of our services that will be managed thru the year.
+As a reminder, larger long-term Azure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate.
+Microsoft Cloud gross margin percentage should be roughly 70%, down year-over-year driven by the impact of scaling our AI infrastructure.
+We expect capital expenditures to increase on a sequential basis given our cloud and AI demand, as well as existing AI capacity constraints.
+As a reminder, there can be quarterly spend variability from cloud infrastructure buildouts and the timing of delivery of finance leases.
+In Office Commercial, revenue growth will again be driven by Office 365 with seat growth across customer segments and ARPU growth through E5 and Copilot for Microsoft 365.
+We expect Office 365 revenue growth to be approximately 14% in constant currency.
+In our on-premises business, we expect revenue to decline in the mid to high teens.
+In Office consumer, we expect revenue growth in the low to mid-single digits, driven by Microsoft 365 subscriptions.
+And in Dynamics, we expect revenue growth in the low to mid-teens driven by Dynamics 365.
+For Intelligent Cloud we expect revenue to grow between 18% and 20% in constant currency, or $28.6 to $28.9 billion.
+Revenue will continue to be driven by Azure which, as a reminder, can have quarterly variability primarily from our per-user business and in-period revenue recognition depending on the mix of contracts.
+Growth will continue to be driven by our consumption business, inclusive of AI, which is growing faster than total Azure.
+And in H2, we expect Azure growth to accelerate as our capital investments create an increase in available AI capacity to serve more of the growing demand.
+Windows OEM revenue growth should be relatively flat, roughly in line with the PC market.
+In Windows commercial products and cloud services, customer demand for Microsoft 365 and our advanced security solutions should drive revenue growth in the mid-single digits.
+And in Gaming, we expect revenue growth in the mid-30s, including approximately 40 points of net impact from the Activision acquisition.
+We expect Xbox content and services revenue growth in the low to mid-50s, driven by the net impact from the Activision acquisition.
+In closing, we remain focused on delivering innovations that matter to our global customers of every size.
+We are committed to growing our leadership across our commercial cloud and within that, the AI platform, and we feel well positioned as we start FY25.
+And I think the question for you guys from a Microsoft perspective is, is capex still an appropriate leading indicator for cloud growth, or do the shifting gross margin profiles changed that equation; or said another way, maybe can you give us a little bit more help in understanding the timing between the capex investments and the yields on those investments?
+We needed to have the product portfolio where there was the right mix, I’ll call it, infrastructure meters, as well as SaaS applications.
+When I think about what’s happening with M365 Copilot as perhaps the best Office 365 or M365 suite we have had, the fact that we are getting recurring customers or customers coming back, buying more seats, or GitHub Copilot now being bigger than even GitHub when we bought it, what’s happening in the contact center with Dynamics.
+I would say, and obviously, the Azure AI growth, that’s the first place we look at.
+And on that front, I feel good about the breadth of Microsoft offering, whether it’s in consumer side, whether it’s on commercial per-seat side, or the consumption meters.
+Because we’ve built a consistent architecture, first with a commercial cloud, and second with the Azure stack for AI, regardless of whether demands at the platform layer or at the app layer, or through third parties and partners, or, frankly, our first-party SaaS, it uses the same infrastructure.
+With Azure growth we’ve seen this quarter and O365, Commercial not yet fully visible in numbers, even though, Amy, you gave us a lot of color on it, two parts to the question of Satya, how should we think about what it’s going to take for Gen AI to become more real across the industry, and for it to become more visible within your SaaS offerings?
+It’s just, we have a concept of design wins in Azure.
+In fact, 50% of the folks who are using Azure AI are also using a data meter.
+That’s very exciting to us because the most important thing in Azure is to win workloads in the enterprise, and that is starting to happen.
+We have a consistent platform, so because we’re building to one Azure AI stack, we don’t have to have multiple infrastructure investments.
+When you look at the capex, how do you bring efficiencies out of the capex?
+In other words, do you have to keep going, growing capex at these elevated rates, or could you slow down capex and still get that consistent revenue growth rate in your Azure and generative AI?
+It was triggered by the jump in capex, and as Amy pointed out, your guiding to accelerating Azure revenue growth rate, which I guess follows the capex.
+Amy, I know when you set your Azure guidance, you’re always looking to meet or beat the high end.
+I presume that’s a little bit more economic rather than Azure specific.
+Amy, with Azure demand once again greater than available capacity, I appreciate the capex investments in the build out and acceleration you expect in the back half.
+But as we think about cloud capacity and AI services, specifically, can you talk about both the near-term and long-term strategy around the AI partnerships that you’re signing with the likes of Oracle and CoreWeave, for example?
+We’ve done that with partners who are happy to help us extend the Azure platform to be able to serve this Azure AI demand.
+And those are the kinds of workflows that are getting built within IT or by end users themselves.
+When you think about marketing or finance, or sales, or customer service, we will effectively replicate what you just said, which is the type of product you will be seeing and developers will come to all of these functions as they think about their work, workflow and work artifact all being driven by Copilot.
+Xbox content services revenue grew 61%, 58 points help from Activision.
+For us, our investment in gaming, fundamentally, was to have, I’d say, the right portfolio of both what we love about gaming and always have loved about gaming, which is Xbox and the content for the console, and expand from there so that we have content for everywhere people play games, starting with the PC.
+When I think about the Activision portfolio, it comes with great assets for us to cover both the PC and the console, and then, of course, assets to cover mobile sockets, which we never had.
+We feel that now, we have both the content and the ability to access all the traditional high scale platforms where people play games, which is the console, PC and mobile.
+I mean, the fact that even in this last quarter, we expanded xCloud to Amazon TV, I forget the name of what it’s called, but that’s the type of new axis that really helps us a lot, reach new gamers or the same gamer everywhere they want to play.
+And that ultimately will show up in that software plus services and transaction revenue for us, which is really our long-term KPI.
+AMY HOOD: No, I do think the real goal here is to be able to take a broad set of content to more users in more places, and really build what looks more like, to us, a software annuity and subscription business with enhanced transactions and the ownership of IP, which is quite valuable long term.
+And I think we’re really encouraged by some of the progress and how we’re making progress with Game Pass, as well, with some of the new announcements.

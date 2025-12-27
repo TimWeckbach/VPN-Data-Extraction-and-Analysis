@@ -1,0 +1,56 @@
+We know that our services are particularly helpful to people and businesses during uncertain moments -- whether it’s using Search or YouTube to find anything from anywhere.
+Or highly efficient tools like Search Ads that help businesses of all sizes reach customers.
+Taking a closer look at YouTube: YouTube Shorts are watched by over 1.5 billion signed-in users every month, with more than 30 billion daily views.
+In Q2, YouTube TV surpassed 5 million subscribers, including trialers.
+There’s also a lot of potential for shopping on YouTube.
+It will help creators easily connect their stores to YouTube and enable shopping across their livestreams and videos.
+You’ve seen our own commitment to the long-term in our latest innovation announcements at I/O, Google Marketing Live, and Brandcast.
+I’ll dive deeper into a few more - including how we’re improving our advertising experiences and building simpler, more useful products for our partners.
+Like Best Buy - who’s embracing a full omnichannel approach - from measurement to bidding to using omni-ad formats across Google.
+By adopting omni across its Local Inventory Ads portfolio and showcasing curbside and in-store pick-up, Best Buy increased in-store revenue from Google Ads by 34% last year.
+Innovating across Search and YouTube also remain top priorities.
+We launched new ad formats for our more visual “browsy” search experience.
+And then there’s cool live commerce capabilities like live directs which let creators start a shopping livestream on their channel and then redirect viewers to a brand’s channel for more.
+5 As we continue to help advertisers manage through uncertainty, I would point out three key highlights for YouTube: First, Brandcast joined the Upfronts in New York in May for the first time ever - a reflection of how digital and linear TV worlds are converging for both viewers and advertisers.
+As the #1 streaming video platform to reach viewers across all devices, with billions of hours of video watched every day, YouTube remains well positioned to deliver the reach, results, and relevance that advertisers need.
+In fact, even in TV’s biggest moments, YouTube is still delivering huge incremental reach - according to Comscore, 49.9% of adults that saw a Super Bowl ad on YouTube on the day of the Super Bowl did not see the ad on TV.
+According to a Google-commissioned Nielsen meta-analysis of MMMs that measured YouTube CTV and TV across U.S. consumer packaged goods, on average, YouTube CTV effectiveness was 3.1 times greater than TV.
+Last quarter we shared that we’re in the early stages of testing monetization with ads and we continue to be encouraged by the results so far.
+Third, there’s full-funnel - which we’ve covered before - and more advertisers are embracing.
+On average, YouTube advertisers using a full-funnel strategy experienced 80% unique reach across Brand and Action campaigns.
+With this incremental reach across upper and lower funnel formats, advertisers meet different audiences based on where they are in the purchase journey.
+Branded content collaboration with top creators raised awareness, while YouTube’s Shopping shelf feature boosted consideration.
+With our performance products, advertisers can convert demand; with our massive reach products, they create net new demand at scale.
+First, in Gaming, to help Bandai Namco Entertainment drive immersive gaming experiences and build a more robust IP strategy, we’re partnering across Cloud, Geo, Ads, YouTube and more.
+Google Search and other advertising revenues of $40.7 billion in the quarter were up 14%, driven by both Travel and Retail.
+YouTube advertising revenues of $7.3 billion were up 5%.
+Network advertising revenues of $8.3 billion were up 9%, driven by AdSense.
+The quarter-on-quarter deceleration in both YouTube and Network advertising revenues primarily reflects pullbacks in spend by some advertisers.
+In YouTube and Network, the pullbacks in spend by some advertisers in the second quarter reflects uncertainty about a number of factors that are challenging to disaggregate.
+And how maybe we should think about the digestion of the direct response growth and consumption growth that YouTube saw a year ago, and how that might lead to better growth ahead for YouTube in the periods going forward?
+And then when you look at the broader competitive landscape for video, how do you think about positioning YouTube short-form video versus long-form video, or enabling creators and businesses to have tools to build their businesses within YouTube?
+12 But, again, it goes really to continuing to invest in YouTube and the experiences and the opportunity to deliver for our entire ecosystem, users, creators.
+So despite the pullback from some advertisers, we really believe YouTube remains well-positioned to benefit from the shift to digital video.
+Maybe first on brand, it's worth calling out that this was our first year participating in the Upfronts, which is really exciting and really a testament to YouTube's evolution.
+Customers tell us they see value in YouTube's reach and the ability to drive results.
+On the direct response side, we still think there's a lot of runway to address commercial intent on YouTube, between video action campaigns and app campaigns and product feeds and new Live Commerce features.
+We're also seeing advertisers buy YouTube at both ends of the funnel, which I talked about earlier, giving advertisers the ability to drive reach and relevance, and action is really where YouTube excels.
+So the big picture – long term – remain very encouraged by the opportunity for innovation in brand and DR and across YouTube.
+Consumers are increasingly consuming short-form videos, obviously.
+We're seeing this across multiple platforms, including YouTube.
+So overall, we are continuing to see good user engagement on YouTube.
+And last quarter we shared that over the past two years, YouTube has seen significant growth in watchtime.
+And even as people have returned to in-person activities, time spent on YouTube globally has continued to grow.
+We're not just addressing above-the-line marketing budgets, like traditional advertising or television advertising.
+But in the end, our main goal is on delivering great experiences for our users and driving incremental ROI for our advertisers and then making them successful across all this big universe of sectors I just talked about.
+Philipp, you talked about the beginning of monetizing YouTube Shorts.
+Do you have any lessons that you've drawn so far; or in the long-term is there any view you have on whether that inventory can be better or less monetized than other YouTube inventory that you've had traditionally historically?
+On the pullback in spend by some of the advertisers, as Ruth mentioned, the pullbacks in spend on YouTube and Network by some advertisers in the second quarter reflects uncertainty about a number of factors.
+And for each advertiser, it's actually challenging to disaggregate.
+Does this give you greater monetization capability in Search, or how would that impact monetization?
+17 Similarly, if you take ads at Google Marketing Live, the team talked a lot about AI-driven products and features that really give value to advertisers in the most privacy-forward way.
+You mentioned PMax for some of the smaller advertisers and omnichannel for the larger.
+In Q2, like in Q1, we saw a year-over-year increase in adoption of, for example, Local Inventory 18 Ads.
+And advertisers have been pleased with increased reach and increased performance.
+And our focus really has always been on building tools and features to help both offline and online businesses connect directly with these customers across our platforms.
+And we're excited about what's next for retail commerce across our surfaces, especially Search and YouTube.

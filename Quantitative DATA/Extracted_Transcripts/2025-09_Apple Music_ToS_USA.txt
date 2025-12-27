@@ -1,0 +1,131 @@
+Legal Hardware Software Sales & Support Internet Services Intellectual Property More Resources United States, English Choose your country/region  Apple Media Services Terms and Conditions These terms and conditions create a contract between you and Apple (the “Agreement”).
+PAYMENTS, TAXES, AND REFUNDS C. ACCOUNT D. PRIVACY E. ACCESSIBILITY F. SERVICES AND CONTENT USAGE RULES G. TERMINATION AND SUSPENSION OF SERVICES H. DOWNLOADS I. SUBSCRIPTIONS J.
+CONTENT AND SERVICE AVAILABILITY K. THIRD-PARTY DEVICES AND EQUIPMENT L. YOUR SUBMISSIONS TO OUR SERVICES M. FAMILY SHARING N. SEASON PASS AND MULTI-PASS O.
+ADDITIONAL APP STORE TERMS P. ADDITIONAL TERMS FOR APP STORE, APPLE BOOKS, APPLE PODCASTS, AND SELECT CONTENT Q.
+ADDITIONAL APPLE MUSIC TERMS R. ADDITIONAL APPLE FITNESS+ TERMS S. RESELLER MEMBERSHIP T. MISC.
+INTRODUCTION This Agreement governs your use of Appleʼs services (“Services”) through which you can buy, get, license, rent or subscribe to content, Apps (as defined below), and other in-app services (collectively, “Content”).
+Content may be offered through the Services by Apple or a third party.
+Examples of Services include, where available, App Store, Subscriptions (as defined below), Apple Arcade, Apple Books, Apple Fitness+, Apple Games, Game Center, Apple Music, Apple News, Apple One, Apple Podcasts, Apple Sports, Apple TV, iTunes, and Shazam.
+To use our Services, you need compatible hardware, software (latest version recommended and sometimes required) and Internet access (fees may apply).
+PAYMENTS, TAXES, AND REFUNDS You can acquire Content on our Services for free or for a charge, either of which is referred to as a “Transaction.” Each Transaction is an electronic contract between you and Apple, and/or you and the entity providing the Content on our Services.
+However, if you are a customer of Apple Distribution International Ltd. or Apple Services Pte.
+Ltd., then that entity is the merchant of record for some Content you acquire from Apple Books, Apple Podcasts, or App Store as displayed on the product page and/or during the acquisition process for the relevant Service.
+In such case, you acquire the Content from Apple Distribution International Ltd. or Apple Services Pte.
+Apple will charge your selected payment method for any paid Transactions, including any applicable taxes.
+You can associate multiple payment methods with your Apple Account, and you agree that Apple may store and charge those payment methods for Transactions.
+In accordance with local law, Apple may automatically update your payment information regarding your payment methods if provided such information by the payment networks or your financial institutions.
+Terms related to store credit and gift cards/codes are available here: https://www.apple.com/legal/internet-services/itunes/giftcards.
+For more details about how Transactions are billed, please visit http://support.apple.com/HT201359.
+If technical problems prevent or unreasonably delay delivery of Content, your exclusive and sole remedy is either replacement of the Content or refund of the price paid, as determined by Apple.
+C. ACCOUNT Using our Services and accessing your Content may require an Apple Account.
+An Apple Account (previously called an Apple ID) is the account you use across Appleʼs ecosystem.
+Apple is not responsible for any losses arising from the unauthorized use of your account.
+Please contact Apple if you suspect that your account has been compromised.
+D. PRIVACY Your use of our Services is subject to Appleʼs Privacy Policy, which is available at https://www.apple.com/legal/privacy.
+Apple may monitor your use of the Services and Content to ensure that you are following these Usage Rules.
+All Services: - You may use the Services and Content only for personal, noncommercial purposes (except as set forth in the App Store Content section below or as otherwise specified by Apple).
+- Appleʼs delivery of Services or Content does not transfer any commercial or promotional use rights to you, and does not constitute a grant or waiver of any rights of the copyright owners.
+- You can use Content from up to five (5) different Apple Accounts on each device.
+- For any Service, you can have up to ten (10) devices (but only a maximum of five (5) computers) signed in with your Apple Account at one time, though simultaneous streams or downloads of Content may be limited to a lower number of devices as set out below under Apple Music and Apple TV content.
+Devices can be associated with a different Apple Account once every ninety (90) days.
+- You may access our Services only using Appleʼs software, and may not modify or use modified versions of such software.
+Audio and Video Content Sales and Rentals: - You can use Digital Rights Management (DRM)-free Content on a reasonable number of compatible devices that you own or control.
+- Content rentals are viewable on a single device at a time, and must be played within thirty (30) days, and completed within forty-eight (48) hours of the start of play (stopping, pausing or restarting does not extend this period).
+- You may burn an audio playlist of purchased music to disc for listening purposes up to seven (7) times; this limitation does not apply to DRM-free Content.
+- Purchased Content will generally remain available for you to download, redownload, or otherwise access from Apple.
+Though it is unlikely, subsequent to your purchase, Content may be removed from the Services and become unavailable for further download or access from Apple (for instance, because Apple loses its right from the Content provider to make it available).
+To ensure your ability to continue enjoying Content, we encourage you to download all purchased Content to a device in your possession and to back it up.
+App Store Content: - The term “Apps” includes apps and App Clips for any Apple platform and/or operating system, including any in-app purchases, extensions (such as keyboards), stickers, and Subscriptions made available in such apps or App Clips.
+- Individuals acting on behalf of a commercial enterprise, governmental organization or educational institution (an “Enterprise”) may download and sync non-Arcade Apps for use by either (i) a single individual on one (1) or more devices owned or controlled by an Enterprise; or (ii) multiple individuals on a single shared device owned or controlled by an Enterprise.
+Apple Music: - An Individual Apple Music membership allows you to stream on a single device at a time; a Family membership allows you or your Family members to stream on up to six (6) devices at a time.
+Apple Arcade: - Apple Arcade Apps may only be downloaded, or redownloaded, with a valid Apple Arcade trial or Subscription.
+- If your Subscription ends, Apps downloaded via Apple Arcade will no longer be accessible to you.
+Apple TV Content: - For most channels, you can stream video Content on up to three (3) devices simultaneously.
+- Learn more about Apple TV Content Usage Rules at https://support.apple.com/HT210074.
+G. TERMINATION AND SUSPENSION OF SERVICES If you fail, or Apple suspects that you have failed, to comply with any of the provisions of this Agreement, Apple may, without notice to you: (i) terminate this Agreement and/or your Apple Account, and you will remain liable for all amounts due under your Apple Account up to and including the date of termination; and/or (ii) terminate your license to the software; and/or (iii) preclude your access to the Services.
+Apple further reserves the right to modify, suspend, or discontinue the Services (or any part or Content thereof) at any time with or without notice to you, and Apple will not be liable to you or to any third party should it exercise such rights.
+H. DOWNLOADS You may be limited in the amount of Content you may download, and some downloaded Content may expire after a given amount of time after downloaded or first played.
+You may be able to redownload previously acquired Content (“Redownload”) to your devices that are signed in with the same Apple Account (“Associated Devices”).
+You can see Content types available for Redownload in your Home Country at https://support.apple.com/HT204632.
+Content also may be removed from our Services at any time (for instance, because Apple loses its right from the Content provider to make it available), after which it cannot be downloaded, redownloaded, or otherwise accessed from Apple.
+I. SUBSCRIPTIONS The Services and certain Apps may allow you to access Content or Services on a subscription basis (“Subscriptions”).
+Subscriptions automatically renew until cancelled in the Manage Subscriptions section of your account settings.
+To learn more about cancelling your Subscriptions, visit https://support.apple.com/HT202039.
+You will be notified if the price of a Subscription increases and, if required, your consent will be required to continue.
+You will be charged no more than twenty-four (24) hours prior to the start of the latest Subscription period.
+Certain Subscriptions may offer a free trial prior to charging your payment method.
+If you decide to unsubscribe from a Subscription before we start charging your payment method, cancel the Subscription at least twenty-four (24) hours before the free trial ends.
+If you start a free trial to a Subscription offered by Apple as Content provider (an “Apple Subscription”) and cancel before it ends, you cannot reactivate the free trial.
+Free trials or free offers to Apple Subscriptions, excluding iCloud, cannot be combined with any free trials or offers of Apple One.
+If you are in a free trial or free offer for any Apple Subscriptions, and you subscribe to Apple One, your free trial(s) or offer(s) will not be paused even if you have access to such Apple Subscription(s) through your Apple One Subscription.
+You acknowledge that your free trial or free offer may expire while you are a subscriber to Apple One, and Apple shall have no obligation to reinstate, reimburse, or otherwise compensate you for any part of such expired free trial or free offer.
+When your Subscription to any Service or Content ends, you will lose access to any functionality or Content of that Service that requires a Subscription.
+CONTENT AND SERVICE AVAILABILITY Terms found in this Agreement that relate to Services, Content types, features or functionality not available in your Home Country are not applicable to you unless and until they become available to you.
+To see the Content types available to you in your Home Country, go to the Services or visit https://support.apple.com/HT204411.
+K. THIRD-PARTY DEVICES AND EQUIPMENT You may not be able to use all features of the Services when accessing them on a non-Apple-branded device.
+By using the Services, you agree that Apple may automatically download and install minor updates to its software on third-party equipment from time to time.
+If you see materials that do not comply with the Submissions Guidelines, including any offensive, abusive, or illegal content, please let us know at reportaproblem.apple.com or by contacting Apple Support.
+Except to the extent prohibited by law, you hereby grant Apple a worldwide, royalty-free, perpetual, nonexclusive license to use the materials you submit within the Services and related marketing as well as to use the materials you submit for Apple internal purposes.
+Apple devices are required for access to all of the Family Sharing features.
+To learn more about Family Sharing visit: https://support.apple.com/HT201060.
+Content shared by Family members or acquired via content codes generally is not subject to Ask to Buy; content codes facilitating access to Subscriptions are subject to Ask to Buy.
+Not all Content, including In-App Purchases, Subscriptions, and some previously acquired Apps, are eligible for Purchase Sharing.
+Subscriptions shared by a Family may be subject to Content usage limitations on a per subscription basis.
+N. SEASON PASS AND MULTI-PASS A Pass allows you to purchase and receive television Content as it becomes available.
+If a Content provider delivers to Apple fewer TV episodes than planned when you purchased a Season Pass, we will credit to your Apple Account the retail value of the corresponding number of episodes that were not provided to Apple.
+ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS) LICENSE OF APP STORE CONTENT App licenses are provided to you by Apple or a third party developer (“App Provider”).
+Apple acts as an agent for App Providers in operating the App Store and is not a party to the sales contract or user agreement between you and the App Provider.
+However, if you are a customer of Apple Distribution International Ltd. or Apple Services Pte.
+An App licensed by Apple is an “Apple App;” an App licensed by an App Provider is a “Third Party App.” Any App that you acquire is governed by the Licensed Application End User License Agreement (“Standard EULA”) set forth below, unless Apple or the App Provider provides an overriding custom license agreement (“Custom EULA”).
+You acknowledge and agree that Apple is a third- party beneficiary of the Standard EULA or Custom EULA applicable to each Third Party App and may therefore enforce such agreement.
+IN-APP PURCHASES Apps may offer content, services or functionality for use within such Apps (“In-App Purchases”).
+In-App Purchases that are consumed during the use of the App (for example, virtual gems) cannot be transferred among devices and can be downloaded only once.
+APP MAINTENANCE AND SUPPORT Apple is responsible for providing maintenance and support for Apple Apps only, or as required under applicable law.
+App Providers are responsible for providing maintenance and support for Third Party Apps.
+APP BUNDLES Some Apps may be sold together as a bundle (“App Bundle”).
+The price displayed with an App Bundle is the price you will be charged upon purchasing the App Bundle.
+The App Bundle price may be reduced to account for Apps you have already purchased or acquired, but may include a minimum charge to complete the App Bundle.
+Any App that is subject to this Standard EULA is referred to herein as the “Licensed Application.” The App Provider or Apple as applicable (“Licensor”) reserves all rights in and to the Licensed Application not expressly granted to you under this Standard EULA.
+You may not transfer, redistribute or sublicense the Licensed Application except as expressly permitted in this Agreement and, if you sell your Apple Device to a third party, you must remove the Licensed Application from the Apple Device before doing so.
+P. ADDITIONAL TERMS FOR APP STORE, APPLE BOOKS, APPLE PODCASTS, AND SELECT CONTENT Some Content available in App Store, Apple Books, and Apple Podcasts (including Apple Podcasts Subscriptions) are acquired by you from the third-party provider of such Content (as displayed on the product page and/or during the acquisition process for the relevant Content), not Apple.
+In such case, Apple acts as an agent for the Content provider in providing the Content to you, and therefore Apple is not a party to the Transaction between you and the Content provider.
+However, if you are a customer of Apple Distribution International Ltd. or Apple Services Pte.
+When determining how to order search results in App Store, Apple Books, and Apple Podcasts, the main parameters considered are the metadata given by Content providers and how customers have engaged with the Content.
+ADDITIONAL APPLE MUSIC TERMS iCloud Music Library is an Apple Music feature that allows you to access your matched or uploaded songs, playlists and music videos acquired from Apple Music, the iTunes Store or another source (“iCloud Music Library Content”) on your Apple Music-enabled devices.
+iCloud Music Library is turned on automatically when you set up your Apple Music membership.
+iCloud Music Library collects information about your iCloud Music Library Content.
+This information is associated with your Apple Account, and compared to iCloud Music Library Content currently available on Apple Music.
+iCloud Music Library Content that is not matched is uploaded to Appleʼs iCloud Music Library servers (in a format determined by Apple).
+Songs acquired from the iTunes Store do not count against this limit.
+Songs that do not meet certain criteria (for example, excessively large files) or that are not authorized for your device are not eligible for iCloud Music Library.
+When you use iCloud Music Library, Apple logs information such as the tracks you play, stop or skip, the devices you use, and the time and duration of playback.
+You agree to use iCloud Music Library only for lawfully acquired content.
+iCloud Music Library is provided on an “AS IS” basis and could contain errors or inaccuracies.
+You should back up your data and information prior to using iCloud Music Library.
+If you are not an Apple Music member, you may purchase an iTunes Match Subscription, which uses iCloud Music Library.
+When your Apple Music membership ends, you will lose access to your iCloud Music Library, including iCloud Music Library Content that is uploaded to iCloud Music Library servers.
+S. RESELLER MEMBERSHIP Where available, you may be offered to purchase a Service membership from a reseller, such as a wireless carrier (a “Reseller Membership”).
+If you purchase a Reseller Membership, your reseller is the merchant of record, which means that you acquire the Service license from that reseller, which will bill you for the cost of your Service membership, but the Service is licensed and provided by Apple.
+Your purchase relationship with the reseller is governed by the resellerʼs terms and conditions, not this Agreement, and any billing disputes related to a Reseller Membership must be directed to the reseller, not Apple.
+By using a Service through a Reseller Membership, you agree that the reseller may exchange your reseller account information, telephone number and Subscription information with Apple, and that Apple may use this information to determine the status of your Reseller Membership.
+CONTRACT CHANGES Apple reserves the right at any time to modify this Agreement and to add new or additional terms or conditions on your use of the Services.
+INTELLECTUAL PROPERTY You agree that the Services, including but not limited to Content, graphics, user interface, audio clips, video clips, editorial content, and the scripts and software used to implement the Services, contain proprietary information and material that is owned by Apple, its licensors and/or Content providers, and is protected by applicable intellectual property and other laws, including but not limited to copyright.
+The Apple name, the Apple logo, iTunes, iTunes Store, App Store, Apple Books, Apple Music, Apple TV, Apple TV+, Apple Arcade, Apple News, Apple News+, Apple One, Apple Podcasts, Apple Fitness+, and other Apple trademarks, service marks, graphics, and logos used in connection with the Services are trademarks or registered trademarks of Apple in the U.S. and other countries throughout the world.
+COPYRIGHT Unless otherwise noted, Services and Content provided by Apple are copyrights of Apple Inc. and its subsidiaries.
+If you believe that any Content available through the Services infringe a copyright claimed by you, please contact Apple at https://www.apple.com/legal/internet-services/itunes/itunesstorenotices.
+Apple Inc. Attn: Copyright Agent One Apple Park Way MS: 1IPL Cupertino, CA 95014 Phone: 408.996.1010 Email: copyrightnotices@apple.com Apple has adopted a policy to disable and/or terminate in appropriate circumstances the accounts of users who are found repeatedly to infringe or are repeatedly claimed to infringe the copyrights of others.
+As part of implementing such policy, Apple may in its sole discretion suspend, disable and/or terminate the accounts of users who have been identified as repeatedly engaging in infringing activities or for other related reasons.
+DISCLAIMER OF WARRANTIES; LIABILITY LIMITATION APPLE DOES NOT GUARANTEE, REPRESENT, OR WARRANT THAT YOUR USE OF THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, AND YOU AGREE THAT FROM TIME TO TIME APPLE MAY REMOVE THE SERVICES FOR INDEFINITE PERIODS OF TIME, CANCEL THE SERVICES AT ANY TIME, OR OTHERWISE LIMIT OR DISABLE YOUR ACCESS TO THE SERVICES WITHOUT NOTICE TO YOU.
+THE SERVICES AND ALL CONTENT DELIVERED TO YOU THROUGH THE SERVICES ARE (EXCEPT AS EXPRESSLY STATED BY APPLE) PROVIDED "AS IS" AND "AS AVAILABLE" FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT.
+YOU AGREE THAT UNLESS REQUIRED BY APPLICABLE LAW, APPLE HAS NO RESPONSIBILITY TO CONTINUE MAKING CONTENT AVAILABLE TO YOU THROUGH OUR SERVICES, AND APPLE WILL NOT BE LIABLE TO YOU IF CONTENT, INCLUDING PURCHASED CONTENT, BECOMES UNAVAILABLE FOR DOWNLOAD, REDOWNLOAD, OR STREAMING.
+IN NO CASE SHALL APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF ANY OF THE SERVICES OR FOR ANY OTHER CLAIM RELATED IN ANY WAY TO YOUR USE OF THE SERVICES AND/OR CONTENT, INCLUDING, BUT NOT LIMITED TO, ANY ERRORS OR OMISSIONS IN ANY CONTENT, OR ANY INJURY, LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SERVICES, EVEN IF ADVISED OF THEIR POSSIBILITY.
+APPLE SHALL USE REASONABLE EFFORTS TO PROTECT INFORMATION SUBMITTED BY YOU IN CONNECTION WITH THE SERVICES, BUT YOU AGREE THAT YOUR SUBMISSION OF SUCH INFORMATION IS AT YOUR SOLE RISK, AND YOU HEREBY RELEASE APPLE FROM ANY AND ALL LIABILITY TO YOU FOR ANY LOSS OR LIABILITY RELATING TO SUCH INFORMATION IN ANY WAY.
+APPLE DOES NOT REPRESENT OR GUARANTEE THAT THE SERVICES WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES, INTERFERENCE, HACKING, OR OTHER SECURITY INTRUSION, AND YOU HEREBY RELEASE APPLE FROM ANY LIABILITY RELATING THERETO.
+APPLE IS NOT RESPONSIBLE FOR DATA CHARGES YOU MAY INCUR IN CONNECTION WITH YOUR USE OF THE SERVICES.
+WAIVER AND INDEMNITY BY USING THE SERVICES, YOU AGREE, TO THE EXTENT PERMITTED BY LAW, TO INDEMNIFY AND HOLD APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, AND LICENSORS HARMLESS WITH RESPECT TO ANY CLAIMS ARISING OUT OF YOUR BREACH OF THIS AGREEMENT, YOUR USE OF THE SERVICES, OR ANY ACTION TAKEN BY APPLE AS PART OF ITS INVESTIGATION OF A SUSPECTED VIOLATION OF THIS AGREEMENT OR AS A RESULT OF ITS FINDING OR DECISION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED.
+YOU AGREE THAT YOU SHALL NOT SUE OR RECOVER ANY DAMAGES FROM APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, AND LICENSORS AS A RESULT OF ITS DECISION TO REMOVE OR DENY ACCESS TO ANY INFORMATION OR CONTENT, TO SUSPEND OR TERMINATE YOUR ACCESS TO THE SERVICES, OR TO TAKE ANY OTHER ACTION DURING THE INVESTIGATION OF A SUSPECTED VIOLATION OR AS A RESULT OF APPLE'S CONCLUSION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED.
+OTHER PROVISIONS This Agreement constitutes the entire agreement between you and Apple and governs your use of the Services, superseding any prior agreements with respect to the same subject matter between you and Apple.
+You also may be subject to additional terms and conditions that may apply when you make Transactions or use affiliate services, third-party content, third-party software, or additional services such as the Volume Purchase Program.
+Apple may notify you with respect to the Services by sending an email message to your email address or a letter via postal mail to your mailing address, or by a posting on the Services.
+Apple may also contact you by email or push notification to send you additional information about the Services.
+You agree that Apple has the right, without liability to you, to disclose any data and/or information to law enforcement authorities, government officials, and/or a third party, as Apple believes is reasonably necessary or appropriate to enforce and/or verify compliance with any part of this Agreement (including but not limited to Apple's right to cooperate with any legal process relating to your use of the Services and/or Content, and/or a third-party claim that your use of the Services and/or Content is unlawful and/or infringes such third party's rights).

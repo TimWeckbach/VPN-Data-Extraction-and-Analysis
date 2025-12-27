@@ -1,0 +1,42 @@
+Overall, despite some changes in listening patterns, we are encouraged with the trends we are seeing, and continue to be optimistic about the underlying growth fundamentals of the business.1 1 Free Cash Flow is a non-IFRS measure.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 1 COVID-19 IMPACT While we are pleased with how our business has performed so far, our thoughts and attention are most focused on the health and well-being of our employees, the greater creative community and society at large.
+We are fortunate that as a business we are able to operate with very little disruption and our hope is that providing music, information, and an escape for many can provide some joy and comfort.
+While MAUs and Subs remained in line with our forecast and held steady, in hard hit markets like Italy and Spain, we saw a notable decline in Daily Active Users and consumption.
+But over the last few weeks, we’ve seen listening start to rebound, and in many markets, consumption has meaningfully recovered.
+In this environment, we are seeing an evolution of Spotify’s relationship with its consumers.
+For example, when we saw consumption starting to decline we would have assumed that MAUs and Paid Subscribers would be negatively impacted, but that wasn’t the case.
+Additionally, despite some of the consumption changes, the ratio of Daily Active Users relative to Monthly Active Users was strong in the quarter.
+However, the audience through TV and Game Consoles has grown materially, in excess of 50% over the same time period.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 2 It’s clear from our data that morning routines have changed significantly.
+This trend was seen more significantly in Podcasts than in Music, likely due to the fact that Car and Commute use cases have changed quite dramatically.
+Audio has also taken on a greater role in managing the stress and anxiety many are feeling in today’s unprecedented environment.
+Two in five consumers we surveyed in the US said they were listening to music to manage stress more than they typically do, which explains the recent rise we’ve seen in searches for “chill” and “instrumental”.
+We’ve also seen an uptick in consumption of podcasts related to wellness and meditation over the last few weeks.
+As mentioned, we have seen strong growth in users, both new and returning.
+Historically, over 60% of our Premium users start as Ad-Supported users, so continuing to grow the top of the funnel is very healthy for our ecosystem.
+We also know that roughly 70% of churned users are back with Spotify within 45 days of leaving, which includes coming back through either our Premium or Ad-Supported experience.
+MONTHLY ACTIVE USERS (“MAUs”) Total MAUs grew 31% Y/Y to 286 million, in line with our forecast and expectations.
+Retention continues to see significant increases Y/Y particularly on the Ad-Supported tier with retention percentages up hundreds of basis points at key milestones in a users’ first 6 months.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 3 Total MAUs by Region PREMIUM SUBSCRIBERS At the end of Q1’20 we had 130 million Premium Subscribers globally, up 31% Y/Y and ahead of our forecast.
+Spotify Kids (our stand-alone beta app designed for children three and older) launched in eight more markets during Q1 - Australia and the UK in February, Mexico, Brazil, and Argentina in mid- March, and most recently the US, Canada, and France toward the end of the quarter.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 4 Subscribers by Region FINANCIAL METRICS Revenue Total revenue of €1,848 million grew 22% Y/Y in Q1.
+Despite the weakness in the final 3 weeks of the quarter, revenue from our Direct and Ad Studio channels finished ahead of forecast given pacing in the preceding months.
+Most notably, we successfully rolled out Dynamic Ad Breaks (DAB) in our Top 10 markets, and announced the beta test of a new ad product for Podcasts at CES, Streaming Ad Insertion (SAI).
+We also saw a benefit from non-royalty cost of revenue, most notably streaming delivery costs.
+We look forward to working together with Warner to grow the music industry over the long term.
+We continue to believe that our investments in podcasts will benefit the platform as a whole, and see an overall benefit to both usage, engagement, and retention across both Ad-Supported and Premium.
+With that in mind, to improve consistency in the segment classification between podcast advertising revenues and costs of podcast content, effective January 1, 2020, all costs of podcast content were wholly recognized in the Ad-Supported segment rather than allocating certain podcast costs between segments.
+The change in classification for podcasts had roughly a 600 bp impact on Ad-Supported Gross Margin.
+Content We continue to be excited by the growth trajectory and adoption of podcast content globally.
+While the current environment has shifted listening patterns temporarily, nothing we have seen changes our long-term view of the potential for Podcasts.
+Today, 19% of our Total MAUs engage with podcast content, up from 16% in Q4 2019, and consumption continues to grow at triple digit rates Y/Y.
+In Q1, we launched 78 Originals & Exclusives (“O&E”) podcasts globally and completed the acquisition of The Ringer, rounding out our total number of studio operations to four: Gimlet, Parcast, The Ringer, and Spotify Studios.
+Some notable launches include Mom’s Basement, a show about the culture and personalities of gaming hosted by Faze Banks and Keemstar of the popular eSports group FaZe Clan; Made in Medellin, an original podcast about the life and music of J. Balvin which earned more than 295 million media impressions across the US, Spain, Colombia, Argentina, Chile, and Mexico; and Le Nuage, a “fact-based” thriller that became the #1 podcast in France the week it launched.
+There are now more than 1 million podcasts available on our platform, and more than 60% of them are powered by Anchor, which we acquired a year ago.
+In Q1 specifically, Anchor- powered shows accounted for more than 70% of new podcasts launched on our service.
+Overall supply of new podcast content was impacted slightly by COVID-19, largely driven by double-digit declines in episodes of our Catalog shows, while there was little-to-no change in output from Spotify Originals and Exclusives.
+Our portfolio of O&E was more resilient to the impact of COVID-19, as nearly all our show teams shifted to producing podcasts while working from home, which allowed us to publish a stable supply of new episodes.
+Fest & Flauschig, one of our biggest podcasts in Germany, adapted to working from home by adding a number of new episodes each week to keep fans company during the lockdown.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 7 COVID-19 has impacted the creator community significantly, and we are doing our best to support the community in these trying times.
+On March 25, we launched the Spotify COVID-19 Music Relief project, through which we have partnered with organizations that offer financial relief to those in the music and creator community around the world.
+Q2 2020 Guidance: ● Total MAUs: 289-299 million ● Total Premium Subscribers: 133-138 million ● Total Revenue: €1.75-€1.95 billion ○ Assumes approximately 300 bps headwind to growth Y/Y due to movements in foreign exchange rates ● Gross Margin: 23.3-25.3% ● Operating Profit/Loss: €(45)-€(95) million ○ Includes expected charitable contributions of roughly €(9) million We are reiterating Full Year 2020 Guidance with the exception of Revenue: ● Total MAUs: 328-348 million ● Total Premium Subscribers: 143-153 million ● Total Revenue: Reduced to €7.65-€8.05 billion from €8.08-€8.48 billion ○ The two biggest drivers of the reduction in revenue guidance relate to changes in foreign exchange rates and changes in our advertising expectations related to COVID-19.

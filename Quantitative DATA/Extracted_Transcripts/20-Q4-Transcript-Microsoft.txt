@@ -1,0 +1,126 @@
+We delivered record results this fiscal year, powered by our commercial cloud, which surpassed $50 billion in revenue for the first time – up 36 percent year over year.
+The last five months have made it very clear that digital tech intensity is key to business resilience.
+Organizations that build their own digital capability will recover faster and emerge from this crisis stronger.
+We are seeing businesses accelerate the digitization of every part of their operations – from manufacturing to sales and customer service – to reimagine how they meet customer needs – from curbside pickup and contactless shopping in retail, to telemedicine in healthcare.
+That’s why we are building the full, modern technology stack – powered by cloud and AI and underpinned by security and compliance – to help every organization digitally transform.
+Now, I’ll highlight our innovation and momentum, starting with Azure.
+Every organization today needs a distributed computing fabric to run essential workloads.
+We are building Azure as the world’s computer to support them, with more datacenter regions than any other provider, including new regions as of this quarter in Italy, New Zealand, and Poland.
+Azure Arc is the first control plane built for a multi-cloud, multi-edge world, and we’re taking it further with Azure Arc-enabled Kubernetes.
+New capabilities in Azure Stack HCI help organizations bring the cloud to their very own datacenters.
+And our acquisitions of Affirmed and Metaswitch, along with Azure Edge Zones, extend Azure to the network edge, expanding our offerings for telecom operators as they move to 5G.
+Our differentiated approach across cloud and edge is winning new customers in every industry – from Land O’Lakes and National Australia Bank, to Johns Hopkins Medicine – as well as leading ISVs – including Citrix, Finastra, SAS, and Workday.
+At the data layer, Azure is the only cloud with limitless data and analytics capabilities that can deliver a cloud native data estate for every organization.
+The combination of SQL Hyperscale, Cosmos DB, Synapse Analytics – and now Synapse Link, which enables live analytics on real-time transactions – differentiate Azure.
+New capabilities in Azure Cognitive Services make it easier to build applications that speak naturally in 49 languages and variants, and to generate insights from unstructured data, including paper-based forms and medical records.
+And, with Azure Machine Learning, organizations can deploy AI more responsibly and safely.
+In June alone, 13.5 billion transactions were processed in Azure Cognitive Services.
+From Bridgestone, to UnitedHealth Group, to EY, companies are relying on Azure AI to innovate and better meet customer needs.
+We’ve seen increased activity across multiple measures, and we’re going further, with new tools to power secure, remote development.
+With Codespaces, we are bringing together the best of GitHub, Visual Studio, and Azure, to help developers go from code to cloud in seconds.
+The state of California is using GitHub and Azure DevOps to power 90 percent of its digital COVID-19 response infrastructure.
+With Power Platform, anyone in an organization can rapidly create an application, build a virtual agent, automate a workflow, or analyze data.
+Citizen developers and business decision makers at companies like Schlumberger and T-Mobile are using Power Platform to address challenges created by COVID-19.
+Power BI is the clear leader in business intelligence in the cloud and is growing significantly faster than the competition.
+More broadly, across Power Platform, we are seeing accelerating usage.
+Power Apps monthly active users increased 170 percent year over year.
+Dynamics 365 is helping organizations in every industry digitize their end to end business operations – from sales and customer service to supply chain management – so they can rapidly adapt to changing market conditions.
+Customer Insights is the fastest-growing Dynamics 365 application ever, helping organizations like Walgreens Boots Alliance and Chipotle offer more personalized customer experiences.
+BNY Mellon chose Dynamics 365 this quarter to help investment managers build stronger relationships with their customers.
+More than 4,500 organizations now use Dynamics 365 Commerce, Finance, and Supply Chain Management, making it one of the fastest growing SaaS solutions in its category.
+FedEx, for example, uses Dynamics 365 to drive more precise logistics and inventory management.
+And we continue to invest in solutions to protect merchants as they process more online transactions.
+New account protection and loss prevention features in Dynamics 365 Fraud Protection help protect online revenue, and we are working with financial services firms, like Capital One, to improve fraud detection and keep customers secure.
+Microsoft 365 is empowering people and organizations to be productive and secure as they adapt to more fluid ways of working as well as learning.
+Microsoft Teams is helping people be together, even when they are apart.
+It’s the only solution with meetings, calls, chat, content collaboration with Office, and business process workflows – in a secure, integrated user experience.
+Deeper integration between Teams and Power Platform brings an integrated data platform – Microsoft Dataflex – for easier, faster application creation and deployment – enabling a new category of enterprise-grade apps and chat bots in Teams.
+Teams is rapidly becoming the communications backbone as customers accelerate moving voice to the cloud.
+And, we’re expanding Teams beyond the workplace, making it easy to add a personal Teams account on mobile so you can stay connected with friends and family across work and life.
+Teams users generated more than 5 billion meeting minutes in a single day this quarter, and we are seeing increased usage intensity across the platform as people communicate, collaborate, and co-author content in Teams.
+Our new Microsoft Cloud for Healthcare is helping providers schedule, manage, and conduct virtual visits using Teams and engage with patients using Dynamics 365.
+The NHS in the U.K. chose Microsoft 365 to empower its 1.2 million employees with the latest productivity and collaboration tools to deliver better patient outcomes.
+More broadly, we’re seeing increased usage of Microsoft 365 and larger strategic agreements.
+Alcoa and Telstra are empowering their entire workforce – including firstline employees – with Microsoft 365 and Teams.
+Across industries, customers like 3M, CenturyLink, GE, and Providence are increasingly choosing our Microsoft 365 premium offerings for differentiated security, compliance, voice, and analytics value.
+Our Microsoft 365 E5 user base more than doubled year- over-year.
+People are turning to Windows PCs more than ever, with minutes spent in Windows 10 up more than 55 percent year-over-year.
+And, we expanded our family of Surface devices and accessories to help people work, learn, and connect from anywhere, as we create new categories that benefit the entire OEM ecosystem.
+Azure Active Directory now has more than 345 million monthly active users across more than 200,000 organizations – and we are not only securing employee identities but customer and partner identities as well.
+General Motors, for example, is using Azure Active Directory to secure interactions between its employees, dealers, and customers.
+Finally, we are helping customers protect their most sensitive information.
+And new Microsoft 365 Records Management helps customers govern data and reduce risk.
+We saw record engagement and monetization, led by strength on and off-console, as people everywhere turn to gaming to connect, socialize, and play with others.
+Stepping back, we are expanding our opportunity to empower the world’s two billion gamers to play wherever and whenever they want, on any device.
+Xbox Game Pass is seeing record subscriber growth across both console and PC and now includes content from more than 100 studios.
+And, just last week, we announced that we will bring xCloud to Xbox Game Pass, so subscribers can stream games to a phone or tablet and play along with nearly 100 million Xbox Live players around the world.
+In content, we are delivering differentiated, first and third-party content to attract and retain gamers.
+In our commercial business, increased usage, consistent execution, and continued demand for our differentiated, high-value cloud services drove another strong quarter.
+And in our consumer business, increased demand from work, learn, and play from home scenarios again benefitted our Gaming, Surface, and Windows OEM non-Pro businesses.
+We also saw weakness in small and medium business purchasing, which primarily impacted our transactional Office and Windows OEM-Pro businesses, and drove some moderation to our Office 365 commercial paid seat growth.
+Customer commitment to our cloud continues to grow.
+In FY20, we closed a record number of multi-million dollar commercial cloud agreements, with material growth in the number of $10 million plus Azure contracts.
+And on a strong prior year comparable, commercial bookings growth was ahead of expectations, increasing 12 percent year-over-year driven by consistent renewal execution and an increase in the number of large, long-term Azure contracts.
+The remaining 50 percent, which will be recognized beyond the next 12 months, increased 25 percent year-over-year, highlighting the growing long-term customer commitment to our cloud platform.
+Commercial cloud revenue grew 30 percent and 32 percent in constant currency to $14.3 billion, surpassing $50 billion for the fiscal year.
+And commercial cloud gross margin percentage expanded 1 point to 66 percent, despite revenue mix shift to Azure and significant customer engagement and usage to support remote work scenarios.
+We invested in capacity for cloud infrastructure usage, free trial offers for critical remote work scenarios, and flexible financing options across the ecosystem.
+Office 365 commercial revenue grew 19 percent and 22 percent in constant currency, in-line with expectations, and was again driven by installed base growth across all workloads and customer segments as well as higher ARPU.
+Demand for our high value security and voice components drove strong upsell to Office 365 and Microsoft 365 E5.
+This reflects the strong adoption of free trial offers we made to enable customers to quickly adapt to needed remote work scenarios, as well as some growth moderation in first-line worker and small and medium business offerings.
+Office consumer revenue grew 6 percent and 7 percent in constant currency, as stronger than expected growth in Office 365 subscriptions was partially offset by transactional weakness.
+As a result, we saw a significant quarter-over-quarter increase in Office 365 consumer subscribers, up more than 3 million to 42.7 million.
+This fiscal year total Dynamics revenue surpassed $3 billion, with over 60 percent from Dynamics 365.
+On a significant base, server products and cloud services revenue increased 19 percent and 21 percent in constant currency.
+Azure revenue grew 47 percent and 50 percent in constant currency, in line with expectations, driven by continued strong growth in our consumption-based business.
+And our on-premises server business was relatively unchanged and grew 1 percent in constant currency, ahead of expectations, driven by strong renewal execution and the continued demand for our hybrid and premium solutions.
+In OEM Pro, this benefit was more than offset by the impact from small and medium businesses in May and June.
+Windows Commercial products and cloud services revenue grew 9 percent and 11 percent in constant currency, driven by Microsoft 365 and the continued demand for our advanced security solutions.
+And in Gaming, revenue increased 64 percent and 66 percent in constant currency, significantly ahead of expectations, with the continued benefit from play-at-home scenarios driving record levels of engagement and monetization across the platform, as well as a significant increase in console sales.
+Xbox content and services revenue increased 65 percent and 68 percent in constant currency, with strong growth in third party transactions, GamePass subscribers, and Minecraft.
+In-line with expectations, capital expenditures including finance leases were $5.8 billion, up 8 percent year-over-year to support growing usage and demand for our cloud services.
+Cash flow from operations was $18.7 billion and increased 16 percent year-over-year driven by healthy cloud billings and collections.
+Now, before we turn to our outlook, I'd like to update you on a change in accounting estimate to the useful life of server and network equipment assets in our cloud infrastructure.
+In our commercial business, given our differentiated position in growth markets, we expect continued commitment to our cloud platform, as well as strong usage and consumption growth.
+In our consumer business, we expect some continued benefit from work, learn, and play from home scenarios in Gaming and Surface, though at a more moderated rate as stay at home guidelines ease in many places around the world.
+However, we expect the small and medium business weakness we saw in Q4 to continue, which will impact transactional sales, primarily in Office and Windows OEM.
+Excluding this impact, continued improvement in Azure IaaS and PaaS gross margin percentage will be mostly offset by revenue mix shift to Azure.
+And, on a dollar basis, we expect capital expenditures to be roughly in line with last quarter to support growing usage and demand for our cloud services.
+In Office commercial, on a strong prior year comparable, revenue growth will again be driven by Office 365, with continued upsell opportunity to E5.
+In Office consumer, we expect revenue to be relatively unchanged year-over-year as subscription growth will be offset by a decline in our transactional business.
+For Intelligent Cloud, we expect revenue between $12.55 and $12.8 billion.
+In Azure, revenue growth will again be driven by our consumption-based business.
+And in our per-user business, we expect continued benefit from Microsoft 365 suite momentum, though growth will again be impacted by the increasing size of the installed base.
+In More Personal Computing, we expect revenue between $10.95 and $11.35 billion.
+In our Windows OEM business, we expect revenue to decline in the low teens range, impacted by the strong prior year comparable that benefited from the end of support for Windows 7, as well as the continued slowdown in small and medium businesses.
+In Windows commercial products and cloud services, we expect healthy double-digit growth from continued Microsoft 365 momentum and the value of our advanced security solutions.
+And in Gaming, we expect revenue growth in the high teens with continued strong user engagement across the platform.
+We will continue to expand our cloud infrastructure to support the growing customer usage and demand across our differentiated cloud offerings.
+The thing that at least we have learned, I would say, in the last five months is that digital technology is no longer viewed as just new project starts but is becoming perhaps the best key for business resilience.
+I think about resilience and all of sort of what Microsoft can do to help any business be more resilient, whether it's remote everything, whether it's about the ability to simulate anything, automate everything.
+I was just wondering, Satya and Amy, just given the success that you guys are having, expanding your footprint with customers, is there anything that you could say that – you know, some people talk about net expansion rates, right?
+Just wondering if you guys have a way of helping investors think about kind of the net expansion rate from your existing customers on an annual basis, just given the success you're having with things like Azure hybrid benefits and migrations to the cloud.
+I mean, even in this quarter, if you think about the number of customers who started with Teams, built a Power Application, in fact, had GitHub-powered dev ops on top of that code base, and then used Azure Synapse all in one solution.
+And number two, are we adding workloads within customers?
+And I think you'll increasingly hear us talk about the number of customers who are purchasing multiple components of the cloud, whether that's Microsoft 365, Azure, the Power Platform Satya just talked about, developer SaaS or GitHub, and then numerous cloud opportunities within Dynamics 365.
+And do we feel like we still have real to add additional cloud?
+Amy, cash flow from operations has been an area of concern across the software industry, with some companies reporting payment delays, requests for extended payments, etcetera.
+Amy and Satya, you noticed the strong growth in the E5 SKU around Office 365 over the last year.
+And third, think about business process and workflows dominating inside of the scaffolding of Teams, and then building it with the same compliance and security base of Microsoft 365, absolutely.
+So, first of all, Microsoft 365 has entered many new categories.
+And so, with that, and the architectural coherence of Microsoft 365, because in some sense, the complexity, security risk, management cost, these are all real things for enterprises, especially if you've got to go remote everything.
+AMY HOOD: No, I think the other component, Satya, that I would mention is really the transition we've seen from just Office 365, E5, to Microsoft 365, E5, with the entirety of the value proposition.
+And again, in Q4, we saw even more transition in the SKU mix to the Microsoft 365 SKU than just simply the Office SKU.
+I'm curious how you would assess the net impact of the current environment on Azure, inclusive of potentially lower consumption growth among highly impacted industries, and of course, the perceived moderation in EMS, offset by some acceleration in digital transformation or broadly, among other customers.
+In addition, I was curious if you're seeing more pay-as-you- go-type arrangements for Azure than you were previously.
+Overall, as I said, even in industries that have been impacted economically, one of the things is getting to the new efficient frontier of cloud economics is one way for them to, in fact, do better as they get into recovery, right?
+For sure, pay-as-you-go on Azure is going to increase and is increasing, and we are fundamentally focused on wherever people want to have these long-term commitments, as well as pay-as-you-go customers.
+What we want to be able to stay focused on is, quarter-over-quarter, consumption grow by adding value to customers’ digital transformation projects.
+Can you speak to the evolution in cloud capex, productivity and utilization trends, your capacity planning process and lead times to stand up incremental capacity?
+And as you can imagine, with the Teams surge in usage, along with other workloads surges, we look forward to continuing to be able to invest and meet that demand ahead of the curve, in addition to what Satya mentioned, which is continuing to enter new regions where we see opportunities.
+So, for me, the way to think about it is you see the cloud revenue growth continuing, you see strong consumption and usage growth, and you should expect cloud capex to follow a pretty short order.
+How do you about that cycle of growth that you get out of gaming in a field where we should be getting more stable with more recurring revenue?
+This gaming TAM is much more expensive than what we participated in, even with all of the success we had with Xbox.
+We think, going forward, Xbox with the approach we are taking has much more of an ability to reach the 2+ billion gamers out there, and we're in the early days of building that out.
+Obviously, we have our store that monetizes super well, as well as we have the Game Pass subscription.
+And we saw that in the Game Pass subscription growth, again, this quarter, building on that base.

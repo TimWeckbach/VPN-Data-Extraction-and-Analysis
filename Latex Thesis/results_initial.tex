@@ -12,18 +12,45 @@ However, distinguishing the signal from the noise reveals a clear taxonomy of en
     \centering
     \begin{tabularx}{\textwidth}{l X c}
         \toprule
-        \textbf{Category} & \textbf{Description} & \textbf{Frequency (Est.)} \\
+        \textbf{Category} & \textbf{Description} & \textbf{Frequency} \\
         \midrule
-        Technical Blocking & Measures to detect/block VPNs, proxies, and IP masking. & High \\
-        Account Action & Punitive measures (suspension, termination) for violations. & Med \\
-        Content Licensing & Geographic restrictions based on IP rights. & High \\
-        User Workaround & Explicit descriptions of trying to bypass blocks. & Low \\
-        Price Discrimination & Explicit mentions of regional pricing differences. & Low \\
+        Content Licensing & Geographic restrictions based on IP rights. & 857 \\
+        Regulatory Compliance & Compliance with local laws and regulations. & 743 \\
+        Account Action & Punitive measures (suspension, termination) for violations. & 280 \\
+        Price Discrimination & Explicit mentions of regional pricing differences. & 197 \\
+        Technical Blocking & Measures to detect/block VPNs, proxies, and IP masking. & 106 \\
         \bottomrule
     \end{tabularx}
     \caption{Distribution of Strategic Categories in ToS Documents}
     \label{tab:category_dist}
 \end{table}
+
+\subsection{Service-Specific Analysis}
+The enforcement strategies vary significantly across different service providers. Figure \ref{fig:service_dist} illustrates the proportional distribution of categories for each service.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/service_distribution_ratios.pdf}
+    \caption{Proportional Distribution of Enforcement Categories by Service}
+    \label{fig:service_dist}
+\end{figure}
+
+\subsection{Temporal Evolution of Enforcement}
+To understand how these strategies have evolved over time, we analyzed the frequency of category specific clauses across the dataset's years. Figure \ref{fig:timeline_all} shows the aggregate trend, while Figure \ref{fig:timeline_service} breaks this down by service provider.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/category_timeline_all.pdf}
+    \caption{Temporal Evolution of Category Frequencies (Aggregate)}
+    \label{fig:timeline_all}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/category_timeline_per_service.pdf}
+    \caption{Temporal Evolution of Category Frequencies by Service}
+    \label{fig:timeline_service}
+\end{figure}
 
 \subsection{High-Confidence Findings: The "Smoking Gun" Clauses}
 The Gemini 3 Flash model identified specific, high-confidence clauses that serve as the "teeth" of the coercive strategy. For example, clauses explicitly stating "You may not use any technology to obscure or disguise your location" were consistently categorized as \textit{Technical Blocking} with $>0.95$ confidence. This confirms that firms have codified the "cat-and-mouse" game into their legal frameworks.

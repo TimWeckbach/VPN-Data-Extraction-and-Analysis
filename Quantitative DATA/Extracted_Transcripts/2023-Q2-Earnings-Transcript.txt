@@ -1,0 +1,58 @@
+This quarter we shared great progress at I/O, Brandcast and Google Marketing Live, and we’re looking forward to Cloud Next in August.
+We delivered solid performance in Search and YouTube, and ongoing strong growth in Cloud, where we remain focused on long-term value creation.
+Ads will continue to play an important role in this new Search experience.
+We have more than 20 years of experience serving ads relevant to users’ commercial queries and SGE enhances our ability to do this even better.
+Earlier this year, we shared that revenues across YouTube products were nearly $40 billion for the 12 months ending in March.
+I’m really pleased with how YouTube is growing audiences and driving increased engagement.
+YouTube Shorts are now watched by over 2 billion logged-in users every month, up from 1.5 billion just one year ago.
+Late last year, we announced over 80 million YouTube Music and Premium subscribers.
+Google Services revenues of $66 billion were up 5% year-on-year.
+In Google Advertising, Search & Other revenues grew 5% year-on-year, led by solid growth in the Retail vertical.
+In YouTube Ads, revenues were up 4% year-on-year, driven by growth in brand, followed by direct response, reflecting further stabilization in advertiser spend.
+Google Other revenues were up 24% year-on-year, led by strong growth in YouTube subscriptions revenues.
+Let’s now take a few minutes to cover our three key priority areas: Google AI, Retail and YouTube, which I've laid out in prior quarters as clear opportunities for long-term advertising 5 growth.
+Q2 was a big quarter for Google AI and our Ads products.
+In fact, today, nearly 80% of advertisers already use at least one AI-powered Search Ads product.
+Our approach to AI in ads remains grounded in understanding what drives real value for businesses right now and what’s most helpful for users.
+Advertisers tell us they’re looking for more assistive experience to get set up with us faster.
+So at GML, we launched a new conversational experience in Google Ads, powered by a LLM tuned specifically from ads data to make campaign construction easier than ever.
+Advertisers also tell us they want help creating high-quality ads that work in an instant, so we’re rolling out a revamped asset creation flow in Performance Max that helps customers adapt and scale their most successful creative concepts in a few clicks.
+Then to make it easier for advertisers to optimize visual storytelling and drive consideration in the mid-funnel, we’re launching two new AI-powered ad solutions -- Demand Gen and Video View Campaigns -- and both will include Shorts inventory.
+Sundar talked earlier about SGE and our early experiments with new ad formats.
+We’re in active conversations with advertisers, publishers and partners to get their input on how to make these solutions work best for them and are excited to test and evolve this experience as we learn more.
+This drove increases across online sales, store visits and in-store sales, resulting in 87% year-over-year growth in omni revenue from Google Ads, and led to one of the largest revenue weeks ever for Ace store owners.
+Rich, visual, engaging content is a win-win for both consumers and merchants.
+I've said it before, I’ll say it again: YouTube starts with our creators, and it's their success and our multiformat strategy that will drive YouTube’s long-term growth.
+In prior quarters, I've laid out how we think about this: enabling our creators to make a living on our platform, with more formats and awesome tools, leads to more content, which leads to quality consumption of video content -- another big focus of the team -- and this leads to better opportunities for monetization and for advertisers to support this incredible ecosystem.
+As we think about growth, we’re focused on Shorts, Connected TV and our Subscription Offerings, all of which grew nicely this quarter.
+Watchtime and monetization are moving in the right direction.
+Last year we introduced ads on Shorts to help drive performance in direct response campaigns via Video Action, Performance Max and App Campaigns.
+As of Q2, brand advertisers can start testing Shorts ads in awareness campaigns.
+It leaned into Video Reach campaigns and new creative over a 10-day test to drive a 21% increase in unique users reached from Shorts and In-feed, all at a more efficient CPM.
+Substantial engagement by viewers and ROI for advertisers is driving monetization of the Living Room.
+7 At Brandcast, we announced two new ad offerings for streaming.
+First, 30-second unskippable ads are coming to YouTube Select, which is landing 70%+ of impressions on the TV screen.
+30-second ads are a TV industry staple, and now YouTube is bringing our advanced audience capabilities and unparalleled reach to the format.
+Looking at YouTube holistically, according to our measurement partners -- Nielsen, TransUnion, and Ipsos MMA -- YouTube delivers higher ROI than TV and other online video on average.
+As part of a multiyear partnership to optimize its YouTube strategy, Hershey’s brands have been tapping into CTV, efficient AI-powered formats and made-for-platform creative, leading to YouTube becoming its number one ROI-driving media partner, producing a 65%+ increase in ROI from 2018-2023.
+One last highlight that bridges the power of YouTube with our continued efforts to bring the best across Google to our partners.
+Discovery, we expanded our multiyear relationship across our entire Android ecosystem, including partnering on the launch of Max, a deepened, mutually-beneficial relationship on Google TV and plans to work together on new surfaces.
+YouTube’s expanded deal for Max, inclusive of a Max/NFL Sunday Ticket bundle on YouTube TV, also underscores our joint commitment to bring the highest quality content and experiences to our customers.
+Growth here was driven by Content Acquisition Costs, primarily for YouTube subscription offerings, followed by Hardware costs associated with Pixel family launches in the second quarter.
+Google Search and Other advertising revenues of $42.6 billion in the quarter were up 5%, led by growth in retail.
+YouTube advertising revenues of $7.7 billion, were up 4% driven by brand advertising, followed by direct response, reflecting further stabilization in spending by advertisers.
+Network advertising revenues of $7.9 billion were down 5%.
+Other Revenues were $8.1 billion, up 24%, reflecting growth in YouTube non-advertising revenues, primarily from subscription growth in YouTube Music Premium and YouTube TV; followed by growth in Hardware revenues, primarily driven by the launch of the Pixel 7a in the second quarter.
+Turning to our outlook for the business, with respect to Google Services, first, within Advertising, we were pleased with the acceleration of Search advertising revenue growth in the second quarter.
+And in YouTube, we saw ongoing signs of stabilization in advertiser spending.
+We are prioritizing product focus on increasing quality consumption of video content with both Shorts and in the Living Room, which is translating into improved monetization.
+Second, within Other Revenues, in our YouTube subscription products, the sustained strong growth in revenues reflects significant subscriber growth.
+You may have seen that last week we increased subscription prices for YouTube Music and Premium which underscores the value of the products.
+First, the benefit from an acceleration in Search advertising revenue growth in the second quarter.
+Users have commercial needs and they are looking for choices, and there are merchants and advertisers looking to provide those choices.
+Similarly, Duet AI and Google Cloud, again, allows us to go back to our installed base and engage in deeper conversations.
+We talked about the DR and brand side on the YouTube side.
+For advertisers, they provide us with a business goal, a set of assets, and we can then take care of the rest to meet consumer demand and really deliver on advertiser ROI.
+We're really helping advertisers here make better decisions, solve problems, enhance creativity and I covered this earlier.
+For example, we launched a new conversational experience in Google Ads, the asset creation flow.
+This is a key reason why we launched our Google Ads AI Essentials, which was a big announcement at GML.

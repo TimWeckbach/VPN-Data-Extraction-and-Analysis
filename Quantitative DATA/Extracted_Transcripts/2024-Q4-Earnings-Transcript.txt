@@ -1,0 +1,60 @@
+In Cloud and YouTube, we said at the beginning of 2024 that we expected to exit the year at a combined annual revenue run rate of over $100 billion.
+Then I'll touch on Cloud, YouTube, Platforms and Devices and Waymo.
+Now, let me turn to key highlights from the quarter across Cloud, YouTube, Platforms and Devices, and Waymo.
+In Q4, we introduced Google Agentspace, which helps enterprises synthesize data with Google-quality search, create Gemini-powered agents and automate transactions for employees.
+Nielsen data shows YouTube continues to be number one in streaming watchtime in the U.S., with our share of streaming now at a record high.
+We integrated podcasts into the core YouTube experience, particularly with video.
+We are now the most frequently used service for consuming podcasts in the U.S., according to a recent Edison report.
+We now have over 250,000 creators in the YouTube Shopping affiliate program in the U.S. and Korea alone.
+We expanded YouTube Shopping at the end of last year to three additional countries, allowing even more creators to share their favorite products with fans and grow their businesses.
+Google One's performance has been outstanding and is one of our fastest growing subscription products in terms of subscribers and revenue growth.
+Google Services revenues were $84 billion for the quarter, up 10%, driven primarily by 11% year-on-year growth in Advertising revenues.
+Strong growth in Search and YouTube advertising was partially offset by year-on-year decline in Network revenues.
+The 14% growth in YouTube advertising revenues was driven by strong spend on U.S. election advertising, with combined spend from both parties almost doubling from what we saw in the 2020 elections.
+We're making these benefits available to more consumers.
+By offering new ways for people to search, we're expanding commercial opportunities for our advertisers.
+This contributed to 20% year-on-year revenue growth [from] travel advertisers across Cyber Monday and Travel Tuesday.
+As an example, Petco used Demand Gen campaigns across targeting, creative generation and bidding to find new pet parent audiences across YouTube.
+They achieved a 275% higher return on ad spend and a 74% higher click through rate than their social benchmarks.
+On media buying, we made YouTube Select Creator Takeovers generally available in the U.S. and will be expanding to more markets this year.
+Based on the Nielsen meta analysis of marketing mixed models, on average, Google AI-powered video campaigns on YouTube deliver 17% higher return on advertising spend than manual campaigns.
+Turning to YouTube, we saw robust revenue growth backed by continued growth in watchtime across ad-supported and Premium experiences.
+We'll make it available to creators on YouTube in the coming months.
+We continue to invest in helping YouTube creators work with brands.
+All advertisers globally can now promote YouTube creator videos in ad campaigns across all AI-powered campaign types in Google Ads, and creators can tag partners in their brand videos.
+In 2024, the monetization rate of Shorts relative to instream viewing increased by more than 30 percentage points in the U.S., and we expect to make additional progress in 2025.
+YouTube makes multi-year investments to tap into shifting consumer behavior.
+In 2024, people watched over 400 million hours of podcasts each month on living room devices alone.
+YouTube is now the most popular service for podcast listening in the U.S., according to Edison.
+Other Cost of Revenues was $25.8 billion, up 9%, with the increase primarily driven by content acquisition[s] costs, primarily for YouTube, followed by depreciation due to increasing investments in our technical infrastructure.
+Growth in Content Acquisition [Costs] and depreciation were partially offset by a year-over-year decline in hardware costs due to the shift in timing of our Made by Google launches to the third quarter 2024, compared to the fourth quarter of 2023.
+Turning to segment results, Google Services revenues increased 10% to $84.1 billion, reflecting the strong momentum across Google Search and YouTube Ads.
+Google Search & Other Advertising Revenues increased by 13%, to $54 billion.
+YouTube advertising revenues increased 14% to $10.5 billion, driven by Brand, followed by Direct Response advertising.
+Network advertising revenues of $8 billion were down 4%.
+In the fourth quarter, the year-over-year comparison in all of our advertising revenue lines was impacted by the increasing strength in advertising revenues in Q4 2023, in part from APAC-based retailers.
+Subscription, Platforms and Device revenues increased 8% to $11.6 billion, primarily reflecting growth in subscription revenues, partially offset by the shift in timing of the launch of our Made by Google devices to the third quarter compared with the fourth quarter in 2023.
+We continue to have significant growth in our subscription products, primarily due to increase in the number of paid subscribers across YouTube TV, YouTube Music Premium and Google One.
+As for our segments, [in] Google Services, advertising revenues in 2025 will be impacted by lapping the strength we experienced in the Financial Services vertical throughout 2024.
+YouTube and Cloud revenues combined ended the year at $110 billion annual run rate.
+We've been using AI to improve the performance of our Ads business for well over a decade, and Cloud is generating billions in annual revenues from AI Infrastructure and Generative AI Solutions.
+We're also excited about the potential to bring new experiences to users that will provide additional opportunities for monetization.
+Can you sort of walk us through your big-picture vision over the next few years of how you think about your Search products continuing to evolve to stay at the top of the funnel and drive more engagement and monetization for your users and advertisers?
+Philipp, can you just talk more about the expanded rollout of ads on AI Overviews and perhaps what additional things you may have learned in 4Q?
+And is it still fair to say that you're monetizing nearly on par with existing Search?
+And as you know, we recently launched the ads within AI Overviews on mobile in the U.S., which built on our previous rollout of ads above and below.
+In December, we saw roughly, I mentioned this, 13% more daily active users in Google Shopping in the U.S., compared to the same period last year.
+And we can repurpose capacity, whether it's through Google Services or Google Cloud to support.
+And I think for us, we have a clear sense of additional use cases we can start to tackle for our users in Google Search.
+Is that kind of the same as when you guys talk about lapping the Asia outbound advertiser channel?
+And then second, on YouTube, thinking about kind of maybe a move from more professional content to user-generated content, what is that doing for your usage, and how do you think about the margin impact from that?
+Look, YouTube Ads overall had a very healthy growth in Q4, driven by Brand, followed by Direct Response.
+And we've always said creators are at the center of YouTube's success here.
+Today, we have more than three million channels that are actually in the YouTube Partner Program, which is really an incredible program.
+Today, it's really a premium subscription offering, or a free offering.
+Gemini Live, I think, has been definitely a hit with users, as well as for our advanced users, Gemini Deep Research.
+On the monetization side, obviously for now, we are focused on a free tier and subscriptions.
+But obviously, as you've seen in Google over time, we always want to lead with user experience and we do have very good ideas for native ad concepts, but you will see us lead with the user experience.
+But I do think we are always committed to making the products work and reach billions of users at scale, and advertising has been a great aspect of that strategy.
+And so just like you've seen with YouTube, we'll give people options over time.
+But for this year, I think you'll see us be focused on the subscription direction.

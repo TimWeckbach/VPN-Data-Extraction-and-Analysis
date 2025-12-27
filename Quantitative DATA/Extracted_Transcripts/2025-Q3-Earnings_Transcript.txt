@@ -1,0 +1,58 @@
+In parallel, we've built for the long term and diversified, with successful businesses in Cloud, YouTube and Subscriptions.
+And we crossed 300 million paid subscriptions, led by growth in Google One and YouTube Premium.
+Today, I'll discuss progress in our full-stack approach to AI, and then share highlights from Search, Cloud, YouTube and Waymo.
+Search 3 and its AI experiences are built to highlight the web, sending billions of clicks to sites every day.
+Over 70% of existing Google Cloud customers use our AI products, including Banco BV, Best Buy, and FairPrice Group.
+In the living room, YouTube has remained number one in streaming watch time in the U.S. for more than two years, according to Nielsen.
+Last month marked YouTube's first time as a live NFL broadcaster.
+This exclusive global broadcast, live from Brazil, drew more than 19 million fans and set a new record for most concurrent viewers of a live stream on YouTube.
+In the US, Shorts now earn more revenue per watch hour than traditional in-stream on YouTube.
+At our Made on YouTube event, we rolled out a number of AI-powered features that are helping creators supercharge creation and build their businesses.
+We're also using AI to expand monetization, automatically identifying products to make their videos more shoppable.
+I'll quickly cover performance for Google Services for the quarter, then structure the rest of my remarks around the great progress we are delivering across Search, Ads, YouTube and Partnerships.
+Google Services revenues were $87 billion for the quarter, up 14% year-on-year, driven by accelerated growth in Search and YouTube, partially offset by a year-on-year decline in Network revenues.
+Using our most advanced AI models, we can understand and predict intent like never before, unlocking entirely new commercial pathways to provide valuable new consumer connections and helping us monetize even more efficiently.
+By delivering the most relevant ad across surfaces and matching advertisers against additional queries they weren't reaching before, AI Max helps advertisers discover new customers at the exact moment they need their product or service.
+Moving to YouTube, where we saw accelerated revenue growth.
+Our recommendation systems are driving robust watch time growth in our key monetization areas like Shorts and Living Room.
+On direct response, we're excited about the growth in revenue we're seeing, especially from small and medium advertisers adopting Demand Gen. 7 We also improved performance on Demand Gen, with over 100 launches helping to increase conversion value by more than 40% for advertisers using target-based bidding on YouTube.
+The Retail vertical continues to lead our growth on YouTube, with Demand Gen helping us further monetize shopping-related categories.
+Looking at the Living Room, our long-term bet, more advertisers are adopting interactive, direct response ads, leading to an annual revenue run rate exceeding $1 billion globally for this format.
+For our viewers, we continue to give fans greater access across sports, while tapping into the best of YouTube's product innovation and creator-led content.
+Brands loved the opportunity, and we sold all our ad inventory within a couple of weeks.
+Looking at creators, a significant force behind the thriving YouTube creator economy is the collaboration between creators and brands.
+At the same time it decreased the cost per lifted user by 50% when compared to the next most efficient ad.
+Ending on YouTube with our Subscriptions products, we're also seeing momentum with strong growth in offerings such as YouTube Music & Premium and YouTube TV.
+Our Sales teams use Gemini enriched with Ads knowledge to streamline customer interactions.
+Revolut is also increasing its presence on YouTube, adopting Veo 3 for personalized creatives, making Google a key ads partner for delivering growth and launching new markets.
+And, of course, a huge thanks to all of you as we celebrate 25 Years of Google Ads.
+We had an outstanding quarter in Q3continuing the strong momentum we've had throughout the year, delivering double-digit revenue growth across Search and YouTube advertising; Subscriptions, Platforms and Devices; and Google Cloud.
+Other Cost of Revenues was $26.5 billion, up 16%, with the increase primarily driven by content acquisition costs, largely for YouTube, followed by depreciation, and other technical infrastructure operations costs.
+Google Services revenues increased 14% to $87.1 billion, reflecting strength in Google Search, YouTube advertising, and Subscriptions.
+Google Search and Other advertising revenues increased by 15% to $56.6 billion, representing another robust quarter with continued growth across all major verticals, with the largest contributions from Retail and Financial Services.
+YouTube advertising revenues increased 15% to $10.3 billion, driven by direct response advertising, followed by brand.
+Network advertising revenues of $7.4 billion were down 3%.
+Subscriptions, Platforms and Devices revenues increased 21% this quarter to $12.9 billion, driven by very strong growth in both YouTube and Google One subscriptions.
+As for our segments, in Google Services, year-over-year comparisons in Advertising will be negatively impacted by the strong spend on U.S. elections in the fourth quarter of 2024, particularly on YouTube.
+This translated into strong momentum in Search; YouTube Ads; Subscriptions, Platforms and Devices; and Cloud, resulting in our first $100 billion-plus quarter.
+And I think the possibility, as you said, of Gemini, particularly with the multimodal experience, as well as services like YouTube, I think there's a real opportunity to make the in-car experience dramatically better.
+We're now scaled to over two billion users here, and we're continuing to expand ads in AI Overviews in English to more countries across desktop, mobile, and so on.
+And as I've shared before for AI Overviews, even at our current baseline of ads, below and within the AI response, overall, we see the monetization at approximately the same rate.
+I think as I've said on a prior call, we manage the business to drive great outcomes for our users and an attractive ROI for our advertisers.
+So one good example is Shorts, which has a lower revenue share than in-stream, it helps to improve some of our gross margins.
+Obviously, we can see the YouTube Advertising revenue number in the reported results.
+Can you reflect a little bit about the scaling of the subscription side of YouTube offerings and how the two parts together maybe represent an interesting framework in thinking about the monetization side of YouTube 16 increasingly being a mix of both Ads and Subscriptions?
+Philipp Schindler, SVP and CBO, Google: And to the second part of your question, look, just taking a quick step back, you know we often describe YouTube's business as a flywheel.
+Obviously, it first all starts with the creators, and we have significantly invested here to be the place that YouTube creators really call their home.
+YouTube has billions of monthly logged in users, and every day, people watch billions of hours of video.
+So, on the monetization side, YouTube's business is really powered, I would say, let's call it a twin engine monetization strategy, combining its advertising business and its growing subscription services.
+Both YouTube Ads and Subscriptions saw strong growth this quarter.
+And so looking at YouTube Music & Premium, users are on average delivering more value to creators, to music, media partners, and YouTube itself than even ad-supported users do.
+So, in other words, on average, a YouTube Music & Premium subscriber generates a meaningful, high-gross profit than they were as simply an ad-supported users.
+And fans come from all over the world, and they send this engagement through Ads and Subscription, which generates YouTube's revenues, and funds, is what I started with, these creators here, and this drives more viewership and engagement and so on.
+And as I've just said before, for the AI Overviews, even at our current baseline of ads, whether above, below, and within the AI response, overall, we see the monetization at approximately the same rate, and this is a great baseline for further innovation.
+And as I also mentioned, we're testing ads in AI Mode.
+So we're excited to see how the investments are helping advertisers as well.
+About 20% of Google's Search queries are commercial historically, and you talked a bunch on this call about how AI Overviews are kind of expanding the breadth of queries.
+Could you talk about how new products on the monetization side, like AI Max, are potentially increasing the percent of commercial queries?
+And I personally also see, this is what I just said in my last remark, that I think over time, there's an opportunity to actually take, let's say, queries that are not fully commercial but could have an adjacent commercial relationship, to basically expand this into more attractive ads offerings, while creating a really interesting user experience at the same time.

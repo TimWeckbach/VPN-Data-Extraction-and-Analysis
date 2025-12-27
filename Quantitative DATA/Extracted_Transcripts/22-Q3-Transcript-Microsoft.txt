@@ -1,0 +1,131 @@
+It was a record third quarter, driven by the continued strength of the Microsoft Cloud, which surpassed 23 billion dollars in revenue, up 32 percent year-over-year.
+Across the tech stack, we are expanding our opportunity and taking share as we help customers differentiate, build resilience, and do more with less.
+We are building a distributed computing fabric – across the cloud and the edge – to help every organization build, run, and manage mission-critical workloads anywhere.
+This quarter, we helped more new customers than ever simplify and accelerate their cloud migrations.
+Leaders in every industry – from Blackrock, to Bridgestone, to Lufthansa – are all moving mission-critical workloads to Azure.
+And we are the market leader for customers’ SAP workloads in the cloud.
+Overall, we are seeing larger, more strategic Azure commitments, from industry leaders, including Boeing, Kraft Heinz, US Bank, and Westpac, who all chose our cloud to accelerate their digital transformations.
+The number of 100 million dollar-plus Azure deals more than doubled year-over-year.
+And we’re seeing strong adoption of Purview, as we help organizations govern, protect, and manage their data estate across platforms and clouds.
+From Deutsche Boerse to EY, customers in every industry are using our end- to-end data platform.
+In AI, we continue to see strong usage of Azure Machine Learning.
+And our Azure Open AI Service brings together advanced language models with the enterprise capabilities of Azure, helping companies like CarMax turn customer reviews into customized content for shoppers.
+From Azure DevOps and GitHub, to Visual Studio, we have the most comprehensive and loved developer SaaS service.
+Visual Studio has more than 31 million monthly active users, including most of the Fortune 500.
+And GitHub usage is increasing among both independent developers and startups, as well as the world's most established enterprises.
+In fact, Mercedes Benz, for example, is using GitHub Enterprise to provide a unified development platform for more than 20,000 employees to build, ship, and maintain software.
+Power Platform has become the leading business process automation and productivity suite for domain experts in every industry.
+Power Platform surpassed two billion dollars in revenue over the past twelve months, up 72 percent year-over-year, making it one of our fastest growing businesses, at scale.
+Power Apps is the market leader in low code/no code app development, and Power BI has more than 200,000 customers.
+Dynamics 365 is growing faster than the business applications market overall.
+Businesses like Heineken and Siemens are turning to Dynamics 365 to drive and deliver more consistent and personalized customer engagement and service.
+We’re leading innovation in the new industrial metaverse to help companies optimize their operations using technologies such as IOT, Digital Twins, Connected Spaces, and Mixed Reality applications And we’re further differentiating the Microsoft Cloud by bringing together Dynamics 365, Teams, and Synapse to usher in a new era of collaborative applications that transform every business function and process.
+When it comes to industry, our six industry clouds, are helping customers speed time to value.
+Our Cloud for Healthcare was front and center at HIMSS last month, where we introduced Azure Health Data Services to unify disparate clinical, imaging, and medtech data.
+And creators are increasingly turning to the platform to establish their voices and grow their communities, using tools like Newsletters to share content they are passionate about.
+No company is better positioned to meet this need than Microsoft, with Microsoft 365 and Teams.
+Microsoft 365 customers can save as much as 60 percent, compared to a patchwork of single point identity, productivity, collaboration, and meetings solutions.
+Teams is the leading platform for collaborative apps.
+From Asana to Zendesk, there are over 1,000 third party apps available via the Teams app store.
+And companies in every industry, including CBRE, CVS Health, and the National Health Service in the United Kingdom, have built custom line of business apps within Teams, bringing business process directly into the flow of work.
+And, we’re adding new growth engines to meet the demands of hybrid work, with Teams Rooms, Teams Phone, and Microsoft Viva.
+And Viva has more than 10 million monthly active users at companies like Blum, Cerner, and Marks & Spencer.
+All this innovation is driving growth across Microsoft 365.
+Organizations across the private and public sector, including American Family Insurance, the Queensland Government, and Telefonica, are increasingly choosing our premium E5 offerings for advanced security, compliance, voice, and analytics.
+The number of use cases is increasing, as is the amount of time spent on PCs.
+And enterprises are adopting Windows 11 at a faster pace than previous releases.
+With Windows 365, we’re bringing the power of Azure computing to Windows computers, enabling businesses like Lands’ End, SES, and Xerox to stream the full Windows experience to any employee device.
+New integrations between Windows 11 and Windows 365 will make it possible to switch between a Cloud PC and a local PC with a single click.
+And we continue to help organizations like AIG, Grant Thornton, and Sage shift their on-premises virtualization services to the cloud with Azure Virtual Desktop.
+In consumer, Windows is key to curating our content and services to help every person with their everyday tasks, from browsing and searching, to learning, gaming, and shopping – all with security and privacy built-in.
+We are seeing strong engagement, with nearly 500 million monthly active users of our personalized content feed, Microsoft Start.
+And our browser, Microsoft Edge, continues to gain share as we help people save money and shop securely.
+Security is a top priority for every organization undergoing a digital transformation.
+And, we deliver end-to-end solutions spanning security, compliance, identity, device management, and privacy, across clouds and platforms, informed by 24 trillion threat signals each day.
+Multi-cloud, multi-platform support is central to our approach.
+In security, we are the only cloud provider with native multi-cloud protection for the industry’s top three cloud platforms.
+In identity, we now provide permissions management across clouds.
+Azure Active Directory is the undisputed market leader, with more than 550 million monthly active users.
+And we’re expanding to new market segments, with Microsoft Defender for Business, which helps keep small businesses secure.
+All up, the number of customers who trust our security solutions grew nearly 50 percent year over year to 785,000, including Citrix, Domino’s Pizza, Fujitsu, Heineken, and Petronas, who rely on us to protect their multi-cloud infrastructure.
+And with Xbox Cloud Gaming, we are redefining how games are distributed, played, and viewed.
+Our Game Pass library now includes hundreds of titles across PC and console, including more games from third party publishers than ever before.
+And, with Azure, we are building the best cloud for game of all sizes to build, host, and grow their games.
+New capabilities speed time to development and to help connect players across platforms.
+Azure gaming revenue fiscal year to date increased 66 percent.
+In closing, we are entering a new era where every company will become a digital company.
+Our portfolio of durable digital businesses and diverse business models, built on a common tech stack, position us well to capture the massive opportunities ahead.
+In our commercial business, healthy demand for our differentiated hybrid and cloud offerings together with excellent execution by our sales teams and partners drove increased commitment to our platform as well as higher usage of our services that Satya mentioned earlier.
+Our on-premises transactional licensing revenue, across both the Office and Server businesses, was more negatively impacted than expected due to the transition from our Open License program to our Cloud Solution Provider program.
+Microsoft Cloud revenue was $23.4 billion and grew 32% and 35% in constant currency, again ahead of expectations.
+Excluding the impact from the change in accounting estimate for useful lives, Microsoft Cloud gross margin percentage increased roughly 3 points driven by improvement across our cloud services, partially offset by sales mix shift to Azure.
+In our consumer business, as you heard from Satya, we saw market share gains across PCs, gaming consoles, and our Edge browser.
+Better than expected results across Office 365, LinkedIn, and Office consumer were offset by impacts from incremental FX, the Open Licensing transition, Russia, as well as lower-than-expected results in Dynamics.
+Office 365 commercial revenue increased 17% and 20% in constant currency, driven by installed base expansion across all workloads and customer segments, as well as higher ARPU from continued momentum in E5 revenue.
+Paid Office 365 commercial seats grew 16% year-over-year to nearly 345 million, with continued growth in our small and medium business and frontline worker offerings.
+And nearly 45% of our Office 365 commercial seats were purchased through Microsoft 365.
+Office consumer revenue grew 11% and 12% in constant currency, ahead of expectations, driven by continued momentum in Microsoft 365 subscriptions, which grew 16% to 58.4 million.
+Dynamics revenue grew 22% and 25% in constant currency driven by Dynamics 365, which grew 35% and 38% in constant currency, substantially faster than the market although a bit lower than expected as we focus on stronger execution on our recent investments.
+Excluding the impact of the change in accounting estimate, gross margin percentage increased roughly 2 points driven by improvement across all cloud services.
+Overall, server products and cloud services revenue increased 29% and 32% in constant currency.
+Azure and other cloud services revenue grew 46% and 49% in constant currency, ahead of expectations, driven by continued strength in our consumption-based services.
+In our on-premises server business revenue increased 5% and 7% in constant currency, ahead of expectations driven by healthy demand for our hybrid offerings partially offset by the Open Licensing transition mentioned earlier.
+Windows commercial products and cloud services revenue grew 14% and 19% in constant currency, ahead of expectations, driven by demand for Microsoft 365 with some benefit from a greater mix of contracts with higher in-period revenue recognition.
+Xbox content and services revenue grew 4% and 6% in constant currency, below expectations, driven by lower engagement across the platform, even as it remains above pre-pandemic levels.
+Cash flow from operations was $25.4 billion, increasing 14% as strong cloud billings and collections were partially offset by higher supplier payments related to hardware inventory builds as we manage continued uncertainty in the supply chain.
+Within the segments, we anticipate roughly 3 points of negative FX impact on revenue growth in Productivity and Business Processes and 2 points in Intelligent Cloud and More Personal Computing.
+As a reminder, the growing mix of larger long-term Azure contracts, which are more unpredictable in their timing, always drives increased quarterly volatility in our bookings growth rate.
+Excluding the impact of the change in accounting estimate, Q4 gross margin percentage will increase roughly 1 point driven by continued improvement across our cloud services partially offset by a revenue mix shift to Azure.
+Capital expenditures, we expect a sequential increase on a dollar basis as we continue to invest to meet growing global demand for our cloud services.
+In Office Commercial, revenue growth will again be driven by Office 365 with healthy seat growth across customer segments and ARPU growth thru E5.
+We expect Office 365 revenue growth to be sequentially lower by a point or two on a constant currency basis.
+In Office consumer, we expect revenue to grow in the high single digits, driven by Microsoft 365 subscriptions.
+For Intelligent Cloud we expect revenue between $21.1 and $21.35 billion.
+Revenue will continue to be driven by Azure which, as a reminder, can have quarterly variability primarily from our per-user business and from in-period revenue recognition depending on the mix of contracts.
+Azure revenue will continue to be driven by strong growth in our consumption business.
+And our per-user business should continue to benefit from Microsoft 365 suite momentum, though we expect moderation in growth rates given the size of the installed base.
+In our on-premises server business, we expect revenue to decline in the low to-mid single digits as demand for our hybrid offerings will be more than offset by the strong prior year comparable which included 4 points of benefit from contracts with higher in period revenue recognition, as well as continued transactional weakness from the licensing program transition noted earlier.
+In More Personal Computing, we expect revenue between $14.65 and $14.95 billion.
+In Windows commercial products and cloud services, customer demand for Microsoft 365 and our advanced security solutions should drive growth in the low-double digits.
+And in Gaming, we expect revenue to decline in the mid-to-high single digits driven by lower engagement hours year-over-year as well as constrained console supply.
+We expect Xbox content and services revenue to decline mid-single digits though engagement hours are expected to remain higher than pre-pandemic levels.
+I mean, the acceleration in Azure at that scale is truly awesome.
+And if I’m not mistaken, Office 365 Commercial accelerated as well in the quarter, so really impressive results.
+One is just the competitiveness of our tech stack, all up sort of from infrastructure all the way to the SaaS applications when it comes to the commercial cloud, and as well as how we’re able to monetize, for example, the install base of our consumer franchises as well.
+And in our case, when it comes to our commercial cloud offerings, we have significant advantages on that across the stack.
+The second thing is, in the conversations we are having with our customers, the interesting thing I find from perhaps even past challenges, whether macro or micro, is no, I don’t hear of businesses looking to their IT budgets or digital transformation projects as the place for cuts.
+I would say also, there’s still a lot of that TAM left to go after and it is quite early still in the transitions you’re talking about, from a digital transformation perspective, from an automation perspective, from type of value and real productivity enhancements that can be made.
+As you know, in the OEM business, that revenue is recognized at the point of production, and then for Xbox consoles as well as Surface, it’s at sell in.
+Where are we in the upsell opportunity from E3 to E5?
+The thing I would add that Satya mentioned in his comments and again in his first answer is really the value that is available to customers in E5, whether that is security, whether it’s compliance, whether it’s phone, whether it’s analytics, the value of that suite.
+And if you think even more broadly, the value of Microsoft 365, which adds in more components around Windows, I think we are offering high value and that tends to give us some optimism that we can continue to execute well in that segment.
+I mean, this is the first time, I feel, that we have products that fit just emerging markets, like Teams Essentials, where we can even really penetrate markets that we’ve never sold anything in the past.
+And then the new growth engines that you talked about, Teams Phones, Teams Rooms, Viva and even Windows 365 are all things that we can, again, drive growth from, and the point about sort of our value is probably very, very strong in a time like this in particular.
+The one thing also I’d say is the usage data that we are seeing is peak everywhere.
+Is that something that you would characterize as Microsoft specific, as you described in your comments, or transitioning customers off your open license program, or do you feel like that’s a broader issue where maybe we’re starting to see a little bit of a tilt from on-prem to cloud even faster than we’ve seen before?
+I would say it does not feel like the tilt from on-prem to cloud felt any different in a way that would have impacted the quarter any more so than it normally does, in terms of the normal transitions that we’ve seen, to your point, on Office or, frankly, even server, as we have people move those workloads and migrating those workloads to the cloud.
+SATYA NADELLA: And the only thing I’d add is that this change is super good for both the partners, the customers and Microsoft, long term.
+And so, I’m curious, what in your view is allowing your Azure trajectory to show better resilience?
+And do you, in fact, see some of the newer products kicking in, such as Azure ARC or Synapse Cognitive Services, OpenAI and perhaps contributing to the strength, and health and resiliency of that Azure number?
+The second thing I would say is on the PaaS services and our Dev SaaS, that’s another area where we have differentiated value.
+In fact, we pay people at Microsoft to reduce customer bills and which we should.
+Given that, we may see cyclicality in terms of how optimizations happen, but overall, we’re still very early on as the world sort of migrates to the cloud and uses, essentially, cloud infrastructure and compute as sort of to drive their operational efficiencies and product.
+As you look forward, what part of the Microsoft tech stack do you think is underrepresented in the digital world and has therefore more opportunity to gain, as you build out your thesis on tech as a percent of GDP doubling?
+For example, when we talk about the next generation of multi- edge, multi-cloud infrastructure remaining one of the leaders, that’s going to be a massive EV creation as a percentage of GDP tech spend doubled.
+That’s where everything from Azure, Azure Arc, our database, all of that is super important.
+And so, to me, the AI layer, both the training supercomputers as well as the inference layer, that’s a place where you will see us integrate what, today, you all consider to be two different businesses, whether it’s Azure and Windows.
+These three things translated into workloads and what we call our customer solution areas are the ways that, at least, we are investing in.
+Azure growth and commercial booking strength stand out.
+And anything you can add just around how the addition of Nuance helps the cloud business and the industry cloud approach, as well.
+But the most exciting thing is the type of tier one workloads that we have never seen run on any Microsoft infrastructure that’s running on Azure today and being optimized on Azure.
+On Nuance, for me, the thing that’s exciting is Nuance is a platform layer for these AI-driven applications that are getting deployed, whether it’s in healthcare or even in the enterprise contact center.
+I tend to mention the impact of large, long-term Azure contracts in the context of commercial bookings and some volatility we often can see in that because of it.
+And with that comes our investments that we’ve made and deployment resources and usage resources, specifically in Azure to make that possible with customers.
+What it creates inside the company is the beginning of a commitment to make sure we’re tackling the workloads and the solutions that the customers want to make happen across all the workloads, frankly, that Satya’s talked about today.
+And really the more important related part is, given the outlook that you may have for the PC market, how are you thinking about the durability of the Windows side of your business?
+In particular, if you comment on the fundamentals related PC market, but also the opportunities to keep mixing up, so to speak, help by Microsoft 365?
+I think on the commercial side, I think it’s well understood that Windows is the socket for Microsoft 365.
+The customer sat, adoption rates, when it comes, whether it’s security, whether it’s our productivity, we feel good about the commercial business.
+And on the consumer side, coming out of, again, the pandemic, the intensity of the usage has gone up.
+When you think about 500 million users engaging with Microsoft Start, that’s not the type of engagement we had.
+And then of course the subscription attaches, whether it’s gaming or whether it’s productivity or suite.

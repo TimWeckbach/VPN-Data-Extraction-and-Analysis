@@ -1,0 +1,71 @@
+It was a record quarter, driven by continued strength of Microsoft Cloud, which surpassed $42 billion in revenue, up 22% in constant currency.
+Cloud and AI are the essential inputs for every business to expand output, reduce costs, and accelerate growth.
+When it comes to cloud migrations, we saw accelerating demand, with customers in every industry, from Abercrombie & Fitch Co., to Coca-Cola and ServiceNow, expanding their footprints on Azure.
+And we remain the cloud of choice for customers’ mission critical VMWare, SAP, and Oracle workloads, with more regional availability than any other hyperscaler.
+Cosmos DB revenue growth also accelerated again this quarter and remains the go-to database for globally distributed NoSQL workloads at any scale.
+It is now used by developers at over 70,000 enterprises and digital natives – from Atomicwork, to Epic, Fujitsu, and Gainsight, to H&R Block and LG Electronics – to design, customize, and manage their AI apps and agents.
+We now have 56 million monthly active Power Platform users, up 27% year- over-year, who increasingly use our AI features to build apps and automate processes.
+Microsoft 365 Copilot is built to facilitate human-agent collaboration.
+And they can now build “computer use” agents that take action on the UI across desktop and web apps.
+When it comes to business applications, Dynamics 365 again took share as companies like Avaya, Brunswick, SoftCat, switched to Dynamics from legacy providers.
+Verizon, for example, chose Dynamics 365 Sales to improve the efficiency of its sellers.
+We offer a growing number of AI apps from partners like Adobe, Canva, and Zoom.
+And we continue to see increased commercial traction as we approach end- of-support for Windows 10.
+Now, on to our consumer businesses, starting with LinkedIn.
+PC Game Pass revenue increased over 45% year-over-year.
+With Xbox Play Anywhere, players now can access more than 1,000 games they can play across console and PC.
+And just last week we brought cloud gaming to LG TVs.
+In addition to monetizing our IP in new ways, we have seen a 75 percent- plus increase in weekly active users of the game year-over-year since the release.
+We continue to see strong demand for our cloud and AI offerings as they help customers drive productivity, increase efficiencies, and grow their businesses.
+Microsoft Cloud revenue was $42.4 billion, ahead of expectations, and grew 20% and 22% in constant currency.
+Microsoft Cloud gross margin percentage was 69%, in line with expectations, and decreased 3 points year over year driven by the impact of scaling our AI infrastructure.
+Revenue from Productivity and Business Processes was $29.9 billion and grew 10% and 13% in constant currency, ahead of expectations driven by LinkedIn, Microsoft 365 commercial products, and Microsoft 365 consumer.
+M365 commercial cloud revenue increased 12% and 15% in constant currency, in line with expectations.
+M365 consumer cloud revenue increased 10% and 12% in constant currency, ahead of expectations driven by higher-than-expected subscription growth following the January price increase.
+Dynamics 365 revenue increased 16% and 18% in constant currency, in line with expectations with continued growth across all workloads.
+In Azure and other cloud services, revenue grew 33% and 35% in constant currency including 16 points from AI services.
+And, in Azure AI services, we brought capacity online faster than expected.
+The year over year decline is reflective of the continued customer shift to cloud offerings.
+Results were significantly ahead of expectations driven by usage from a third-party partnership, better-than-expected rate expansion, and volume growth across Edge and Bing.
+Xbox content and services revenue increased 8% and 9% in constant currency, ahead of expectations driven by stronger-than-expected performance in third-party and first-party content.
+Roughly half of our cloud and AI related spend was on long-lived assets that will support monetization over the next 15 years and beyond.
+The remaining cloud and AI spend was primarily for servers, both CPUs and GPUs, to serve customers based on demand signals including our customer contracted backlog of $315 billion.
+First, thru April, demand signals across our commercial businesses as well as in LinkedIn, Gaming, and Search have remained consistent.
+As a reminder, larger longer-term Azure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate.
+Microsoft Cloud gross margin percentage should be roughly 67%, down year over year primarily driven by the impact of scaling our AI infrastructure.
+As a reminder, there can be quarterly spend variability from cloud infrastructure buildouts and the timing of delivery of finance leases.
+As a reminder, M365 commercial products includes both the Windows Commercial on-premises components of M365 suites and Office transactional purchasing, both of which can be variable due to in period revenue recognition dynamics.
+M365 consumer cloud revenue growth should be in the mid-teens driven by the January price increase.
+And in Dynamics 365, we expect revenue growth to be in the mid to high teens with continued growth across all workloads.
+For Intelligent Cloud we expect revenue of $28.75 to $29.05 billion or growth of 20% to 22% in constant currency.
+Revenue will continue to be driven by Azure which, as a reminder, can have quarterly variability primarily from in-period revenue recognition depending on the mix of contracts.
+In Azure, we expect Q4 revenue growth to be between 34% and 35% in constant currency driven by strong demand for our portfolio of services.
+In our AI services, while we continue to bring datacenter capacity online as planned, demand is growing a bit faster.
+In our on-premises server business, we again expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.
+In More Personal Computing, we expect revenue to be $12.35 to $12.85 billion.
+We expect Xbox content and services revenue growth to be in the high single digits driven by first-party content.
+These investments, along with focused execution that delivers near term value to our customers, will ensure we continue to lead through the cloud and AI opportunity ahead.
+One of the things that we heard a lot about this quarter in the media and press reports was changing data center commitments, maybe Microsoft walking away from some of those datacenter commitments.
+Can you talk to us about what’s going on with your datacenter strategy?
+And are you incorporating that risk into your datacenter strategy?
+Satya, on your comment about accelerating demand for cloud migrations, I’m curious if you could dig in and extrapolate a little more what you’re seeing there.
+And so, that’s, again, got good steady state progress, because the reality is, I think everyone’s now, perhaps there’s another kick in the datacenter migrations, just because of the efficiency the cloud provides.
+I mean, forgetting SQL Server, Postgres on Azure is growing.
+It’s even the others, whether it is Databricks or even Snowflake on Azure are growing.
+Then the cloud-native growth, this is, again, before we even get to AI, some of the core compute consumption of cloud-native players is also very healthy.
+If there is good news here, it’s that we have a good business in Azure that continues to grow, and the new platform depends on that.
+Satya and Amy, Microsoft is a very different business than it was during the last recession.
+The way, at least, I think we will approach it is, quite frankly, be very focused on how we help our customers if there is any turbulence in the macro, because one of the things that we feel we can do, just because of the efficiencies of the cloud, and the footprint we have and the differentiated layers of the stack, from the SaaS application side to the infrastructure side, I think if you buy into the argument that software is the most malleable resource we have to fight any type of inflationary pressure or any type of growth pressure where you need to do more with less, I think we can be super helpful in that.
+A number of metrics to applaud, but I think the one that stands out to me is the 16 point a growth rate lift to Azure from AI.
+First, the real outperformance in Azure this quarter was in our non-AI business.
+You’ve said in the past that that you can attain better and better capital efficiency with the Cloud business, and probably Cloud and AI business.
+Maybe, Satya, you can opine as well, that you’ve said before, that you can slow down your CapEx growth rate, while still accelerate Azure, which includes AI.
+And I’ll go ahead and say our margins on the AI side of the business are better than they were at this point, by far than when we went through the same transition in the server to cloud transition.
+What is the difference between virtualization and cloud?
+What is the difference between this generation of cloud and AI?
+Amy, you mentioned that the upside in Azure came from the non-AI services this time around.
+Obviously, just some good, consistent work on migration, good execution by the sales and partner teams, the data workloads he went through.
+How much of that are you starting to see the pull in of the non-AI driven by the AI portion of Azure?
+And on the AI portion, specifically, as test time compute really just blows out kind of prior conceptions of scaling law challenges, how much does that change, potentially, the curve of the AI Azure growth as you go forward here over the next few quarters?
+But if you take a step back from that, it’s that these workloads are being built, GPUs, CPUs, storage, network, all the same things.
+And so, I think I mostly focus on the fact that together, we saw good performance in Q3 on Azure, Azure inclusive of both components, in terms of our execution, in terms of the field and partner teams, and backlog and conversion, and interesting workloads, and adding customer value, and solving real problems, and adding real value.

@@ -1,0 +1,68 @@
+The product announcements we’ve made in just the past month alone have shown that very clearly - including significant improvements to Search powered by AI, new ways to monetize YouTube Shorts, which will support the creator ecosystem, a strong series of hardware launches and new product and partnership announcements at Cloud Next.
+These will all drive value for users, partners and our business.
+We remain focused on long term growth for our community of viewers, creators and advertisers.
+To that end, we announced some exciting changes at our Made On YouTube event last month.
+This update makes YouTube the only platform where creators can monetize their content across short, long and live formats at scale.
+And we continue to invest in our mobile video tools for creators.
+Nielsen reported that YouTube was the leader in streaming TV viewership in the U.S. in September, for the first time.
+Customers partner with Google Cloud because we offer a single platform that can analyze data across any Cloud.
+In addition, with our new Media CDN product for large media streaming workloads, we’re helping Major League Baseball and Paramount+ deliver flawless experiences to their customers.
+Search and Other revenues grew 4% year-over-year to $40B, led by Travel and Retail, while both YouTube Ads and Network had modest year-over-year revenue declines.
+Other Revenues were up 2% year-over-year, with growth in YouTube non-advertising and hardware revenues offset by a decrease in Play revenues.
+Among other factors, this shift in user behavior also created downward pressure on our advertising revenues with lower revenues from app promo spend on YouTube, Network and Play ads in Search & Other.
+I’ll highlight a couple of other trends that affected our Ads business in Q3 and Ruth will provide more detail.
+On the second quarter earnings call, we noted a pullback in spend by some advertisers in YouTube and Network and these pullbacks in spend increased in the third quarter.
+In the third quarter, we did see a pullback in spend by some advertisers in certain areas in Search ads.
+Via insights, automation, and easier-to-use advertising tools and formats, we’re helping businesses stay agile, build resilience, anticipate the future, and show up for customers in more connected, visual, and consistent ways.
+Now when you type “shop” followed by whatever item you’re looking for, you’ll unlock a visual content stream of ideas that feels just like window shopping - but online.
+Not only can users now buy more products in videos but “shopping as entertainment” experiences are bringing the magic of our creators to the shopping experience.
+And at AdWeek last week, not only did we announce that product feeds are coming to Discovery, but that creators will soon be able to tag products from brands across their videos, Shorts, and livestreams.
+This means viewers can shop products seamlessly while they watch their favorite content, while merchants can drive incremental reach and engagement for free listing offers when tagged by creators that viewers love and trust.
+I already touched on YouTube’s performance in the quarter - let’s deep dive into what we’re focused on.
+First, we’re helping advertisers understand how they can drive effectiveness with every campaign they run on YouTube.
+6 Buying YouTube across consideration, awareness, and action allows marketers to meet customers at different stages in their purchasing journey - which we know are increasingly complex - while delivering towards a key business goal.
+Creative and media work together across the funnel to create new demand and convert current demand.
+Two other areas where we’re continuing to invest: Connected TV and Shorts.
+On average, global viewers are watching 700M+ hours of YouTube content on TV daily, and according to Nielsen, during the 2021/2022 US broadcast seasons, YouTube reached more viewers during primetime on CTV than any linear TV Network.
+We’ve always said that we focus on building a great user and creator experience first, and then follow that with monetization over time.
+As of September, ads on Shorts have officially launched via Video Action, App, and Performance Max campaigns.
+As Sundar mentioned, we also extended the YouTube Partner Program and announced our revenue sharing model for Shorts creators - the first-of-its-kind for short-form content.
+Whether it’s helping individual YouTube creators or Play developers make a living (and build thriving businesses) or bringing the best across Google to our partners, our focus on driving growth for our partners and key ecosystems remains steadfast.
+I’m proud that o ver the past three years, we’ve paid creators, artists and media companies over $50B.
+Additionally, the year-on-year deceleration on YouTube and Network reflects a pullback in spend by some advertisers, as we first noted last quarter.
+In terms of the revenue lines, Google Search and Other advertising revenues of $39.5 billion in the quarter were up 4%.
+YouTube advertising revenues of $7.1 billion were down 2%.
+Network advertising revenues of $7.9 billion were down 2%.
+Other Revenues were $6.9 billion, up 2%, reflecting several factors: First, subscriber growth in YouTube Music Premium and YouTube TV continued to drive ongoing strong growth in YouTube non-advertising revenues; second, we delivered solid growth in hardware revenues, primarily from sales of the Pixel 6a.
+In YouTube and Network, the sequential deceleration of year-on-year growth in the third quarter versus the second quarter primarily reflects further pullbacks in advertiser spend.
+Within Other Revenues, we expect an ongoing headwind from the slowdown in buyer spend on Google Play due to a number of factors, including lower levels of user engagement in gaming that impacted results in the second and third quarters.
+As Philipp mentioned, among other factors, this shift in user behavior was also a headwind to advertising revenues, with lower revenues from app promo spend on YouTube, Network and Play ads in Search & Other.
+And then, Philipp, a lot of comments in there about YouTube and the potential for growth going forward.
+11 Philipp Schindler, SVP and CBO, Google: Yes, and from my side, Eric, in the third quarter, as I mentioned, there was a further pullback in spend by some advertisers across both brand and direct response, but overall, I feel YouTube remains in a really good position to continue to benefit from the streaming boom.
+In direct response, we think there's a lot of room to run to make really YouTube more shoppable, more actionable -- from Video Action Campaigns to product feeds, app campaigns, live commerce features.
+Advertisers are turning to YouTube to convert intent into action and really drive performance at scale.
+Product feeds are coming to Discovery ads soon and recently expanded to Shorts.
+And, in fact, on average, Video Action Campaigns with product feeds saw an over 70% increase in conversions on Shorts versus those without.
+When you think about it, YouTube is really the best place for advertisers to reach new consumers across multiple formats and screens -- from Shorts to long-form podcasts, music, all the way to CTV.
+Or is it more so you're seeing the time shift from other forms of YouTube over to Shorts?
+Philipp Schindler, SVP and CBO, Google: Yes, and to the second part of the question, as we discussed before, we've always focused on building a great user and creator experience first, followed by increasing monetization over time.
+We continued to experience a slight headwind to revenues as Shorts viewership grew as a percentage of total YouTube watch time.
+And we are focused on closing the monetization gap between Shorts and long-form content on YouTube over time.
+And more specifically, consumers are increasingly consuming short-form video.
+We are seeing this across multiple platforms, including YouTube.
+And as I said earlier, Shorts are being watched by 1.5 billion+ logged-in users every month.
+I want to ask you about TikTok, but not as it relates to YouTube, more about Search.
+Sundar Pichai, CEO Google: Look, I think it's always important that we try and understand our user segments and their needs so that we can make sure the products are helpful and working for them.
+Probably pretty self-evident, but just to spell them out, the year-on-year decline in YouTube Ads revenues obviously muted the growth in CAC.
+I hate to beat the dead horse on the Google Services margin.
+And given the trajectory that you're seeing in Search and in Play, which we estimate are where most of the profits are coming from in that segment, versus some of those lower margin items, YouTube subscription, hardware, et cetera, maybe you could help frame the next, like, couple years.
+And I think Sundar and Philipp really talked about the first part, which is the ongoing opportunity we see with Search, with YouTube, with some of the actions that we're taking; the opportunity with AI applied to both, the opportunity as 15 we continue to build out monetization on YouTube Shorts, in particular.
+There was some pullback from advertiser spend in some areas.
+And then in YouTube and Network, the sequential deceleration of year-on-year growth in – both the second quarter [sic] – the third quarter versus the second quarter was really further pullbacks in advertiser spend.
+As I said earlier, in 16 Search and Other Ads Revenues, while lapping the outsized performance was the largest factor in Q3, we did see some advertiser pullback in certain areas -- in Search Ads, and I think the example I called out was in Financial Services, in the areas of insurance, loan, mortgage, crypto subcategories.
+And we also noted a pullback in spend by some advertisers on YouTube and Network.
+And these pullbacks in spend increased in the third quarter, and we also noted lower revenues from app promo spend on YouTube and Network.
+Number two, I would say the strength of Search, both as a product for users as well as for advertisers in terms of delivering ROI, through a tough time in the ad market, I think, is great to see.
+On the Performance Max side, we touched on earlier in prior quarters -- and just as a reminder, it's our fully automated Google Ads campaign tied with the most channel and inventory coverage that really helps advertisers deliver a better ROI.
+And we've been listening to feedback from advertisers and have continued to roll out more features since its initial launch to increase transparency and help advertisers steer the automation more effectively, and there are more feature updates to come.
+It makes YouTube better, Ads better; and through Cloud, we are bringing it to other companies as well.

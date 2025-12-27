@@ -1,0 +1,101 @@
+This malleable power of software will drive productivity growth across all industries – leading to more inclusive economic growth, far beyond the domains of consumer tech today.
+At Microsoft, we are focused on building the most differentiated tech stack to enable every organization in every industry to build their own digital capability and tech intensity – with a business model that is trusted and aligned with their success in this new era.
+Now, I’ll briefly highlight our innovation and momentum, starting with Azure.
+Every customer will need a distributed computing fabric – across the cloud and edge – to power their mission-critical workloads and meet regulatory and operational sovereignty needs.
+Azure is the only cloud that offers consistency across operating models, development environments, and infrastructure stack – enabling customers to bring cloud compute and intelligence to any connected or disconnected environment.
+And new ruggedized Azure Stack form factors provide cloud capabilities in even the harshest of conditions, like disaster response.
+With Azure Arc, we are defining the next generation of hybrid computing.
+Arc is an industry-first control plane built for a multi-cloud, multi-edge world, helping partners like HPE meet their customers’ complex hybrid needs.
+Our differentiated approach across the cloud and edge is winning customers.
+Azure Synapse is our new limitless analytics service.
+Six billion transactions on Azure Cognitive Services each month.
+Seven billion documents processed daily with Azure Cognitive Search.
+Two billion predictions a month using Azure Machine Learning.
+And 3,500 new conversational agent bots created each week with Azure Bot Service.
+Nationwide is using Azure Bot Service to simplify how millions of customers submit claims.
+And KPMG is using Azure Cognitive Services to transcribe and catalog thousands of hours of calls, reducing compliance costs for its clients by as much as 80 percent.
+We are the only company that offers integrated, end-to-end identity, security and compliance solutions to protect people and organizations, spanning identity management, devices, cloud apps, data and infrastructure.
+Four months since launch, more than 3,500 customers already rely on Azure Sentinel to detect and mitigate threats.
+Now to developer tools 3 From Azure DevOps, to Visual Studio, to GitHub – we offer the most complete developer toolchain – independent of language, framework or cloud.
+New capabilities make it easier for any developer to go from idea to code, and code to cloud.
+Stripe is using GitHub to build the online payment platform of choice for millions of customers.
+Now to Power Platform We are empowering not only professional developers but those closest to the business problem – from citizen developers to business decision makers – with no code, low code tools so they can create apps and intelligent workflows that solve unique needs.
+Today, 2.6 million citizen developers use our Power Platform to make better decisions using self- service analytics, build a mobile app, automate a business process, or even create a virtual agent – all with no coding experience.
+Now to Dynamics 365 The competitiveness of every business going forward will be defined by their ability able to harness the full value of their data.
+Dynamics 365 enables organizations to move from reactive, siloed transactional processes – to proactive, repeatable, and predictable business outcomes.
+Dynamics 365 Customer Insights, that’s layered and built on Azure Synapse, is the only Customer Data Platform operating at scale today.
+In retail, Canada Goose is using Dynamics 365 Commerce to unify data across back-office, in- store, and call centers to deliver more personalized shopping experiences.
+And, in training, ABB is using Dynamics 365 Guides and Remote Assist to bridge the physical and digital worlds.
+Now, turning to Microsoft 365 Microsoft 365 is the only solution that empowers everyone with an integrated, secure experience on any device.
+Everyday AI in Microsoft 365 is helping people create, collaborate, and convert content into knowledge in a world where computing is abundant, however attention is scarce.
+And new Microsoft Edge – with enterprise-class security – protects your privacy online and makes it easier to find information at work with Microsoft Search.
+Microsoft Teams is the leading hub for teamwork, now with more than 20 million daily active users.
+People are increasingly engaged across the platform in richer forms of communication and collaboration, participating in more than 27 million meetings a month.
+From Nestle to Tesco, the world’s largest companies are choosing Microsoft 365.
+And we continue to see increased demand for our premium offerings from customers like AXA, Rockwell Automation, Berkshire Hathaway Specialty Insurance, and Duracell.
+This holiday, we expanded our family of Surface devices, creating new categories that benefit the entire OEM ecosystem.
+Finally, Gaming We continue to invest to reach gamers across every endpoint – mobile, PC, and console.
+xCloud is off to a strong start, transforming how games are distributed, played, and viewed, with hundreds of thousands of people participating in initial trials.
+Xbox Game Pass subscribers more than doubled this quarter.
+Microsoft will be carbon negative by 2030, and by 2050, we will remove all the carbon we’ve emitted since the company was founded in 1975.
+In our commercial business, we continued to see strong demand for our differentiated hybrid and cloud offerings with increased customer commitment to the Azure platform.
+And the unique value of Microsoft 365, bringing together Office 365, Windows 10, and Enterprise Mobility and Security as a secure, intelligent solution, again drove adoption by both new and existing customers.
+Commercial Cloud revenue was $12.5 billion, growing 39 percent and 41 percent in constant currency.
+Commercial Cloud gross margin percentage increased 5 points year over year to 67 percent, driven again by material improvement in Azure gross margin percentage, which more than offset sales mix shift to Azure.
+In the quarter, gross margin percentage benefitted from lower console sales, stronger than expected software licensing results, and improvement in our commercial cloud gross margin percentage.
+Office 365 commercial revenue growth of 27 percent and 30 percent in constant currency was again driven by installed base growth across all workloads and customer segments as well as higher ARPU.
+Office 365 commercial seats grew 21 percent with an increasing mix from our Microsoft 365 suite.
+Office consumer revenue grew 19 percent and 20 percent in constant currency, driven by growth in Office 365 subscription revenue.
+Office 365 consumer subscribers grew to 37.2 million.
+Dynamics 365 revenue increased 42 percent and 45 percent in constant currency with continued momentum in the number of customers adopting multiple Dynamics 365 workloads.
+Operating expense increased 12 percent driven by continued investment in LinkedIn and cloud engineering.
+On a significant base, server products and cloud services revenue increased 30 percent and 32 percent in constant currency.
+Azure revenue grew 62 percent and 64 percent in constant currency driven by another quarter of strong growth in our consumption based business across all customer segments.
+In our per-user business, our enterprise mobility installed base grew 35 percent to over 127 million seats, with continued benefit from Microsoft 365 suite momentum.
+And our on-premises server business grew 10 percent and 12 percent in constant currency, with roughly 4 points of benefit from the end of support for Windows Server 2008, in addition to the continued strength of our hybrid and premium solutions.
+Nearly one third of our Windows 8 Server and SQL Server enterprise customers are already using our hybrid use benefits to deploy Azure, reflecting the value and flexibility of these offerings.
+Operating expense increased 18 percent primarily driven by continued investments in Azure.
+Windows commercial products and cloud services revenue, which makes up roughly 30 percent of total Windows revenue, grew 25 percent and 27 percent in constant currency, again driven by strong demand for Microsoft 365 which carries higher in-quarter revenue recognition.
+The remainder of the Windows business is made up of our other licensing and services components.
+Xbox content and services revenue declined 11 percent and 9 percent in constant currency as the impact from a strong third party title in the prior year more than offset continued growth in Game Pass subscribers and Minecraft.
+In line with expectations, capital expenditures including finance leases were $4.5 billion, up 17 percent year over year, driven by ongoing investment to meet growing demand for our cloud services.
+For Intelligent Cloud, we expect revenue between $11.85 and $12.05 billion.
+In Azure, revenue growth will continue to reflect a balance of strong growth in our consumption based business and moderating growth in our per-user business, given the size of the installed base.
+In More Personal Computing, we expect revenue between $10.75 and $11.15 billion.
+In Windows commercial products and cloud services, we expect another quarter of healthy double digit revenue growth, driven by continued Microsoft 365 suite momentum and some benefit from Windows 7 extended support agreements.
+And in Gaming, we expect revenue to decline in the low double-digit range, driven by the continuation of the console trend as we near the launch of Xbox Series X, as well as lower transaction volume on a third party title.
+And Satya, can you also give us some sense of what you think about the impact if xCloud is successful on Azure?
+I think, overall, in terms of the Azure momentum, it's sort of the thing that we've seen even in the previous quarters, which is we have a stack that is, from infrastructure to the PaaS services, that's fairly differentiated.
+And the data side, both on the transactions on the OLTP side, as well as on the analytic side, we now have cloud-native databases, and Azure Synapse I think is a very competitive product.
+The SaaS component, or the per-user component, also tends to be where you'll get some variability, as well.
+We did have a good SaaS component quarter, in addition to the healthy base, and that does result in some movement in that number from quarter to quarter, and in particular, I think Microsoft 365 suite, actually, and the momentum we've got in security, and management, and mobility is a big contributor to that.
+Can you talk to us a little bit about how that's kind of impacted your traction with stuff like Dev Ops Studio and your developer tools, and also how that's kind of changed the dynamic around Azure?
+I mean, at some level, I think of what we're doing between Visual Studio and Azure Dev Ops and GitHub as effectively coming together as a compelling developer SaaS solution in the same class as any other SaaS solution from Microsoft around productivity and communication, because one of the datapoints I love to use is the number of developers in the non-tech sector is now more than in the tech sector.
+And so, by the way, we're not focused only on Azure.
+For developers who use our tool chains, they can target any cloud, any edge device.
+But that said, of course, having this tool chain will help us overall, both with essentially what is, by itself, a high-margin tools as a SaaS business, as well as, of course, developers who are going to be in our ecosystem.
+And that's I think a testament to the progress that's been made by Microsoft.
+The opportunity Satya talked about is at the developer SaaS level.
+And so, whether you see us investing in GitHub or in the Azure tool chain, this will be a place that we'll continue to see as an opportunity for growth.
+We saw improvement across every cloud service, not just Azure, in terms of their ability to deliver growing gross margin, as they focus not only on cost but also on continuing to see RPU gross and attach gross.
+I focus on them at the what can each product line do to be its best and most competitive.
+At a company level, if you thought about what gross margins would've looked like without gaming, it's a couple of points of impact.
+And I guess, ultimately, what I'm asking is, given the success you've seen there, has your view for -- you know, if you look two-to-three years down the road, do you just think Azure's going to be a higher gross margin business than maybe what you would've thought three years ago?
+AMY HOOD: Specifically on Azure, I think the Azure gross margins are trending where we thought they would trend, actually, on the IaaS and PaaS layer, and they're trending where we thought they would trend on the per-user like assets.
+It'll get better, but the nature and the sort of rate of improvement will slow, and you'll see that increasing mix toward IaaS and PaaS, and away from the per-user, just as in terms of the opportunity and the TAM.
+15 So, over the long run, Heather, I think my view is unchanged, frankly, about what that should look like, and of course, over the same time period, how it would impact commercial cloud gross margins, all up.
+SATYA NADELLA: Yeah, and I would say, when we think about whether it's our R&D and operating leverage there, or sales, or capex for the cloud, we don't sort of separate out these categories of IaaS, PaaS and even SaaS.
+Similarly, we have the xCloud and Game Pass subscriptions, and we have the streaming capability in Azure.
+Amy, you call up the strength of on-premise software.
+And so, the flexibility to deploy where they need it and when they need it, and if that makes sense on the edge, which some people may call on-prem, and whether that makes sense in the cloud, which people may call Azure, we're relatively indifferent, as long as it meets the customer solution in the way that the solution demands.
+Satya, a few quarters ago, you had commented that Teams is the fastest-growing app in the company's history.
+It's also driving usage of the rest of Office because the rest of Office gets integrated in usage patterns around channels.
+It means that we've got solutions or workloads where all the corporate developers that Satya mentioned are really starting to make that transition and making decisions for themselves about how they use Azure and how they get to experience it.
+And then, we can continue to partner with customers to help them through this process and continue to have more meaningful workload transition.
+And to Satya, when you think about just SaaS in general, how important is sort of Dynamics to the overall Microsoft strategy, particularly with what you're trying to do with the AI platform in Azure, because obviously, over the past 12 months, we've seen rollouts of some of those 18 insights -- you know, AI products where you can use the Dynamics data, but also data from Salesforce, Windesk, etcetera, but as a sort of Sidecar there?
+I mean, we are very excited about what's happening with Dynamics 365, in particular, because when I look at what the world needs is it needs a business application suite that is more comprehensive that can turn what is the real currency of this next era, which is data, into predictions, insights, and automation without boundaries.
+I mean, take even the Canada Goose example that I had in my remarks, which is actually a fascinating story of how they've been able to take the end-to-end nature of Dynamics 365 and really bring together their manufacturing, wholesale and retail operations to the next level of efficiency.
+And the way we have architected it on top of Azure, it's cloud-native in terms of its use of databases.
+For example, all these insights modules I referenced and you've referenced are all built on Azure Synapse, so it's sort of deeply integrated into Azure.
+Power Platform; the extensibility model for both Microsoft 365 and Dynamics is the same, which is Power Platform.
+AMY HOOD: And to your question on how the Dynamics 365 -- sort of the excitement we have, when I think about the comment I made around adding workloads, what's so important about what Satya just talked about is how this reaches into new budgets for us, new opportunity for us in terms of being able to tap growth that we had not been able to access before.

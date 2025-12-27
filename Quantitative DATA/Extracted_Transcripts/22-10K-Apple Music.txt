@@ -1,0 +1,46 @@
+Wearables, Home and Accessories Wearables, Home and Accessories includes: • AirPods®, the Company’s wireless headphones, including AirPods, AirPods Pro® and AirPods Max™; • Apple TV®, the Company’s media streaming and gaming device based on its tvOS® operating system, including Apple TV 4K and Apple TV HD; • Apple Watch®, the Company’s line of smartwatches based on its watchOS® operating system, including Apple Watch Ultra™, Apple Watch Series 8 and Apple Watch SE®; and • Beats® products, HomePod mini® and accessories.
+Apple Inc. | 2022 Form 10-K | 1 Services Advertising The Company’s advertising services include various third-party licensing arrangements and the Company’s own advertising platforms.
+AppleCare The Company offers a portfolio of fee-based service and support products under the AppleCare® brand.
+The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage and/or theft and loss, depending on the country and type of product.
+Cloud Services The Company’s cloud services store and keep customers’ content up-to-date and available across multiple Apple devices and Windows personal computers.
+Digital Content The Company operates various platforms, including the App Store®, that allow customers to discover and download applications and digital content, such as books, music, video, games and podcasts.
+The Company also offers digital content through subscription-based services, including Apple Arcade®, a game subscription service; Apple Fitness+SM, a personalized fitness service; Apple Music®, which offers users a curated listening experience with on-demand radio stations; Apple News+®, a subscription news and magazine service; and Apple TV+®, which offers exclusive original content and live sports.
+Payment Services The Company offers payment services, including Apple Card®, a co-branded credit card, and Apple Pay®, a cashless payment service.
+Apple Inc. | 2022 Form 10-K | 2 The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services.
+The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications.
+Apple Inc. | 2022 Form 10-K | 3 Business Seasonality and Product Introductions The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.
+The Company also competes with illegitimate means to obtain third-party digital content and applications.
+Apple Inc. | 2022 Form 10-K | 7 Business Risks To remain competitive and stimulate customer demand, the Company must successfully manage frequent introductions and transitions of products and services.
+In addition, the Company’s service offerings can have quality issues and from time to time experience outages, service slowdowns or errors.
+Apple Inc. | 2022 Form 10-K | 9 The Company’s future performance depends in part on support from third-party software developers.
+The Company believes decisions by customers to purchase its hardware products depend in part on the availability of third-party software applications and services.
+The Company believes the availability of third-party software applications and services for its products depends in part on the developers’ perception and analysis of the relative benefits of developing, maintaining and upgrading such software and services for the Company’s products compared to competitors’ platforms, such as Android for smartphones and tablets, Windows for personal computers and tablets, and PlayStation, Nintendo and Xbox for gaming platforms.
+When developers focus their efforts on these competing platforms, the availability and quality of applications for the Company’s devices can suffer.
+For the vast majority of applications, developers keep all of the revenue they generate on the App Store.
+These changes could include how and to what extent the Company charges developers for access to its platforms and manages distribution of apps outside of the App Store.
+The Company contracts with numerous third parties to offer their digital content to customers.
+This includes the right to sell, or offer subscriptions to, third-party content, as well as the right to incorporate specific content into the Company’s own services.
+Some third-party content providers and distributors currently or in the future may offer competing products and services, and can take actions to make it difficult or impossible for the Company to license or otherwise distribute their content.
+Other content owners, providers or distributors may seek to limit the Company’s access to, or increase the cost of, such content.
+The Company also produces its own digital content, which can be costly to produce due to intense and increasing competition for talent, content and subscribers, and may fail to appeal to the Company’s customers.
+Some third-party digital content providers require the Company to provide digital rights management and other security solutions.
+The Company distributes its products and certain of its services through cellular network carriers, wholesalers, retailers and resellers, many of which distribute products and services from competitors.
+Some carriers providing cellular network service for the Company’s products offer financing, installment payment plans or subsidies for users’ purchases of the device.
+Apple Inc. | 2022 Form 10-K | 11 The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.
+These changes could include how and to what extent the Company charges developers for access to its platforms and manages distribution of apps outside of the App Store.
+The Company distributes its products and certain of its services through third-party cellular network carriers, wholesalers, retailers and resellers.
+Apple Inc. | 2022 Form 10-K | 20 Products and Services Performance The following table shows net sales by category for 2022, 2021 and 2020 (dollars in millions): 2022 Change 2021 Change 2020 Net sales by category: iPhone (1) $ 205,489 7 % $ 191,973 39 % $ 137,781 Mac (1) 40,177 14 % 35,190 23 % 28,622 iPad (1) 29,292 (8) % 31,862 34 % 23,724 Wearables, Home and Accessories (1)(2) 41,241 7 % 38,367 25 % 30,620 Services (3) 78,129 14 % 68,425 27 % 53,768 Total net sales $ 394,328 8 % $ 365,817 33 % $ 274,515 (1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.
+(2) Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.
+(3) Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services.
+The Company has identified up to three performance obligations regularly included in arrangements involving the sale of iPhone, Mac, iPad and certain other products.
+The second performance obligation is the right to receive certain product-related bundled services, which include iCloud®, Siri® and Maps.
+Revenue allocated to the delivered hardware and bundled software is recognized when control has transferred to the customer, which generally occurs when the product is shipped.
+Revenue allocated to the product-related bundled services and unspecified software upgrade rights is deferred and recognized on a straight-line basis over the estimated period they are expected to be provided.
+Costs incurred to provide product-related bundled services and unspecified software upgrade rights are recognized as cost of sales as incurred.
+Apple Inc. | 2022 Form 10-K | 34 For the sale of third-party products where the Company obtains control of the product before transferring it to the customer, the Company recognizes revenue based on the gross amount billed to customers.
+Apple Inc. | 2022 Form 10-K | 35 Restricted Marketable Securities The Company considers marketable securities to be restricted when withdrawal or general use is legally restricted.
+Note 2 – Revenue Net sales disaggregated by significant products and services for 2022, 2021 and 2020 were as follows (in millions): 2022 2021 2020 iPhone (1) $ 205,489 $ 191,973 $ 137,781 Mac (1) 40,177 35,190 28,622 iPad (1) 29,292 31,862 23,724 Wearables, Home and Accessories (1)(2) 41,241 38,367 30,620 Services (3) 78,129 68,425 53,768 Total net sales (4) $ 394,328 $ 365,817 $ 274,515 (1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.
+(2) Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.
+(3) Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services.
+I have reviewed this annual report on Form 10-K of Apple Inc.; 2.
+I have reviewed this annual report on Form 10-K of Apple Inc.; 2.

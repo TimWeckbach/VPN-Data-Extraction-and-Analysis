@@ -1,0 +1,59 @@
+And beyond our advertising business, we have strong momentum in Cloud, YouTube subscriptions and Hardware.
+And there are many opportunities to build on our progress at YouTube over the years, starting with Shorts monetization.
+Just this week, we started bringing revenue sharing to YouTube Shorts, which is now averaging 3 over 50 billion daily views, up from the 30 billion I announced on the Q1 2022 call.
+Our subscription business continues to grow, with YouTube Music and Premium surpassing 80 million subscribers, including trialers.
+Together with YouTube Primetime Channels subscriptions and YouTube TV, we have good momentum here.
+YouTube’s NFL Sunday Ticket will accelerate that by helping to drive subscriptions, bring new viewers to YouTube’s paid and ad-supported experiences and create new opportunities for creators.
+Our differentiated products and focused go-to-market strategy continue to drive customer momentum, beginning with real-time data, analytics and AI.
+I’ll start today with our Google Services performance in the fourth quarter and then dive deeper into our priority areas.
+In Google Advertising, Search and Other revenues were down 2% year-over-year, and YouTube Ads and Network had high single-digit revenue declines.
+Google Other Revenues were up 8% year-over-year, with strong growth in YouTube non-advertising and Hardware revenues, offset by a decrease in Play revenues.
+I’ll highlight two other factors that affected our Ads business in Q4.
+At the same time, we saw a further pullback in spend by some advertisers in Search in Q4 versus Q3.
+In YouTube and Network, the year over year revenue declines were due to a broadening of pullbacks in advertiser spend in the fourth quarter.
+It’s important to recognize that our advertising business has obviously benefited over the past decade from the transition to mobile.
+Google AI also underlies our Creative products, like text suggestions in Google Ads and creative optimization in responsive search ads.
+AI has been foundational to our ads business for the last decade, and we’ll continue to bring cutting edge advances to our products to help businesses and users.
+First, we’re on a multiyear mission to make Google a core part of shopping journeys for consumers and a valuable place for merchants to connect with users.
+This means constantly improving our consumer experiences, starting with a more visual, immersive, browsable Search.
+Second, we’re empowering more merchants to participate in our free listings and ad experiences.
+Third, to drive retail performance further, we focus on great ads products.
+Two quick insights on PMax, which we upgraded the majority of advertisers to from Smart Shopping campaigns last year.
+Despite ongoing revenue headwinds in Q4, we’re confident in YouTube’s long-term trajectory.
+In 2022, more people created content on YouTube than ever before.
+Long-form, short-form, audio, podcasts, 6 music, livestreams what sets YouTube apart is we give creators more ways to create content and connect with fans and more ways to earn money than any other platform.
+The creator ecosystem and our multiformat strategy will continue to drive YouTube’s long-term growth, and to support that growth we’re focused on, number one, ramping Shorts; number two, accelerating engagement on a large screen; number three, investing in our subscription offerings; and, number four, a long[er]-term effort to make YouTube more shoppable.
+On the creator side, it’s been impressive to see the innovative ways creators are using Shorts to introduce their content and extend existing channels.
+We’re focused on providing creators with the best content creation and monetization tools, new, richer features, and analytics capabilities that help individualize and optimize their content strategies.
+According to Nielsen, YouTube is the leader in U.S. streaming watch time.
+It’s clear the future of online video is about helping users seamlessly discover and watch content across ad-supported and premium services.
+Our goal is to be a one stop shop for multiple types of video content.
+That’s why we first offered YouTube Music & Premium, where 80 million-plus paid subscribers and trialers enjoy their favorite content and music ads-free.
+We then expanded into YouTube TV, significantly improving on the legacy television experience.
+Then last fall, Primetime Channels launched, making streaming subscription services available on YouTube on an a la carte basis.
+Since our earliest 7 days, our revenue share models have been structured around ROI for our partners, from Play developers and online publishers to YouTube creators, artists and media orgs around the world.
+And to Googlers for their energy, focus and dedication to helping our users, customers, and partners succeed, especially through these tougher times.
+Google Search and Other advertising revenues of $42.6 billion in the quarter were down 2%.
+YouTube advertising revenues of $8 billion, were down 8%.
+Network advertising revenues of $8.5 billion, were down 9%.
+First, significant subscriber growth in YouTube Music Premium and YouTube TV.
+Within Google Services, we are focused on investing in the opportunities we see for long-term revenue growth.
+First, within Advertising, we are focused on using advances in AI to drive new and better experiences for users in Search, as well as to deliver better measurement, higher ROI and tools for more compelling creative content to advertisers.
+9 In YouTube, we are prioritizing continued growth in Shorts engagement and monetization, while also working on other initiatives across our ad-supported products.
+With YouTube subscriptions, we are optimistic about building on its momentum across YouTube Music Premium, YouTube TV, and Primetime Channels.
+For Google Cloud, we remain excited about the long-term market opportunity and the trajectory of the business.
+And then, Philipp, you said in the past about the scaling of monetization of YouTube Shorts.
+What is taking the time to really bring advertisers on?
+What are some of the things you've seen, heard, or that you solved to make this a more quickly monetizable product?
+12 On YouTube TV, we are building the ability for subscribers to, for example, watch multiple screens at once.
+And on YouTube CTV, we will be adding new features specific to the Sunday Ticket experience, like comments, chats, polls, and so on.
+And we are really excited to see what they'll do across long form, Shorts, live streams and more.
+Ads on Shorts are now available -- it gives you a bit of a sign for the progress.
+You have Video Action, App, Discovery, Performance Max campaigns -- and via product feeds, Shorts are also shoppable.
+And Sundar shared just yesterday we brought revenue sharing to Shorts via our YouTube Partner Program.
+And ultimately our goal is to make YouTube the best place for Shorts and creators, and that's really what our focus is at the moment.
+And clearly the emphasis of revenue growth, there's a lot that's exciting ahead of us within Google Services.
+All of the AI advancements that are improving advertiser ROI and the Search user experience – and more broadly, as we've talked about, across the key product areas.
+And so what we're really looking at here are what are the opportunities for monetization and commercialization.
+Ruth, you mentioned a couple of times getting Google Cloud to profitability.
+So as we've talked about on prior calls, with Google Cloud, we've really been investing ahead of our revenues, given the growth in the opportunity overall, and the desire to ensure that we're equipped, able to support customers across segments, around the globe.

@@ -1,0 +1,74 @@
+It was a great quarter, led by strong performance from Search, YouTube and Cloud.
+But in addition, we expect YouTube overall and Cloud to exit 2024 at a combined annual run rate of over $100 billion.
+We have six products with more than two billion monthly users, including three billion Android devices.
+We have clear paths to AI monetization through Ads and Cloud, as well as subscriptions.
+And Google One now has crossed 100 million paid subscribers.
+So now let me turn to quarterly highlights from Cloud and YouTube in a bit more detail.
+We also announced Google Vids, a new application to create stories in short-video format.
+Turning next to YouTube, which continues to grow and lead in streaming.
+We announced that, on average, viewers are watching over one billion hours of YouTube content on TVs daily.
+AI experiments like Dream Screen will give anyone the ability to make AI-generated backgrounds for YouTube Shorts.
+And on subscriptions, which are increasingly important for YouTube, we announced that in Q1, YouTube surpassed 100 million Music and Premium subscribers globally, including trialers.
+And YouTube TV now has more than eight million paid subscribers.
+I/O is in less than three weeks, followed by Brandcast and Google Marketing Live.
+Google Services revenues of $70 billion were up 14% year-on-year.
+YouTube Ads revenues were up 21% year-on-year, driven by growth in both direct response 6 and brand.
+In Subscriptions, Platforms and Devices, year-on-year revenues increased 18%, driven again by strong growth in YouTube subscriptions.
+Let’s now talk about a few highlights from the quarter from a product innovation and advertising performance perspective.
+First, it bears repeating that AI innovation across our ads ecosystem is core to every aspect of our product portfolio -- from targeting, bidding, creative, measurement, and across campaign types.
+We've talked about how solutions like smart bidding use AI to predict future ad conversions and their value in helping businesses stay agile and responsive to rapid shifts in demand.
+And how products like Broad Match leverage LLMs to match ads to relevant searches and help advertisers respond to what millions of people are searching for.
+This is available to all U.S. advertisers and starting to roll out internationally in English.
+Advertisers are loving its ability to engage new and existing customers and drive purchase consideration across our most immersive and visual touchpoints like YouTube, Shorts, Gmail and Discover.
+I'll add that innovation in the user experience on Search has historically opened up new opportunities for advertisers.
+We're continuing to experiment with new ad formats, including Search and Shopping ads alongside Search results in SGE.
+And we shared in March how folks are finding ads either above or below the SGE results helpful.
+We're excited to have a solid baseline to keep innovating on -- and confident in the role SGE, including ads -- will play in delighting users and expanding opportunities to meet user needs.
+Our focus remains on driving profitability and growth for retailers, helping them optimize digital performance for both online and offline, as well as innovate across our shopping and merchant experiences.
+Retailers can convert intent into action by showcasing in-store availability, pricing, pick-up options and more, all in one ad format.
+It all starts with creation, which drives viewership, which leads to monetization.
+In 2023, more people created content on YouTube than ever before; and the number of channels uploading Shorts year-on-year grew 50%.
+We also hit a new milestone with three million-plus channels in our YouTube Partner Program.
+We recently shared that YPP has paid out more than any other creator monetization platform, including over $70 billion to creators, artists and media companies over the last three years.
+From a viewer's perspective, watchtime across YouTube continues to grow, with strength in both Shorts and CTV.
+8 According to Nielsen, YouTube has been the leader in U.S. streaming watchtime for the last 12-plus months.
+In the first quarter, Living Room benefited from a combination of strong watchtime growth, innovation in the user and advertiser experience, and a shift in brand advertising budgets from linear TV to YouTube.
+Viewers are watching YouTube because they expect to access everything in one place, across screens and formats -- their favorite creators, live sports, breaking news, educational content, movies, music and more.
+And advertisers continue to lean in to find audiences they can’t find elsewhere.
+We're pleased with our Q1 performance across both our ads-supported and subscription offerings.
+On the Ads front, direct and brand were both strong this quarter.
+Shorts monetization continued to improve, with Shorts ads now supported on mobile, tablet, living room, and desktop and available to both performance and brand advertisers.
+In the U.S., the monetization rate of Shorts relative to instream viewing has more than doubled in the past 12 months, including a ten-point sequential improvement in the first quarter alone.
+Just last week, we introduced new ways for brands to get the most out of their Shorts ads with new lineups on YouTube Select, including sports; beauty, fashion and lifestyle; and entertainment.
+For YouTube advertisers, increasing Brand Lift is one of the core goals.
+In Q1, we saw strong traction from the introduction of a Pause Ads pilot on connected TVs, a new non-interruptive ad format that appears when users pause their organic content.
+Initial results show that Pause ads are driving strong Brand Lift results and are commanding premium pricing from advertisers.
+Number one, to help McDonald’s build the “restaurant of the future,” we're deepening our partnership across Cloud and Ads.
+With that, a huge thank you to our customers and partners, many of whom we're excited to see at Google Marketing Live and Brandcast in just a few weeks.
+Other Cost of Revenues was $20.8 billion, up 10% on a reported basis, with the increase driven primarily by content acquisition costs associated with YouTube, given the very strong revenue growth in both subscription offerings and ad-supported content.
+Google Search & Other advertising revenues of $46.2 billion in the quarter were up 14%, led again by growth in retail.
+YouTube advertising revenues of $8.1 billion, were up 21%, driven by both direct response and brand advertising.
+Network advertising revenues of $7.4 billion were down 1%.
+Subscriptions, Platforms and Devices revenues were $8.7 billion, up 18%, primarily reflecting growth in YouTube subscription revenues.
+First, within Advertising, we are very pleased with the momentum of our Ads businesses.
+In YouTube, we had acceleration in revenue growth driven by brand and direct response.
+Second, the YouTube acceleration in revenue growth in Q1 reflects, in part, lapping the negative year-on-year growth we experienced in the first quarter of 2023.
+We continue to deliver significant growth in our subscriptions business, which drives the majority of revenue growth in this line.
+Looking forward, we will anniversary last year's price increase in YouTube TV starting in May.
+Can I ask you to drill a little bit more into monetizable and commercial query trends?
+I think it's approaching the two-year anniversary for the launch of Ads on YouTube Shorts.
+With that in mind, I think YouTube has launched an array of ad products and automation tools to help advertisers transfer what they're doing to the vertical screen.
+So how is this translating into buy-in among your advertiser clients?
+First of all, I mean, let's start with the fact that YouTube performance was very strong this quarter.
+And on Shorts specifically, in the U.S., I mentioned how the monetization rate of Shorts relative to instream viewing has more than doubled in the last 12 months.
+The way to think about it is advertisers really only spend with us when they see a positive ROI.
+So you can assume that this wouldn't be happening unless it were to work for advertisers in the short term and also in the long term.
+It has really helped us respond to both creator and viewer demand for short-form video.
+I mentioned the number of channels, uploading has increased 50% year-over-year.
+And then, of course, as both Sundar and Philipp talked about, the application across Search, YouTube and more broadly the services that we're able to offer.
+And then the second question on just the comment of YouTube and Cloud exiting at a $100 billion run rate.
+Jian Li (Evercore): In terms of your comment about a $100 billion exit rate for YouTube and Cloud, what's driving this visibility for you?
+And then the second one, just more detail on YouTube and sports rights.
+And obviously, these partnerships, in combination with our very vast audience of sports fans, drives investment in subscription experiences across many offerings; NFL Sunday Ticket, YouTube TV, YouTube Primetime Channels and so on.
+We are obviously always looking at where we can create more value for our users, for advertisers, for creators; but nothing specific to talk about at this moment.
+So the question is, if users start searching on smartphones and those searches are basically rendered on the model on the phone without accessing the web, how do you guys anticipate monetizing some of these smartphone-based behaviors that are kind of run on the edge?

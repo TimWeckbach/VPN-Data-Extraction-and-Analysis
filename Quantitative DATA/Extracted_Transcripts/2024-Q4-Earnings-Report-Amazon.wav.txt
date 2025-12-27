@@ -1,0 +1,17 @@
+We also launched Amazon Hall for US customers in Q4, which offers customers an engaging shopping experience that brings ultra low price products into one convenient destination.
+Customers continue to want Amazon to be the place they rely on for sharp pricing.
+Our relentless pursuit of better selection, price and delivery speed is driving accelerated growth in prime membership.
+For just $14.99 a month, prime members get unlimited free shipping on 300 million items often the same day or one day delivery, exclusive shopping events like Prime Day, access to a vast collection of premium programming and live sports on Prime Video, ad-free listening of 100 million songs and podcasts with Amazon Music, access to unlimited generic prescriptions for only $5 a month, unlimited grocery delivery and orders over $35 from Whole Foods marketing Amazon fresh for $9.99 a month, a free grub hub plus membership with free unlimited delivery and our latest benefit of a 10 cent per gallon fuel discount at BPM, a co and AMPM stations.
+When you think about this as a whole, and also compared to many other membership services that are comparably and more expensively priced and offer just one benefit like Video, Prime is a screaming deal and we have more coming for our Prime members in 2025.
+We also remain squarely focused on costs to serve in our fulfillment network, which has been a meaningful driver of our increased operating income.
+Sponsored products, the largest portion of ad revenue are doing well and we see runway for even more growth.
+We also have a number of newer streaming offerings that are starting to become significant new revenue sources.
+On the streaming video side, we wrapped up our first year of prime video ads and were quite pleased with the early progress and head into this year with momentum.
+We also have differentiated audience features that leverage billions of customer signals across our stores and media destinations from Amazon marketing cloud secure clean rooms, providing advertisers the ability to analyze data, produce core marketing metrics and understand how their marketing performs across various channels to our new multi touch attribution model that helps advertisers understand how their marketing is working.
+If an advertiser uses streaming TV display, sponsored products and other ad types in their campaign, multi touch attribution will show the relative contribution of each to their sales.
+Our functionality leadership continues to expand and there were several key launches customers were above about, including Amazon Aurora, Desequil, our new serverless distributed SQL database that enables applications with the highest availability, strong consistency, Postgres compatibility, and four times faster reads and writes compared to other popular distributed SQL databases.
+We will also continue to invest in experiences that are potential to be important to customers in Amazon-long term, in areas like Alexa, healthcare, and grocery, as well as Kuiper, including the planned launches of our production satellites in the coming months.
+As a reminder, we currently expense the majority of the costs associated with the development of our satellite network.
+We don't procure it unless we see significant signals of demand.
+And that's what we've done with services like Amazon bedrock.
+Other examples of how you see the Amazon retail shopping experience changing throughout 2025 is you're better using Genai or GP on able machine learning and things.

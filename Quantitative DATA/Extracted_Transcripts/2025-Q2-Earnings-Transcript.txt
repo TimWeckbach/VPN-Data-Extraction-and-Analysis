@@ -1,0 +1,58 @@
+We continue to see strong performance in YouTube, as well as Subscriptions, reflecting great momentum across these high-growth businesses.
+In the U.S., Shorts now earn as much revenue per watch hour as traditional in-stream on YouTube, and in some countries, it now even exceeds in-stream's rate.
+I also want to mention Veo 3, our state-of-the-art video generation model.
+Since May, over 70 million videos have been generated using Veo 3.
+The Gemini app now has more than 450 million monthly active users and we continue to see strong growth and engagement, with daily requests growing over 50% from Q1.
+And powered by Veo 3, our new short video product in Workspace called Google Vids reached nearly one million monthly active users.
+3 And we are really pleased with the growth in Subscriptions, which got a boost from our Google AI Pro and Ultra plans.
+Now, some key highlights from Search, Cloud, YouTube, and Waymo for the quarter.
+And over one million subscriptions have been booked for Agentspace ahead of its general availability.
+Nielsen data shows YouTube has led U.S. streaming watch time for over two years.
+A generation that grew up with YouTube on their devices is now increasingly watching their favorite creators and content on their televisions.
+From Sports to Shorts, we now average over 200 billion daily views on YouTube Shorts.
+Finally, YouTube continues to diversify its subscription options, recently expanding its Premium Lite offerings to 15 new countries, with more to come.
+I'll quickly cover performance for Google Services for the quarter, then structure the rest of my remarks around the great progress we are delivering across Search, Ads, YouTube, and Partnerships.
+Google Services revenues were $83 billion for the quarter, up 12% year-on-year, driven by strong growth in Search and YouTube, partially offset by a year-on-year decline in Network revenues.
+Gemini's native multimodality is helping bring the offline audio and visual world back into the online world, creating a number of opportunities for Search.
+And you can obviously take this to the next level by moving from image to video-based capabilities, like ‘Search Live’.
+Moving to Ads, where our strategy to reinvent the entire marketing process with AI is delivering value for our customers and our business.
+On Media Buying, Smart Bidding Exploration, the biggest update to bidding strategy in a decade, brings better performance to advertisers by allowing them to bid on less obvious, but potentially higher value queries more often.
+As an example, Depop, Etsy's resale clothing marketplace, used a Shorts-only Demand Gen campaign to drive new customers to the site.
+Over 2 million advertisers now use Google's AI-powered asset generation tools to run ads.
+8 Turning to YouTube, where we saw continued strong revenue growth, driven by Direct Response followed by Brand.
+YouTube creators are connected to the global zeitgeist and trusted by their audiences like no others.
+We're seeing both the volume and the price of ads in Shorts increase, particularly in developed markets.
+The feed-based nature of the product allows for more ad opportunities on average, and this growth is further supported by ad formats native to Shorts, AI-powered ad creative resizing tools, improved ad targeting, and the rise in viewer engagement.
+It leveraged YouTube Shorts partnership ads to increase its reach, generating a 3.3x higher viewthrough rate than the industry benchmark.
+According to The Gauge report by Nielsen, YouTube has been number one in streaming watch time in the U.S. for more than two years, hitting a record high of 12.8% of total TV viewing in June 2025.
+In the past 12 months, YouTube ads viewed on CTV screens drove over one billion conversions.
+We saw strong growth in Retail thanks to CTV shopping ads which allows viewers to shop directly via QR codes, helping us leverage direct marketing opportunities.
+Search and YouTube advertising; Subscriptions, Platforms and Devices; and Google Cloud each had double-digit revenue growth this quarter, reflecting strong momentum across the business.
+TAC was $14.7 billion, up 10% and Other Cost of Revenues was $24.3 billion, up 10%, with the increase primarily driven by content acquisition costs, largely for YouTube, followed by depreciation.
+Turning to segment results, Google Services revenues increased 12% to $82.5 billion, reflecting strength in Google Search and YouTube advertising and subscriptions.
+Google Search and Other revenues increased by 12% to $54.2 billion.
+YouTube advertising revenues increased 13% to $9.8 billion, driven by Direct Response advertising, followed by Brand.
+Network advertising revenue of $7.4 billion were down 1%.
+Subscription, Platforms, and Devices revenues increased 20% to $11.2 billion, primarily reflecting growth in subscription revenues.
+This growth was driven by YouTube subscription offerings, followed by Google One, with growth in paid subscriptions being the biggest driver of revenue growth.
+As for our segments, in Google Services, advertising revenues in the second half of 2025 will be affected by the following: 12 The continuing lapping of the strength we experience in the Financial Services vertical throughout 2024 and year-over-year comparisons will be negatively impacted by the strong spend on U.S. elections in the second half of 2024, particularly on YouTube.
+And YouTube has expanded its addressable market, by building new services like Shorts, which now averages over 200 billion daily views.
+Because I think there's a lot of longstanding dynamics out there about clicks and click monetization that might be very different when you look out over the next three to five years.
+And Philipp, when you think about the evolution of YouTube, you made a number of comments about subscription revenue.
+I'm just curious about how you think about the mix of advertising versus subscription, and what some of your key learnings might have 14 been as the subscription side of the business continues to scale.
+I’m trying to understand your question in terms of clicks and click monetization, maybe that's something Philipp can touch on.
+Philipp Schindler, SVP and CBO, Google: Yeah, so, your question on YouTube subscriptions versus ads, look, I mean, we love our ads business.
+YouTube subscriptions are increasingly important for YouTube.
+We had strong growth across YouTube subscription products, which includes, just to be clear; YouTube TV, YouTube Music, and Premium.
+I think one common theme for our subscription services in general is offering viewers more choice here.
+We also have a very deep understanding of the monetization side here: “Where are we monetizing more with ads?
+Where can we potentially monetize more with subscriptions?” So I think we will continue this as a double-tier strategy actively going forward.
+And then, Philipp, perhaps on Search growth, can you talk a little bit about paid click and pricing growth, just within the 12% Search growth and how we should think about volume versus monetization trends going forward?
+Philipp Schindler, SVP and CBO, Google: And on your paid click question, look, to be very clear, I think we said this before, we manage the business to drive great outcomes for our users and an attractive ROI for our advertisers.
+Some of the product and policy changes we make actually drive better monetization at the expense of paid clicks.
+So, the first one is on Search click-through rates as a driver of monetization.
+So, you guys have done a great job over the past decade of driving better ad relevancy and higher click-through rates in Search.
+We see monetization at approximately the same rate, which gives us actually a really strong base on which we can then innovate and drive actually more innovative and new and next generation ad formats.
+Look, we said our Ads business performed strongly in Q2.
+Anything you can do to accelerate the consumer subscriptions of Gemini within Google One?
+Look, on the first thing, on subscriptions, we have definitely, Google One has been an attractive value proposition powered by storage, but now our AI plans, including both Pro and Ultra, and particularly with the 2.5 series of models, we have definitely seen accelerated traction.

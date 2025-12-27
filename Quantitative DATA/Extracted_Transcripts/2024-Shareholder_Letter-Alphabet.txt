@@ -1,0 +1,54 @@
+Businesses of all sizes use Google’s ads products to drive growth, and AI has been fundamental to many of the Google Ads tools developed over the past decade.
+• Also in 2018, we launched a quarterly YouTube Community Guidelines Enforcement Report, which we have expanded and refined over the years to include additional data.
+• Our Ads Safety Report, where we explain how we are using evolving policies and better technology to find and remove policy-violating ads.
+• Our YouTube enforcement report, which we release on a quarterly basis, includes information on channel removals, removal of comments, the policy reasons for removals, and data on appeals.
+Please see our Google Transparency Report website for a comprehensive list of transparency reports on Security and Privacy, Content Removals, and additional reports.
+He is responsible for Google Search, Assistant, Geo, Ads, Commerce, and Payments products.
+Since joining Google in 2006, he has led Google’s advocacy on competition, content, copyright, and privacy.
+Google has long been a champion of disclosure and transparency, and has adopted a transparency policy for our public policy activities, including our lobbying efforts.
+We already have robust and effective policies, enforcement protections, and algorithmic systems designed to connect users to relevant information across Search and Ads.
+We have robust policies and procedures to ensure users see transparent and accurate ads related to reproductive healthcare, to enable informed healthcare decisions We have clear and longstanding policies that govern abortion-related advertising on our platforms, compliant with local laws and regulations.
+We welcome continued feedback to improve the clarity of ads we serve, and any user or organization may report an ad through our public reporting channels.
+While we allow ads that promote different services and perspectives, we do not allow health claims that could mislead our users.
+All ads displayed on our platforms must abide by our advertising policies, such as those prohibiting misrepresentation and unreliable claims.
+We use a combination of Google AI and human evaluation to ensure that ads and other content comply with these policies, and we transparently report on the outcomes of these efforts each year in our Ads Safety Report.
+https://adalytics.io/blog/are-youtube-ads-coppa-compliant, https://www.markey.senate.gov/news/press-releases/senators-markey-blackburn-demand-ftc-investigate-youtube-google-for-suspected-violations-of-childrens- privacy As government AI interventions focused on public welfare and national security emerge around the world, regulatory risk suggests heightened board oversight is needed.
+WHEREAS: Google advertising accounted for approximately 80% of Alphabet’s revenue in 2022.
+Alphabet’s ad business, including Google Search, YouTube Ads and Google Network, has grown substantially lately, reaching $224 billion in 2022.1 Algorithmic systems are deployed to deliver targeted advertisements, determining what users see.
+This often results in and exacerbates systemic discrimination and other human rights violations.2 Google’s current ad infrastructure is driven by third-party cookies, which enable other entities to track users online by accumulating significant personal data.
+While Google has initiated efforts345 to address privacy shortcomings in its advertising system, it remains unclear how these efforts are supporting the establishment of sufficient and effective human rights due diligence.
+In 2019, Google published a summary of a third-party Human Rights Impact Assessment of a celebrity facial recognition algorithm.7 Its targeted ad systems, which affect billions, deserve the same due diligence, particularly as Google and its peers innovate in advertising targeting methods continuously.
+We collaborate across the broader digital advertising ecosystem to address privacy, informed in part by our AI Principles, our work with leading privacy and competition authorities and our agreement to comply with the White House Commitments on Artificial Intelligence.
+Our policies are carefully designed to protect user privacy and safety Delivering a safe user experience is our top priority when making decisions about the ads people see and the content that monetizes on our ads platforms.
+In March 2024 we published our 2023 Ads Safety Report, our latest annual report on our efforts to prevent improper use of our ads platforms.
+AI is fundamental to many of the Google Ads products we have built over the past decade, driving growth for businesses of all sizes, from features like Smart Bidding to products like Performance Max.
+For many years, the technology has supported advertisers in maximizing their return on investment.
+Finally, advertisers are in control, and they have the opportunity to review all of their generated assets before running them in a campaign, and all ads are subject to our existing Ads policies.
+This policy applies to image, video, and audio content.
+We also provide housing advertisers with information about fair housing requirements to help ensure they are acting in ways that support access to housing opportunities.
+We intend to continue to iterate and apply these publisher and advertiser policies as new privacy- enhancing technologies are developed and integrated into our platforms.
+YouTube and parent company, Alphabet, have faced numerous problems associated with its content moderation and platform design principles, which have proven to be particularly harmful for children and more vulnerable groups.
+Child Sexual Abuse Exploitation – YouTube is often noted as a primary online channel for grooming and coercion, livestreaming, and housing Child Sexual Abuse Exploitation (CSAE) material.
+In Tanzania, total online child sexual exploitation and abuse-related offences on YouTube increased by 50% between 2017 and 2019.1 YouTube was found to be among the primary platforms reported by children who were offered money or gifts in return for sexual images or videos in Thailand (60% of incidents occurred through YouTube), Kenya (24%2), and Uganda (12%3).
+Traffickers in certain industries used YouTube to recruit and interact with those eventually trafficked.4 Children’s Data Privacy – Alphabet has faced legacy issues stemming from YouTube’s record $170 million fine5 paid to the Federal Trade Commission response to allegations that YouTube illegally harvested children’s data.
+Legislative Risk – There has been significant regulatory and legislative action to hold online platforms accountable for their content.
+However, these policies point heavily to parental discretion and “individual choice” and fall short of fully protecting the Company’s exposure to well-documented risks of harmful content getting through YouTube’s platform.
+Resolved: Shareholders request that, within one year, the Board of Directors adopts targets and publishes annually a report (prepared at reasonable expense, excluding proprietary information) that includes quantitative metrics appropriate to assessing whether YouTube/Alphabet has improved its performance globally regarding child safety impacts and actual harm reduction to children on its platforms.
+We promote content that is helpful for children From how we build and design our products to how we develop applicable policies, we strive to ensure that children have positive and age-appropriate experiences on our platforms.
+Across Google and YouTube, we have put extensive resources into building robust policies and protections to combat the exploitation and endangerment of minors.
+There is a higher bar for which videos can be a part of YouTube Kids, and these videos include popular children’s content, educational content, and content from trusted partners.
+We rely on a combination of automated filters built by our engineering teams, human review, and feedback from parents to keep videos on YouTube Kids family-friendly and to protect our community.
+• YouTube’s Terms of Services require that users must be at least 13 years old to use the platform or that a parent or legal guardian must enable it for them.
+YouTube’s Community Guidelines communicate what is allowed on the platform, and we remove violative content.
+These policies apply to videos, video descriptions, comments, livestream, and any other content on YouTube.
+Also, as a video streaming platform, YouTube does not have certain social media features such as direct messaging that might pose additional harms to children.
+Additionally, YouTube restricts live features, disables comments, and limits recommendations of videos that could expose minors to predatory attention.
+To complement our efforts to empower parents and develop better services for children, we recently rolled out our YouTube Youth Principles.
+• Our Terms of Service prohibit using any of our platforms or services to store or share illegal content, including CSAM.
+• Our YouTube Community Guidelines transparency report, which we regularly update, provides data on how we enforce our policies as well as information about our efforts to detect violative content through automated flagging systems.
+We disclose a metric called the Violative View Rate (VVR) as part of the YouTube Community Guidelines transparency report.
+The VVR is an estimate of the proportion of video views that violate our Community Guidelines in a given quarter (excluding spam).
+It measures our progress with respect to removing violative videos by estimating the percentage of views violative videos receive each quarter.
+YouTube consistently makes improvements to its methodology to more accurately calculate VVR.
+Finally, we regularly provide additional information, including quantitative data, on specific policies, product features, and initiatives on our YouTube blog.
+In addition to providing child safety-related metrics in accordance with global regulatory frameworks, Google and YouTube are committed to sharing data that sheds light on how the policies and actions of governments affect privacy, security, and access to information online and have voluntarily issued detailed, timely disclosures regarding compliance and product changes in relation to new regulations.

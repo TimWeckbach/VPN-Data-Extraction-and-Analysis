@@ -1,0 +1,117 @@
+Jonathan Vaas - Adobe Inc. - VP of IR Good afternoon, and thank you for joining us.
+For more information on those risks, please review today's earnings release and Adobe's SEC filings.
+More details about Summit are available at summit.adobe.com.
+Our performance reflects the essential role that Adobe products play in driving the global digital economy.
+We're delivering on our strategy to unleash creativity for all, accelerate document productivity, and power digital businesses.
+Adobe Creative Cloud, Document Cloud, and Experience Cloud are more critical than ever to the success of creators, communicators, students, entrepreneurs, and businesses of all sizes, with AI serving as an accelerant for all.
+Our proprietary data is built on decades of deep domain expertise across creative, documents and customer experience management.
+We leverage large language models as well as have invested in building and delivering our proprietary models in the creative, document, and marketing domains.
+We're bringing generative AI to Adobe Experience Cloud and will demonstrate our AI Assistant for customer experience management at Adobe Summit.
+Adobe is uniquely positioned through the combination of Express, Firefly, Creative Cloud, Acrobat, and Experience Cloud to deliver on this immense market opportunity.
+The success we are already seeing with our GenStudio offering in the enterprise is validation of our leadership, and we expect that success to translate into other segments as we roll out these solutions throughout the year.
+We're driving strong usage, value and demand for our AI solutions across all customer segments.
+We're successfully monetizing our innovations with particular strength in Q1 in the enterprise segment across our Digital Media and Digital Experience businesses.
+We have a phenomenal product roadmap that we're executing against to bring AI innovation across our global customer base, and we are just getting started.
+In Q1, we achieved net new Digital Media ARR of $432 million and revenue of $3.82 billion, which grew 13% year-over-year.
+MARCH 14, 2024 / 9:00PM, ADBE.OQ - Q1 2024 Adobe Inc Earnings Call In Q1, we achieved Document Cloud revenue of $750 million, growing 18% year-over-year.
+We added $143 million of net new Document Cloud ARR, which was a Q1 record, with year-over-year ending ARR growth of 23% in constant currency.
+Other business highlights include: Acrobat Web continues to be an incredible source of customer acquisition with monthly active users up over 70% year-over-year and surpassing 100 million users in Q1.
+On Creative Cloud, creativity is the currency of differentiation in our digital-first world.
+Creative Cloud remains the solution of choice for the world's creators, whether their medium is design, photography, video, illustration or 3D.
+In the year since we announced and released Adobe Firefly, our creative generative AI model, we have aggressively integrated this functionality into both our Creative Cloud flagship applications, and more recently, Adobe Express, delighting millions of users who have generated over 6.5 billion assets to date.
+We also recently introduced Firefly services, an AI platform which enables every enterprise to embed and extend our technology into their creative production and marketing workflows.
+IBM used Adobe Firefly to generate 200 campaign assets and over 1,000 marketing variations in moments rather than months.
+Other business highlights include: The launch of the new Adobe Express mobile app beta brings the magic of Adobe Firefly AI models directly into mobile workflows.
+Express Web usage continues to ramp nicely, with total exports more than doubling year-over-year.
+The unveiling of new research like the preview of our music generation models and editing tools last month and our video auto-dubbing models earlier today have inspired our Creative Cloud and Express customers.
+Other key enterprise wins include AECOM, Capital Group, Dentsu, IBM, Nintendo, and RR Donnelley.
+In Q1, we saw strength across both clouds, with record new commercial subscriptions in Creative Cloud for Q1 and strong product-led growth in Document Cloud.
+Anil S. Chakravarthy - Adobe Inc. - President of Digital Experience Business Thanks, David.
+Experience Cloud business had a great first quarter, achieving $1.29 billion in revenue and was our strongest Q1 on record for new business.
+Subscription revenue was $1.16 billion, representing 12% year-over-year growth.
+Companies are prioritizing digital investments to improve marketing agility and customer engagement while driving growth and profitability.
+Adobe's Holiday Shopping Report, which analyzes trillions of data points, showed strong online spending during the 2023 holiday season, growing 4.9% year-over-year to $222.1 billion, a new record for e-commerce as well as mobile shopping, which surpassed desktop for the first time and drove 51.1% of online sales.
+Our Adobe Experience Cloud applications span the entire customer funnel from acquisition to monetization to retention.
+As a global leader in the Digital Experience Platforms category, Adobe offers businesses a single view of their customers' data across every channel, allowing them to create precise segments and deliver personalized experiences, regardless of when and where a customer interacts with their brand.
+Over the last 5 years, our organic innovations in Adobe Experience Platform, Real-time CDP, Journey Optimizer and Customer Journey Analytics have made us the leading platform for Customer Experience Management, given the scale of the profiles, campaigns, and interactions we process, which now exceed 500 trillion segment evaluations per month.
+We believe harnessing generative AI will be the next accelerant with Creative Cloud, Firefly Services and GenStudio providing a comprehensive solution for the content supply chain and Generative Experience Model automating the creation of personalized journeys.
+Adobe GenStudio natively integrates with multiple Adobe applications across Creative Cloud and Experience Cloud, including Express, Firefly, Workfront, Experience Manager, Customer Journey Analytics and Journey Optimizer.
+It can be used by brands and their agency partners to unlock new levels of creativity and efficiency in marketing campaigns.
+Business highlights include: Momentum with Adobe Experience Platform and native applications with the combined annualized book of business surpassing $800 million in the quarter.
+Demand for Adobe Experience Manager, Workfront and GenStudio to address the enterprise content supply chain.
+Later this month, we are excited to host Adobe Summit, the world's largest digital experience conference in Las Vegas, where we will be joined by thousands of customers, partners, and developers from around the world.
+We look forward to sharing our exciting product roadmap and hearing from our customers on how Adobe is helping them transform their business.
+In Q1, Adobe delivered another quarter of double-digit top-line growth with robust margins that result from product leadership, strong execution and financial discipline.
+The pace of our product innovation across Document Cloud, Creative Cloud and Experience Cloud is leading to customers making large multi-year commitments to Adobe, and you see the result of those customer investments in our RPO performance, which accelerated to 16% year-over-year growth.
+In the quarter, Adobe achieved record revenue of $5.18 billion, which represents 11% year-over-year growth, or 12% in constant currency.
+Business and financial highlights included: GAAP diluted earnings per share of $1.36 and non-GAAP diluted earnings per share of $4.48; Digital Media revenue of $3.82 billion; net new Digital Media ARR of $432 million; Digital Experience revenue of $1.29 billion; cash flows from operations of $1.17 billion; RPO of $17.58 billion exiting the quarter; and repurchasing approximately 3.1 million shares of our stock during the quarter.
+In our Digital Media segment, we achieved Q1 revenue of $3.82 billion, which represents 12% year-over-year growth, or 13% in constant currency.
+We exited the quarter with $15.76 billion of Digital Media ARR, up 14% year-over-year in constant currency.
+Adobe achieved Document Cloud revenue of $750 million, which represents 18% year-over-year growth as reported and in constant currency.
+We added $143 million of net new Document Cloud ARR in the quarter.
+Q1 Document Cloud growth drivers included: Demand for Acrobat subscriptions across all customer segments and geographies; continued growth of Acrobat Web, demonstrating the success of our flagship products across multiple surfaces; growing monthly active users in our Acrobat Reader funnel, driving free-to-paid conversion; new user acquisition resulting from our Microsoft Edge and Google Chrome partnerships; strength in our Teams business with upselling our new Acrobat offering, which includes integrated Sign capabilities; and strong demand from businesses of all sizes, demonstrating the mission criticality of our document solutions.
+We achieved Creative revenue of $3.07 billion, which represents 11% year-over-year growth, or 12% in constant currency.
+We added $289 million of net new Creative ARR in the quarter, with ending ARR growing 12% year over year in constant currency.
+Q1 net new Creative ARR grew more than 20% year over year, excluding the impact of pricing actions associated with both Acrobat CC and All Apps in the year-ago quarter, and Creative Cloud in Q1 FY24.
+Q1 Creative growth drivers included: New subscription growth, including strong adoption of Creative Cloud All Apps across geographies and customer segments; strong single app customer demand in Creative categories such as imaging and photography, and continued growth of Stock and Frame.io; we again saw strength in emerging markets, which we continue to believe is a massive growth opportunity; and outstanding performance of Creative Cloud in the enterprise, including early traction of Firefly Services.
+Turning to our Digital Experience segment, in Q1 we achieved revenue of $1.29 billion, which represents 10% year-over-year growth as reported and in constant currency.
+Digital Experience subscription revenue was $1.16 billion, growing 12% year over year as reported and in constant currency.
+Q1 was a tremendous start to the year for our Experience Cloud business, with growth drivers including: Success closing transformational deals across geographies and verticals with large enterprises that are choosing Adobe to be their end-to-end Customer Experience Management Platform; continued momentum with AEP and native applications, with the annualized book of business growing more than 60% year-over-year; strong customer adoption of our Content, Campaign and Workfront solutions; and continued strength with customer retention and expansion across our 6 REFINITIV STREETEVENTS | www.refinitiv.com | Contact Us ©2024 Refinitiv.
+As a result of our strong trajectory of growth and profitability, we are announcing a new $25 billion share repurchase program, which demonstrates Adobe's continued commitment to returning capital to our shareholders.
+In light of the momentum across our business and factoring in the macroeconomic environment, for Q2 we are targeting: total Adobe revenue of $5.25 billion to $5.30 billion; Digital Media net new ARR of approximately $440 million; Digital Media segment revenue of $3.87 billion to $3.90 billion; Digital Experience segment revenue of $1.31 billion to $1.33 billion; Digital Experience subscription revenue of $1.165 billion to $1.185 billion; tax rate of approximately 18.5% on a GAAP and non-GAAP basis; GAAP earnings per share of $3.35 to $3.40; and non-GAAP earnings per share of $4.35 to $4.40.
+By combining the power of product innovation and executional excellence, Adobe is driving consistent, profitable growth.
+We're delivering on our product roadmap, and we have the right strategy to monetize these innovations into the back half of the year and beyond.
+We are the leader in 3 large and growing categories and have delivered groundbreaking innovation across Creative Cloud, Document Cloud and Experience Cloud.
+As a result of our strategy and execution, we are confident in our ability to attract new users and deliver value to existing customers to drive growth and profitability.
+Obviously, you guys called out that new Creative ARR was up more than 20% year-over-year when you exclude the pricing increases, which infers a pretty major pricing headwind that we're seeing right now.
+First of all, we do -- as we looked at the book of the business, it is a strong start to the year with Q1 coming in at a high watermark with $432 million across the entire business.
+As we look specifically at Creative Cloud, I just want to sort of make sure everyone takes a step back and looks at our strategy to accelerate the business, because I think the growth drivers here are very clear.
+We want to introduce new offers across the business with things like AI Assistant and also existing capabilities for Firefly coming into our core Firefly, our core Photoshop and Illustrator and flagship applications.
+Other key things to look at is that we set another record for new commercial subscriptions in Q1 and the business growth remained stable at -- if you look back at revenue, 12%, if you look forward at ARR, 12%.
+And as we enter the back half of the year, we have capabilities for Creative Cloud pricing with Firefly that have already started rolling out late last year as we talked about, and will be incrementally rolling out throughout the year.
+We're ramping Firefly services and Express in enterprise as we talked about.
+So we have a lot of the back-end capabilities set up so that we can start monetizing these new features, which are still largely in beta starting in Q3 and beyond.
+Both of those are rolling off as we have now introduced the new pricing for CC with Firefly.
+And again, I'll reiterate that as it relates to us taking our targets pretty seriously, I mean, when we guided to $1.9 billion for the year, I mean, we had factored in both, as David mentioned, what was likely to happen in the pricing and how that rolls off as well as the product roadmap and when AI Assistant and Acrobat would be available, when Express, which is now in beta, would be available, so I think it factored in all of those.
+I think where there's tremendous interest and where, if you look at it from an AI monetization, the 2 places that we're monetizing extremely in line with our expectations, the first is as it relates to the Creative Cloud pricing that we've rolled out.
+And as you know, the generative packs are included for the most part in how people now buy Creative Cloud, that's rolling out as expected.
+And the second place where we are monetizing it is in the entire enterprise as it relates to Content and GenStudio.
+And that's a combination, Brent, of when we go into an enterprise for creation, whether we provide Creative Cloud or a combination of Express, what we are doing with asset management and AEM, Workflow as well as Firefly services to enable people to do custom models as well as APIs.
+Brad Alan Zelnick - Deutsche Bank AG, Research Division - MD of Software Equity Research & Senior US Software Research Analyst My question's for Dan.
+And what are you seeing thus far in terms of credit consumption and purchasing patterns of those credit packs?
+Shantanu Narayen - Adobe Inc. - Chairman & CEO And maybe just to add a little bit more of how we are thinking about it as it relates to the monetization of AI, I think we're in early stages as it relates to experimentation.
+I think as it relates to the monetization and the experimentation, we have the generative packs, as you know, in Creative Cloud.
+As it relates to the enterprise, we have both the ability to do custom models, which depends on how much content that they are creating as well as an API and metering.
+So I think it's fair to say, and I certainly monitor what everybody else in the industry is saying, the good news about this is the interface integration that we've done in all our apps and the utilization and I think the experimentation will enable us to determine how we best attract the largest number of customers that we can who are new to Creative Cloud.
+Certainly, I think the number of Q1 commercial subscriptions was another record.
+We were very and continue to be very happy with the performance of Document Cloud.
+If you really look at trying to understand sort of how that plays out, Document Cloud is -- the growth is a combination of both our go-to-market efforts and our product innovation.
+On the go-to-market effort side, think about the fact that Reader continues to be a top of funnel for us, and we continue to see Reader monthly active user growth.
+So the potential of people we can convert over to paid subscribers continues to grow.
+So we're seeing 70% year-over-year growth in terms of web MAU and we crossed 100 million monthly active users for the first time on the Web side.
+And of course, we're doing a lot of work with product-led growth to drive the Journey users to some of that value that drives conversion.
+So that's all we're doing on the go-to-market side.
+And so that's why we integrated Sign directly into that so that people could use their PDFs and start a transaction for their business, and that continues to grow very nicely and it's a great selling point for an integrated service.
+To the second part of your question, we are -- as we've said multiple times on the call, we are very excited about all the innovation that's coming out, that's just starting to ramp in terms of monetization and/or still in beta on the Creative Cloud side.
+So we continue to feel very confident about the second half acceleration of Creative Cloud.
+David Wadhwani - Adobe Inc. - President of Digital Media Business Yes, and maybe I'll just add a few things.
+MARCH 14, 2024 / 9:00PM, ADBE.OQ - Q1 2024 Adobe Inc Earnings Call Aleksandr J. Zukin - Wolfe Research, LLC - MD & Head of the Software Group And I just -- mine is going to be more of a clarifying question, because it's clear that from a number of comments, whether it's outperforming Digital Media ARR in the quarter to accelerating Creative ARR in the second half to maybe doing better than $1.9 billion in the full year for Digital Media ARR, my question is very simple.
+The actions that we're taking right now from both a pricing and a product standpoint, on the Creative side, will be more apparent in the back half of the year into the end of the year.
+Shantanu Narayen - Adobe Inc. - Chairman & CEO I think the other way I would look at it honestly -- sorry, go ahead.
+And relatedly on go-to-market, in the last few months, you've been opening up the aperture for sales positions globally.
+And so that's not just an Adobe perspective, but it's playing out, obviously, in the enterprises as they look at what are the models that they can consider using for production workflows.
+Anil S. Chakravarthy - Adobe Inc. - President of Digital Experience Business And regarding the sales positions in enterprises.
+We just onboarded, this week, a VP of Sales who had prior experience, a lot of experience in Cisco and Salesforce, et cetera.
+So that's an example of we're really bringing on some excellent enterprise sales talent.
+Besides the net new ARR that you've already reported on Creative and DM, what are the other indicators such as new business bookings that you don't quantify necessarily, that you qualitatively saw in Q1 that makes you feel good about the year?
+The need to build your personal brand online, that content is going to explode in terms of the amount of content being created.
+We're clearly seeing a huge benefit from that because the more content that creates -- gets created, the more editing that's required and that's what's driving more commercial CC subscribers this quarter than any other Q1 before, so that's the foundation of it.
+And when I break that up on deferred revenue, unbilled backlog, you saw that acceleration in each of those subcomponents, which, as you look through that acceleration, the near term underscores the strength of the business, and it underscores the longer-term strength we have around the momentum of the business.
+You see record commercial subscriptions in the Creative business in Q1.
+And so I think what investors would really love to hear is Dan Durn actually say you still expect to do $1.9 billion in net new Digital Media ARR and get some certainty there, and then also have a little bit more certainty or a little bit more explanation of what are the building blocks of that second half ramp.
+Or is there just some mechanism within sort of the Creative Cloud pricing that's going to turn on in the back half of the year?
+Shantanu Narayen - Adobe Inc. - Chairman & CEO And let me tackle that, Keith, and maybe I'll just tackle it by taking a couple of the other questions as well, summarizing that and ending with your question associated with the financial results.
+The way we first started to execute against that is in the enterprise, because for us, the enterprise and the ability to create custom models so people can tweak their models to be able to do things within Photoshop that are specific to a retailer or a financial service was where we focused.
+But long term certainly, as I've said with our partnerships, we will have the ability for Adobe, in our interfaces, to leverage any other model that's out there, which again further expands our opportunity.
+MARCH 14, 2024 / 9:00PM, ADBE.OQ - Q1 2024 Adobe Inc Earnings Call I think as we play out the year, when we gave our targets for the $1.9 billion in ARR and the $410 million in Digital Media ARR for Q1, it factored in both our product roadmap and how things would evolve in the year.
+All of the product roadmaps, we knew, whether it was Acrobat, whether it was Express, whether it was Firefly, whether it was Creative Cloud or whether it's GenStudio that brings all of these together, we knew the product roadmap, which we're executing against in the first half of the year, a lot of that was beta, and in the second half of the year, a lot of that's monetization.

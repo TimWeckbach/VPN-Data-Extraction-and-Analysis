@@ -1,0 +1,59 @@
+But looking forward, streaming is working everywhere.
+You mentioned greater distance from pricing, better seasonality, I think the content slate builds through the year.
+But in a recession and just tougher macro in general, how do you think Netflix and streaming, more broadly, would hold up?
+I think it's really important that particularly in tough economic times that consumers see Netflix has a tremendous value.
+We try to provide a range of price points to consumers around the world to make sure that, that service is accessible even in the current environment.
+And I would say, I'm sure we'll get to this in a little bit, but I think that our ad-supported offering is an extension of that sort of pro consumer, wide range of prices that will increase accessibility of the service, especially in the years to come.
+And also as a subscription business, it tends to be a little bit stickier.
+Reed, you've talked about making the Netflix ads a better ad experience than what's available on TV today.
+I think we're looking at this as an extension of 2 things that we think that we've historically done, which is, one, to be very consumer-centric and think about the customer experience.
+And then also just taking an innovation-oriented view, whether it's sort of how we started in streaming to how we think about great quality of experience and the innovations we've led and I think in the discovery and choosing side.
+But over time, we think there's a tremendous opportunity to leverage that innovation DNA that we have as well as a bunch of sort of enabling characteristics around addressability and measurability and things like that to, one, provide an incredible experience for consumers, those who choose to take the ad-supported offering, but also provide an incredible experience for brands and advertisers who want to work with us to make sure that we're doing a good job of elevating what that looks like for them.
+But I think when you look at the scale of our offering, the technical DNA we have, the partners that we've got lined up, I'm pretty optimistic that over a couple of years, we can deliver an experience which is fundamentally different from the ad experience on linear in a way that supports all of the stakeholders.
+And I think we also share a perspective on what is a great experience for consumers and for advertisers.
+So all of the ads that are served on our ad-supported offering will come through Microsoft.
+But what do you anticipate will happen in terms of members switching plans and perhaps trading down to the ad-supported tier?
+And do you have a view kind of long term what percentage of subscribers might be on the ad-supported tier?
+And that -- some of those consumers are folks that have never actually ever signed up for Netflix.
+Some of those are folks that are currently watching Netflix, but they're using another paying member's account credentials, right?
+So those all, I think, represent opportunities for us because we're bringing a wider range of prices through the ad-supported offering, a lower consumer-facing price to be able to attract a broader set of members.
+And when we run the models and talking to brands, advertisers to Microsoft, we look at the monetization that is the complement to that sort of subscription part of the ad-supported offering, and we're quite optimistic that the sort of unit economics work to make that monetization sort of equal or maybe even better than what we would see on the comparable side for the non-ad, subscription-only kind of plans.
+So there'll be a little bit more complexity there in ads.
+So in terms of the on-ramp, the planned selection, how upsells happen, we want to sort of work those flows iteratively over time, so we build into that complexity without making overwhelming for consumers.
+And you talked about advertising monetization, essentially helping close the gap perhaps with current ARM or getting above that level.
+Gregory K. Peters COO & Chief Product Officer I think about the timing more as sort of how we roll this out and how we sort of build more subscribers on those ad-supported offerings.
+So obviously, we're launching first in the countries that have sort of the more mature ad markets and we feel more confident in the ad monetization, then we'll sort of explore next tiers of countries over time.
+spglobal.com/marketintelligence 9 NETFLIX, INC. FQ2 2022 EARNINGS CALL | JUL 19, 2022 But I would say the initial response that we're getting from a brand and an advertiser perspective is quite strong.
+So we feel quite confident that as we sort of grow into this and we have more subscribers over time on these plans, that at least initially the unit economics are going to be -- are quite good.
+It's not like all of a sudden, all folks on ad-free Netflix are going to join advertising Netflix.
+You talked in the letter certainly about the ad product is having the potential and likelihood to drive overall member growth and then certainly overall profitability.
+Spencer Adam Neumann Chief Financial Officer I'd say, overall, Doug, these are -- this is -- our focus is as we've talked about these initiatives across paid sharing as well as advertising as ways to better monetize our viewing and grow members, as Greg said, advertising, as an example, it can do both.
+Along those lines, there's been a lot of discussion around -- that Netflix needs to renegotiate deals perhaps with content providers to monetize through advertising.
+But also a lot of your viewing clearly comes through original content.
+Today, the vast majority of what people watch on Netflix, we can include in the ad-supported tier today.
+Why did you choose Microsoft over other potential ad partners?
+to basically try and create a new ads ecosystem around premium TV, connected TV ads.
+And so both from the consumer perspective because that's really important, and I think we've seen the sort of long arc of advertising towards very pro-consumer, let's make advertising part of the quality of the experience rather than detracting from it as well as having a really strong brand and advertiser kind of focus on what do they need to support their goals from there.
+And can it be a more strategic partnership beyond advertising?
+Can it involve elements of cloud, gaming, perhaps other things over time?
+First of all, we picked Microsoft as our ad partner because we think they're going to be great as an ad partner.
+We've been sort of working behind the scenes for almost 2 years in building the technical capabilities to get this stuff rolled out, and now we actually get to put something in front of consumers and see how they react.
+Essentially, both of them are similar in that they ask consumers not to stop sharing so much but just to pay a little bit more for different forms of sharing.
+So really, at this point, we'll sort of see what works for consumers.
+So supporting those legitimate use cases, but also making sure that we're doing a good job at getting paid as a business when we're delivering entertainment to folks outside that household or that home in a way that is reasonable where we're asking for a little bit of extra monetization to make that happen, make it a smooth transition as we can for users and really trying to balance that sort of very consumer, pro consumer, consumer of choice model with what we think are practical considerations of the business.
+Does -- do you need to have account sharing and kind of lining up with the advertising tier rollout?
+Part of this is being able to offer to a range of folks who may be borrowing Netflix because they didn't quite see as much value from the entertainment and the viewing to sort of motivate getting their own plan.
+But part of what's great about ads is that obviously, we get to give folks that are seeing a little bit less value, a lower price and be able to convince more of them to sign up through that ad plan.
+I think these titles continue to hit new heights, which is really fantastic that we could still be doing this back to back and delivering hits on top of hits, and I think that really belongs to the content teams that do such a phenomenal job around the world.
+And as we referenced in the letter using the U.S. market as an example, Nielsen is going to be reporting later this week, 7.7% screen time share for Netflix, which is the highest we've ever been, which is again testament to the team and the quality and engagement of what they're delivering.
+Are there ways that you can leverage that record-breaking viewing to drive engagement with other shows and learnings that you can take to build out additional franchise content?
+Douglas Till Anmuth JPMorgan Chase & Co, Research Division And Ted, how do you balance out driving both that high-quality content and the significant scale?
+Does anything change in your process around content going forward?
+How do you think about that content spending going forward?
+So cash -- we've come through a pretty big business transition for us and the most cash-intensive portion of that transition over the last 5, 10 years where we moved to original -- Netflix Originals predominantly and producing our own content largely.
+And then also cash content spend is a little bit choppy.
+I've heard great things from our content executives on that one.
+Billions of people around the world love streaming TV and film, and we only serve a few hundred million of them.
+spglobal.com/marketintelligence 18 NETFLIX, INC. FQ2 2022 EARNINGS CALL | JUL 19, 2022 Copyright © 2022 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global).
+S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content.

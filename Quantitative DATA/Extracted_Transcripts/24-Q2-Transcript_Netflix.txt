@@ -1,0 +1,62 @@
+First, strong performance of our content slate, a wide variety of titles that delivered across genres and regions, and I'm sure we'll talk more about that.
+And at least on the paid member front, we're also probably benefiting from that attractive entry point in terms of price point and feature set for our ads plan.
+So you look at the content, the product market fit is what drives our ability to attract members and retain members and monetize with them as well.
+So on top of that, our original films and our license films is films in the pay TV window, immediately following theatrical, continue to thrill our members.
+And just to give you a sense of how wide that is, even things that we've been working on for over a decade, like our sign-up flows or the user experience that a consumer has when they want to sign up for Netflix, we have found multiple improvements just over the last couple of quarters in those flows, which have delivered material incremental revenue wins.
+And that really allows us to more effectively get more of those 500 million-plus and growing smart TV households around the world that aren't currently members to sign up.
+spglobal.com/marketintelligence 6 NETFLIX, INC. FQ2 2024 EARNINGS CALL - PRELIMINARY COPY JUL 18, 2024 optimization, extra member, ads revenues and pricing into more value.
+You say that advertising is not a "primary" driver of revenue growth yet.
+So stepping back, I'd say we're very pleased with how we're scaling our ads business.
+But if you think about even just the revenue portion of ads, it is growing nicely.
+The rate of growth, it just happens to be growing off of a relatively small base because we're starting from only 18 months into ads.
+So to have the kind of a primary revenue impact across a business that has been primarily subscription for a long time, that just takes some time.
+Looking to your advertising revenue ramp into 2025, what are the key areas that need to improve to bring in significantly more revenue?
+Can you talk about the opportunities and challenges scaling up your direct sales efforts and leveraging third-party sources of demand, primarily programmatically?
+We've been scaling our ads member base very quickly from 0 2 years ago to where we are today.
+One is our go-to-market capability so we're adding more sales folks, we're adding more ads operation folks, building our capabilities to meet advertisers.
+A big component of that is giving advertisers more effective ways to buy Netflix.
+We mentioned we're building our own ads server now.
+That unlocks a whole set of innovations that we expect that are focused on a better user experience for our members on those ad tiers and better advertiser features.
+spglobal.com/marketintelligence 7 NETFLIX, INC. FQ2 2024 EARNINGS CALL - PRELIMINARY COPY JUL 18, 2024 And ultimately, really, this is about bringing what has been amazing about digital advertising in terms of targeting relevance, measurement, et cetera.
+And what we think is amazing about TV advertising, which is an incredible creative format, better creative format in many cases than digital, as well as the ability to put those advertisements next to content, titles, stories that are impacting the social conversation, which is important for advertisers.
+From Steven Cahall, his question is, given what we think are pressures on AVOD CPMs and the 10 hours per account per month of viewing time you disclosed at the upfront for ad-supported members, what's the likelihood that ad-supported arm drops below ad-free member arm in the second half?
+Would you consider raising the price of ad-supported tiers as an offset?
+So you should think of that as roughly how our ads plan members are engaging as well.
+And then on terms of ads arm, so ads arm, which is, of course, the combination of the subscription amount plus the ads revenue, currently because we've been scaling so rapidly, we are not -- we're racing behind essentially to fulfill all of that increasing inventory and we're lagging in that regard.
+We think about pricing for ads tier very similarly to how we would think about pricing for our non-ads tier.
+That means we are more accessible for more people in our ads market.
+And we'll think about that in the ads context just like we would in the non-ads context.
+John Hodulik from UBS asks, can you provide an update on the CTV ad environment and update us on initial feedback from advertisers on your adtech initiative?
+What features do you expect to add with the adtech build?
+I'd say the primary one and again, one that we're responding to, which is sort of very tactical and immediate is being able to provide advertisers more ways to buy on Netflix.
+So those demand sources is something we heard very clearly from advertisers that they -- was either a real improvement for them or it was a necessary point for them to be able to buy on Netflix.
+So then beyond that, we hear lots of enthusiasm for the things I mentioned before, increasing ads relevancy, targeting personalization, better measurement, incrementality, all these things that we'll be building over the next several years, lots of excitement about that.
+The biggest negative feedback we get is that we aren't there right now, so advertisers want us to have all those features in place today.
+And quite frankly, as we build those features, I am quite Copyright © 2024 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+Is your recent agreement to stream 2 NFL games on Christmas Day signaling that you need live sports to build a robust advertising business?
+Or are you trying to create a regular cadence of high-profile live events to bring advertisers onto Netflix platform who will then spend across your broad array of entertainment content?
+Your primary competitor for more passive home entertainment engagement increasingly looks to be YouTube.
+What are you doing in terms of programming and product to try and take share from YouTube in the future?
+Looking at the Nielsen data that just released for June, what you see there is Netflix and YouTube are the clear leaders in direct-to-consumer entertainment.
+So us and YouTube represent about 50% of all streaming to the TV in the U.S. And we use the U.S. only because that's where we have the data.
+So really, what we're focused on here is focusing ourselves on that other 80% of total TV time that isn't going to either us or YouTube.
+So that's both streaming continuing to expand, which it did in June so the share of TV time grew against linear.
+Now we clearly do compete with YouTube in certain segments of their business, and we certainly compete with them for time and attention.
+I think it's also important to note that Netflix fulfills an important and differentiated need for both consumers who really want -- they want amazing spectacle movies and TV shows as well as an important need for creators who want partners that can share in the risk that's inherent in bringing those stories to life.
+It works well for our consumers, it works well for creators, and it works well for our business and helps us generate significant operating margin.
+So I'm pretty sure that there's a better business and a bigger business in making content 10% better than it is making it 50% cheaper.
+We're increasingly promoting games as well into our service.
+So what we found is we need to create structures that allow us to flexibly go from 1 type of content and entertainment to another in terms of how we're promoting and connecting those.
+This is -- our expectation is that this new structure will allow us to deliver, as the old structure did for a decade, multiple repetitive material benefits to users in terms of engagement, which lead into retention and then revenue.
+What have been the early results from phasing out the Basic tier in a handful of your markets?
+And how does that tie back to success in selling ads?
+Essentially, we're providing them a better experience, 2 streams versus 1.
+And for members who don't want that ads experience, they, of course, can choose our ad-free Standard or Premium plans as well.
+And one of those things that really is working is connecting our members with games based on specific Netflix IP that they love.
+And to kind of replicate some of the success we've seen building fandom and with live events and consumer products, this actually fits really nicely into that.
+And what's the overall content spending growth going forward?
+spglobal.com/marketintelligence 13 NETFLIX, INC. FQ2 2024 EARNINGS CALL - PRELIMINARY COPY JUL 18, 2024 is they are very tightly wound into the creative ecosystem in all these different countries, the star systems, the producer systems, and more importantly, the culture, what fans in those countries really love.
+So these kind of like super serving local audience is creating global content around the world, gives us an efficiency that I think is getting better and better and a muscle that's getting stronger and stronger that I'm really excited about.
+spglobal.com/marketintelligence 14 NETFLIX, INC. FQ2 2024 EARNINGS CALL - PRELIMINARY COPY JUL 18, 2024 Copyright © 2024 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global).
+S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content.

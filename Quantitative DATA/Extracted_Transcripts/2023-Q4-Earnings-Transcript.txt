@@ -1,0 +1,75 @@
+Two, Subscriptions, which reached $15 billion in annual revenue, up 5x since 2019.
+Subscriptions is growing strongly, powered by YouTube Premium and Music, YouTube TV and Google One.
+2 In addition to Search, we are also seeing a lot of interest in our AI-powered solutions for advertisers.
+YouTube is the key driver of our subscription revenues.
+Available in over 100 countries and regions, YouTube Music and Premium have real momentum.
+They are engaging passionate users and driving great returns for the music industry and creators.
+People love the navigation, multiview and unlimited DVR.
+Let me also talk about our subscription service, Google One.
+It provides expanded storage, unlocks exclusive features in Google products and allows us to build a strong relationship with our most engaged users.
+Google One is growing very well, and we’re just about to cross 100 million subscribers.
+Search, YouTube and Cloud are supported by our state-of-the-art compute infrastructure.
+Google Services revenues of $76 billion were up 12% year-on-year.
+In Google Advertising, Search & Other revenues grew 13% year-on-year, led again by solid growth in the Retail vertical.
+YouTube Ads revenues were up 16% year-on-year, driven by growth in both direct response and brand.
+In Subscriptions, Platforms and Devices, which was previously named Google Other, year-on-year revenues increased 23%, driven by strong growth in subscriptions.
+This is our big bet to help social advertisers find and convert consumers via immersive, relevant, visual creatives across YouTube, including YouTube Shorts, Gmail and Discover.
+In a single campaign, you get access to over 3 billion users as they stream, scroll, connect, and decide what to buy.
+As we look ahead, we’re also starting to put generative AI in the hands of more and more businesses to help them build better campaigns and even better-performing ads.
+Automatically created assets help advertisers show more relevant Search ads by creating tailored headlines and descriptions based on each ad’s context.
+We can’t wait to see how this continues to drive performance and level the playing field for advertisers of all sizes.
+As we shared last quarter, Ads will continue to play an important role in the new Search experience, and we’ll continue to experiment with new formats native to SGE.
+SGE is creating new opportunities for us to improve commercial journeys for people by showing relevant ads alongside search results.
+We’ve also found that people are finding ads either above or below the AI-powered overview helpful, as they provide useful options for people to take action and connect with businesses.
+Our proven AI-powered ads solutions were also a win for retailers looking to accelerate omni growth and capture holiday demand.
+Moving on to YouTube, we’re obviously pleased with YouTube’s advertising revenue growth in Q4, and also significant growth in our subscription revenues.
+We give millions of creators more ways to create content and connect with fans; and more ways to make money and build their own businesses than any other platform.
+And via ads and subscriptions, these viewers fund our creators and drive the eyeballs and engagement our advertisers want.
+We’ve invested in a full suite of tools, including our new YouTube Create app for Shorts, to help people make everything from 15-second Shorts to 15-minute videos to 15-hour livestreams with a production studio in the palm of their hands.
+Anyone with a phone can swap in a new backdrop, remove background extras, translate their video into dozens of languages, all without a big studio budget.
+We continue to grow watch time across YouTube, with strong growth in Shorts and Connected TV.
+We're investing to make this experience even better with interactive features tailored to TVs, plus the content people love: our creators, NFL Sunday Ticket, and a range of live sports and studio content via YouTube TV and Primetime Channels.
+Put this all together and YouTube is the must-have app on every Connected TV.
+Monetization is pillar number three and realized through a combination of ads-supported and subscription offerings.
+Advertising generates the bulk of our revenue, and we continue to invest heavily here.
+We’ve rolled out CTV-first formats, like 30-second non-skippable ads and Pause experiences; as well as an industry-first, send-to-phone experience that lets people use a second screen to engage with ads.
+It’s early, we’re learning, but excited by the opportunities for ads this can unlock.
+7 Our AI-powered video formats, from Video Reach and Video View Campaigns to Demand Gen and Video Action, continue to make advertiser dollars go further and drive results across the funnel.
+We’re also introducing new and existing advertisers to YouTube via sports content.
+90+ upfront and scatter advertisers, including Unilever, are partnering with YouTube in our first year across NFL Sunday Ticket in-game advertising opportunities.
+Our subscription offerings are also growing at a healthy clip.
+Premium users are delivering more value to our partners and YouTube than even ad-supported users do.
+On average, each additional Premium sign-up boosts earnings for creators, music and media partners, and YouTube itself.
+It gave creators new opportunities to create content and feed user engagement across traditional user content and professional sports content.
+Another highlight was our expanded partnership with Porsche to enhance customers’ digital experiences with a deeper in-vehicle integration of Google built-in services, including Google Maps and Play.
+Other Cost of Revenues was $23.6 billion, up 5%, with the increase driven primarily by content acquisition costs associated with YouTube subscription offerings.
+Google Search and Other advertising revenues of $48 billion in the quarter were up 13%, led again by growth in retail.
+YouTube advertising revenues of $9.2 billion, were up 16% driven by both direct response and brand advertising.
+Network advertising revenues of $8.3 billion were down 2%.
+Subscriptions, Platforms and Devices revenues, which we previously referred to as Other 9 Revenues, were $10.8 billion up 23%, primarily reflecting growth in YouTube subscription revenues.
+Turning to our outlook for the business, with respect to Google Services, first, within Advertising, we were pleased with the sequential revenue growth of Search and YouTube advertising throughout 2023, which reflects the extraordinary work across our teams to drive improved experiences for users and attractive ROI for advertisers.
+Second, within Subscriptions, Platforms and Devices, our total revenues from Subscription products reached $15 billion for the full year 2023, driven primarily by substantial growth in subscribers for our YouTube subscription offerings.
+The substantial increase in our subscription revenues over the past few years demonstrates the ability of our teams to deliver high value-add offerings and provides a strong base on which to build, including through YouTube and newer services like Google One.
+And then secondly, how do you think about the long-term sales force intensity of the advertising business as you roll more AI-based tools like PMax impacting the overall ad allocation?
+And the recent advances are really allowing us to drive more value for advertisers across a large range of different areas: Bidding, targeting, creative, as well as our core advertiser and publisher experiences.
+We are seeing in core Search ads, for example, the bidding side, the value-based bidding, as a very significant one on the targeting side, the broad match on creatives, responsive search ads, automatically created ads assets.
+How are you thinking about the returns on the investment on both from an advertising perspective and then also subscribers to both Sunday Ticket and YouTube TV?
+On the ads side, as you know, advertisers can buy from an NFL lineup as part of our YouTube Select portfolio.
+And this actually allows advertisers to reach football fans across YouTube's pretty unique breadth of NFL content, independently of whether you are viewing live NFL games or on YouTube TV or Primetime Channels or watching NFL highlights or postgame commentary on YouTube channels.
+And we saw solid demand across the ad market around our YouTube Sunday Ticket offering here.
+And I mentioned over 90 upfront and scatter advertisers partnered with YouTube in our first year across NFL Sunday Ticket in-game opportunities, which we really appreciate.
+Given the importance of Connected TV engagement at YouTube, can you talk about the opportunity outside the US for Connected TV and what the company is doing at-large to drive more adoption of YouTube or Connected TVs, even the Google operating systems?
+Anything you can share about the density of the auction or advertising interest on Shorts?
+I said before, YouTube is the leader in US streaming watch time, and it's not just one audience group diving deep.
+On the Shorts monetization side, look, we built Shorts to respond to the huge demand from both creators and viewers for short-form video, and we are very pleased with the growth we've seen.
+Specifically to the monetization question, Shorts monetization continues to progress nicely.
+It's also been about two years since PMax was launched, but it seems like there has been this long lineage of product development and rollout of things like Smart Bidding in your history, which I believe at the time was designed to help smaller advertisers more easily run Search advertising.
+And today, you are helping generate creatives as well as manage my spend and maximize ROI across multiple Google surfaces.
+It's across the board for users, for advertisers, developers, Cloud Enterprise customers, governments.
+Sundar Pichai, CEO Alphabet and Google: Look, I think -- I have tremendous confidence in the quality-driven -- both our work, be it Search quality, ads quality, our improvements on Search, our improvements on the ads RPM, all - two foundational pillars, are -- extraordinary focus on ads quality so that we deliver the actual ROI to advertisers and improve the experience for users, and all underpinned by rigor and technical excellence and go-to-market excellence, right?
+And then, Philipp, I wanted to ask on the creative side, and particularly on YouTube and ads and using AI to improve the creative and really to offer SMBs who have been with Google forever, but offer them now performance-based video ad campaigns created by AI, is that kind 18 of a new growth area?
+YouTube's mission you know has enabled millions of creators around the world to share their voice and connect with audiences and obviously build thriving businesses here.
+You obviously are aware of the Made on YouTube announcement where we introduced a whole lot of new complementary creativity features on YouTube, including Dream Screen, for example, and a lot of other really interesting tools and thoughts.
+You can obviously imagine that we can take this more actively to the advertising world already.
+As you know, it continues already to power AI, a lot of our video ad solutions and measurement capabilities.
+It's part of video reach campaigns, multi-format ads are - actually, there's generative creator music that actually makes it easier for creators to design the perfect soundtrack already.

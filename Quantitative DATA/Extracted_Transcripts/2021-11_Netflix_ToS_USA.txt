@@ -1,0 +1,33 @@
+Netflix provides a personalized subscription service that allows our members to access entertainment content ("Netflix content") over the Internet on certain Internet-connected TV's, computers and other devices ("Netflix ready devices").
+As used in these Terms of Use, "Netflix service", "our service" or "the service" means the personalized service provided by Netflix for discovering and accessing Netflix content, including all features and functionalities, recommendations and reviews, our websites, and user interfaces, as well as all content and software associated with our service.
+To use the Netflix service you must have Internet access and a Netflix ready device and provide us with one or more Payment Methods.
+We may use information such as device ID, method of payment or an account email address used with an existing or recent Netflix membership to determine Offer eligibility.
+To use the Netflix service you must provide one or more Payment Methods.
+The Netflix service and any content accessed through our service are for your personal and non- commercial use only and may not be shared with individuals beyond your household.
+During your Netflix membership, we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and Netflix content through the service.
+You may access Netflix content primarily within the country in which you have established your account and only in geographic locations where we offer our service and have licensed such content.
+The content that may be available will vary by geographic location and will change from time to time.
+The number of devices on which you may simultaneously watch depends on your chosen subscription plan and is specified on the "Account" page.
+The Netflix service, including the content library, is regularly updated.
+In addition, we continually test various aspects of our service, including but not limited to our websites, user interfaces, promotional features and availability of Netflix content.
+Some Netflix content is available for temporary download and offline viewing on certain supported devices ("Offline Titles").
+Some Offline Titles may not be playable in certain countries and if you go online in a country where you would not be able to stream that Offline Title, the Offline Title will not be playable while you are in that country.
+You agree to use the Netflix service, including all features and functionalities associated therewith, in accordance with all applicable laws, rules and regulations, or other restrictions on use of the service or content therein.
+Except as explicitly authorized in these Terms of Use, you agree not to archive, download, reproduce, distribute, modify, display, perform, publish, license, create derivative works from, offer for sale, or use content and information contained on or obtained from or through the Netflix service.
+You also agree not to circumvent, remove, alter, deactivate, degrade or thwart any of the content protections in the Netflix service; use any robot, spider, scraper or other automated means to access the Netflix service; decompile, reverse engineer or disassemble any software or other products or processes accessible through the Netflix service; insert any code or product or manipulate the content of the Netflix service in any way; or use any data mining, data gathering or extraction method.
+In addition, you agree not to upload, post, e-mail or otherwise send or transmit any material designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment associated with the Netflix service, including any software viruses or any other computer code, files or programs.
+The quality of the display of the Netflix content may vary from device to device, and may be affected by a variety of factors, such as your location, the bandwidth available through and/or speed of your Internet connection.
+HD, Ultra HD and HDR availability is subject to your Internet service and device capabilities.
+Not all content is available in all formats, such as HD, Ultra HD or HDR and not all plans allow you to receive content in all formats.
+Default playback settings on cellular networks exclude HD, Ultra HD and HDR content.
+A download speed of at least 3.0 Mbps per stream is recommended to receive HD content (defined as a resolution of 720p or higher).
+A download speed of at least 15.0 Mbps per stream is recommended to receive Ultra HD (defined as a resolution of 4K or higher).
+By using our service, you agree to receive, without further notice or prompting, updated versions of the Netflix and related third-party software.
+By using our service, you agree to look solely to the entity that manufactured and/or sold you the Netflix ready device for any issues related to the device and its compatibility with the Netflix service.
+We do not take responsibility or otherwise warrant the performance of Netflix ready devices, including the continued compatibility with our service.
+THE NETFLIX SERVICE AND ALL CONTENT AND SOFTWARE ASSOCIATED THEREWITH, OR ANY OTHER FEATURES OR FUNCTIONALITIES ASSOCIATED WITH THE NETFLIX SERVICE, ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.
+This arbitration provision shall survive termination of this Agreement and the termination of your Netflix membership.
+Netflix is free to use any comments, information, ideas, concepts, reviews, or techniques or any other material contained in any communication you may send to us ("Feedback"), including responses to questionnaires or through postings to the Netflix service, including our websites and user interfaces, worldwide and in perpetuity without further compensation, acknowledgement or payment to you for any purpose whatsoever including, but not limited to, developing, manufacturing and marketing products and creating, modifying or improving the Netflix service.
+To find more information about our service and its features, or if you need assistance with your account, please visit the Netflix Help Center, which is accessible through the netflix.com website.
+Netflix may, from time to time, change these Terms of Use.
+We may assign our agreement with you to any affiliated company or to any entity that succeeds to all or substantially all of our business or assets related to the applicable Netflix service.

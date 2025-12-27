@@ -1,0 +1,62 @@
+You announced details for the new Basic with Ads tier last week launching in the U.S. and 11 other markets.
+Can you help us understand how you arrived at the price point and the product features for Basic with Ads?
+So a lot of what we're thinking in terms of setting pricing for Basic with Ads and how we think about pricing in general anchors on what's the value that we're delivering consumers.
+And then specifically with regard to ads, we modeled out essentially what we think the expected revenue is on a variety of different countries that we're launching in to make sure that in a combination of the subscription price that we're charging for Basic with Ads plus that anticipated monetization, we'd be roughly, call it, unit economics-wise, revenue positive to neutral.
+spglobal.com/marketintelligence 5 NETFLIX, INC. FQ3 2022 EARNINGS CALL | OCT 18, 2022 And I would say that the initial demand that we're seeing is very strong.
+So people are very excited about the proposition of bringing their brands and their ads to a bunch of consumers around the world that are watching our shows.
+And obviously, now our job is to move from that into more of what we expect from a digital world, where we have 100% signed-in audience, fully addressable, fully targetable, and so we can start to layer in additional targeting capabilities over time.
+And all of the data that we use will just be used to basically deliver more relevant ads offering on Netflix, and we're not using that data in any way, shape or form for a profile building off Netflix or anything like that.
+And what justifies the much higher pricing for Netflix?
+And that's a combination of the audience that we have, that we're delivering to, that oftentimes it's hard to access in other ways, certainly harder to access in traditional TV in many cases.
+You've talked in the past about wanting the ad offering to be innovative and somewhat different over time.
+If we think about the range of 4 to 5 minutes of ads per hour, it's certainly lower.
+spglobal.com/marketintelligence 6 NETFLIX, INC. FQ3 2022 EARNINGS CALL | OCT 18, 2022 about tight frequency capping.
+And so that's definitely informed both our ad load and thinking about the frequency capping.
+What I love about those things is the more we talk to brands and advertisers, there's actually a high degree of alignment between sort of what their desires are and what we think is great for consumers.
+And also, limited ad loads sets their ads apart more distinctly.
+So personalization, I think, is a great example where we don't need to think about the ads experience as being uniform across all of our members.
+And we think about we can leverage the personalization capability that we've built in terms of titles and how we present titles and also in terms of how we present ads.
+And additionally, we're also excited to work with sort of partners and our advertisers to think about what is that ads experience, the ad format that is really best suited for premium connected TV.
+And I think we're looking forward to, over a couple of years, understanding what is the right native format for premium connected TV and figuring out what that looks like.
+In terms of subscribers, how do you think about just this concept of kind of new net adds versus trade-down from existing subs on the Basic with Ads tier?
+And as we stated, we modeled out that expected performance on ad monetization and factor that into our thinking around price point for the Basic with Ads.
+spglobal.com/marketintelligence 7 NETFLIX, INC. FQ3 2022 EARNINGS CALL | OCT 18, 2022 And how do you think about the impact in terms of reducing churn and perhaps how that plays out across some of the different markets given different characteristics and levels of penetration?
+Are there any particular components of the deal that give you confidence in the advertising revenue outlook here and how it compares to subscription over time?
+So I'm actually excited about our ability to grow that capacity on the Microsoft side that I think they're going to do some hiring and building and we're going to do some hiring and building and then, through that joint capacity growth, be able to better serve more advertisers, which we can't even -- actually, we're turning some folks away right now because we just don't have the go-to-market capacity to serve everyone.
+And a lot of what makes digital attractive will be part of our offering as we go.
+Obviously, I think when you think about sort of demand capture and those direct response ads versus sort of the more brand side, we're probably going to be leaning for some time more into that brand side of things, where we can be more competitive.
+And our job is to be highly competitive with the components, the technical components that we can add in, in terms of targeting, et cetera, but also then be very competitive because we have really incredible content and an incredible audience that advertisers want to connect with.
+Maybe you can just talk about some of the key costs or investments in running the ad business given that Microsoft is responsible for the bulk of that sales for now.
+And then when you add in the incrementality on subscribers, we think we can build a big incremental revenue and profit streams.
+Maybe you can just kind of walk us through how you're feeling about core subscriber growth before you kind of get into the dynamics in '23 around advertising and paid sharing.
+Everything the company is focused on, whether that's on the content side, on marketing, lowering prices to the ad supported, the paid sharing, the thoughtful approach we're doing there lines us up for a good Copyright © 2022 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+But some of those revenue accelerators that we know we're focused on in the near term, whether it's ads, we just talked a bunch about that.
+So we're trying to be more and more aggressive about smoothing that out to make sure that the content is available when people are ready to watch it.
+So today, when I think about what we learned today, we've kind of developed a lot stronger skill sets and partnerships and processes to ensure quality of delivery and working with our creators and to give them the tools to deliver for the audience, some things that are fairly proprietary and some things that just benefit from the scale of our business so that they can really do what we want to do, which is please audiences.
+And I guess, what's your confidence that you can deliver both the quantity and also the quality of content that you want within that number across all regions?
+So that -- I feel better and better about that $17 billion of content spend because what we have to do is be better and better at getting more impact per $1 billion spend than anybody else.
+And we've been working really hard to try and find essentially a balanced position and approach towards this one that supports customer choice and, frankly, a long history of customer centricity that we think has informed how we think about establishing our service but balancing that with making sure that as a business, we're sort of getting paid when we're delivering entertainment value to consumers.
+And based on the customer feedback that we're getting, we sort of landed on an approach towards paid sharing that we think strikes that balance.
+And a key component of that is the ability for borrowers, people that are using somebody else's account right now to access Netflix, to be able to create their own separate account.
+And we think that, that sort of separate account path will be especially attractive in countries where we're launching that lower-priced Basic with Ads plan.
+Another component of this, though, is allowing account owners to be able to pay for Netflix for some friend or family, somebody they want to share the service with.
+So we're trying to come up with a range of options that supports customer choice, balances those considerations but also ensures that we've got a sustainable business model that allows us to invest in more of that great entertainment that Ted's team has always focused on for all of our members.
+Douglas Till Anmuth JPMorgan Chase & Co, Research Division And do you think extra member and kind of new accounts, could that be bigger than advertising in 2023 for Netflix?
+Paying for Netflix for somebody that you want to share that service with, that's a legitimate need.
+So maybe just to start, focusing on subscribers in our early days was helpful.
+But now that we have such a wide range of price points, different partnerships all over the world, economic impact of any given subscriber can be quite different.
+And that's particularly true if you're trying to compare our business with other streaming services.
+And this is going to be, I think, even more important as we head into 2023 and we develop new revenue streams like advertising and paid sharing, where membership growth is only one aspect of the revenue picture.
+But for now, given all those learnings that Ted mentioned, we think we can deliver more member value per dollar of content spend than we have in the past.
+Reed, so you talked about -- according to Nielsen, right, streaming time now surpasses both broadcast and cable.
+What does this next period of streaming look like, in your view?
+Clearly more competitive, more ad supported, but how else do you think it evolves?
+YouTube is very strong on connected TVs, so they will continue to grow.
+The volume of releasing that we're doing, it's not that we're putting out so much content, just dumping the content into the world.
+Actually, we're trying to super serve hundreds of millions of people with individual tastes and individual relationships with content and to do that at scale, something that's never been done before.
+And we're growing even in those strained economic times and with the extraordinary levels of competition out there for streaming dollars and for hours of viewing.
+In 6 months with this -- and with the tremendous demand on that product and with a great partnership with Microsoft and with Greg Peters and his phenomenal team that runs that effort, our Basic with Ads tier is going to help us open up Netflix to a whole new audience of folks who are attracted to all that great content at an even lower price point.
+In Q4, we look forward to bringing this incredible slate to everybody and as we continue to grow in this world of film and television and games, which we believe that the future of television, of films and games is streaming.
+spglobal.com/marketintelligence 17 NETFLIX, INC. FQ3 2022 EARNINGS CALL | OCT 18, 2022 Copyright © 2022 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global).
+S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content.

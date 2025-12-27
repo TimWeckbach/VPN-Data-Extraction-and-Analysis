@@ -1,0 +1,29 @@
+At Amazon, we think of our business in terms of inputs and outputs.
+This year's Prime Day was our biggest ever, with record sales, number of items sold and number of Prime signups in the three weeks leading up to the Prime Day.
+Customers saved billions of dollars and independent sellers, most of which are small and medium-sized businesses, saw their best sales performance of any Prime Day event yet.
+We also have such diversity of sellers in our marketplace over two million sellers in total, with differing strategies of whether it passes on higher cost to consumers, the customers are advantaged shopping at Amazon because they're more likely to find lower prices on the items they care about.
+For customers, it means faster delivery times and lower costs.
+These are properties like our retail marketplace, Prime Video, Twitch and Fire TV, in live sports such as NFL NASCAR and the NBA, as well as third-party websites and apps.
+Another area we're excited about is our demand side platform or Amazon DSP.
+Our trillions of proprietary browsing, shopping and streaming signals paired with extensive supply side relationships and our secure clean rooms provide advertisers the ability to optimize advertising, deliver greater precision and drive efficient and effective advertising outcomes.
+And in June, we announced a momentous partnership with Roku, giving advertisers access to 80 million connected TV households, the largest authenticated connected TV footprint in the US exclusively through Amazon DSP.
+It's a giant leap forward for advertisers bringing best-in-class planning, audience precision and performance to TV advertising.
+This collaboration allows advertisers to gain direct access to Disney's premium inventory across platforms like Disney Plus, ESPN and Hulu while allowing them to leverage insights from both companies.
+They're benefiting from exceptional programming, innovative technology and unrivaled signals, measurement and audience development that provides strong relevancy for consumers and return an investment for brands.
+We continue to help organizations of all sizes accelerate their transition to the cloud, signing new agreements with companies including PepsiCo, Airbnb, Peloton, NASDAQ, London Stock Exchange, Nissan Motor, GitLab, SAP, Warner Brothers Discovery, 12 labs, FICO, Iberia Airlines, SK Telecom and NAT West.
+It opens source way to more easily build agents that's taken off with a wide range of customers with already 2,500 stars and GitHub and over 300,000 downloads on PiPI.
+Customers are excited about agent core and it frees them up to start deploying agents more expansively.
+I save this frequently, but remember that 85 to 90% of worldwide IT spend is still on premises versus in the cloud.
+This includes sharp pricing and more in stock availability, as well as record delivery speeds for prime members.
+This helps customers find the items they need and does so at a competitive price.
+In this dynamic environment, we'll focus on what matters most, delivering exceptional customer value through broad selection, competitive prices, and unmatched convenience.
+So we could be doing more revenue and helping customers more.
+And what we see so far, we've been rolling out Alexa Plus starting in the US, it's with millions of customers now.
+And I think there are a number of different areas where we'll see benefit.
+So it means everything from people are excited about the devices that they can buy from us, that has Alexa Plus enabled in it.
+And I think over time, you could also imagine as we keep adding functionality that there could be some sort of subscription element beyond what there is today.
+Today, prime members get Alexa Plus for free and non-prime members pay $19.99 a month for Alexa Plus.
+But they're all making very nice improvements quarter over quarter and growing selection, adding prime members and expanding our customer offering.
+There is really a digital divide and it's much needed.
+And it's also true for enterprises and for governments that they have assets or needs to have visibility or connectivity that they can't get today given the lack of broadband in a bunch of places around the world.
+I also think the pricing is going to be very compelling for customers.

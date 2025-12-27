@@ -1,0 +1,16 @@
+At Netflix, we’re acutely aware that we are fortunate to have a service that is even more meaningful to people confined at home, and which we can operate remotely with minimal disruption in the short to medium term.
+Like other home entertainment services, we’re seeing temporarily higher viewing and increased membership growth.
+However, we have seen significant disruption when it comes to customer support and content production.
+In addition, we’ve taken on another 2,000 agents (all working remotely), so our customer service levels are almost fully restored despite the increased demand.
+Throughout this crisis, our employees have been working tirelessly to maintain the quality of our service and to find quick, practical solutions to the problems Netflix and our partners face.
+Over the years, we’ve invested heavily in Open Connect, a pioneering caching system that puts our library of content as close to members’ homes as possible.
+We’re now working with ISPs to help increase capacity so that we can lift these limitations as conditions improve.
+Excluding a -$115m impact from F/X, streaming ARPU grew 8% year over year.
+Then, with lockdown orders in many countries starting in March, many more households joined Netflix to enjoy entertainment.
+This timing of paid membership additions also affected our Q1’20 global streaming ARPU; this was the primary driver of the sequential decline in streaming ARPU as the revenue impact from these additions late in the quarter will be mostly felt in Q2’20 and beyond.
+Our content competitors and suppliers will be impacted about as much as we are, in terms of new titles.
+Since we have a large library with thousands of titles for viewing and very strong recommendations, our member satisfaction may be less impacted than our peers’ by a shortage of new content, but it will take time to tell.
+Content As people shelter at home, our hope is that we can help make that experience more bearable by providing a diverse range of high quality content for our members.
+Updates include (i) PIN-controlled access to content by maturity level; (ii) the ​ ​ ability to PIN protect specific titles as well as profiles; (iii) Profile-level content filtering; (iv) the ability to create kids’ experiences that can be customized for different age groups (‘teens and below,’ ‘older kids and below’ and ‘little kids’); and (v) the ability to disable post-play for kids from account settings.
+As we stated last quarter, our FCF profile is beginning to improve due to growing operating margin and profits and as we digest our big move into the production of Netflix originals (which requires more cash upfront vs. later-window content) that started five years ago.
+The forward-looking statements in this letter are subject to risks and uncertainties that could cause actual results and events to differ, including, without limitation: our ability to attract new members and retain existing members; our ability to compete effectively; maintenance and expansion of device platforms for streaming; fluctuations in consumer usage of our service; service disruptions; production risks; actions of Internet Service Providers; competition, including consumer adoption of different modes of viewing in-home filmed entertainment; and the impact of the coronavirus (COVID-19) pandemic.

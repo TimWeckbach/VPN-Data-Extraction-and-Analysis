@@ -1,0 +1,46 @@
+The quarter was led by improving ARPU, decreased churn, a return to per user consumption growth, and significant advertising strength.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 1 MONTHLY ACTIVE USERS (“MAUs”) Total MAUs grew 22% Y/Y to 365 million in the quarter, finishing below our guidance range and forecast.
+Although we continue to face near-term uncertainty with respect to COVID-19, we remain confident in the underlying health of our user funnel, and our existing user retention activity remains consistent with historical trends.
+Total MAUs by Region Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 2 PREMIUM SUBSCRIBERS Our Premium Subscribers grew 20% Y/Y to 165 million in the quarter, towards the upper end of our guidance range and modestly ahead of forecast.
+We added 7 million subscribers in Q2, which drove healthy double digit Y/Y growth across all regions.
+Additionally, we added or expanded several major promotional partnerships in the quarter, including a renewal and expansion of our Samsung promotion (offering 3 month trials in 73 markets to all new and existing mobile/speaker/wearable and appliance devices), a renewal and expansion of our Microsoft Gamepass promotion (offering 3 or 4 month trials in 15 markets), a new Epic/Fortnite promotion (3 month trial in 25 markets), a renewal of our Paypal promotion (3 month trial in 10 markets), and a renewal and expansion of our Vivo promotion (3 month trial in Brazil).
+Premium Subscribers by Region Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 3 FINANCIAL METRICS Revenue Revenue of €2,331 million grew 23% Y/Y in Q2 (or 28% Y/Y on a constant currency basis) and was toward the top end of our guidance range due to significant advertising strength and subscriber outperformance.
+Ad-Supported Revenue outperformed our forecast, driven by strong underlying demand (benefiting sellout and pricing) and aided by favorable comps vs. last year's COVID-19 lows.
+The strength in Ad-Supported Revenue was led by our Direct and Podcast sales channels, with the latter benefiting from a triple-digit Y/Y gain at existing Spotify studios (The Ringer, Parcast, Spotify Studios, and Gimlet) along with contributions from the Megaphone acquisition, the exclusive licensing of the Joe Rogan Experience, and Higher Ground.
+We are very pleased with the initial performance of the Spotify Audience Network which launched in the US in April.
+The rollout allowed us to increase our monetizable podcast inventory in the US by nearly 3x.
+Additionally, for opted-in podcast publishers we’ve seen a double digit increase in fill rates, a meaningful increase in unique advertisers, and a double digit lift in CPMs.
+On July 1, we expanded the Spotify Audience Network to include Australia, Canada, and the United Kingdom.
+The Gross Margin improvement excluding these releases was driven by a favorable revenue mix shift towards podcasts, marketplace activity, and Other Cost of Revenue efficiencies (e.g.
+payment fees, streaming delivery costs), which were partially offset by higher non-music and other content costs and publishing rate increases.
+Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 4 Premium Gross Margin was 30.8% in Q2, up 261 bps Y/Y and Ad-Supported Gross Margin was 11.3% in Q2, up 2,321 bps Y/Y.
+As a reminder, all content costs related to podcast investment are included in the Ad-Supported business for the current and historical periods.
+On June 16, we soft-launched Spotify Greenroom, a redesigned version of Betty Lab’s Locker Room app, as part of our entry into the live audio space.
+This mobile app allows users to join or host live audio rooms, and optionally turn those conversations into podcasts.
+Additionally, we announced a Creator Fund bringing new exciting content to users and helping those creators get rewarded for the content they create on the platform.
+We expect to move to a full commercial launch of Spotify Greenroom later this year, with an initial focus on sports, pop culture, music, and entertainment.
+During the quarter, we began rolling out our paid subscription platform for podcasters in the US.
+Additionally, as part of our Spotify Open Access platform strategy, we announced several new partnerships aimed at opening our platform to third-party paywalled content with the goal of becoming the world’s leading audio browser.
+On May 20, we partnered with Storytel, one of the world’s leading audiobook streaming services, to give Storytel subscribers the ability to enjoy their library of audiobooks on Spotify.
+On July 27, we announced more than 10 new Spotify Open Access partners -- with more to come -- all of which will be able to activate their subscriber base on Spotify while retaining full control over their content.
+We continue to improve our search capability expanding our functionality to include filters and voice search making it quicker and more efficient for users to find content.
+Additionally, we Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 5 rolled out a new version of Your Library to all Spotify mobile users that creates a streamlined way for listeners to explore their collection and find saved music and podcasts more easily.
+We introduced a new miniplayer experience that allows listeners to share, explore, and discover audio from Spotify directly within Facebook, without switching between apps.
+On the Apple Watch, we rolled out the capability for users to download playlists, albums, and podcasts to their watch.
+Finally, we expanded our video podcast footprint to Xbox gaming consoles and went live with the Spotify X1 integration to Rogers Communications customers in Canada.
+Content At the end of Q2, we had 2.9 million podcasts on the platform (up from 2.6 million at the end of Q1).
+The percentage of MAUs that engaged with podcast content on our platform improved modestly relative to Q1.
+Among MAUs that engaged with podcasts in Q2, consumption trends were strong (up 95% Y/Y in aggregate and more than 30% Y/Y on a per user basis) while week- over-week and month-over-month retention rates reached all-time highs.
+During the quarter, podcast share of overall consumption hours on our platform also reached an all-time high.
+During the quarter, we announced exclusive licensing deals with Call Her Daddy and Armchair Expert, both of which are now exclusively on Spotify.
+Internationally, we released 100 new Originals & Exclusives (“O&E”) podcasts across markets including 5 adaptations of existing formats.
+The launches included bespoke content from 28 partners across the region, such as notable new organizations like Infobae and La Nación (Argentina), W Radio (Mexico), and 123 Segundos (Brazil), a Spotify original.
+One of the top podcasts in India, The Ranveer Show, which covers topics like health, spirituality, and lifestyle, also came exclusively to Spotify in June.
+In Q2, Olivia Rodrigo’s album, SOUR, set the record for biggest streaming debut for any album on Spotify this year with over 63 million global first day streams.
+Spotify also launched a new Fresh Finds marketing program to celebrate Indie artists in the US as well as expanding the playlist via localized editions in 13 territories around the world.
+In addition, of artists whose first editorial playlist is Fresh Finds, over 44% go on to be playlisted in another editorial property on Spotify.
+Thus far, artists with tracks in Discovery Mode have found over 40% more listeners on average compared to pre-Discovery Mode.
+We also rolled out new functionality for artist teams using the self-serve platform to target specific audience segments (casual listeners, lapsed listeners, and recently interested listeners) with their campaigns, a functionality previously only available to customers purchasing through our sales team.
+Q3 2021 Guidance: ● Total MAUs: 377-382 million ● Total Premium Subscribers: 170-174 million ● Total Revenue: €2.31-€2.51 billion ○ Assumes approximately 60 bps tailwind to growth Y/Y due to movements in foreign exchange rates Spotify Technology S.A. 42-44 avenue de la Gare, LU-1610 Luxembourg 7 ● Gross Margin: 24.4-26.4% ● Operating Profit/Loss: €(80)-€0 million Q4 2021 Guidance: ● Total MAUs: 400-407 million ● Total Premium Subscribers: 177-181 million ● Total Revenue: €2.48-€2.68 billion ○ Assumes approximately 175 bps tailwind to growth Y/Y due to movements in foreign exchange rates ● Gross Margin: 24.1-26.1% ● Operating Profit/Loss: €(152)-€(72) million EARNINGS QUESTION & ANSWER SESSION We will host a live question and answer session starting at 8 a.m.
+Daniel Ek, our Founder and CEO, and Paul Vogel, our Chief Financial Officer, will be on hand to answer questions submitted through slido.com using the event code #SpotifyEarningsQ221.
+Participants also may join using the listen-only conference line by registering through the following site: Direct Event Registration Portal: http://www.directeventreg.com/registration/event/6039475 We use investors.spotify.com and newsroom.spotify.com websites as well as other social media listed in the “Resources – Social Media” tab of our Investors website to disclose material company information.

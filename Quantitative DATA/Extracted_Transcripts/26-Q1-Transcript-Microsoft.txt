@@ -1,0 +1,68 @@
+Microsoft Cloud revenue surpassed $49 billion, up 26% year over year.
+When it comes to infrastructure, we are building a planet-scale cloud and AI factory, maximizing tokens per dollar per watt, while supporting the sovereignty needs of customers and countries.
+We are innovating rapidly across our family of Copilots spanning the high value domains of information work, coding, security, science, health, and consumer.
+Already, we have roughly 10Xed our investment; OpenAI has contracted an incremental $250 billion of Azure services; Our rev share, exclusive IP rights and API exclusivity for Azure continue until AGI or through 2030, and we have extended the model and product IP rights through 2032.
+Azure customers in 33 countries are now developing their own cloud and AI capabilities within their borders to meet local data residency requirements.
+In Germany, for example, OpenAI and SAP will rely on Azure to deliver new AI solutions to the public sector.
+On top of this infrastructure, we are building Azure AI Foundry to help customers build their own AI apps and agents.
+We offer developers and enterprise access to over 11,000 models, more than any other vendor, including as of this quarter OpenAI’s GPT-5, as well as xAI’s Grok 4.
+For example, Ralph Lauren used Foundry to build a conversational shopping experience in its app, enabling customers to describe what they are looking for and get personalized recommendations.
+These kinds of real, production-scale AI deployments are driving Azure’s overall growth.
+We now have 900 million monthly active users of our AI features across our products.
+And our first party family of Copilots now has surpassed 150 million monthly active users across information work, coding, security, science, health, and consumer.
+When it comes to information work, we continue to innovate with Microsoft 365 Copilot.
+We have integrated chat and agentic workflows into everyday tools like Outlook, Word, Excel, PowerPoint, and Teams.
+Just nine months since release, tens of millions of users across Microsoft 365 customer base are already using Chat.
+And, just yesterday, we announced App Builder, a new Copilot agent that lets anyone create and deploy task-specific apps and agents in minutes, grounded in Microsoft 365 context.
+Customers continue to adopt Microsoft 365 Copilot at a faster rate than any other new Microsoft 365 suite.
+All up, more than 90% of the Fortune 500 now use Microsoft 365 Copilot.
+In just six months, PwC employees interacted with Microsoft 365 Copilot over 30 million times, and they credit this agentic transformation with saving millions of hours in employee productivity.
+And daily users of our Copilot consumer app increased nearly 50% quarter over quarter.
+We are also creating a great consumer subscription offer, with Microsoft 365 Premium.
+And finally, in gaming, we expanded our reach across every endpoint, focused on our higher margin content & services.
+In closing, our planet-scale cloud and AI factory, together with Copilots across high value domains, is driving broad diffusion and real-world impact.
+They continue to choose Microsoft to power their workloads, and together, we remain committed to driving innovation that meets real world needs.
+This was partially offset by ongoing efficiency gains, particularly in Azure and M365 Commercial cloud.
+Operating expenses increased 5% and 4% in constant currency driven by investments in cloud and AI engineering, including compute capacity and AI talent to support product development across the portfolio.
+Capital expenditures were $34.9 billion driven by growing demand for our cloud and AI offerings.
+This quarter, roughly half of our spend was on short-lived assets, primarily GPUs and CPUs, to support increasing Azure platform demand, growing first-party apps and AI solutions, accelerating R&D by our product teams, as well as continued replacement for end-of-life server and networking equipment.
+Commercial bookings increased 112% and 111% in constant currency and were significantly ahead of expectations, driven by Azure commitments from OpenAI as well as continued growth in the number of 100-million-dollar-plus contracts for both Azure and M365.
+Microsoft Cloud revenue was $49.1 billion, ahead of expectations, and grew 26% and 25% in constant currency.
+Microsoft Cloud gross margin percentage was slightly better than expected at 68%, and down year-over-year due to the investments in AI that were partially offset by ongoing efficiency gains as noted earlier.
+M365 commercial cloud revenue increased 17% and 15% in constant currency with 1 point of benefit from in-period revenue recognition.
+M365 consumer cloud revenue increased 26% and 25% in constant currency, again driven by ARPU growth.
+Dynamics 365 revenue increased 18% and 16% in constant currency with continued growth across all workloads.
+And gross margin percentage increased, driven by efficiency gains in M365 Commercial cloud that were partially offset by investments in AI, including the impact of growing usage in M365 Copilot Chat.
+In Azure and other cloud services, where we continue to see accelerating demand, revenue grew 40% and 39% in constant currency.
+Azure AI services revenue was generally in line with expectations.
+And gross margin percentage decreased year-over-year driven by investments in AI that were partially offset by efficiency gains in Azure.
+Against a strong prior year comparable, Xbox content and services revenue increased 1% and was relatively unchanged in constant currency, driven by better-than-expected performance from third- party content.
+As a reminder, there can be quarterly spend variability from cloud infrastructure buildouts and the timing of delivery of finance leases.
+As a reminder, larger long-term Azure contracts, which are more unpredictable in their timing, drive increased quarterly volatility in our bookings growth rate.
+Microsoft Cloud gross margin percentage should be roughly 66%, down year-over-year driven by the continued investments in AI as well as the mix shift to Azure.
+M365 consumer cloud revenue growth should be in the mid-twenties driven by growth in ARPU.
+And in Dynamics 365, we expect revenue growth to be in the mid to high teens with continued growth across all workloads.
+For Intelligent Cloud, we expect revenue of $32.25 to $32.55 billion, or growth of 26% to 27%.
+And while we’re accelerating the amount of capacity we're bringing online, we will continue to balance Azure revenue growth with the growing needs across our first-party apps and AI solutions, our own R&D efforts, and the end of life server replacements.
+In our on-premises server business, we expect revenue to decline in the low to mid-single digits with ongoing customer shift to cloud offerings.
+In More Personal Computing, we expect revenue to be in the $13.95 to $14.45 billion.
+And in Xbox content and services, we expect revenue to decline in the low to mid-single digits against a prior year comparable that benefited from strong first-party performance, partially offset by growth in subscriptions.
+Satya, when we think about AGI, or we think about how application and computing architectures are changing, is there anything that you see on the horizon, whether it’s AGI or something else, that could potentially change what appears to be a really strong positioning for Microsoft in the marketplace today, where that strength will perhaps weaken on a go-forward basis?
+But what people need to realize is it sits across multiple products because of the things Satya’s talking about around creating systems and where we’re investing.
+We’re learning a ton and building leading systems because of it that are being used at scale, that benefits every other customer.
+How much confidence do you have that the software, even the consumer internet business can monetize all the investments we’re seeing globally, or, frankly, are we in a bubble?
+Again, we talk about all these workloads are burning both in terms of app building.
+We are seeing new products launch that are getting increasing usage, and increasing uses very quickly.
+I have said we are now likely to be short capacity to serve the most important things we need to do, which is Azure, our first-party applications.
+And that means you also use software to grow efficiency.
+The same thing that happened between server and cloud, we used to always say, “Well, is it zero sum?” It turned out that the cloud was so much more expansive to the server market.
+And in consumer, one of the things is it’s not just about ads, it’s ads plus subscriptions.
+We seem to be entering into a new era where the contractual commitments from a small number of AI natives are just incredibly large, and not only at absolute terms, but sometimes relative to the size of the companies themselves, for instance, contracts worth hundreds of billions of dollars that are 20 times their current revenue scale.
+We have third party also spread between enterprise, digital natives.
+But it’s great to have the hit first-party apps in the beginning, because you can build scale that then, it’s a fungible.
+And remember, these assets, especially the data centers and so on, are long assets.
+Amy, is there any way to quantify or frame the revenue impact of Azure being short on capacity?
+It’s always hard to quantify precisely what would have been the revenue impact in quarter, but I would offer a way to think about it, is Azure probably does bear most of the revenue impact, because when you think about real priorities that you have to fill first, it’s obviously the increasing usage and adoption and sales we’ve seen of M365 Copilot and the usage of Copilot Chat, which we’ve seen very different patterns, which we’re encouraged by.
+We’ve worked very hard to try to mitigate it as best we can, but we have been short in Azure.
+And I would say the other two priorities that I haven’t mentioned maybe as much before, it’s also just making sure our product teams and the AI talent that we’ve been able to hire into the company, really, over the past year and a half, have access also to significant capacity, because we’re seeing it make the product better in a loop that is adding great benefit today, into products people are using today for real-world work.
+I’m wondering if you could offer some perspective on your criteria to, is it about a certain volume of business that you wish to execute on the Microsoft paper, or something broader than that, that I don’t think maybe people fully appreciate the terminal value that Microsoft will have on its balance sheet at the end of these contracts, which I think is probably being underestimated, as you have the full stack and you’ve got the multiple vectors to monetize, be it databases, Foundry, and to your point, that you are a platform company, not just a hyperscaler?

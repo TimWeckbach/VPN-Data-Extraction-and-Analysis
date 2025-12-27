@@ -1,0 +1,55 @@
+Among other things, the General Terms cover the scope of your use of and access to the NordVPN, NordPass, NordLocker and other services, and any Software (as described below) provided by Nord (collectively, the “Service” or “Services”).
+All our paid Services are provided on a Subscription basis.
+For a summary of key aspects related to your Subscription of our Services, please read the Subscription Terms.
+These General Terms and the Subscription Terms, along with any applicable Service Specific Terms (see Section 2 of the General Terms below) (collectively, the “Terms”).
+You agree and accept to be bound by these Terms by either: (i) creating a user account and/or other accounts to use Services (“Account”); (ii) downloading Software or accessing/using its Services and Websites; or (iii) otherwise electronically agreeing to be bound by these Terms.
+IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS OR ANY PROVISIONS HEREOF, PLEASE DO NOT ACCESS AND USE OUR SERVICES AND/OR WEBSITES.
+Our certain Services (the following products: NordVPN, NordPass and NordLocker) require additional terms and conditions.
+Your use of our Services specified below are subject to the General Terms and Service Specific Terms (“Service Specific Terms”): • NordVPN Additional Terms • NordPass Additional Terms • NordLocker Additional Terms By using the Services, you also agree to the Service Specific Terms applicable to the respective Service(s).
+We also may offer a version of certain Services which is provided free of charge.
+All our paid Services are provided on a Subscription basis.
+Please review Subscription Terms for more information.
+To access and use any of our Services, you must set up an Account by providing certain information (e.g., your email address, password, billing information, country).
+You are responsible for maintaining the confidentiality of your Account and its password, and for restricting access to your Account by any other party.
+To protect your Account, keep your password confidential.
+Do not reuse your Account password with other services.
+You agree to immediately notify us of any unauthorized use of your Account or password.
+We may suspend or cancel the Services if we do not receive a full payment from you on time.
+Suspension or cancellation of the Services for non-payment could result in a loss of access to and use of your Account and its content.
+When you purchase the Services on a Subscription basis (e.g., monthly, annually, or otherwise), you agree that (i) Services will auto-renew until you cancel it, (ii) you are authorizing recurring payments, (iii) payments will be made to Nord by the method and at the recurring intervals you have agreed to, and, (iv) when applicable, Nord may receive and use updated card account information from the financial institution that has issued your card (used to purchase the Services).
+For more information about the Subscription and its cancellation please read our Subscription terms.
+To purchase Services directly through us on our Websites, you must provide us with a current and valid method of payment, such as a credit or debit card or any other payment method available on the Websites.
+If you have any questions related to payments, please contact us.
+If any of your payment details change (like card number or its expiry date), please let us know as soon as possible so we can continue to provide the Services when it comes time for the Subscription renewal.
+If you provide your payment details when signing up for the Subscription with a Free trial, we will automatically charge you for the Subscription of our paid Services, and it will auto-renew until canceled.
+We reserve the right to limit you to one free trial or promotion of a paid Service and to prohibit the combining of free trials or other promotional offers.
+Your possibilities to cancel the Subscription and/or get a refund may differ depending on whether you purchased Services from (or are billed through) Nord or a third party (e.g., app store, service provider, retailer).
+Please note that Subscriptions may be refunded on the basis of the Money Back Guarantee only after the initial purchase.
+Cancellation of such Subscriptions may also be subject to the terms of certain providers.
+Canceling the Auto-Renewal of the Subscription Purchased on our Websites.
+If you have purchased an automatically renewing Subscription on our Websites and would like to stop it from automatically renewing, you can do so at any time from your Nord Account.
+Your access to and use of the Services and Websites is subject to the Terms and all applicable laws and regulations.
+We reserve the right, at any time, in our sole discretion, with or without notice, to suspend and/or terminate the Accounts and/or Services to any users who violate any applicable laws or these Terms, whether repeated violation or a single instance.
+There are inherent risks in relying upon, using, transmitting, or retrieving any data and/or content on the internet, and we urge you to make sure you understand these risks before using the Services.
+YOUR USE OF THE SERVICES AND WEBSITES IS AT YOUR OWN RISK.
+Please also note, that Nord has implemented security measures aimed at securing the Services and Websites; nevertheless, the internet is not a secure network and system reliability could be impaired independently of Nord's efforts and will.
+Users are responsible for taking all appropriate measures to protect their own data, software, equipment, and systems, particularly from contamination by any viruses circulating on the internet.
+You agree, at your own expense, to indemnify, defend, and hold harmless Nord, its parents, subsidiaries, and affiliates and their officers, directors, employees, agents, distributors, and licensees from and against any judgments, losses, deficiencies, damages, liabilities, costs, claims, demands, suits, and expenses (including, without limitation, reasonable attorneys' fees, expert witness fees, and expenses) incurred in, arising out of or in any way related to (i) your breach of these Terms; (ii) your (or any other user's of your Account) use of the Services; (iii) your violation of any applicable laws, rules, and regulations; or (iv) your negligence or willful misconduct.
+We may suspend (for clarification, investigation, or when requesting you to explain your actions) or terminate your Account and/or Services, if (i) we cannot charge you for the auto-renewed Subscription, (ii) you breach Section 8 of the General Terms (“Prohibited and Restricted Use”), (iii) you breach any applicable laws, (iv) it is required to do so by law or competent authority (e.g., where the provision of the Services becomes unlawful in your country of residence, or final court judgment bearing relation to your use of our Services, Software, or Websites is issued).
+We may (but have no obligation) suspend your Account for a reasonable period of time before we terminate it permanently.
+Usually, we will send you a prior notice before suspending or terminating your Account and/or Services.
+BUNDLED SUBSCRIPTIONS AND THIRD PARTY SERVICES 14.1.
+You may purchase Subscription of Nord Service bundled with the Subscription of other Nord Service and/or subscription of Third Party Services (as described below) (“Bundled Subscriptions”).
+We may offer to acquire third party products and/or services independently (as a standalone service) or along with our Services for a fee or free of charge (as a Bundled Subscription) through Nord (“Third Party Services”).
+Please review the terms of use and other policies of Third Party Services carefully and make sure you understand them before you acquire them through Nord.
+If there is any conflict or inconsistency between the terms of use of Third Party Services and these Terms concerning Subscription purchase, auto-renewals, prices/payments, and cancellation/refunds, these Terms govern and apply.
+Cancellation of Bundled Subscription/Third Party Services.
+You may purchase Nord Services along with third party service as a bundled subscription offered by third parties.
+Please review the terms of use and other policies of third parties bundled subscription carefully and make sure you understand them before you purchase such bundled subscription through third parties.
+Actual coverage, speeds, locations, and quality of Services may vary.
+If you have prepaid fees directly to Nord for a paid Subscription that Nord permanently discontinues prior to the end of its period, Nord will refund you the pro rata part of such prepaid fees for the period after such discontinuation (except for cases referred to in Section 12.1 of these General Terms), and in such case your Account and billing information must be up to date in order for us to refund you.
+Please review the third-party website's terms of use and other policies carefully and make sure you understand them before you engage in any transaction.
+Certain Services may require an active and stable connection to the internet in order to function.
+It is therefore your responsibility to ensure that you have at all times an active and stable internet connection.
+If you have questions regarding the Terms, please contact us at support@nordaccount.com.
+English Support center Terms of service Privacy policy © 2025 Nord Security.

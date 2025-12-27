@@ -1,0 +1,48 @@
+How should investors think about Netflix leaning into more content spending over the next 5 years?
+And from a revenue perspective, we're about 6% of consumer spend and ad revenue in the countries we serve in the areas that we serve.
+And then to the point of the specific question, I think that having the low-cost ads plan in our largest markets also gives us more resilience.
+Historically in tougher economies, home entertainment value is really important to consumer households, and Netflix is a tremendous value in absolute terms and certainly, in competitive terms.
+We've also been expanding that range of price points, including a low priced ads plan in our ads market, which better allows us to offer the right plan at the right price to a wider range of consumers.
+How has member retention been trending given the Q4 strong paid net additions?
+I'll move this along now to a set of questions around advertising.
+I think worth noting perhaps that the fact that we're currently relatively small in ads, and that sort of adds as a revenue contributor to Netflix, but probably more importantly, the amount of ad spend that we're seeking to win relative to the big ads pie.
+And we are rolling out our proprietary ad tech suite.
+That offers a bunch of new capabilities that advertisers have told us they want.
+So I would say, based on everything that we're seeing right now, we continue to expect that we will roughly double our advertising revenue in 2025 through a combination of both upfronts, programmatic expansion and scatter.
+Could you provide an update on your first-party ad tech platform.
+It's a big milestone for us to roll out our own ad suite.
+Then we'll roll out across the remaining 10 ad markets in a few stages over the coming months.
+The biggest initial benefit that we are seeing, again, as expected from being on our own ad servers, it just enables more flexibility for advertisers, more ways that they can buy, there's fewer activation hurdles.
+It just makes it easier to transact with Netflix, and that, of course, drives increased sales.
+And then we expect over time that our first-party ad tech platform will allow us to do other things, deliver more critical capabilities more quickly to advertisers.
+These are things like more programmatic availability.
+Something we definitely hear demand for enhanced targeting, something we're excited about.
+And then the other big space of benefit by being on our own ad tech stack is it enables us to have more control to create a higher quality ad experience for our members.
+We know what we're committed to, and we'll just continually to iteratively improve and innovate in advertising, just like you've seen us do in all sorts of other areas.
+And speaking of ads relevance, Justin Patterson has a longer-term question on ads.
+Netflix has solved personalized content recommendations.
+What are the key steps to solving ad content recommendations or relevance?
+That means matching the right ad with the right audience, the right viewer and the right title.
+So the first stage of that is actually being on our own ads platform.
+So that now includes targeting features that are based on Netflix unique data.
+Targeting on Netflix modeled audiences, targeting against audience segments that are provided by a select set of third-party vendors.
+Another big benefit we get on our own ad stack is we'll be able to innovate and develop more quickly new ad formats.
+We've got a lot of work to do for sure, but we think we'll be able to move very quickly and frankly, more quickly than other streamers because we believe we're going to be able to leverage not only preexisting tech that we have, data that we have, but also data science expertise and the rapid product innovation experience that we've got.
+So live is a relatively small part of our content spend.
+We want to work with kind of great creators across all kinds of media that consumers love.
+And podcasts, to your point, have become a lot more video forward.
+But as the popularity of video podcast grow, I suspect you'll see some of them find their way to Netflix.
+As you think about the competitive landscape over the next 5 years, should investors expect Netflix to move into short form or creator lead content to compete head-to-head with YouTube.
+We've always had very strong competitors, including YouTube, many others.
+We also think in that broadest competitive lens that the biggest opportunity we've got is actually going after the roughly 80% share of TV time that neither Netflix nor YouTube have today.
+And then when it comes to the specific head-to-head competition with YouTube or other platforms like YouTube, we believe we are a more competitive better service for a certain class of creators and certain types of storytelling.
+And that means we can provide a better opportunity than YouTube or other services for those creators and those stories.
+Well, some of it is, and we believe we have the best monetization model on the planet for premiums storytelling.
+When you put this all together, we believe it's the best place for premium content as defined by fans and the best home for storytellers wherever they're working on honing their skills today.
+It allows them to tailor the Netflix offering to their needs.
+Or are there other aspects like advertising or subscriber growth?
+And then also, we are -- ads is still a much smaller part of our business than subscription, but ads continues to kind of grow through the year.
+Tim has helped shape Netflix into the company that it is today.
+spglobal.com/marketintelligence 13 NETFLIX, INC. FQ1 2025 EARNINGS CALL APR 17, 2025 Copyright © 2025 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global).
+S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content.

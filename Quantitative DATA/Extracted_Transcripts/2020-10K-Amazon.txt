@@ -1,0 +1,48 @@
+In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, and content creators.
+In addition, we provide services, such as advertising to sellers, vendors, publishers, authors, and others, through programs such as sponsored ads, display, and video advertising.
+Customers access our offerings through our websites, mobile apps, Alexa, devices, streaming, and physically visiting our stores.
+We also manufacture and sell electronic devices, including Kindle, Fire tablet, Fire TV, Echo, Ring, and other devices, and we develop and produce media content.
+We seek to offer our customers low prices, fast and free delivery, easy-to-use functionality, and timely customer service.
+In addition, we offer Amazon Prime, a membership program that includes unlimited free shipping on over 100 million items, access to unlimited streaming of tens of thousands of movies and TV episodes, including Amazon Original content, and other benefits.
+Content Creators We serve authors and independent publishers with Kindle Direct Publishing, an online service that lets independent authors and publishers choose a royalty option and make their books available in the Kindle Store, along with Amazon’s own publishing arm, Amazon Publishing.
+We also offer programs that allow authors, musicians, filmmakers, skill and app developers, and others to publish and sell content.
+3 Table of Contents Competition Our businesses encompass a large variety of product types, service offerings, and delivery channels.
+The Internet facilitates competitive entry and comparison shopping, which enhances the ability of new, smaller, or lesser-known businesses to compete against us.
+In addition, new and enhanced technologies, including search, web and infrastructure computing services, digital content, and electronic devices continue to increase our competition.
+The Internet facilitates competitive entry and comparison shopping, which enhances the ability of new, smaller, or lesser known businesses to compete against us.
+These offerings, which can present new and difficult technology challenges, may subject us to claims if customers of these offerings experience service disruptions or failures or other quality issues.
+The People’s Republic of China (“PRC”) and India regulate Amazon’s and its affiliates’ businesses and operations in country through regulations and license requirements that may restrict (i) foreign investment in and operation of the Internet, IT infrastructure, data centers, retail, delivery, and other sectors, (ii) Internet content, and (iii) the sale of media and other products and services.
+8 Table of Contents Our digital content offerings depend in part on effective digital rights management technology to control access to digital content.
+Breach or malfunctioning of the digital rights management technology that we use could subject us to claims, and content providers may be unwilling to include their content in our service.
+As we continue to add fulfillment and data center capability or add new businesses with different requirements, our fulfillment and data center networks become increasingly complex and operating them becomes more challenging.
+We use third-party technology and systems for a variety of reasons, including, without limitation, encryption and authentication technology, employee email, content delivery to customers, back-office support, and other functions.
+The products offered through our stores include merchandise and content we have purchased for resale and products offered by third-party sellers, and we also manufacture and sell electronic devices and produce media content.
+We also offer other services such as compute, storage, and database offerings, fulfillment, advertising, publishing, and digital content subscriptions.
+We believe that advances in technology, specifically the speed and reduced cost of processing power, data storage and analytics, improved wireless connectivity, and the practical applications of artificial intelligence and machine learning, will continue to improve users’ experience on the Internet and increase its ubiquity in people’s lives.
+Technology and Content Technology and content costs include payroll and related expenses for employees involved in the research and development of new and existing products and services, development, design, and maintenance of our stores, curation and display of products and services made available in our online stores, and infrastructure costs.
+We direct customers to our stores primarily through a number of marketing channels, such as our sponsored search, third party customer referrals, social and online advertising, television advertising, and other initiatives.
+To the extent there is increased or decreased competition for these traffic sources, or to the extent our mix of these channels shifts, we would expect to see a corresponding change in our marketing costs.
+While costs associated with Amazon Prime membership benefits and other shipping offers are not included in marketing expense, we view these offers as effective worldwide marketing tools, and intend to continue offering them indefinitely.
+In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, and content creators.
+We serve consumers through our online and physical stores and focus on selection, price, and convenience.
+We offer programs that enable sellers to grow their businesses, sell their products in our stores, and fulfill orders through us, and programs that allow authors, musicians, filmmakers, skill and app developers, and others to publish and sell content.
+In addition, we provide services, such as advertising to sellers, vendors, publishers, authors, and others, through programs such as sponsored ads, display, and video advertising.
+Subscription services - Our subscription sales include fees associated with Amazon Prime memberships and access to content including digital video, audiobooks, digital music, e-books, and other non-AWS subscription services.
+Prime memberships provide our customers with access to an evolving suite of benefits that represent a single stand-ready obligation.
+Subscriptions are paid for at the time of or in advance of delivering the services.
+Revenue from such arrangements is recognized over the subscription period.
+Technology and Content Technology and content costs include payroll and related expenses for employees involved in the research and development of new and existing products and services, development, design, and maintenance of our stores, curation and display of products and services made available in our online stores, and infrastructure costs.
+We provide Fulfillment by Amazon services in connection with certain of our sellers’ programs.
+Digital Video and Music Content We obtain video content, inclusive of episodic television and movies, and music content for customers through licensing agreements that have a wide range of licensing provisions including both fixed and variable payment schedules.
+When the license fee for a specific video or music title is determinable or reasonably estimable and the content is available to us, we recognize an asset and a corresponding liability for the amounts owed.
+We also develop original video content for which the production costs are capitalized and amortized to “Cost of sales” predominantly on an accelerated basis that follows the viewing patterns associated with the content.
+The weighted average remaining life of our capitalized video content is 2.5 years.
+Our produced and licensed video content is primarily monetized together as a unit, referred to as a film group, in each major geography where we offer Amazon Prime memberships.
+The total capitalized costs of video, which is primarily released content, and music as of December 31, 2019 and 2020 were $5.8 billion and $6.8 billion.
+Total video and music expense was $7.8 billion and $11.0 billion for the year ended December 31, 2019 and 2020.
+Total video and music expense includes licensing and production costs associated with content offered within Amazon Prime memberships, and costs associated with digital subscriptions and sold or rented content.
+Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships.
+(2) Includes the estimated timing and amounts of payments for rent and tenant improvements associated with build-to-suit lease arrangements that are under construction, asset retirement obligations, and liabilities associated with digital media content agreements with initial terms greater than one year.
+We leverage our retail infrastructure to offer a wide selection of consumable and durable goods that includes media products available in both a physical and digital format, such as books, videos, games, music, and software.
+Digital product subscriptions that provide unlimited viewing or usage rights are included in “Subscription services.” (2) Includes product sales where our customers physically select items in a store.
+(4) Includes annual and monthly fees associated with Amazon Prime memberships, as well as digital video, audiobook, digital music, e-book, and other non-AWS subscription services.

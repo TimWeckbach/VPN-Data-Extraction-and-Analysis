@@ -1,0 +1,57 @@
+AI has also been foundational to our Ads business for over a decade.
+She recently transitioned into an advisory role with Alphabet this quarter, with Neal Mohan, a longtime leader at Google and YouTube, becoming the new head of YouTube.
+YouTube Shorts continues to see strong momentum with creators.
+Last year, the number of channels that uploaded to Shorts daily grew over 80%.
+On our subscription business, we rolled out several new updates to YouTube Premium.
+Premium subscribers can now queue videos on phones and tablets, stream continuously while switching between devices, and auto-download recommended videos for offline viewing.
+And we have great momentum around YouTubeTV and YouTube Primetime Channels.
+We've announced pricing for the NFL Sunday Ticket offering, which will help to drive subscriptions, bring new viewers to YouTube’s paid and ad-supported experiences and create new opportunities for creators.
+In Google Advertising, Search & Other, revenues grew 2% year-over-year, reflecting an increase in the Travel and Retail verticals, offset partially by a decline in Finance as well as in Media & Entertainment.
+In YouTube Ads, we saw signs of stabilization in performance, while in Network, there was an incremental pullback in advertiser spend.
+Google Other revenues were up 9% year-over-year, led by strong growth in YouTube subscriptions revenues.
+Now, let’s double-click into the three areas I laid out last quarter where we see clear opportunities for long-term growth in advertising.
+Number two, retail, which cuts across all of our Ads products and surfaces.
+To then unlock core Search further and maximize conversions across all of Google, we’re actively helping more advertisers pair it together with Performance Max.
+This is up five points in just 14 months thanks to advances in the AI underlying bidding, creatives, search query matching and new formats like YouTube Shorts.
+Stay tuned for more at Google Marketing Live in May.
+Number one, making Google a core part of shopping journeys for consumers and a valuable place for merchants to connect with users.
+Number two, empowering more merchants to participate in our free listing and Ads experiences.
+And number three, driving retail performance further with great Ads products.
+Across long-form and Shorts, music and podcasts, vertical and horizontal, YouTube is where creators are incentivized to make their best work, which means the best content, more viewers and more opportunities for advertisers.
+As I said last quarter, our creator ecosystem and multiformat strategy will be key drivers of YouTube’s long-term growth.
+And to support this growth, we’re focused on, number one, Shorts; number two, engagement on CTV; number three, investing in our subscription offerings; and 6 number four, a longer-term effort to make YouTube more shoppable.
+People are engaging and converting on ads across Shorts at increasing rates.
+Zooming out more broadly for a second: Across YouTube, we’re helping brands benefit from our expansive reach and drive the profitability they’re looking for.
+In one of our largest Marketing Mix Modeling studies to date, YouTube ROI is 40% higher than Linear TV and 34% higher than All Other Online Video, according to a custom analysis from January 2020 to March 2022 of Nielsen Compass ROI benchmarks across 16 countries and $19 billion of total media spend measured.
+This proves YouTube's ability to drive effectiveness at scale.
+The goal is to be a one-stop shop for multiple types of video content across both ad-supported and premium services.
+Our launch of multiview on YouTube TV and our first-of-its-kind, a-la-carte access for NFL Sunday Ticket are two examples of how we’re investing here.
+Now more than 100,000 creators, artists and brands have connected their own stores to their YouTube channels to sell their products.
+First, to our customers and partners for their trust and collaboration and, second, to our Googlers for all of their incredible work this quarter.
+Starting with Google Services, Revenues were $62 billion, up 1%.
+Google Search and Other advertising revenues of $40.4 billion in the quarter were up 2%.
+YouTube advertising revenues of $6.7 billion, were down 3%.
+Network advertising revenues of $7.5 billion, were down 8%.
+8 Other Revenues were $7.4 billion, up 9%, reflecting primarily ongoing significant subscriber growth in YouTube TV and YouTube Music Premium.
+With respect to Google Services, within Advertising, Q1 results reflect the resilience of Search with its unique ability to surface demand and deliver measurable ROI.
+In YouTube, we saw signs of stabilization in ad spend on a sequential basis.
+As to Other Revenues, in YouTube subscriptions, we are pleased with the significant ongoing subscriber growth in both YouTube Music Premium and YouTube TV.
+Obviously, if it's YouTube, the chance to really improve experiences for creators and consumers in terms of how the videos are viewed, et cetera.
+It underlies everything that we do, and we're continuing to invest in support of AI, support of our users, advertisers and our Cloud customers.
+Can you give us an update on where we are on monetization trends in Shorts compared to the consumption you have already seen in usage shifts?
+We're pleased with our continuing progress in monetization; as I said earlier, that people are engaging and converting on ads across Shorts at increasing rates.
+Ads on Shorts are now available via Video Action, App, Discovery and Performance Max campaigns and via product feeds.
+And as Sundar said, last year the number of channels that uploaded to Shorts daily grew over 80%.
+And then in February we brought revenue sharing to Shorts via our YouTube Partner Program.
+So ultimately, our goal is to make YouTube the best place for Shorts viewers and creators, and that's really what we're focused on right now.
+And so we have a number of workstreams underway to – as we keep describing it – durably reengineer our cost base.
+Sundar Pichai, CEO Alphabet and Google: So, first of all, throughout the years, as we have gone through many, many shifts in Search and as we have evolved Search, I think we've always had a strong, grounded approach in terms of how we evolve Ads as well.
+The fundamental drivers here are people are looking for relevant information; and in commercial categories, they find ads to be highly relevant and valuable.
+And I don't think -- the underpinnings are the fact that users want relevant commercial information.
+But at the core of your question, we remain extremely focused on these various workstreams that we've talked about.
+Philipp, we are trying to get under the hood on Search advertising and trying to understand changes in demand between sellers of goods and sellers of services.
+And across the headlines, many companies are very focused on shorter-term profitability amidst this uncertainty, and some pulled back ads budgets as well.
+I think, Philipp, you talked about kind of more of a pullback in Network Ad revenue versus Search and YouTube.
+I would contrast that – last quarter, we talked about both pullback in YouTube and Network.
+And we were pleased that we saw the stabilization in ads spend on a sequential basis in YouTube.
+And then to help really retain loyal customers and acquiring new ones, we have YouTube, app deep linking, and new customer acquisition goals in PMax are helping here.

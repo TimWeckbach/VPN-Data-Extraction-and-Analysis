@@ -1,0 +1,20 @@
+Content and Engagement At Netflix, our goal is both simple and ambitious: to entertain the world.
+This in turn fuels engagement, and when people love what they watch and play, they stick around longer (retention), recommend Netflix to others (acquisition), and place a higher value on our service.
+Our successful slate helped us drive record TV view share in Q3 in the United States and the United Kingdom4, two of our largest markets.
+Given the still substantial amount of linear viewing globally, we believe there’s plenty of opportunity to expand our share of TV engagement, if we continue to improve.
+In a world of fleeting consumer attention and audience fragmentation, we believe big events that attract mass audiences are differentially valuable to 2 A view is defined as hours viewed divided by runtime for each title.
+We publish our top titles based on views each week at Netflix Top 10.
+5 Total viewership AMA estimates are derived from VideoAmp data in the US (Live+1), Joe Hand (US, Canada, Puerto Rico), and first-party data in global markets (Live+1).
+Product + Innovation Netflix has a rich history of leveraging cutting-edge technology to deliver a best-in-class entertainment experience for members.
+And in our ads business we are striving to create a better experience for members and help advertisers drive the best results.
+In Q4, we are using AI to test new ad formats, to generate the most relevant ad creative and placement for members, and for faster development of media plans.
+With these advancements, we’ll be able to test, iterate, and innovate on dozens of ad formats by 2026.
+Monetization We’ve come a long way in building our advertising business in less than three years.
+In that time, we’ve gone from zero members on our ads plan to achieving sufficient scale in all 12 of our ads markets (and we’ll continue to grow from here), building out our ad sales and operations teams, and enhancing our capabilities for advertisers including launching our own first party ad tech stack (Netflix Ads Suite).
+We are now on track to more than double our ads revenue in 2025 (still off a relatively small base) and we 6 Eyeline is Netflix's VFX, technology and innovation company.
+With the Netflix Ads Suite fully deployed across all our ads markets for a full quarter, we now have greater opportunities for innovation like enhanced targeting and for integrating additional demand sources.
+For instance, we recently announced we will integrate Amazon’s DSP globally and AJA’s DSP in Japan into our programmatic offering, with availability beginning in Q4’25.
+These efforts should help create a better, more relevant experience for our members and help advertisers drive even better results.
+In addition to other streaming services, we compete with linear TV, social media, video gaming, theatrical movies, concert going, book reading, music listening, and all the options people have for their leisure time.
+To achieve a leadership position in entertainment, we’ve had to build many capabilities including analytics to help optimize our content spend across licensing and internal development, as well as across genres and geographies.
+The forward-looking statements in this letter are subject to risks and uncertainties that could cause actual results and events to differ, including, without limitation: our ability to attract new members and engage and retain existing members; our ability to compete effectively, including for consumer engagement with different modes of entertainment; failing to improve the variety and quality of entertainment offerings; adoption of the ads plan and paid sharing; maintenance and expansion of device platforms for streaming; fluctuations in consumer usage of our service; service disruptions; production risks; macroeconomic conditions; content slate and timing of content releases.
