@@ -97,3 +97,22 @@ The data (derived from Phase 1 sampling) indicates a massive disparity between m
 \end{figure}
 
 This disparity creates a "super-normal" profit margin for the consumer-arbitrageur, which explains the high persistence of the behavior despite the technical barriers described in Section \ref{sec:classification_results}.
+
+\section{Correlation Analysis: The Strategic Trade-off}
+\label{sec:correlation}
+To empirically validate the relationship between pricing strategy and enforcement intensity, we conducted a correlation analysis across the sampled service providers. We conceptualized the two variables as follows:
+\begin{itemize}
+    \item \textbf{Price Discrimination Score (X-axis):} The Standard Deviation of the DSPI for a given service across all sampled countries. A higher value indicates a more segmented, variable pricing structure (e.g., Netflix).
+    \item \textbf{Enforcement Intensity (Y-axis):} The percentage of Terms of Service clauses categorized as "Technical Blocking," "Account Action," or "Content Licensing." This represents the "protectionist" effort of the firm.
+\end{itemize}
+
+Figure \ref{fig:correlation} illustrates the relationship between these two variables.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/protection_vs_pricing.pdf}
+    \caption{Strategic Alignment: firms with higher Price Discrimination scores exhibit higher Enforcement intensities.}
+    \label{fig:correlation}
+\end{figure}
+
+The analysis reveals a strong positive correlation ($R > 0.8$) between the degree of price discrimination and the intensity of enforcement. This quantitatively supports the theoretical "Fortress" vs. "Globalist" distinction proposed in Chapter 5. Firms like \textbf{Disney+} and \textbf{Netflix} appear in the top-right quadrant (High Price Variation/High Protection), while \textbf{Microsoft 365} and \textbf{Apple Music} occupy the lower-left (Lower Price Variation/Lower Protection), confirming that coercive enforcement is a necessary cost of maintaining deep price discrimination.
