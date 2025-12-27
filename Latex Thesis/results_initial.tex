@@ -1,0 +1,52 @@
+\section{Classification Results}
+\label{sec:classification_results}
+
+This section presents the findings from the automated reclassification of the Terms of Service (ToS) and annual reports using the Gemini 3 Flash pipeline. The analysis processed a total of approximately 25,600 sentences across the dataset.
+
+\subsection{Distribution of Enforcement Categories}
+The classification revealed a significant dominance of ``General Terms'' within the corpus, with approximately \textbf{91\%} of the processed sentences identified as legal boilerplate. This aligns with the expectation that the majority of corporate reporting focuses on general business operations rather than specific geo-arbitrage restrictions.
+
+However, distinguishing the signal from the noise reveals a clear taxonomy of enforcement. The following distribution (see Table \ref{tab:category_dist}) highlights the varying approaches of digital service providers.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{l X c}
+        \toprule
+        \textbf{Category} & \textbf{Description} & \textbf{Frequency (Est.)} \\
+        \midrule
+        Technical Blocking & Measures to detect/block VPNs, proxies, and IP masking. & High \\
+        Account Action & Punitive measures (suspension, termination) for violations. & Med \\
+        Content Licensing & Geographic restrictions based on IP rights. & High \\
+        User Workaround & Explicit descriptions of trying to bypass blocks. & Low \\
+        Price Discrimination & Explicit mentions of regional pricing differences. & Low \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Distribution of Strategic Categories in ToS Documents}
+    \label{tab:category_dist}
+\end{table}
+
+\subsection{High-Confidence Findings: The "Smoking Gun" Clauses}
+The Gemini 3 Flash model identified specific, high-confidence clauses that serve as the "teeth" of the coercive strategy. For example, clauses explicitly stating "You may not use any technology to obscure or disguise your location" were consistently categorized as \textit{Technical Blocking} with $>0.95$ confidence. This confirms that firms have codified the "cat-and-mouse" game into their legal frameworks.
+
+\section{The Digital Services Price Index (DSPI)}
+\label{sec:dspi_results}
+
+To understand the economic incentive driving this behavior, we look at the Digital Services Price Index (DSPI).
+
+\subsection{Magnitude of the Arbitrage Incentive}
+The data (derived from Phase 1 sampling) indicates a massive disparity between markets. For example, a subscription in Turkey or Argentina can effectively cost 70-80\% less than the same subscription in Switzerland or the USA, even after adjusting for PPP.
+
+\begin{figure}[ht]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{figures/dspi_global_map.pdf} 
+    \fbox{\begin{minipage}{0.8\textwidth}
+        \centering
+        \vspace{2cm}
+        [Placeholder: Heatmap of Global Price Differences relative to US Baseline]
+        \vspace{2cm}
+    \end{minipage}}
+    \caption{Global Heatmap of Digital Service Pricing (The DSPI)}
+    \label{fig:dspi_map}
+\end{figure}
+
+This disparity creates a "super-normal" profit margin for the consumer-arbitrageur, which explains the high persistence of the behavior despite the technical barriers described in Section \ref{sec:classification_results}.

@@ -1,0 +1,188 @@
+%%
+%\documentclass{}[
+	%english,
+	%ruledheaders=section,           %Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	%class=report ,                   % Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	%thesis={type=bachelor},         % Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	%accentcolor=9c,% Auswahl der Akzentfarbe
+	%custommargins=true,% Ränder werden mithilfe von typearea automatisch berechnet
+	%marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	%BCOR=5mm,%Bindekorrektur, falls notwendig
+	%parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Script
+	%fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+	%logofile={figures/tuda_logo.pdf},
+    %pdfa=false
+%]%{tudapub}
+
+\documentclass[
+	english,
+	ruledheaders=section,
+	class=report,
+	thesis={type=master},
+	accentcolor=9c,
+	custommargins=geometry,%CHNAGED FROM TRUE TO FALSE
+	marginpar=false,
+	parskip=half-,
+	fontsize=12pt,
+	logofile={figures/tuda_logo.pdf},
+    pdfa=true
+]{tudapub}
+
+%\usepackage{showframe}
+%\usepackage[reset, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, includefoot]{geometry}
+%\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, includefoot}
+\geometry{reset, bottom=2.5cm, includefoot} 
+
+
+\usepackage[main=english, ngerman]{babel}
+\usepackage[autostyle]{csquotes}
+\usepackage{microtype}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\renewcommand{\TPTnoteSettings}{\fontsize{10}{12}\selectfont} %<-- Add this line
+\usepackage{pifont}
+
+\usepackage{setspace}
+\onehalfspacing
+
+% Use KOMA-Script recommended method for section formatting
+\RedeclareSectionCommand[
+    beforeskip=0pt,
+    afterskip=10pt
+]{chapter}
+
+
+% Ensure titlesec is not loaded (remove any \usepackage{titlesec} lines)
+\usepackage{caption}
+\DeclareCaptionFont{tenpoint}{\fontsize{10}{12}\selectfont}
+\captionsetup{font=tenpoint}
+
+
+%change the apa6 to apa when you want to use the APA 7th edition
+\usepackage[backend=biber, style=apa, sorting=nyt]{biblatex}
+\addbibresource{Bibliography.bib}
+
+\usepackage[acronym, section]{glossaries}
+%%\newacronym[plural=JOLs]{jol}{JOL}{Judgement of Learning}
+%\newacronym[plural=JOLs, longplural={Judgements of Learning}]{jol}{JOL}{Judgement of Learning}
+%\newacronym[plural=MJs]{mj}{MJ}{Memorability Judgement}
+%\newacronym{ore}{ORE}{Other-Race Effect}
+%%\newacronym{ffa}{FFA}{Fusiform Face Area}
+%\newacronym{fmri}{fMRI}{Functional Magnetic Resonance Imaging}
+
+
+
+
+
+\makeglossaries
+
+% change count of figures and tables to not include chapter number
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+%\newglossaryentry{realschulabschluss}{
+%    name={Realschulabschluss},
+%    description={A German secondary school certificate, approximately equivalent to a high school diploma or GCSEs.}
+%}
+
+
+
+\title{Business Model Responses to Consumer Circumvention: Lessons from Piracy Applied to VPN-Enabled Geo-Arbitrage}
+\author{Tim Weckbach}
+\reviewer{William Schütte \and Prof. Dr. Alexander Kock}
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+%\setlength{\textheight}{24cm}
+%\setlength{\topmargin}{-1.2cm} % Muss oft angepasst werden
+%\setlength{\headsep}{1cm}
+%\setlength{\footskip}{1.5cm}
+%\setlength{\voffset}{5cm}
+
+
+\Metadata{
+    \title{Business Model Responses to Consumer Circumvention: Lessons from Piracy Applied to VPN-Enabled Geo-Arbitrage}
+    \author[Tim Weckbach]{Tim Weckbach}
+    \keywords{}%TODO
+    \publisher{TU Darmstadt}
+    \copyright{Tim Weckbach}
+    \birthplace{Frankfurt am Main}
+    \reviewer{William Schütte \and Prof. Dr. Alexander Kock}
+}
+\department{Business Informatics} 
+\institute{Technology and Innovation Management}
+\submissiondate{27.02.2026}
+\maketitle
+
+\begin{abstract}
+This document outlines the structure for a thesis investigating business model responses to VPN-enabled geo-arbitrage. It begins by defining the core problem and research path. The study employs a mixed-methods approach to first quantify international price differentiation for digital services via a "Digital Services Price Index" (DSPI) and then qualitatively analyze the strategic responses of both digital service providers and VPN providers. The research draws parallels between modern geo-arbitrage and historical digital piracy to understand the pressures on existing business models and the drivers for innovation.
+
+\end{abstract}
+
+\noindent\textbf{Keywords:} %TODO
+\tableofcontents
+
+
+\chapter{Introduction}
+\input{introduction}
+
+\chapter{Theoretical Foundations \& Literature Review}
+\input{theory_background}
+
+\chapter{Research Methodology}
+\input{methodology}
+
+\chapter{Results}
+\input{results}
+
+\chapter{Discussion}
+\input{discussion}
+
+\chapter{Conclusion}
+\input{conclusion}
+
+
+
+
+
+\backmatter
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \printbibliography
+
+    %--- List of Figures and Tables ---
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{List of Figures and Tables}
+    \chapter*{List of Figures and Tables}
+    \makeatletter
+        \section*{\listfigurename} 
+        \@starttoc{lof} 
+        \vspace{1em} 
+        \section*{\listtablename}
+        \@starttoc{lot} 
+    \makeatother
+
+    %--- Glossary and Acronyms ---
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Glossary and Acronyms}
+    \chapter*{Glossary and Acronyms}
+    \printglossaries
+
+    \affidavit
+
+
+\end{document}

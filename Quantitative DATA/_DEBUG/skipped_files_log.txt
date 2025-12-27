@@ -1,0 +1,4 @@
+2025-04_Youtube_ToS_2_USA.pdf: Empty or failed extraction
+2025-08_Youtube_ToS_2_USA.pdf: Empty or failed extraction
+2025-09_Youtube_ToS_2_USA.pdf: Empty or failed extraction
+2025-12_Youtube_ToS_3_USA.pdf: Empty or failed extraction
