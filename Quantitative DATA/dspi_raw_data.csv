@@ -1,122 +1,122 @@
-Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary_Source_Ref,DSPI,Affordability_%
-2024,Amazon Prime,,2021.0,AUD,1333.86,,Missing,88.98,
-2024,Netflix,Switzerland,22.9,CHF,25.88,7800.39,OECD/TradingEconomics,1.44,0.3317782828807277
-2024,Youtube Premium,Switzerland,17.9,CHF,20.23,7800.39,OECD/TradingEconomics,1.45,0.25934600705862143
-2024,Disney+,Switzerland,16.9,CHF,19.1,7800.39,OECD/TradingEconomics,1.47,0.24485955189420017
-2024,Amazon Prime,Switzerland,9.99,CHF,11.29,7800.39,OECD/TradingEconomics,0.75,0.14473635292594345
-2024,Spotify,Switzerland,15.95,CHF,18.02,7800.39,OECD/TradingEconomics,1.5,0.23101409032112497
-2024,Apple Music,Switzerland,13.9,CHF,15.71,7800.39,OECD/TradingEconomics,1.43,0.20140018640093638
-2024,Microsoft 365,Switzerland,99.95,CHF,112.94,7800.39,OECD/TradingEconomics,1.13,1.4478763241325112
-2024,Adobe Creative Cloud,Switzerland,38.33,CHF,43.31,7800.39,OECD/TradingEconomics,1.24,0.555228648823969
-2024,Xbox Game Pass,Switzerland,9.99,CHF,11.29,7800.39,OECD/TradingEconomics,1.13,0.14473635292594345
-2024,NordVPN,Switzerland,92.86,CHF,104.93,7800.39,OECD/TradingEconomics,1.09,1.3451891507988705
-2024,ExpressVPN,Switzerland,105.64,CHF,119.37,7800.39,OECD/TradingEconomics,1.12,1.5303080999796164
-2024,Netflix,United States,17.99,USD,17.99,6600.0,OECD/TradingEconomics,1.0,0.2725757575757575
-2024,Youtube Premium,United States,13.99,USD,13.99,6600.0,OECD/TradingEconomics,1.0,0.21196969696969697
-2024,Disney+,United States,12.99,USD,12.99,6600.0,OECD/TradingEconomics,1.0,0.1968181818181818
-2024,Amazon Prime,United States,14.99,USD,14.99,6600.0,OECD/TradingEconomics,1.0,0.22712121212121214
-2024,Spotify,United States,11.99,USD,11.99,6600.0,OECD/TradingEconomics,1.0,0.18166666666666667
-2024,Apple Music,United States,10.99,USD,10.99,6600.0,OECD/TradingEconomics,1.0,0.1665151515151515
-2024,Microsoft 365,United States,99.99,USD,99.99,6600.0,OECD/TradingEconomics,1.0,1.515
-2024,Adobe Creative Cloud,United States,34.97,USD,34.97,6600.0,OECD/TradingEconomics,1.0,0.5298484848484848
-2024,Xbox Game Pass,United States,9.99,USD,9.99,6600.0,OECD/TradingEconomics,1.0,0.15136363636363637
-2024,NordVPN,United States,96.07,USD,96.07,6600.0,OECD/TradingEconomics,1.0,1.4556060606060606
-2024,ExpressVPN,United States,106.4,USD,106.4,6600.0,OECD/TradingEconomics,1.0,1.6121212121212123
-2024,Netflix,Germany,13.99,EUR,15.25,5232.0,OECD/TradingEconomics,0.85,0.29147553516819574
-2024,Youtube Premium,Germany,12.99,EUR,14.16,5232.0,OECD/TradingEconomics,1.01,0.2706422018348624
-2024,Disney+,Germany,10.99,EUR,11.98,5232.0,OECD/TradingEconomics,0.92,0.22897553516819572
-2024,Amazon Prime,Germany,8.99,EUR,9.8,5232.0,OECD/TradingEconomics,0.65,0.18730886850152906
-2024,Spotify,Germany,12.99,EUR,14.16,5232.0,OECD/TradingEconomics,1.18,0.2706422018348624
-2024,Apple Music,Germany,10.99,EUR,11.98,5232.0,OECD/TradingEconomics,1.09,0.22897553516819572
-2024,Microsoft 365,Germany,99.0,EUR,107.91,5232.0,OECD/TradingEconomics,1.08,2.0625
-2024,Adobe Creative Cloud,Germany,43.25,EUR,47.14,5232.0,OECD/TradingEconomics,1.35,0.900993883792049
-2024,Xbox Game Pass,Germany,8.99,EUR,9.8,5232.0,OECD/TradingEconomics,0.98,0.18730886850152906
-2024,NordVPN,Germany,96.07,EUR,104.72,5232.0,OECD/TradingEconomics,1.09,2.0015290519877675
-2024,ExpressVPN,Germany,99.63,EUR,108.6,5232.0,OECD/TradingEconomics,1.02,2.0756880733944953
-2024,Netflix,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,0.92,0.2887139107611548
-2024,Youtube Premium,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,1.18,0.2887139107611548
-2024,Disney+,United Kingdom,14.99,GBP,19.04,5715.0,OECD/TradingEconomics,1.47,0.3331583552055993
-2024,Amazon Prime,United Kingdom,8.99,GBP,11.42,5715.0,OECD/TradingEconomics,0.76,0.19982502187226597
-2024,Spotify,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,1.38,0.2887139107611548
-2024,Apple Music,United Kingdom,16.99,GBP,21.58,5715.0,OECD/TradingEconomics,1.96,0.37760279965004373
-2024,Microsoft 365,United Kingdom,84.99,GBP,107.94,5715.0,OECD/TradingEconomics,1.08,1.8887139107611548
-2024,Adobe Creative Cloud,United Kingdom,24.98,GBP,31.72,5715.0,OECD/TradingEconomics,0.91,0.5550306211723535
-2024,Xbox Game Pass,United Kingdom,6.99,GBP,8.88,5715.0,OECD/TradingEconomics,0.89,0.15538057742782155
-2024,NordVPN,United Kingdom,73.58,GBP,93.45,5715.0,OECD/TradingEconomics,0.97,1.6351706036745406
-2024,ExpressVPN,United Kingdom,83.66,GBP,106.25,5715.0,OECD/TradingEconomics,1.0,1.859142607174103
-2024,Netflix,Poland,49.0,PLN,12.25,,Missing,0.68,
-2024,Youtube Premium,Poland,29.99,PLN,7.5,,Missing,0.54,
-2024,Disney+,Poland,34.99,PLN,8.75,,Missing,0.67,
-2024,Amazon Prime,Poland,10.99,PLN,2.75,,Missing,0.18,
-2024,Spotify,Poland,23.99,PLN,6.0,,Missing,0.5,
-2024,Apple Music,Poland,21.99,PLN,5.5,,Missing,0.5,
-2024,Microsoft 365,Poland,429.99,PLN,107.5,,Missing,1.08,
-2024,Adobe Creative Cloud,Poland,45.13,EUR,49.19,,Missing,1.41,
-2024,Xbox Game Pass,Poland,36.99,PLN,9.25,,Missing,0.93,
-2024,NordVPN,Poland,328.45,PLN,82.11,,Missing,0.85,
-2024,ExpressVPN,Poland,120.2,PLN,30.05,,Missing,0.28,
-2024,Netflix,Turkey,289.99,TRY,9.28,761.25,OECD/TradingEconomics,0.52,1.219047619047619
-2024,Youtube Premium,Turkey,29.99,TRY,0.96,761.25,OECD/TradingEconomics,0.07,0.12610837438423644
-2024,Disney+,Turkey,449.9,TRY,14.4,761.25,OECD/TradingEconomics,1.11,1.891625615763547
-2024,Amazon Prime,Turkey,69.9,TRY,2.24,761.25,OECD/TradingEconomics,0.15,0.29425287356321844
-2024,Spotify,Turkey,99.0,TRY,3.17,761.25,OECD/TradingEconomics,0.26,0.4164203612479474
-2024,Apple Music,Turkey,59.99,TRY,1.92,761.25,OECD/TradingEconomics,0.17,0.2522167487684729
-2024,Microsoft 365,Turkey,3299.99,TRY,105.6,761.25,OECD/TradingEconomics,1.06,13.871921182266009
-2024,Adobe Creative Cloud,Turkey,269.0,TRY,8.61,761.25,OECD/TradingEconomics,0.25,1.1310344827586205
-2024,Xbox Game Pass,Turkey,96.88,TRY,3.1,761.25,OECD/TradingEconomics,0.31,0.4072249589490969
-2024,NordVPN,Turkey,96.88,TRY,3.1,761.25,OECD/TradingEconomics,0.03,0.4072249589490969
-2024,ExpressVPN,Turkey,117.26,TRY,3.75,761.25,OECD/TradingEconomics,0.04,0.49261083743842365
-2024,Netflix,Argentina,14999.0,ARS,18.0,548.18,OECD/TradingEconomics,1.0,3.283592980407896
-2024,Youtube Premium,Argentina,4181.0,ARS,5.02,548.18,OECD/TradingEconomics,0.36,0.915757597869313
-2024,Disney+,Argentina,12299.0,ARS,14.76,548.18,OECD/TradingEconomics,1.14,2.692546243934474
-2024,Amazon Prime,Argentina,7954.0,ARS,9.54,548.18,OECD/TradingEconomics,0.64,1.7403042796161845
-2024,Spotify,Argentina,3299.0,ARS,3.96,548.18,OECD/TradingEconomics,0.33,0.722390455689737
-2024,Apple Music,Argentina,5.978,ARS,0.01,548.18,OECD/TradingEconomics,0.0,0.001824218322448831
-2024,Microsoft 365,Argentina,37199.0,ARS,44.64,548.18,OECD/TradingEconomics,0.45,8.143310591411582
-2024,Adobe Creative Cloud,Argentina,29500.24,ARS,35.4,548.18,OECD/TradingEconomics,1.01,6.457732861468861
-2024,Xbox Game Pass,Argentina,8999.0,ARS,10.8,548.18,OECD/TradingEconomics,1.08,1.9701557882447374
-2024,NordVPN,Argentina,213.3,ARS,0.26,548.18,OECD/TradingEconomics,0.0,0.0474296763836696
-2024,ExpressVPN,Argentina,97.72,ARS,0.12,548.18,OECD/TradingEconomics,0.0,0.02189061986938597
-2024,Netflix,Brazil,44.9,BRL,8.98,600.0,OECD/TradingEconomics,0.5,1.4966666666666668
-2024,Youtube Premium,Brazil,24.9,BRL,4.98,600.0,OECD/TradingEconomics,0.36,0.83
-2024,Disney+,Brazil,46.9,BRL,9.38,600.0,OECD/TradingEconomics,0.72,1.5633333333333337
-2024,Amazon Prime,Brazil,19.9,BRL,3.98,600.0,OECD/TradingEconomics,0.27,0.6633333333333333
-2024,Spotify,Brazil,23.9,BRL,4.78,600.0,OECD/TradingEconomics,0.4,0.7966666666666667
-2024,Apple Music,Brazil,21.9,BRL,4.38,600.0,OECD/TradingEconomics,0.4,0.73
-2024,Microsoft 365,Brazil,509.0,BRL,101.8,600.0,OECD/TradingEconomics,1.02,16.966666666666665
-2024,Adobe Creative Cloud,Brazil,239.86,BRL,47.97,600.0,OECD/TradingEconomics,1.37,7.994999999999999
-2024,Xbox Game Pass,Brazil,43.9,BRL,8.78,600.0,OECD/TradingEconomics,0.88,1.4633333333333332
-2024,NordVPN,Brazil,213.3,BRL,42.66,600.0,OECD/TradingEconomics,0.44,7.109999999999999
-2024,ExpressVPN,Brazil,97.72,BRL,19.54,600.0,OECD/TradingEconomics,0.18,3.256666666666667
-2024,Netflix,Egypt,170.0,EGP,3.57,,Missing,0.2,
-2024,Netflix,Ukraine,7.49,EUR,8.16,,Missing,0.45,
-2024,Youtube Premium,Ukraine,13.99,UAH,0.36,,Missing,0.03,
-2024,Amazon Prime,Ukraine,6.99,EUR,7.62,,Missing,0.51,
-2024,Spotify,Ukraine,4.99,UAH,0.13,,Missing,0.01,
-2024,Apple Music,Ukraine,4.99,UAH,0.13,,Missing,0.01,
-2024,Microsoft 365,Ukraine,2699.0,UAH,70.17,,Missing,0.7,
-2024,Adobe Creative Cloud,Ukraine,49.97,UAH,1.3,,Missing,0.04,
-2024,Xbox Game Pass,Ukraine,290.0,UAH,7.54,,Missing,0.75,
-2024,NordVPN,Ukraine,96.88,UAH,2.52,,Missing,0.03,
-2024,ExpressVPN,Ukraine,117.26,UAH,3.05,,Missing,0.03,
-2024,Netflix,Philippines,449.0,PHP,8.08,,Missing,0.45,
-2024,Youtube Premium,Philippines,189.0,PHP,3.4,,Missing,0.24,
-2024,Disney+,Philippines,249.0,PHP,4.48,,Missing,0.34,
-2024,Amazon Prime,Philippines,149.0,PHP,2.68,,Missing,0.18,
-2024,Spotify,Philippines,169.0,PHP,3.04,,Missing,0.25,
-2024,Apple Music,Philippines,139.0,PHP,2.5,,Missing,0.23,
-2024,Microsoft 365,Philippines,4899.0,PHP,88.18,,Missing,0.88,
-2024,Adobe Creative Cloud,Philippines,1714.13,PHP,30.85,,Missing,0.88,
-2024,Xbox Game Pass,Philippines,320.0,PHP,5.76,,Missing,0.58,
-2024,NordVPN,Philippines,629.0,PHP,11.32,,Missing,0.12,
-2024,ExpressVPN,Philippines,97.72,PHP,1.76,,Missing,0.02,
-2024,Netflix,Pakistan,800.0,PKR,2.88,,Missing,0.16,
-2024,Youtube Premium,Pakistan,0.479,PKR,0.0,,Missing,0.0,
-2024,Amazon Prime,Pakistan,299.0,INR,3.59,,Missing,0.24,
-2024,Spotify,Pakistan,349.0,PKR,1.26,,Missing,0.11,
-2024,Microsoft 365,Pakistan,22999.0,PKR,82.8,,Missing,0.83,
-2024,Adobe Creative Cloud,Pakistan,18899.0,PKR,68.04,,Missing,1.95,
-2024,Xbox Game Pass,Pakistan,499.0,INR,5.99,,Missing,0.6,
-2024,NordVPN,Pakistan,105.03,SGD,77.72,,Missing,0.81,
-2024,ExpressVPN,Pakistan,139.72,PKR,0.5,,Missing,0.0,
-2024,Adobe Creative Cloud,Nigeria,0.7958027,NGN,0.0,,Missing,0.0,
+Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,DSPI,Affordability_%
+2024,Amazon Prime,,2021.0,AUD,1333.86,,88.98,
+2024,Netflix,Switzerland,22.9,CHF,25.88,7800.39,1.44,0.3317782828807277
+2024,Youtube Premium,Switzerland,17.9,CHF,20.23,7800.39,1.45,0.25934600705862143
+2024,Disney+,Switzerland,16.9,CHF,19.1,7800.39,1.47,0.24485955189420017
+2024,Amazon Prime,Switzerland,9.99,CHF,11.29,7800.39,0.75,0.14473635292594345
+2024,Spotify,Switzerland,15.95,CHF,18.02,7800.39,1.5,0.23101409032112497
+2024,Apple Music,Switzerland,13.9,CHF,15.71,7800.39,1.43,0.20140018640093638
+2024,Microsoft 365,Switzerland,99.95,CHF,112.94,7800.39,1.13,1.4478763241325112
+2024,Adobe Creative Cloud,Switzerland,38.33,CHF,43.31,7800.39,1.24,0.555228648823969
+2024,Xbox Game Pass,Switzerland,9.99,CHF,11.29,7800.39,1.13,0.14473635292594345
+2024,NordVPN,Switzerland,92.86,CHF,104.93,7800.39,1.09,1.3451891507988705
+2024,ExpressVPN,Switzerland,105.64,USD,105.64,7800.39,0.99,1.3542912597959846
+2024,Netflix,United States,17.99,USD,17.99,6600.0,1.0,0.2725757575757575
+2024,Youtube Premium,United States,13.99,USD,13.99,6600.0,1.0,0.21196969696969697
+2024,Disney+,United States,12.99,USD,12.99,6600.0,1.0,0.1968181818181818
+2024,Amazon Prime,United States,14.99,USD,14.99,6600.0,1.0,0.22712121212121214
+2024,Spotify,United States,11.99,USD,11.99,6600.0,1.0,0.18166666666666667
+2024,Apple Music,United States,10.99,USD,10.99,6600.0,1.0,0.1665151515151515
+2024,Microsoft 365,United States,99.99,USD,99.99,6600.0,1.0,1.515
+2024,Adobe Creative Cloud,United States,34.97,USD,34.97,6600.0,1.0,0.5298484848484848
+2024,Xbox Game Pass,United States,9.99,USD,9.99,6600.0,1.0,0.15136363636363637
+2024,NordVPN,United States,96.07,USD,96.07,6600.0,1.0,1.4556060606060606
+2024,ExpressVPN,United States,106.4,USD,106.4,6600.0,1.0,1.6121212121212123
+2024,Netflix,Germany,13.99,EUR,15.25,5232.0,0.85,0.29147553516819574
+2024,Youtube Premium,Germany,12.99,EUR,14.16,5232.0,1.01,0.2706422018348624
+2024,Disney+,Germany,10.99,EUR,11.98,5232.0,0.92,0.22897553516819572
+2024,Amazon Prime,Germany,8.99,EUR,9.8,5232.0,0.65,0.18730886850152906
+2024,Spotify,Germany,12.99,EUR,14.16,5232.0,1.18,0.2706422018348624
+2024,Apple Music,Germany,10.99,EUR,11.98,5232.0,1.09,0.22897553516819572
+2024,Microsoft 365,Germany,99.0,EUR,107.91,5232.0,1.08,2.0625
+2024,Adobe Creative Cloud,Germany,43.25,EUR,47.14,5232.0,1.35,0.900993883792049
+2024,Xbox Game Pass,Germany,8.99,EUR,9.8,5232.0,0.98,0.18730886850152906
+2024,NordVPN,Germany,96.07,EUR,104.72,5232.0,1.09,2.0015290519877675
+2024,ExpressVPN,Germany,99.63,EUR,108.6,5232.0,1.02,2.0756880733944953
+2024,Netflix,United Kingdom,12.99,GBP,16.5,5715.0,0.92,0.2887139107611548
+2024,Youtube Premium,United Kingdom,12.99,GBP,16.5,5715.0,1.18,0.2887139107611548
+2024,Disney+,United Kingdom,14.99,GBP,19.04,5715.0,1.47,0.3331583552055993
+2024,Amazon Prime,United Kingdom,8.99,GBP,11.42,5715.0,0.76,0.19982502187226597
+2024,Spotify,United Kingdom,12.99,GBP,16.5,5715.0,1.38,0.2887139107611548
+2024,Apple Music,United Kingdom,16.99,GBP,21.58,5715.0,1.96,0.37760279965004373
+2024,Microsoft 365,United Kingdom,84.99,GBP,107.94,5715.0,1.08,1.8887139107611548
+2024,Adobe Creative Cloud,United Kingdom,24.98,GBP,31.72,5715.0,0.91,0.5550306211723535
+2024,Xbox Game Pass,United Kingdom,6.99,GBP,8.88,5715.0,0.89,0.15538057742782155
+2024,NordVPN,United Kingdom,73.58,GBP,93.45,5715.0,0.97,1.6351706036745406
+2024,ExpressVPN,United Kingdom,83.66,GBP,106.25,5715.0,1.0,1.859142607174103
+2024,Netflix,Poland,49.0,PLN,12.25,,0.68,
+2024,Youtube Premium,Poland,29.99,PLN,7.5,,0.54,
+2024,Disney+,Poland,34.99,PLN,8.75,,0.67,
+2024,Amazon Prime,Poland,10.99,PLN,2.75,,0.18,
+2024,Spotify,Poland,23.99,PLN,6.0,,0.5,
+2024,Apple Music,Poland,21.99,PLN,5.5,,0.5,
+2024,Microsoft 365,Poland,429.99,PLN,107.5,,1.08,
+2024,Adobe Creative Cloud,Poland,45.13,EUR,49.19,,1.41,
+2024,Xbox Game Pass,Poland,36.99,PLN,9.25,,0.93,
+2024,NordVPN,Poland,328.45,PLN,82.11,,0.85,
+2024,ExpressVPN,Poland,120.2,USD,120.2,,1.13,
+2024,Netflix,Turkey,289.99,TRY,9.28,761.25,0.52,1.219047619047619
+2024,Youtube Premium,Turkey,29.99,TRY,0.96,761.25,0.07,0.12610837438423644
+2024,Disney+,Turkey,449.9,TRY,14.4,761.25,1.11,1.891625615763547
+2024,Amazon Prime,Turkey,69.9,TRY,2.24,761.25,0.15,0.29425287356321844
+2024,Spotify,Turkey,99.0,TRY,3.17,761.25,0.26,0.4164203612479474
+2024,Apple Music,Turkey,59.99,TRY,1.92,761.25,0.17,0.2522167487684729
+2024,Microsoft 365,Turkey,3299.99,TRY,105.6,761.25,1.06,13.871921182266009
+2024,Adobe Creative Cloud,Turkey,269.0,TRY,8.61,761.25,0.25,1.1310344827586205
+2024,Xbox Game Pass,Turkey,96.88,USD,96.88,761.25,9.7,12.726436781609197
+2024,NordVPN,Turkey,96.88,USD,96.88,761.25,1.01,12.726436781609197
+2024,ExpressVPN,Turkey,117.26,USD,117.26,761.25,1.1,15.40361247947455
+2024,Netflix,Argentina,14999.0,ARS,18.0,548.18,1.0,3.283592980407896
+2024,Youtube Premium,Argentina,4181.0,ARS,5.02,548.18,0.36,0.915757597869313
+2024,Disney+,Argentina,12299.0,ARS,14.76,548.18,1.14,2.692546243934474
+2024,Amazon Prime,Argentina,7954.0,ARS,9.54,548.18,0.64,1.7403042796161845
+2024,Spotify,Argentina,3299.0,ARS,3.96,548.18,0.33,0.722390455689737
+2024,Apple Music,Argentina,5.978,ARS,0.01,548.18,0.0,0.001824218322448831
+2024,Microsoft 365,Argentina,37199.0,ARS,44.64,548.18,0.45,8.143310591411582
+2024,Adobe Creative Cloud,Argentina,29500.24,ARS,35.4,548.18,1.01,6.457732861468861
+2024,Xbox Game Pass,Argentina,8999.0,ARS,10.8,548.18,1.08,1.9701557882447374
+2024,NordVPN,Argentina,213.3,USD,213.3,548.18,2.22,38.910576817833565
+2024,ExpressVPN,Argentina,97.72,USD,97.72,548.18,0.92,17.826261446969973
+2024,Netflix,Brazil,44.9,USD,44.9,600.0,2.5,7.483333333333333
+2024,Youtube Premium,Brazil,24.9,BRL,4.98,600.0,0.36,0.83
+2024,Disney+,Brazil,46.9,USD,46.9,600.0,3.61,7.816666666666666
+2024,Amazon Prime,Brazil,19.9,USD,19.9,600.0,1.33,3.3166666666666664
+2024,Spotify,Brazil,23.9,USD,23.9,600.0,1.99,3.9833333333333334
+2024,Apple Music,Brazil,21.9,USD,21.9,600.0,1.99,3.65
+2024,Microsoft 365,Brazil,509.0,USD,509.0,600.0,5.09,84.83333333333334
+2024,Adobe Creative Cloud,Brazil,239.86,BRL,47.97,600.0,1.37,7.994999999999999
+2024,Xbox Game Pass,Brazil,43.9,USD,43.9,600.0,4.39,7.3166666666666655
+2024,NordVPN,Brazil,213.3,USD,213.3,600.0,2.22,35.550000000000004
+2024,ExpressVPN,Brazil,97.72,USD,97.72,600.0,0.92,16.286666666666665
+2024,Netflix,Egypt,170.0,EGP,3.57,,0.2,
+2024,Netflix,Ukraine,7.49,EUR,8.16,,0.45,
+2024,Youtube Premium,Ukraine,13.99,USD,13.99,,1.0,
+2024,Amazon Prime,Ukraine,6.99,EUR,7.62,,0.51,
+2024,Spotify,Ukraine,4.99,USD,4.99,,0.42,
+2024,Apple Music,Ukraine,4.99,USD,4.99,,0.45,
+2024,Microsoft 365,Ukraine,2699.0,UAH,70.17,,0.7,
+2024,Adobe Creative Cloud,Ukraine,49.97,UAH,1.3,,0.04,
+2024,Xbox Game Pass,Ukraine,290.0,UAH,7.54,,0.75,
+2024,NordVPN,Ukraine,96.88,USD,96.88,,1.01,
+2024,ExpressVPN,Ukraine,117.26,USD,117.26,,1.1,
+2024,Netflix,Philippines,449.0,PHP,8.08,,0.45,
+2024,Youtube Premium,Philippines,189.0,PHP,3.4,,0.24,
+2024,Disney+,Philippines,249.0,PHP,4.48,,0.34,
+2024,Amazon Prime,Philippines,149.0,PHP,2.68,,0.18,
+2024,Spotify,Philippines,169.0,PHP,3.04,,0.25,
+2024,Apple Music,Philippines,139.0,PHP,2.5,,0.23,
+2024,Microsoft 365,Philippines,4899.0,PHP,88.18,,0.88,
+2024,Adobe Creative Cloud,Philippines,1714.13,PHP,30.85,,0.88,
+2024,Xbox Game Pass,Philippines,320.0,PHP,5.76,,0.58,
+2024,NordVPN,Philippines,629.0,USD,629.0,,6.55,
+2024,ExpressVPN,Philippines,97.72,USD,97.72,,0.92,
+2024,Netflix,Pakistan,800.0,USD,800.0,,44.47,
+2024,Youtube Premium,Pakistan,0.479,USD,0.48,,0.03,
+2024,Amazon Prime,Pakistan,299.0,INR,3.59,,0.24,
+2024,Spotify,Pakistan,349.0,USD,349.0,,29.11,
+2024,Microsoft 365,Pakistan,22999.0,USD,22999.0,,230.01,
+2024,Adobe Creative Cloud,Pakistan,18899.0,USD,18899.0,,540.43,
+2024,Xbox Game Pass,Pakistan,499.0,INR,5.99,,0.6,
+2024,NordVPN,Pakistan,105.03,SGD,77.72,,0.81,
+2024,ExpressVPN,Pakistan,139.72,USD,139.72,,1.31,
+2024,Adobe Creative Cloud,Nigeria,0.7958027,USD,0.8,,0.02,

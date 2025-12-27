@@ -7,9 +7,10 @@ import os
 
 # Paths
 # Paths
-TOS_DATA_PATH = r"Thesis_Dataset_Master_RiskFactorsOnly.csv" # Adjusted for running from Q-Data dir
-DSPI_DATA_PATH = r"dspi_raw_data.csv"
-OUTPUT_DIR = r"..\Latex Thesis\figures" # Adjusted for running from Q-Data dir
+# Paths
+TOS_DATA_PATH = r"Quantitative DATA\Thesis_Dataset_Master_RiskFactorsOnly.csv"
+DSPI_DATA_PATH = r"Quantitative DATA\dspi_raw_data.csv"
+OUTPUT_DIR = r"Latex Thesis\figures"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
