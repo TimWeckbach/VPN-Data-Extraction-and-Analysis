@@ -3,34 +3,33 @@
 This chapter synthesizes the quantitative findings from the DSPI and the qualitative insights from the automated classifcation pipeline to answer the research questions. It interprets the results through the theoretical lens of Business Model Innovation (BMI) and Transaction Cost Economics (TCE).
 
 \section{The Strategic Archetypes of Geo-Arbitrage}
-Based on the analysis of Terms of Service and corporate enforcement actions, we can categorize digital service providers into two distinct strategic archetypes:
+Based on the analysis of Terms of Service and corporate enforcement actions across our expanded sample ($N=10$), we identify three distinct strategic archetypes that govern how digital firms respond to price arbitrage:
 
+\subsection{The Content Fortress (Coercive)}
+Firms adhering to this strategy, typified by streaming giants like \textbf{Netflix} and \textbf{Disney+}, prioritize the maintenance of regional licensing agreements over user convenience. Our quantitative analysis reveals that within the "Content Licensing Sector," the specific correlation between price variance and enforcement is negligible ($R \approx 0.006$). This indicates that strict enforcement is not a *reaction* to specific price arbitrage risks, but an \textbf{industry standard}—a baseline requirement for operating a licensed streaming service. \textbf{Disney+} and \textbf{Netflix} allocate approximately \textbf{8.5\%} and \textbf{6.2\%} of their enforcement clauses to \textbf{Content Licensing} issues, respectively.
 
-\subsection{The Fortress Strategy (Coercive)}
-Firms adhering to this strategy, typified by streaming giants like \textbf{Netflix} and \textbf{Disney+}, prioritize the maintenance of regional licensing agreements over user convenience. Our quantitative analysis confirms this focus: \textbf{Disney+} and \textbf{Netflix} allocate approximately \textbf{8.5\%} and \textbf{6.2\%} of their enforcement clauses to \textbf{Content Licensing} issues, respectively.
+This aligns with the "Fortress" strategy described by \textcite{schmidt2020transnational}, where incumbent firms build digital walls to protect legacy revenue streams. However, as noted by \textcite{lobato2019geoblocking}, such strategies often suffer from a "legibility" problem—users do not see the legal contracts, only the "This content is not available" error.
 
-This aligns with the "Fortress" strategy described by \textcite{schmidt2020transnational}, where incumbent firms build digital walls to protect legacy revenue streams. However, as noted by \textcite{lobato2019geoblocking}, such strategies often suffer from a "legibility" problem—users do not see the legal contracts, only the "This content is not available" error. By relying on "Technical Blocking" and "Account Actions," these firms risk alienating users who perceive these barriers as artificial and unfair \parencite{anderson2020price}. The reliance on IP-based filtering is a direct attempt to enforce \textcite{bechtold2016price}'s concept of "perfect price discrimination," yet it paradoxically increases the "moral intensity" of the circumvention act by framing the user as an adversary.
+\subsection{The Ecosystem Fortress (Adaptive)}
+In contrast, platforms like \textbf{Apple Music} exemplify a "Globalist" or adaptive approach. With negligible focus on \textbf{Technical Blocking} (0.15\%) and a strong emphasis on \textbf{Price Discrimination} (5.7\%), Apple appears to accept the reality of the "Splinternet" \parencite{masnick2019splinternet}. Rather than fighting a futile technological war against VPNs \parencite{hohn2021vpn}, they focus on minimizing transaction costs through hardware and payment integration.
 
-\subsection{The Globalist Strategy (Adaptive)}
-In contrast, platforms like \textbf{Apple Music} exemplify a "Globalist" or adaptive approach. With negligible focus on \textbf{Technical Blocking} (0.15\%) and a strong emphasis on \textbf{Price Discrimination} (5.7\%), Apple appears to accept the reality of the "Splinternet" \parencite{masnick2019splinternet}. Rather than fighting a futile technological war against VPNs \parencite{hohn2021vpn}, they focus on minimizing transaction costs.
+\subsection{The Enterprise Fortress (Defensive)}
+A new archetype identified in this study is the "Enterprise Fortress," exemplified by \textbf{Microsoft}. Despite having the lowest global price variance in the dataset (indicating a relatively harmonized global price for Microsoft 365), Microsoft exhibits the highest intensity of "Account Action" clauses. This suggests that for utility software, enforcement is not driven by *geo-arbitrage* (pennies on the dollar) but by *license compliance* and *security*. The "Fortress" is built to keep unauthorized resellers out, not necessarily to stop a user from saving \$2 a month.
 
-This reflects \textcite{aguiar2016digital}'s argument that in the presence of low-cost piracy (or arbitrage), the optimal strategy is often to compete on service quality rather than enforcement. By offering seamless, portable accounts, Apple reduces the "non-monetary" utility of circumvention. A user \textit{could} save \$2 by using a Turkish account, but the friction of maintaining a foreign payment method outweighs the benefit when the service works flawlessly across borders anyway. This supports \textcite{goldfarb2019digital}'s assertion that "friction" is the defining variable in digital trade; Apple monetizes convenience, while Netflix monetizes exclusivity.
+\subsection{The Utility Paradox (Adobe)}
+\textbf{Adobe} presents a unique case. It has high price discrimination (similar to Netflix) but relatively low "Technical Blocking" enforcement. This is likely because Adobe's enforcement mechanism is "on-device" (software activation keys) rather than "on-network" (IP filtering). This highlights that "Technical Blocking" is a strategy specific to *cloud-streamed* content, whereas *downloaded software* relies on different protection mechanisms.
 
-\section{Implications for Business Model Innovation}
-The persistence of geo-arbitrage suggests that the "Regionally Segmented" business model is facing a "Napster Moment."
-\begin{itemize}
-    \item \textbf{Consumer Circumvention as Market Signal:} As \textcite{oberholzer2007effect} observed with music piracy, widespread circumvention is often a market signal of unmet demand or pricing inefficiency. The 70\%+ discounts identified by our DSPI for countries like Turkey create a massive "arbitrage wedge" that no amount of technical blocking can fully suppress \parencite{kwon2017geo}.
-    \item \textbf{Platform Envelopment:} \textcite{eisenmann2011platform} describes how platforms can be "enveloped" by adjacent providers. Here, VPNs are acting as "parasitic envelopers," layering a global access service on top of regionalized content platforms. To survive, streaming services must innovate their business models to internalize this global access—perhaps by offering "Global Roaming" tiers at a premium, as suggested by \textcite{belleflamme2014price}.
-    \item \textbf{The End of the "Law of One Price":} Our findings challenge the static view of PPP. In the digital age, \textcite{brynjolfsson2019measurement} argues we must account for the value of free/cheap digital goods. Geo-arbitrage effectively redistributes this welfare, allowing users in high-income countries to access the "consumer surplus" meant for low-income markets.
-\end{itemize}
+\section{Limitations and Validity}
+While this study provides a novel quantitative framework for analyzing geo-arbitrage, several limitations must be acknowledged to contextualize the findings.
 
-\section{Managerial Implications}
-For managers, the findings suggest a pivot in strategy:
-\begin{enumerate}
-    \item \textbf{Move beyond IP Blocking:} Simple IP filtering is ineffective against modern residential VPNs.
-    \item \textbf{Price Harmonization:} Where possible, reducing the PPP-adjusted spread between markets reduces the incentive for arbitrage (The Economic Solution).
-    \item \textbf{Value Differentiation:} Instead of just blocking access, firms should differentiate the \textit{product} by region (e.g., local language content) to justify price differences, making the "cheaper" foreign product less attractive to a domestic user.
-\end{enumerate}
+\subsection{Sample Size and Generalizability}
+The correlation analysis relies on a strategic sample of $N=11$ major digital service providers. While these firms represent a significant majority of the consumer subscription market by capitalization, the sample is small in statistical terms. Consequently, the findings should be interpreted as "exploratory" evidence of strategic archetypes rather than a definitive "law" of digital economics. Future research could expand this dataset to include mid-tier SaaS providers to test if the "Enterprise Fortress" model holds for smaller B2B firms.
 
-\section{Limitations}
-This study relies on \textit{ex-ante} enforcement signals (ToS, initial technical blocks) and does not fully capture \textit{ex-post} actions like shadow-banning. Furthermore, the DSPI is a snapshot in time; currency volatility (e.g., in Argentina or Turkey) can drastically alter arbitrage incentives overnight.
+\subsection{The "Average Citizen" Bias (Socioeconomic Mismatch)}
+Our "Affordability" metric calculates cost as a percentage of the \textit{Average National Monthly Wage}. However, in emerging markets like Turkey or Argentina, the target demographic for services like Netflix or Adobe is likely the urban upper-middle class, whose income is significantly higher than the national average. This implies that our "Real Cost" heatmap (Figure \ref{fig:affordability}) may overstate the unaffordability of these services for the \textit{actual} customer base. Nevertheless, the metric remains valid as a proxy for the \textit{general} economic friction between the Global North and South.
+
+\subsection{Temporal Sensitivity in Volatile Markets}
+The Digital Services Price Index (DSPI) represents a snapshot of pricing data from late 2024. In hyper-inflationary economies such as Argentina and Turkey, local currency prices are adjusted frequently. A "Cheap" arbitrage opportunity identified in this thesis could be eroded effectively overnight by a price hike or currency devaluation. The "Arbitrage Window" is therefore dynamic, not static.
+
+\subsection{AI Classification Reliability}
+The use of Large Language Models (Gemini 3 Flash) introduces a potential "Black Box" validity risk. To mitigate this, we utilized the model's self-reported confidence scores as a filtering mechanism. The final dataset achieved an average confidence score of \textbf{0.947}, with \textbf{80.5\%} of classifications exceeding a confidence threshold of 0.9. This high degree of certainty suggests that the detection of "coercive" vs. "general" language is robust, even without human-in-the-loop verification for every datapoint.

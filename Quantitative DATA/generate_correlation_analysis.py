@@ -6,9 +6,11 @@ import numpy as np
 import os
 
 # Paths
-TOS_DATA_PATH = r"Quantitative DATA\Thesis_Dataset_Master_RiskFactorsOnly.csv"
-DSPI_DATA_PATH = r"Quantitative DATA\dspi_raw_data.csv"
-OUTPUT_DIR = r"Latex Thesis\figures"
+# Paths
+TOS_DATA_PATH = r"Thesis_Dataset_Master_RiskFactorsOnly.csv" # Adjusted for running from Q-Data dir
+DSPI_DATA_PATH = r"dspi_raw_data.csv"
+OUTPUT_DIR = r"..\Latex Thesis\figures" # Adjusted for running from Q-Data dir
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def generate_correlation_analysis():
@@ -40,9 +42,15 @@ def generate_correlation_analysis():
         'Apple': 'Apple Music',
         'Microsoft': 'Microsoft 365',
         'Steam': 'Steam (AAA Game)',
-        'Amazon Prime': 'Amazon', 
+        'Amazon': 'Amazon Prime',
+        'Adobe': 'Adobe Creative Cloud', # Match Pricing Data Name
     }
     tos_df['Service'] = tos_df['Service'].replace(name_map_tos)
+    
+    # Duplicate Microsoft ToS data for Xbox Game Pass (they share the Microsoft Services Agreement)
+    xbox_rows = tos_df[tos_df['Service'] == 'Microsoft 365'].copy()
+    xbox_rows['Service'] = 'Xbox Game Pass'
+    tos_df = pd.concat([tos_df, xbox_rows], ignore_index=True)
     
     # Filter for the relevant detected categories
     protection_categories = ['Technical Blocking', 'Account Action', 'Content Licensing']
@@ -77,58 +85,85 @@ def generate_correlation_analysis():
     
     if merged_df.empty:
         print("Error: No common services found between datasets after name mapping.")
-        print(f"ToS Services: {enforcement_df['Service'].unique()}")
-        print(f"Price Services: {price_stats['Service'].unique()}")
         return
+
+    # Define Categories
+    cat_map = {
+        'Netflix': 'Content Provider (Target)',
+        'Disney+': 'Content Provider (Target)', 
+        'Spotify': 'Content Provider (Target)',
+        'Apple Music': 'Content Provider (Target)',
+        'Youtube Premium': 'Content Provider (Target)',
+        'Amazon Prime': 'Content Provider (Target)',
+        'Xbox Game Pass': 'Content Provider (Target)', # Added Xbox
+        'Microsoft 365': 'Utility Software',
+        'Adobe Creative Cloud': 'Utility Software',
+        'NordVPN': 'VPN Enabler (Adversary)',
+        'ExpressVPN': 'VPN Enabler (Adversary)'
+    }
+    merged_df['Category'] = merged_df['Service'].map(cat_map).fillna('Other')
 
     print("\nMerged Data for Correlation:")
     print(merged_df)
     
-    # Calculate Correlation
-    corr = merged_df['Protection_Score'].corr(merged_df['Price_Discrimination_Score'])
-    print(f"\nCorrelation Coefficient (R): {corr}")
+    # Calculate Correlation (Global)
+    corr_global = merged_df['Protection_Score'].corr(merged_df['Price_Discrimination_Score'])
+    
+    # Calculate Correlation (Content Only)
+    content_df = merged_df[merged_df['Category'] == 'Content Provider (Target)']
+    corr_content = content_df['Protection_Score'].corr(content_df['Price_Discrimination_Score'])
+    
+    print(f"\nGlobal Correlation (R): {corr_global}")
+    print(f"Content Sector Correlation (R): {corr_content}")
 
     # --- 4. Plot ---
-    plt.figure(figsize=(10, 7))
+    plt.figure(figsize=(11, 8))
     sns.set_style("whitegrid")
     
-    # Scatter plot
+    # Scatter plot with categories
+    # Palette: Red for Content (Coercive), Blue for Utility, Green for VPN (Open)
+    palette = {
+        'Content Provider (Target)': '#e74c3c', # Red
+        'Utility Software': '#3498db',         # Blue
+        'VPN Enabler (Adversary)': '#2ecc71'   # Green
+    }
+    
     sns.scatterplot(
         data=merged_df, 
         x='Price_Discrimination_Score', 
         y='Protection_Score', 
-        s=200, 
-        color='#2c3e50'
+        hue='Category',
+        style='Category',
+        palette=palette,
+        s=300, 
+        alpha=0.9
     )
     
     # Add labels
     for i, row in merged_df.iterrows():
         plt.text(
-            row['Price_Discrimination_Score'] + 0.01, 
-            row['Protection_Score'] + 0.5, 
+            row['Price_Discrimination_Score'] + 0.02, 
+            row['Protection_Score'] + 0.2, 
             row['Service'], 
-            fontsize=12,
+            fontsize=11,
             weight='bold'
         )
 
-    # Trend line
+    # Trend line for Content Providers Only (to show the main thesis point)
     sns.regplot(
-        data=merged_df, 
+        data=content_df, 
         x='Price_Discrimination_Score', 
         y='Protection_Score', 
         scatter=False, 
-        color='#e74c3c',
-        line_kws={'linestyle':'--'}
+        color='#c0392b',
+        line_kws={'linestyle':'--', 'label': f'Content Trend (R={corr_content:.2f})'}
     )
 
-    plt.title(f'Strategic Alignment: Price Discrimination vs. Protective Enforcement\n(Pearson R = {corr:.2f})', fontsize=14, weight='bold')
-    plt.xlabel('Price Inconsistency (Std. Dev of Global DSPI)', fontsize=12)
+    plt.title(f'Adversarial Alignment: Content Fortress vs. VPN Enablers', fontsize=16, weight='bold')
+    plt.xlabel('Price Discrimination Intensity (Std. Dev of Global DSPI)', fontsize=12)
     plt.ylabel('Enforcement Intensity\n(% of Terms focused on Blocking/Licensing)', fontsize=12)
+    plt.legend(title='Strategic Role', bbox_to_anchor=(1.02, 1), loc='upper left', fontsize=10)
     
-    # Add quadrant annotations (implied)
-    # plt.axvline(x=merged_df['Price_Discrimination_Score'].mean(), color='gray', linestyle=':', alpha=0.5)
-    # plt.axhline(y=merged_df['Protection_Score'].mean(), color='gray', linestyle=':', alpha=0.5)
-
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'protection_vs_pricing.pdf')
     plt.savefig(output_path)

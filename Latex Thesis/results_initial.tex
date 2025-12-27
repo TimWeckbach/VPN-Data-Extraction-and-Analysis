@@ -121,12 +121,21 @@ To empirically validate the relationship between pricing strategy and enforcemen
     \label{fig:correlation}
 \end{figure}
 
-The refined analysis yields a moderate positive correlation ($R \approx 0.55$). This statistically confirms the "Fortress" hypothesis: firms with higher price variance (Netflix, Disney+) tend to employ more aggressive legal threats. However, the correlation is not perfect due to strategic outliers like \textbf{Apple Music}, which maintains high price discrimination but relies on "hard" ecosystem barriers (hardware/payment friction) rather than "soft" ToS threats (see Chapter 5 for discussion on "Ecosystem Fortresses").
+The refined analysis ($N=11$) reveals a distinct \textbf{Adversarial Alignment} rather than a simple linear correlation ($R_{global} \approx 0.24$). By categorizing services into their strategic roles—Content Providers (Targets), Utility Software, and VPNs (Adversaries)—we observe clear clustering (see Figure \ref{fig:correlation}).
 
-Despite having high price discrimination (e.g., Turkey vs. US), Apple's Terms of Service show relatively low "Technical Blocking" intensity. This suggests a third strategic archetype: the **"Ecosystem Fortress."** Unlike Netflix, which must police open web access, Apple relies on hardware-level and payment-method friction (e.g., requiring a local credit card and Apple ID) to enforce segmentation. This "hard" friction reduces the need for the "soft" legal threats found in ToS documents, effectively achieving the same protection without the explicit coercive language.
+\begin{itemize}
+    \item \textbf{Content Providers (Netflix, Disney+, YouTube, Xbox, etc.):} This group effectively forms a "High Enforcement Cluster," but successfully illustrates the enforcement trade-off ($R_{sector} \approx 0.45$). 
+    \begin{itemize}
+        \item \textbf{High Variance / High Enforcement:} Services like \textbf{Disney+} and \textbf{YouTube} have large global price gaps (DSPI StdDev $>0.37$) and rely on aggressive "Technical Blocking" (6\%--8\%) to maintain them.
+        \item \textbf{Low Variance / Low Enforcement (The Xbox Case):} \textbf{Xbox Game Pass} serves as a crucial control. Governed by the Microsoft ecosystem, it has relatively harmonized global pricing (DSPI StdDev $\approx 0.25$) and correspondingly low enforcement intensity ($\approx 1.9\%$). This suggests that when a content provider harmonizes prices (reducing the arbitrage incentive), the need for a "Fortress" strategy diminishes.
+    \end{itemize}
+    
+    \item \textbf{Utility Software (The Strategic Split):}
+    \begin{itemize}
+        \item \textbf{Adobe Creative Cloud} is a significant anomaly. It rivals Content Providers in price discrimination (DSPI StdDev $\approx 0.59$) yet maintains very low ToS enforcement ($\approx 0.9\%$). This confirms the \textbf{"Utility Paradox"}: downloadable software relies on cryptographic license keys ("Hard" barriers) rather than the "Soft" IP-blocking threats required by streaming services.
+    \end{itemize}
 
-Thus, the "Fortress" strategy has two implementations:
-\begin{enumerate}
-    \item \textbf{Legal/Technical Fortress (Netflix):} Relying on IP detection and ToS threats.
-    \item \textbf{Ecosystem Fortress (Apple):} Relying on platform interoperability and payment barriers.
-\end{enumerate}
+    \item \textbf{VPN Enablers (NordVPN, ExpressVPN):} As expected, these "Adversaries" show minimal "Technical Blocking" enforcement, as their business model depends on circumventing the very barriers erected by the Content Providers.
+\end{itemize}
+
+This data suggests that \textbf{Business Model} (Streaming vs. Download vs. Access) is a stronger predictor of enforcement strategy than \textbf{Price Opportunity} alone.

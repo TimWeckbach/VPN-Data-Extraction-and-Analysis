@@ -6,6 +6,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Switzerland,15.95,CHF,18.02,7800.39,OECD/TradingEconomics,1.5,0.23101409032112497
 2024,Apple Music,Switzerland,13.9,CHF,15.71,7800.39,OECD/TradingEconomics,1.43,0.20140018640093638
 2024,Microsoft 365,Switzerland,99.95,CHF,112.94,7800.39,OECD/TradingEconomics,1.13,1.4478763241325112
+2024,Adobe Creative Cloud,Switzerland,38.33,CHF,43.31,7800.39,OECD/TradingEconomics,1.24,0.555228648823969
+2024,Xbox Game Pass,Switzerland,9.99,CHF,11.29,7800.39,OECD/TradingEconomics,1.13,0.14473635292594345
+2024,NordVPN,Switzerland,92.86,CHF,104.93,7800.39,OECD/TradingEconomics,1.09,1.3451891507988705
+2024,ExpressVPN,Switzerland,105.64,CHF,119.37,7800.39,OECD/TradingEconomics,1.12,1.5303080999796164
 2024,Netflix,United States,17.99,USD,17.99,6600.0,OECD/TradingEconomics,1.0,0.2725757575757575
 2024,Youtube Premium,United States,13.99,USD,13.99,6600.0,OECD/TradingEconomics,1.0,0.21196969696969697
 2024,Disney+,United States,12.99,USD,12.99,6600.0,OECD/TradingEconomics,1.0,0.1968181818181818
@@ -13,6 +17,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,United States,11.99,USD,11.99,6600.0,OECD/TradingEconomics,1.0,0.18166666666666667
 2024,Apple Music,United States,10.99,USD,10.99,6600.0,OECD/TradingEconomics,1.0,0.1665151515151515
 2024,Microsoft 365,United States,99.99,USD,99.99,6600.0,OECD/TradingEconomics,1.0,1.515
+2024,Adobe Creative Cloud,United States,34.97,USD,34.97,6600.0,OECD/TradingEconomics,1.0,0.5298484848484848
+2024,Xbox Game Pass,United States,9.99,USD,9.99,6600.0,OECD/TradingEconomics,1.0,0.15136363636363637
+2024,NordVPN,United States,96.07,USD,96.07,6600.0,OECD/TradingEconomics,1.0,1.4556060606060606
+2024,ExpressVPN,United States,106.4,USD,106.4,6600.0,OECD/TradingEconomics,1.0,1.6121212121212123
 2024,Netflix,Germany,13.99,EUR,15.25,5232.0,OECD/TradingEconomics,0.85,0.29147553516819574
 2024,Youtube Premium,Germany,12.99,EUR,14.16,5232.0,OECD/TradingEconomics,1.01,0.2706422018348624
 2024,Disney+,Germany,10.99,EUR,11.98,5232.0,OECD/TradingEconomics,0.92,0.22897553516819572
@@ -20,6 +28,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Germany,12.99,EUR,14.16,5232.0,OECD/TradingEconomics,1.18,0.2706422018348624
 2024,Apple Music,Germany,10.99,EUR,11.98,5232.0,OECD/TradingEconomics,1.09,0.22897553516819572
 2024,Microsoft 365,Germany,99.0,EUR,107.91,5232.0,OECD/TradingEconomics,1.08,2.0625
+2024,Adobe Creative Cloud,Germany,43.25,EUR,47.14,5232.0,OECD/TradingEconomics,1.35,0.900993883792049
+2024,Xbox Game Pass,Germany,8.99,EUR,9.8,5232.0,OECD/TradingEconomics,0.98,0.18730886850152906
+2024,NordVPN,Germany,96.07,EUR,104.72,5232.0,OECD/TradingEconomics,1.09,2.0015290519877675
+2024,ExpressVPN,Germany,99.63,EUR,108.6,5232.0,OECD/TradingEconomics,1.02,2.0756880733944953
 2024,Netflix,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,0.92,0.2887139107611548
 2024,Youtube Premium,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,1.18,0.2887139107611548
 2024,Disney+,United Kingdom,14.99,GBP,19.04,5715.0,OECD/TradingEconomics,1.47,0.3331583552055993
@@ -27,6 +39,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,United Kingdom,12.99,GBP,16.5,5715.0,OECD/TradingEconomics,1.38,0.2887139107611548
 2024,Apple Music,United Kingdom,16.99,GBP,21.58,5715.0,OECD/TradingEconomics,1.96,0.37760279965004373
 2024,Microsoft 365,United Kingdom,84.99,GBP,107.94,5715.0,OECD/TradingEconomics,1.08,1.8887139107611548
+2024,Adobe Creative Cloud,United Kingdom,24.98,GBP,31.72,5715.0,OECD/TradingEconomics,0.91,0.5550306211723535
+2024,Xbox Game Pass,United Kingdom,6.99,GBP,8.88,5715.0,OECD/TradingEconomics,0.89,0.15538057742782155
+2024,NordVPN,United Kingdom,73.58,GBP,93.45,5715.0,OECD/TradingEconomics,0.97,1.6351706036745406
+2024,ExpressVPN,United Kingdom,83.66,GBP,106.25,5715.0,OECD/TradingEconomics,1.0,1.859142607174103
 2024,Netflix,Poland,49.0,PLN,12.25,,Missing,0.68,
 2024,Youtube Premium,Poland,29.99,PLN,7.5,,Missing,0.54,
 2024,Disney+,Poland,34.99,PLN,8.75,,Missing,0.67,
@@ -34,6 +50,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Poland,23.99,PLN,6.0,,Missing,0.5,
 2024,Apple Music,Poland,21.99,PLN,5.5,,Missing,0.5,
 2024,Microsoft 365,Poland,429.99,PLN,107.5,,Missing,1.08,
+2024,Adobe Creative Cloud,Poland,45.13,EUR,49.19,,Missing,1.41,
+2024,Xbox Game Pass,Poland,36.99,PLN,9.25,,Missing,0.93,
+2024,NordVPN,Poland,328.45,PLN,82.11,,Missing,0.85,
+2024,ExpressVPN,Poland,120.2,PLN,30.05,,Missing,0.28,
 2024,Netflix,Turkey,289.99,TRY,9.28,761.25,OECD/TradingEconomics,0.52,1.219047619047619
 2024,Youtube Premium,Turkey,29.99,TRY,0.96,761.25,OECD/TradingEconomics,0.07,0.12610837438423644
 2024,Disney+,Turkey,449.9,TRY,14.4,761.25,OECD/TradingEconomics,1.11,1.891625615763547
@@ -41,6 +61,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Turkey,99.0,TRY,3.17,761.25,OECD/TradingEconomics,0.26,0.4164203612479474
 2024,Apple Music,Turkey,59.99,TRY,1.92,761.25,OECD/TradingEconomics,0.17,0.2522167487684729
 2024,Microsoft 365,Turkey,3299.99,TRY,105.6,761.25,OECD/TradingEconomics,1.06,13.871921182266009
+2024,Adobe Creative Cloud,Turkey,269.0,TRY,8.61,761.25,OECD/TradingEconomics,0.25,1.1310344827586205
+2024,Xbox Game Pass,Turkey,96.88,TRY,3.1,761.25,OECD/TradingEconomics,0.31,0.4072249589490969
+2024,NordVPN,Turkey,96.88,TRY,3.1,761.25,OECD/TradingEconomics,0.03,0.4072249589490969
+2024,ExpressVPN,Turkey,117.26,TRY,3.75,761.25,OECD/TradingEconomics,0.04,0.49261083743842365
 2024,Netflix,Argentina,14999.0,ARS,18.0,548.18,OECD/TradingEconomics,1.0,3.283592980407896
 2024,Youtube Premium,Argentina,4181.0,ARS,5.02,548.18,OECD/TradingEconomics,0.36,0.915757597869313
 2024,Disney+,Argentina,12299.0,ARS,14.76,548.18,OECD/TradingEconomics,1.14,2.692546243934474
@@ -48,6 +72,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Argentina,3299.0,ARS,3.96,548.18,OECD/TradingEconomics,0.33,0.722390455689737
 2024,Apple Music,Argentina,5.978,ARS,0.01,548.18,OECD/TradingEconomics,0.0,0.001824218322448831
 2024,Microsoft 365,Argentina,37199.0,ARS,44.64,548.18,OECD/TradingEconomics,0.45,8.143310591411582
+2024,Adobe Creative Cloud,Argentina,29500.24,ARS,35.4,548.18,OECD/TradingEconomics,1.01,6.457732861468861
+2024,Xbox Game Pass,Argentina,8999.0,ARS,10.8,548.18,OECD/TradingEconomics,1.08,1.9701557882447374
+2024,NordVPN,Argentina,213.3,ARS,0.26,548.18,OECD/TradingEconomics,0.0,0.0474296763836696
+2024,ExpressVPN,Argentina,97.72,ARS,0.12,548.18,OECD/TradingEconomics,0.0,0.02189061986938597
 2024,Netflix,Brazil,44.9,BRL,8.98,600.0,OECD/TradingEconomics,0.5,1.4966666666666668
 2024,Youtube Premium,Brazil,24.9,BRL,4.98,600.0,OECD/TradingEconomics,0.36,0.83
 2024,Disney+,Brazil,46.9,BRL,9.38,600.0,OECD/TradingEconomics,0.72,1.5633333333333337
@@ -55,6 +83,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Brazil,23.9,BRL,4.78,600.0,OECD/TradingEconomics,0.4,0.7966666666666667
 2024,Apple Music,Brazil,21.9,BRL,4.38,600.0,OECD/TradingEconomics,0.4,0.73
 2024,Microsoft 365,Brazil,509.0,BRL,101.8,600.0,OECD/TradingEconomics,1.02,16.966666666666665
+2024,Adobe Creative Cloud,Brazil,239.86,BRL,47.97,600.0,OECD/TradingEconomics,1.37,7.994999999999999
+2024,Xbox Game Pass,Brazil,43.9,BRL,8.78,600.0,OECD/TradingEconomics,0.88,1.4633333333333332
+2024,NordVPN,Brazil,213.3,BRL,42.66,600.0,OECD/TradingEconomics,0.44,7.109999999999999
+2024,ExpressVPN,Brazil,97.72,BRL,19.54,600.0,OECD/TradingEconomics,0.18,3.256666666666667
 2024,Netflix,Egypt,170.0,EGP,3.57,,Missing,0.2,
 2024,Netflix,Ukraine,7.49,EUR,8.16,,Missing,0.45,
 2024,Youtube Premium,Ukraine,13.99,UAH,0.36,,Missing,0.03,
@@ -62,6 +94,10 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Ukraine,4.99,UAH,0.13,,Missing,0.01,
 2024,Apple Music,Ukraine,4.99,UAH,0.13,,Missing,0.01,
 2024,Microsoft 365,Ukraine,2699.0,UAH,70.17,,Missing,0.7,
+2024,Adobe Creative Cloud,Ukraine,49.97,UAH,1.3,,Missing,0.04,
+2024,Xbox Game Pass,Ukraine,290.0,UAH,7.54,,Missing,0.75,
+2024,NordVPN,Ukraine,96.88,UAH,2.52,,Missing,0.03,
+2024,ExpressVPN,Ukraine,117.26,UAH,3.05,,Missing,0.03,
 2024,Netflix,Philippines,449.0,PHP,8.08,,Missing,0.45,
 2024,Youtube Premium,Philippines,189.0,PHP,3.4,,Missing,0.24,
 2024,Disney+,Philippines,249.0,PHP,4.48,,Missing,0.34,
@@ -69,8 +105,17 @@ Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary
 2024,Spotify,Philippines,169.0,PHP,3.04,,Missing,0.25,
 2024,Apple Music,Philippines,139.0,PHP,2.5,,Missing,0.23,
 2024,Microsoft 365,Philippines,4899.0,PHP,88.18,,Missing,0.88,
+2024,Adobe Creative Cloud,Philippines,1714.13,PHP,30.85,,Missing,0.88,
+2024,Xbox Game Pass,Philippines,320.0,PHP,5.76,,Missing,0.58,
+2024,NordVPN,Philippines,629.0,PHP,11.32,,Missing,0.12,
+2024,ExpressVPN,Philippines,97.72,PHP,1.76,,Missing,0.02,
 2024,Netflix,Pakistan,800.0,PKR,2.88,,Missing,0.16,
 2024,Youtube Premium,Pakistan,0.479,PKR,0.0,,Missing,0.0,
 2024,Amazon Prime,Pakistan,299.0,INR,3.59,,Missing,0.24,
 2024,Spotify,Pakistan,349.0,PKR,1.26,,Missing,0.11,
 2024,Microsoft 365,Pakistan,22999.0,PKR,82.8,,Missing,0.83,
+2024,Adobe Creative Cloud,Pakistan,18899.0,PKR,68.04,,Missing,1.95,
+2024,Xbox Game Pass,Pakistan,499.0,INR,5.99,,Missing,0.6,
+2024,NordVPN,Pakistan,105.03,SGD,77.72,,Missing,0.81,
+2024,ExpressVPN,Pakistan,139.72,PKR,0.5,,Missing,0.0,
+2024,Adobe Creative Cloud,Nigeria,0.7958027,NGN,0.0,,Missing,0.0,

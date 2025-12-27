@@ -26,7 +26,7 @@ RATES_TO_USD = {
     'ILS': 0.27, 'SAR': 0.27, 'AED': 0.27, 'RON': 0.22, 'BGN': 0.55
 }
 
-def parse_price(price_str):
+def parse_price(price_str, country=None):
     if not isinstance(price_str, str) or not price_str.strip():
         return None, None
     
@@ -37,6 +37,7 @@ def parse_price(price_str):
     found_curr = None
     rate = 1.0
     
+    # Prioritize Explicit Code
     for curr, r in RATES_TO_USD.items():
         if curr in s:
             found_curr = curr
@@ -47,8 +48,10 @@ def parse_price(price_str):
     if not found_curr:
         if '€' in s: found_curr = 'EUR'; rate = RATES_TO_USD['EUR']
         elif '£' in s: found_curr = 'GBP'; rate = RATES_TO_USD['GBP']
-        elif '₺' in s or 'TL' in s: found_curr = 'TRY'; rate = RATES_TO_USD['TRY']
-        elif 'R$' in s: found_curr = 'BRL'; rate = RATES_TO_USD['BRL']
+        elif ('₺' in s or 'TL' in s) and (country != 'Argentina'): found_curr = 'TRY'; rate = RATES_TO_USD['TRY']
+        elif 'R$' in s: 
+             if country == 'Argentina': pass # Avoid BRL confusion
+             else: found_curr = 'BRL'; rate = RATES_TO_USD['BRL']
         elif '¥' in s: found_curr = 'JPY'; rate = RATES_TO_USD['JPY']
         elif 'CHF' in s: found_curr = 'CHF'; rate = RATES_TO_USD['CHF']
         elif '₹' in s: found_curr = 'INR'; rate = RATES_TO_USD['INR']
@@ -56,8 +59,6 @@ def parse_price(price_str):
         elif '₴' in s: found_curr = 'UAH'; rate = RATES_TO_USD['UAH']
         elif ' zł' in s: found_curr = 'PLN'; rate = RATES_TO_USD['PLN']
         elif 'kr' in s: 
-             # Ambiguous (SEK, NOK, DKK). 
-             # We rely on Country fallback logic below mostly
              pass
 
     # Remove non-numeric chars (except dots and commas)
@@ -66,12 +67,16 @@ def parse_price(price_str):
     
     try:
         val = 0.0
+        # European format handling
         if ',' in num_s and '.' in num_s:
             if num_s.find(',') > num_s.find('.'): # 1.234,56
                 num_s = num_s.replace('.', '').replace(',', '.')
             else: # 1,234.56
                 num_s = num_s.replace(',', '')
         elif ',' in num_s:
+            # If comma is decimal separator (e.g. 12,99) 
+            # Heuristic: if country is in Europe/South America usually comma is decimal.
+            # But in code we need to be careful.
             if len(num_s.split(',')[1]) == 2: num_s = num_s.replace(',', '.')
             else: num_s = num_s.replace(',', '')
                 
@@ -89,14 +94,18 @@ def process_sheet():
     services = {
         'Netflix': 4,
         'Youtube Premium': 5,
-        'Disney+': 6,
+        'Disney+': 6, 
         'Amazon Prime': 7,
         'Spotify': 8,
         'Apple Music': 9,
-        'Microsoft 365': 10
+        'Microsoft 365': 10, 
+        'Adobe Creative Cloud': 11, # Standardized Name
+        'Xbox Game Pass': 12, # Standardized Name
+        'NordVPN': 13,
+        'ExpressVPN': 14
     }
     
-    # Country-Currency Map for Fallbacks
+    # Country-Currency Map for Fallbacks (unchanged - relying on imports usually)
     country_curr_map = {
         'United States': 'USD', 'USA': 'USD',
         'Germany': 'EUR', 'France': 'EUR', 'Spain': 'EUR', 'Italy': 'EUR', 'Netherlands': 'EUR', 'Monaco': 'EUR', 'Luxembourg': 'EUR', 'Ireland': 'EUR', 'Austria': 'EUR', 'Finland': 'EUR', 'Belgium': 'EUR', 'Portugal': 'EUR', 'Greece': 'EUR', 'Estonia': 'EUR', 'Latvia': 'EUR', 'Lithuania': 'EUR', 'Slovakia': 'EUR', 'Slovenia': 'EUR',
@@ -148,6 +157,7 @@ def process_sheet():
             scurr = srow['Currency']
             sval = srow['Monthly_Wage_Local']
             srate = RATES_TO_USD.get(scurr, 1.0)
+            # ... (rest is same)
             if scurr == 'USD': srate=1.0 # explicit
             
             susd = sval * srate
@@ -165,7 +175,7 @@ def process_sheet():
         # Clean Country Name
         country_clean = country.split('(')[0].strip()
         
-        # Use Referenced Salary if available, else None (User said "don't invent data")
+        # Use Referenced Salary
         salary_usd = salary_lookup.get(country_clean)
         if not salary_usd and country_clean in salary_lookup:
              salary_usd = salary_lookup[country_clean]
@@ -174,7 +184,7 @@ def process_sheet():
             if col_idx >= len(row): continue
             
             price_raw = str(row[col_idx])
-            val, curr = parse_price(price_raw)
+            val, curr = parse_price(price_raw, country_clean) # PASS COUNTRY
             
             if val is not None:
                 if not curr:
