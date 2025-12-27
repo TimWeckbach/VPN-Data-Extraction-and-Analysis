@@ -3,7 +3,7 @@
 This chapter synthesizes the quantitative findings from the DSPI and the qualitative insights from the automated classifcation pipeline to answer the research questions. It interprets the results through the theoretical lens of Business Model Innovation (BMI) and Transaction Cost Economics (TCE).
 
 \section{The Strategic Archetypes of Geo-Arbitrage}
-Based on the analysis of Terms of Service and corporate enforcement actions across our expanded sample ($N=10$), we identify three distinct strategic archetypes that govern how digital firms respond to price arbitrage:
+Based on the analysis of Terms of Service and corporate enforcement actions across our expanded sample ($N=11$), we identify three distinct strategic archetypes that govern how digital firms respond to price arbitrage:
 
 \subsection{The Content Fortress (Coercive)}
 Firms adhering to this strategy, typified by streaming giants like \textbf{Netflix} and \textbf{Disney+}, prioritize the maintenance of regional licensing agreements over user convenience. Our quantitative analysis reveals that within the "Content Licensing Sector," the specific correlation between price variance and enforcement is negligible ($R \approx 0.006$). This indicates that strict enforcement is not a *reaction* to specific price arbitrage risks, but an \textbf{industry standard}—a baseline requirement for operating a licensed streaming service. \textbf{Disney+} and \textbf{Netflix} allocate approximately \textbf{8.5\%} and \textbf{6.2\%} of their enforcement clauses to \textbf{Content Licensing} issues, respectively.
@@ -19,6 +19,46 @@ A new archetype identified in this study is the "Enterprise Fortress," exemplifi
 \subsection{The Utility Paradox (Adobe)}
 \textbf{Adobe} presents a unique case. It has high price discrimination (similar to Netflix) but relatively low "Technical Blocking" enforcement. This is likely because Adobe's enforcement mechanism is "on-device" (software activation keys) rather than "on-network" (IP filtering). This highlights that "Technical Blocking" is a strategy specific to *cloud-streamed* content, whereas *downloaded software* relies on different protection mechanisms.
 
+However, a hybrid future is emerging in the form of \textbf{"Always-Online DRM"}. Features like Adobe's "Generative Fill" require strictly authenticated cloud connections to function, effectively merging the "Content Fortress" reliance on IP checks with the "Enterprise Fortress" reliance on strong identity. This suggests that the low "Technical Blocking" score for Adobe is a historical artifact that may vanish as software becomes increasingly SaaS-dependent.
+\subsection{The Cat-and-Mouse Game: A Longitudinal View}
+The adversarial relationship between providers and consumers is not static. Our historical analysis reveals a clear "Action-Reaction" cycle, which we visualize in Figure \ref{fig:timeline}.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[x=2cm, y=1cm]
+        % Draw the timeline line
+        \draw[->, thick] (0,0) -- (6.5,0) node[right] {Year};
+        
+        % Ticks and Labels
+        \foreach \x/\year in {0.5/2016, 2.5/2019, 3.5/2020, 5.0/2021} {
+            \draw[thick] (\x,0.1) -- (\x,-0.1);
+            \node[below=0.2cm] at (\x,0) {\textbf{\year}};
+        }
+
+        % Events Top (Corporate/Coercive)
+        \node[align=center, text width=3cm, above=1.5cm, font=\footnotesize] (netflix16) at (0.5,0) {\textbf{Netflix VPN Ban}\\(The "Opening Salvo")};
+        \draw[thin] (0.5,0.2) -- (netflix16);
+
+        \node[align=center, text width=3cm, above=0.5cm, font=\footnotesize] (disney19) at (2.5,0) {\textbf{Disney+ Launch}\\(Geo-blocking Failures)};
+        \draw[thin] (2.5,0.2) -- (disney19);
+        
+        \node[align=center, text width=3cm, above=1.5cm, font=\footnotesize] (resip) at (5.0,0) {\textbf{Residential IP Crackdown}\\(The "Hard" Filter)};
+        \draw[thin] (5.0,0.2) -- (resip);
+
+        % Events Bottom (VPN/Adaptive)
+        \node[align=center, text width=3cm, below=1.5cm, font=\footnotesize] (obfus) at (2.5,0) {\textbf{Rise of Obfuscated Servers}\\(Chameleon/XOR)};
+        \draw[thin] (2.5,-0.2) -- (obfus);
+
+        \node[align=center, text width=3cm, below=2.5cm, font=\footnotesize] (wireguard) at (3.5,0) {\textbf{WireGuard \& NordLynx}\\(Speed + Stealth)};
+        \draw[thin] (3.5,-0.2) -- (wireguard);
+
+    \end{tikzpicture}
+    \caption{The "Cat-and-Mouse" Timeline: Coercive Barriers vs. Technical Circumvention.}
+    \label{fig:timeline}
+\end{figure}
+
+This timeline illustrates that corporate enforcement often lags behind consumer innovation. The 2016 ban forced VPNs to adopt "Obfuscated Servers" (2019), which in turn prompted Netflix to block "Residential IPs" (2021).
+
 \section{Limitations and Validity}
 While this study provides a novel quantitative framework for analyzing geo-arbitrage, several limitations must be acknowledged to contextualize the findings.
 
@@ -26,7 +66,9 @@ While this study provides a novel quantitative framework for analyzing geo-arbit
 The correlation analysis relies on a strategic sample of $N=11$ major digital service providers. While these firms represent a significant majority of the consumer subscription market by capitalization, the sample is small in statistical terms. Consequently, the findings should be interpreted as "exploratory" evidence of strategic archetypes rather than a definitive "law" of digital economics. Future research could expand this dataset to include mid-tier SaaS providers to test if the "Enterprise Fortress" model holds for smaller B2B firms.
 
 \subsection{The "Average Citizen" Bias (Socioeconomic Mismatch)}
-Our "Affordability" metric calculates cost as a percentage of the \textit{Average National Monthly Wage}. However, in emerging markets like Turkey or Argentina, the target demographic for services like Netflix or Adobe is likely the urban upper-middle class, whose income is significantly higher than the national average. This implies that our "Real Cost" heatmap (Figure \ref{fig:affordability}) may overstate the unaffordability of these services for the \textit{actual} customer base. Nevertheless, the metric remains valid as a proxy for the \textit{general} economic friction between the Global North and South.
+Our "Affordability" metric calculates cost as a percentage of the \textit{Average National Monthly Wage}. However, in emerging markets like Turkey or Argentina, the target demographic for services like Netflix or Adobe is likely the urban upper-middle class, whose income is significantly higher than the national average. 
+
+For instance, World Bank data and local surveys indicate that in Turkey, the top 20\% of earners capture nearly 48\% of the total disposable income. Similarly, in Argentina, the top 10\% of earners have an average monthly income exceeding \$496 USD, well above the national median. This implies that global digital services are aggressively priced to target this specific "Global Elite" segment within developing nations, rather than the average citizen. Consequently, our "Real Cost" heatmap (Figure \ref{fig:affordability}) may overstate the unaffordability of these services for the \textit{actual} customer base, while correctly identifying them as luxury goods for the general population. Use of this "Elite" pricing strategy explains why firms tolerate some level of piracy from the lower 80\%—they were never the customers to begin with.
 
 \subsection{Temporal Sensitivity in Volatile Markets}
 The Digital Services Price Index (DSPI) represents a snapshot of pricing data from late 2024. In hyper-inflationary economies such as Argentina and Turkey, local currency prices are adjusted frequently. A "Cheap" arbitrage opportunity identified in this thesis could be eroded effectively overnight by a price hike or currency devaluation. The "Arbitrage Window" is therefore dynamic, not static.

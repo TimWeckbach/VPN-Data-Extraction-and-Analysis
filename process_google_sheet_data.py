@@ -172,8 +172,13 @@ def process_sheet():
         country = str(row[0])
         if not country or country == 'nan' or 'Price of' in country: continue
         
+        # SKIP generated rows (visual aids)
+        if "USD Equivalent" in country or "↳" in country:
+            continue
+
         # Clean Country Name
-        country_clean = country.split('(')[0].strip()
+        # Handle "Turkey (Turkiye)" and "Turkey [Rate: ...]"
+        country_clean = country.split('(')[0].split('[')[0].strip()
         
         # Use Referenced Salary
         salary_usd = salary_lookup.get(country_clean)

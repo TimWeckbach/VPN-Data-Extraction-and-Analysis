@@ -1,4 +1,5 @@
 Year,Service,Country,Original_Price,Currency,Price_USD,Monthly_Salary_USD,Salary_Source_Ref,DSPI,Affordability_%
+2024,Amazon Prime,,2021.0,AUD,1333.86,,Missing,88.98,
 2024,Netflix,Switzerland,22.9,CHF,25.88,7800.39,OECD/TradingEconomics,1.44,0.3317782828807277
 2024,Youtube Premium,Switzerland,17.9,CHF,20.23,7800.39,OECD/TradingEconomics,1.45,0.25934600705862143
 2024,Disney+,Switzerland,16.9,CHF,19.1,7800.39,OECD/TradingEconomics,1.47,0.24485955189420017
