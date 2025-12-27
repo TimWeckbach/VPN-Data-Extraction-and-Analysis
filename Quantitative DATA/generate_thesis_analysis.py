@@ -59,30 +59,59 @@ def generate_analysis():
     plt.savefig(os.path.join(OUTPUT_DIR, 'service_distribution_ratios.pdf'))
     plt.close()
     
-    # 4. Timeline Graph (Changes over time)
-    print("\n--- Timeline Analysis ---")
-    # Group by Year and Category (Aggregated)
+    # 4. Timeline Graph (Changes over time) - NORMALIZED & FILTERED
+    print("\n--- Timeline Analysis (Normalized) ---")
+    
+    # Calculate Total Sentences per Year
+    yearly_totals = df.groupby('Year').size()
+    
+    # Group by Year and Category
     time_group = df.groupby(['Year', target_col]).size().unstack(fill_value=0)
     
-    # Plot 2: Line Chart over Time (All Services)
+    # Normalize: Divide each row by the yearly total
+    time_norm = time_group.div(yearly_totals, axis=0) * 100 # In percentage
+    
+    # Filter out "General Terms" for the trend graph to see the signals
+    if 'General Terms' in time_norm.columns:
+        time_norm_filtered = time_norm.drop(columns=['General Terms'])
+    else:
+        time_norm_filtered = time_norm
+
+    # Plot 2: Line Chart over Time (All Services) - Normalized & Filtered
     plt.figure(figsize=(12, 6))
-    sns.lineplot(data=time_group, dashes=False)
-    plt.title('Category Frequency Over Time (All Services)')
-    plt.ylabel('Frequency')
+    sns.lineplot(data=time_norm_filtered, dashes=False)
+    plt.title('Relative Frequency of Enforcement Categories Over Time (Excluding General Terms)')
+    plt.ylabel('Percentage of Year\'s Sentences')
     plt.xlabel('Year')
     plt.legend(title='Category', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, 'category_timeline_all.pdf'))
+    plt.savefig(os.path.join(OUTPUT_DIR, 'category_timeline_all_normalized.pdf'))
     plt.close()
 
-    # Plot 3: Faceted Timeline by Company
-    # We need a long format for seaborn
-    df_grouped = df.groupby(['Year', 'Company', target_col]).size().reset_index(name='Count')
+    # Plot 3: Faceted Timeline by Company - Normalized
+    # We need a long format for seaborn, but calculated as percentage of THAT company's year total
     
-    g = sns.FacetGrid(df_grouped, col="Company", col_wrap=3, height=4, sharey=False)
-    g.map_dataframe(sns.lineplot, x="Year", y="Count", hue=target_col)
+    # helper to normalize within groups
+    def normalize_year_company(x):
+        return x / x.sum() * 100
+
+    # Group by [Year, Company, Category], Count
+    df_counts = df.groupby(['Year', 'Company', target_col]).size().reset_index(name='Count')
+    
+    # Calculate totals per [Year, Company]
+    df_totals = df_counts.groupby(['Year', 'Company'])['Count'].transform('sum')
+    
+    # Calculate Percentage
+    df_counts['Percentage'] = (df_counts['Count'] / df_totals) * 100
+    
+    # Filter "General Terms" for the faceted plot too
+    df_counts_filtered = df_counts[df_counts[target_col] != 'General Terms']
+
+    g = sns.FacetGrid(df_counts_filtered, col="Company", col_wrap=3, height=4, sharey=False)
+    g.map_dataframe(sns.lineplot, x="Year", y="Percentage", hue=target_col)
     g.add_legend()
-    plt.savefig(os.path.join(OUTPUT_DIR, 'category_timeline_per_service.pdf'))
+    g.set_axis_labels("Year", "Percentage of Sentences")
+    plt.savefig(os.path.join(OUTPUT_DIR, 'category_timeline_per_service_normalized.pdf'))
     plt.close()
     
     print(f"\nGraphs saved to {OUTPUT_DIR}")
