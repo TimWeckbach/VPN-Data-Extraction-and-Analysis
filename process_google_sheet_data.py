@@ -138,6 +138,24 @@ def process_sheet():
         'Denmark': 'DKK'
     }
 
+    # Load Referenced Salary Data
+    salary_csv = r"Quantitative DATA\salary_data_external.csv"
+    salary_lookup = {}
+    if os.path.exists(salary_csv):
+        sal_df = pd.read_csv(salary_csv)
+        for _, srow in sal_df.iterrows():
+            # Convert to USD
+            scurr = srow['Currency']
+            sval = srow['Monthly_Wage_Local']
+            srate = RATES_TO_USD.get(scurr, 1.0)
+            if scurr == 'USD': srate=1.0 # explicit
+            
+            susd = sval * srate
+            salary_lookup[srow['Country']] = susd
+            # Also map USA equivalents
+            if srow['Country'] == 'United States': salary_lookup['USA'] = susd
+            if srow['Country'] == 'United Kingdom': salary_lookup['UK'] = susd
+
     results = []
     
     for idx, row in df.iterrows():
@@ -145,16 +163,13 @@ def process_sheet():
         if not country or country == 'nan' or 'Price of' in country: continue
         
         # Clean Country Name
-        # Handle "Turkey (Turkiye)" -> "Turkey"
         country_clean = country.split('(')[0].strip()
         
-        # Economic Metrics
-        try:
-            salary_str = str(row[2])
-            salary_usd = float(re.sub(r'[^\d.]', '', salary_str.replace(',', '')))
-        except:
-            salary_usd = None
-            
+        # Use Referenced Salary if available, else None (User said "don't invent data")
+        salary_usd = salary_lookup.get(country_clean)
+        if not salary_usd and country_clean in salary_lookup:
+             salary_usd = salary_lookup[country_clean]
+
         for service, col_idx in services.items():
             if col_idx >= len(row): continue
             
@@ -162,9 +177,8 @@ def process_sheet():
             val, curr = parse_price(price_raw)
             
             if val is not None:
-                # Fallback Logic
                 if not curr:
-                    curr = country_curr_map.get(country_clean, 'USD') # Default USD if completely unknown, risky but necessary
+                    curr = country_curr_map.get(country_clean, 'USD')
                 
                 rate = RATES_TO_USD.get(curr, 1.0)
                 price_usd = val * rate
@@ -176,7 +190,8 @@ def process_sheet():
                     'Original_Price': val,
                     'Currency': curr,
                     'Price_USD': round(price_usd, 2),
-                    'Monthly_Salary_USD': salary_usd
+                    'Monthly_Salary_USD': round(salary_usd, 2) if salary_usd else None,
+                    'Salary_Source_Ref': 'OECD/TradingEconomics' if salary_usd else 'Missing' 
                 })
 
     # Create DF
@@ -185,7 +200,6 @@ def process_sheet():
     # Calculate DSPI (Baseline = USA Price)
     # Get US prices per Service
     us_prices = final_df[final_df['Country'] == 'United States'].set_index('Service')['Price_USD'].to_dict()
-    # Check if 'USA' or 'United States'
     if not us_prices:
         us_prices = final_df[final_df['Country'] == 'USA'].set_index('Service')['Price_USD'].to_dict()
         
@@ -197,13 +211,14 @@ def process_sheet():
         
     final_df['DSPI'] = final_df.apply(get_dspi, axis=1)
     
-    # Calculate Affordability metric requested by User
-    # "comparing regional prices with local Purchasing power"
-    # Affordability = Price / Monthly Salary * 100 (% of income)
+    # Calculate Affordability metric
+    # Only if we have Referenced Salary Data
     final_df['Affordability_%'] = final_df.apply(lambda x: (x['Price_USD'] / x['Monthly_Salary_USD'] * 100) if x['Monthly_Salary_USD'] else None, axis=1)
 
     print(f"Extracted {len(final_df)} valid price points.")
-    print("Sample:\n", final_df.head())
+    # Filter to only rows where we have BOTH price and trusted salary for the heatmap
+    heatmap_ready_df = final_df.dropna(subset=['Affordability_%'])
+    print(f"Heatmap ready rows (with trusted salary): {len(heatmap_ready_df)}")
     
     final_df.to_csv(OUTPUT_FILE, index=False)
     print(f"Saved to {OUTPUT_FILE}")
