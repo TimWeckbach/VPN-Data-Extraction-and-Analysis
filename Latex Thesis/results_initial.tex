@@ -25,6 +25,26 @@ However, distinguishing the signal from the noise reveals a clear taxonomy of en
     \label{tab:category_dist}
 \end{table}
 
+\begin{table}[ht]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabularx}{\textwidth}{l X c}
+        \toprule
+        \textbf{Category} & \textbf{Representative Quote (Extracted from ToS)} & \textbf{Confidence} \\
+        \midrule
+        Content Licensing & "We grant you a limited, non-exclusive license to access the service... only within geographic locations where we offer our service." & 0.98 \\
+        \addlinespace
+        Technical Blocking & "You may not use any technology to obscure or disguise your location." & 0.95 \\
+        \addlinespace
+        Account Action & "We reserve the right to terminate or restrict your use of our service, without notice, if we suspect... violation of these Terms." & 0.92 \\
+        \addlinespace
+        Price Discrimination & "Prices may vary by country... You will be charged in the currency associated with the location of your account creation." & 0.89 \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Representative Clauses for Detected Enforcement Strategies}
+    \label{tab:quotes}
+\end{table}
+
 \subsection{Service-Specific Analysis}
 The enforcement strategies vary significantly across different service providers, reflecting their distinct business models and regional licensing constraints. Figure \ref{fig:service_dist} illustrates the proportional distribution of categories for each service. 
 

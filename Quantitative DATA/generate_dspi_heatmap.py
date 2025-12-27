@@ -11,18 +11,27 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 def generate_dspi_heatmap():
     # Synthetic Data to match Thesis Findings (DSPI Values relative to US = 1.0)
     # < 1.0 means cheaper, > 1.0 means more expensive
-    data = {
-        'Country': ['Switzerland', 'USA', 'Germany', 'UK', 'Japan', 'Brazil', 'India', 'Turkey', 'Argentina'],
-        'Netflix': [1.15, 1.00, 1.05, 1.02, 0.90, 0.60, 0.40, 0.25, 0.20],
-        'Disney+': [1.12, 1.00, 1.00, 1.00, 0.95, 0.55, 0.35, 0.30, 0.22],
-        'Spotify': [1.20, 1.00, 1.00, 1.00, 0.85, 0.50, 0.30, 0.20, 0.18],
-        'Apple Music': [1.10, 1.00, 1.00, 1.00, 0.90, 0.65, 0.45, 0.35, 0.30],
-        'Microsoft 365': [1.05, 1.00, 1.00, 0.95, 0.95, 0.70, 0.40, 0.30, 0.25],
-        'Steam (AAA Game)': [1.00, 1.00, 1.00, 1.00, 0.90, 0.55, 0.45, 0.40, 0.35]
-    }
+    
+    # Load Real Data
+    csv_path = r"Quantitative DATA\dspi_raw_data.csv"
+    if not os.path.exists(csv_path):
+        print(f"Error: {csv_path} not found.")
+        return
 
-    df = pd.DataFrame(data)
-    df.set_index('Country', inplace=True)
+    raw_df = pd.read_csv(csv_path)
+    
+    # Calculate DSPI relative to USA for each service
+    # DSPI = Local Price USD / US Price USD (Nominal Comparison for Arbitrage)
+    # Note: Thesis text mentions "Arbitrage Incentive" which works on Nominal prices.
+    # If the user arbitrageur pays with their Swiss credit card in Turkey, they care about the Nominal difference.
+    # Re-calculating DSPI column just in case.
+    
+    # Pivot to get Matrix: Index=Country, Columns=Service, Values=DSPI
+    # We first ensure we have unique entries. (Assuming 2024 data only)
+    df = raw_df.pivot(index='Country', columns='Service', values='DSPI')
+    
+    # Fill missing values if any (e.g. Spotify not in Argentina in our small sample)
+    # For heatmap purposes, we can leave as NaN or fill. NaN is better for transparency.
     
     # Sort by average DSPI to have cheaper countries at the bottom
     df['Mean_DSPI'] = df.mean(axis=1)
