@@ -15,6 +15,10 @@ FILES_TO_UPLOAD = {
     "DSPI_Data": r"Quantitative DATA\Sheets_Import_DSPI.csv",
     "Qual_Counts": r"Quantitative DATA\Sheets_Import_Qual_Counts.csv",
     "Qual_Timeline": r"Quantitative DATA\Sheets_Import_Qual_Timeline.csv",
+    "Qual_Raw": r"Quantitative DATA\Sheets_Import_Qual_Raw.csv",
+    "Qual_Master": r"Quantitative DATA\Thesis_Dataset_Master_Redefined.csv",
+    "Service_Stats": r"Quantitative DATA\Sheets_Import_Service_Stats.csv",
+    "Timeline_Details": r"Quantitative DATA\Sheets_Import_Timeline_Details.csv",
     "Correlation_Data": r"Quantitative DATA\Sheets_Import_Correlation.csv"
 }
 
@@ -58,7 +62,7 @@ def main():
                 ws = sh.add_worksheet(title=tab_name, rows=len(data)+20, cols=len(data[0])+5)
             
             # Update Data
-            ws.update(range_name='A1', values=data)
+            ws.update(range_name='A1', values=data, value_input_option='USER_ENTERED')
             print(f" - Success! ({len(data)} rows)")
             
         except Exception as e:

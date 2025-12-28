@@ -41,8 +41,19 @@ def process_qualitative_stats(df_qual):
         timeline_norm = timeline.div(timeline.sum(axis=1), axis=0) * 100
     else:
         timeline_norm = pd.DataFrame()
+
+    # 3. Service Distribution (Normalized Ratios per Service)
+    service_group = df_qual.groupby(['Service', cat_col]).size().unstack(fill_value=0)
+    service_ratios = service_group.div(service_group.sum(axis=1), axis=0) * 100
+    service_ratios = service_ratios.round(2)
+
+    # 4. Detailed Faceted Timeline (Year, Service, Category, Percentage)
+    df_counts = df_qual.groupby(['Year', 'Service', cat_col]).size().reset_index(name='Count')
+    df_totals = df_counts.groupby(['Year', 'Service'])['Count'].transform('sum')
+    df_counts['Percentage'] = (df_counts['Count'] / df_totals) * 100
+    df_counts = df_counts.round(2)
         
-    return cat_counts, timeline_norm, df_qual # Return full df with normalized cols
+    return cat_counts, timeline_norm, df_qual, service_ratios, df_counts # Return full df with normalized cols
 
 def main():
     print("--- GENERATING CSV EXPORTS FOR GOOGLE SHEETS ---")
@@ -59,22 +70,22 @@ def main():
         print(f"Processing {QUAL_FILE}...")
         qual_df = pd.read_csv(QUAL_FILE)
         
-        counts, timeline, qual_df_norm = process_qualitative_stats(qual_df)
+        counts, timeline, qual_df_norm, service_stats, timeline_details = process_qualitative_stats(qual_df)
         
         if counts is not None:
             counts.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Counts.csv"), index=False)
             timeline.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Timeline.csv")) # Index (Year) is needed
+            service_stats.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Service_Stats.csv")) # Index (Service) is needed
+            timeline_details.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Timeline_Details.csv"), index=False)
             
             # Use detected column for raw data export
-            cat_col = 'Category_Gemini3' if 'Category_Gemini3' in qual_df_norm.columns else 'New_Category'
-            qual_df_norm.rename(columns={cat_col: 'New_Category'}, inplace=True) # Rename for consistency in output? Or keep?
-            # Let's keep consistent output header "New_Category" for downstream compatibility if needed, 
-            # OR just export what we have. The script selected 'cat_col'.
+            cat_col_src = 'Category_Gemini3' if 'Category_Gemini3' in qual_df_norm.columns else 'New_Category'
+            qual_df_norm.rename(columns={cat_col_src: 'New_Category'}, inplace=True)
             
             # Rename to standard for output
-            cols = ['Year', 'Service', 'Sentence', cat_col, 'Confidence']
+            cols = ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence']
             if 'Confidence_Score' in qual_df_norm.columns:
-                cols = ['Year', 'Service', 'Sentence', cat_col, 'Confidence_Score']
+                cols = ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score']
 
             # Filter valid columns only
             valid_cols = [c for c in cols if c in qual_df_norm.columns]
@@ -87,8 +98,29 @@ def main():
                 # Ensure Service col matches
                 if 'Service Name' in dspi_df.columns: dspi_df.rename(columns={'Service Name': 'Service'}, inplace=True)
                 
-                # 1. Price Discrim (StdDev of DSPI)
-                dspi_std = dspi_df.groupby('Service')['DSPI'].std().reset_index(name='Price_Discrimination_Score')
+                # RECALCULATE DSPI for Stats (Because 'DSPI' col is now a formula string!)
+                # We added 'Price_USD_Static' in process_google_sheet_data.py for this exact purpose.
+                # If it exists, use it. If not (old data), fallback to 'Price_USD'.
+                
+                if 'Price_USD_Static' in dspi_df.columns:
+                     # Calculate Baseline again or assume it is handled?
+                     # Let's handle it robustly.
+                     # Baseline = USA Price
+                     us_prices = dspi_df[dspi_df['Country'].isin(['United States', 'USA'])].set_index('Service')['Price_USD_Static'].to_dict()
+                     
+                     def get_dspi_val(row):
+                         base = us_prices.get(row['Service'])
+                         if base and base > 0:
+                             return row['Price_USD_Static'] / base
+                         return None
+                         
+                     dspi_df['DSPI_Value'] = dspi_df.apply(get_dspi_val, axis=1)
+                else:
+                     # Old format fallback
+                     dspi_df['DSPI_Value'] = pd.to_numeric(dspi_df['DSPI'], errors='coerce')
+
+                # 1. Price Discrim (StdDev of DSPI Value)
+                dspi_std = dspi_df.groupby('Service')['DSPI_Value'].std().reset_index(name='Price_Discrimination_Score')
                 
                 # 2. Enforcement Intensity
                 # We renamed the column to 'New_Category' above, so use that.

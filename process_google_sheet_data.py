@@ -1,6 +1,6 @@
-
 import pandas as pd
 import re
+import datetime
 import os
 
 INPUT_FILE = r"Quantitative DATA\sheet1_raw.csv"
@@ -35,7 +35,8 @@ def parse_price(price_str, country_name=None):
             
     # 2. Look for Symbols
     if not found_curr:
-        if 'US$' in s: found_curr = 'USD'
+        if 'HK$' in s: found_curr = 'HKD'
+        elif 'US$' in s: found_curr = 'USD'
         elif '$' in s:
              # Ambiguous '$':
              # If country is US -> USD
@@ -45,14 +46,14 @@ def parse_price(price_str, country_name=None):
         elif '€' in s: found_curr = 'EUR'
         elif '£' in s: found_curr = 'GBP'
         elif ('₺' in s or 'TL' in s): found_curr = 'TRY'
-        elif 'R$' in s: 
-             if country_name and 'ARGENTINA' not in country_name.upper(): found_curr = 'BRL'
+        elif 'R$' in s: found_curr = 'BRL'
         elif '¥' in s: found_curr = 'JPY'
         elif 'CHF' in s: found_curr = 'CHF'
         elif '₹' in s: found_curr = 'INR'
         elif '₱' in s: found_curr = 'PHP'
         elif '₴' in s: found_curr = 'UAH'
         elif ' zł' in s: found_curr = 'PLN'
+        elif '฿' in s: found_curr = 'THB'
 
     # 3. Clean Number
     num_s = re.sub(r'[^\d,.]', '', s)
@@ -158,6 +159,10 @@ def process_sheet():
         # Clean Country Name
         country_clean = country.split('(')[0].split('[')[0].strip()
         
+        # SKIP if country name became empty (e.g. metadata rows starting with '[')
+        if not country_clean:
+            continue
+        
         # Use Referenced Salary
         salary_usd = salary_lookup.get(country_clean)
         # Try lowercase fallback
@@ -185,64 +190,131 @@ def process_sheet():
                         curr = country_curr_map.get(country_clean, 'USD')
                 
                 # Special Case: 'Argentina' + '$' symbol -> Assume ARS unless explicit
-                # Logic handled in parse_price returns None for Argentina '$' so fallback hits here.
-                # If fallback hits here for Argentina:
                 if curr is None and 'Argentina' in country_clean:
                      curr = 'ARS'
+
+                # Special Case: 'Pakistan'
+                # Raw data has 'Rs' or 'Rs.' which might be missed, or '₹' (INR symbol used for Rupee).
+                # Microsoft: "Rs22,999.00", Adobe: "Rs 18,899"
+                if 'Pakistan' in country_clean:
+                    # Specific Exception: Adobe and VPNs can be USD. 
+                    # Everything else (Microsoft, Netflix, etc.) must be PKR.
+                    if service not in ['NordVPN', 'ExpressVPN', 'Adobe Creative Cloud']:
+                         if curr == 'USD' or curr == 'INR' or curr is None:
+                             curr = 'PKR'
+
+                # Special Case: 'Brazil'
+                # Netlfix/Spotify etc are BRL. NordVPN is BRL too. ExpressVPN likely USD.
+                if 'Brazil' in country_clean:
+                    if service not in ['ExpressVPN']:
+                        if curr == 'USD' or curr is None:
+                            curr = 'BRL'
+
+                # Special Case: 'Argentina'
+                # NordVPN is priced in BRL for Argentina/Brazil according to the VPN Rule.
+                if 'Argentina' in country_clean:
+                     if service == 'NordVPN':
+                          curr = 'BRL'
                 
                 # Check rate
                 rate = RATES_TO_USD.get(curr, 1.0)
-                price_usd = val * rate
+                price_usd_static = val * rate
                 
                 results.append({
                     'Year': 2024,
                     'Service': service,
                     'Country': country_clean,
-                    'Original_Price': val,
-                    'Currency': curr,
-                    'Price_USD': round(price_usd, 2),
-                    'Monthly_Salary_USD': round(salary_usd, 2) if salary_usd else None
+                    'Original_Price': val,               # Col D
+                    'Currency': curr,                    # Col E
+                    'Exchange_Rate': rate,               # Col F
+                    'Price_USD_Static': price_usd_static, # Helper for US baseline
+                    'Monthly_Salary_USD': round(salary_usd, 2) if salary_usd else "" # Col J (Target)
                 })
                 
     # Create DF
     final_df = pd.DataFrame(results)
     
-    # Calculate DSPI (Baseline = USA Price)
+    # Calculate US Baselines (Using the static calculation)
+    # We need a fallback if US price missing.
     us_prices = {}
     us_rows = final_df[final_df['Country'].isin(['United States', 'USA'])]
     if not us_rows.empty:
-        us_prices = us_rows.set_index('Service')['Price_USD'].to_dict()
+        us_prices = us_rows.set_index('Service')['Price_USD_Static'].to_dict()
         
-    import datetime
-    conversion_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    def get_us_baseline(service):
+        return us_prices.get(service, "")
+        
+    final_df['US_Baseline_Price'] = final_df['Service'].apply(get_us_baseline) # Col H
 
-    def get_metrics(row):
-        base = us_prices.get(row['Service'])
-        dspi = None
-        diff = None
-        
-        if base and base > 0:
-            dspi = round(row['Price_USD'] / base, 2)
-            diff = round(row['Price_USD'] - base, 2)
-            
-        return pd.Series([dspi, diff])
-        
-    final_df[['DSPI', 'Real_Diff_USD']] = final_df.apply(get_metrics, axis=1)
-    
-    # User requested "Replace PPP with... Median Wage". 
-    # We rename the column to be explicit: 'Affordability_Wage_Based'
-    # Calculation: % of Monthly Wage.
-    final_df['Affordability_Wage_Based_%'] = final_df.apply(
-        lambda x: (x['Price_USD'] / x['Monthly_Salary_USD'] * 100) if x['Monthly_Salary_USD'] else None, 
-        axis=1
-    )
-    
-    # Metadata
-    final_df['Conversion_Date'] = conversion_timestamp
-    final_df['Conversion_Source'] = "Manual Estimates (Dec 2024/Jan 2025)"
+    # NOW CONSTRUCT THE EXPORT DF WITH FORMULAS
+    # Fixed Column Layout for Formulas:
+    # A: Year
+    # B: Service
+    # C: Country
+    # D: Original_Price
+    # E: Currency
+    # F: Exchange_Rate
+    # G: Price_USD (Formula: =D*F)
+    # H: US_Baseline_Price
+    # I: DSPI (Formula: =G/H)
+    # J: Monthly_Salary_USD
+    # K: Affordability_% (Formula: =G/J)
+    # L: Real_Diff_USD (Formula: =G-H)
+    # M: Real_Diff_USD_% (Formula: =L/H)
 
-    print(f"Extracted {len(final_df)} valid price points.")
-    final_df.to_csv(OUTPUT_FILE, index=False)
+    export_rows = []
+    
+    # Header Row is 1. Data starts at 2.
+    for i, row in final_df.iterrows():
+        row_num = i + 2
+        
+        # Formulas
+        f_price_usd = f"=D{row_num}*F{row_num}"
+        
+        # Safe Division for DSPI
+        if row['US_Baseline_Price']:
+             f_dspi = f"=G{row_num}/H{row_num}"
+             f_real_diff = f"=G{row_num}-H{row_num}"
+             f_real_diff_pct = f"=L{row_num}/H{row_num}"
+        else:
+             f_dspi = ""
+             f_real_diff = ""
+             f_real_diff_pct = ""
+             
+        # Safe Division for Affordability
+        if row['Monthly_Salary_USD']:
+             f_afford = f"=G{row_num}/J{row_num}"
+        else:
+             f_afford = ""
+
+        export_rows.append({
+            'Year': row['Year'],
+            'Service': row['Service'],
+            'Country': row['Country'],
+            'Original_Price': row['Original_Price'],
+            'Currency': row['Currency'],
+            'Exchange_Rate': row['Exchange_Rate'],
+            'Price_USD': f_price_usd,
+            'Price_USD_Static': row['Price_USD_Static'],
+            'US_Baseline_Price': row['US_Baseline_Price'],
+            'DSPI': f_dspi,
+            'Monthly_Salary_USD': row['Monthly_Salary_USD'],
+            'Affordability_Wage_Based_%': f_afford,
+            'Real_Diff_USD': f_real_diff,
+            'Real_Diff_USD_%': f_real_diff_pct,
+            'Conversion_Date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        })
+
+    export_df = pd.DataFrame(export_rows)
+    print(f"Extracted {len(export_df)} valid price points.")
+    
+    # Add Date Column
+    export_df['Date Collected'] = "December 2025"
+
+    # Save to CSV
+    # Note: When saving to CSV, formulas like "=A1+B1" are just text strings. 
+    # The 'USER_ENTERED' option in upload_pipeline.py will interpret them.
+    export_df.to_csv(OUTPUT_FILE, index=False)
     print(f"Saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":

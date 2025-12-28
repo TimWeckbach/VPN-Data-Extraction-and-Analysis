@@ -36,9 +36,10 @@ def main():
         print(f"Error reading CSV: {e}")
         return
     
-    # Use New_Category if available, otherwise fall back to Label
-    if 'New_Category' in df.columns:
-        df['Label'] = df['New_Category'].fillna(df['Label'])
+    # Use Category_Gemini3 (or New_Category) if available
+    cat_col = 'Category_Gemini3' if 'Category_Gemini3' in df.columns else 'New_Category'
+    if cat_col in df.columns:
+        df['Label'] = df[cat_col].fillna(df['Label'])
     
     # Filter out errors and empty
     df = df[~df['Label'].isna() & (df['Label'] != "") & (~df['Label'].str.contains("Error", na=False))]

@@ -1,0 +1,273 @@
+Year,Service,Category_Gemini3,Count,Percentage
+2016,Youtube Premium,Content Licensing,4,3.42
+2016,Youtube Premium,General Terms,101,86.32
+2016,Youtube Premium,Legal Threat,3,2.56
+2016,Youtube Premium,Regulatory Compliance,4,3.42
+2016,Youtube Premium,Technical Blocking,5,4.27
+2018,Adobe,Content Licensing,1,4.76
+2018,Adobe,General Terms,18,85.71
+2018,Adobe,Price Discrimination,1,4.76
+2018,Adobe,Regulatory Compliance,1,4.76
+2018,Amazon,General Terms,17,94.44
+2018,Amazon,Regulatory Compliance,1,5.56
+2018,Youtube Premium,Content Licensing,5,4.27
+2018,Youtube Premium,General Terms,100,85.47
+2018,Youtube Premium,Legal Threat,3,2.56
+2018,Youtube Premium,Regulatory Compliance,5,4.27
+2018,Youtube Premium,Technical Blocking,4,3.42
+2019,Apple Music,Content Licensing,5,4.39
+2019,Apple Music,General Terms,106,92.98
+2019,Apple Music,Legal Threat,1,0.88
+2019,Apple Music,Regulatory Compliance,2,1.75
+2019,Microsoft,Content Licensing,2,1.2
+2019,Microsoft,General Terms,157,94.01
+2019,Microsoft,Legal Threat,8,4.79
+2019,Spotify,Content Licensing,35,8.64
+2019,Spotify,General Terms,352,86.91
+2019,Spotify,Price Discrimination,2,0.49
+2019,Spotify,Regulatory Compliance,14,3.46
+2019,Spotify,Technical Blocking,1,0.25
+2019,Spotify,User Workaround,1,0.25
+2019,Youtube Premium,General Terms,44,100.0
+2020,Adobe,General Terms,618,97.48
+2020,Adobe,Legal Threat,2,0.32
+2020,Adobe,Price Discrimination,2,0.32
+2020,Adobe,Regulatory Compliance,12,1.89
+2020,Amazon,Content Licensing,3,3.8
+2020,Amazon,General Terms,73,92.41
+2020,Amazon,Legal Threat,1,1.27
+2020,Amazon,Regulatory Compliance,2,2.53
+2020,Apple Music,Content Licensing,3,1.51
+2020,Apple Music,General Terms,194,97.49
+2020,Apple Music,Regulatory Compliance,2,1.01
+2020,Disney+,Content Licensing,9,3.73
+2020,Disney+,General Terms,223,92.53
+2020,Disney+,Price Discrimination,5,2.07
+2020,Disney+,Regulatory Compliance,4,1.66
+2020,Microsoft,Content Licensing,2,0.18
+2020,Microsoft,General Terms,1078,97.12
+2020,Microsoft,Legal Threat,8,0.72
+2020,Microsoft,Regulatory Compliance,11,0.99
+2020,Microsoft,Security Risk,10,0.9
+2020,Microsoft,Technical Blocking,1,0.09
+2020,Netflix,Content Licensing,19,4.83
+2020,Netflix,General Terms,362,92.11
+2020,Netflix,Legal Threat,1,0.25
+2020,Netflix,Price Discrimination,4,1.02
+2020,Netflix,Regulatory Compliance,7,1.78
+2020,PurePlayer,General Terms,7,100.0
+2020,Spotify,Content Licensing,26,3.93
+2020,Spotify,General Terms,620,93.8
+2020,Spotify,Price Discrimination,5,0.76
+2020,Spotify,Regulatory Compliance,10,1.51
+2020,Youtube Premium,Content Licensing,2,3.28
+2020,Youtube Premium,General Terms,56,91.8
+2020,Youtube Premium,Regulatory Compliance,2,3.28
+2020,Youtube Premium,Technical Blocking,1,1.64
+2021,Adobe,General Terms,477,98.55
+2021,Adobe,Price Discrimination,1,0.21
+2021,Adobe,Regulatory Compliance,6,1.24
+2021,Amazon,Content Licensing,7,5.19
+2021,Amazon,General Terms,125,92.59
+2021,Amazon,Regulatory Compliance,3,2.22
+2021,Amazon Prime,General Terms,64,100.0
+2021,Apple Music,Content Licensing,1,0.49
+2021,Apple Music,General Terms,193,94.61
+2021,Apple Music,Privacy/Security,1,0.49
+2021,Apple Music,Regulatory Compliance,8,3.92
+2021,Apple Music,Security Risk,1,0.49
+2021,Disney+,Content Licensing,20,5.51
+2021,Disney+,General Terms,325,89.53
+2021,Disney+,Price Discrimination,8,2.2
+2021,Disney+,Regulatory Compliance,10,2.75
+2021,Microsoft,Content Licensing,1,0.09
+2021,Microsoft,General Terms,1091,97.94
+2021,Microsoft,Legal Threat,7,0.63
+2021,Microsoft,Privacy/Security,1,0.09
+2021,Microsoft,Regulatory Compliance,11,0.99
+2021,Microsoft,Security Risk,3,0.27
+2021,Netflix,Content Licensing,19,4.8
+2021,Netflix,General Terms,353,89.14
+2021,Netflix,Price Discrimination,12,3.03
+2021,Netflix,Regulatory Compliance,11,2.78
+2021,Netflix,Technical Blocking,1,0.25
+2021,PurePlayer,Content Licensing,2,1.33
+2021,PurePlayer,General Terms,142,94.67
+2021,PurePlayer,Regulatory Compliance,6,4.0
+2021,Spotify,Content Licensing,13,2.1
+2021,Spotify,General Terms,593,95.95
+2021,Spotify,Price Discrimination,4,0.65
+2021,Spotify,Regulatory Compliance,8,1.29
+2021,Youtube Premium,General Terms,83,96.51
+2021,Youtube Premium,Regulatory Compliance,3,3.49
+2022,Adobe,General Terms,398,97.31
+2022,Adobe,Privacy/Security,1,0.24
+2022,Adobe,Regulatory Compliance,10,2.44
+2022,Amazon,Content Licensing,4,4.76
+2022,Amazon,General Terms,79,94.05
+2022,Amazon,Regulatory Compliance,1,1.19
+2022,Amazon Prime,General Terms,91,100.0
+2022,Apple Music,Content Licensing,8,3.83
+2022,Apple Music,General Terms,189,90.43
+2022,Apple Music,Legal Threat,1,0.48
+2022,Apple Music,Privacy/Security,2,0.96
+2022,Apple Music,Regulatory Compliance,7,3.35
+2022,Apple Music,Security Risk,2,0.96
+2022,Disney+,Content Licensing,12,4.67
+2022,Disney+,General Terms,237,92.22
+2022,Disney+,Price Discrimination,7,2.72
+2022,Disney+,Regulatory Compliance,1,0.39
+2022,Microsoft,Content Licensing,2,0.18
+2022,Microsoft,General Terms,1102,97.35
+2022,Microsoft,Legal Threat,8,0.71
+2022,Microsoft,Privacy/Security,1,0.09
+2022,Microsoft,Regulatory Compliance,10,0.88
+2022,Microsoft,Security Risk,8,0.71
+2022,Microsoft,Technical Blocking,1,0.09
+2022,Netflix,Content Licensing,17,3.2
+2022,Netflix,General Terms,492,92.66
+2022,Netflix,Price Discrimination,11,2.07
+2022,Netflix,Regulatory Compliance,11,2.07
+2022,PurePlayer,Content Licensing,2,1.27
+2022,PurePlayer,General Terms,149,94.9
+2022,PurePlayer,Regulatory Compliance,6,3.82
+2022,Spotify,Content Licensing,26,4.72
+2022,Spotify,General Terms,514,93.28
+2022,Spotify,Price Discrimination,2,0.36
+2022,Spotify,Regulatory Compliance,9,1.63
+2022,Youtube Premium,Content Licensing,14,1.89
+2022,Youtube Premium,General Terms,695,93.67
+2022,Youtube Premium,Legal Threat,4,0.54
+2022,Youtube Premium,Regulatory Compliance,17,2.29
+2022,Youtube Premium,Technical Blocking,12,1.62
+2023,Adobe,General Terms,348,98.58
+2023,Adobe,Regulatory Compliance,5,1.42
+2023,Amazon,Content Licensing,3,4.35
+2023,Amazon,General Terms,65,94.2
+2023,Amazon,Regulatory Compliance,1,1.45
+2023,Amazon Prime,General Terms,96,100.0
+2023,Apple Music,Content Licensing,3,1.45
+2023,Apple Music,General Terms,196,94.69
+2023,Apple Music,Legal Threat,3,1.45
+2023,Apple Music,Price Discrimination,1,0.48
+2023,Apple Music,Privacy/Security,1,0.48
+2023,Apple Music,Regulatory Compliance,2,0.97
+2023,Apple Music,Technical Blocking,1,0.48
+2023,Disney+,Content Licensing,17,4.52
+2023,Disney+,General Terms,347,92.29
+2023,Disney+,Price Discrimination,3,0.8
+2023,Disney+,Regulatory Compliance,9,2.39
+2023,Microsoft,Content Licensing,1,0.1
+2023,Microsoft,General Terms,1014,97.03
+2023,Microsoft,Legal Threat,11,1.05
+2023,Microsoft,Privacy/Security,2,0.19
+2023,Microsoft,Regulatory Compliance,14,1.34
+2023,Microsoft,Security Risk,2,0.19
+2023,Microsoft,Technical Blocking,1,0.1
+2023,Netflix,Content Licensing,15,3.56
+2023,Netflix,General Terms,387,91.92
+2023,Netflix,Legitimate Portability,2,0.48
+2023,Netflix,Price Discrimination,5,1.19
+2023,Netflix,Regulatory Compliance,12,2.85
+2023,PurePlayer,Content Licensing,7,4.35
+2023,PurePlayer,General Terms,148,91.93
+2023,PurePlayer,Regulatory Compliance,6,3.73
+2023,Spotify,Content Licensing,24,4.11
+2023,Spotify,General Terms,539,92.29
+2023,Spotify,Price Discrimination,2,0.34
+2023,Spotify,Regulatory Compliance,19,3.25
+2023,Youtube Premium,Content Licensing,32,2.15
+2023,Youtube Premium,General Terms,1350,90.66
+2023,Youtube Premium,Legal Threat,11,0.74
+2023,Youtube Premium,Price Discrimination,1,0.07
+2023,Youtube Premium,Privacy/Security,8,0.54
+2023,Youtube Premium,Regulatory Compliance,45,3.02
+2023,Youtube Premium,Technical Blocking,42,2.82
+2024,Adobe,General Terms,829,97.53
+2024,Adobe,Legal Threat,1,0.12
+2024,Adobe,Price Discrimination,11,1.29
+2024,Adobe,Regulatory Compliance,8,0.94
+2024,Adobe,Security Risk,1,0.12
+2024,Amazon Prime,Content Licensing,8,3.01
+2024,Amazon Prime,General Terms,247,92.86
+2024,Amazon Prime,Regulatory Compliance,6,2.26
+2024,Amazon Prime,Security Risk,4,1.5
+2024,Amazon Prime,Technical Blocking,1,0.38
+2024,Apple Music,Content Licensing,5,2.22
+2024,Apple Music,General Terms,211,93.78
+2024,Apple Music,Legal Threat,1,0.44
+2024,Apple Music,Privacy/Security,1,0.44
+2024,Apple Music,Regulatory Compliance,5,2.22
+2024,Apple Music,Security Risk,2,0.89
+2024,Disney+,Content Licensing,43,6.92
+2024,Disney+,General Terms,547,88.08
+2024,Disney+,Legal Threat,4,0.64
+2024,Disney+,Price Discrimination,14,2.25
+2024,Disney+,Regulatory Compliance,13,2.09
+2024,Microsoft,General Terms,1021,97.42
+2024,Microsoft,Legal Threat,6,0.57
+2024,Microsoft,Regulatory Compliance,21,2.0
+2024,Netflix,Content Licensing,16,3.76
+2024,Netflix,General Terms,397,93.41
+2024,Netflix,Price Discrimination,1,0.24
+2024,Netflix,Regulatory Compliance,11,2.59
+2024,NordVPN,General Terms,49,89.09
+2024,NordVPN,Legal Threat,3,5.45
+2024,NordVPN,Security Risk,3,5.45
+2024,Spotify,Content Licensing,7,1.39
+2024,Spotify,General Terms,478,94.65
+2024,Spotify,Price Discrimination,7,1.39
+2024,Spotify,Regulatory Compliance,13,2.57
+2024,Youtube Premium,Content Licensing,17,1.58
+2024,Youtube Premium,General Terms,998,92.49
+2024,Youtube Premium,Legal Threat,8,0.74
+2024,Youtube Premium,Privacy/Security,1,0.09
+2024,Youtube Premium,Regulatory Compliance,32,2.97
+2024,Youtube Premium,Technical Blocking,23,2.13
+2025,Adobe,Content Licensing,2,0.52
+2025,Adobe,General Terms,380,98.19
+2025,Adobe,Legal Threat,1,0.26
+2025,Adobe,Price Discrimination,2,0.52
+2025,Adobe,Regulatory Compliance,2,0.52
+2025,Amazon Prime,Content Licensing,8,3.28
+2025,Amazon Prime,General Terms,216,88.52
+2025,Amazon Prime,Legal Threat,2,0.82
+2025,Amazon Prime,Price Discrimination,2,0.82
+2025,Amazon Prime,Regulatory Compliance,11,4.51
+2025,Amazon Prime,Security Risk,5,2.05
+2025,Apple Music,Content Licensing,3,1.76
+2025,Apple Music,General Terms,159,93.53
+2025,Apple Music,Legal Threat,2,1.18
+2025,Apple Music,Price Discrimination,1,0.59
+2025,Apple Music,Regulatory Compliance,3,1.76
+2025,Apple Music,Security Risk,1,0.59
+2025,Apple Music,Technical Blocking,1,0.59
+2025,Disney+,Content Licensing,13,4.15
+2025,Disney+,General Terms,296,94.57
+2025,Disney+,Price Discrimination,4,1.28
+2025,ExpressVPN,General Terms,51,85.0
+2025,ExpressVPN,Legal Threat,4,6.67
+2025,ExpressVPN,Price Discrimination,1,1.67
+2025,ExpressVPN,Privacy/Security,1,1.67
+2025,ExpressVPN,Regulatory Compliance,2,3.33
+2025,ExpressVPN,Technical Blocking,1,1.67
+2025,Microsoft,Content Licensing,2,0.22
+2025,Microsoft,General Terms,879,97.67
+2025,Microsoft,Legal Threat,5,0.56
+2025,Microsoft,Regulatory Compliance,13,1.44
+2025,Microsoft,Technical Blocking,1,0.11
+2025,Netflix,Content Licensing,41,5.81
+2025,Netflix,General Terms,635,89.94
+2025,Netflix,Legal Threat,3,0.42
+2025,Netflix,Price Discrimination,3,0.42
+2025,Netflix,Regulatory Compliance,24,3.4
+2025,Spotify,Content Licensing,1,0.44
+2025,Spotify,General Terms,224,98.68
+2025,Spotify,Regulatory Compliance,2,0.88
+2025,Youtube Premium,Content Licensing,29,5.31
+2025,Youtube Premium,General Terms,458,83.88
+2025,Youtube Premium,Legal Threat,8,1.47
+2025,Youtube Premium,Price Discrimination,1,0.18
+2025,Youtube Premium,Privacy/Security,7,1.28
+2025,Youtube Premium,Regulatory Compliance,31,5.68
+2025,Youtube Premium,Technical Blocking,12,2.2

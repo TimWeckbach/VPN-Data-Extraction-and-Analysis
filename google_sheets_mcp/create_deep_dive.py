@@ -26,9 +26,9 @@ def main():
         df['Year'] = df['Year'].astype(int)
         df = df[(df['Year'] >= 2016) & (df['Year'] <= 2025)]
         
-        # Use New_Category (Gemini results) as the primary Label
-        # Fill missing with original Label if Gemini haven't reached it yet
-        df['Label'] = df['New_Category'].fillna(df['Label'])
+        # Use Category_Gemini3 as the primary Label
+        cat_col = 'Category_Gemini3' if 'Category_Gemini3' in df.columns else 'New_Category'
+        df['Label'] = df[cat_col].fillna(df['Label'])
         
         # Clean Labels (ignore empty and errors)
         df = df[~df['Label'].isna() & (df['Label'] != "") & (~df['Label'].str.contains("Error", na=False))]
