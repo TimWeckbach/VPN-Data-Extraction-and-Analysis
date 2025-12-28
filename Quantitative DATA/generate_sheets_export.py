@@ -5,7 +5,12 @@ import datetime
 # --- CONFIGURATION ---
 BASE_PATH = r"Quantitative DATA"
 DSPI_FILE = os.path.join(BASE_PATH, "dspi_raw_data.csv")
-QUAL_FILE = os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv")
+# QUAL_FILE = os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv") # Original raw qualitative file
+QUAL_FILES = {
+    "Qual_Raw_Original": os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv"),
+    "Qual_Raw_Filled": os.path.join(BASE_PATH, "Sheets_Import_Qual_Raw.csv"), # Use the generated filled CSV
+    "Qual_Master_Filled": os.path.join(BASE_PATH, "Sheets_Import_Qual_Raw.csv") # Use the generated filled CSV
+}
 OUTPUT_DIR = BASE_PATH
 
 def process_qualitative_stats(df_qual):
@@ -27,9 +32,77 @@ def process_qualitative_stats(df_qual):
              print("Critical Error: Classification column missing.")
              return None, None, None
 
-    df_clean = df_qual[df_qual[cat_col] != 'General Terms'].copy()
-    
-    # 1. Frequency per Category (Overview)
+    # df_clean = df_qual[df_qual[cat_col] != 'General Terms'].copy() # User requested to INCLUDE everything
+    df_clean = df_qual.copy()
+
+    # --- FORWARD FILL LOGIC (Address Data Sparsity) ---
+    # Goal: Ensure that if a ToS is valid in 2020, it remains valid in 2021-2025 until replaced.
+    if 'Year' in df_clean.columns and 'Service' in df_clean.columns:
+        # 1. Create full grid of Year/Service combinations
+        years = sorted(df_clean['Year'].unique())
+        full_years = range(min(years), max(years) + 1) # e.g. 2018 to 2025
+        services = df_clean['Service'].unique()
+        
+        # Create a MultiIndex of all possible Service-Year pairs
+        idx = pd.MultiIndex.from_product([services, full_years], names=['Service', 'Year'])
+        
+        # 2. Aggregation Strategy: Get one row per Service-Year-Category if duplicates exist (though usually 1 ToS per year)
+        # We want to keep all categories found in a year.
+        # But for filling, we need to know "State of the World" at end of Year X.
+        # Let's pivot to see which categories are active.
+        
+        # Pivot: Service, Year vs Category. Value = 1 if present.
+        df_pivot = df_clean.groupby(['Service', 'Year', cat_col]).size().unstack(fill_value=0)
+        
+        # Reindex to full timeline
+        df_pivot = df_pivot.reindex(idx, fill_value=0)
+        
+        # 3. Forward Fill
+        # We only want to forward fill if a category was established. 
+        # But wait, 0 means "not mentioned". 
+        # The user says: "missing Tos means previous is valid".
+        # So we should convert 0s to NaN if the previous year had it?
+        # Actually, simpler: replace 0 with NaN, then ffill, then fillna(0)?
+        # No, if 2020 has "Blocking", 2021 has nothing (no row), it should inherit "Blocking".
+        # If 2021 has a row but NOT "Blocking" (new ToS, blocking removed), it should NOT inherit.
+        # However, the user implies "missing year" = "missing ToS".
+        # If a year exists in the data, we assume it's complete for that year.
+        # If a year is MISSING from the data (e.g. no 2021 rows for Microsoft), THEN forward fill.
+        
+        # Let's detect MISSING YEARS for each Service.
+        filled_rows = []
+        for srv in services:
+            srv_df = df_clean[df_clean['Service'] == srv].sort_values('Year')
+            existing_years = set(srv_df['Year'].unique())
+            
+            # Start from first seen year (don't backfill)
+            min_y = srv_df['Year'].min()
+            max_y = 2025 # Force to current date
+            
+            last_known_data = None
+            
+            for y in range(min_y, max_y + 1):
+                if y in existing_years:
+                    # Capture data for this year to propagate forward
+                    current_data = srv_df[srv_df['Year'] == y].copy()
+                    filled_rows.append(current_data)
+                    last_known_data = current_data
+                else:
+                    # Missing year: Propagate last known data
+                    if last_known_data is not None:
+                        new_row = last_known_data.copy()
+                        new_row['Year'] = y # Update year
+                        new_row['Source'] = f"Forward-Filled from {last_known_data.iloc[0]['Year']}" # Mark source
+                        filled_rows.append(new_row)
+        
+        # Reassemble
+        df_filled = pd.concat(filled_rows, ignore_index=True)
+        # Use valid columns only
+    else:
+        df_filled = df_clean
+
+    # Re-calculate stats on FILLED data
+    df_clean = df_filled
     cat_counts = df_clean[cat_col].value_counts().reset_index()
     cat_counts.columns = ['Category', 'Wait_Frequency']
     cat_counts['Percent'] = (cat_counts['Wait_Frequency'] / len(df_clean) * 100).round(2)
@@ -53,7 +126,7 @@ def process_qualitative_stats(df_qual):
     df_counts['Percentage'] = (df_counts['Count'] / df_totals) * 100
     df_counts = df_counts.round(2)
         
-    return cat_counts, timeline_norm, df_qual, service_ratios, df_counts # Return full df with normalized cols
+    return cat_counts, timeline_norm, df_clean, service_ratios, df_counts # Return full df with normalized cols (FILLED)
 
 def main():
     print("--- GENERATING CSV EXPORTS FOR GOOGLE SHEETS ---")
@@ -66,9 +139,10 @@ def main():
         dspi_df.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_DSPI.csv"), index=False)
     
     # 2. Qualitative Data
-    if os.path.exists(QUAL_FILE):
-        print(f"Processing {QUAL_FILE}...")
-        qual_df = pd.read_csv(QUAL_FILE)
+    # 2. Qualitative Data
+    if os.path.exists(QUAL_FILES["Qual_Raw_Original"]):
+        print(f"Processing {QUAL_FILES['Qual_Raw_Original']}...")
+        qual_df = pd.read_csv(QUAL_FILES["Qual_Raw_Original"])
         
         counts, timeline, qual_df_norm, service_stats, timeline_details = process_qualitative_stats(qual_df)
         

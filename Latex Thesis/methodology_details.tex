@@ -66,6 +66,11 @@ INSTRUCTIONS:
 To optimize for the API's rate limits and ensure data integrity, the pipeline utilized a batch processing approach. Sentences were grouped into batches of 25 and processed in a single API call. This method significantly reduced network overhead and total processing time.
 A robust error-handling mechanism was implemented to manage API timeouts or rate limits (HTTP 429). The script included a ``circuit breaker'' to halt execution upon repeated failures and a resume function to continue processing from the last saved state.
 
+\subsubsection{Data Imputation and Longitudinal Consistency}
+A key challenge in analyzing longitudinal Terms of Service data is the sparsity of document updates. Companies do not release a new ToS every year. To address this, a "Forward-Fill" imputation strategy was applied. If a document was released in a given year (e.g., 2020), its clauses were assumed to remain valid and in force for subsequent years (2021, 2022) until a new document was detected. This ensures that the dataset accurately reflects the \textit{active} regulatory environment in any given year, distinguishing between "missing data" and "persistent rules."
+
+Additionally, while "General Terms" (standard legal boilerplate) constitute approximately 94\% of the dataset, they are retained in the master dataset to preserve the full document structure. However, for visual clarity, these terms are frequently excluded from strategic trend graphs to focus on the distinct enforcement categories.
+
 \subsection{Methodological Validation: Gemini vs. Zero-Shot BERT}
 To validate the choice of the Gemini 3 Flash model, a comparative analysis was conducted against a traditional Zero-Shot classification approach using a BERT-based model. The results demonstrated a massive divergence between the two models, reinforcing the necessity of using a modern LLM with large context windows for this specific task, consistent with recent findings on LLM performance in text annotation \parencite{gilardi2023chatgpt}.
 

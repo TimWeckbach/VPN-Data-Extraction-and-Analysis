@@ -3,6 +3,8 @@ import pandas as pd
 import sys
 import time
 import numpy as np
+import os
+from google.oauth2.credentials import Credentials
 
 # Ensure UTF-8 output
 sys.stdout.reconfigure(encoding='utf-8')
@@ -13,9 +15,17 @@ def main():
     print("--- Generating Service Evolution Charts (Excluding 'General Terms') ---")
     
     # Authenticate
+    # Authenticate
+    TOKEN_FILE = r"c:\Users\Titan\Documents\TU-Darmstadt\2025_SoSe\MASTER THESIS\google_sheets_mcp\token_personal.json"
+    
     try:
-        gc = gspread.service_account(filename="credentials.json", scopes=SCOPES)
-        sh = gc.open_by_url("https://docs.google.com/spreadsheets/d/1lxlStc4uYO2LbvUHqG4men-egRdvGJ_drgVWPSCqOxk/edit?usp=sharing")
+        if not os.path.exists(TOKEN_FILE):
+             print(f"Token file not found: {TOKEN_FILE}")
+             return
+             
+        creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
+        gc = gspread.authorize(creds)
+        sh = gc.open_by_url("https://docs.google.com/spreadsheets/d/1lxlStc4uYO2LbvUHqG4men-egRdvGJ_drgVWPSCqOxk/edit")
     except Exception as e:
         print(f"Auth/Connection Failed: {e}")
         return
