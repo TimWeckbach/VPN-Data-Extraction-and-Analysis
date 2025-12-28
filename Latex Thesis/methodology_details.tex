@@ -1,4 +1,4 @@
-\section{Advanced Classification Pipeline: Transition to Large Language Models}
+\section{Automated Text Classification}
 \label{sec:llm_methodology}
 
 To address the limitations of traditional Natural Language Inference (NLI) models in capturing the nuanced legal and technical language of Terms of Service (ToS), this study implemented an advanced classification pipeline leveraging state-of-the-art Large Language Models (LLMs). Specifically, the pipeline was upgraded from a BERT-based architecture (DeBERTa-v3-large) to the \textit{Gemini 3 Flash} model, accessed via the Google Generative AI API.
@@ -8,44 +8,66 @@ The selection of \textit{Gemini 3 Flash} was driven by the need for deeper reaso
 
 Key advantages observed during the model transition included:
 \begin{itemize}
-    \item \textbf{Contextual Understanding}: The ability to distinguish between benign references to ``account suspension'' (e.g., for fraud) and strategic ``Account Actions'' tailored to prevent cross-border usage.
+    \item \textbf{Contextual Understanding}: The ability to distinguish between benign references to ``account suspension'' (e.g., for fraud) and strategic ``Legal Threats'' tailored to prevent cross-border usage.
     \item \textbf{Zero-Shot Performance}: The model demonstrated high accuracy without extensive fine-tuning, utilizing a robust system prompt to align with the theoretical categories defined in Section 2.
-    \item \textbf{Efficiency}: The ``Flash'' architecture provided a high throughput of approximate 2 sentences per second, enabling the processing of the entire dataset (approx. 25,000 sentences) within a reasonable timeframe.
+    \item \textbf{Efficiency}: The ``Flash'' architecture provided a high throughput, enabling the processing of the entire dataset (approx. 25,000 sentences) within a reasonable timeframe.
 \end{itemize}
 
 \subsection{Operationalization of Constructs (The Coding Scheme)}
-Based on the theoretical framework and preliminary research, the following coding scheme was developed and enforced via the LLM system prompt. This scheme maps the abstract concept of "Strategic Response" into measurable data points.
+Based on the theoretical framework, the following coding scheme was enforced via the LLM system prompt. This scheme maps the abstract concept of "Strategic Response" into measurable data points.
 
 \subsubsection{Strategic Frames}
 The model was tasked to identify the underlying justification provided by the firm:
 \begin{description}
     \item[Frame: Legal Compliance] Justifying geo-blocking as a non-negotiable legal or contractual necessity (e.g., "Due to licensing agreements...").
-    \item[Frame: User Freedom] (Primarily for VPNs) Presenting circumvention as a user's right to access content or an open internet.
-    \item[Frame: Privacy/Security] Justifying VPN use primarily through the lens of data protection, with streaming benefits framed as secondary.
+    \item[Frame: Security Risks] (Service Provider Frame) Arguments that VPNs/Proxies are unsafe, malicious, or compromise user data.
+    \item[Frame: Privacy/Security] (VPN Provider Frame) Arguments focusing on encryption, anonymity, and protection from surveillance.
 \end{description}
 
 \subsubsection{Firm Actions}
 The model categorized specific enforcement clauses into:
 \begin{description}
-    \item[Action: Technical Blocking] Measures to detect or block technical detection of location (VPN, proxy, DNS proxy, IP masking).
-    \item[Action: Account Action] Punitive measures against accounts (termination, suspension, verification demands).
+    \item[Action: Technical Blocking] Active technological measures to detect or block the specific use of VPNs/Proxies (e.g., "We use geo-blocking technology", "Error 403").
+    \item[Action: Legal Threat] Explicit threats of account termination, suspension, or legal action specifically for using circumvention tools.
+    \item[Action: Account Action] General punitive measures against accounts (termination, suspension) for comprehensive violations.
     \item[Action: Price Discrimination] Explicit differences in pricing based on region, currency, or purchasing power.
     \item[Action: Legitimate Portability] Rules allowing temporary access while traveling (e.g., EU Portability Regulation).
 \end{description}
 
 \subsection{Pipeline Architecture and Implementation}
-The reclassification process was automated using a customized Python script designed for scientific rigor and reproducibility.
+The reclassification process was automated using a customized Python script.
 
-\subsubsection{Prompt Engineering}
-To ensure deterministic and theoretically grounded outputs, the system prompt was engineered with strict constraints. The temperature parameter was set to $0.0$ to eliminate randomness. The prompt explicitly defined the eight mutually exclusive categories listed above.
-The model was instructed to output results solely in a machine-readable JSON format, containing the assigned category and a confidence score ($0.0 - 1.0$).
+\subsubsection{System Prompt Engineering}
+To ensure deterministic and theoretically grounded outputs, the system prompt was engineered with strict constraints. The exact prompt structure is provided below:
+
+\begin{figure}[ht]
+\begin{verbatim}
+SYSTEM_PROMPT = """You are a scientific classifier for a Thesis on 'Digital Geo-Arbitrage'.
+Classify a list of sentences into the provided categories. 
+
+CATEGORIES:
+1. Technical Blocking: Measures/Technologies used to detect or block...
+2. Legal Threat: Explicit threats of account termination...
+3. Security Risk: (Service Provider Frame) Arguments that VPNs are unsafe...
+4. Privacy/Security: (VPN Provider Frame) Arguments focusing on encryption...
+... [Full List of 10 Categories] ...
+
+INSTRUCTIONS:
+- Analyze sentences independently.
+- Return a JSON array of objects...
+- Format: [ { "category": "Category", "confidence": 0.9 }, ... ]
+"""
+\end{verbatim}
+\caption{System Prompt used for Gemini 3 Flash Classification}
+\label{fig:system_prompt}
+\end{figure}
 
 \subsubsection{Batch Processing and Error Handling}
 To optimize for the API's rate limits and ensure data integrity, the pipeline utilized a batch processing approach. Sentences were grouped into batches of 25 and processed in a single API call. This method significantly reduced network overhead and total processing time.
 A robust error-handling mechanism was implemented to manage API timeouts or rate limits (HTTP 429). The script included a ``circuit breaker'' to halt execution upon repeated failures and a resume function to continue processing from the last saved state.
 
 \subsection{Methodological Validation: Gemini vs. Zero-Shot BERT}
-To validate the choice of the Gemini 3 Flash model, a comparative analysis was conducted against a traditional Zero-Shot classification approach using a BERT-based model. The results demonstrated a massive divergence between the two models, reinforcing the necessity of using a modern LLM with large context windows for this specific task.
+To validate the choice of the Gemini 3 Flash model, a comparative analysis was conducted against a traditional Zero-Shot classification approach using a BERT-based model. The results demonstrated a massive divergence between the two models, reinforcing the necessity of using a modern LLM with large context windows for this specific task, consistent with recent findings on LLM performance in text annotation \parencite{gilardi2023chatgpt}.
 
 \subsubsection{Agreement Analysis}
 The comparison revealed an exceedingly poor agreement rate of \textbf{26.8\% (Accuracy)} between the two models. The Cohen's Kappa score was \textbf{0.032}, suggesting that the agreement was effectively equivalent to random chance. This discrepancy indicated a fundamental difference in how each model interpreted the classification tasks.

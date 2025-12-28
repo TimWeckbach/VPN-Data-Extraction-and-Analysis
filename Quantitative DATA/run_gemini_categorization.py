@@ -13,16 +13,18 @@ API_KEY = "AIzaSyDnU_8SoiS_XSR7eIQSmYoEZhCVtKlAM1Y"
 MODEL_NAME = "gemini-3-flash-preview" 
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={API_KEY}"
 
-BATCH_SIZE = 5 # Reduced for debugging
+BATCH_SIZE = 30 
 
 CATEGORIES = {
-    "Technical Blocking": "Measures to detect or block technical detection of location (VPN, proxy, DNS proxy, IP masking).",
-    "Account Action": "Punitive measures against accounts (termination, suspension, verification demands).",
+    "Technical Blocking": "Measures/Technologies used to detect or block the specific use of VPNs/Proxies (e.g., 'We use geo-blocking technology', 'Error 403').",
+    "Legal Threat": "Explicit threats of account termination, suspension, or legal action for using circumvention tools.",
     "Price Discrimination": "Differences in pricing based on region, currency, or purchasing power.",
-    "Content Licensing": "Geographic restriction of content availability (e.g. 'not available in your region').",
+    "Content Licensing": "Geographic restriction of content availability (e.g. 'not available in your region') due to rights.",
     "Legitimate Portability": "Rules allowing temporary access while traveling (e.g. EU Portability Regulation, 30-day travel).",
     "Regulatory Compliance": "References to local laws, tax/VAT compliance, or export controls.",
     "User Workaround": "Descriptions of users bypassing restrictions (using VPNs, changing store region).",
+    "Security Risk": "(Service Provider Frame) Arguments that VPNs/Proxies are unsafe, malicious, or compromise user data.",
+    "Privacy/Security": "(VPN Provider Frame) Arguments focusing on encryption, anonymity, and protection from surveillance.",
     "General Terms": "Standard legal text, general marketing, or unrelated content not fitting specific geo-arbitrage categories."
 }
 
@@ -31,13 +33,15 @@ Classify a list of sentences into the provided categories.
 
 CATEGORIES:
 1. Technical Blocking: {CATEGORIES['Technical Blocking']}
-2. Account Action: {CATEGORIES['Account Action']}
+2. Legal Threat: {CATEGORIES['Legal Threat']}
 3. Price Discrimination: {CATEGORIES['Price Discrimination']}
 4. Content Licensing: {CATEGORIES['Content Licensing']}
 5. Legitimate Portability: {CATEGORIES['Legitimate Portability']}
 6. Regulatory Compliance: {CATEGORIES['Regulatory Compliance']}
 7. User Workaround: {CATEGORIES['User Workaround']}
-8. General Terms: {CATEGORIES['General Terms']}
+8. Security Risk: {CATEGORIES['Security Risk']}
+9. Privacy/Security: {CATEGORIES['Privacy/Security']}
+10. General Terms: {CATEGORIES['General Terms']}
 
 INSTRUCTIONS:
 - Analyze sentences independently.

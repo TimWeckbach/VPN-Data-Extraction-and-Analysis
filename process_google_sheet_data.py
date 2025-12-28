@@ -213,15 +213,33 @@ def process_sheet():
     if not us_rows.empty:
         us_prices = us_rows.set_index('Service')['Price_USD'].to_dict()
         
-    def get_dspi(row):
+    import datetime
+    conversion_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    def get_metrics(row):
         base = us_prices.get(row['Service'])
-        if base and base > 0:
-            return round(row['Price_USD'] / base, 2)
-        return None
+        dspi = None
+        diff = None
         
-    final_df['DSPI'] = final_df.apply(get_dspi, axis=1)
+        if base and base > 0:
+            dspi = round(row['Price_USD'] / base, 2)
+            diff = round(row['Price_USD'] - base, 2)
+            
+        return pd.Series([dspi, diff])
+        
+    final_df[['DSPI', 'Real_Diff_USD']] = final_df.apply(get_metrics, axis=1)
     
-    final_df['Affordability_%'] = final_df.apply(lambda x: (x['Price_USD'] / x['Monthly_Salary_USD'] * 100) if x['Monthly_Salary_USD'] else None, axis=1)
+    # User requested "Replace PPP with... Median Wage". 
+    # We rename the column to be explicit: 'Affordability_Wage_Based'
+    # Calculation: % of Monthly Wage.
+    final_df['Affordability_Wage_Based_%'] = final_df.apply(
+        lambda x: (x['Price_USD'] / x['Monthly_Salary_USD'] * 100) if x['Monthly_Salary_USD'] else None, 
+        axis=1
+    )
+    
+    # Metadata
+    final_df['Conversion_Date'] = conversion_timestamp
+    final_df['Conversion_Source'] = "Manual Estimates (Dec 2024/Jan 2025)"
 
     print(f"Extracted {len(final_df)} valid price points.")
     final_df.to_csv(OUTPUT_FILE, index=False)

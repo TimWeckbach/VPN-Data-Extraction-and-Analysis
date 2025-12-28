@@ -22,7 +22,7 @@ SCOPES = [
 # Account Tokens
 # Map descriptive names to file paths
 ACCOUNTS = {
-    "default": "token_personal.json",         # gruenerspecht44
+    "default": r"c:\Users\Titan\Documents\TU-Darmstadt\2025_SoSe\MASTER THESIS\google_sheets_mcp\token_personal.json",         # gruenerspecht44
     "secondary": "token_second_private.json" # weckbach.t
 }
 
@@ -118,6 +118,39 @@ def read_sheet(url: str, worksheet: str = None, account: str = "default"):
     sh = gc.open_by_url(url)
     ws = sh.worksheet(worksheet) if worksheet else sh.sheet1
     return ws.get_all_records()
+
+@mcp.tool()
+def upload_csv_data(sheet_url: str, worksheet_name: str, csv_content: str, account: str = "default"):
+    """
+    Upload CSV data content to a specific Google Sheet tab.
+    Creates the tab if it doesn't exist. Overwrites existing content.
+    """
+    try:
+        import pandas as pd
+        import io
+        
+        creds = get_creds(account)
+        gc = gspread.authorize(creds)
+        sh = gc.open_by_url(sheet_url)
+        
+        # Parse CSV content
+        df = pd.read_csv(io.StringIO(csv_content))
+        df = df.fillna("")
+        data = [df.columns.values.tolist()] + df.values.tolist()
+        
+        # Get or Create Worksheet
+        try:
+            ws = sh.worksheet(worksheet_name)
+            ws.clear()
+        except gspread.WorksheetNotFound:
+            ws = sh.add_worksheet(title=worksheet_name, rows=len(data)+20, cols=len(data[0])+5)
+            
+        # Update
+        ws.update(range_name='A1', values=data)
+        return f"Successfully uploaded {len(data)} rows to '{worksheet_name}'."
+        
+    except Exception as e:
+        return f"Error uploading to sheet: {str(e)}"
 
 if __name__ == "__main__":
     mcp.run()
