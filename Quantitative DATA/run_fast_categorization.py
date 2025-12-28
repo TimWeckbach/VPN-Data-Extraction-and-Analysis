@@ -63,7 +63,7 @@ def classify_batch(batch_indices, batch_sentences):
     }
     
     try:
-        response = session.post(API_URL, json=payload, timeout=30) # Standard timeout
+        response = session.post(API_URL, json=payload, timeout=60) # Standard timeout
         response.raise_for_status()
         results = json.loads(response.json()['candidates'][0]['content']['parts'][0]['text'])
         
@@ -80,24 +80,67 @@ def classify_batch(batch_indices, batch_sentences):
 def main():
     print("--- STARTING FAST CLASSIFICATION (Threaded) ---")
     
-    # Load Data
+    # Load the main dataset
+    df = pd.read_csv(INPUT_FILE)
+    
+    # Initialize new columns if they don't exist
+    if 'Category_Gemini3' not in df.columns:
+        df['Category_Gemini3'] = ""
+    if 'Confidence_Score' not in df.columns:
+        df['Confidence_Score'] = 0.0
+
+    # filter out already processed
     if os.path.exists(OUTPUT_FILE):
-        df = pd.read_csv(OUTPUT_FILE)
-        # Process rows that are empty or Errors
-        mask = df['New_Category'].isna() | df['New_Category'].isin(['', 'Unclassified', 'Error', 'API_Error'])
-        indices_to_process = df[mask].index.tolist()
-    else:
-        df = pd.read_csv(INPUT_FILE)
-        df['New_Category'] = ""
-        df['Confidence'] = 0.0
-        indices_to_process = df.index.tolist()
+        print(f"Loading existing progress from {OUTPUT_FILE}...")
+        existing_df = pd.read_csv(OUTPUT_FILE)
         
-    print(f"Remaining rows: {len(indices_to_process)}")
+        # Create a mapping of index -> category
+        # ONLY skip if category is valid (not Error and not empty)
+
+        # We assume the input df and existing_df align by index or we align them by prompt/content?
+        # The script assumes sequential processing. 
+        # Safest way: Load existing, merge results, identifying which indices need work.
+        
+        # Let's align by index.
+        # Migrate 'New_Category' to 'Category_Gemini3' if it exists (Backwards Compatibility)
+        if 'New_Category' in existing_df.columns:
+             print("Migrating 'New_Category' column from previous run to 'Category_Gemini3'...")
+             if 'Category_Gemini3' not in existing_df.columns:
+                  existing_df['Category_Gemini3'] = existing_df['New_Category']
+             else:
+                  # Fill missing 
+                  existing_df['Category_Gemini3'] = existing_df['Category_Gemini3'].fillna(existing_df['New_Category'])
+
+        # Ensure 'Category_Gemini3' exists in existing_df for merging
+        if 'Category_Gemini3' not in existing_df.columns:
+             existing_df['Category_Gemini3'] = ""
+        if 'Confidence_Score' not in existing_df.columns:
+             existing_df['Confidence_Score'] = 0.0
+        
+        # Update main df with existing results based on index
+        # This assumes df and existing_df have the same number of rows and order
+        df['Category_Gemini3'] = existing_df['Category_Gemini3']
+        df['Confidence_Score'] = existing_df['Confidence_Score']
+            
+        # Select rows that need processing
+        # Need processing if: Null OR Empty OR "Error..."
+        to_process_indices = df.index[
+            (df['Category_Gemini3'].isna()) | 
+            (df['Category_Gemini3'] == "") | 
+            (df['Category_Gemini3'].astype(str).str.startswith("Error"))
+        ].tolist()
+        
+        print(f"Found {len(df) - len(to_process_indices)} valid rows. Processing {len(to_process_indices)} pending/error rows...")
+    else:
+        to_process_indices = df.index.tolist()
+        print(f"No existing file. Processing all {len(df)} rows...")
+        
+    print(f"Remaining rows: {len(to_process_indices)}")
     
     # Batching
     batches = []
-    for i in range(0, len(indices_to_process), BATCH_SIZE):
-        batch_idxs = indices_to_process[i : i + BATCH_SIZE]
+    for i in range(0, len(to_process_indices), BATCH_SIZE):
+        batch_idxs = to_process_indices[i : i + BATCH_SIZE]
         batch_sentences = [df.at[idx, 'Sentence'] for idx in batch_idxs]
         batches.append((batch_idxs, batch_sentences))
         
@@ -115,8 +158,8 @@ def main():
             
             for i, idx in enumerate(indices):
                 if i < len(results):
-                    df.at[idx, 'New_Category'] = results[i].get('category', 'Error')
-                    df.at[idx, 'Confidence'] = results[i].get('confidence', 0.0)
+                    df.at[idx, 'Category_Gemini3'] = results[i].get('category', 'Error')
+                    df.at[idx, 'Confidence_Score'] = results[i].get('confidence', 0.0)
             
             counter += 1
             if counter % 10 == 0:

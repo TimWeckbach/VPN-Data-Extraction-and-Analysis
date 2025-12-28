@@ -1,12 +1,10 @@
 Category,Wait_Frequency,Percent
-Content Licensing,524,30.39
-Regulatory Compliance,522,30.28
-"Error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=30)",250,14.5
-Price Discrimination,121,7.02
-Legal Threat,112,6.5
-Technical Blocking,106,6.15
-Security Risk,39,2.26
-Privacy/Security,27,1.57
-"Error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=20)",20,1.16
-Legitimate Portability,2,0.12
-User Workaround,1,0.06
+Content Licensing,561,37.15
+Regulatory Compliance,525,34.77
+Price Discrimination,123,8.15
+Legal Threat,120,7.95
+Technical Blocking,109,7.22
+Security Risk,42,2.78
+Privacy/Security,27,1.79
+Legitimate Portability,2,0.13
+User Workaround,1,0.07
