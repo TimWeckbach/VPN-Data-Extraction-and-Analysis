@@ -19,7 +19,7 @@ FILES_TO_UPLOAD = {
     "Qual_Master": r"Quantitative DATA\Sheets_Import_Qual_Raw.csv",
     # "Service_Stats": r"Quantitative DATA\Sheets_Import_Service_Stats.csv", # Switched to Dynamic Formulas
     # "Timeline_Details": r"Quantitative DATA\Sheets_Import_Timeline_Details.csv", # Switched to Dynamic Formulas
-    "Correlation_Data": r"Quantitative DATA\Sheets_Import_Correlation.csv" # Keep static for now as it merges DSPI + Qual
+    # "Correlation_Data": r"Quantitative DATA\Sheets_Import_Correlation.csv" # Switched to Dynamic Formulas
 }
 
 def main():

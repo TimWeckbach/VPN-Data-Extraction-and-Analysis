@@ -120,12 +120,22 @@ def main():
     ws = get_ws("Correlation_Data")
     rows = [["Service", "Price Discrimination Score", "Enforcement Intensity"]]
     enf_cats = ["Technical Blocking", "Legal Threat", "Account Action"]
+    
+    # Mapping for DSPI Data (Short Name -> DSPI Name)
+    dspi_map = {
+        "Adobe": "Adobe Creative Cloud",
+        "Microsoft": "Microsoft 365"
+    }
+
     for i, srv in enumerate(SERVICES):
         r = i + 2
-        stdev = f'=STDEV(FILTER(DSPI_Data!$J:$J, DSPI_Data!$B:$B = $A{r}))'
+        # Use mapped name if exists, else match the service name
+        dspi_name = dspi_map.get(srv, srv)
+        
+        stdev = f'=STDEV(FILTER(DSPI_Data!$J:$J, DSPI_Data!$B:$B = "{dspi_name}"))'
         # Total formulas
-        total = f'COUNTIFS(Qual_Master!$B:$B, $A{r})'
-        enf_sum = "+".join([f'COUNTIFS(Qual_Master!$B:$B, $A{r}, Qual_Master!$D:$D, "{c}")' for c in enf_cats])
+        total = f'COUNTIFS(Qual_Master!$B:$B, "{srv}")' # Use exact Service name from Qual
+        enf_sum = "+".join([f'COUNTIFS(Qual_Master!$B:$B, "{srv}", Qual_Master!$D:$D, "{c}")' for c in enf_cats])
         intensity = f'=IF({total}>0, ({enf_sum})/{total}, 0)'
         rows.append([srv, stdev, intensity])
     ws.update(range_name='A1', values=rows, value_input_option='USER_ENTERED')
