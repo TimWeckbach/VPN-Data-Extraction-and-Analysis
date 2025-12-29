@@ -66,7 +66,34 @@ def main():
             "addChart": {"chart": {"spec": {"title": f"{srv}: Multi-Year Evolution", "basicChart": {"chartType": "COLUMN", "stackedType": "STACKED", "headerCount": 1, "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": r+1, "endRowIndex": r+12, "startColumnIndex": 0, "endColumnIndex": 1}]}}}], "series": series}}, "position": {"overlayPosition": {"anchorCell": {"sheetId": tid, "rowIndex": r, "columnIndex": 12}, "widthPixels": 600, "heightPixels": 380}}}}
         })
 
-    # 4. Deep_Dive_Stats (Topic Evolution - Area) - Headers A2:K2, Data A3:K12
+    # 4. Correlation_Data (Scatter Plot)
+    # Series: Price Discrimination Score (Col B) vs Enforcement Intensity (Col C)
+    tid = sheet_ids["Correlation_Data"]
+    requests.append({
+        "addChart": {
+            "chart": {
+                "spec": {
+                    "title": "Price Discrimination vs. Enforcement Intensity",
+                    "basicChart": {
+                        "chartType": "SCATTER",
+                        "headerCount": 1,
+                        "legendPosition": "RIGHT_LEGEND",
+                        "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 1, "endColumnIndex": 2}]}}}],
+                        "series": [{"series": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 2, "endColumnIndex": 3}]}}}],
+                    }
+                },
+                "position": {
+                    "overlayPosition": {
+                        "anchorCell": {"sheetId": tid, "rowIndex": 12, "columnIndex": 0},
+                        "widthPixels": 600,
+                        "heightPixels": 400
+                    }
+                }
+            }
+        }
+    })
+
+    # 5. Deep_Dive_Stats (Topic Evolution - Area) - Headers A2:K2, Data A3:K12
     tid = sheet_ids["Deep_Dive_Stats"]
     series = [{"series": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 1, "endRowIndex": 12, "startColumnIndex": c, "endColumnIndex": c+1}]}}} for c in range(1, 11)]
     requests.append({
