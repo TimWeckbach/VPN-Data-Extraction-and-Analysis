@@ -66,27 +66,38 @@ def main():
             "addChart": {"chart": {"spec": {"title": f"{srv}: Multi-Year Evolution", "basicChart": {"chartType": "COLUMN", "stackedType": "STACKED", "headerCount": 1, "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": r+1, "endRowIndex": r+12, "startColumnIndex": 0, "endColumnIndex": 1}]}}}], "series": series}}, "position": {"overlayPosition": {"anchorCell": {"sheetId": tid, "rowIndex": r, "columnIndex": 12}, "widthPixels": 600, "heightPixels": 380}}}}
         })
 
-    # 4. Correlation_Data (Scatter Plot)
-    # Series: Price Discrimination Score (Col B) vs Enforcement Intensity (Col C)
+    # 4. Correlation_Data (Bubble Chart for Labels)
+    # X-Axis: Price Discrimination Score (Col B)
+    # Y-Axis: Enforcement Intensity (Col C)
+    # Labels: Service Name (Col A)
     tid = sheet_ids["Correlation_Data"]
     requests.append({
         "addChart": {
             "chart": {
                 "spec": {
                     "title": "Price Discrimination vs. Enforcement Intensity",
-                    "basicChart": {
-                        "chartType": "SCATTER",
-                        "headerCount": 1,
+                    "bubbleChart": {
                         "legendPosition": "RIGHT_LEGEND",
-                        "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 1, "endColumnIndex": 2}]}}}],
-                        "series": [{"series": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 2, "endColumnIndex": 3}]}}}],
+                        "bubbleLabels": {
+                            "sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 0, "endColumnIndex": 1}]}
+                        },
+                        "domain": { # X-Axis
+                            "sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 1, "endColumnIndex": 2}]}
+                        },
+                        "series": { # Y-Axis
+                            "sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 2, "endColumnIndex": 3}]}
+                        },
+                        "groupIds": { # Legend / Color
+                            "sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 0, "endColumnIndex": 1}]}
+                        },
+                        "bubbleOpacity": 0.7
                     }
                 },
                 "position": {
                     "overlayPosition": {
                         "anchorCell": {"sheetId": tid, "rowIndex": 12, "columnIndex": 0},
-                        "widthPixels": 600,
-                        "heightPixels": 400
+                        "widthPixels": 700,
+                        "heightPixels": 500
                     }
                 }
             }
