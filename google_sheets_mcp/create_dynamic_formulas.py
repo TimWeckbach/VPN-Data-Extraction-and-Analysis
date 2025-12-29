@@ -38,7 +38,7 @@ def main():
         r = i + 2
         rows.append([
             cat, 
-            f'=COUNTIFS(Qual_Master!$D:$D, A{r})', 
+            f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$D:$D, A{r})', 
             f'=IF(SUM($B$2:$B$11)>0, B{r}/SUM($B$2:$B$11), 0)'
         ])
     ws.update(range_name='A1', values=rows, value_input_option='USER_ENTERED')
@@ -55,7 +55,7 @@ def main():
         for c_idx in range(len(CATEGORIES)):
             col_letter = chr(ord('B') + c_idx)
             # Count where Year=Year and Category=Header
-            formula = f'=COUNTIFS(Qual_Master!$A:$A, $A{row_num}, Qual_Master!$D:$D, {col_letter}$1)'
+            formula = f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$A:$A, $A{row_num}, DATA_CATEGORIZED_GEMINI_3!$D:$D, {col_letter}$1)'
             row_data.append(formula)
         data.append(row_data)
     ws.update(range_name='A1', values=data, value_input_option='USER_ENTERED')
@@ -70,7 +70,7 @@ def main():
         row_data = [srv]
         for c_idx in range(len(CATEGORIES)):
             col_letter = chr(ord('B') + c_idx)
-            formula = f'=COUNTIFS(Qual_Master!$B:$B, $A{row_num}, Qual_Master!$D:$D, {col_letter}$1)'
+            formula = f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$B:$B, $A{row_num}, DATA_CATEGORIZED_GEMINI_3!$D:$D, {col_letter}$1)'
             row_data.append(formula)
         data.append(row_data)
     ws.update(range_name='A1', values=data, value_input_option='USER_ENTERED')
@@ -88,7 +88,7 @@ def main():
         for srv in SERVICES:
             for cat in CATEGORIES:
                 # Count
-                f_count = f'=COUNTIFS(Qual_Master!$A:$A, $A{current_row}, Qual_Master!$B:$B, "{srv}", Qual_Master!$D:$D, "{cat}")'
+                f_count = f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$A:$A, $A{current_row}, DATA_CATEGORIZED_GEMINI_3!$B:$B, "{srv}", DATA_CATEGORIZED_GEMINI_3!$D:$D, "{cat}")'
                 # Percentage
                 f_pct = f'=IF(SUMIFS($D:$D, $A:$A, $A{current_row}, $B:$B, "{srv}")>0, D{current_row}/SUMIFS($D:$D, $A:$A, $A{current_row}, $B:$B, "{srv}"), 0)'
                 data.append([yr, srv, cat, f_count, f_pct])
@@ -109,7 +109,7 @@ def main():
             row_data = [yr]
             for c_idx in range(len(CATEGORIES)):
                 col_letter = chr(ord('B') + c_idx)
-                formula = f'=COUNTIFS(Qual_Master!$B:$B, "{srv}", Qual_Master!$A:$A, $A{row_num}, Qual_Master!$D:$D, {col_letter}${curr+2})'
+                formula = f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$B:$B, "{srv}", DATA_CATEGORIZED_GEMINI_3!$A:$A, $A{row_num}, DATA_CATEGORIZED_GEMINI_3!$D:$D, {col_letter}${curr+2})'
                 row_data.append(formula)
             matrix[curr+2+r_idx] = row_data
         curr += 14
@@ -134,8 +134,8 @@ def main():
         
         stdev = f'=STDEV(FILTER(DSPI_Data!$J:$J, DSPI_Data!$B:$B = "{dspi_name}"))'
         # Total formulas
-        total = f'COUNTIFS(Qual_Master!$B:$B, "{srv}")' # Use exact Service name from Qual
-        enf_sum = "+".join([f'COUNTIFS(Qual_Master!$B:$B, "{srv}", Qual_Master!$D:$D, "{c}")' for c in enf_cats])
+        total = f'COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$B:$B, "{srv}")' # Use exact Service name from Qual
+        enf_sum = "+".join([f'COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$B:$B, "{srv}", DATA_CATEGORIZED_GEMINI_3!$D:$D, "{c}")' for c in enf_cats])
         intensity = f'=IF({total}>0, ({enf_sum})/{total}, 0)'
         rows.append([srv, stdev, intensity])
     ws.update(range_name='A1', values=rows, value_input_option='USER_ENTERED')
@@ -166,14 +166,14 @@ def main():
     ws.update_acell('A1', "Company Distribution")
     rows = [["Company", "Total Clauses"]]
     for i, srv in enumerate(SERVICES):
-        rows.append([srv, f'=COUNTIFS(Qual_Master!$B:$B, $A{i+3})'])
+        rows.append([srv, f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$B:$B, $A{i+3})'])
     ws.update(range_name='A2', values=rows, value_input_option='USER_ENTERED')
     
     ws.update_acell('E1', "Document Type Distribution")
     doc_types = ["10-K/Annual Report", "Transcripts/Investor", "Other/Internal"]
     rows = [["Type", "Total Clauses"]]
     for i, dt in enumerate(doc_types):
-        rows.append([dt, f'=COUNTIFS(Qual_Master!$C:$C, $E{i+3})'])
+        rows.append([dt, f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$F:$F, $E{i+3})'])
     ws.update(range_name='E2', values=rows, value_input_option='USER_ENTERED')
 
     print("Success! Integrated all dynamic formulas.")
