@@ -176,6 +176,42 @@ def main():
         rows.append([dt, f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$F:$F, $E{i+3})'])
     ws.update(range_name='E2', values=rows, value_input_option='USER_ENTERED')
 
+    # --- 9. Model_Comparison ---
+    print(" - Model_Comparison (Gemini vs BERT)...")
+    ws = get_ws("Model_Comparison")
+    header = ["Category", "Gemini Count", "Gemini %", "BERT Count", "BERT %", "Delta (Gemini-BERT)"]
+    rows = [header]
+    
+    # BERT Categories might match Gemini, or vary slightly. Assuming same set + "General Terms"
+    # BERT Column Index for Category: 'BERT_Category' is the 10th column (J) in CSV. 
+    # In Sheet 'DATA_PERT_BERT', 'BERT_Category' is Column J.
+    # Gemini Category is Column D in 'DATA_CATEGORIZED_GEMINI_3'.
+    
+    for i, cat in enumerate(CATEGORIES):
+        r = i + 2
+        # Gemini
+        g_count = f'=COUNTIFS(DATA_CATEGORIZED_GEMINI_3!$D:$D, "{cat}")'
+        g_pct = f'=IF(SUM($B$2:$B$12)>0, B{r}/SUM($B$2:$B$12), 0)'
+        
+        # BERT - using Col J ($J:$J)
+        # Check specific category name mapping if needed. Just use direct match for now.
+        b_count = f'=COUNTIFS(DATA_PERT_BERT!$J:$J, "{cat}")'
+        b_pct = f'=IF(SUM($D$2:$D$12)>0, D{r}/SUM($D$2:$D$12), 0)'
+        
+        # Delta
+        delta = f'=C{r}-E{r}'
+        
+        rows.append([cat, g_count, g_pct, b_count, b_pct, delta])
+        
+    ws.update(range_name='A1', values=rows, value_input_option='USER_ENTERED')
+    ws.format('C2:F12', {'numberFormat': {'type': 'PERCENT', 'pattern': '0.00%'}})
+    
+    # Add Agreement Rate (Simple approximate via SUM of MINs? Or just text)
+    # Exact sentence-level agreement is hard to do with simple formulas unless rows align 1:1.
+    # They might not align if forward-filled vs raw.
+    # We will stick to distribution comparison for now.
+
+
     print("Success! Integrated all dynamic formulas.")
 
 if __name__ == "__main__":

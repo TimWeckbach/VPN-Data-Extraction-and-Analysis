@@ -136,6 +136,35 @@ def main():
         "addChart": {"chart": {"spec": {"title": "Evolution of Strategic Frames (Summary)", "basicChart": {"chartType": "LINE", "headerCount": 1, "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid_source, "startRowIndex": 0, "endRowIndex": 11, "startColumnIndex": 0, "endColumnIndex": 1}]}}}], "series": series}}, "position": {"overlayPosition": {"anchorCell": {"sheetId": tid_details, "rowIndex": 1, "columnIndex": 6}, "widthPixels": 800, "heightPixels": 500}}}}
     })
 
+    # 8. Model_Comparison (Gemini vs BERT Distribution)
+    tid = sheet_ids["Model_Comparison"]
+    requests.append({
+        "addChart": {
+            "chart": {
+                "spec": {
+                    "title": "Gemini vs BERT: Category Distribution (%)",
+                    "basicChart": {
+                        "chartType": "COLUMN",
+                        "headerCount": 1,
+                        "legendPosition": "BOTTOM_LEGEND",
+                        "domains": [{"domain": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 12, "startColumnIndex": 0, "endColumnIndex": 1}]}}}],
+                        "series": [
+                            {"series": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 12, "startColumnIndex": 2, "endColumnIndex": 3}]}}, "targetAxis": "LEFT_AXIS"}, # Gemini %
+                            {"series": {"sourceRange": {"sources": [{"sheetId": tid, "startRowIndex": 0, "endRowIndex": 12, "startColumnIndex": 4, "endColumnIndex": 5}]}}, "targetAxis": "LEFT_AXIS"}  # BERT %
+                        ]
+                    }
+                },
+                "position": {
+                    "overlayPosition": {
+                        "anchorCell": {"sheetId": tid, "rowIndex": 14, "columnIndex": 0},
+                        "widthPixels": 800,
+                        "heightPixels": 500
+                    }
+                }
+            }
+        }
+    })
+
     service.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": requests}).execute()
     print("Success! Integrated all charts with localized data.")
 

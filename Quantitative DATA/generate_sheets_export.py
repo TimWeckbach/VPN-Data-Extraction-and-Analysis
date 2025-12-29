@@ -1,146 +1,215 @@
 import pandas as pd
 import os
-import numpy as np
+import datetime
 
 # --- CONFIGURATION ---
 BASE_PATH = r"Quantitative DATA"
-QUAL_FILE = os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv")
 DSPI_FILE = os.path.join(BASE_PATH, "dspi_raw_data.csv")
-OUTPUT_DIR = BASE_PATH # Save directly to Quantitative DATA to match upload pipeline expectations
+# QUAL_FILE = os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv") # Original raw qualitative file
+QUAL_FILES = {
+    "Qual_Raw_Original": os.path.join(BASE_PATH, "Thesis_Dataset_Master_Redefined.csv"),
+    "Qual_Raw_Filled": os.path.join(BASE_PATH, "Sheets_Import_Qual_Raw.csv"), # Use the generated filled CSV
+    "Qual_Master_Filled": os.path.join(BASE_PATH, "Sheets_Import_Qual_Raw.csv") # Use the generated filled CSV
+}
+OUTPUT_DIR = BASE_PATH
 
-def process_qualitative_stats():
-    print(f"Reading {QUAL_FILE}...")
-    try:
-        df = pd.read_csv(QUAL_FILE)
-    except FileNotFoundError:
-        print(f"Error: Could not find {QUAL_FILE}")
-        return
+def process_qualitative_stats(df_qual):
+    # Normalize Columns
+    if 'Service Name' in df_qual.columns:
+        df_qual = df_qual.rename(columns={'Service Name': 'Service'})
+    if 'Company' in df_qual.columns:
+        df_qual = df_qual.rename(columns={'Company': 'Service'})
+    if 'Target Year' in df_qual.columns:
+        df_qual = df_qual.rename(columns={'Target Year': 'Year'})
+        
+    # Filter out boilerplate
+    # Filter out boilerplate
+    cat_col = 'Category_Gemini3'
+    if cat_col not in df_qual.columns:
+         if 'New_Category' in df_qual.columns:
+             cat_col = 'New_Category' # Fallback
+         else:
+             print("Critical Error: Classification column missing.")
+             return None, None, None
 
-    # --- 1. Column Mapping & Cleanup ---
-    # Check which confidence column to use. 'Score' seems to have actual values.
-    # 'Confidence_Score' (last col) seems to be 0.0 based on inspection.
-    # We will prioritize 'Score' if it exists and has non-zero mean.
-    
-    use_score_col = 'Score'
-    if 'Score' in df.columns:
-        print(f"Using 'Score' column for Confidence (Mean: {df['Score'].mean():.4f})")
-        df['Confidence_Score'] = df['Score'] # Overwrite or create
-    
-    # Map columns to standard names
-    # Expected: Year, Service, Sentence, New_Category, Confidence_Score, Doc_Type
-    col_map = {
-        'Company': 'Service',
-        'Category_Gemini3': 'New_Category',
-        'Category': 'New_Category', # Fallback
-        'Doc_Type': 'Doc_Type'
-    }
-    df.rename(columns=col_map, inplace=True)
-    
-    # Ensure columns exist
-    required_cols = ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score', 'Doc_Type']
-    for c in required_cols:
-        if c not in df.columns:
-            print(f"Warning: Column '{c}' missing. Creating empty.")
-            df[c] = ""
+    # df_clean = df_qual[df_qual[cat_col] != 'General Terms'].copy() # User requested to INCLUDE everything
+    df_clean = df_qual.copy()
+
+    # --- FORWARD FILL LOGIC (Address Data Sparsity) ---
+    # Goal: Ensure that if a ToS is valid in 2020, it remains valid in 2021-2025 until replaced.
+    if 'Year' in df_clean.columns and 'Service' in df_clean.columns:
+        # 1. Create full grid of Year/Service combinations
+        years = sorted(df_clean['Year'].unique())
+        full_years = range(min(years), max(years) + 1) # e.g. 2018 to 2025
+        services = df_clean['Service'].unique()
+        
+        # Create a MultiIndex of all possible Service-Year pairs
+        idx = pd.MultiIndex.from_product([services, full_years], names=['Service', 'Year'])
+        
+        # 2. Aggregation Strategy: Get one row per Service-Year-Category if duplicates exist (though usually 1 ToS per year)
+        # We want to keep all categories found in a year.
+        # But for filling, we need to know "State of the World" at end of Year X.
+        # Let's pivot to see which categories are active.
+        
+        # Pivot: Service, Year vs Category. Value = 1 if present.
+        df_pivot = df_clean.groupby(['Service', 'Year', cat_col]).size().unstack(fill_value=0)
+        
+        # Reindex to full timeline
+        df_pivot = df_pivot.reindex(idx, fill_value=0)
+        
+        # 3. Forward Fill
+        # We only want to forward fill if a category was established. 
+        # But wait, 0 means "not mentioned". 
+        # The user says: "missing Tos means previous is valid".
+        # So we should convert 0s to NaN if the previous year had it?
+        # Actually, simpler: replace 0 with NaN, then ffill, then fillna(0)?
+        # No, if 2020 has "Blocking", 2021 has nothing (no row), it should inherit "Blocking".
+        # If 2021 has a row but NOT "Blocking" (new ToS, blocking removed), it should NOT inherit.
+        # However, the user implies "missing year" = "missing ToS".
+        # If a year exists in the data, we assume it's complete for that year.
+        # If a year is MISSING from the data (e.g. no 2021 rows for Microsoft), THEN forward fill.
+        
+        # Let's detect MISSING YEARS for each Service.
+        filled_rows = []
+        for srv in services:
+            srv_df = df_clean[df_clean['Service'] == srv].sort_values('Year')
+            existing_years = set(srv_df['Year'].unique())
             
-    df_clean = df[required_cols].copy()
-    
-    # --- 2. Forward Fill Logic (Imputation) ---
-    # Logic: For each Service + Year, if data exists, keep it. 
-    # If a year is missing (between start and 2025), we assume the LAST known document's rules apply.
-    # However, copying 25k sentences for every missing year is huge. 
-    # Just repeating the "Category" stats might be enough for aggregate charts, 
-    # BUT the user wants "Qual_Raw" to be "Forward-Filled" in the sheet?
-    # Actually, the user asked for "forward-fill logic" previously. 
-    # If we replicate ALL sentences for missing years, the dataset explodes (25k * 5 years = 125k rows).
-    # Google Sheets limit is 10M cells, so 125k rows * 6 cols = 750k cells. This is Acceptable.
-    
-    print("Applying Forward-Fill Logic...")
-    
-    # Get all years and services
-    all_years = range(2018, 2026) # 2018 to 2025
-    services = df_clean['Service'].unique()
-    
-    filled_dfs = []
-    
-    for service in services:
-        srv_data = df_clean[df_clean['Service'] == service].copy()
-        if srv_data.empty:
-            continue
+            # Start from first seen year (don't backfill)
+            min_y = srv_df['Year'].min()
+            max_y = 2025 # Force to current date
             
-        # Find years active
-        active_years = sorted(srv_data['Year'].unique())
-        if not active_years:
-            continue
+            last_known_data = None
             
-        # Start from the first year present? Or always 2018?
-        # Let's assume we fill forward from the first year we have data.
-        min_year = min(active_years)
+            for y in range(min_y, max_y + 1):
+                if y in existing_years:
+                    # Capture data for this year to propagate forward
+                    current_data = srv_df[srv_df['Year'] == y].copy()
+                    filled_rows.append(current_data)
+                    last_known_data = current_data
+                else:
+                    # Missing year: Propagate last known data
+                    if last_known_data is not None:
+                        new_row = last_known_data.copy()
+                        new_row['Year'] = y # Update year
+                        new_row['Source'] = f"Forward-Filled from {last_known_data.iloc[0]['Year']}" # Mark source
+                        filled_rows.append(new_row)
         
-        # Sort by year
-        srv_data = srv_data.sort_values('Year')
-        
-        # We need to iterate 2018 to 2025
-        # If year < min_year, maybe no data? Or fill backward? No, usually forward fill.
-        
-        # Logic: Valid document in Y1. If Y2 is missing, copy Y1 active document sentences to Y2.
-        # If Y2 has a new document, use Y2.
-        
-        # Get the latest "state" (set of sentences)
-        last_state = None
-        
-        for yr in all_years:
-            if yr < min_year:
-                # Optional: Skip years before first data point
-                continue
-                
-            if yr in active_years:
-                # We have data, update state
-                current_data = srv_data[srv_data['Year'] == yr].copy()
-                last_state = current_data
-                filled_dfs.append(current_data)
-            else:
-                # Missing year. Use last_state
-                if last_state is not None:
-                    # Create copy of last state, update Year
-                    filled_data = last_state.copy()
-                    filled_data['Year'] = yr
-                    # Mark distinct? Maybe not, just fill.
-                    filled_dfs.append(filled_data)
-                # If no last_state yet, we can't fill (validly missing start)
+        # Reassemble
+        df_filled = pd.concat(filled_rows, ignore_index=True)
+        # Use valid columns only
+    else:
+        df_filled = df_clean
 
-    df_filled = pd.concat(filled_dfs, ignore_index=True)
-    print(f"Original Rows: {len(df_clean)}, Filled Rows: {len(df_filled)}")
+    # Re-calculate stats on FILLED data
+    df_clean = df_filled
+    cat_counts = df_clean[cat_col].value_counts().reset_index()
+    cat_counts.columns = ['Category', 'Wait_Frequency']
+    cat_counts['Percent'] = (cat_counts['Wait_Frequency'] / len(df_clean) * 100).round(2)
     
-    # Save Qual_Raw
-    out_file = os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Raw.csv")
-    df_filled.to_csv(out_file, index=False)
-    print(f"Saved {out_file}")
-    
-    return df_filled
+    # 2. Timeline (Category per Year)
+    if 'Year' in df_clean.columns:
+        timeline = df_clean.groupby(['Year', cat_col]).size().unstack(fill_value=0)
+        # Normalize
+        timeline_norm = timeline.div(timeline.sum(axis=1), axis=0) * 100
+    else:
+        timeline_norm = pd.DataFrame()
 
-def process_dspi():
-    print(f"Processing DSPI from {DSPI_FILE}...")
-    try:
-        dspi_df = pd.read_csv(DSPI_FILE)
-    except FileNotFoundError:
-        print(f"Error: {DSPI_FILE} not found.")
-        return
+    # 3. Service Distribution (Normalized Ratios per Service)
+    service_group = df_qual.groupby(['Service', cat_col]).size().unstack(fill_value=0)
+    service_ratios = service_group.div(service_group.sum(axis=1), axis=0) * 100
+    service_ratios = service_ratios.round(2)
 
-    # Basic cleanup if needed
-    # Ensure DSPI_Value is numeric
-    if 'DSPI' in dspi_df.columns:
-        dspi_df['DSPI'] = pd.to_numeric(dspi_df['DSPI'], errors='coerce')
+    # 4. Detailed Faceted Timeline (Year, Service, Category, Percentage)
+    df_counts = df_qual.groupby(['Year', 'Service', cat_col]).size().reset_index(name='Count')
+    df_totals = df_counts.groupby(['Year', 'Service'])['Count'].transform('sum')
+    df_counts['Percentage'] = (df_counts['Count'] / df_totals) * 100
+    df_counts = df_counts.round(2)
         
-    out_file = os.path.join(OUTPUT_DIR, "Sheets_Import_DSPI.csv")
-    dspi_df.to_csv(out_file, index=False)
-    print(f"Saved {out_file}")
+    return cat_counts, timeline_norm, df_clean, service_ratios, df_counts # Return full df with normalized cols (FILLED)
 
 def main():
-    print("--- starting export generation ---")
-    process_qualitative_stats()
-    process_dspi()
-    print("--- completed ---")
+    print("--- GENERATING CSV EXPORTS FOR GOOGLE SHEETS ---")
+    
+    # 1. DSPI Data
+    if os.path.exists(DSPI_FILE):
+        print(f"Exporting {DSPI_FILE}...")
+        # It's already a CSV, but let's ensure it's clean
+        dspi_df = pd.read_csv(DSPI_FILE)
+        dspi_df.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_DSPI.csv"), index=False)
+    
+    # 2. Qualitative Data
+    # 2. Qualitative Data
+    if os.path.exists(QUAL_FILES["Qual_Raw_Original"]):
+        print(f"Processing {QUAL_FILES['Qual_Raw_Original']}...")
+        qual_df = pd.read_csv(QUAL_FILES["Qual_Raw_Original"])
+        
+        counts, timeline, qual_df_norm, service_stats, timeline_details = process_qualitative_stats(qual_df)
+        
+        if counts is not None:
+            counts.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Counts.csv"), index=False)
+            timeline.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Timeline.csv")) # Index (Year) is needed
+            service_stats.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Service_Stats.csv")) # Index (Service) is needed
+            timeline_details.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Timeline_Details.csv"), index=False)
+            
+            # Use detected column for raw data export
+            cat_col_src = 'Category_Gemini3' if 'Category_Gemini3' in qual_df_norm.columns else 'New_Category'
+            qual_df_norm.rename(columns={cat_col_src: 'New_Category'}, inplace=True)
+            
+            # Rename to standard for output
+            cols = ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence']
+            if 'Confidence_Score' in qual_df_norm.columns:
+                cols = ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score']
+
+            # Filter valid columns only
+            valid_cols = [c for c in cols if c in qual_df_norm.columns]
+            qual_df_norm[valid_cols].to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Qual_Raw.csv"), index=False)
+            
+            # 3. Correlation Data
+            if os.path.exists(DSPI_FILE):
+                print("Generating Correlation Data...")
+                dspi_df = pd.read_csv(DSPI_FILE)
+                # Ensure Service col matches
+                if 'Service Name' in dspi_df.columns: dspi_df.rename(columns={'Service Name': 'Service'}, inplace=True)
+                
+                # RECALCULATE DSPI for Stats (Because 'DSPI' col is now a formula string!)
+                # We added 'Price_USD_Static' in process_google_sheet_data.py for this exact purpose.
+                # If it exists, use it. If not (old data), fallback to 'Price_USD'.
+                
+                if 'Price_USD_Static' in dspi_df.columns:
+                     # Calculate Baseline again or assume it is handled?
+                     # Let's handle it robustly.
+                     # Baseline = USA Price
+                     us_prices = dspi_df[dspi_df['Country'].isin(['United States', 'USA'])].set_index('Service')['Price_USD_Static'].to_dict()
+                     
+                     def get_dspi_val(row):
+                         base = us_prices.get(row['Service'])
+                         if base and base > 0:
+                             return row['Price_USD_Static'] / base
+                         return None
+                         
+                     dspi_df['DSPI_Value'] = dspi_df.apply(get_dspi_val, axis=1)
+                else:
+                     # Old format fallback
+                     dspi_df['DSPI_Value'] = pd.to_numeric(dspi_df['DSPI'], errors='coerce')
+
+                # 1. Price Discrim (StdDev of DSPI Value)
+                dspi_std = dspi_df.groupby('Service')['DSPI_Value'].std().reset_index(name='Price_Discrimination_Score')
+                
+                # 2. Enforcement Intensity
+                # We renamed the column to 'New_Category' above, so use that.
+                export_cat_col = 'New_Category'
+                
+                total_sentences = qual_df_norm.groupby('Service').size()
+                enforcement_sentences = qual_df_norm[qual_df_norm[export_cat_col].isin(['Technical Blocking', 'Legal Threat', 'Account Action'])].groupby('Service').size()
+                intensity = (enforcement_sentences / total_sentences * 100).fillna(0).reset_index(name='Enforcement_Intensity_Percent')
+                
+                # Merge
+                corr_df = pd.merge(dspi_std, intensity, on='Service', how='inner')
+                corr_df.to_csv(os.path.join(OUTPUT_DIR, "Sheets_Import_Correlation.csv"), index=False)
+
+    print("\nSUCCESS. CSV Files Generated.")
+    print("Please import these files into your Google Sheet.")
 
 if __name__ == "__main__":
     main()

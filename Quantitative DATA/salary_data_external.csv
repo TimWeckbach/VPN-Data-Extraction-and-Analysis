@@ -1,0 +1,17 @@
+
+Country,Monthly_Wage_Local,Currency,Source
+Switzerland,6903,CHF,tradingeconomics2023switzerland
+United States,6600,USD,oecd2023wages
+Germany,4800,EUR,oecd2023wages
+United Kingdom,4500,GBP,oecd2023wages
+Japan,320000,JPY,oecd2023wages
+Turkey,23789,TRY,tradingeconomics2023turkey
+Argentina,456813,ARS,indec2023argentina
+Brazil,3000,BRL,oecd2023wages
+India,20000,INR,oecd2023wages
+Poland,6700,PLN,estimate2024
+Ukraine,19600,UAH,estimate2024
+Philippines,20583,PHP,estimate2024
+Nigeria,100000,NGN,estimate2024
+Pakistan,70700,PKR,estimate2024
+Egypt,7870,EGP,estimate2024
