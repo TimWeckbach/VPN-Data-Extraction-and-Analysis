@@ -1,0 +1,131 @@
+Found 10 services.
+
+=== Microsoft ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|2|0|8|0|0|0|0|0|157
+ROW:2020.0|1|0|2|11|8|0|0|10|0|0|1078
+ROW:2021.0|0|0|1|11|7|0|1|3|0|0|1091
+ROW:2022.0|1|0|2|10|8|0|1|8|0|0|1102
+ROW:2023.0|1|0|1|14|11|0|2|2|0|0|1014
+ROW:2024.0|0|0|0|21|6|0|0|0|0|0|1021
+ROW:2025.0|1|0|2|13|5|0|0|0|0|0|879
+
+=== Youtube Premium ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|4|0|5|5|3|0|0|0|0|0|100
+ROW:2019.0|0|0|0|0|0|0|0|0|0|0|44
+ROW:2020.0|1|0|2|2|0|0|0|0|0|0|56
+ROW:2021.0|0|0|0|3|0|0|0|0|0|0|83
+ROW:2022.0|12|0|14|17|4|0|0|0|0|0|695
+ROW:2023.0|42|1|32|45|11|0|8|0|0|0|1350
+ROW:2024.0|23|0|17|32|8|0|1|0|0|0|998
+ROW:2025.0|12|1|29|31|8|0|7|0|0|0|458
+
+=== Spotify ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|1|2|35|14|0|0|0|0|0|1|352
+ROW:2020.0|0|5|26|10|0|0|0|0|0|0|620
+ROW:2021.0|0|4|13|8|0|0|0|0|0|0|593
+ROW:2022.0|0|2|26|9|0|0|0|0|0|0|514
+ROW:2023.0|0|2|24|19|0|0|0|0|0|0|539
+ROW:2024.0|0|7|7|13|0|0|0|0|0|0|478
+ROW:2025.0|0|0|1|2|0|0|0|0|0|0|224
+
+=== Adobe ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|1|1|1|0|0|0|0|0|0|18
+ROW:2019.0|0|1|1|1|0|0|0|0|0|0|18
+ROW:2020.0|0|2|0|12|2|0|0|0|0|0|618
+ROW:2021.0|0|1|0|6|0|0|0|0|0|0|477
+ROW:2022.0|0|0|0|10|0|0|1|0|0|0|398
+ROW:2023.0|0|0|0|5|0|0|0|0|0|0|348
+ROW:2024.0|0|11|0|8|1|0|0|1|0|0|829
+ROW:2025.0|0|2|2|2|1|0|0|0|0|0|380
+
+=== Netflix ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2020.0|0|4|19|7|1|0|0|0|0|0|362
+ROW:2021.0|1|12|19|11|0|0|0|0|0|0|353
+ROW:2022.0|0|11|17|11|0|0|0|0|0|0|492
+ROW:2023.0|0|5|15|12|0|0|0|0|2|0|387
+ROW:2024.0|0|1|16|11|0|0|0|0|0|0|397
+ROW:2025.0|0|3|41|24|3|0|0|0|0|0|635
+
+=== Disney+ ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2020.0|0|5|9|4|0|0|0|0|0|0|223
+ROW:2021.0|0|8|20|10|0|0|0|0|0|0|325
+ROW:2022.0|0|7|12|1|0|0|0|0|0|0|237
+ROW:2023.0|0|3|17|9|0|0|0|0|0|0|347
+ROW:2024.0|0|14|43|13|4|0|0|0|0|0|547
+ROW:2025.0|0|4|13|0|0|0|0|0|0|0|296
+
+=== Amazon Prime ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|1|0|0|0|0|0|0|17
+ROW:2019.0|0|0|0|1|0|0|0|0|0|0|17
+ROW:2020.0|0|0|3|2|1|0|0|0|0|0|80
+ROW:2021.0|0|0|9|9|0|0|0|0|0|0|331
+ROW:2022.0|0|0|6|7|0|0|0|0|0|0|319
+ROW:2023.0|0|0|10|7|0|0|0|0|0|0|309
+ROW:2024.0|1|0|8|6|0|0|0|4|0|0|247
+ROW:2025.0|0|2|8|11|2|0|0|5|0|0|216
+
+=== Apple Music ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|5|2|1|0|0|0|0|0|106
+ROW:2020.0|0|0|3|2|0|0|0|0|0|0|194
+ROW:2021.0|0|0|1|8|0|0|1|1|0|0|193
+ROW:2022.0|0|0|8|7|1|0|2|2|0|0|189
+ROW:2023.0|1|1|3|2|3|0|1|0|0|0|196
+ROW:2024.0|0|0|5|5|1|0|1|2|0|0|211
+ROW:2025.0|1|1|3|3|2|0|0|1|0|0|159
+
+=== ExpressVPN ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2020.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2021.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2022.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2023.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2024.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2025.0|1|1|0|2|4|0|1|0|0|0|51
+
+=== NordVPN ===
+HEADERS:Year|Technical Blocking|Price Discrimination|Content Licensing|Regulatory Compliance|Legal Threat|Account Action|Privacy/Security|Security Risk|Legitimate Portability|User Workaround|General Terms
+ROW:2016.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2017.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2018.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2019.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2020.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2021.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2022.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2023.0|0|0|0|0|0|0|0|0|0|0|0
+ROW:2024.0|0|0|0|0|3|0|0|3|0|0|49
+ROW:2025.0|0|0|0|0|3|0|0|3|0|0|49

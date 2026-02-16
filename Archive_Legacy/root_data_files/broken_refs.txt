@@ -1,0 +1,5 @@
+﻿Active labels: 52
+Broken refs: 3
+  L677: \ref{fig:model_comparison_viz} -> \ref{tab:model_comparison} and Figure \ref{fig:model_comparison_viz} provide a d
+  L884: \ref{fig:affordability} -> to understand the "Real Cost" for local users. Figure \ref{fig:affordability} ma
+  L1109: \ref{fig:service_dist} -> \ref{fig:service_dist} illustrates the proportional distribution of categories f

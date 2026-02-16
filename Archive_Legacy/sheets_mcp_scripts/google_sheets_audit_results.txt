@@ -1,0 +1,128 @@
+[Tab] Sheet1: 0 charts
+[Tab] Sheet2: 0 charts
+[Tab] Thesis_Dataset_Master_Redefined: 0 charts
+[Tab] Thesis_Dataset_Master_V8_LLM: 0 charts
+[Tab] Thesis_Results_Final_V5: 0 charts
+[Tab] Analysis_Pivot_Company_Label: 0 charts
+[Tab] Analysis_Trend_Over_Time: 0 charts
+[Tab] DATA_PERT_BERT: 0 charts
+[Tab] DSPI_Data: 0 charts
+[Tab] Correlation_Data: 2 charts
+  - Chart 1: Price Discrimination vs. Enforcement Intensity
+  - Chart 2: Price Discrimination Score vs. Enforcement Intensity by Service
+[Tab] [Chart1] Price Discrimination Score vs. Enforcement Intensity by Service: 1 charts
+  - Chart 1: Price Discrimination Score vs. Enforcement Intensity by Service
+[Tab] Thesis_Dataset_Master_BERT: 0 charts
+[Tab] Model_Comparison: 3 charts
+  - Chart 1: Gemini Model Breakdown
+  - Chart 2: Gemini vs BERT: Category Distribution (%)
+  - Chart 3: BERT Model Distribution by Category (Excluding General Terms and Total)
+[Tab] DATA_CATEGORIZED_GEMINI_3: 0 charts
+[Tab] Dashboard_Stats: 2 charts
+  - Chart 1: Company Volume
+  - Chart 2: Document Types
+[Tab] Qual_Counts: 1 charts
+  - Chart 1: Strategic Frames Distribution
+[Tab] Qual_Raw: 0 charts
+[Tab] Service_Stats: 1 charts
+  - Chart 1: Company Priority Mix (%)
+[Tab] Timeline_Details: 1 charts
+  - Chart 1: Evolution of Strategic Frames (Summary)
+[Tab] Ratio Over Time by Category (All Services): 12 charts
+  - Chart 1: Total Count of Incidents Over Time by Category (All Services)
+  - Chart 2: Percentage of Incidents Over Time by Category (All Services)
+  - Chart 3: Category Share of Annual Incidents for Youtube Premium
+  - Chart 4: Category Share of Annual Incidents for Adobe
+  - Chart 5: Category Share of Annual Incidents for Amazon Prime
+  - Chart 6: Category Share of Annual Incidents for Microsoft
+  - Chart 7: Category Share of Annual Incidents for Spotify
+  - Chart 8: Category Share of Annual Incidents for Apple Music
+  - Chart 9: Category Share of Annual Incidents for Netflix
+  - Chart 10: Category Share of Annual Incidents for Disney+
+  - Chart 11: Category Share of Annual Incidents for NordVPN
+  - Chart 12: Category Share of Annual Incidents for ExpressVPN
+[Tab] Qual_Timeline: 1 charts
+  - Chart 1: Evolution of Strategic Frames (Excl. General Terms)
+[Tab] Deep_Dive_Stats: 1 charts
+  - Chart 1: Global Priority Shift (%)
+[Tab] Qual_Master: 0 charts
+[Tab] Service_Evolution: 10 charts
+  - Chart 1: Microsoft: Multi-Year Evolution
+  - Chart 2: Youtube Premium: Multi-Year Evolution
+  - Chart 3: Spotify: Multi-Year Evolution
+  - Chart 4: Adobe: Multi-Year Evolution
+  - Chart 5: Netflix: Multi-Year Evolution
+  - Chart 6: Disney+: Multi-Year Evolution
+  - Chart 7: Amazon Prime: Multi-Year Evolution
+  - Chart 8: Apple Music: Multi-Year Evolution
+  - Chart 9: ExpressVPN: Multi-Year Evolution
+  - Chart 10: NordVPN: Multi-Year Evolution
+[Tab] Distribution of Policy Text Categories Over Time (2018-2025): 2 charts
+  - Chart 1: Distribution of Policy Text Categories Over Time (2018-2025)
+  - Chart 2: Distribution of Policy Text Categories Over Time (Excluding General Terms)
+[Tab] [Chart1] Distribution of Policy Text Categories Over Time (Excluding General Terms): 1 charts
+  - Chart 1: Distribution of Policy Text Categories Over Time (Excluding General Terms)
+[Tab] Terms of Service by Category and Year: 20 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Adobe
+  - Chart 2: Terms of Service Sentence Count by Category and Year for Amazon Prime
+  - Chart 3: Terms of Service Sentence Count by Category and Year for Apple Music
+  - Chart 4: Terms of Service Sentence Count by Category and Year for Disney+
+  - Chart 5: Terms of Service Sentence Count by Category and Year for ExpressVPN
+  - Chart 6: Terms of Service Sentence Count by Category and Year for Microsoft
+  - Chart 7: Terms of Service Sentence Count by Category and Year for Netflix
+  - Chart 8: Terms of Service Sentence Count by Category and Year for NordVPN
+  - Chart 9: Terms of Service Sentence Count by Category and Year for Spotify
+  - Chart 10: Terms of Service Sentence Count by Category and Year for Youtube Premium
+  - Chart 11: Terms of Service Sentence Count by Category and Year for Adobe (Excluding General Terms)
+  - Chart 12: Terms of Service Sentence Count by Category and Year for Amazon Prime (Excluding General Terms)
+  - Chart 13: Terms of Service Sentence Count by Category and Year for Youtube Premium (Excluding General Terms)
+  - Chart 14: Terms of Service Sentence Count by Category and Year for Apple Music (Excluding General Terms)
+  - Chart 15: Terms of Service Sentence Count by Category and Year for Microsoft (Excluding General Terms)
+  - Chart 16: Terms of Service Sentence Count by Category and Year for Spotify (Excluding General Terms)
+  - Chart 17: Terms of Service Sentence Count by Category and Year for Netflix (Excluding General Terms)
+  - Chart 18: Terms of Service Sentence Count by Category and Year for Disney+ (Excluding General Terms)
+  - Chart 19: Terms of Service Sentence Count by Category and Year for NordVPN (Excluding General Terms)
+  - Chart 20: Terms of Service Sentence Count by Category and Year for ExpressVPN (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Amazon Prime: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Amazon Prime
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Apple Music: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Apple Music
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Disney+: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Disney+
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for ExpressVPN: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for ExpressVPN
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Microsoft: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Microsoft
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Netflix: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Netflix
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for NordVPN: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for NordVPN
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Spotify: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Spotify
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Youtube Premium: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Youtube Premium
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Adobe (Excluding General Terms): 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Adobe (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Amazon Prime (Excluding General Te: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Amazon Prime (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Youtube Premium (Excluding General: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Youtube Premium (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Apple Music (Excluding General Ter: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Apple Music (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Microsoft (Excluding General Terms: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Microsoft (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Spotify (Excluding General Terms): 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Spotify (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Netflix (Excluding General Terms): 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Netflix (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for Disney+ (Excluding General Terms): 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for Disney+ (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for NordVPN (Excluding General Terms): 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for NordVPN (Excluding General Terms)
+[Tab] [Chart1] Terms of Service Sentence Count by Category and Year for ExpressVPN (Excluding General Term: 1 charts
+  - Chart 1: Terms of Service Sentence Count by Category and Year for ExpressVPN (Excluding General Terms)
+[Tab] [Chart1] Percentage of Incidents Over Time by Category (All Services): 1 charts
+  - Chart 1: Percentage of Incidents Over Time by Category (All Services)
+[Tab] Analysis_Timeline: 0 charts
+[Tab] Analysis_FortressIndex: 0 charts
+[Tab] Analysis_Keywords: 0 charts

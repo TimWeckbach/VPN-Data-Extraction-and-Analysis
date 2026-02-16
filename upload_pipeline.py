@@ -20,7 +20,10 @@ FILES_TO_UPLOAD = {
     # "Qual_Master": r"Quantitative DATA\Sheets_Import_Qual_Raw.csv", # Deprecated
     # "Service_Stats": r"Quantitative DATA\Sheets_Import_Service_Stats.csv", # Switched to Dynamic Formulas
     # "Timeline_Details": r"Quantitative DATA\Sheets_Import_Timeline_Details.csv", # Switched to Dynamic Formulas
-    # "Correlation_Data": r"Quantitative DATA\Sheets_Import_Correlation.csv" # Switched to Dynamic Formulas
+    # "Correlation_Data": r"Quantitative DATA\Sheets_Import_Correlation.csv", # Switched to Dynamic Formulas
+    "Analysis_Timeline": r"Quantitative DATA\Analysis_Timeline.csv",
+    "Analysis_FortressIndex": r"Quantitative DATA\Analysis_FortressIndex.csv",
+    "Analysis_Keywords": r"Quantitative DATA\Analysis_Keywords.csv"
 }
 
 def main():
@@ -35,10 +38,13 @@ def main():
     gc = gspread.authorize(creds)
     
     # 2. Open Sheet
-    print(f"Opening Sheet: {SHEET_URL}")
+    SHEET_ID = "1lxlStc4uYO2LbvUHqG4men-egRdvGJ_drgVWPSCqOxk"
+    print(f"Opening Sheet ID: {SHEET_ID}")
     try:
-        sh = gc.open_by_url(SHEET_URL)
+        sh = gc.open_by_key(SHEET_ID)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         print(f"Error opening sheet: {e}")
         return
 

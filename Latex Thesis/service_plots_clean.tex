@@ -1,0 +1,330 @@
+% --- Adobe ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Adobe Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,7.1) (2022,11.1) (2024,9.1) (2025,22.2) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=violet, mark=oplus] coordinates { (2025,5.6) };
+            \addlegendentry{Legitimate Portability}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2020,7.1) (2022,5.6) (2023,33.3) (2024,18.2) (2025,22.2) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,85.7) (2021,100.0) (2022,83.3) (2023,66.7) (2024,72.7) (2025,50.0) };
+            \addlegendentry{Regulatory Compliance}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Adobe Category Evolution (2020--2025).}
+    \label{fig:evol_adobe}
+\end{figure}
+
+
+% --- Amazon ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Amazon Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,10.0) (2021,15.0) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,40.0) (2021,50.0) (2022,54.5) (2023,80.0) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2020,20.0) (2021,10.0) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,30.0) (2021,25.0) (2022,45.5) (2023,20.0) };
+            \addlegendentry{Regulatory Compliance}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Amazon Category Evolution (2020--2025).}
+    \label{fig:evol_amazon}
+\end{figure}
+
+
+% --- Apple Music ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Apple Music Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,14.3) (2021,14.3) (2022,12.1) (2023,26.3) (2024,13.3) (2025,19.0) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,28.6) (2021,35.7) (2022,51.5) (2023,31.6) (2024,30.0) (2025,23.8) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,52.4) (2021,50.0) (2022,36.4) (2023,42.1) (2024,50.0) (2025,57.1) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[thick, color=black, mark=x] coordinates { (2020,4.8) };
+            \addlegendentry{Technical Blocking}
+            \addplot[thick, color=gray, mark=star] coordinates { (2024,6.7) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Apple Music Category Evolution (2020--2025).}
+    \label{fig:evol_apple_music}
+\end{figure}
+
+
+% --- Disney+ ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Disney+ Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2023,5.0) (2024,14.3) (2025,21.4) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,80.0) (2021,73.4) (2022,70.3) (2023,60.0) (2024,49.0) (2025,57.1) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=violet, mark=oplus] coordinates { (2024,3.1) (2025,3.6) };
+            \addlegendentry{Legitimate Portability}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2020,3.3) (2021,3.1) (2022,18.9) (2023,7.5) (2024,11.2) (2025,7.1) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,16.7) (2021,21.9) (2022,10.8) (2023,27.5) (2024,20.4) (2025,10.7) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[thick, color=black, mark=x] coordinates { (2024,1.0) };
+            \addlegendentry{Technical Blocking}
+            \addplot[thick, color=gray, mark=star] coordinates { (2021,1.6) (2024,1.0) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Disney+ Category Evolution (2020--2025).}
+    \label{fig:evol_disney}
+\end{figure}
+
+
+% --- Microsoft ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Microsoft Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,37.2) (2021,26.8) (2022,30.0) (2023,34.0) (2024,38.1) (2025,25.0) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,7.0) (2021,4.9) (2022,6.0) (2023,12.0) (2024,7.1) (2025,16.7) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2021,2.4) (2022,4.0) (2023,2.0) (2024,2.4) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,55.8) (2021,65.9) (2022,60.0) (2023,52.0) (2024,52.4) (2025,58.3) };
+            \addlegendentry{Regulatory Compliance}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Microsoft Category Evolution (2020--2025).}
+    \label{fig:evol_microsoft}
+\end{figure}
+
+
+% --- Netflix ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Netflix Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,2.6) (2021,1.9) (2022,13.0) (2023,3.0) (2025,3.2) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,55.3) (2021,48.1) (2022,32.5) (2023,50.7) (2024,57.1) (2025,51.6) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=pink, mark=*] coordinates { (2023,1.5) };
+            \addlegendentry{IndividualError}
+            \addplot[thick, color=violet, mark=oplus] coordinates { (2021,1.9) (2022,1.3) (2023,3.0) };
+            \addlegendentry{Legitimate Portability}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2020,21.1) (2021,25.0) (2022,33.8) (2023,22.4) (2024,16.7) (2025,12.9) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,18.4) (2021,21.2) (2022,15.6) (2023,17.9) (2024,26.2) (2025,31.2) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[thick, color=black, mark=x] coordinates { (2020,2.6) (2021,1.9) (2025,1.1) };
+            \addlegendentry{Technical Blocking}
+            \addplot[thick, color=gray, mark=star] coordinates { (2022,3.9) (2023,1.5) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Netflix Category Evolution (2020--2025).}
+    \label{fig:evol_netflix}
+\end{figure}
+
+
+% --- Spotify ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Spotify Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,3.5) (2021,4.2) (2022,6.0) (2023,8.6) (2024,4.7) (2025,6.7) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,57.9) (2021,54.2) (2022,61.2) (2023,60.0) (2024,37.5) (2025,53.3) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2020,12.3) (2021,16.7) (2022,4.5) (2023,10.0) (2024,28.1) (2025,20.0) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,24.6) (2021,20.8) (2022,23.9) (2023,18.6) (2024,26.6) (2025,20.0) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[thick, color=black, mark=x] coordinates { (2023,1.4) };
+            \addlegendentry{Technical Blocking}
+            \addplot[thick, color=gray, mark=star] coordinates { (2020,1.8) (2021,4.2) (2022,4.5) (2023,1.4) (2024,3.1) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Spotify Category Evolution (2020--2025).}
+    \label{fig:evol_spotify}
+\end{figure}
+
+
+% --- Youtube Premium ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Share (\%)},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Youtube Premium Category Evolution},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[thick, color=teal, mark=*] coordinates { (2020,44.4) (2021,50.0) (2022,13.1) (2023,10.2) (2024,4.4) (2025,11.8) };
+            \addlegendentry{Account Action}
+            \addplot[thick, color=blue, mark=square*] coordinates { (2020,22.2) (2022,26.2) (2023,31.3) (2024,28.6) (2025,35.3) };
+            \addlegendentry{Content Licensing}
+            \addplot[thick, color=green!60!black, mark=diamond*] coordinates { (2022,3.3) (2023,0.7) (2024,4.4) (2025,3.5) };
+            \addlegendentry{Price Discrimination}
+            \addplot[thick, color=orange, mark=triangle*] coordinates { (2020,33.3) (2021,50.0) (2022,36.1) (2023,30.6) (2024,36.3) (2025,37.6) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[thick, color=black, mark=x] coordinates { (2022,21.3) (2023,26.5) (2024,25.3) (2025,10.6) };
+            \addlegendentry{Technical Blocking}
+            \addplot[thick, color=gray, mark=star] coordinates { (2023,0.7) (2024,1.1) (2025,1.2) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Youtube Premium Category Evolution (2020--2025).}
+    \label{fig:evol_youtube_premium}
+\end{figure}
+
+
+% --- Amazon Prime ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar stacked, bar width=15pt, area style,
+            width=0.8\textwidth,
+            height=6cm,
+            xlabel={Year},
+            ylabel={Sentence Count},
+            xmin=2019.5, xmax=2025.5,
+            ymin=0,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend pos=outer north east,
+            legend style={font=\tiny},
+            title={Amazon Prime Sentence Count by Category},
+            title style={font=\small\bfseries}
+        ]
+            \addplot[ybar stacked, fill=blue, draw=black!50] coordinates { (2025,2.0) };
+            \addlegendentry{Content Licensing}
+            \addplot[ybar stacked, fill=red, draw=black!50] coordinates { (2020,1.0) (2025,2.0) };
+            \addlegendentry{Legal Threat}
+            \addplot[ybar stacked, fill=green!60!black, draw=black!50] coordinates { (2025,2.0) };
+            \addlegendentry{Price Discrimination}
+            \addplot[ybar stacked, fill=orange, draw=black!50] coordinates { (2020,1.0) (2021,2.0) (2025,2.0) };
+            \addlegendentry{Regulatory Compliance}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Amazon Prime Sentence Count by Category (2020--2025).}
+    \label{fig:evol_amazon_prime}
+\end{figure}
+
+

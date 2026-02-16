@@ -1,0 +1,1 @@
+(0.0,Adobe) (1.0,Amazon Prime) (2.5,Apple Music) (0.0,Disney+) (11.1,ExpressVPN) (2.3,Microsoft) (0.4,Netflix) (0.0,NordVPN) (0.4,Spotify) (24.7,Youtube Premium)

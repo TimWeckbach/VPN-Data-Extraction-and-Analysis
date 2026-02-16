@@ -1,0 +1,1401 @@
+%%
+%\documentclass{}[
+	%english,
+	%ruledheaders=section,           %Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	%class=report ,                   % Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	%thesis={type=bachelor},         % Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	%accentcolor=9c,% Auswahl der Akzentfarbe
+	%custommargins=true,% Ränder werden mithilfe von typearea automatisch berechnet
+	%marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	%BCOR=5mm,%Bindekorrektur, falls notwendig
+	%parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Script
+	%fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+	%logofile={figures/tuda_logo.pdf},
+    %pdfa=false
+%]%{tudapub}
+
+\documentclass[
+	english,
+	ruledheaders=section,
+	class=report,
+	thesis={type=master},
+	accentcolor=9c,
+	custommargins=geometry,%CHANGED FROM TRUE TO FALSE
+	marginpar=false,
+	parskip=half-,
+	fontsize=12pt,
+	logofile={figures/tuda_logo.pdf},
+    pdfa=true
+]{tudapub}
+
+%\usepackage{showframe}
+%\usepackage[reset, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, includefoot]{geometry}
+%\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, includefoot}
+%\geometry{reset, bottom=2.5cm, includefoot} 
+
+
+\usepackage[main=english, ngerman]{babel}
+\usepackage[autostyle]{csquotes}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\renewcommand{\TPTnoteSettings}{\fontsize{10}{12}\selectfont} %<-- Add this line
+\usepackage{pifont}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible
+}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{colormaps}
+\definecolor{tudared}{HTML}{B90E21}
+\definecolor{tudablue}{HTML}{004E8C}
+\definecolor{tudagreen}{HTML}{7DA62D}
+\definecolor{tudaorange}{HTML}{E65C00}
+\definecolor{tudagray}{HTML}{9C9C9C}
+\pgfplotsset{
+    scaled ticks=false,
+    tick label style={/pgf/number format/fixed},
+    /pgf/number format/precision=3,
+    /pgf/number format/fixed zerofill=false
+}
+
+% Use KOMA-Script recommended method for section formatting
+\RedeclareSectionCommand[
+    beforeskip=0pt,
+    afterskip=10pt
+]{chapter}
+
+
+\usepackage{caption}
+\usepackage{subcaption}
+\DeclareCaptionFont{tenpoint}{\fontsize{10}{12}\selectfont}
+\captionsetup{font=tenpoint}
+
+
+%change the apa6 to apa when you want to use the APA 7th edition
+\usepackage[backend=biber, style=apa, sorting=nyt]{biblatex}
+\addbibresource{Bibliography.bib}
+
+\usepackage[acronym, section]{glossaries}
+%glossaries here
+\newacronym{vpn}{VPN}{Virtual Private Network}
+\newacronym{ppp}{PPP}{Purchasing Power Parity}
+\newacronym{dspi}{DSPI}{Digital Services Price Index}
+\newacronym{tos}{ToS}{Terms of Service}
+\newacronym{llm}{LLM}{Large Language Model}
+\newacronym{ptw}{PTW}{Price-to-Wage}
+\newacronym{bmi}{BMI}{Business Model Innovation}
+\newacronym{drm}{DRM}{Digital Rights Management}
+\newacronym{dpi}{DPI}{Deep Packet Inspection}
+\newacronym{rq}{RQ}{Research Question}
+\newacronym{eu}{EU}{European Union}
+
+
+\makeglossaries
+
+% change count of figures and tables to not include chapter number
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\title{Business Model Responses to Consumer Circumvention: Lessons from Piracy Applied to
+VPN-Enabled Geo-Arbitrage}
+\author{Tim Weckbach}
+\reviewer{William Schütte \and Prof. Dr. Alexander Kock}
+
+
+
+
+\begin{document}
+
+%\setlength{\textheight}{24cm}
+%\setlength{\topmargin}{-1.2cm} % Muss oft angepasst werden
+%\setlength{\headsep}{1cm}
+%\setlength{\footskip}{1.5cm}
+%\setlength{\voffset}{5cm}
+
+
+\Metadata{
+    \title{Business Model Responses to Consumer Circumvention: Lessons from Piracy Applied to
+    VPN-Enabled Geo-Arbitrage}
+    \author[Tim Weckbach]{Tim Weckbach}
+    \keywords{Price Discrimination, Geo-Arbitrage, Business Model Innovation, VPN, Digital
+    Services Price Index}
+    \publisher{TU Darmstadt}
+    \copyright{Tim Weckbach}
+    \birthplace{Frankfurt am Main}
+    \reviewer{William Schütte \and Prof. Dr. Alexander Kock}
+}
+\department{Business Informatics} 
+\institute{Technology and Innovation Management}
+\submissiondate{17.02.2026}
+\maketitle
+\newgeometry{bottom=2.5cm, includefoot}
+
+\begin{abstract}
+This thesis looks at the strategic conflict between corporate price discrimination and
+consumer-driven geo-arbitrage in digital subscription markets. Using a mixed-methods design, the
+study first measures the economic incentive for price-hopping through the \gls{dspi}. Analysis of 11 digital services across 11 countries shows large price
+differences, with subscriptions in markets like Turkey and Pakistan offered at discounts over
+80\% compared to Western baselines. However, the research identifies an ``Affordability Paradox'':
+while nominally cheap for international arbitrageurs, these services are often more expensive
+for local consumers as a percentage of their income. In the second part, an \gls{llm} (Gemini 3 Flash)
+processed over 25,000 sentences from company documents and \gls{tos} to find strategic
+responses. The findings show that enforcement strategies are mainly driven by how the business
+is built. Streaming providers use technical blocking to satisfy licensing rules, while software
+firms rely on identity checks. Results show a large increase in technical countermeasures since
+2022, signaling a growing race between platform control and technical bypass. The research
+concludes that companies are moving from just blocking users toward better global pricing and
+ecosystem integration.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Price Discrimination, Geo-Arbitrage, \gls{bmi},
+\gls{vpn}, \gls{dspi}
+\tableofcontents
+\printglossaries
+
+
+\chapter{Introduction}
+\label{chap:introduction}
+
+This introductory chapter outlines what this research covers and why it matters. It shows the
+main problem: digital services naturally cross borders, but platforms try to keep them in
+geographic boxes using different prices. By defining the problem and research questions, this
+chapter provides a map for the rest of the thesis.
+
+\section{Background and Context}
+The global digital economy has a basic contradiction: while digital services naturally cross
+geographical borders, companies in this space commonly use geographically segmented pricing
+strategies. Major platforms such as Netflix, Spotify, and Microsoft 365 divide the
+world into different pricing regions, charging very different prices for the same digital
+products depending on where the customer is. This practice, known as third-degree
+price discrimination, lets firms get the most revenue from each market by matching
+prices with what local users can pay. In markets with lower incomes, services are offered at much
+lower prices to reach more customers, while wealthier regions face higher prices.
+
+However, the technical setup that enables global digital distribution also lets
+customers challenge these boundaries. Many users have discovered that \glspl{vpn} can be used not only for privacy but also to bypass
+regional price blocks. By hiding their true location and routing their internet traffic through
+servers in other
+regions, users can engage in ``licensing hopping'' to access regionally restricted content
+libraries or purchase subscriptions at prices meant for markets with very different economic and
+regulatory conditions. This practice, often called ``digital geo-arbitrage,'' ``\gls{vpn} price
+hopping,'' or ``licensing hopping,'' is a form of consumer-driven market arbitrage that takes
+advantage of the price and library differences created by firms.
+
+%The global digital economy has a basic contradiction: while digital services naturally cross 
+%geographical borders, companies in this space commonly use geographically segmented pricing strategies. 
+%Major platforms such as Netflix, Spotify, Steam, and Microsoft Office divide the world into 
+%distinct pricing regions, charging vastly different prices for identical digital products 
+%depending on the customer's geographic location. This practice, known as third-degree price 
+%discrimination, allows firms to extract maximum revenue from each market by aligning prices 
+%with local willingness to pay and purchasing power. In markets with lower average incomes, 
+%services are offered at significantly reduced prices to maximize market penetration, while 
+%wealthier regions face premium pricing to capture consumer surplus.
+
+%However, the technical infrastructure that enables global digital distribution also allows 
+%customers to challenge this geographical segmentation. Many users have discovered that Virtual 
+%Private Networks (VPNs) can be used not only for privacy protection but also to bypass regional 
+%pricing barriers. By hiding their true location and routing their internet traffic through 
+%servers in lower-priced regions, users can purchase subscriptions at prices meant for markets 
+%with very different economic conditions. This practice, often called "digital geo-arbitrage" 
+%or "VPN price hopping," is a form of consumer-driven market arbitrage that takes advantage 
+%of the price differences created by firms' own segmentation strategies.
+
+This pattern is like the digital piracy wave of the early 2000s, where users
+used technical tools to bypass blocks \parencite{oberholzer2007effect}. Just as
+file-sharing let users bypass payment systems, VPN-based geo-arbitrage
+lets users bypass pricing, though they still pay for the service. In both cases, users use simple
+technology to bypass barriers. This forces companies to change how they make money and create
+better business models. However, as discussed in Chapter \ref{chap:discussion}, this cycle of 
+bypassing is met by more advanced, often secret, detection technologies that aim to unmask \gls{vpn} 
+users. These methods are hard to study because companies keep them secret, making them a 
+``black box'' for researchers.
+
+\section{Problem Statement}
+The main problem in this thesis is the conflict between companies wanting to keep markets
+separate and users being able to bypass those blocks.
+Subscription companies face a tough choice between two needs:
+\begin{enumerate}
+    \item \textbf{Economic Choice:} To reach more customers and earn more, firms must offer much lower prices in emerging markets while keeping high prices in wealthier regions.
+    \item \textbf{Technical Reality:} The internet lets users bypass geographic blocks using simple VPN services that anyone can use.
+\end{enumerate}
+This conflict makes companies rethink how they work. They must choose between
+``Coercive'' strategies that try to keep markets separate through technical blocking,
+``Adaptive'' strategies that reduce the reason for arbitrage by making prices more similar,
+or entirely new types of business models that work differently.
+
+\section{Research Questions (\glspl{rq})}
+To analyze this conflict, this thesis looks at two main research questions
+that address both why users engage in geo-arbitrage and how companies respond to
+it.
+
+The first research question focuses on measuring the economic incentive:
+\begin{description}
+    \item[\gls{rq}1 (The Economic Incentive):] To what extent do international price differences for digital services deviate from local affordability (based on local wages), creating a large reason for users to hop between regions?
+\end{description}
+
+To answer this, we built the \gls{dspi}, which compares prices across regions while also calculating how affordable 
+subscriptions are based on local wages. The difference between nominal price (the number) and
+real price (the cost for a local) is key: a service may seem cheap to a foreign user while
+being expensive for a local.
+
+The second research question looks at how companies respond to the arbitrage threat:
+\begin{description}
+    \item[\gls{rq}2 (The Strategic Response):] How do digital subscription providers change their business models in response to price hopping, and how has the balance between blocking and adapting changed over time?
+\end{description}
+
+To answer this, we used AI to analyze \gls{tos} documents and
+annual reports, grouping company language into categories like ``Technical
+Blocking,'' ``Legal Threat,'' and ``Price Discrimination.'' Looking at data over time lets us
+see how strategies have changed from 2020 to 2025.
+
+\section{Structure of the Thesis}
+The thesis follows a simple order from theory to data findings and then to the discussion.
+
+\textbf{Chapter \ref{chap:theory}} looks at three areas of theory: (1) economics of 
+price discrimination; (2) consumer behavior and digital piracy; and (3) Business Model 
+Innovation theory, which gives us a way to understand company responses.
+
+\textbf{Chapter \ref{chap:methodology}} explains the research methods. We describe how we built 
+the \gls{dspi} using data from many countries and services. We also 
+describe the \gls{llm} pipeline used to analyze over 25,000 sentences from company documents.
+
+\textbf{Chapter \ref{chap:results}} shows the findings in three parts: (1) the price 
+landscape; (2) how enforcement strategies have changed; and (3) the link between pricing and 
+blocking.
+
+\textbf{Chapter \ref{chap:discussion}} looks at these results using business theory,
+identifying four main business types (Content Fortress, Ecosystem Fortress, Enterprise Fortress, 
+and the Utility Paradox) and what they mean for digital platforms.
+
+\textbf{Chapter \ref{chap:conclusion}} sums up the study, notes the limits, and looks at 
+future research, including the possible effect of new rules like the \gls{eu} Digital Single Market.
+
+\chapter{Theoretical Foundations \& Literature Review}
+\label{chap:theory}
+
+
+This chapter provides the theoretical basis for the study by looking at three areas: economic
+pricing, consumer behavior, and business model innovation. By connecting Hal Varian's work on
+price discrimination with the history of digital piracy, we create a way to understand modern
+geo-arbitrage as a major challenge for digital companies.
+
+\section{Economic Foundations of International Price Setting}
+\label{sec:theory_pricing}
+
+To understand why consumers engage in geo-arbitrage, we must first establish why firms create
+the price disparities that make such arbitrage profitable. Geographic price differentiation is
+not arbitrary but follows well-established economic principles.
+
+\subsection{Third-Degree Price Discrimination}
+According to Varian (1989), third-degree price discrimination happens when a firm divides the
+market based on visible traits—in this case, geographic location—and charges different prices
+to each group. For digital goods, where the cost of copying is near zero ($MC \approx 0$)
+\parencite{shapiro1998information,amit2001value}, this strategy allows firms to get the most
+consumer surplus from both high-income (e.g., Switzerland) and low-income (e.g., Turkey)
+markets at the same time.
+
+Two conditions must hold for successful price discrimination:
+\begin{itemize}
+    \item \textit{Condition 1: Market Segmentation.} The firm must be able to distinguish between consumer groups based on observable characteristics such as IP address or billing location.
+    \item \textit{Condition 2: No Arbitrage.} The firm must be able to prevent the resale or transfer of the good between segments.
+\end{itemize}
+\gls{vpn}-enabled geo-arbitrage directly breaks \textit{Condition 2}, effectively merging the 
+different regions into a single global market.
+
+Also, this study shows that companies accidentally split their customers into two even smaller 
+groups within high-income regions. By keeping blocks in place (like \gls{vpn} detection), companies 
+split the market based on how much effort a user is willing to make. This creates a split 
+between ``active'' users—those who spend time and effort to bypass blocks—and ``passive'' users 
+who just want convenience. In this way, technical friction acts as a way for users to choose: 
+companies get high revenue from the majority of users while tolerating some loss from a small 
+group of technical users.
+
+\subsection{Purchasing Power Parity (PPP) as a Benchmark}
+The "Law of One Price" suggests that in an efficient market, identical goods should sell at
+the same price when shown in a common currency. However, differences from this law are common.
+\textcite{rogoff1996ppp} argues that for physical goods, shipping costs and trade barriers
+justify price differences. In the digital world, \textcite{clemons2002price} note that while
+transaction costs are much lower, price differences continue because firms can set up detailed
+customer segmentation.
+
+We use \gls{ppp} as a benchmark for "economically justified" pricing. If a
+Netflix subscription in Turkey is cheaper than in the US only because of currency value and
+local purchasing power, this fits standard economic theory. However, if the price difference
+is bigger than what \gls{ppp} adjustments would predict, it creates a "super-normal" arbitrage
+incentive—a price gap that motivates bypassing beyond simple purchasing power factors. We
+measure this through the \gls{dspi}.
+
+\section{Consumer Circumvention and the Piracy Parallel}
+\label{sec:theory_piracy}
+
+Consumer-driven arbitrage is not new \parencite{geda2023puzzle}. The digital "geo-arbitrage"
+pattern can be understood by looking at the history of digital piracy.
+
+\subsection{The Piracy Analogue}
+\textcite{oberholzer2007effect} showed that file-sharing forced the music and film industry to change
+its business model, eventually leading to legitimate digital distribution platforms like
+iTunes, Spotify and Netflix. This historical example helps us understand \gls{vpn}-based geo-arbitrage.
+Similarly, geo-arbitrage works as a market signal, showing a basic mismatch between rigid
+regional pricing structures and the borderless reality of the global internet.
+
+The parallel is instructive: just as Napster and BitTorrent exposed the music industry's
+failure to meet consumer demand for convenient digital access, \gls{vpn}-enabled price hopping
+exposed the sustainability problems of global price discrimination. In both cases, 
+users innovated before companies adapted.
+As we discuss later (Chapter \ref{chap:discussion}), companies are likely getting better at 
+finding where users really are. However, it is hard to test this because the technical details 
+are secret, similar to the piracy case of \gls{drm} protection.
+
+However, a key difference emerges between the two:
+\begin{itemize}
+    \item \textit{Access vs. Price:} Piracy was often about getting content that wasn't 
+    available at all, while geo-arbitrage is about getting a better price. Piracy involved 
+    no payment; geo-arbitrage involves paying, but at a lower price.
+    \item \textit{Legal Status:} Piracy is clearly illegal, while geo-arbitrage is a gray zone. 
+    Users are paying for real accounts; they are just lying about where they are.
+    \item \textit{Industry Response:} The music industry eventually adapted with streaming services. Whether companies will do the same for geo-arbitrage is what this thesis looks at.
+\end{itemize}
+
+
+\subsection{The Three-Level Mechanism of Circumvention}
+Drawing from behavioral ethics literature and the work of \textcite{wang2014three} on digital
+piracy, the decision to engage in geo-arbitrage can be modeled as a three-level mechanism.
+This way of looking at it helps explain why otherwise law-abiding consumers engage in 
+``digital smuggling'':
+
+\begin{enumerate}
+    \item \textbf{Individual Level (Rational Choice / Personal Risk):} The consumer performs a cost-benefit analysis. The financial gain (e.g., a 70\% discount on Netflix Turkey) is weighed against the perceived probability of detection and the severity of punishment (e.g., account termination). When enforcement is perceived as inconsistent, the perceived risk may be low.
+    \item \textbf{Inter-personal Level (Social Influence):} The behavior may be reinforced by online communities (e.g., Reddit, Discord). Observing others successfully using \glspl{vpn} can lower the psychological barrier to entry, consistent with social influence research \parencite{kastanakis2012between}.
+    \item \textbf{Societal Level (Moral Intensity):} The perception of the act is pivotal. Unlike shoplifting a physical good, digital arbitrage may be framed by users not as theft, but as a response to pricing perceived as unfair. This framing aligns with neutralization theory \parencite{mateus2018business}.
+\end{enumerate}
+
+\section{Strategic Management and Business Model Innovation}
+\label{sec:theory_strategy}
+
+Faced with this disruption, firms must adapt. We analyze their responses using \gls{bmi}. As defined by \textcite{wirtz2016business} and grouped by
+\textcite{foss2017fifteen}, \gls{bmi} means rethinking the value offer and delivery methods in
+response to outside shocks.
+
+\subsection{Dimensions of Business Model Innovation}
+To carefully analyze how firms adapt, we divide their business models into three parts:
+
+\begin{enumerate}
+    \item \textbf{Value Proposition (What is offered):} The core product or service and the bundle of benefits it provides to the customer. In digital streaming, this is the content library and the convenience of "watch anywhere" access.
+    \item \textbf{Value Delivery (How it is reached):} The channels and technical infrastructure used to deliver the value. This includes the streaming platform, the Content Delivery Network (CDN), and the user interface. Crucially, it also includes the \textit{geographic segmentation} logic that determines who can access what.
+    \item \textbf{Value Capture (How money is made):} The revenue model and the mechanisms to sustain profitability. This encompasses the pricing strategy (e.g., price discrimination) and the enforcement mechanisms used to prevent revenue leakage (e.g., blocking arbitrage).
+\end{enumerate}
+
+\gls{vpn}-enabled arbitrage fundamentally attacks the \textbf{Value Capture} dimension by breaking the
+link between location and price. It also exploits the \textbf{Value Delivery} infrastructure (the
+open internet).
+Consequently, we hypothesize that firm responses will fall into two categories of innovation:
+\begin{itemize}
+    \item \textbf{Defensive Innovation (Value Capture Focus):} Reinforcing the barriers to protect the existing model (e.g., "Coercive" blocking).
+    \item \textbf{Adaptive Innovation (Value Proposition Focus):} Changing the product offer to make arbitrage irrelevant (e.g., "Adaptive" global pricing or ecosystems).
+\end{itemize}
+
+\subsection{Theoretical Framework: Protection vs. Pricing}
+The intersection of digital strategy and arbitrage has been extensively debated.
+\textcite{johnson2008reinventing} define the necessity of business model reinvention when
+facing disruptive shifts, while \textcite{granados2010electronic} show how e-commerce
+increases market efficiency by making arbitrage easier. However,
+\textcite{geda2023puzzle} note that this arbitrage often creates game-theoretic puzzles for
+firms, leading to complex responses such as those described by \textcite{mateus2018business}
+in the context of digital piracy. Furthermore, \textcite{beunza2004price} argue that price is
+ultimately a social construct, heavily influenced by the "material sociology" of the market—in
+this case, the \gls{vpn} technology that alters the visibility of the consumer.
+
+To categorize firm responses, we adopt the framework established by
+\textcite{sundararajan2004managing} on managing digital piracy, mapping it to our \gls{bmi}
+dimensions:
+\begin{itemize}
+    \item \textbf{Protection (Coercive / Value Capture):} Increasing the technological or legal costs of circumvention. This attempts to *repair* the broken Value Capture mechanism.
+    \item \textbf{Pricing (Adaptive / Value Proposition):} Adjusting the business model (pricing, versioning) to lower the economic incentive for arbitrage. This effectively *innovates* the Value Proposition to be less sensitive to location.
+\end{itemize}
+Firms face a fundamental trade-off: Is the cost of enforcing market segmentation (repairing
+Value Capture through blocking technology and legal resources) lower than the revenue lost to
+arbitrage?
+
+\subsection{Platforms and Ecosystem Control}
+Digital platforms operate within a fundamental tension between growth and control. To attract
+users and content creators, platforms must maintain a degree of openness that facilitates
+participation and innovation. However, to protect revenue streams and maintain quality,
+platforms must also exercise control over who accesses what content and at what price point.
+
+\gls{vpn} providers exploit this tension. They use the platform's content (e.g.,
+Netflix's streaming library) while bypassing its payment rules (regional pricing). This
+creates a technical and strategic cycle of countermeasures and counter-countermeasures:
+\begin{itemize}
+    \item \textbf{Coercive Strategies:} Legal threats embedded in \gls{tos}, IP address blocking, payment verification requirements, and strict geographic checks on billing addresses.
+    \item \textbf{Adaptive Strategies:} Standardizing global prices to remove the arbitrage incentive, creating ecosystem lock-in through hardware integration (e.g., Apple's approach), or developing content exclusive to specific regions rather than restricting access to a global catalog.
+\end{itemize}
+
+Critically, \textcite{parker2017innovation} demonstrate that platforms face an inherent
+tension between openness (which drives innovation and user growth) and control (which protects
+revenue and quality). Their framework suggests that the optimal balance point shifts depending
+on platform maturity and competitive dynamics. \gls{vpn} arbitrage directly exploits this
+fundamental trade-off, forcing platforms to reassess where that balance lies.
+
+The strategic implications are significant: platforms that choose aggressive blocking may
+sacrifice user experience and brand perception, while those that tolerate arbitrage may face
+revenue leakage. Neither approach is without cost, and the optimal strategy likely depends on
+the specific business model and competitive context of each platform.
+
+
+\section{Research Gap}
+\label{sec:theory_gap}
+
+While price discrimination theory (Varian) and platform strategy (Eisenmann et al., 2011) have
+been extensively researched independently, there remains a notable gap in empirical work
+connecting the \textit{size} of pricing incentives (as measured by indices like the \gls{dspi})
+with the \textit{specific strategic responses} of firms.
+
+Existing literature exhibits three main limitations:
+
+\begin{enumerate}
+    \item \textbf{Theoretical Isolation:} Most studies focus either exclusively on the economics of pricing (e.g., optimal price discrimination strategies) or on the legal aspects of copyright enforcement and digital rights management, but rarely examine the strategic interaction between these domains as mediated by consumer-side technology such as \glspl{vpn}.
+    
+    \item \textbf{Lack of Quantification:} While anecdotal evidence of geo-arbitrage is abundant in consumer forums and technology journalism, systematic quantification of the arbitrage incentive across services and regions is lacking. The \gls{dspi} addresses this gap by providing a standardized measurement framework.
+    
+    \item \textbf{Limited Strategic Analysis:} Previous research on digital piracy has examined how firms respond to unauthorized copying, but the distinct characteristics of geo-arbitrage (payment rather than piracy, location rather than access) warrant specialized investigation. The coercive-adaptive split proposed in this thesis provides a framework for categorizing these responses.
+\end{enumerate}
+
+This thesis addresses these gaps by: (1) measuring the arbitrage incentive via the \gls{dspi}; (2) 
+analyzing company documents to find enforcement strategies; and (3) linking price differences to 
+blocking intensity. This study gives a full picture of geo-arbitrage that has been missing 
+before.
+
+\chapter{Research Methodology}
+\label{chap:methodology}
+
+This chapter explains the methods used to answer the research questions. We describe how we
+built the \gls{dspi} to measure price differences and how we used AI to
+analyze how companies respond strategically. By using both numbers and text analysis, we get a
+clear picture of the geo-arbitrage world.
+
+\section{Research Design}
+
+This study uses a sequential explanatory mixed-methods design
+\parencite{creswell2017designing}, combining quantitative price analysis with qualitative text
+classification. The reason for this dual approach is to first show the \textit{size} of the
+economic problem (the arbitrage incentive) and then look at the \textit{strategic responses}
+of the actors involved.
+
+The quantitative phase (Phase 1) builds the \gls{dspi} to
+objectively measure differences in global digital service pricing. The qualitative phase
+(Phase 2) uses a \gls{llm} pipeline to classify corporate disclosures and
+\gls{tos}, finding the strategic frameworks firms use to manage or fight this variance.
+This integration provides a comprehensive understanding of the geo-arbitrage ecosystem based 
+on public documentation, though proprietary information and undisclosed technologies remain hidden.
+
+\section{Phase 1: Quantitative Data Collection (for RQ1)}
+
+\subsection{Data Collection}
+To construct the \gls{dspi}, a representative basket of 11 digital services was selected: Netflix,
+YouTube Premium, Disney+, Amazon Prime, Spotify, Apple Music, Microsoft 365, Adobe Creative
+Cloud, Xbox Game Pass, NordVPN, and ExpressVPN. These cover Video on Demand, Music Streaming,
+Software/Gaming, and \gls{vpn} services. Note that for the qualitative \gls{tos} analysis, Xbox Game Pass
+and Microsoft 365 are combined under ``Microsoft'' as they share the same corporate ecosystem,
+parent \gls{tos} framework, and enforcement infrastructure.
+
+Price data was collected from a sample of 11 countries to capture the full spectrum of
+purchasing power. The countries included are: Argentina, Brazil, Germany, Pakistan,
+Philippines, Poland, Switzerland, Turkey, Ukraine, United Kingdom, and the United States. Only
+countries with high-confidence official wage data were included.
+
+Data collection was performed using a \textbf{Digital Audit} design, adapting the methodology
+established by \textcite{hannak2014measuring} for detecting online price discrimination. A
+virtual presence was established in each target country using a commercial \gls{vpn} service to
+simulate local access, a technique now standard in information systems research for "mystery
+shopping" in digital markets. For each service and country, the monthly "Standard"
+subscription price was recorded in local currency. This approach mirrors the methodology of
+the "Billion Prices Project" \parencite{cavallo2017are}, which demonstrated the validity of
+using high-frequency online scraping to construct robust price indices that track real-time
+economic disparities more effectively than traditional CPI baskets.
+
+\subsection{Data Analysis}
+The raw price data was processed in two stages. First, all local prices were converted to a
+common currency (USD) using market exchange rates (recorded in December 2025) to find the
+``Nominal Price Inequality.'' Second, to measure ``Real Affordability,'' these prices were
+calculated as a percentage of the \textit{Median National Monthly Wage} (sourced from OECD and
+World Bank data), giving a direct measure of the economic burden on the local consumer
+(\gls{ptw} ratio). 
+This method reflects the ``Time-to-Earn'' required for each 
+subscription, mirroring the conceptual framework of the affordability-adjusted Big Mac Index 
+\parencite{pakko2003burgernomics}. This approach is proposed as a more targeted alternative 
+to standard global \gls{ppp} adjustments for three reasons:
+\begin{enumerate}
+    \item \textbf{Disposable Income focus:} Unlike standard \gls{ppp}, which includes non-discretionary costs like rent and food, the \gls{ptw} ratio specifically shows how much of a worker's ``free cash'' is consumed by a single digital subscription.
+    \item \textbf{Psychological Fairness (Time-to-Earn):} Arbitrageurs and consumers rarely consider complex macroeconomic baskets of goods; instead, they intuitively weigh a service's cost against the number of hours they must work to afford it.
+    \item \textbf{The Digital Paradox:} Since digital services have near-zero marginal costs ($MC \approx 0$), firm pricing is not driven by the cost of production (as in agricultural or industrial goods in a \gls{ppp} basket) but solely by the consumer's income-constrained willingness to pay.
+\end{enumerate}
+By using the \gls{ptw} ratio, this study isolates the affordability of globally identical 
+digital goods relative to local disposable income, providing a clearer view of the 
+strategic intent behind geographic price discrimination.
+
+It is important to note that a \gls{dspi} of 1.0 (Nominal Parity) does not imply equal
+affordability. Due to vast differences in median wages (e.g., Switzerland vs. Pakistan), a
+service priced identically in USD would be significantly more expensive for the Pakistani
+consumer in real terms (requiring a larger percentage of their income). Thus, the arbitrage
+incentive persists even at nominal parity if the local price is structured to be affordable
+for the local median earner.
+
+The \gls{dspi} was calculated as the ratio of the local price to the US baseline price. A \gls{dspi} of
+1.0 indicates price parity with the US market; a \gls{dspi} < 1.0 indicates a cheaper market
+(potential arbitrage source), and a \gls{dspi} > 1.0 indicates a more expensive market. Statistical
+variance analysis was performed to identify which service categories exhibit the highest
+degree of price discrimination.
+
+\section{Phase 2: Qualitative Data Collection \& Analysis (for RQ2)}
+
+\subsection{How we coded the data}
+We analyzed the data using a system inspired by the \textbf{Gioia Methodology}
+\parencite{gioia2013seeking}. This system divides the text into groups: raw terms, second-level
+themes (like ``Technical Blocking''), and larger categories (Strategic Responses). This gave
+us the basis for the AI sorting process described below.
+
+\section{Automated Text Classification}
+\label{sec:llm_methodology}
+
+To address the limits of older models in understanding the complex and legal language of \gls{tos}, we used an advanced system with the latest \glspl{llm}. We 
+upgraded from a BERT model to the \textit{Gemini 3 Flash} model.
+
+\subsection{Why we chose Gemini 3 Flash}
+We chose \textit{Gemini 3 Flash} because it is better at understanding complex text and 
+context. Older models often classify text based only on how words link together, but Gemini 
+can understand the meaning of whole sentences. This helps it tell the difference between 
+standard legal text and specific blocks.
+
+The main benefits were:
+\begin{itemize}
+    \item \textbf{Understanding Context}: It can tell the difference between a normal ``account suspension'' (for fraud) and a specific threat meant to stop \gls{vpn} use.
+    \item \textbf{Performance}: The model was very accurate without extra training.
+    \item \textbf{Speed}: The ``Flash'' model is very fast, letting us process over 25,000 sentences quickly.
+\end{itemize}
+
+\subsection{How we measured things (The Categories)}
+This system turns the idea of ``Strategic Response'' into data we can count. We used the 
+categories described below:
+
+\subsubsection{Strategic Frames}
+The model identifies the underlying justification provided by the firm:
+\begin{description}
+    \item[Content Licensing:] Framing geographic restrictions as mandatory legal obligations to third-party content owners or rights holders.
+    \item[Regulatory Compliance:] Framing price differences or access blocks as necessary to comply with local tax, trade, or data laws.
+    \item[Security Risk:] (Service Provider Frame) Positioning \glspl{vpn} and proxies as threats to account security, malware risks, or malicious activity.
+    \item[Privacy/Security:] (\gls{vpn} Provider Frame) Positioning circumvention tools as essential for user anonymity, encryption, and protection from surveillance.
+\end{description}
+
+\subsubsection{Strategic Actions and Baseline Classification}
+The model categorizes the specific implementation of the strategy into the following labels. To ensure reliability, we included a "Null" category to capture all non-strategic text:
+
+\begin{description}
+    \item[General Terms (Baseline):] Standard legal boilerplate, general definitions, and non-enforcement-related clauses. This serves as the primary filter for the dataset.
+    \item[Technical Blocking:] Active technological measures (IP filtering, device fingerprinting) to detect or block the use of \glspl{vpn} and proxies.
+    \item[Legal Threat:] Explicit clauses threatening account termination, suspension, or legal consequences for bypassing geographic barriers.
+    \item[Account Action:] Specific regulatory actions taken against accounts, such as termination or suspension (often merged into Legal Threat in the final strategy analysis).
+    \item[Price Discrimination:] Explicit documentation of regional pricing tiers, currency differences, or local subscription rules.
+    \item[Legitimate Portability:] Provisions allowing temporary cross-border access (e.g., for travelers), often mandated by regulations like the \gls{eu} Portability Regulation.
+\end{description}
+
+\subsection{How we built the system}
+We used a Python script to sort the data automatically.
+
+To make sure the AI worked the same way every time, we built a system prompt with clear rules. 
+The prompt we used is shown below:
+
+
+
+The "Content Providers" (\textbf{Netflix}, \textbf{YouTube}, \textbf{Disney+}) show a distinct move toward specialized enforcement clauses starting in 2022. While \textbf{Spotify} remains relatively boilerplate-heavy, \textbf{YouTube Premium} exhibits a massive surge in specific "Technical Blocking" and "Legal Threat" language, corresponding to their increased efforts to combat VPN-enabled subscription hopping in markets like Turkey and Pakistan.
+
+
+
+
+
+
+
+
+
+
+
+\subsection{The Utility Paradox (Adobe)}
+\textbf{Adobe} presents a unique case. It has high price discrimination (similar to Netflix)
+but relatively low ``Technical Blocking'' enforcement. Based on our analysis of Adobe's Terms
+of Service and product documentation, this appears to be because Adobe's enforcement mechanism
+is ``on-device'' (software activation keys) rather than ``on-network'' (IP filtering). This
+observation suggests that ``Technical Blocking'' is a strategy specific to
+\textit{cloud-streamed} content, whereas \textit{downloaded software} may rely on different
+protection mechanisms.
+
+
+
+However, a hybrid future appears to be emerging in the form of \textbf{"Always-Online \gls{drm}"}.
+Features like Adobe's cloud-dependent generative tools require authenticated connections to
+function, effectively merging network-based verification with identity authentication. This
+reflects the "Opportunities and Risks" of SaaS adoption \parencite{benlian2011opportunities},
+where control shifts from the client device to the cloud provider.
+\subsection{The Adversarial Cycle: A View Over Time}
+The relationship between providers and consumers is not static. Our historical analysis
+reveals a clear "Action-Reaction" cycle, visualized in Figure \ref{fig:timeline}.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[x=2cm, y=1cm]
+        % Draw the timeline line
+        \draw[->, thick] (0,0) -- (6.5,0) node[right] {Year};
+        
+        % Ticks and Labels
+        \foreach \x/\year in {0.5/2020, 2.0/2021, 3.5/2022, 5.0/2024} {
+            \draw[thick] (\x,0.1) -- (\x,-0.1);
+            \node[below=0.2cm] at (\x,0) {\textbf{\year}};
+        }
+
+        % Events Top (Corporate/Coercive)
+        \node[align=center, text width=3cm, above=1.5cm, font=\footnotesize] (pandemic) at
+        (0.5,0) {\textbf{Pandemic Surge}\\(Arbitrage Wave)};
+        \draw[thin] (0.5,0.2) -- (pandemic);
+
+        \node[align=center, text width=3cm, above=0.5cm, font=\footnotesize] (resip) at
+        (2.0,0) {\textbf{Residential IP Crackdown}\\(The ``Hard'' Filter)};
+        \draw[thin] (2.0,0.2) -- (resip);
+        
+        \node[align=center, text width=3cm, above=1.5cm, font=\footnotesize] (youtube) at
+        (3.5,0) {\textbf{YouTube Enforcement Surge}\\(Technical Blocking)};
+        \draw[thin] (3.5,0.2) -- (youtube);
+
+        % Events Bottom (VPN/Adaptive)
+        \node[align=center, text width=3cm, below=1.5cm, font=\footnotesize] (obfus) at
+        (0.5,0) {\textbf{Obfuscated Servers}\\(Chameleon/XOR)};
+        \draw[thin] (0.5,-0.2) -- (obfus);
+
+        \node[align=center, text width=3cm, below=2.5cm, font=\footnotesize] (wireguard) at (2.0,0) {\textbf{WireGuard \& NordLynx}\\(Speed + Stealth)};
+        \draw[thin] (2.0,-0.2) -- (wireguard);
+
+    \end{tikzpicture}
+    \caption{The Adversarial Timeline: Coercive Barriers vs. Technical Circumvention (2020--2025).}
+    \label{fig:timeline}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Netflix}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,61.3) (2021,44.2) (2022,43.6) (2023,44.1) (2024,57.1) (2025,57.7)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,22.6) (2021,25.6) (2022,28.2) (2023,35.3) (2024,39.3) (2025,33.8)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,2.3) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,12.9) (2021,27.9) (2022,28.2) (2023,14.7) (2024,3.6) (2025,4.2)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,3.2) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,4.2)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \hfill
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={YouTube}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \vspace{0.5cm}
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Disney+}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,50.0) (2021,52.6) (2022,60.0) (2023,58.6) (2024,58.1) (2025,76.5)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,22.2) (2021,26.3) (2022,5.0) (2023,31.0) (2024,17.6) (2025,0.0)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,27.8) (2021,21.1) (2022,35.0) (2023,10.3) (2024,18.9) (2025,23.5)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,5.4) (2025,0.0)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \hfill
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Amazon}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,50.0) (2021,50.0) (2022,46.2) (2023,58.8) (2024,42.1) (2025,28.6)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,33.3) (2021,50.0) (2022,53.8) (2023,41.2) (2024,31.6) (2025,39.3)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,5.3) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,7.1)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,16.7) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,7.1)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \vspace{0.5cm}
+    \caption{Strategic Evolution: Video Streaming Leaders (2020--2025). Grouping Netflix, YouTube, Disney+, and Amazon Prime.}
+    \label{fig:evol_video_main}
+\end{figure}
+
+% --- Generated Software Group ---
+\begin{figure}[ht]
+    \centering
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Spotify}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,63.4) (2021,52.0) (2022,70.3) (2023,53.3) (2024,25.9) (2025,33.3)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,24.4) (2021,32.0) (2022,24.3) (2023,42.2) (2024,48.1) (2025,66.7)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,12.2) (2021,16.0) (2022,5.4) (2023,4.4) (2024,25.9) (2025,0.0)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \hfill
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Apple}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,60.0) (2021,9.1) (2022,40.0) (2023,27.3) (2024,35.7) (2025,27.3)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,40.0) (2021,72.7) (2022,35.0) (2023,18.2) (2024,35.7) (2025,27.3)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,9.1) (2024,0.0) (2025,9.1)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,9.1) (2024,0.0) (2025,9.1)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,5.0) (2023,27.3) (2024,7.1) (2025,18.2)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \vspace{0.5cm}
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Microsoft}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,6.2) (2021,4.3) (2022,6.7) (2023,3.2) (2024,0.0) (2025,9.5)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,34.4) (2021,47.8) (2022,33.3) (2023,45.2) (2024,77.8) (2025,61.9)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,3.1) (2021,0.0) (2022,3.3) (2023,3.2) (2024,0.0) (2025,4.8)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,25.0) (2021,30.4) (2022,26.7) (2023,35.5) (2024,22.2) (2025,23.8)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \hfill
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=\linewidth, height=5cm, xlabel={Year}, ylabel={Share (\%)},
+                    xmin=2020, xmax=2025, xtick={2020,2022,2024},
+                    xticklabel style={/pgf/number format/set thousands separator={}},
+                    grid=major, legend pos=north west, legend style={font=\tiny},
+                    title={Adobe}, title style={font=\footnotesize\bfseries},
+                    ymin=0, ymax=100
+                ]
+                    \addplot[thick, color=tudablue, mark=square*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,28.6)  }; \addlegendentry{Content Licensing}
+                    \addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,75.0) (2021,85.7) (2022,90.9) (2023,100.0) (2024,38.1) (2025,28.6)  }; \addlegendentry{Regulatory Compliance}
+                    \addplot[thick, color=tudared, mark=x] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  }; \addlegendentry{Technical Blocking}
+                    \addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,12.5) (2021,14.3) (2022,0.0) (2023,0.0) (2024,52.4) (2025,28.6)  }; \addlegendentry{Price Discrimination}
+                    \addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,12.5) (2021,0.0) (2022,0.0) (2023,0.0) (2024,4.8) (2025,14.3)  }; \addlegendentry{Legal Threat}
+                \end{axis}
+            \end{tikzpicture}
+        \end{minipage}
+    \vspace{0.5cm}
+    \caption{Strategic Evolution: Music & Software (2020--2025). Grouping Spotify, Apple Music, Microsoft, and Adobe.}
+    \label{fig:evol_software_main}
+\end{figure}
+
+
+
+
+This timeline illustrates the dynamic relationship between corporate enforcement and consumer
+behavior. Early enforcement measures by streaming providers led \gls{vpn} providers to develop "Obfuscated
+Servers," which subsequently led to more sophisticated blocking techniques (circa
+2021). This pattern suggests an ongoing adaptation process on both sides.
+\subsection{The Secret Tech Race}
+Returning to the history of piracy, the modern world is defined by a growing tech race. Our 
+research shows that companies are getting much better at finding where users really are, even 
+with a high-quality \gls{vpn}. They no longer just block IP addresses; they use advanced tools like 
+Deep Packet Inspection (\gls{dpi}), AI to read traffic fingerprints, and ways to check browser data 
+for leaks.
+
+However, a main problem for research is that these tools are kept secret. Unlike the open 
+legal fights over Napster, modern geo-blocking happens in private. Companies keep their 
+methods secret so that \gls{vpn} providers can't adapt. This means that while we can see an 
+increase in blocking, it is hard to say exactly how the technology works.
+
+\section{Detailed Analysis}
+\label{sec:appendix_detailed_analysis}
+
+This section provides a deeper look at the data, analyzing the specific numbers that drive the strategic trends.
+
+To understand the macro-trends, we analyze how the total volume of policy text has shifted. Our analysis shows the overwhelming dominance of General Terms (legal boilerplate), which consistently make up over 90\% of all sentences (see Table \ref{tab:category_dist}). However, when we filter for \textit{strategic} categories (Figure \ref{fig:dist_strategic}), a clear pattern emerges: \textbf{Content Licensing} and \textbf{Regulatory Compliance} are the baseline "noise" of digital business, while \textbf{Technical Blocking} and \textbf{Account Action} show specific, event-driven spikes.
+
+% --- Distribution Strategic Categories Only ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar stacked,
+            width=0.9\textwidth,
+            height=8cm,
+            xlabel={Year},
+            ylabel={Share (\%)}
+            xmin=2019.5, xmax=2025.5,
+            ymin=0, ymax=100,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend style={at={(0.5,-0.2)}, anchor=north, legend columns=3, font=\footnotesize},
+            bar width=15pt,
+            area style,
+        ]
+            \addplot[ybar stacked, fill=blue, draw=black!50] coordinates { (2020,41.9) (2021,43.2) (2022,38.5) (2023,40.8) (2024,34.8) (2025,37.9) };
+            \addlegendentry{Content Licensing}
+            \addplot[ybar stacked, fill=orange, draw=black!50] coordinates { (2020,35.6) (2021,35.5) (2022,32.9) (2023,30.1) (2024,34.6) (2025,37.9) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[ybar stacked, fill=tudared, draw=black!50] coordinates { (2020,0.9) (2021,0.3) (2022,3.5) (2023,9.5) (2024,5.7) (2025,4.0) };
+            \addlegendentry{Technical Blocking}
+            \addplot[ybar stacked, fill=green!60!black, draw=black!50] coordinates { (2020,8.6) (2021,9.5) (2022,11.6) (2023,7.1) (2024,11.0) (2025,7.5) };
+            \addlegendentry{Price Discrimination}
+            \addplot[ybar stacked, fill=black, draw=black!50] coordinates { (2020,13.0) (2021,11.5) (2022,13.5) (2023,12.5) (2024,13.9) (2025,12.7) };
+            \addlegendentry{Enforcement Actions}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Distribution of Policy Text Categories Over Time (Strategic Categories Only).}
+    \label{fig:dist_strategic}
+\end{figure}
+
+
+As illustrated in the preceding analysis, the strategic categories are overwhelmingly dwarfed by general terms, which constitute over 90\% of all sentences (Table \ref{tab:category_dist}). Consequently, the strategic trends are best visualized by focusing exclusively on non-boilerplate categories, as shown in Figure \ref{fig:dist_strategic}.
+
+This section provides a deeper look at the data, analyzing the specific numbers that drive the strategic trends.
+
+\subsection{Country-Level Affordability Analysis}
+Table \ref{tab:app_dspi} presents the complete DSPI and Affordability (PTW) scores. Notably, while **Pakistan** appears cheapest ($DSPI=0.45$), it is relatively expensive for locals ($1.13\%$ of wage). In contrast, **Turkey** ($DSPI=0.65$) and **Argentina** ($DSPI=0.76$) show high nominal discounts, but Argentina's sky-high PTW ($3.28\%$) makes it an unlikely target for mass local adoption, suggesting pricing there is effectively "dollarized" for elites or external arbitrageurs.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabular}{l c c c}
+        \toprule
+        \textbf{Country} & \textbf{Avg. DSPI} & \textbf{N Services} & \textbf{Netflix PTW (\%)} \\
+        \midrule
+        Switzerland     & 1.24 & 11 & 0.33 \\
+        United Kingdom  & 1.04 & 11 & 0.24 \\
+        Germany         & 1.01 & 11 & 0.29 \\
+        United States   & 1.00 & 11 & 0.27 \\
+        Argentina       & 0.76 & 11 & 3.28 \\
+        Poland          & 0.77 & 11 & 0.73 \\
+        Turkey          & 0.65 & 11 & 1.22 \\
+        Ukraine         & 0.62 & 10 & 1.60 \\
+        Brazil          & 0.59 & 11 & 1.50 \\
+        Philippines     & 0.54 & 11 & 2.18 \\
+        Pakistan        & 0.45 &  9 & 1.13 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Complete DSPI Summary by Country. PTW = Netflix Standard subscription cost as \% of median monthly wage. Lower DSPI indicates cheaper markets relative to the US baseline.}
+    \label{tab:app_dspi}
+\end{table}
+
+\subsection{Service-Level Enforcement Trends}
+Table \ref{tab:app_timeline} details the enforcement intensity per company. Two distinct patterns emerge:
+\begin{itemize}
+    \item \textbf{Microsoft's Withdrawal:} Microsoft shows a consistent but low-level "background radiation" of legal checks (6-12 counts), but no sudden spikes. This supports the "Enterprise Fortress" theory—they rely on identity, not new blocking waves.
+    \item \textbf{YouTube's War:} YouTube shows a massive spike in 2023 (53 counts), confirming the "Enforcement Surge" visualized in the timeline. However, this drops to 31 in 2024 and 20 in 2025, suggesting a "cooldown" period where the new blocking rules became standard practice rather than new aggressive maneuvers.
+\end{itemize}
+
+\begin{table}[ht]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{l *{10}{r}}
+        \toprule
+        \textbf{Year} & \rotatebox{70}{\textbf{Adobe}} & \rotatebox{70}{\textbf{Amazon}} & \rotatebox{70}{\textbf{Apple}} & \rotatebox{70}{\textbf{Disney+}} & \rotatebox{70}{\textbf{ExpressVPN}} & \rotatebox{70}{\textbf{Microsoft}} & \rotatebox{70}{\textbf{Netflix}} & \rotatebox{70}{\textbf{NordVPN}} & \rotatebox{70}{\textbf{Spotify}} & \rotatebox{70}{\textbf{YouTube}} \\
+        \midrule
+        2020 & 2 & 1 & 0 & 0 & 0 & 9 & 1 & 0 & 0 & 1 \\
+        2021 & 0 & 0 & 0 & 0 & 0 & 7 & 1 & 0 & 0 & 0 \\
+        2022 & 0 & 0 & 1 & 0 & 0 & 9 & 0 & 0 & 0 & 16 \\
+        2023 & 0 & 0 & 4 & 0 & 0 & 12 & 0 & 0 & 0 & 53 \\
+        2024 & 1 & 0 & 1 & 4 & 0 & 6 & 0 & 3 & 0 & 31 \\
+        2025 & 1 & 2 & 3 & 0 & 5 & 6 & 3 & 0 & 0 & 20 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Enforcement-Related Sentence Counts by Year and Service (2020--2025). YouTube's sharp spike in 2022--2023 is clearly visible.}
+    \label{tab:app_timeline}
+\end{table}
+
+\section{Limits of the study}
+While this study gives us a new way to look at geo-arbitrage, there are some limits to our 
+findings.
+
+\subsection{Sample Size and Generalizability}
+The correlation analysis relies on a strategic sample of $N=10$ digital service
+providers. While these firms represent a significant majority of the consumer subscription
+market by capitalization, the sample is small in statistical terms. Consequently, the findings
+should be interpreted as "exploratory" evidence of strategic archetypes rather than a
+definitive "law" of digital economics. Future research could expand this dataset to include
+mid-tier SaaS providers to test if the "Enterprise Fortress" model holds for smaller B2B
+firms.
+
+\subsection{The "Average Citizen" Bias (Socioeconomic Mismatch)}
+Our "Affordability" metric calculates cost as a percentage of the \textit{Median National
+Monthly Wage}. However, in emerging markets like Turkey or Argentina, the target demographic
+for services like Netflix or Adobe is likely the urban upper-middle class, whose income is
+significantly higher than the national average.
+
+For instance, World Bank data and local surveys indicate that in Turkey, the top 20\% of
+earners capture nearly 48\% of total disposable income. Similarly, in Argentina, the top 10\%
+of earners have average monthly incomes exceeding \$496 USD, well above the national median.
+This implies that global digital services are aggressively priced to target this specific
+"Global Elite" segment. As \textcite{kastanakis2012between} argue, in markets with high income
+inequality, luxury consumption (including premium digital subscriptions) serves as a critical
+status signal for the upper class. This "Elite Targeting" pricing strategy explains why firms
+tolerate some level of piracy from the lower 80\%—they were never the primary customer segment
+to begin with.
+
+The Digital Services Price Index (\gls{dspi}) represents a snapshot of pricing data from December 2025. In hyperinflationary economies such as Argentina and Turkey (both classified as
+hyperinflationary under IAS 29), local currency prices are adjusted frequently in response to
+macroeconomic conditions. A ``cheap'' arbitrage opportunity identified in this thesis could be
+eliminated by a price adjustment or currency devaluation. The ``Arbitrage Window'' is
+therefore dynamic rather than static.
+
+\subsection{AI Classification Reliability}
+The use of Large Language Models (Gemini 3 Flash) creates a potential "Black Box" validity
+risk. To reduce this, we used the model's self-reported confidence scores as a filtering
+mechanism. The final dataset achieved an average confidence score of \textbf{0.947}, with
+\textbf{80.5\%} of classifications exceeding a confidence threshold of 0.9. This high degree
+of certainty suggests that the detection of "coercive" vs. "general" language is reliable,
+even without human verification for every datapoint.
+
+\subsection{What we learned about our methods}
+Beyond the main findings, this study shows that older BERT models are not good enough for 
+complex legal text. The comparison showed that BERT was only right 26.8\% of the time, which is 
+like guessing.
+
+The main difference is that BERT just looks for keywords, while Gemini can understand the 
+context. This means that future research should use modern AI like Gemini when trying to 
+analyze complex legal rules.
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+
+This final chapter sums up the findings of the thesis to answer the research questions. We
+discuss what this study adds to our understanding of economics and strategy, while also noting
+the limits of our research. Finally, we look at how new rules and technologies might continue to
+change digital business in the future.
+
+\section{Summary of Key Findings}
+This thesis looked at the strategic conflict between firms' price discrimination practices and
+consumer-driven geographic arbitrage in digital subscription markets.
+\begin{itemize}
+    \item[\gls{rq}1 (Economic Incentive):] The \gls{dspi} shows large price differences across markets, with discounts over 70\% in some regions, creating a strong reason for users to use \gls{vpn}-based arbitrage.
+    \item[\gls{rq}2 (Strategic Response):] Enforcement strategies are primarily determined by \textbf{Business Model Architecture}. Content streaming firms enforce strict geographic blocking due to licensing requirements. Software firms rely on cryptographic activation rather than network-based blocking. \gls{vpn} providers, by their nature, implement no geographic restrictions.
+    \item \textbf{Enforcement Evolution:} Firms have intensified technical countermeasures since 2022, but the persistent prominence of circumvention discussions suggests these barriers increase friction rather than eliminating arbitrage entirely.
+\end{itemize}
+
+\section{Contribution to Research}
+This study adds both methods and theory to digital economics.
+
+\textbf{New methods:}
+\begin{itemize}
+    \item \textbf{\gls{dspi}:} We created the \gls{dspi} as a new way to measure price discrimination for digital services.
+    \item \textbf{AI Legal Analysis:} This study shows that AI can successfully analyze thousands of legal sentences, setting a new path for future research in this field.
+\end{itemize}
+
+\textbf{Theoretical Contributions:}
+\begin{itemize}
+    \item \textbf{Extension of \gls{bmi} Theory:} The study extends \gls{bmi} theory by showing that consumer bypassing behaviors work as a disruptive force similar to technological innovation, forcing firms to fundamentally change their value capture mechanisms.
+    \item \textbf{Business Types:} The identification of four distinct types (Content Fortress, Ecosystem Fortress, Enterprise Fortress, Utility Paradox) provides a way for understanding how different business models respond to the same external threat.
+    \item \textbf{Piracy-Arbitrage Parallel:} By drawing explicit parallels between the digital piracy wave of the 2000s and contemporary geo-arbitrage, this thesis contributes to a longer-term understanding of how digital disruption forces business model adaptation.
+\end{itemize}
+
+
+\section{The Future}
+The world of geo-blocking is likely to change a lot in the coming years.
+
+\textbf{New Rules:}
+As rules like the \gls{eu}'s Digital Single Market change, geo-blocking may change completely. New 
+laws might move companies away from blocking and toward keeping prices the same everywhere.
+
+\textbf{Tech Evolution:}
+The arms race between blocking technology and bypassing tools shows no signs of slowing.
+Advanced techniques such as residential IP proxies, browser fingerprinting, and machine
+learning-based detection create a hard technical fight. Researchers
+should look at whether the rising cost of this arms race eventually makes geographic price
+discrimination economically unsustainable.
+
+\textbf{Market Prices Coming Together:}
+Ultimately, the cycle of blocking and bypassing may end not through better technology, but 
+through market forces that drive global prices together. As digital services become more 
+similar and competition grows, companies may find that the costs of keeping different regional 
+prices are higher than the benefits. In such a case, geo-arbitrage would stop being useful, not 
+because users are blocked, but because there is no longer a big price difference to exploit.
+
+\textbf{Future Research:}
+Future studies could build on this work by: (1) looking at more digital services; (2) tracking 
+\gls{dspi} changes over time to see how companies react to events; (3) asking 
+users about how they 
+feel and the ethics of geo-arbitrage; and (4) comparing how companies act in areas with 
+different rules to see how laws affect company strategy.
+
+
+
+
+
+\appendix
+\chapter{Supplementary Data Tables}
+\label{app:data_tables}
+
+This appendix contains the complete datasets underlying the analysis presented in this thesis. All data was collected in December 2025 and processed using the methodology described in Chapter~3.
+
+\section{Dataset Composition}
+\label{app:dataset_composition}
+
+Figure \ref{fig:app_company_dist} and Figure \ref{fig:app_doctype_dist} detail the specific breakdown of the analyzed corpus by company and document type.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            width=0.9\textwidth,
+            height=8cm,
+            xlabel={Total Sentences (N)},
+            symbolic y coords={ExpressVPN,NordVPN,Apple Music,Amazon Prime,Disney+,Netflix,Adobe,Spotify,YouTube Premium,Microsoft},
+            ytick=data,
+            nodes near coords,
+            nodes near coords align={horizontal},
+            xmin=0, xmax=7500,
+            bar width=12pt,
+            yticklabel style={font=\footnotesize},
+        ]
+            % Data from Analysis
+            \addplot[fill=blue!60] coordinates {
+                (60,ExpressVPN)
+                (110,NordVPN)
+                (1328,Apple Music)
+                (1639,Amazon Prime)
+                (2171,Disney+)
+                (2872,Netflix)
+                (3159,Adobe)
+                (3551,Spotify)
+                (4164,YouTube Premium)
+                (6516,Microsoft)
+            };
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Total Clause Counts by Company. The dataset is weighted towards Microsoft and YouTube due to the complexity and length of their multiple policy documents.}
+    \label{fig:app_company_dist}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            width=0.9\textwidth,
+            height=6cm,
+            xlabel={Total Sentences (N)},
+            symbolic y coords={Other,Shareholder Letter,Terms of Service,Earnings Call,10-K/Annual Report},
+            ytick=data,
+            nodes near coords,
+            nodes near coords align={horizontal},
+            xmin=0, xmax=12000,
+            bar width=15pt,
+            yticklabel style={font=\footnotesize},
+        ]
+            % Data from Analysis
+            \addplot[fill=green!60!black] coordinates {
+                (634,Other)
+                (1866,Shareholder Letter)
+                (6103,Terms of Service)
+                (6794,Earnings Call)
+                (10173,10-K/Annual Report)
+            };
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Distribution of Data by Document Type. Annual Reports (10-K) and Earnings Calls provide the bulk of strategic context, while ToS documents provide the specific enforcement clauses.}
+    \label{fig:app_doctype_dist}
+\end{figure}
+
+\section{Complete DSPI Data by Country}
+\label{app:dspi_complete}
+
+Table~\ref{tab:app_dspi} presents the average \gls{dspi} and affordability metrics for all 11 countries in the dataset, ordered by \gls{dspi} value.
+
+
+
+\section{Category Counts by Year (All Services)}
+\label{app:qual_timeline}
+
+For the detailed breakdown of enforcement categories by year, please refer to \textbf{Section \ref{sec:appendix_detailed_analysis}} (Table \ref{tab:qual_timeline_complete}).
+
+\section{Service-Level Category Distribution (Absolute Counts)}
+\label{app:service_stats}
+
+Table~\ref{tab:app_service_stats} presents the complete distribution of strategic frame counts for each of the 10 analyzed services.
+
+\begin{table}[ht]
+    \centering
+    \scriptsize
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{l *{11}{r} | r}
+        \toprule
+        \textbf{Service} & \rotatebox{70}{\textbf{Technical Blocking}} & \rotatebox{70}{\textbf{Price Discrimination}} & \rotatebox{70}{\textbf{Licensing}} & \rotatebox{70}{\textbf{Regulatory}} & \rotatebox{70}{\textbf{Legal Thr.}} & \rotatebox{70}{\textbf{Acc.\ Act.}} & \rotatebox{70}{\textbf{Privacy}} & \rotatebox{70}{\textbf{Sec.\ Risk}} & \rotatebox{70}{\textbf{Portab.}} & \rotatebox{70}{\textbf{Workaro.}} & \rotatebox{70}{\textbf{General}} & \rotatebox{70}{\textbf{Total}} \\
+        \midrule
+        YouTube   & 94 &  2 &  99 & 135 & 34 & 0 & 16 &  0 & 0 & 0 & 3{,}784 & 4{,}164 \\
+        Microsoft &  4 &  0 &  10 &  80 & 53 & 0 &  4 & 23 & 0 & 0 & 6{,}342 & 6{,}516 \\
+        Netflix   &  1 & 36 & 127 &  76 &  4 & 0 &  0 &  0 & 2 & 0 & 2{,}626 & 2{,}872 \\
+        Disney+   &  0 & 41 & 114 &  37 &  4 & 0 &  0 &  0 & 0 & 0 & 1{,}975 & 2{,}171 \\
+        Spotify   &  1 & 22 & 132 &  75 &  0 & 0 &  0 &  0 & 0 & 1 & 3{,}320 & 3{,}551 \\
+        Adobe     &  0 & 18 &   4 &  45 &  4 & 0 &  1 &  1 & 0 & 0 & 3{,}086 & 3{,}159 \\
+        Amazon    &  1 &  2 &  44 &  44 &  3 & 0 &  0 &  9 & 0 & 0 & 1{,}536 & 1{,}639 \\
+        Apple     &  2 &  2 &  28 &  29 &  8 & 0 &  5 &  6 & 0 & 0 & 1{,}248 & 1{,}328 \\
+        ExpressVPN&  1 &  1 &   0 &   2 &  4 & 0 &  1 &  0 & 0 & 0 &    51 &    60 \\
+        NordVPN   &  0 &  0 &   0 &   0 &  6 & 0 &  0 &  6 & 0 & 0 &    98 &   110 \\
+        \midrule
+        \textbf{Total} & \textbf{104} & \textbf{124} & \textbf{558} & \textbf{523} & \textbf{120} & \textbf{0} & \textbf{27} & \textbf{45} & \textbf{2} & \textbf{1} & \textbf{24,066} & \textbf{25,570} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Absolute Category Counts by Service. YouTube dominates Technical Blocking (N=94), while streaming services rely heavily on Content Licensing.}
+    \label{tab:app_service_stats}
+\end{table}
+
+\section{Fortress Index (Complete Ranking)}
+\label{app:fortress_index}
+
+For the complete Fortress Index ranking, please refer to \textbf{Section \ref{sec:appendix_detailed_analysis}} (Table \ref{tab:fortress_index_complete}).
+
+\chapter{Detailed Service Evolution}
+\label{app:service_evolution}
+
+This appendix presents evolution data for VPN providers, as the detailed evolution charts for other services have been integrated into Chapter \ref{chap:results} and Chapter \ref{chap:discussion}.
+
+\begin{figure}[ht]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                width=\linewidth,
+                height=5cm,
+                xlabel={Year},
+                ylabel={Sentences},
+                xmin=2018, xmax=2025,
+                xtick={2018,2020,2022,2024},
+                xticklabel style={/pgf/number format/set thousands separator={}},
+                grid=major,
+                legend pos=north west,
+                legend style={font=\tiny},
+                title={Generic VPN (Aggregated)},
+                title style={font=\footnotesize\bfseries}
+            ]
+                \addplot[thick, color=red, mark=pentagon*] coordinates { (2020,8) (2021,7) (2022,8) (2023,11) (2024,6) (2025,5) };
+                \addlegendentry{Legal Thr.}
+                \addplot[thick, color=brown!60!black, mark=otimes] coordinates { (2020,1) (2021,2) (2022,3) (2023,5) (2024,1) (2025,0) };
+                \addlegendentry{Priv./Sec.}
+            \end{axis}
+        \end{tikzpicture}
+    \end{minipage}
+    \caption{Evolution of VPN Provider Enforcement. Note: Specific VPN graphs have been excluded for brevity as they show minimal variation.}
+    \label{fig:app_vpn_evolution}
+\end{figure}
+
+\chapter{Model Methodology and Validation}
+\label{app:model_validation}
+
+This appendix provides detailed metrics comparing the performance of the BERT baseline model and the Gemini 3 Flash model used for the final classification of the 25,570 sentences in the dataset.
+
+\section{Model Distribution Comparison}
+
+Figure \ref{fig:gemini_vs_bert} compares the category distribution percentages between the two models. As discussed in Chapter \ref{chap:methodology}, the BERT model exhibited significant over-classification of rare categories and poor handling of legal boilerplate (General Terms), while Gemini 3 Flash demonstrated a more nuanced understanding of context.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar,
+            width=0.95\textwidth,
+            height=8cm,
+            symbolic x coords={Licensing,Regulatory,Legal Threat,Price Discr.,Tech. Block.,Sec. Risk,Privacy,Portability,Workaround,General},
+            xtick=data,
+            xticklabel style={rotate=45, anchor=north east, font=\footnotesize},
+            ylabel={Share of Dataset (\%)},
+            legend style={at={(0.5,-0.35)}, anchor=north, legend columns=-1, font=\small},
+            ymin=0, ymax=100,
+            bar width=10pt,
+            nodes near coords,
+            every node near coord/.append style={font=\tiny, rotate=90, anchor=west},
+            /pgf/number format/fixed, /pgf/number format/precision=1
+        ]
+            % Gemini %
+            \addplot[fill=blue!60] coordinates {
+                (Licensing,2.2) (Regulatory,2.1) (Legal Threat,0.5) (Price Discr.,0.5) (Tech. Block.,0.4) 
+                (Sec. Risk,0.2) (Privacy,0.1) (Portability,0.0) (Workaround,0.0) (General,94.1)
+            };
+            % BERT %
+            \addplot[fill=red!60] coordinates {
+                (Licensing,5.8) (Regulatory,0.4) (Legal Threat,0.0) (Price Discr.,0.0) (Tech. Block.,0.1) 
+                (Sec. Risk,0.0) (Privacy,0.0) (Portability,32.0) (Workaround,9.7) (General,26.1)
+            };
+            \legend{Gemini 3 Flash, BERT Baseline}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Model Comparison: Gemini vs. BERT Category Distribution. BERT's massive over-classification of "Portability" (32.0\%) and "User Workaround" (9.7\%) underscores its lack of legal context compared to Gemini.}
+    \label{fig:gemini_vs_bert}
+\end{figure}
+
+\section{Gemini Model Breakdown}
+
+Figure \ref{fig:gemini_breakdown} shows the absolute sentence counts for each category as identified by the Gemini model (excluding General Terms).
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            width=0.9\textwidth,
+            height=7cm,
+            symbolic y coords={Content Licensing,Regulatory Compliance,Legal Threat,Price Discrimination,Technical Blocking,Security Risk,Privacy/Security,Legitimate Portability,User Workaround},
+            ytick=data,
+            xlabel={Sentence Count (N)},
+            nodes near coords,
+            bar width=15pt,
+            xmin=0, xmax=600
+        ]
+            \addplot[fill=blue!40] coordinates {
+                (558,Content Licensing) (523,Regulatory Compliance) (120,Legal Threat) (124,Price Discrimination) 
+                (104,Technical Blocking) (45,Security Risk) (27,Privacy/Security) (2,Legitimate Portability) (1,User Workaround)
+            };
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Gemini 3 Flash: Absolute Category Frequencies (Excluding General Terms).}
+    \label{fig:gemini_breakdown}
+\end{figure}
+
+
+
+\chapter{Dataset Overview and Additional Analysis}
+\label{app:dataset_overview}
+
+\section{Document Type Distribution}
+
+Table \ref{tab:doc_type_dist} presents the distribution of the 25,570 analyzed sentences by document type, showing the relative composition of the dataset corpus.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{l r r}
+        \toprule
+        \textbf{Document Type} & \textbf{Total Sentences} & \textbf{Share (\%)} \\
+        \midrule
+        10-K / Annual Report & 10,173 & 39.79 \\
+        Earnings Call Transcript & 6,794 & 26.57 \\
+        Terms of Service & 6,103 & 23.87 \\
+        Shareholder Letter & 1,866 & 7.30 \\
+        Other & 634 & 2.48 \\
+        \midrule
+        \textbf{Total} & \textbf{25,570} & \textbf{100.00} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Dataset Composition by Document Type. Regulatory filings (10-K reports) represent the largest share, followed by earnings calls and Terms of Service documents.}
+    \label{tab:doc_type_dist}
+\end{table}
+
+% Figures moved to main text
+
+\backmatter
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \printbibliography
+
+    %--- List of Figures and Tables ---
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{List of Figures and Tables}
+    \chapter*{List of Figures and Tables}
+    \makeatletter
+        \section*{\listfigurename} 
+        \@starttoc{lof} 
+        \vspace{1em} 
+        \section*{\listtablename}
+        \@starttoc{lot} 
+    \makeatother
+
+    %--- Glossary and Acronyms ---
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Glossary and Acronyms}
+    \chapter*{Glossary and Acronyms}
+    \printglossaries
+
+    \affidavit
+
+
+\end{document}
+
+
+
+
+

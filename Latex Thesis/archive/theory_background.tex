@@ -1,0 +1,112 @@
+\label{chap:theory}
+
+This chapter establishes the theoretical foundations by connecting economic pricing theory with business strategy and consumer behavior research.
+
+\section{Economic Foundations of International Price Setting}
+\label{sec:theory_pricing}
+
+To understand why consumers engage in geo-arbitrage, we must first establish why firms create the price disparities that make such arbitrage profitable. Geographic price differentiation is not arbitrary but follows well-established economic principles.
+
+\subsection{Third-Degree Price Discrimination}
+According to Varian (1989), third-degree price discrimination happens when a firm divides the market based on visible traits—in this case, geographic location—and charges different prices to each group. For digital goods, where the cost of copying is near zero ($MC \approx 0$) \parencite{shapiro1998information,amit2001value}, this strategy allows firms to get the most consumer surplus from both high-income (e.g., Switzerland) and low-income (e.g., Turkey) markets at the same time.
+
+Two conditions must hold for successful price discrimination:
+\begin{itemize}
+    \item \textit{Condition 1: Market Segmentation.} The firm must be able to distinguish between consumer groups based on observable characteristics such as IP address or billing location.
+    \item \textit{Condition 2: No Arbitrage.} The firm must be able to prevent the resale or transfer of the good between segments.
+\end{itemize}
+VPN-enabled geo-arbitrage directly undermines \textit{Condition 2}, effectively collapsing the distinct market segments into a single global market.
+
+\subsection{Purchasing Power Parity (PPP) as a Benchmark}
+The "Law of One Price" suggests that in an efficient market, identical goods should sell at the same price when shown in a common currency. However, differences from this law are common. \textcite{rogoff1996ppp} argues that for physical goods, shipping costs and trade barriers justify price differences. In the digital world, \textcite{clemons2002price} note that while transaction costs are much lower, price differences continue because firms can set up detailed customer segmentation.
+
+We use Purchasing Power Parity (PPP) as a benchmark for "economically justified" pricing. If a Netflix subscription in Turkey is cheaper than in the US only because of currency value and local purchasing power, this fits standard economic theory. However, if the price difference is bigger than what PPP adjustments would predict, it creates a "super-normal" arbitrage incentive—a price gap that motivates bypassing beyond simple purchasing power factors. We measure this through the Digital Services Price Index (DSPI).
+
+\section{Consumer Circumvention and the Piracy Parallel}
+\label{sec:theory_piracy}
+
+Consumer-driven arbitrage is not new \parencite{geda2023puzzle}. The digital "geo-arbitrage" pattern can be understood by looking at the history of digital piracy.
+
+\subsection{The Piracy Analogue}
+\textcite{oberholzer2007effect} showed that file-sharing forced the music industry to change its business model, eventually leading to legitimate digital distribution platforms like iTunes and Spotify. This historical example helps us understand VPN-based geo-arbitrage. Similarly, geo-arbitrage works as a market signal, showing a basic mismatch between rigid regional pricing structures and the borderless reality of the global internet.
+
+The parallel is instructive: just as Napster and BitTorrent exposed the music industry's failure to meet consumer demand for convenient digital access, VPN-enabled price hopping exposes the sustainability challenges of global price discrimination in an interconnected digital economy. In both cases, technological innovation by consumers preceded strategic adaptation by firms.
+
+However, a key distinction emerges between the two phenomena:
+\begin{itemize}
+    \item \textit{Access vs. Price:} This thesis proposes a key analytical distinction: traditional piracy was often driven by access barriers (``content not available in my region''), whereas geo-arbitrage appears primarily motivated by price differentials or region-specific licensing restrictions. Piracy involved no payment; geo-arbitrage involves payment, albeit at unintended price points.
+    \item \textit{Legal Status:} Digital piracy clearly violates copyright law, while geo-arbitrage occupies a legal gray zone. Users are paying for legitimate subscriptions; they are simply misrepresenting their location to obtain more favorable pricing.
+    \item \textit{Industry Response:} The music industry eventually responded to piracy through business model innovation (streaming subscriptions). Whether similar adaptive responses will emerge in the geo-arbitrage context remains an open question this thesis investigates.
+\end{itemize}
+
+
+\subsection{The Three-Level Mechanism of Circumvention}
+Drawing from behavioral ethics literature and the work of \textcite{wang2014three} on digital piracy, the decision to engage in geo-arbitrage can be modeled as a three-level mechanism. This framework helps explain why otherwise law-abiding consumers engage in "digital smuggling":
+
+\begin{enumerate}
+    \item \textbf{Individual Level (Rational Choice / Personal Risk):} The consumer performs a cost-benefit analysis. The financial gain (e.g., a 70\% discount on Netflix Turkey) is weighed against the perceived probability of detection and the severity of punishment (e.g., account termination). When enforcement is perceived as inconsistent, the perceived risk may be low.
+    \item \textbf{Inter-personal Level (Social Influence):} The behavior may be reinforced by online communities (e.g., Reddit, Discord). Observing others successfully using VPNs can lower the psychological barrier to entry, consistent with social influence research \parencite{kastanakis2012between}.
+    \item \textbf{Societal Level (Moral Intensity):} The perception of the act is pivotal. Unlike shoplifting a physical good, digital arbitrage may be framed by users not as theft, but as a response to pricing perceived as unfair. This framing aligns with neutralization theory \parencite{mateus2018business}.
+\end{enumerate}
+
+\section{Strategic Management and Business Model Innovation}
+\label{sec:theory_strategy}
+
+Faced with this disruption, firms must adapt. We analyze their responses using Business Model Innovation (BMI). As defined by \textcite{wirtz2016business} and grouped by \textcite{foss2017fifteen}, BMI means rethinking the value offer and delivery methods in response to outside shocks.
+
+\subsection{Dimensions of Business Model Innovation}
+To rigorously analyze how firms adapt, we deconstruct their business models into three core dimensions, following the framework proposed by \textcite{teece2010business} and adapted for digital markets by \textcite{amit2012value}:
+
+\begin{enumerate}
+    \item \textbf{Value Proposition (What is offered):} The core product or service and the bundle of benefits it provides to the customer. In digital streaming, this is the content library and the convenience of "watch anywhere" access.
+    \item \textbf{Value Delivery (How it is reached):} The channels and technical infrastructure used to deliver the value. This includes the streaming platform, the Content Delivery Network (CDN), and the user interface. Crucially, it also includes the \textit{geographic segmentation} logic that determines who can access what.
+    \item \textbf{Value Capture (How money is made):} The revenue model and the mechanisms to sustain profitability. This encompasses the pricing strategy (e.g., price discrimination) and the enforcement mechanisms used to prevent revenue leakage (e.g., blocking arbitrage).
+\end{enumerate}
+
+VPN-enabled arbitrage fundamentally attacks the **Value Capture** dimension by breaking the link between location and price. It also exploits the **Value Delivery** infrastructure (the open internet).
+Consequently, we hypothesize that firm responses will fall into two categories of innovation:
+\begin{itemize}
+    \item \textbf{Defensive Innovation (Value Capture Focus):} Reinforcing the barriers to protect the existing model (e.g., "Coercive" blocking).
+    \item \textbf{Adaptive Innovation (Value Proposition Focus):} Changing the product offer to make arbitrage irrelevant (e.g., "Adaptive" global pricing or ecosystems).
+\end{itemize}
+
+\subsection{Theoretical Framework: Protection vs. Pricing}
+The intersection of digital strategy and arbitrage has been extensively debated. \textcite{johnson2008reinventing} define the necessity of business model reinvention when facing disruptive shifts, while \textcite{granados2010electronic} illustrate how e-commerce inherently increases market efficiency by facilitating spatial arbitrage. However, \textcite{geda2023puzzle} note that this arbitrage often creates game-theoretic puzzles for firms, leading to complex responses such as those described by \textcite{mateus2018business} in the context of digital piracy. Furthermore, \textcite{beunza2004price} argue that price is ultimately a social construct, heavily influenced by the "material sociology" of the market—in this case, the VPN technology that alters the visibility of the consumer.
+
+To categorize firm responses, we adopt the framework established by \textcite{sundararajan2004managing} on managing digital piracy, mapping it to our BMI dimensions:
+\begin{itemize}
+    \item \textbf{Protection (Coercive / Value Capture):} Increasing the technological or legal costs of circumvention. This attempts to *repair* the broken Value Capture mechanism.
+    \item \textbf{Pricing (Adaptive / Value Proposition):} Adjusting the business model (pricing, versioning) to lower the economic incentive for arbitrage. This effectively *innovates* the Value Proposition to be less sensitive to location.
+\end{itemize}
+Firms face a fundamental trade-off: Is the cost of enforcing market segmentation (repairing Value Capture through blocking technology and legal resources) lower than the revenue lost to arbitrage?
+
+\subsection{Platforms and Ecosystem Control}
+Digital platforms operate within a fundamental tension between growth and control. To attract users and content creators, platforms must maintain a degree of openness that facilitates participation and innovation. However, to protect revenue streams and maintain quality, platforms must also exercise control over who accesses what content and at what price point.
+
+VPN providers exploit this inherent tension. They leverage the platform's content (e.g., Netflix's streaming library) while bypassing its payment rules (regional pricing). This creates a technical and strategic cycle of countermeasures and counter-countermeasures:
+\begin{itemize}
+    \item \textbf{Coercive Strategies:} Legal threats embedded in Terms of Service, IP address blocking, payment verification requirements, and strict geographic checks on billing addresses.
+    \item \textbf{Adaptive Strategies:} Standardizing global prices to remove the arbitrage incentive, creating ecosystem lock-in through hardware integration (e.g., Apple's approach), or developing content exclusive to specific regions rather than restricting access to a global catalog.
+\end{itemize}
+
+Critically, \textcite{parker2017innovation} demonstrate that platforms face an inherent tension between openness (which drives innovation and user growth) and control (which protects revenue and quality). Their framework suggests that the optimal balance point shifts depending on platform maturity and competitive dynamics. VPN arbitrage directly exploits this fundamental trade-off, forcing platforms to reassess where that balance lies.
+
+The strategic implications are significant: platforms that choose aggressive blocking may sacrifice user experience and brand perception, while those that tolerate arbitrage may face revenue leakage. Neither approach is without cost, and the optimal strategy likely depends on the specific business model and competitive context of each platform.
+
+
+\section{Research Gap}
+\label{sec:theory_gap}
+
+While price discrimination theory (Varian) and platform strategy (Eisenmann et al., 2011) have been extensively researched independently, there remains a notable gap in empirical work connecting the \textit{magnitude} of pricing incentives (as measured by indices like the DSPI) with the \textit{specific strategic responses} adopted by firms.
+
+Existing literature exhibits three main limitations:
+
+\begin{enumerate}
+    \item \textbf{Theoretical Isolation:} Most studies focus either exclusively on the economics of pricing (e.g., optimal price discrimination strategies) or on the legal aspects of copyright enforcement and digital rights management, but rarely examine the strategic interaction between these domains as mediated by consumer-side technology such as VPNs.
+    
+    \item \textbf{Lack of Quantification:} While anecdotal evidence of geo-arbitrage is abundant in consumer forums and technology journalism, systematic quantification of the arbitrage incentive across services and regions is lacking. The Digital Services Price Index (DSPI) addresses this gap by providing a standardized measurement framework.
+    
+    \item \textbf{Limited Strategic Analysis:} Previous research on digital piracy has examined how firms respond to unauthorized copying, but the distinct characteristics of geo-arbitrage (payment rather than piracy, location rather than access) warrant specialized investigation. The coercive-adaptive dichotomy proposed in this thesis provides a framework for categorizing these responses.
+\end{enumerate}
+
+This thesis addresses these gaps through a mixed-methods approach that: (1) quantifies the arbitrage incentive via the DSPI; (2) systematically analyzes corporate disclosures to identify enforcement strategies; and (3) links pricing variance to enforcement intensity through correlation analysis. By bridging economic theory, consumer behavior research, and strategic management, this study contributes a holistic perspective on the geo-arbitrage phenomenon that has been absent from the literature.

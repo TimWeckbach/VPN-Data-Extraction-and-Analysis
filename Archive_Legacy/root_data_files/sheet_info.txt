@@ -1,0 +1,100 @@
+﻿SHEET: Sheet1 | 1009r x 22c
+  H: ['Price of', 'None', 'None', '2020-2025', 'Netflix', 'Youtube Premium', 'Disney Plus', 'Amazon Prime', 'Spotify', 'Apple Music', 'Microsoft 365 (Perso', 'Adobe Creative Cloud', 'Xbox Game Pass (Ulti', 'NordVPN', 'ExpressVPN', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet2 | 38r x 4c
+  H: ['Code Book', 'None', 'None', 'None']
+SHEET: Thesis_Dataset_Master_Redefined | 25594r x 9c
+  H: ['Year', 'Company', 'Doc_Type', 'Sentence', 'Label', 'Score', 'Source', 'New_Category', 'Confidence']
+SHEET: Thesis_Dataset_Master_V8_LLM | 198r x 3c
+  H: ['Source', 'Category', 'Sentence']
+SHEET: Thesis_Results_Final_V5 | 21946r x 7c
+  H: ['2022', 'Adobe', 'TermsOfService', 'These General Terms ', 'business model adapt', '0.9179', '2022-08_Adobe_ToS_US']
+SHEET: Analysis_Pivot_Company_Label | 13r x 4c
+  H: ['Company', 'business model adapt', 'coercive restriction', 'general corporate op']
+SHEET: Analysis_Trend_Over_Time | 10r x 13c
+  H: ['Year', 'Adobe', 'Amazon', 'Amazon Prime', 'Apple Music', 'Disney+', 'ExpressVPN', 'Microsoft', 'Netflix', 'NordVPN', 'PurePlayer', 'Spotify', 'Youtube Premium']
+SHEET: DATA_PERT_BERT | 25594r x 11c
+  H: ['Year', 'Company', 'Doc_Type', 'Sentence', 'Label', 'Score', 'Source', 'New_Category', 'Confidence', 'BERT_Category', 'BERT_Score']
+SHEET: DSPI_Data | 141r x 18c
+  H: ['Year', 'Service', 'Country', 'Original_Price', 'Currency', 'Exchange_Rate', 'Price_USD', 'US_Baseline_Price', 'DSPI', 'Monthly_Salary_USD', 'Affordability_Wage_B', 'Real_Diff_USD', 'Real_Diff_USD_%', 'Conversion_Date', 'Date Collected', 'None', 'None', 'None']
+SHEET: Correlation_Data | 100r x 3c
+  H: ['Service', 'Price Discrimination', 'Enforcement Intensit']
+SHEET: Chart1 Price Discrimination Sco | 12r x 3c
+  H: ['None', 'None', 'None']
+SHEET: Thesis_Dataset_Master_BERT | 25594r x 11c
+  H: ['Year', 'Company', 'Doc_Type', 'Sentence', 'Label', 'Score', 'Source', 'New_Category', 'Confidence', 'BERT_Category', 'BERT_Score']
+SHEET: Model_Comparison | 100r x 6c
+  H: ['Category', 'Gemini Count', 'Gemini %', 'BERT Count', 'BERT %', 'Delta (Gemini-BERT)']
+SHEET: DATA_CATEGORIZED_GEMINI_3 | 25571r x 11c
+  H: ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score', 'Doc_Type', 'None', 'None', 'None', 'None', 'None']
+SHEET: Dashboard_Stats | 12r x 6c
+  H: ['Company Distribution', 'None', 'None', 'None', 'Document Type Distri', 'None']
+SHEET: Qual_Counts | 100r x 4c
+  H: ['Category', 'Count', 'Percent', 'Percent']
+SHEET: Qual_Raw | 25571r x 6c
+  H: ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score', 'Doc_Type']
+SHEET: Service_Stats | 11r x 12c
+  H: ['Service', 'Technical Blocking', 'Price Discrimination', 'Content Licensing', 'Regulatory Complianc', 'Legal Threat', 'Account Action', 'Privacy/Security', 'Security Risk', 'Legitimate Portabili', 'User Workaround', 'General Terms']
+SHEET: Timeline_Details | 1101r x 23c
+  H: ['Year', 'Service', 'Category', 'Count', 'Percentage', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Ratio Over Time by Category (Al | 13r x 27c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Qual_Timeline | 11r x 12c
+  H: ['Year', 'Technical Blocking', 'Price Discrimination', 'Content Licensing', 'Regulatory Complianc', 'Legal Threat', 'Account Action', 'Privacy/Security', 'Security Risk', 'Legitimate Portabili', 'User Workaround', 'General Terms']
+SHEET: Deep_Dive_Stats | 100r x 26c
+  H: ['Relative Category Sh', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Qual_Master | 25571r x 6c
+  H: ['Year', 'Service', 'Sentence', 'New_Category', 'Confidence_Score', 'Doc_Type']
+SHEET: Service_Evolution | 181r x 12c
+  H: ['Microsoft Live Table', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Distribution of Policy Text Cat | 24r x 11c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Chart1 Distribution of Policy T | 1r x 1c
+  H: ['None']
+SHEET: Terms of Service by Category an | 37r x 71c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Chart1 Terms of Service Sentenc | 9r x 6c
+  H: ['None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet4 | 10r x 10c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet5 | 5r x 6c
+  H: ['None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet6 | 4r x 7c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet7 | 10r x 5c
+  H: ['None', 'None', 'None', 'None', 'None']
+SHEET: Sheet8 | 9r x 6c
+  H: ['None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet9 | 5r x 4c
+  H: ['None', 'None', 'None', 'None']
+SHEET: Sheet10 | 6r x 4c
+  H: ['None', 'None', 'None', 'None']
+SHEET: Sheet11 | 11r x 7c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet12 | 9r x 5c
+  H: ['None', 'None', 'None', 'None', 'None']
+SHEET: Sheet13 | 8r x 5c
+  H: ['None', 'None', 'None', 'None', 'None']
+SHEET: Sheet14 | 10r x 6c
+  H: ['None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet15 | 10r x 8c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Sheet16 | 10r x 4c
+  H: ['None', 'None', 'None', 'None']
+SHEET: Sheet17 | 6r x 3c
+  H: ['None', 'None', 'None']
+SHEET: Sheet18 | 9r x 5c
+  H: ['None', 'None', 'None', 'None', 'None']
+SHEET: Sheet19 | 5r x 5c
+  H: ['None', 'None', 'None', 'None', 'None']
+SHEET: Sheet20 | 5r x 3c
+  H: ['None', 'None', 'None']
+SHEET: Sheet21 | 4r x 6c
+  H: ['None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Chart1 Percentage of Incidents  | 13r x 12c
+  H: ['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+SHEET: Analysis_Timeline | 10r x 11c
+  H: ['Year', 'Adobe', 'Amazon Prime', 'Apple Music', 'Disney+', 'ExpressVPN', 'Microsoft', 'Netflix', 'NordVPN', 'Spotify', 'Youtube Premium']
+SHEET: Analysis_FortressIndex | 11r x 2c
+  H: ['Company', 'Fortress_Score']
+SHEET: Analysis_Keywords | 31r x 2c
+  H: ['Keyword', 'Frequency']

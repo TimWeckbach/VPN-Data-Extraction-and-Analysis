@@ -1,0 +1,1101 @@
+Year,Service,Category,Count,Percentage
+2016,Microsoft,Technical Blocking,0,0.00%
+2016,Microsoft,Price Discrimination,0,0.00%
+2016,Microsoft,Content Licensing,0,0.00%
+2016,Microsoft,Regulatory Compliance,0,0.00%
+2016,Microsoft,Legal Threat,0,0.00%
+2016,Microsoft,Account Action,0,0.00%
+2016,Microsoft,Privacy/Security,0,0.00%
+2016,Microsoft,Security Risk,0,0.00%
+2016,Microsoft,Legitimate Portability,0,0.00%
+2016,Microsoft,User Workaround,0,0.00%
+2016,Microsoft,General Terms,0,0.00%
+2016,Youtube Premium,Technical Blocking,0,0.00%
+2016,Youtube Premium,Price Discrimination,0,0.00%
+2016,Youtube Premium,Content Licensing,0,0.00%
+2016,Youtube Premium,Regulatory Compliance,0,0.00%
+2016,Youtube Premium,Legal Threat,0,0.00%
+2016,Youtube Premium,Account Action,0,0.00%
+2016,Youtube Premium,Privacy/Security,0,0.00%
+2016,Youtube Premium,Security Risk,0,0.00%
+2016,Youtube Premium,Legitimate Portability,0,0.00%
+2016,Youtube Premium,User Workaround,0,0.00%
+2016,Youtube Premium,General Terms,0,0.00%
+2016,Spotify,Technical Blocking,0,0.00%
+2016,Spotify,Price Discrimination,0,0.00%
+2016,Spotify,Content Licensing,0,0.00%
+2016,Spotify,Regulatory Compliance,0,0.00%
+2016,Spotify,Legal Threat,0,0.00%
+2016,Spotify,Account Action,0,0.00%
+2016,Spotify,Privacy/Security,0,0.00%
+2016,Spotify,Security Risk,0,0.00%
+2016,Spotify,Legitimate Portability,0,0.00%
+2016,Spotify,User Workaround,0,0.00%
+2016,Spotify,General Terms,0,0.00%
+2016,Adobe,Technical Blocking,0,0.00%
+2016,Adobe,Price Discrimination,0,0.00%
+2016,Adobe,Content Licensing,0,0.00%
+2016,Adobe,Regulatory Compliance,0,0.00%
+2016,Adobe,Legal Threat,0,0.00%
+2016,Adobe,Account Action,0,0.00%
+2016,Adobe,Privacy/Security,0,0.00%
+2016,Adobe,Security Risk,0,0.00%
+2016,Adobe,Legitimate Portability,0,0.00%
+2016,Adobe,User Workaround,0,0.00%
+2016,Adobe,General Terms,0,0.00%
+2016,Netflix,Technical Blocking,0,0.00%
+2016,Netflix,Price Discrimination,0,0.00%
+2016,Netflix,Content Licensing,0,0.00%
+2016,Netflix,Regulatory Compliance,0,0.00%
+2016,Netflix,Legal Threat,0,0.00%
+2016,Netflix,Account Action,0,0.00%
+2016,Netflix,Privacy/Security,0,0.00%
+2016,Netflix,Security Risk,0,0.00%
+2016,Netflix,Legitimate Portability,0,0.00%
+2016,Netflix,User Workaround,0,0.00%
+2016,Netflix,General Terms,0,0.00%
+2016,Disney+,Technical Blocking,0,0.00%
+2016,Disney+,Price Discrimination,0,0.00%
+2016,Disney+,Content Licensing,0,0.00%
+2016,Disney+,Regulatory Compliance,0,0.00%
+2016,Disney+,Legal Threat,0,0.00%
+2016,Disney+,Account Action,0,0.00%
+2016,Disney+,Privacy/Security,0,0.00%
+2016,Disney+,Security Risk,0,0.00%
+2016,Disney+,Legitimate Portability,0,0.00%
+2016,Disney+,User Workaround,0,0.00%
+2016,Disney+,General Terms,0,0.00%
+2016,Amazon Prime,Technical Blocking,0,0.00%
+2016,Amazon Prime,Price Discrimination,0,0.00%
+2016,Amazon Prime,Content Licensing,0,0.00%
+2016,Amazon Prime,Regulatory Compliance,0,0.00%
+2016,Amazon Prime,Legal Threat,0,0.00%
+2016,Amazon Prime,Account Action,0,0.00%
+2016,Amazon Prime,Privacy/Security,0,0.00%
+2016,Amazon Prime,Security Risk,0,0.00%
+2016,Amazon Prime,Legitimate Portability,0,0.00%
+2016,Amazon Prime,User Workaround,0,0.00%
+2016,Amazon Prime,General Terms,0,0.00%
+2016,Apple Music,Technical Blocking,0,0.00%
+2016,Apple Music,Price Discrimination,0,0.00%
+2016,Apple Music,Content Licensing,0,0.00%
+2016,Apple Music,Regulatory Compliance,0,0.00%
+2016,Apple Music,Legal Threat,0,0.00%
+2016,Apple Music,Account Action,0,0.00%
+2016,Apple Music,Privacy/Security,0,0.00%
+2016,Apple Music,Security Risk,0,0.00%
+2016,Apple Music,Legitimate Portability,0,0.00%
+2016,Apple Music,User Workaround,0,0.00%
+2016,Apple Music,General Terms,0,0.00%
+2016,ExpressVPN,Technical Blocking,0,0.00%
+2016,ExpressVPN,Price Discrimination,0,0.00%
+2016,ExpressVPN,Content Licensing,0,0.00%
+2016,ExpressVPN,Regulatory Compliance,0,0.00%
+2016,ExpressVPN,Legal Threat,0,0.00%
+2016,ExpressVPN,Account Action,0,0.00%
+2016,ExpressVPN,Privacy/Security,0,0.00%
+2016,ExpressVPN,Security Risk,0,0.00%
+2016,ExpressVPN,Legitimate Portability,0,0.00%
+2016,ExpressVPN,User Workaround,0,0.00%
+2016,ExpressVPN,General Terms,0,0.00%
+2016,NordVPN,Technical Blocking,0,0.00%
+2016,NordVPN,Price Discrimination,0,0.00%
+2016,NordVPN,Content Licensing,0,0.00%
+2016,NordVPN,Regulatory Compliance,0,0.00%
+2016,NordVPN,Legal Threat,0,0.00%
+2016,NordVPN,Account Action,0,0.00%
+2016,NordVPN,Privacy/Security,0,0.00%
+2016,NordVPN,Security Risk,0,0.00%
+2016,NordVPN,Legitimate Portability,0,0.00%
+2016,NordVPN,User Workaround,0,0.00%
+2016,NordVPN,General Terms,0,0.00%
+2017,Microsoft,Technical Blocking,0,0.00%
+2017,Microsoft,Price Discrimination,0,0.00%
+2017,Microsoft,Content Licensing,0,0.00%
+2017,Microsoft,Regulatory Compliance,0,0.00%
+2017,Microsoft,Legal Threat,0,0.00%
+2017,Microsoft,Account Action,0,0.00%
+2017,Microsoft,Privacy/Security,0,0.00%
+2017,Microsoft,Security Risk,0,0.00%
+2017,Microsoft,Legitimate Portability,0,0.00%
+2017,Microsoft,User Workaround,0,0.00%
+2017,Microsoft,General Terms,0,0.00%
+2017,Youtube Premium,Technical Blocking,0,0.00%
+2017,Youtube Premium,Price Discrimination,0,0.00%
+2017,Youtube Premium,Content Licensing,0,0.00%
+2017,Youtube Premium,Regulatory Compliance,0,0.00%
+2017,Youtube Premium,Legal Threat,0,0.00%
+2017,Youtube Premium,Account Action,0,0.00%
+2017,Youtube Premium,Privacy/Security,0,0.00%
+2017,Youtube Premium,Security Risk,0,0.00%
+2017,Youtube Premium,Legitimate Portability,0,0.00%
+2017,Youtube Premium,User Workaround,0,0.00%
+2017,Youtube Premium,General Terms,0,0.00%
+2017,Spotify,Technical Blocking,0,0.00%
+2017,Spotify,Price Discrimination,0,0.00%
+2017,Spotify,Content Licensing,0,0.00%
+2017,Spotify,Regulatory Compliance,0,0.00%
+2017,Spotify,Legal Threat,0,0.00%
+2017,Spotify,Account Action,0,0.00%
+2017,Spotify,Privacy/Security,0,0.00%
+2017,Spotify,Security Risk,0,0.00%
+2017,Spotify,Legitimate Portability,0,0.00%
+2017,Spotify,User Workaround,0,0.00%
+2017,Spotify,General Terms,0,0.00%
+2017,Adobe,Technical Blocking,0,0.00%
+2017,Adobe,Price Discrimination,0,0.00%
+2017,Adobe,Content Licensing,0,0.00%
+2017,Adobe,Regulatory Compliance,0,0.00%
+2017,Adobe,Legal Threat,0,0.00%
+2017,Adobe,Account Action,0,0.00%
+2017,Adobe,Privacy/Security,0,0.00%
+2017,Adobe,Security Risk,0,0.00%
+2017,Adobe,Legitimate Portability,0,0.00%
+2017,Adobe,User Workaround,0,0.00%
+2017,Adobe,General Terms,0,0.00%
+2017,Netflix,Technical Blocking,0,0.00%
+2017,Netflix,Price Discrimination,0,0.00%
+2017,Netflix,Content Licensing,0,0.00%
+2017,Netflix,Regulatory Compliance,0,0.00%
+2017,Netflix,Legal Threat,0,0.00%
+2017,Netflix,Account Action,0,0.00%
+2017,Netflix,Privacy/Security,0,0.00%
+2017,Netflix,Security Risk,0,0.00%
+2017,Netflix,Legitimate Portability,0,0.00%
+2017,Netflix,User Workaround,0,0.00%
+2017,Netflix,General Terms,0,0.00%
+2017,Disney+,Technical Blocking,0,0.00%
+2017,Disney+,Price Discrimination,0,0.00%
+2017,Disney+,Content Licensing,0,0.00%
+2017,Disney+,Regulatory Compliance,0,0.00%
+2017,Disney+,Legal Threat,0,0.00%
+2017,Disney+,Account Action,0,0.00%
+2017,Disney+,Privacy/Security,0,0.00%
+2017,Disney+,Security Risk,0,0.00%
+2017,Disney+,Legitimate Portability,0,0.00%
+2017,Disney+,User Workaround,0,0.00%
+2017,Disney+,General Terms,0,0.00%
+2017,Amazon Prime,Technical Blocking,0,0.00%
+2017,Amazon Prime,Price Discrimination,0,0.00%
+2017,Amazon Prime,Content Licensing,0,0.00%
+2017,Amazon Prime,Regulatory Compliance,0,0.00%
+2017,Amazon Prime,Legal Threat,0,0.00%
+2017,Amazon Prime,Account Action,0,0.00%
+2017,Amazon Prime,Privacy/Security,0,0.00%
+2017,Amazon Prime,Security Risk,0,0.00%
+2017,Amazon Prime,Legitimate Portability,0,0.00%
+2017,Amazon Prime,User Workaround,0,0.00%
+2017,Amazon Prime,General Terms,0,0.00%
+2017,Apple Music,Technical Blocking,0,0.00%
+2017,Apple Music,Price Discrimination,0,0.00%
+2017,Apple Music,Content Licensing,0,0.00%
+2017,Apple Music,Regulatory Compliance,0,0.00%
+2017,Apple Music,Legal Threat,0,0.00%
+2017,Apple Music,Account Action,0,0.00%
+2017,Apple Music,Privacy/Security,0,0.00%
+2017,Apple Music,Security Risk,0,0.00%
+2017,Apple Music,Legitimate Portability,0,0.00%
+2017,Apple Music,User Workaround,0,0.00%
+2017,Apple Music,General Terms,0,0.00%
+2017,ExpressVPN,Technical Blocking,0,0.00%
+2017,ExpressVPN,Price Discrimination,0,0.00%
+2017,ExpressVPN,Content Licensing,0,0.00%
+2017,ExpressVPN,Regulatory Compliance,0,0.00%
+2017,ExpressVPN,Legal Threat,0,0.00%
+2017,ExpressVPN,Account Action,0,0.00%
+2017,ExpressVPN,Privacy/Security,0,0.00%
+2017,ExpressVPN,Security Risk,0,0.00%
+2017,ExpressVPN,Legitimate Portability,0,0.00%
+2017,ExpressVPN,User Workaround,0,0.00%
+2017,ExpressVPN,General Terms,0,0.00%
+2017,NordVPN,Technical Blocking,0,0.00%
+2017,NordVPN,Price Discrimination,0,0.00%
+2017,NordVPN,Content Licensing,0,0.00%
+2017,NordVPN,Regulatory Compliance,0,0.00%
+2017,NordVPN,Legal Threat,0,0.00%
+2017,NordVPN,Account Action,0,0.00%
+2017,NordVPN,Privacy/Security,0,0.00%
+2017,NordVPN,Security Risk,0,0.00%
+2017,NordVPN,Legitimate Portability,0,0.00%
+2017,NordVPN,User Workaround,0,0.00%
+2017,NordVPN,General Terms,0,0.00%
+2018,Microsoft,Technical Blocking,0,0.00%
+2018,Microsoft,Price Discrimination,0,0.00%
+2018,Microsoft,Content Licensing,0,0.00%
+2018,Microsoft,Regulatory Compliance,0,0.00%
+2018,Microsoft,Legal Threat,0,0.00%
+2018,Microsoft,Account Action,0,0.00%
+2018,Microsoft,Privacy/Security,0,0.00%
+2018,Microsoft,Security Risk,0,0.00%
+2018,Microsoft,Legitimate Portability,0,0.00%
+2018,Microsoft,User Workaround,0,0.00%
+2018,Microsoft,General Terms,0,0.00%
+2018,Youtube Premium,Technical Blocking,4,3.42%
+2018,Youtube Premium,Price Discrimination,0,0.00%
+2018,Youtube Premium,Content Licensing,5,4.27%
+2018,Youtube Premium,Regulatory Compliance,5,4.27%
+2018,Youtube Premium,Legal Threat,3,2.56%
+2018,Youtube Premium,Account Action,0,0.00%
+2018,Youtube Premium,Privacy/Security,0,0.00%
+2018,Youtube Premium,Security Risk,0,0.00%
+2018,Youtube Premium,Legitimate Portability,0,0.00%
+2018,Youtube Premium,User Workaround,0,0.00%
+2018,Youtube Premium,General Terms,100,85.47%
+2018,Spotify,Technical Blocking,0,0.00%
+2018,Spotify,Price Discrimination,0,0.00%
+2018,Spotify,Content Licensing,0,0.00%
+2018,Spotify,Regulatory Compliance,0,0.00%
+2018,Spotify,Legal Threat,0,0.00%
+2018,Spotify,Account Action,0,0.00%
+2018,Spotify,Privacy/Security,0,0.00%
+2018,Spotify,Security Risk,0,0.00%
+2018,Spotify,Legitimate Portability,0,0.00%
+2018,Spotify,User Workaround,0,0.00%
+2018,Spotify,General Terms,0,0.00%
+2018,Adobe,Technical Blocking,0,0.00%
+2018,Adobe,Price Discrimination,1,4.76%
+2018,Adobe,Content Licensing,1,4.76%
+2018,Adobe,Regulatory Compliance,1,4.76%
+2018,Adobe,Legal Threat,0,0.00%
+2018,Adobe,Account Action,0,0.00%
+2018,Adobe,Privacy/Security,0,0.00%
+2018,Adobe,Security Risk,0,0.00%
+2018,Adobe,Legitimate Portability,0,0.00%
+2018,Adobe,User Workaround,0,0.00%
+2018,Adobe,General Terms,18,85.71%
+2018,Netflix,Technical Blocking,0,0.00%
+2018,Netflix,Price Discrimination,0,0.00%
+2018,Netflix,Content Licensing,0,0.00%
+2018,Netflix,Regulatory Compliance,0,0.00%
+2018,Netflix,Legal Threat,0,0.00%
+2018,Netflix,Account Action,0,0.00%
+2018,Netflix,Privacy/Security,0,0.00%
+2018,Netflix,Security Risk,0,0.00%
+2018,Netflix,Legitimate Portability,0,0.00%
+2018,Netflix,User Workaround,0,0.00%
+2018,Netflix,General Terms,0,0.00%
+2018,Disney+,Technical Blocking,0,0.00%
+2018,Disney+,Price Discrimination,0,0.00%
+2018,Disney+,Content Licensing,0,0.00%
+2018,Disney+,Regulatory Compliance,0,0.00%
+2018,Disney+,Legal Threat,0,0.00%
+2018,Disney+,Account Action,0,0.00%
+2018,Disney+,Privacy/Security,0,0.00%
+2018,Disney+,Security Risk,0,0.00%
+2018,Disney+,Legitimate Portability,0,0.00%
+2018,Disney+,User Workaround,0,0.00%
+2018,Disney+,General Terms,0,0.00%
+2018,Amazon Prime,Technical Blocking,0,0.00%
+2018,Amazon Prime,Price Discrimination,0,0.00%
+2018,Amazon Prime,Content Licensing,0,0.00%
+2018,Amazon Prime,Regulatory Compliance,1,5.56%
+2018,Amazon Prime,Legal Threat,0,0.00%
+2018,Amazon Prime,Account Action,0,0.00%
+2018,Amazon Prime,Privacy/Security,0,0.00%
+2018,Amazon Prime,Security Risk,0,0.00%
+2018,Amazon Prime,Legitimate Portability,0,0.00%
+2018,Amazon Prime,User Workaround,0,0.00%
+2018,Amazon Prime,General Terms,17,94.44%
+2018,Apple Music,Technical Blocking,0,0.00%
+2018,Apple Music,Price Discrimination,0,0.00%
+2018,Apple Music,Content Licensing,0,0.00%
+2018,Apple Music,Regulatory Compliance,0,0.00%
+2018,Apple Music,Legal Threat,0,0.00%
+2018,Apple Music,Account Action,0,0.00%
+2018,Apple Music,Privacy/Security,0,0.00%
+2018,Apple Music,Security Risk,0,0.00%
+2018,Apple Music,Legitimate Portability,0,0.00%
+2018,Apple Music,User Workaround,0,0.00%
+2018,Apple Music,General Terms,0,0.00%
+2018,ExpressVPN,Technical Blocking,0,0.00%
+2018,ExpressVPN,Price Discrimination,0,0.00%
+2018,ExpressVPN,Content Licensing,0,0.00%
+2018,ExpressVPN,Regulatory Compliance,0,0.00%
+2018,ExpressVPN,Legal Threat,0,0.00%
+2018,ExpressVPN,Account Action,0,0.00%
+2018,ExpressVPN,Privacy/Security,0,0.00%
+2018,ExpressVPN,Security Risk,0,0.00%
+2018,ExpressVPN,Legitimate Portability,0,0.00%
+2018,ExpressVPN,User Workaround,0,0.00%
+2018,ExpressVPN,General Terms,0,0.00%
+2018,NordVPN,Technical Blocking,0,0.00%
+2018,NordVPN,Price Discrimination,0,0.00%
+2018,NordVPN,Content Licensing,0,0.00%
+2018,NordVPN,Regulatory Compliance,0,0.00%
+2018,NordVPN,Legal Threat,0,0.00%
+2018,NordVPN,Account Action,0,0.00%
+2018,NordVPN,Privacy/Security,0,0.00%
+2018,NordVPN,Security Risk,0,0.00%
+2018,NordVPN,Legitimate Portability,0,0.00%
+2018,NordVPN,User Workaround,0,0.00%
+2018,NordVPN,General Terms,0,0.00%
+2019,Microsoft,Technical Blocking,0,0.00%
+2019,Microsoft,Price Discrimination,0,0.00%
+2019,Microsoft,Content Licensing,2,1.20%
+2019,Microsoft,Regulatory Compliance,0,0.00%
+2019,Microsoft,Legal Threat,8,4.79%
+2019,Microsoft,Account Action,0,0.00%
+2019,Microsoft,Privacy/Security,0,0.00%
+2019,Microsoft,Security Risk,0,0.00%
+2019,Microsoft,Legitimate Portability,0,0.00%
+2019,Microsoft,User Workaround,0,0.00%
+2019,Microsoft,General Terms,157,94.01%
+2019,Youtube Premium,Technical Blocking,0,0.00%
+2019,Youtube Premium,Price Discrimination,0,0.00%
+2019,Youtube Premium,Content Licensing,0,0.00%
+2019,Youtube Premium,Regulatory Compliance,0,0.00%
+2019,Youtube Premium,Legal Threat,0,0.00%
+2019,Youtube Premium,Account Action,0,0.00%
+2019,Youtube Premium,Privacy/Security,0,0.00%
+2019,Youtube Premium,Security Risk,0,0.00%
+2019,Youtube Premium,Legitimate Portability,0,0.00%
+2019,Youtube Premium,User Workaround,0,0.00%
+2019,Youtube Premium,General Terms,44,100.00%
+2019,Spotify,Technical Blocking,1,0.25%
+2019,Spotify,Price Discrimination,2,0.49%
+2019,Spotify,Content Licensing,35,8.64%
+2019,Spotify,Regulatory Compliance,14,3.46%
+2019,Spotify,Legal Threat,0,0.00%
+2019,Spotify,Account Action,0,0.00%
+2019,Spotify,Privacy/Security,0,0.00%
+2019,Spotify,Security Risk,0,0.00%
+2019,Spotify,Legitimate Portability,0,0.00%
+2019,Spotify,User Workaround,1,0.25%
+2019,Spotify,General Terms,352,86.91%
+2019,Adobe,Technical Blocking,0,0.00%
+2019,Adobe,Price Discrimination,1,4.76%
+2019,Adobe,Content Licensing,1,4.76%
+2019,Adobe,Regulatory Compliance,1,4.76%
+2019,Adobe,Legal Threat,0,0.00%
+2019,Adobe,Account Action,0,0.00%
+2019,Adobe,Privacy/Security,0,0.00%
+2019,Adobe,Security Risk,0,0.00%
+2019,Adobe,Legitimate Portability,0,0.00%
+2019,Adobe,User Workaround,0,0.00%
+2019,Adobe,General Terms,18,85.71%
+2019,Netflix,Technical Blocking,0,0.00%
+2019,Netflix,Price Discrimination,0,0.00%
+2019,Netflix,Content Licensing,0,0.00%
+2019,Netflix,Regulatory Compliance,0,0.00%
+2019,Netflix,Legal Threat,0,0.00%
+2019,Netflix,Account Action,0,0.00%
+2019,Netflix,Privacy/Security,0,0.00%
+2019,Netflix,Security Risk,0,0.00%
+2019,Netflix,Legitimate Portability,0,0.00%
+2019,Netflix,User Workaround,0,0.00%
+2019,Netflix,General Terms,0,0.00%
+2019,Disney+,Technical Blocking,0,0.00%
+2019,Disney+,Price Discrimination,0,0.00%
+2019,Disney+,Content Licensing,0,0.00%
+2019,Disney+,Regulatory Compliance,0,0.00%
+2019,Disney+,Legal Threat,0,0.00%
+2019,Disney+,Account Action,0,0.00%
+2019,Disney+,Privacy/Security,0,0.00%
+2019,Disney+,Security Risk,0,0.00%
+2019,Disney+,Legitimate Portability,0,0.00%
+2019,Disney+,User Workaround,0,0.00%
+2019,Disney+,General Terms,0,0.00%
+2019,Amazon Prime,Technical Blocking,0,0.00%
+2019,Amazon Prime,Price Discrimination,0,0.00%
+2019,Amazon Prime,Content Licensing,0,0.00%
+2019,Amazon Prime,Regulatory Compliance,1,5.56%
+2019,Amazon Prime,Legal Threat,0,0.00%
+2019,Amazon Prime,Account Action,0,0.00%
+2019,Amazon Prime,Privacy/Security,0,0.00%
+2019,Amazon Prime,Security Risk,0,0.00%
+2019,Amazon Prime,Legitimate Portability,0,0.00%
+2019,Amazon Prime,User Workaround,0,0.00%
+2019,Amazon Prime,General Terms,17,94.44%
+2019,Apple Music,Technical Blocking,0,0.00%
+2019,Apple Music,Price Discrimination,0,0.00%
+2019,Apple Music,Content Licensing,5,4.39%
+2019,Apple Music,Regulatory Compliance,2,1.75%
+2019,Apple Music,Legal Threat,1,0.88%
+2019,Apple Music,Account Action,0,0.00%
+2019,Apple Music,Privacy/Security,0,0.00%
+2019,Apple Music,Security Risk,0,0.00%
+2019,Apple Music,Legitimate Portability,0,0.00%
+2019,Apple Music,User Workaround,0,0.00%
+2019,Apple Music,General Terms,106,92.98%
+2019,ExpressVPN,Technical Blocking,0,0.00%
+2019,ExpressVPN,Price Discrimination,0,0.00%
+2019,ExpressVPN,Content Licensing,0,0.00%
+2019,ExpressVPN,Regulatory Compliance,0,0.00%
+2019,ExpressVPN,Legal Threat,0,0.00%
+2019,ExpressVPN,Account Action,0,0.00%
+2019,ExpressVPN,Privacy/Security,0,0.00%
+2019,ExpressVPN,Security Risk,0,0.00%
+2019,ExpressVPN,Legitimate Portability,0,0.00%
+2019,ExpressVPN,User Workaround,0,0.00%
+2019,ExpressVPN,General Terms,0,0.00%
+2019,NordVPN,Technical Blocking,0,0.00%
+2019,NordVPN,Price Discrimination,0,0.00%
+2019,NordVPN,Content Licensing,0,0.00%
+2019,NordVPN,Regulatory Compliance,0,0.00%
+2019,NordVPN,Legal Threat,0,0.00%
+2019,NordVPN,Account Action,0,0.00%
+2019,NordVPN,Privacy/Security,0,0.00%
+2019,NordVPN,Security Risk,0,0.00%
+2019,NordVPN,Legitimate Portability,0,0.00%
+2019,NordVPN,User Workaround,0,0.00%
+2019,NordVPN,General Terms,0,0.00%
+2020,Microsoft,Technical Blocking,1,0.09%
+2020,Microsoft,Price Discrimination,0,0.00%
+2020,Microsoft,Content Licensing,2,0.18%
+2020,Microsoft,Regulatory Compliance,11,0.99%
+2020,Microsoft,Legal Threat,8,0.72%
+2020,Microsoft,Account Action,0,0.00%
+2020,Microsoft,Privacy/Security,0,0.00%
+2020,Microsoft,Security Risk,10,0.90%
+2020,Microsoft,Legitimate Portability,0,0.00%
+2020,Microsoft,User Workaround,0,0.00%
+2020,Microsoft,General Terms,1078,97.12%
+2020,Youtube Premium,Technical Blocking,1,1.64%
+2020,Youtube Premium,Price Discrimination,0,0.00%
+2020,Youtube Premium,Content Licensing,2,3.28%
+2020,Youtube Premium,Regulatory Compliance,2,3.28%
+2020,Youtube Premium,Legal Threat,0,0.00%
+2020,Youtube Premium,Account Action,0,0.00%
+2020,Youtube Premium,Privacy/Security,0,0.00%
+2020,Youtube Premium,Security Risk,0,0.00%
+2020,Youtube Premium,Legitimate Portability,0,0.00%
+2020,Youtube Premium,User Workaround,0,0.00%
+2020,Youtube Premium,General Terms,56,91.80%
+2020,Spotify,Technical Blocking,0,0.00%
+2020,Spotify,Price Discrimination,5,0.76%
+2020,Spotify,Content Licensing,26,3.93%
+2020,Spotify,Regulatory Compliance,10,1.51%
+2020,Spotify,Legal Threat,0,0.00%
+2020,Spotify,Account Action,0,0.00%
+2020,Spotify,Privacy/Security,0,0.00%
+2020,Spotify,Security Risk,0,0.00%
+2020,Spotify,Legitimate Portability,0,0.00%
+2020,Spotify,User Workaround,0,0.00%
+2020,Spotify,General Terms,620,93.80%
+2020,Adobe,Technical Blocking,0,0.00%
+2020,Adobe,Price Discrimination,2,0.32%
+2020,Adobe,Content Licensing,0,0.00%
+2020,Adobe,Regulatory Compliance,12,1.89%
+2020,Adobe,Legal Threat,2,0.32%
+2020,Adobe,Account Action,0,0.00%
+2020,Adobe,Privacy/Security,0,0.00%
+2020,Adobe,Security Risk,0,0.00%
+2020,Adobe,Legitimate Portability,0,0.00%
+2020,Adobe,User Workaround,0,0.00%
+2020,Adobe,General Terms,618,97.48%
+2020,Netflix,Technical Blocking,0,0.00%
+2020,Netflix,Price Discrimination,4,1.02%
+2020,Netflix,Content Licensing,19,4.83%
+2020,Netflix,Regulatory Compliance,7,1.78%
+2020,Netflix,Legal Threat,1,0.25%
+2020,Netflix,Account Action,0,0.00%
+2020,Netflix,Privacy/Security,0,0.00%
+2020,Netflix,Security Risk,0,0.00%
+2020,Netflix,Legitimate Portability,0,0.00%
+2020,Netflix,User Workaround,0,0.00%
+2020,Netflix,General Terms,362,92.11%
+2020,Disney+,Technical Blocking,0,0.00%
+2020,Disney+,Price Discrimination,5,2.07%
+2020,Disney+,Content Licensing,9,3.73%
+2020,Disney+,Regulatory Compliance,4,1.66%
+2020,Disney+,Legal Threat,0,0.00%
+2020,Disney+,Account Action,0,0.00%
+2020,Disney+,Privacy/Security,0,0.00%
+2020,Disney+,Security Risk,0,0.00%
+2020,Disney+,Legitimate Portability,0,0.00%
+2020,Disney+,User Workaround,0,0.00%
+2020,Disney+,General Terms,223,92.53%
+2020,Amazon Prime,Technical Blocking,0,0.00%
+2020,Amazon Prime,Price Discrimination,0,0.00%
+2020,Amazon Prime,Content Licensing,3,3.49%
+2020,Amazon Prime,Regulatory Compliance,2,2.33%
+2020,Amazon Prime,Legal Threat,1,1.16%
+2020,Amazon Prime,Account Action,0,0.00%
+2020,Amazon Prime,Privacy/Security,0,0.00%
+2020,Amazon Prime,Security Risk,0,0.00%
+2020,Amazon Prime,Legitimate Portability,0,0.00%
+2020,Amazon Prime,User Workaround,0,0.00%
+2020,Amazon Prime,General Terms,80,93.02%
+2020,Apple Music,Technical Blocking,0,0.00%
+2020,Apple Music,Price Discrimination,0,0.00%
+2020,Apple Music,Content Licensing,3,1.51%
+2020,Apple Music,Regulatory Compliance,2,1.01%
+2020,Apple Music,Legal Threat,0,0.00%
+2020,Apple Music,Account Action,0,0.00%
+2020,Apple Music,Privacy/Security,0,0.00%
+2020,Apple Music,Security Risk,0,0.00%
+2020,Apple Music,Legitimate Portability,0,0.00%
+2020,Apple Music,User Workaround,0,0.00%
+2020,Apple Music,General Terms,194,97.49%
+2020,ExpressVPN,Technical Blocking,0,0.00%
+2020,ExpressVPN,Price Discrimination,0,0.00%
+2020,ExpressVPN,Content Licensing,0,0.00%
+2020,ExpressVPN,Regulatory Compliance,0,0.00%
+2020,ExpressVPN,Legal Threat,0,0.00%
+2020,ExpressVPN,Account Action,0,0.00%
+2020,ExpressVPN,Privacy/Security,0,0.00%
+2020,ExpressVPN,Security Risk,0,0.00%
+2020,ExpressVPN,Legitimate Portability,0,0.00%
+2020,ExpressVPN,User Workaround,0,0.00%
+2020,ExpressVPN,General Terms,0,0.00%
+2020,NordVPN,Technical Blocking,0,0.00%
+2020,NordVPN,Price Discrimination,0,0.00%
+2020,NordVPN,Content Licensing,0,0.00%
+2020,NordVPN,Regulatory Compliance,0,0.00%
+2020,NordVPN,Legal Threat,0,0.00%
+2020,NordVPN,Account Action,0,0.00%
+2020,NordVPN,Privacy/Security,0,0.00%
+2020,NordVPN,Security Risk,0,0.00%
+2020,NordVPN,Legitimate Portability,0,0.00%
+2020,NordVPN,User Workaround,0,0.00%
+2020,NordVPN,General Terms,0,0.00%
+2021,Microsoft,Technical Blocking,0,0.00%
+2021,Microsoft,Price Discrimination,0,0.00%
+2021,Microsoft,Content Licensing,1,0.09%
+2021,Microsoft,Regulatory Compliance,11,0.99%
+2021,Microsoft,Legal Threat,7,0.63%
+2021,Microsoft,Account Action,0,0.00%
+2021,Microsoft,Privacy/Security,1,0.09%
+2021,Microsoft,Security Risk,3,0.27%
+2021,Microsoft,Legitimate Portability,0,0.00%
+2021,Microsoft,User Workaround,0,0.00%
+2021,Microsoft,General Terms,1091,97.94%
+2021,Youtube Premium,Technical Blocking,0,0.00%
+2021,Youtube Premium,Price Discrimination,0,0.00%
+2021,Youtube Premium,Content Licensing,0,0.00%
+2021,Youtube Premium,Regulatory Compliance,3,3.49%
+2021,Youtube Premium,Legal Threat,0,0.00%
+2021,Youtube Premium,Account Action,0,0.00%
+2021,Youtube Premium,Privacy/Security,0,0.00%
+2021,Youtube Premium,Security Risk,0,0.00%
+2021,Youtube Premium,Legitimate Portability,0,0.00%
+2021,Youtube Premium,User Workaround,0,0.00%
+2021,Youtube Premium,General Terms,83,96.51%
+2021,Spotify,Technical Blocking,0,0.00%
+2021,Spotify,Price Discrimination,4,0.65%
+2021,Spotify,Content Licensing,13,2.10%
+2021,Spotify,Regulatory Compliance,8,1.29%
+2021,Spotify,Legal Threat,0,0.00%
+2021,Spotify,Account Action,0,0.00%
+2021,Spotify,Privacy/Security,0,0.00%
+2021,Spotify,Security Risk,0,0.00%
+2021,Spotify,Legitimate Portability,0,0.00%
+2021,Spotify,User Workaround,0,0.00%
+2021,Spotify,General Terms,593,95.95%
+2021,Adobe,Technical Blocking,0,0.00%
+2021,Adobe,Price Discrimination,1,0.21%
+2021,Adobe,Content Licensing,0,0.00%
+2021,Adobe,Regulatory Compliance,6,1.24%
+2021,Adobe,Legal Threat,0,0.00%
+2021,Adobe,Account Action,0,0.00%
+2021,Adobe,Privacy/Security,0,0.00%
+2021,Adobe,Security Risk,0,0.00%
+2021,Adobe,Legitimate Portability,0,0.00%
+2021,Adobe,User Workaround,0,0.00%
+2021,Adobe,General Terms,477,98.55%
+2021,Netflix,Technical Blocking,1,0.25%
+2021,Netflix,Price Discrimination,12,3.03%
+2021,Netflix,Content Licensing,19,4.80%
+2021,Netflix,Regulatory Compliance,11,2.78%
+2021,Netflix,Legal Threat,0,0.00%
+2021,Netflix,Account Action,0,0.00%
+2021,Netflix,Privacy/Security,0,0.00%
+2021,Netflix,Security Risk,0,0.00%
+2021,Netflix,Legitimate Portability,0,0.00%
+2021,Netflix,User Workaround,0,0.00%
+2021,Netflix,General Terms,353,89.14%
+2021,Disney+,Technical Blocking,0,0.00%
+2021,Disney+,Price Discrimination,8,2.20%
+2021,Disney+,Content Licensing,20,5.51%
+2021,Disney+,Regulatory Compliance,10,2.75%
+2021,Disney+,Legal Threat,0,0.00%
+2021,Disney+,Account Action,0,0.00%
+2021,Disney+,Privacy/Security,0,0.00%
+2021,Disney+,Security Risk,0,0.00%
+2021,Disney+,Legitimate Portability,0,0.00%
+2021,Disney+,User Workaround,0,0.00%
+2021,Disney+,General Terms,325,89.53%
+2021,Amazon Prime,Technical Blocking,0,0.00%
+2021,Amazon Prime,Price Discrimination,0,0.00%
+2021,Amazon Prime,Content Licensing,9,2.58%
+2021,Amazon Prime,Regulatory Compliance,9,2.58%
+2021,Amazon Prime,Legal Threat,0,0.00%
+2021,Amazon Prime,Account Action,0,0.00%
+2021,Amazon Prime,Privacy/Security,0,0.00%
+2021,Amazon Prime,Security Risk,0,0.00%
+2021,Amazon Prime,Legitimate Portability,0,0.00%
+2021,Amazon Prime,User Workaround,0,0.00%
+2021,Amazon Prime,General Terms,331,94.84%
+2021,Apple Music,Technical Blocking,0,0.00%
+2021,Apple Music,Price Discrimination,0,0.00%
+2021,Apple Music,Content Licensing,1,0.49%
+2021,Apple Music,Regulatory Compliance,8,3.92%
+2021,Apple Music,Legal Threat,0,0.00%
+2021,Apple Music,Account Action,0,0.00%
+2021,Apple Music,Privacy/Security,1,0.49%
+2021,Apple Music,Security Risk,1,0.49%
+2021,Apple Music,Legitimate Portability,0,0.00%
+2021,Apple Music,User Workaround,0,0.00%
+2021,Apple Music,General Terms,193,94.61%
+2021,ExpressVPN,Technical Blocking,0,0.00%
+2021,ExpressVPN,Price Discrimination,0,0.00%
+2021,ExpressVPN,Content Licensing,0,0.00%
+2021,ExpressVPN,Regulatory Compliance,0,0.00%
+2021,ExpressVPN,Legal Threat,0,0.00%
+2021,ExpressVPN,Account Action,0,0.00%
+2021,ExpressVPN,Privacy/Security,0,0.00%
+2021,ExpressVPN,Security Risk,0,0.00%
+2021,ExpressVPN,Legitimate Portability,0,0.00%
+2021,ExpressVPN,User Workaround,0,0.00%
+2021,ExpressVPN,General Terms,0,0.00%
+2021,NordVPN,Technical Blocking,0,0.00%
+2021,NordVPN,Price Discrimination,0,0.00%
+2021,NordVPN,Content Licensing,0,0.00%
+2021,NordVPN,Regulatory Compliance,0,0.00%
+2021,NordVPN,Legal Threat,0,0.00%
+2021,NordVPN,Account Action,0,0.00%
+2021,NordVPN,Privacy/Security,0,0.00%
+2021,NordVPN,Security Risk,0,0.00%
+2021,NordVPN,Legitimate Portability,0,0.00%
+2021,NordVPN,User Workaround,0,0.00%
+2021,NordVPN,General Terms,0,0.00%
+2022,Microsoft,Technical Blocking,1,0.09%
+2022,Microsoft,Price Discrimination,0,0.00%
+2022,Microsoft,Content Licensing,2,0.18%
+2022,Microsoft,Regulatory Compliance,10,0.88%
+2022,Microsoft,Legal Threat,8,0.71%
+2022,Microsoft,Account Action,0,0.00%
+2022,Microsoft,Privacy/Security,1,0.09%
+2022,Microsoft,Security Risk,8,0.71%
+2022,Microsoft,Legitimate Portability,0,0.00%
+2022,Microsoft,User Workaround,0,0.00%
+2022,Microsoft,General Terms,1102,97.35%
+2022,Youtube Premium,Technical Blocking,12,1.62%
+2022,Youtube Premium,Price Discrimination,0,0.00%
+2022,Youtube Premium,Content Licensing,14,1.89%
+2022,Youtube Premium,Regulatory Compliance,17,2.29%
+2022,Youtube Premium,Legal Threat,4,0.54%
+2022,Youtube Premium,Account Action,0,0.00%
+2022,Youtube Premium,Privacy/Security,0,0.00%
+2022,Youtube Premium,Security Risk,0,0.00%
+2022,Youtube Premium,Legitimate Portability,0,0.00%
+2022,Youtube Premium,User Workaround,0,0.00%
+2022,Youtube Premium,General Terms,695,93.67%
+2022,Spotify,Technical Blocking,0,0.00%
+2022,Spotify,Price Discrimination,2,0.36%
+2022,Spotify,Content Licensing,26,4.72%
+2022,Spotify,Regulatory Compliance,9,1.63%
+2022,Spotify,Legal Threat,0,0.00%
+2022,Spotify,Account Action,0,0.00%
+2022,Spotify,Privacy/Security,0,0.00%
+2022,Spotify,Security Risk,0,0.00%
+2022,Spotify,Legitimate Portability,0,0.00%
+2022,Spotify,User Workaround,0,0.00%
+2022,Spotify,General Terms,514,93.28%
+2022,Adobe,Technical Blocking,0,0.00%
+2022,Adobe,Price Discrimination,0,0.00%
+2022,Adobe,Content Licensing,0,0.00%
+2022,Adobe,Regulatory Compliance,10,2.44%
+2022,Adobe,Legal Threat,0,0.00%
+2022,Adobe,Account Action,0,0.00%
+2022,Adobe,Privacy/Security,1,0.24%
+2022,Adobe,Security Risk,0,0.00%
+2022,Adobe,Legitimate Portability,0,0.00%
+2022,Adobe,User Workaround,0,0.00%
+2022,Adobe,General Terms,398,97.31%
+2022,Netflix,Technical Blocking,0,0.00%
+2022,Netflix,Price Discrimination,11,2.07%
+2022,Netflix,Content Licensing,17,3.20%
+2022,Netflix,Regulatory Compliance,11,2.07%
+2022,Netflix,Legal Threat,0,0.00%
+2022,Netflix,Account Action,0,0.00%
+2022,Netflix,Privacy/Security,0,0.00%
+2022,Netflix,Security Risk,0,0.00%
+2022,Netflix,Legitimate Portability,0,0.00%
+2022,Netflix,User Workaround,0,0.00%
+2022,Netflix,General Terms,492,92.66%
+2022,Disney+,Technical Blocking,0,0.00%
+2022,Disney+,Price Discrimination,7,2.72%
+2022,Disney+,Content Licensing,12,4.67%
+2022,Disney+,Regulatory Compliance,1,0.39%
+2022,Disney+,Legal Threat,0,0.00%
+2022,Disney+,Account Action,0,0.00%
+2022,Disney+,Privacy/Security,0,0.00%
+2022,Disney+,Security Risk,0,0.00%
+2022,Disney+,Legitimate Portability,0,0.00%
+2022,Disney+,User Workaround,0,0.00%
+2022,Disney+,General Terms,237,92.22%
+2022,Amazon Prime,Technical Blocking,0,0.00%
+2022,Amazon Prime,Price Discrimination,0,0.00%
+2022,Amazon Prime,Content Licensing,6,1.81%
+2022,Amazon Prime,Regulatory Compliance,7,2.11%
+2022,Amazon Prime,Legal Threat,0,0.00%
+2022,Amazon Prime,Account Action,0,0.00%
+2022,Amazon Prime,Privacy/Security,0,0.00%
+2022,Amazon Prime,Security Risk,0,0.00%
+2022,Amazon Prime,Legitimate Portability,0,0.00%
+2022,Amazon Prime,User Workaround,0,0.00%
+2022,Amazon Prime,General Terms,319,96.08%
+2022,Apple Music,Technical Blocking,0,0.00%
+2022,Apple Music,Price Discrimination,0,0.00%
+2022,Apple Music,Content Licensing,8,3.83%
+2022,Apple Music,Regulatory Compliance,7,3.35%
+2022,Apple Music,Legal Threat,1,0.48%
+2022,Apple Music,Account Action,0,0.00%
+2022,Apple Music,Privacy/Security,2,0.96%
+2022,Apple Music,Security Risk,2,0.96%
+2022,Apple Music,Legitimate Portability,0,0.00%
+2022,Apple Music,User Workaround,0,0.00%
+2022,Apple Music,General Terms,189,90.43%
+2022,ExpressVPN,Technical Blocking,0,0.00%
+2022,ExpressVPN,Price Discrimination,0,0.00%
+2022,ExpressVPN,Content Licensing,0,0.00%
+2022,ExpressVPN,Regulatory Compliance,0,0.00%
+2022,ExpressVPN,Legal Threat,0,0.00%
+2022,ExpressVPN,Account Action,0,0.00%
+2022,ExpressVPN,Privacy/Security,0,0.00%
+2022,ExpressVPN,Security Risk,0,0.00%
+2022,ExpressVPN,Legitimate Portability,0,0.00%
+2022,ExpressVPN,User Workaround,0,0.00%
+2022,ExpressVPN,General Terms,0,0.00%
+2022,NordVPN,Technical Blocking,0,0.00%
+2022,NordVPN,Price Discrimination,0,0.00%
+2022,NordVPN,Content Licensing,0,0.00%
+2022,NordVPN,Regulatory Compliance,0,0.00%
+2022,NordVPN,Legal Threat,0,0.00%
+2022,NordVPN,Account Action,0,0.00%
+2022,NordVPN,Privacy/Security,0,0.00%
+2022,NordVPN,Security Risk,0,0.00%
+2022,NordVPN,Legitimate Portability,0,0.00%
+2022,NordVPN,User Workaround,0,0.00%
+2022,NordVPN,General Terms,0,0.00%
+2023,Microsoft,Technical Blocking,1,0.10%
+2023,Microsoft,Price Discrimination,0,0.00%
+2023,Microsoft,Content Licensing,1,0.10%
+2023,Microsoft,Regulatory Compliance,14,1.34%
+2023,Microsoft,Legal Threat,11,1.05%
+2023,Microsoft,Account Action,0,0.00%
+2023,Microsoft,Privacy/Security,2,0.19%
+2023,Microsoft,Security Risk,2,0.19%
+2023,Microsoft,Legitimate Portability,0,0.00%
+2023,Microsoft,User Workaround,0,0.00%
+2023,Microsoft,General Terms,1014,97.03%
+2023,Youtube Premium,Technical Blocking,42,2.82%
+2023,Youtube Premium,Price Discrimination,1,0.07%
+2023,Youtube Premium,Content Licensing,32,2.15%
+2023,Youtube Premium,Regulatory Compliance,45,3.02%
+2023,Youtube Premium,Legal Threat,11,0.74%
+2023,Youtube Premium,Account Action,0,0.00%
+2023,Youtube Premium,Privacy/Security,8,0.54%
+2023,Youtube Premium,Security Risk,0,0.00%
+2023,Youtube Premium,Legitimate Portability,0,0.00%
+2023,Youtube Premium,User Workaround,0,0.00%
+2023,Youtube Premium,General Terms,1350,90.66%
+2023,Spotify,Technical Blocking,0,0.00%
+2023,Spotify,Price Discrimination,2,0.34%
+2023,Spotify,Content Licensing,24,4.11%
+2023,Spotify,Regulatory Compliance,19,3.25%
+2023,Spotify,Legal Threat,0,0.00%
+2023,Spotify,Account Action,0,0.00%
+2023,Spotify,Privacy/Security,0,0.00%
+2023,Spotify,Security Risk,0,0.00%
+2023,Spotify,Legitimate Portability,0,0.00%
+2023,Spotify,User Workaround,0,0.00%
+2023,Spotify,General Terms,539,92.29%
+2023,Adobe,Technical Blocking,0,0.00%
+2023,Adobe,Price Discrimination,0,0.00%
+2023,Adobe,Content Licensing,0,0.00%
+2023,Adobe,Regulatory Compliance,5,1.42%
+2023,Adobe,Legal Threat,0,0.00%
+2023,Adobe,Account Action,0,0.00%
+2023,Adobe,Privacy/Security,0,0.00%
+2023,Adobe,Security Risk,0,0.00%
+2023,Adobe,Legitimate Portability,0,0.00%
+2023,Adobe,User Workaround,0,0.00%
+2023,Adobe,General Terms,348,98.58%
+2023,Netflix,Technical Blocking,0,0.00%
+2023,Netflix,Price Discrimination,5,1.19%
+2023,Netflix,Content Licensing,15,3.56%
+2023,Netflix,Regulatory Compliance,12,2.85%
+2023,Netflix,Legal Threat,0,0.00%
+2023,Netflix,Account Action,0,0.00%
+2023,Netflix,Privacy/Security,0,0.00%
+2023,Netflix,Security Risk,0,0.00%
+2023,Netflix,Legitimate Portability,2,0.48%
+2023,Netflix,User Workaround,0,0.00%
+2023,Netflix,General Terms,387,91.92%
+2023,Disney+,Technical Blocking,0,0.00%
+2023,Disney+,Price Discrimination,3,0.80%
+2023,Disney+,Content Licensing,17,4.52%
+2023,Disney+,Regulatory Compliance,9,2.39%
+2023,Disney+,Legal Threat,0,0.00%
+2023,Disney+,Account Action,0,0.00%
+2023,Disney+,Privacy/Security,0,0.00%
+2023,Disney+,Security Risk,0,0.00%
+2023,Disney+,Legitimate Portability,0,0.00%
+2023,Disney+,User Workaround,0,0.00%
+2023,Disney+,General Terms,347,92.29%
+2023,Amazon Prime,Technical Blocking,0,0.00%
+2023,Amazon Prime,Price Discrimination,0,0.00%
+2023,Amazon Prime,Content Licensing,10,3.07%
+2023,Amazon Prime,Regulatory Compliance,7,2.15%
+2023,Amazon Prime,Legal Threat,0,0.00%
+2023,Amazon Prime,Account Action,0,0.00%
+2023,Amazon Prime,Privacy/Security,0,0.00%
+2023,Amazon Prime,Security Risk,0,0.00%
+2023,Amazon Prime,Legitimate Portability,0,0.00%
+2023,Amazon Prime,User Workaround,0,0.00%
+2023,Amazon Prime,General Terms,309,94.79%
+2023,Apple Music,Technical Blocking,1,0.48%
+2023,Apple Music,Price Discrimination,1,0.48%
+2023,Apple Music,Content Licensing,3,1.45%
+2023,Apple Music,Regulatory Compliance,2,0.97%
+2023,Apple Music,Legal Threat,3,1.45%
+2023,Apple Music,Account Action,0,0.00%
+2023,Apple Music,Privacy/Security,1,0.48%
+2023,Apple Music,Security Risk,0,0.00%
+2023,Apple Music,Legitimate Portability,0,0.00%
+2023,Apple Music,User Workaround,0,0.00%
+2023,Apple Music,General Terms,196,94.69%
+2023,ExpressVPN,Technical Blocking,0,0.00%
+2023,ExpressVPN,Price Discrimination,0,0.00%
+2023,ExpressVPN,Content Licensing,0,0.00%
+2023,ExpressVPN,Regulatory Compliance,0,0.00%
+2023,ExpressVPN,Legal Threat,0,0.00%
+2023,ExpressVPN,Account Action,0,0.00%
+2023,ExpressVPN,Privacy/Security,0,0.00%
+2023,ExpressVPN,Security Risk,0,0.00%
+2023,ExpressVPN,Legitimate Portability,0,0.00%
+2023,ExpressVPN,User Workaround,0,0.00%
+2023,ExpressVPN,General Terms,0,0.00%
+2023,NordVPN,Technical Blocking,0,0.00%
+2023,NordVPN,Price Discrimination,0,0.00%
+2023,NordVPN,Content Licensing,0,0.00%
+2023,NordVPN,Regulatory Compliance,0,0.00%
+2023,NordVPN,Legal Threat,0,0.00%
+2023,NordVPN,Account Action,0,0.00%
+2023,NordVPN,Privacy/Security,0,0.00%
+2023,NordVPN,Security Risk,0,0.00%
+2023,NordVPN,Legitimate Portability,0,0.00%
+2023,NordVPN,User Workaround,0,0.00%
+2023,NordVPN,General Terms,0,0.00%
+2024,Microsoft,Technical Blocking,0,0.00%
+2024,Microsoft,Price Discrimination,0,0.00%
+2024,Microsoft,Content Licensing,0,0.00%
+2024,Microsoft,Regulatory Compliance,21,2.00%
+2024,Microsoft,Legal Threat,6,0.57%
+2024,Microsoft,Account Action,0,0.00%
+2024,Microsoft,Privacy/Security,0,0.00%
+2024,Microsoft,Security Risk,0,0.00%
+2024,Microsoft,Legitimate Portability,0,0.00%
+2024,Microsoft,User Workaround,0,0.00%
+2024,Microsoft,General Terms,1021,97.42%
+2024,Youtube Premium,Technical Blocking,23,2.13%
+2024,Youtube Premium,Price Discrimination,0,0.00%
+2024,Youtube Premium,Content Licensing,17,1.58%
+2024,Youtube Premium,Regulatory Compliance,32,2.97%
+2024,Youtube Premium,Legal Threat,8,0.74%
+2024,Youtube Premium,Account Action,0,0.00%
+2024,Youtube Premium,Privacy/Security,1,0.09%
+2024,Youtube Premium,Security Risk,0,0.00%
+2024,Youtube Premium,Legitimate Portability,0,0.00%
+2024,Youtube Premium,User Workaround,0,0.00%
+2024,Youtube Premium,General Terms,998,92.49%
+2024,Spotify,Technical Blocking,0,0.00%
+2024,Spotify,Price Discrimination,7,1.39%
+2024,Spotify,Content Licensing,7,1.39%
+2024,Spotify,Regulatory Compliance,13,2.57%
+2024,Spotify,Legal Threat,0,0.00%
+2024,Spotify,Account Action,0,0.00%
+2024,Spotify,Privacy/Security,0,0.00%
+2024,Spotify,Security Risk,0,0.00%
+2024,Spotify,Legitimate Portability,0,0.00%
+2024,Spotify,User Workaround,0,0.00%
+2024,Spotify,General Terms,478,94.65%
+2024,Adobe,Technical Blocking,0,0.00%
+2024,Adobe,Price Discrimination,11,1.29%
+2024,Adobe,Content Licensing,0,0.00%
+2024,Adobe,Regulatory Compliance,8,0.94%
+2024,Adobe,Legal Threat,1,0.12%
+2024,Adobe,Account Action,0,0.00%
+2024,Adobe,Privacy/Security,0,0.00%
+2024,Adobe,Security Risk,1,0.12%
+2024,Adobe,Legitimate Portability,0,0.00%
+2024,Adobe,User Workaround,0,0.00%
+2024,Adobe,General Terms,829,97.53%
+2024,Netflix,Technical Blocking,0,0.00%
+2024,Netflix,Price Discrimination,1,0.24%
+2024,Netflix,Content Licensing,16,3.76%
+2024,Netflix,Regulatory Compliance,11,2.59%
+2024,Netflix,Legal Threat,0,0.00%
+2024,Netflix,Account Action,0,0.00%
+2024,Netflix,Privacy/Security,0,0.00%
+2024,Netflix,Security Risk,0,0.00%
+2024,Netflix,Legitimate Portability,0,0.00%
+2024,Netflix,User Workaround,0,0.00%
+2024,Netflix,General Terms,397,93.41%
+2024,Disney+,Technical Blocking,0,0.00%
+2024,Disney+,Price Discrimination,14,2.25%
+2024,Disney+,Content Licensing,43,6.92%
+2024,Disney+,Regulatory Compliance,13,2.09%
+2024,Disney+,Legal Threat,4,0.64%
+2024,Disney+,Account Action,0,0.00%
+2024,Disney+,Privacy/Security,0,0.00%
+2024,Disney+,Security Risk,0,0.00%
+2024,Disney+,Legitimate Portability,0,0.00%
+2024,Disney+,User Workaround,0,0.00%
+2024,Disney+,General Terms,547,88.08%
+2024,Amazon Prime,Technical Blocking,1,0.38%
+2024,Amazon Prime,Price Discrimination,0,0.00%
+2024,Amazon Prime,Content Licensing,8,3.01%
+2024,Amazon Prime,Regulatory Compliance,6,2.26%
+2024,Amazon Prime,Legal Threat,0,0.00%
+2024,Amazon Prime,Account Action,0,0.00%
+2024,Amazon Prime,Privacy/Security,0,0.00%
+2024,Amazon Prime,Security Risk,4,1.50%
+2024,Amazon Prime,Legitimate Portability,0,0.00%
+2024,Amazon Prime,User Workaround,0,0.00%
+2024,Amazon Prime,General Terms,247,92.86%
+2024,Apple Music,Technical Blocking,0,0.00%
+2024,Apple Music,Price Discrimination,0,0.00%
+2024,Apple Music,Content Licensing,5,2.22%
+2024,Apple Music,Regulatory Compliance,5,2.22%
+2024,Apple Music,Legal Threat,1,0.44%
+2024,Apple Music,Account Action,0,0.00%
+2024,Apple Music,Privacy/Security,1,0.44%
+2024,Apple Music,Security Risk,2,0.89%
+2024,Apple Music,Legitimate Portability,0,0.00%
+2024,Apple Music,User Workaround,0,0.00%
+2024,Apple Music,General Terms,211,93.78%
+2024,ExpressVPN,Technical Blocking,0,0.00%
+2024,ExpressVPN,Price Discrimination,0,0.00%
+2024,ExpressVPN,Content Licensing,0,0.00%
+2024,ExpressVPN,Regulatory Compliance,0,0.00%
+2024,ExpressVPN,Legal Threat,0,0.00%
+2024,ExpressVPN,Account Action,0,0.00%
+2024,ExpressVPN,Privacy/Security,0,0.00%
+2024,ExpressVPN,Security Risk,0,0.00%
+2024,ExpressVPN,Legitimate Portability,0,0.00%
+2024,ExpressVPN,User Workaround,0,0.00%
+2024,ExpressVPN,General Terms,0,0.00%
+2024,NordVPN,Technical Blocking,0,0.00%
+2024,NordVPN,Price Discrimination,0,0.00%
+2024,NordVPN,Content Licensing,0,0.00%
+2024,NordVPN,Regulatory Compliance,0,0.00%
+2024,NordVPN,Legal Threat,3,5.45%
+2024,NordVPN,Account Action,0,0.00%
+2024,NordVPN,Privacy/Security,0,0.00%
+2024,NordVPN,Security Risk,3,5.45%
+2024,NordVPN,Legitimate Portability,0,0.00%
+2024,NordVPN,User Workaround,0,0.00%
+2024,NordVPN,General Terms,49,89.09%
+2025,Microsoft,Technical Blocking,1,0.11%
+2025,Microsoft,Price Discrimination,0,0.00%
+2025,Microsoft,Content Licensing,2,0.22%
+2025,Microsoft,Regulatory Compliance,13,1.44%
+2025,Microsoft,Legal Threat,5,0.56%
+2025,Microsoft,Account Action,0,0.00%
+2025,Microsoft,Privacy/Security,0,0.00%
+2025,Microsoft,Security Risk,0,0.00%
+2025,Microsoft,Legitimate Portability,0,0.00%
+2025,Microsoft,User Workaround,0,0.00%
+2025,Microsoft,General Terms,879,97.67%
+2025,Youtube Premium,Technical Blocking,12,2.20%
+2025,Youtube Premium,Price Discrimination,1,0.18%
+2025,Youtube Premium,Content Licensing,29,5.31%
+2025,Youtube Premium,Regulatory Compliance,31,5.68%
+2025,Youtube Premium,Legal Threat,8,1.47%
+2025,Youtube Premium,Account Action,0,0.00%
+2025,Youtube Premium,Privacy/Security,7,1.28%
+2025,Youtube Premium,Security Risk,0,0.00%
+2025,Youtube Premium,Legitimate Portability,0,0.00%
+2025,Youtube Premium,User Workaround,0,0.00%
+2025,Youtube Premium,General Terms,458,83.88%
+2025,Spotify,Technical Blocking,0,0.00%
+2025,Spotify,Price Discrimination,0,0.00%
+2025,Spotify,Content Licensing,1,0.44%
+2025,Spotify,Regulatory Compliance,2,0.88%
+2025,Spotify,Legal Threat,0,0.00%
+2025,Spotify,Account Action,0,0.00%
+2025,Spotify,Privacy/Security,0,0.00%
+2025,Spotify,Security Risk,0,0.00%
+2025,Spotify,Legitimate Portability,0,0.00%
+2025,Spotify,User Workaround,0,0.00%
+2025,Spotify,General Terms,224,98.68%
+2025,Adobe,Technical Blocking,0,0.00%
+2025,Adobe,Price Discrimination,2,0.52%
+2025,Adobe,Content Licensing,2,0.52%
+2025,Adobe,Regulatory Compliance,2,0.52%
+2025,Adobe,Legal Threat,1,0.26%
+2025,Adobe,Account Action,0,0.00%
+2025,Adobe,Privacy/Security,0,0.00%
+2025,Adobe,Security Risk,0,0.00%
+2025,Adobe,Legitimate Portability,0,0.00%
+2025,Adobe,User Workaround,0,0.00%
+2025,Adobe,General Terms,380,98.19%
+2025,Netflix,Technical Blocking,0,0.00%
+2025,Netflix,Price Discrimination,3,0.42%
+2025,Netflix,Content Licensing,41,5.81%
+2025,Netflix,Regulatory Compliance,24,3.40%
+2025,Netflix,Legal Threat,3,0.42%
+2025,Netflix,Account Action,0,0.00%
+2025,Netflix,Privacy/Security,0,0.00%
+2025,Netflix,Security Risk,0,0.00%
+2025,Netflix,Legitimate Portability,0,0.00%
+2025,Netflix,User Workaround,0,0.00%
+2025,Netflix,General Terms,635,89.94%
+2025,Disney+,Technical Blocking,0,0.00%
+2025,Disney+,Price Discrimination,4,1.28%
+2025,Disney+,Content Licensing,13,4.15%
+2025,Disney+,Regulatory Compliance,0,0.00%
+2025,Disney+,Legal Threat,0,0.00%
+2025,Disney+,Account Action,0,0.00%
+2025,Disney+,Privacy/Security,0,0.00%
+2025,Disney+,Security Risk,0,0.00%
+2025,Disney+,Legitimate Portability,0,0.00%
+2025,Disney+,User Workaround,0,0.00%
+2025,Disney+,General Terms,296,94.57%
+2025,Amazon Prime,Technical Blocking,0,0.00%
+2025,Amazon Prime,Price Discrimination,2,0.82%
+2025,Amazon Prime,Content Licensing,8,3.28%
+2025,Amazon Prime,Regulatory Compliance,11,4.51%
+2025,Amazon Prime,Legal Threat,2,0.82%
+2025,Amazon Prime,Account Action,0,0.00%
+2025,Amazon Prime,Privacy/Security,0,0.00%
+2025,Amazon Prime,Security Risk,5,2.05%
+2025,Amazon Prime,Legitimate Portability,0,0.00%
+2025,Amazon Prime,User Workaround,0,0.00%
+2025,Amazon Prime,General Terms,216,88.52%
+2025,Apple Music,Technical Blocking,1,0.59%
+2025,Apple Music,Price Discrimination,1,0.59%
+2025,Apple Music,Content Licensing,3,1.76%
+2025,Apple Music,Regulatory Compliance,3,1.76%
+2025,Apple Music,Legal Threat,2,1.18%
+2025,Apple Music,Account Action,0,0.00%
+2025,Apple Music,Privacy/Security,0,0.00%
+2025,Apple Music,Security Risk,1,0.59%
+2025,Apple Music,Legitimate Portability,0,0.00%
+2025,Apple Music,User Workaround,0,0.00%
+2025,Apple Music,General Terms,159,93.53%
+2025,ExpressVPN,Technical Blocking,1,1.67%
+2025,ExpressVPN,Price Discrimination,1,1.67%
+2025,ExpressVPN,Content Licensing,0,0.00%
+2025,ExpressVPN,Regulatory Compliance,2,3.33%
+2025,ExpressVPN,Legal Threat,4,6.67%
+2025,ExpressVPN,Account Action,0,0.00%
+2025,ExpressVPN,Privacy/Security,1,1.67%
+2025,ExpressVPN,Security Risk,0,0.00%
+2025,ExpressVPN,Legitimate Portability,0,0.00%
+2025,ExpressVPN,User Workaround,0,0.00%
+2025,ExpressVPN,General Terms,51,85.00%
+2025,NordVPN,Technical Blocking,0,0.00%
+2025,NordVPN,Price Discrimination,0,0.00%
+2025,NordVPN,Content Licensing,0,0.00%
+2025,NordVPN,Regulatory Compliance,0,0.00%
+2025,NordVPN,Legal Threat,3,5.45%
+2025,NordVPN,Account Action,0,0.00%
+2025,NordVPN,Privacy/Security,0,0.00%
+2025,NordVPN,Security Risk,3,5.45%
+2025,NordVPN,Legitimate Portability,0,0.00%
+2025,NordVPN,User Workaround,0,0.00%
+2025,NordVPN,General Terms,49,89.09%

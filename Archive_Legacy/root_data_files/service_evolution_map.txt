@@ -1,0 +1,11 @@
+﻿Sheet: Service_Evolution (181x12)
+Row 1: Microsoft Live Table
+Row 15: Youtube Premium Live Table
+Row 29: Spotify Live Table
+Row 43: Adobe Live Table
+Row 57: Netflix Live Table
+Row 71: Disney+ Live Table
+Row 85: Amazon Prime Live Table
+Row 99: Apple Music Live Table
+Row 113: ExpressVPN Live Table
+Row 127: NordVPN Live Table

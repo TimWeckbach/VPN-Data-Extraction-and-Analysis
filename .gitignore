@@ -1,4 +1,19 @@
+# ============================================
+# Credentials & Secrets (NEVER commit these)
+# ============================================
+*.secret
+*.key
+*.pem
+*.env
+.env*
+client_secret.json
+credentials.json
+token_*.json
+claude_desktop_config.json
+
+# ============================================
 # LaTeX build artifacts
+# ============================================
 *.aux
 *.bbl
 *.bcf
@@ -21,25 +36,74 @@
 *.alg
 *.xmpdata
 *.xmpi
+*.nav
+*.snm
+*.vrb
+*.bbl-SAVE-ERROR
 
-# PDF files (optional, uncomment if you want to track PDFs)
-# *.pdf
+# ============================================
+# LaTeX backup / temp files
+# ============================================
+*.bak*
+*.bak[0-9]*
+main.bak*
+*.gdoc
 
-# Temp files
-.tmp.driveupload
-temp.tex
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.python-version
+
+# ============================================
+# Temp / OS / Editor files
+# ============================================
 *.tmp
-
-# VS Code
-.vscode/
-
-# OS generated files
+*.swp
+*.swo
+*~
+nul
+.tmp.driveupload/
 Thumbs.db
 Desktop.ini
 .DS_Store
+.vscode/
+.idea/
 
+# ============================================
+# AI / Agent utilities
+# ============================================
 _AI_Utilities/
+.agent/
 
-# Large Data Files
+# ============================================
+# Misc data / generated output not needed in repo
+# ============================================
+reminders.json
 *.wav
 *.mp3
+
+# ============================================
+# Latex Thesis temp/working files
+# ============================================
+Latex Thesis/_backups/
+Latex Thesis/nul
+Latex Thesis/coords.txt
+Latex Thesis/coords_trend.txt
+Latex Thesis/all_captions.txt
+Latex Thesis/all_captions_verified.txt
+Latex Thesis/audit_report.txt
+Latex Thesis/chart_audit_results.txt
+Latex Thesis/companies.txt
+Latex Thesis/summary_counts.csv
+Latex Thesis/TODOS TASKs and PRompts.txt

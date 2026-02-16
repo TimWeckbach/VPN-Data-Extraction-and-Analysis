@@ -1,0 +1,84 @@
+% --- Distribution Strategic Categories Only ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar stacked,
+            width=0.9\textwidth,
+            height=8cm,
+            xlabel={Year},
+            ylabel={Share (\%)}
+            xmin=2019.5, xmax=2025.5,
+            ymin=0, ymax=100,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend style={at={(0.5,-0.2)}, anchor=north, legend columns=3, font=\footnotesize},
+            bar width=15pt,
+            area style,
+        ]
+            \addplot[ybar stacked, fill=teal, draw=black!50] coordinates { (2020,12.6) (2021,10.1) (2022,11.6) (2023,11.1) (2024,11.7) (2025,11.8) };
+            \addlegendentry{Account Action}
+            \addplot[ybar stacked, fill=blue, draw=black!50] coordinates { (2020,41.9) (2021,43.2) (2022,38.5) (2023,40.8) (2024,34.8) (2025,37.9) };
+            \addlegendentry{Content Licensing}
+            \addplot[ybar stacked, fill=pink, draw=black!50] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.2) (2024,0.0) (2025,0.0) };
+            \addlegendentry{IndividualError}
+            \addplot[ybar stacked, fill=violet, draw=black!50] coordinates { (2020,0.0) (2021,0.3) (2022,0.3) (2023,0.5) (2024,0.7) (2025,0.6) };
+            \addlegendentry{Legitimate Portability}
+            \addplot[ybar stacked, fill=green!60!black, draw=black!50] coordinates { (2020,8.6) (2021,9.5) (2022,11.6) (2023,7.1) (2024,11.0) (2025,7.5) };
+            \addlegendentry{Price Discrimination}
+            \addplot[ybar stacked, fill=orange, draw=black!50] coordinates { (2020,35.6) (2021,35.5) (2022,32.9) (2023,30.1) (2024,34.6) (2025,37.9) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[ybar stacked, fill=black, draw=black!50] coordinates { (2020,0.9) (2021,0.3) (2022,3.5) (2023,9.5) (2024,5.7) (2025,4.0) };
+            \addlegendentry{Technical Blocking}
+            \addplot[ybar stacked, fill=gray, draw=black!50] coordinates { (2020,0.5) (2021,1.0) (2022,1.6) (2023,0.7) (2024,1.4) (2025,0.3) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Distribution of Policy Text Categories Over Time (Strategic Categories Only).}
+    \label{fig:dist_strategic}
+\end{figure}
+
+
+% --- Distribution All Categories Including General ---
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar stacked,
+            width=0.9\textwidth,
+            height=8cm,
+            xlabel={Year},
+            ylabel={Share (\%)}
+            xmin=2019.5, xmax=2025.5,
+            ymin=0, ymax=100,
+            xtick={2020,2021,2022,2023,2024,2025},
+            xticklabel style={/pgf/number format/set thousands separator={}},
+            legend style={at={(0.5,-0.2)}, anchor=north, legend columns=3, font=\footnotesize},
+            bar width=15pt,
+            area style,
+        ]
+            \addplot[ybar stacked, fill=teal, draw=black!50] coordinates { (2020,0.8) (2021,0.8) (2022,1.0) (2023,1.0) (2024,1.0) (2025,1.2) };
+            \addlegendentry{Account Action}
+            \addplot[ybar stacked, fill=blue, draw=black!50] coordinates { (2020,2.7) (2021,3.5) (2022,3.4) (2023,3.6) (2024,2.9) (2025,3.7) };
+            \addlegendentry{Content Licensing}
+            \addplot[ybar stacked, fill=gray!50, draw=black!50] coordinates { (2020,93.4) (2021,91.8) (2022,91.1) (2023,91.2) (2024,91.7) (2025,90.3) };
+            \addlegendentry{General Terms}
+            \addplot[ybar stacked, fill=pink, draw=black!50] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0) };
+            \addlegendentry{IndividualError}
+            \addplot[ybar stacked, fill=violet, draw=black!50] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.1) (2025,0.1) };
+            \addlegendentry{Legitimate Portability}
+            \addplot[ybar stacked, fill=green!60!black, draw=black!50] coordinates { (2020,0.6) (2021,0.8) (2022,1.0) (2023,0.6) (2024,0.9) (2025,0.7) };
+            \addlegendentry{Price Discrimination}
+            \addplot[ybar stacked, fill=orange, draw=black!50] coordinates { (2020,2.3) (2021,2.9) (2022,2.9) (2023,2.6) (2024,2.9) (2025,3.7) };
+            \addlegendentry{Regulatory Compliance}
+            \addplot[ybar stacked, fill=black, draw=black!50] coordinates { (2020,0.1) (2021,0.0) (2022,0.3) (2023,0.8) (2024,0.5) (2025,0.4) };
+            \addlegendentry{Technical Blocking}
+            \addplot[ybar stacked, fill=gray, draw=black!50] coordinates { (2020,0.0) (2021,0.1) (2022,0.1) (2023,0.1) (2024,0.1) (2025,0.0) };
+            \addlegendentry{User Workaround}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Distribution of Policy Text Categories Over Time (All Categories Including General).}
+    \label{fig:dist_all}
+\end{figure}
+
+

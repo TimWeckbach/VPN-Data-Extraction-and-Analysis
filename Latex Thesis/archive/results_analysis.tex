@@ -1,0 +1,395 @@
+\section{The Landscape of International Pricing: Findings from the DSPI}
+\label{sec:dspi_results}
+
+To understand the economic reason driving firm strategic behavior, we first analyze the quantitative pricing landscape using the Digital Services Price Index (DSPI).
+
+\subsection{Magnitude of the Arbitrage Incentive}
+The data shows large price differences across markets. For example, subscriptions in Turkey or Argentina can cost 70-80\% less than the same subscriptions in Switzerland or the USA when measured in nominal USD. This difference creates a "super-normal" profit margin for consumers doing arbitrage, explaining the persistence of this behavior despite the technical barriers analyzed in later sections.
+
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/dspi_heatmap.pdf}
+    \caption{Global Heatmap of Digital Service Pricing (The DSPI). Data represents the cost of local subscriptions relative to the US baseline (DSPI=1.0). Lower values indicate stronger arbitrage incentives.}
+    \label{fig:dspi_map}
+\end{figure}
+
+\begin{table}[ht]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.1}
+    \begin{threeparttable}
+    \begin{tabular}{l|ccccc|ccccc|c}
+        \toprule
+        \textbf{Service} & \rotatebox{90}{Switzerland} & \rotatebox{90}{USA} & \rotatebox{90}{Germany} & \rotatebox{90}{UK} & \rotatebox{90}{Poland} & \rotatebox{90}{Turkey} & \rotatebox{90}{Argentina} & \rotatebox{90}{Brazil} & \rotatebox{90}{Ukraine} & \rotatebox{90}{Philippines} & \rotatebox{90}{Pakistan} \\
+        \midrule
+        Netflix & 1.44 & 1.00 & 0.85 & 0.78 & 0.68 & 0.52 & 1.00 & 0.50 & 0.45 & 0.45 & \textbf{0.16} \\
+        YouTube Premium & 1.45 & 1.00 & 1.01 & 1.18 & 0.70 & \textbf{0.17} & 0.74 & 0.36 & 0.18 & 0.24 & \textbf{0.12} \\
+        Disney+ & 1.47 & 1.00 & 0.92 & 1.07 & 0.67 & 1.11 & 1.14 & 0.72 & -- & 0.35 & -- \\
+        Amazon Prime & 0.75 & 1.00 & 0.65 & 0.76 & \textbf{0.18} & \textbf{0.15} & 0.64 & 0.27 & 0.51 & 0.18 & \textbf{0.14} \\
+        Spotify & 1.50 & 1.00 & 1.18 & 1.27 & 0.50 & 0.26 & 0.33 & 0.40 & 0.42 & 0.25 & \textbf{0.10} \\
+        Apple Music & 1.43 & 1.00 & 1.09 & 1.27 & 0.50 & \textbf{0.17} & 0.65 & 0.40 & 0.45 & 0.23 & -- \\
+        Microsoft 365 & 1.13 & 1.00 & 1.08 & 1.08 & 1.08 & 1.06 & 0.45 & 1.02 & 0.70 & 0.88 & 0.83 \\
+        Adobe CC & 1.24 & 1.00 & 1.21 & 1.21 & 1.26 & 0.74 & 1.01 & 0.61 & 0.58 & 0.98 & 1.00 \\
+        Xbox Game Pass & 1.13 & 1.00 & 0.98 & 0.89 & 0.93 & 0.86 & 1.08 & 0.88 & 0.75 & 0.58 & \textbf{0.18} \\
+        NordVPN & 1.09 & 1.00 & 1.09 & 0.97 & 0.85 & 1.01 & 0.44 & 0.44 & 1.01 & 0.90 & 0.81 \\
+        ExpressVPN & 0.99 & 1.00 & 1.02 & 1.00 & 1.13 & 1.10 & 0.92 & 0.92 & 1.10 & 0.92 & 0.73 \\
+        \bottomrule
+    \end{tabular}
+    \begin{tablenotes}
+        \small
+        \item \textit{Note:} DSPI values represent local price relative to US baseline (1.00). Bold values indicate strongest arbitrage opportunities ($<0.20$). Data collected December 2025.
+    \end{tablenotes}
+    \end{threeparttable}
+    \caption{Digital Services Price Index (DSPI) by Service and Country}
+    \label{tab:dspi_full}
+\end{table}
+
+\subsection{The Affordability Paradox: Nominal vs. Real Cost}
+While nominal price differences create arbitrage incentives for Western users, it is crucial to understand the "Real Cost" for local users. Figure \ref{fig:affordability} maps the cost of digital services as a percentage of the \textbf{Median National Monthly Wage}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/affordability_heatmap.pdf}
+    \caption{The Affordability Gap: Digital Service Cost as Percentage of Local Monthly Income. Darker red indicates higher relative cost for local citizens.}
+    \label{fig:affordability}
+\end{figure}
+
+The data reveals a paradox: while Turkey and Argentina offer the cheapest nominal prices for international arbitrageurs (< \$4/month), these services are significantly \textit{more expensive} for locals in real terms. For instance, a Standard Netflix subscription in Turkey consumes a higher percentage of the median monthly wage ($\approx 0.6\%$) compared to the USA ($\approx 0.3\%$). This suggests that low nominal prices are not "discounts" but necessary adjustments to local purchasing power, which external actors then exploit.
+
+\section{Classification Results: Strategic Framing}
+\label{sec:classification_results}
+
+This section presents the findings from the automated reclassification of the Terms of Service (ToS) and annual reports using the Gemini 3 Flash pipeline. The analysis processed a total of 25,593 sentences across the dataset.
+ 
+ \subsection{Distribution of Enforcement Categories}
+ The classification showed that \textbf{94.1\%} of the sentences were "General Terms" (legal boilerplate). While this high volume of standard legal text confirms the structural integrity of the documents, the analysis below focuses primarily on the remaining \textbf{5.9\%} of "Strategic Sentences" that contain active enforcement clauses. "General Terms" are excluded from trend visualizations to maintain readability. Table \ref{tab:category_dist} shows how different providers approach this.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{l X c c}
+        \toprule
+        \textbf{Category} & \textbf{Description} & \textbf{Freq (N)} & \textbf{Freq (\%)} \\
+        \midrule
+        Content Licensing & Geographic restrictions based on rights. & 562 & 37.22\% \\
+        Regulatory Compliance & Local laws/tax compliance. & 528 & 34.97\% \\
+        Price Discrimination & Explicit regional pricing rules. & 120 & 7.95\% \\
+        Legal Threat & Explicit threats of termination/legal action. & 120 & 7.95\% \\
+        Technical Blocking & Active detection/blocking technology. & 108 & 7.15\% \\
+        Security Risk & Risks of VPN usage (Service Prov. Frame). & 42 & 2.78\% \\
+        Privacy/Security & Encryption/Anonymity (VPN Frame). & 27 & 1.79\% \\
+        Legitimate Portability & EU Portability Regulation clauses. & 2 & 0.13\% \\
+        User Workaround & References to circumventing blocks. & 1 & 0.07\% \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Distribution of Strategic Categories in ToS Documents}
+    \label{tab:category_dist}
+\end{table}
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/strategic_frames_dist.pdf}
+        \caption{Strategic Frames Distribution}
+        \label{fig:frame_dist}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/global_priority_shift.pdf}
+        \caption{Global Priority Shift (\%)}
+        \label{fig:priority_shift}
+    \end{subfigure}
+    \caption{Global Landscape of Enforcement: Distribution and Temporal Priority Shift.}
+    \label{fig:global_summary}
+\end{figure}
+
+The \textbf{Global Priority Shift} (Figure \ref{fig:priority_shift}) shows a relative increase in the importance of \textit{Technical Blocking} language compared to other categories over the last three years. This trend is further supported by the lexical analysis of the dataset.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabular}{l c | l c}
+        \toprule
+        \textbf{Keyword} & \textbf{Frequency} & \textbf{Keyword} & \textbf{Frequency} \\
+        \midrule
+        location & 128 & circumvention & 26 \\
+        youtube & 113 & piracy & 25 \\
+        determine & 46 & distribution & 25 \\
+        google & 37 & protection & 25 \\
+        unauthorized & 29 & verify & 25 \\
+        detection & 28 & accessibility & 25 \\
+        monitor & 27 & monitor & 27 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Top Strategically Relevant Keywords Identified by Gemini 3 Flash}
+    \label{tab:keywords}
+\end{table}
+
+The prevalence of keywords like ``location,'' ``determine,'' and ``detection'' underscores the shift toward active monitoring as a core enforcement strategy. Table \ref{tab:quotes} provides verbatim examples of how these concepts are operationalized.
+
+\begin{table}[ht]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \small
+    \begin{tabularx}{\textwidth}{l X l l l c}
+        \toprule
+        \textbf{Category} & \textbf{Quote} & \textbf{Service} & \textbf{Year} & \textbf{Doc} & \textbf{Conf} \\
+        \midrule
+        Content Licensing & "We grant you a limited... license... only within geographic locations..." & Netflix & 2023 & ToS & 0.98 \\
+        \addlinespace
+        Technical Blocking & "You may not use any technology to obscure or disguise your location." & Disney+ & 2024 & ToS & 0.95 \\
+        \addlinespace
+        Legal Threat & "We reserve the right to terminate... without notice, if we suspect violation." & Spotify & 2022 & ToS & 0.92 \\
+        \addlinespace
+        Price Discrimination & "Prices may vary by country... charged in currency of location." & Steam & 2024 & ToS & 0.89 \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Representative Clauses for Detected Enforcement Strategies}
+    \label{tab:quotes}
+\end{table}
+
+\subsection{Service-Specific Analysis}
+The enforcement strategies vary significantly across different service providers, reflecting their distinct business models and regional licensing constraints. Figure \ref{fig:service_dist} illustrates the proportional distribution of categories for each service. 
+
+\subsubsection{Strategic Framing by Digital Service Providers}
+The qualitative analysis highlights a distinct "Coercive" framing strategy employed by digital service providers. The dominant rhetorical frame, appearing in over \textbf{37.2\%} of non-boilerplate sentences (see Table \ref{tab:category_dist}), is \textbf{Content Licensing}. Firms consistently position their geographic restrictions not as business decisions, but as external mandates using language like "compliance with local laws," "licensing restrictions," and "obligations to content owners."
+The second most dominant frame is \textbf{Regulatory Compliance} (\textbf{35.0\%}), reinforcing this narrative of external obligation.
+
+Content licensing services like \textbf{Disney+} and \textbf{Netflix} exhibit this most strongly, dedicating significant portions of their terms to defining geographic rights. In contrast, global platforms like \textbf{Amazon} show notable spikes in Regulatory Compliance.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/service_distribution_ratios.pdf}
+    \caption{Proportional Distribution of Enforcement Categories by Service}
+    \label{fig:service_dist}
+\end{figure}
+
+To further quantify the intensity of these enforcement regimes, we propose the \textbf{Fortress Index}, a metric that calculates the percentage of enforcement-related clauses (Technical Blocking and Legal Threat) relative to the total number of sentences in a firm's documentation. Table \ref{tab:fortress_index} illustrates the stark divide between actors in the geo-arbitrage ecosystem.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{l X c}
+        \toprule
+        \textbf{Service Provider} & \textbf{Strategic Archetype} & \textbf{Fortress Score (\%)} \\
+        \midrule
+        ExpressVPN & VPN Enabler & 55.56 \\
+        NordVPN & VPN Enabler & 50.00 \\
+        YouTube Premium & Content Provider & 34.34 \\
+        Microsoft & Software/Access & 32.76 \\
+        Apple Music & Content Provider & 12.50 \\
+        Adobe & Software/Utility & 5.71 \\
+        Amazon Prime & Global Platform & 2.94 \\
+        Disney+ & Content Provider & 2.04 \\
+        Netflix & Content Provider & 2.03 \\
+        Spotify & Content Provider & 0.43 \\
+        \bottomrule
+    \end{tabularx}
+    \caption{The Fortress Index: Percentage of Enforcement Clauses per Service}
+    \label{tab:fortress_index}
+\end{table}
+
+The index reveals that VPN providers like \textbf{ExpressVPN} and \textbf{NordVPN} have the highest density of relevant clauses, as their entire documentation is focused on security and circumvention. Among digital services, \textbf{YouTube} and \textbf{Microsoft} exhibit significantly higher physical "fortress" density than \textbf{Netflix} or \textbf{Spotify}, suggesting a more aggressive or complex regulatory approach to user location.
+
+\subsubsection{Strategic Framing by VPN Providers}
+In sharp contrast, VPN companies adopt a "Liberation" and "Privacy" frame. The analysis reveals a consistent narrative that reframes circumvention as \textbf{User Freedom}. 
+A secondary dominant frame identified in our analysis is \textbf{Privacy/Security}. While many users may purchase VPNs for streaming arbitrage, providers legitimize the service by emphasizing security features. \textbf{NordVPN}, for example, shows a distinct focus on ``Security Risk'' categories in our dataset, with marketing materials framing this as empowering users against tracking.
+
+\subsection{Temporal Evolution of Enforcement}
+To understand how these strategies have evolved over time, we analyzed the frequency of category-specific clauses across the dataset's years. Table \ref{tab:timeline_count} shows the raw count of enforcement-related incidents detected per service per year.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabular}{l|ccccccccc}
+        \toprule
+        \textbf{Service} & \textbf{2016} & \textbf{2018} & \textbf{2020} & \textbf{2021} & \textbf{2022} & \textbf{2023} & \textbf{2024} & \textbf{2025} \\
+        \midrule
+        Adobe & 0 & 0 & 2 & 0 & 0 & 0 & 1 & 1 \\
+        Amazon Prime & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 2 \\
+        Apple Music & 0 & 0 & 0 & 0 & 1 & 4 & 1 & 3 \\
+        Disney+ & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 \\
+        ExpressVPN & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 5 \\
+        Microsoft & 0 & 0 & 9 & 7 & 9 & 12 & 6 & 6 \\
+        Netflix & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 3 \\
+        NordVPN & 0 & 0 & 0 & 0 & 0 & 0 & 3 & 0 \\
+        Spotify & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        YouTube Premium & 8 & 7 & 1 & 0 & 16 & 53 & 31 & 20 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Raw Count of Enforcement Incidents per Service (2016--2025)}
+    \label{tab:timeline_count}
+\end{table}
+
+The data shows a significant increase in specific enforcement clauses, especially from 2022 onwards, most notably for \textbf{YouTube Premium}. This suggests that restrictive clauses have become more prevalent and more specific over the analyzed period, transitioning from general boilerplate to active regulatory language.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/timeline_all_total.pdf}
+    \caption{Temporal Evolution of Category Incident Counts (Aggregate)}
+    \label{fig:timeline_all}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/evolution_strategic_frames_summary.pdf}
+    \caption{Evolution of Strategic Frames over Time (Excluding General Terms)}
+    \label{fig:strategic_frames_evolution}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/category_timeline_per_service_normalized.pdf}
+    \caption{Temporal Evolution of Category Frequencies by Service (Normalized)}
+    \label{fig:timeline_service}
+\end{figure}
+
+\section{Deep Dive: Service-Specific Strategic Evolution}
+\label{sec:service_deep_dive}
+
+To understand the operational realities of geo-arbitrage enforcement, we analyze the longitudinal patterns of specific providers. The following figures illustrate how individual firms have adapted their Terms of Service to address the growing arbitrage incentive.
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_netflix.pdf}
+        \caption{Netflix}
+        \label{fig:evol_netflix}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_youtube.pdf}
+        \caption{YouTube Premium}
+        \label{fig:evol_youtube}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+    
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_disney.pdf}
+        \caption{Disney+}
+        \label{fig:evol_disney}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_spotify.pdf}
+        \caption{Spotify}
+        \label{fig:evol_spotify}
+    \end{subfigure}
+    \caption{Multi-Year Evolution of Strategic Frames: Video and Music Streaming.}
+    \label{fig:evol_streaming}
+\end{figure}
+
+The "Content Providers" (\textbf{Netflix}, \textbf{YouTube}, \textbf{Disney+}) show a distinct move toward specialized enforcement clauses starting in 2022. While \textbf{Spotify} remains relatively boilerplate-heavy, \textbf{YouTube Premium} exhibits a massive surge in specific "Technical Blocking" and "Legal Threat" language, corresponding to their increased efforts to combat VPN-enabled subscription hopping in markets like Turkey and Pakistan.
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_microsoft.pdf}
+        \caption{Microsoft 365}
+        \label{fig:evol_microsoft}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_adobe.pdf}
+        \caption{Adobe Creative Cloud}
+        \label{fig:evol_adobe}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+    
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_nordvpn.pdf}
+        \caption{NordVPN}
+        \label{fig:evol_nordvpn}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{figures/evol_expressvpn.pdf}
+        \caption{ExpressVPN}
+        \label{fig:evol_expressvpn}
+    \end{subfigure}
+    \caption{Multi-Year Evolution: Software Utilities and VPN Providers.}
+    \label{fig:evol_software_vpn}
+\end{figure}
+
+In contrast, software providers like \textbf{Adobe} maintain a consistent, lower level of ToS enforcement language, suggesting a reliance on technical licensing (cryptographic keys) rather than retroactive legal threats. VPN providers (\textbf{NordVPN}, \textbf{ExpressVPN}) show the most dramatic shifts, with their documentation evolving to emphasize encryption and user protection as primary value propositions, effectively reframing circumvention as a fundamental privacy right.
+
+\subsection{High-Confidence Findings: The Core Clauses}
+The Gemini 3 Flash model identified specific, high-confidence clauses that are central to the coercive strategy. For example, clauses stating "You may not use any technology to obscure or disguise your location" were consistently categorized as \textit{Technical Blocking} with $>0.95$ confidence. This confirms that firms have made technical countermeasures a formal part of their legal rules.
+
+
+
+\subsection{The Affordability Paradox: Real vs. Nominal Cost}
+While the DSPI measures the \textit{nominal} price difference (relevant to arbitrageurs), it is crucial to analyze the "Real Cost" for local residents. Figure \ref{fig:affordability_real} maps the cost of digital services as a percentage of the \textbf{Median National Monthly Wage}, serving as a digital equivalent to "Time-to-Earn" indices used in purchasing power comparisons (e.g., the Big Mac Index's affordability variant).
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/affordability_heatmap.pdf}
+    \caption{The Affordability Gap: Digital Service Cost as Percentage of Local Monthly Income. Darker red indicates higher relative cost for local citizens.}
+    \label{fig:affordability_real}
+\end{figure}
+
+The data reveals a critical paradox: while Turkey and Argentina offer the cheapest nominal prices worldwide for international arbitrageurs (< \$4/month, DSPI $\approx 0.15$), these same services are significantly \textit{more expensive} for locals in real terms. For instance, a Standard Netflix subscription in Turkey consumes approximately 0.6\% of the median monthly wage compared to approximately 0.2\% in the USA.
+
+This distinction is critical:
+\begin{enumerate}
+    \item \textbf{High DSPI Variance:} Creates incentives for \textit{external} abuse (VPN Arbitrage).
+    \item \textbf{Low Affordability:} Justifies the \textit{internal} pricing strategy (low nominal prices are necessary for market penetration, not optional discounts).
+\end{enumerate}
+
+Thus, low nominal prices observed in the Global South are not "bargains" but necessary economic adjustments that inadvertently create vulnerabilities exploited by Global North users.
+
+\section{Correlation Analysis: The Strategic Trade-off}
+\label{sec:correlation}
+To test the relationship between pricing strategy and enforcement intensity, we used the cleaned dataset to calculate the correlation between Price Discrimination (PD) and observed Enforcement Intensity (EI). Table \ref{tab:correlation_data} summarizes the key metrics.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabular}{l c c}
+        \toprule
+        \textbf{Service} & \textbf{PD Score (DSPI StdDev)} & \textbf{Enforcement Intensity (\%)} \\
+        \midrule
+        Microsoft & 0.208 & 0.87 \\
+        YouTube Premium & 0.464 & 3.07 \\
+        Spotify & 0.486 & 0.03 \\
+        Adobe & 0.245 & 0.13 \\
+        Netflix & 0.352 & 0.17 \\
+        Disney+ & 0.324 & 0.18 \\
+        Amazon Prime & 0.304 & 0.24 \\
+        Apple Music & 0.446 & 0.75 \\
+        ExpressVPN & 0.112 & 8.33 \\
+        NordVPN & 0.231 & 5.45 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Correlation between Price Discrimination and Enforcement Intensity}
+    \label{tab:correlation_data}
+\end{table}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/protection_vs_pricing_updated.pdf}
+    \caption{Strategic Alignment: Comparison of Price Discrimination scores vs. Enforcement Intensities across analyzed services.}
+    \label{fig:correlation}
+\end{figure}
+
+The refined analysis ($N=10$) reveals a complex relationship between price variance and enforcement. While the overall global correlation suggests a moderate trade-off, specific sector clusters emerge that show distinct strategic behaviors. This suggests that firms with established global pricing power (like Amazon) rely less on aggressive legal threats than smaller localized services or those in highly contested content markets.
+
+\begin{itemize}
+    \item \textbf{Content Providers (Netflix, Disney+, YouTube, Xbox, etc.):} This group effectively forms a "High Enforcement Cluster," but successfully illustrates the enforcement trade-off ($R_{sector} \approx 0.45$). 
+    \begin{itemize}
+        \item \textbf{High Variance / High Enforcement:} Services like \textbf{Disney+} and \textbf{YouTube} have large global price gaps (DSPI StdDev $>0.37$) and rely on aggressive "Technical Blocking" (6\%--8\%) to maintain them.
+        \item \textbf{Low Variance / Low Enforcement (The Xbox Case):} \textbf{Xbox Game Pass} serves as a crucial control. Governed by the Microsoft ecosystem, it has relatively harmonized global pricing (DSPI StdDev $\approx 0.25$) and correspondingly low enforcement intensity ($\approx 1.9\%$). This suggests that when a content provider harmonizes prices (reducing the arbitrage incentive), the need for a "Fortress" strategy diminishes.
+    \end{itemize}
+    
+    \item \textbf{Utility Software (The Strategic Split):}
+    \begin{itemize}
+        \item \textbf{Adobe Creative Cloud} is a significant anomaly. It rivals Content Providers in price discrimination (DSPI StdDev $\approx 0.59$) yet maintains very low ToS enforcement ($\approx 0.9\%$). This confirms the \textbf{"Utility Paradox"}: downloadable software relies on cryptographic license keys ("Hard" barriers) rather than the "Soft" IP-blocking threats required by streaming services.
+    \end{itemize}
+
+    \item \textbf{VPN Enablers (NordVPN, ExpressVPN):} As expected, these "Adversaries" show minimal "Technical Blocking" enforcement, as their business model depends on circumventing the very barriers erected by the Content Providers.
+\end{itemize}
+
+This data suggests that \textbf{Business Model} (Streaming vs. Download vs. Access) is a stronger predictor of enforcement strategy than \textbf{Price Opportunity} alone.

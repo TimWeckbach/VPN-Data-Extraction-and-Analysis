@@ -1,0 +1,58 @@
+\label{chap:methodology}
+
+This chapter details the methods used in this study.
+
+\section{Research Design}
+
+This study uses a sequential explanatory mixed-methods design \parencite{creswell2017designing}, combining quantitative price analysis with qualitative text classification. The reason for this dual approach is to first show the \textit{size} of the economic problem (the arbitrage incentive) and then look at the \textit{strategic responses} of the actors involved.
+
+The quantitative phase (Phase 1) builds the "Digital Services Price Index" (DSPI) to objectively measure differences in global digital service pricing. The qualitative phase (Phase 2) uses a Large Language Model (LLM) pipeline to classify corporate disclosures and Terms of Service, finding the strategic frameworks firms use to manage or fight this variance. This integration provides a comprehensive understanding of the geo-arbitrage ecosystem based on public documentation, though proprietary information and undisclosed technologies remain hidden.
+
+\section{Phase 1: Quantitative Data Collection (for RQ1)}
+
+\subsection{Data Collection}
+To construct the DSPI, a representative basket of 11 digital services was selected: Netflix, YouTube Premium, Disney+, Amazon Prime, Spotify, Apple Music, Microsoft 365, Adobe Creative Cloud, Xbox Game Pass, NordVPN, and ExpressVPN. These cover Video on Demand, Music Streaming, Software/Gaming, and VPN services.
+
+Price data was collected from a sample of 11 countries to capture the full spectrum of purchasing power. The countries included are: Argentina, Brazil, Germany, Pakistan, Philippines, Poland, Switzerland, Turkey, Ukraine, United Kingdom, and the United States. Only countries with high-confidence official wage data were included.
+
+Data collection was performed using a \textbf{Digital Audit} design, adapting the methodology established by \textcite{hannak2014measuring} for detecting online price discrimination. A virtual presence was established in each target country using a commercial VPN service to simulate local access, a technique now standard in information systems research for "mystery shopping" in digital markets. For each service and country, the monthly "Standard" subscription price was recorded in local currency. This approach mirrors the methodology of the "Billion Prices Project" \parencite{cavallo2017are}, which demonstrated the validity of using high-frequency online scraping to construct robust price indices that track real-time economic disparities more effectively than traditional CPI baskets.
+
+\subsection{Data Analysis}
+The raw price data was processed in two stages. First, all local prices were converted to a common currency (USD) using market exchange rates (recorded in December 2025) to find the ``Nominal Price Inequality.'' Second, to measure ``Real Affordability,'' these prices were calculated as a percentage of the \textit{Median National Monthly Wage} (sourced from OECD and World Bank data), giving a direct measure of the economic burden on the local consumer (`Price-to-Wage Ratio`). This study proposes this approach as a new alternative to standard PPP adjustment, arguing it better reflects subscription goods' affordability relative to disposable income in the specific context of digital services.
+
+It is important to note that a DSPI of 1.0 (Nominal Parity) does not imply equal affordability. Due to vast differences in median wages (e.g., Switzerland vs. India), a service priced identically in USD would be significantly more expensive for the Indian consumer in real terms (requiring a larger percentage of their income). Thus, the arbitrage incentive persists even at nominal parity if the local price is structured to be affordable for the local median earner.
+
+The DSPI was calculated as the ratio of the local price to the US baseline price. A DSPI of 1.0 indicates price parity with the US market; a DSPI < 1.0 indicates a cheaper market (potential arbitrage source), and a DSPI > 1.0 indicates a more expensive market. Statistical variance analysis was performed to identify which service categories exhibit the highest degree of price discrimination.
+
+\section{Phase 2: Qualitative Data Collection \& Analysis (for RQ2)}
+
+\subsection{Coding Procedure}
+The analysis follows a systematic coding approach inspired by the \textbf{Gioia Methodology} \parencite{gioia2013seeking}, which organizes qualitative data into layers: 1st-order concepts (raw terms found in text), 2nd-order themes (theoretical categories such as "Technical Blocking"), and aggregate dimensions (Strategic Responses). While first designed for manual coding \parencite{duriau2007content}, this layered structure provided the conceptual framework for the automated classification pipeline described below.
+
+\input{methodology_details}
+
+\subsection{Standard Qualitative Coding}
+While the automated LLM pipeline provides scalable classification across the full dataset, manual qualitative coding complements this approach by capturing nuances that escape rigid categorization. A sub-sample of 200 sentences was selected for manual review, stratified across service providers and document years to ensure representativeness.
+
+The manual coding process addressed three objectives:
+\begin{enumerate}
+    \item \textbf{Validation:} Verifying the LLM classifications against human judgment to assess reliability and identify systematic errors or edge cases.
+    \item \textbf{Tone Analysis:} Capturing the rhetorical ``tone'' of enforcement language that categorical classification cannot capture. For example, distinguishing between neutral legal boilerplate (``We may terminate your account...'') and threatening language (``Violations will result in immediate termination without refund...'').
+    \item \textbf{Emergent Themes:} Identifying themes not captured by the predefined categories, such as references to ``fair use,'' ``educational purposes,'' or ``legitimate business needs'' that may signal adaptive rather than purely coercive approaches.
+\end{enumerate}
+
+This triangulation between automated and manual coding strengthens the validity of the overall classification, ensuring that the strategic patterns identified in Chapter 4 reflect genuine corporate positioning rather than artifacts of the LLM classification process.
+
+
+\section{Data Analysis Procedures}
+\label{sec:analysis_procedures}
+
+The final analytical step involved synthesizing the quantitative and qualitative data streams. 
+
+\subsection{Statistical Analysis of the DSPI}
+The pricing data was analyzed using Python. Descriptive statistics (mean, median, standard deviation) were calculated for the DSPI across all services and regions. Correlation matrices were generated to examine the relationship between a country's income level and subscription pricing, testing whether price discrimination correlates strictly with national wealth or follows more complex patterns.
+
+\subsection{Interpretation of Qualitative Classifications}
+For the qualitative data, the JSON outputs from the Gemini 3 Flash pipeline were parsed and aggregated. The frequency of each "Strategic Frame" (e.g., \textit{Legal Compliance} vs. \textit{User Freedom}) and "Firm Action" (e.g., \textit{Technical Blocking}) was calculated per company and per year. 
+
+To visualize the evolution of enforcement strategies, these frequencies were normalized against the total number of sentences per year to account for the documented growth in ToS document length over time \parencite{reidenberg2021privacy}. This allowed for the generation of longitudinal trend lines (see Chapter 4). Finally, a comparative analysis was conducted to contrast the rhetoric of "Fortress" strategy firms (high blocking) against "Globalist" strategy firms (price harmonization), identifying the key markers of each business model archetype.
