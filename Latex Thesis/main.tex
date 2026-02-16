@@ -104,6 +104,14 @@
 \newacronym{dpi}{DPI}{Deep Packet Inspection}
 \newacronym{rq}{RQ}{Research Question}
 \newacronym{eu}{EU}{European Union}
+\newacronym{nli}{NLI}{Natural Language Inference}
+\newacronym{cdn}{CDN}{Content Delivery Network}
+\newacronym{saas}{SaaS}{Software as a Service}
+\newacronym{gdpr}{GDPR}{General Data Protection Regulation}
+\newacronym{dvpn}{dVPN}{Decentralized Virtual Private Network}
+\newacronym{bma}{BMA}{Business Model Adaptation \& Pricing}
+\newacronym{crl}{CRL}{Coercive Restriction \& Legal Threat}
+\newacronym{gco}{GCO}{General Corporate Operations}
 
 \newglossaryentry{pricehopping}{
 	name={price hopping},
@@ -113,6 +121,126 @@
 \newglossaryentry{discriminationdilemma}{
 	name={discrimination dilemma},
 	description={The paradox that the more aggressively a firm discriminates on price across regions, the greater the arbitrage incentive it creates and the higher the enforcement costs required to maintain market segmentation}
+}
+
+% --- Strategic Archetypes ---
+
+\newglossaryentry{contentfortress}{
+	name={Content Fortress},
+	description={Strategic archetype in which content streaming firms (e.g., Netflix, YouTube, Disney+) defend geographic price segmentation primarily through technical blocking and content-licensing restrictions}
+}
+
+\newglossaryentry{enterprisefortress}{
+	name={Enterprise Fortress},
+	description={Strategic archetype in which utility software firms (e.g., Microsoft) protect value capture through identity verification and legal threats at the point of purchase rather than network-level blocking during use}
+}
+
+\newglossaryentry{ecosystemfortress}{
+	name={Ecosystem Fortress},
+	description={Strategic archetype in which platform firms (e.g., Apple, Amazon) make geo-arbitrage impractical by embedding digital services within broader product ecosystems tied to a user's physical identity, creating high switching costs that serve as implicit enforcement}
+}
+
+\newglossaryentry{utilityparadox}{
+	name={Utility Paradox},
+	description={Strategic archetype describing firms like Adobe whose moderate price discrimination and low technical blocking enforcement stem from reliance on on-device software activation (cryptographic license keys) rather than on-network IP filtering, revealing that available enforcement mechanisms depend on value-delivery architecture rather than pricing strategy}
+}
+
+\newglossaryentry{affordabilityparadox}{
+	name={Affordability Paradox},
+	description={The finding that nominally ``cheap'' digital subscription prices in low-income markets are often significantly more expensive for local consumers in real terms (as a share of local wages), challenging the assumption that geographic price discrimination primarily benefits developing-economy consumers}
+}
+
+\newglossaryentry{bureaucraticfortress}{
+	name={Bureaucratic Fortress},
+	description={A variant of the Ecosystem Fortress strategy (used for Amazon Prime) where the barrier to geo-arbitrage is not an IP filter but a valid residential address and local credit card, making arbitrage logistically difficult rather than technically impossible}
+}
+
+% --- Key Metrics ---
+
+\newglossaryentry{fortressindex}{
+	name={Fortress Index},
+	description={A metric calculating the percentage of enforcement-related clauses (Technical Blocking + Legal Threat) relative to the total number of strategic (non-General Terms) sentences in a firm's documentation, measuring enforcement focus independently of document length}
+}
+
+\newglossaryentry{pricediscriminationscore}{
+	name={Price Discrimination Score},
+	description={The standard deviation of a service's \gls{dspi} values across countries, used as a measure of cross-country price variance and thus the strength of the arbitrage incentive for that service}
+}
+
+\newglossaryentry{enforcementintensity}{
+	name={Enforcement Intensity},
+	description={The percentage of Technical Blocking and Legal Threat clauses relative to total sentences for a given service, measuring the density of coercive enforcement language in corporate documentation}
+}
+
+% --- Analytical Concepts ---
+
+\newglossaryentry{geoarbitrage}{
+	name={geo-arbitrage},
+	description={The practice of exploiting geographic price differences for digital services by using VPNs or similar tools to purchase subscriptions at prices intended for a different (typically lower-income) market; used synonymously with ``price hopping'' and ``subscription hopping'' in this thesis}
+}
+
+\newglossaryentry{forwardfill}{
+	name={forward-fill imputation},
+	description={A data imputation strategy applied in the longitudinal \gls{tos} analysis whereby a document's clauses are assumed to remain valid for subsequent years until a new version is detected, distinguishing between ``missing data'' and ``persistent rules''}
+}
+
+\newglossaryentry{coerciveinnovation}{
+	name={coercive innovation},
+	description={A category of business model response focused on Value Capture, in which firms reinforce barriers to protect the existing pricing model through technical blocking, legal threats, and account restrictions}
+}
+
+\newglossaryentry{adaptiveinnovation}{
+	name={adaptive innovation},
+	description={A category of business model response focused on Value Proposition, in which firms change their product offering to make arbitrage irrelevant (e.g., global pricing, ecosystem lock-in, original content production)}
+}
+
+\newglossaryentry{enforcementsurge}{
+	name={Enforcement Surge},
+	description={The sharp escalation in Technical Blocking and Legal Threat clauses observed in corporate documents beginning in 2022, peaking in 2023, driven primarily by YouTube's crackdown on VPN-based subscription arbitrage}
+}
+
+\newglossaryentry{adversarialcycle}{
+	name={Adversarial Cycle},
+	description={The recurring action-reaction dynamic between platform enforcement measures and VPN circumvention technologies, decomposed into four phases: The Wild West, The First Wall, The Escalation, and The New Equilibrium}
+}
+
+\newglossaryentry{arbitragewindow}{
+	name={Arbitrage Window},
+	description={The dynamic and potentially short-lived period during which a specific country offers a favorable price for geo-arbitrage, subject to change through currency fluctuations, local price adjustments, or regulatory intervention}
+}
+
+% --- Strategic Frame Categories ---
+
+\newglossaryentry{technicalblocking}{
+	name={Technical Blocking},
+	description={A firm action category in the coding scheme denoting active technological measures to detect or block the use of VPNs or proxies (e.g., IP blacklisting, geo-blocking technology, \gls{drm} enforcement)}
+}
+
+\newglossaryentry{legalthreat}{
+	name={Legal Threat},
+	description={A firm action category in the coding scheme denoting explicit threats of account termination, suspension, or legal action specifically for using circumvention tools}
+}
+
+\newglossaryentry{contentlicensing}{
+	name={Content Licensing},
+	description={A firm action category in the coding scheme denoting geographic restriction of content availability due to territorial rights agreements (e.g., ``not available in your region'')}
+}
+
+% --- Methodological Concepts ---
+
+\newglossaryentry{threelevel}{
+	name={Three-Level Mechanism},
+	description={A conceptual model proposed in this thesis (drawing from self-control theory) decomposing the consumer decision to engage in geo-arbitrage into three levels: Individual (rational cost-benefit), Inter-personal (social influence from online communities), and Societal (moral intensity and neutralization techniques)}
+}
+
+\newglossaryentry{digitalaudit}{
+	name={digital audit},
+	description={The data collection methodology adapted from Hannak et al.\ (2014) in which a virtual presence is established in each target country using a \gls{vpn} to simulate local access, recording subscription prices as a form of ``mystery shopping'' in digital markets}
+}
+
+\newglossaryentry{gioiamethodology}{
+	name={Gioia Methodology},
+	description={A systematic qualitative coding approach organizing data into layered abstractions (1st-order concepts, 2nd-order themes, aggregate dimensions), used as the conceptual framework for the automated \gls{llm} classification pipeline in this thesis}
 }
 
 \makeglossaries
@@ -472,6 +600,21 @@ when enforcement tightens. However, a key difference emerges between piracy and 
 	      Whether companies will adopt analogous adaptive responses to geo-arbitrage is a central question of this thesis.
 \end{itemize}
 
+A closely related form of circumvention that bridges piracy and geo-arbitrage is
+\textit{password sharing}, where subscribers share their account credentials with
+non-paying users. \textcite{chen2026password} model the economics of password sharing
+in digital subscription markets, demonstrating that it creates a structurally similar
+tension between platforms' revenue protection and consumer surplus maximization.
+Like geo-arbitrage, password sharing involves a genuine subscriber account (unlike piracy),
+but undermines the platform's value capture by extending access beyond the intended
+paying user base. Netflix's high-profile crackdown on password sharing beginning in
+2023---which coincides precisely with the broader enforcement surge documented in our
+\gls{tos} analysis (Table~\ref{tab:qual_timeline_complete})---illustrates how platforms
+increasingly treat all forms of access circumvention, whether geographic or credential-based,
+as strategic threats requiring coordinated enforcement responses.
+This suggests that geo-arbitrage should not be studied in isolation but as part of a
+broader spectrum of consumer-driven circumvention behaviors that collectively challenge
+digital subscription business models.
 
 \subsection{The Three-Level Mechanism of Circumvention}
 Drawing from the self-control framework applied by \textcite{higgins2008piracy} to digital
@@ -482,7 +625,7 @@ This way of looking at it helps explain why otherwise law-abiding consumers enga
 \begin{enumerate}
 	\item \textbf{Individual Level (Rational Choice / Personal Risk):}
 	      The consumer performs a cost-benefit analysis. The financial gain
-	      (e.g., a 70\% discount on Netflix from Turkey) is weighed against the perceived probability
+	      (e.g., an 83\% discount on YouTube Premium from Turkey) is weighed against the perceived probability
 	      of detection and the severity of punishment \parencite{ransbotham2009choice}
 	      (e.g., account termination). When enforcement is perceived as inconsistent, the perceived
 	      risk may be low. Crucially, the expected utility calculation is heavily skewed
@@ -850,7 +993,9 @@ showed the highest degree of nominal price discrimination.
 \textbf{Stage 2: The PTW Ratio (Real Affordability).} As a separate complementary metric,
 each USD-converted price was also calculated as a percentage of the \textit{Median National Monthly Wage}
 (sourced from OECD \parencite{oecd2023wages}, national statistical institutes
-\parencite{indec2023argentina}, and economic databases \parencite{tradingeconomics2023turkey}),
+\parencite{indec2023argentina}, and economic databases \parencite{tradingeconomics2023turkey};
+the complete list of wage figures, exchange rates, and sources is documented in
+Table~\ref{tab:wage_reference} in Appendix~\ref{app:reference_data}),
 giving a direct measure of the economic burden on the local consumer.
 This \gls{ptw} ratio was proposed as a new alternative
 to standard PPP adjustment, arguing it better reflects subscription goods' affordability
@@ -1015,12 +1160,6 @@ for subsequent years (2021, 2022) until a new document was detected.
 This ensured the dataset accurately reflected the \textit{active}
 regulatory environment in any given year, distinguishing between
 ``missing data'' and ``persistent rules.''
-
-Also, while ``General Terms'' (standard legal boilerplate)
-constitute approximately 94\% of the dataset, they are retained in the
-master dataset to preserve the full document structure.
-However, for visual clarity, these terms are frequently excluded
-from strategic trend graphs to focus on specific enforcement categories.
 
 \subsection{Methodological Validation: Gemini vs. Zero-Shot BERT}
 To validate the choice of the Gemini 3 Flash model, a comparison
@@ -1273,18 +1412,11 @@ company, while Figure~\ref{fig:app_doctype_dist} breaks down the corpus by docum
 Table~\ref{tab:app_service_stats} presents the complete distribution of strategic
 frame counts for each of the 10 analyzed services. The master corpus
 ($N=25{,}570$, Table~\ref{tab:app_service_stats}) includes 700 forward-filled
-observations added to ensure continuity of Terms of Service coverage across years:
-when a service did not publish an updated ToS in a given year, the most recent
-version was carried forward at the individual document level until a replacement
-was published. The temporal analysis in
-Table~\ref{tab:qual_timeline_complete} ($N=25{,}345$) draws from the same corpus
-(including the 700 forward-filled observations) but excludes 225 sentences
-from documents that could not be reliably assigned to a specific publication year
-($25{,}570 - 225 = 25{,}345$). The combined effect of this exclusion means that
-individual category counts may shift slightly between the two tables.
-These differences are minor and do not affect the proportional
-trends, as the excluded documents are distributed across categories consistent
-with the dated subset.
+observations (see Chapter~\ref{chap:methodology} for the imputation rationale).
+The temporal analysis in
+Table~\ref{tab:qual_timeline_complete} ($N=25{,}345$) excludes 225 sentences
+from documents that could not be reliably assigned to a specific publication year.
+This minor difference does not affect proportional trends.
 
 \begin{figure}[ht]
 	\centering
@@ -1440,9 +1572,8 @@ effectively ``dollarized'' for elites or external arbitrageurs.
 \end{table}
 
 Table~\ref{tab:dspi_matrix} presents the complete per-service DSPI values across
-all 11 countries in the dataset. A value of 1.00 indicates price parity with the
-US baseline, values below 1.00 indicate cheaper markets (potential arbitrage sources),
-and values above 1.00 indicate more expensive markets. Cells marked with ``--''
+all 11 countries in the dataset (recall that the DSPI scale is defined in
+Chapter~\ref{chap:methodology}). Cells marked with ``--''
 indicate that the service is not available in that country.
 
 \begin{table}[ht]
@@ -1461,13 +1592,13 @@ indicate that the service is not available in that country.
 			United Kingdom   & 0.78                             & 1.18                             & 1.07                             & 0.76                            & 1.27                             & 1.27                              & 1.08                            & 1.21                              & 0.89                             & 0.97                             & 1.00                                \\
 			Germany          & 0.85                             & 1.01                             & 0.92                             & 0.65                            & 1.18                             & 1.09                              & 1.08                            & 1.21                              & 0.98                             & 1.09                             & 1.02                                \\
 			United States    & 1.00                             & 1.00                             & 1.00                             & 1.00                            & 1.00                             & 1.00                              & 1.00                            & 1.00                              & 1.00                             & 1.00                             & 1.00                                \\
-			Poland           & 0.68                             & 0.70                             & 0.67                             & 0.18                            & 0.50                             & 0.50                              & 1.08                            & 1.26                              & 0.93                             & 0.82                             & 1.13                                \\
+			Poland           & 0.68                             & 0.70                             & 0.67                             & 0.18                            & 0.50                             & 0.50                              & 1.08                            & 1.26                              & 0.93                             & 0.85                             & 1.13                                \\
 			Argentina        & 1.00                             & 0.74                             & 1.14                             & 0.64                            & 0.33                             & 0.65                              & 0.45                            & 1.01                              & 1.08                             & 0.44                             & 0.92                                \\
 			Turkey           & 0.52                             & 0.17                             & 1.11                             & 0.15                            & 0.26                             & 0.17                              & 1.06                            & 0.74                              & 0.86                             & 1.01                             & 1.10                                \\
 			Ukraine          & 0.45                             & 0.18                             & --                               & 0.51                            & 0.42                             & 0.45                              & 0.70                            & 0.58                              & 0.75                             & 1.01                             & 1.10                                \\
 			Brazil           & 0.50                             & 0.36                             & 0.72                             & 0.27                            & 0.40                             & 0.40                              & 1.02                            & 0.61                              & 0.88                             & 0.44                             & 0.92                                \\
 			Philippines      & 0.45                             & 0.24                             & 0.35                             & 0.18                            & 0.25                             & 0.23                              & 0.88                            & 0.98                              & 0.58                             & 0.90                             & 0.92                                \\
-			Pakistan         & 0.16                             & 0.12                             & --                               & 0.14                            & 0.10                             & --                                & 0.83                            & 1.00                              & 0.18                             & 0.81                             & 0.74                                \\
+			Pakistan         & 0.16                             & 0.12                             & --                               & 0.14                            & 0.10                             & --                                & 0.83                            & 1.00                              & 0.18                             & 0.81                             & 0.73                                \\
 			\bottomrule
 		\end{tabular}}
 \end{table}
@@ -1498,17 +1629,17 @@ for direct comparison across all services and markets.
 			\toprule
 			\textbf{Country} & \rotatebox{70}{\textbf{Wage (\$)}} & \rotatebox{70}{\textbf{Netflix}} & \rotatebox{70}{\textbf{YouTube}} & \rotatebox{70}{\textbf{Disney+}} & \rotatebox{70}{\textbf{Amazon}} & \rotatebox{70}{\textbf{Spotify}} & \rotatebox{70}{\textbf{Apple M.}} & \rotatebox{70}{\textbf{MS 365}} & \rotatebox{70}{\textbf{Adobe CC}} & \rotatebox{70}{\textbf{Xbox GP}} & \rotatebox{70}{\textbf{NordVPN}} & \rotatebox{70}{\textbf{ExpressVPN}} \\
 			\midrule
-			Switzerland      & 7{,}800                            & 25.88                            & 20.23                            & 19.10                            & 11.29                           & 18.02                            & 15.71                             & 112.94                          & 43.31                             & 11.29                            & 104.93                           & 119.37                              \\
-			United Kingdom   & 5{,}715                            & 13.96                            & 16.50                            & 13.96                            & 11.42                           & 16.50                            & 13.96                             & 107.94                          & 31.72                             & 8.88                             & 93.45                            & 106.25                              \\
-			Germany          & 5{,}232                            & 15.25                            & 14.16                            & 11.98                            & 9.80                            & 14.16                            & 11.98                             & 107.91                          & 47.14                             & 9.80                             & 104.72                           & 108.60                              \\
+			Switzerland      & 7{,}800                            & 25.88                            & 20.23                            & 19.10                            & 11.29                           & 18.02                            & 15.71                             & 112.94                          & 86.73                             & 11.29                            & 104.93                           & 105.64                              \\
+			United Kingdom   & 5{,}715                            & 13.96                            & 16.50                            & 13.96                            & 11.42                           & 15.23                            & 13.96                             & 107.94                          & 84.44                             & 8.88                             & 93.45                            & 106.25                              \\
+			Germany          & 5{,}232                            & 15.25                            & 14.16                            & 11.98                            & 9.80                            & 14.16                            & 11.98                             & 107.91                          & 85.01                             & 9.80                             & 104.72                           & 108.60                              \\
 			United States    & 6{,}600                            & 17.99                            & 13.99                            & 12.99                            & 14.99                           & 11.99                            & 10.99                             & 99.99                           & 69.99                             & 9.99                             & 96.07                            & 106.40                              \\
-			Poland           & 1{,}675                            & 12.25                            & 7.50                             & 8.75                             & 2.75                            & 6.00                             & 5.50                              & 107.50                          & 87.86                             & 9.25                             & 82.11                            & 120.13                              \\
-			Argentina        & 548                                & 18.00                            & 5.02                             & 14.76                            & 9.54                            & 3.96                             & 7.17                              & 44.64                           & 70.84                             & 10.80                            & 42.60                            & 97.72                               \\
-			Turkey           & 761                                & 9.28                             & 2.43                             & 14.40                            & 2.24                            & 3.17                             & 1.92                              & 105.60                          & 52.08                             & 8.61                             & 96.88                            & 117.26                              \\
+			Poland           & 1{,}675                            & 12.25                            & 9.75                             & 8.75                             & 2.75                            & 6.00                             & 5.50                              & 107.50                          & 87.86                             & 9.25                             & 82.11                            & 120.20                              \\
+			Argentina        & 548                                & 18.00                            & 10.32                            & 14.76                            & 9.54                            & 3.96                             & 7.17                              & 44.64                           & 70.84                             & 10.80                            & 42.60                            & 97.72                               \\
+			Turkey           & 761                                & 9.28                             & 2.43                             & 14.40                            & 2.24                            & 3.17                             & 1.92                              & 105.60                          & 52.07                             & 8.61                             & 96.88                            & 117.26                              \\
 			Ukraine          & 510                                & 8.16                             & 2.57                             & --                               & 7.62                            & 4.99                             & 4.99                              & 70.17                           & 40.79                             & 7.54                             & 96.88                            & 117.26                              \\
 			Brazil           & 600                                & 8.98                             & 4.98                             & 9.38                             & 3.98                            & 4.78                             & 4.38                              & 101.80                          & 42.80                             & 8.78                             & 42.66                            & 97.72                               \\
 			Philippines      & 370                                & 8.08                             & 3.40                             & 4.48                             & 2.68                            & 3.04                             & 2.50                              & 88.18                           & 68.40                             & 5.76                             & 86.40                            & 97.72                               \\
-			Pakistan         & 255                                & 2.88                             & 1.72                             & --                               & 2.16                            & 1.26                             & --                                & 82.80                           & 68.04                             & 1.80                             & 77.72                            & 78.18                               \\
+			Pakistan         & 255                                & 2.88                             & 1.72                             & --                               & 2.16                            & 1.26                             & --                                & 82.80                           & 69.99                             & 1.80                             & 77.72                            & 78.18                               \\
 			\bottomrule
 		\end{tabular}}
 \end{table}
@@ -1545,8 +1676,10 @@ to the total number of \textit{strategic} (non-General Terms) sentences in
 a firm's documentation. By excluding boilerplate General Terms from the denominator,
 the index measures enforcement \textit{focus}: what share of a firm's substantive
 policy language is dedicated to coercive measures. The resulting percentage for each
-service is referred to as its \textbf{Fortress Index}. Table \ref{tab:fortress_index}
-illustrates the stark divide between actors in the geo-arbitrage ecosystem.
+service is referred to as its \textbf{Fortress Index}.
+Figure~\ref{fig:fortress_index} visualizes the resulting ranking,
+while Table~\ref{tab:fortress_index_complete} (Section~\ref{sec:detailed_analysis})
+provides the complete numerical breakdown with strategic archetype assignments.
 
 Note that the Fortress Index measures conceptually
 different phenomena depending on the actor's position in the ecosystem.
@@ -1561,31 +1694,6 @@ boundaries but rather the mirror image: language about the security
 threats that justify circumvention. We keep both groups in one ranking
 to show the industry's split: the most rule-focused players sit at
 opposite ends of the value chain.
-
-\begin{table}[ht]
-	\centering
-	\small
-	\begin{tabularx}{\textwidth}{l X c}
-		\toprule
-		\textbf{Service Provider} & \textbf{Strategic Archetype} & \textbf{Fortress Index (\%)} \\
-		\midrule
-		ExpressVPN                & VPN Enabler                  & 55.56                        \\
-		NordVPN                   & VPN Enabler                  & 50.00                        \\
-		YouTube Premium           & Content Provider             & 33.68                        \\
-		Microsoft                 & Software/Access              & 32.76                        \\
-		Apple Music               & Content Provider             & 12.50                        \\
-		Adobe                     & Software/Utility             & 5.48                         \\
-		Amazon Prime              & Global Platform              & 3.88                         \\
-		Disney+                   & Content Provider             & 2.04                         \\
-		Netflix                   & Content Provider             & 2.03                         \\
-		Spotify                   & Content Provider             & 0.43                         \\
-		\bottomrule
-	\end{tabularx}
-	\caption{The Fortress Index: Percentage of Enforcement Clauses
-		(Technical Blocking + Legal Threat) as a Share of Strategic
-		(Non-General) Sentences per Service}
-	\label{tab:fortress_index}
-\end{table}
 
 \begin{figure}[ht]
 	\centering
@@ -1616,12 +1724,10 @@ opposite ends of the value chain.
 	\label{fig:fortress_index}
 \end{figure}
 
-As shown in Figure~\ref{fig:fortress_index}, VPN providers like \textbf{ExpressVPN}
-and \textbf{NordVPN} had the highest density of relevant clauses, as their entire
-documentation is focused on security and circumvention. Among digital services,
-\textbf{YouTube} and \textbf{Microsoft} showed significantly higher
-``fortress'' density than \textbf{Netflix} or \textbf{Spotify}, suggesting
-a more aggressive or complex regulatory approach to user location.
+As shown in Figure~\ref{fig:fortress_index}, YouTube and Microsoft scored
+highest among digital service providers, while Netflix and Spotify remained
+at the low end. The strategic implications of this ranking are discussed in
+Section~\ref{sec:detailed_analysis}.
 
 \subsubsection{Strategic Framing by VPN Providers}
 In sharp contrast, VPN companies adopt a ``Liberation'' and ``Privacy'' frame.
@@ -1667,7 +1773,7 @@ incidents detected per service per year.
 \end{table}
 
 The data show a significant increase in specific enforcement clauses,
-especially from 2022 onwards, especially for \textbf{YouTube Premium}
+especially from 2022 onwards, driven primarily by \textbf{YouTube Premium}
 (see also Figure~\ref{fig:timeline_all} for the aggregate temporal evolution
 and Figure~\ref{fig:strategic_frames_evolution} for the stacked category view).
 This suggested that restrictive clauses had become more prevalent and more
@@ -1686,13 +1792,9 @@ and~\ref{fig:evol_software_vpn}). The proportional (percentage-based)
 evolution of strategic frames across service categories is discussed
 in detail in Chapter~\ref{chap:discussion}.
 
-The ``Content Providers'' (\textbf{Netflix}, \textbf{YouTube}, \textbf{Disney+})
-showed a distinct move toward specialized enforcement clauses starting in 2022.
-While \textbf{Spotify} remained relatively boilerplate-heavy,
-\textbf{YouTube Premium} saw a massive surge in specific
-``Technical Blocking'' and ``Legal Threat'' language, corresponding
-to their increased efforts to combat VPN-enabled subscription hopping
-in markets like Turkey and Pakistan.
+Among content providers, \textbf{YouTube Premium} stood out with the sharpest
+enforcement escalation (Table~\ref{tab:timeline_count}), while \textbf{Spotify}
+remained relatively boilerplate-heavy throughout the period.
 
 In contrast, software providers like \textbf{Adobe} maintained a
 consistent, lower level of \gls{tos} enforcement language, suggesting
@@ -1737,7 +1839,7 @@ The high-confidence classifications cluster around four distinct linguistic patt
 	      Clauses that justify geographic restrictions by referencing
 	      legal obligations, licensing agreements, or regulatory requirements.
 	      These were the most common non-boilerplate category overall
-	      ($N=558$ Content Licensing clauses), reflecting the industry's
+	      ($N=525$ Content Licensing clauses), reflecting the industry's
 	      preferred rhetorical strategy of attributing restrictions
 	      to external legal constraints rather than corporate pricing decisions.
 \end{itemize}
@@ -1828,18 +1930,19 @@ Table \ref{tab:correlation_data} summarizes the key metrics.
 		ExpressVPN       & 0.112                           & 8.33                                                        \\
 		NordVPN          & 0.231                           & 5.45                                                        \\
 		\midrule
-		\multicolumn{3}{l}{\textbf{Pearson $r$, all $N=10$:} $-0.5493$ ($p = 0.10$, not significant at $\alpha = 0.05$)} \\
-		\multicolumn{3}{l}{\textbf{Pearson $r$, excl.\ VPNs $N=8$:} $-0.0589$ ($p = 0.89$, not significant)}             \\
+		\multicolumn{3}{l}{\textbf{Pearson $r$, all $N=10$:} $-0.5506$ ($p = 0.10$, not significant at $\alpha = 0.05$)} \\
+		\multicolumn{3}{l}{\textbf{Pearson $r$, excl.\ VPNs $N=8$:} $+0.3467$ ($p = 0.40$, not significant)}             \\
 		\bottomrule
 	\end{tabular}
 	\caption{Price Discrimination Score, Enforcement Intensity, and Their Correlation.
 		The full-sample Pearson $r \approx -0.55$ ($p = 0.10$) is driven primarily by
 		VPN providers (low PD, high EI) and is not statistically significant at
-		conventional thresholds. Excluding VPNs ($N=8$), the correlation drops to
-		$r \approx -0.06$ ($p = 0.89$), indicating that among digital service providers
-		alone, price discrimination and enforcement intensity are largely independent.
+		conventional thresholds. Excluding VPNs ($N=8$), the correlation reverses to a
+		weak positive $r \approx +0.35$ ($p = 0.40$), suggesting a temporary trend
+		where higher price discrimination relates with slightly higher enforcement
+		among digital service providers, though neither result is statistically significant.
 		Given the small sample sizes, these correlations should be interpreted as
-		exploratory pattern observations rather than statistically robust evidence.}
+		exploratory pattern observations.}
 	\label{tab:correlation_data}
 \end{table}
 
@@ -1853,10 +1956,7 @@ Table \ref{tab:correlation_data} summarizes the key metrics.
 
 The refined analysis ($N=10$), visualized in Figure~\ref{fig:correlation},
 revealed a complex relationship between price variance and enforcement.
-Given the small sample size ($N=8$ excluding VPN providers),
-these correlations should be interpreted as exploratory pattern observations rather
-than statistically robust evidence; the confidence intervals at this sample size
-are wide. Nevertheless, specific sector clusters emerged that showed distinct strategic behaviors.
+Specific sector clusters emerged that showed distinct strategic behaviors.
 This suggests that firms with established global pricing power and providing real local services (like Amazon)
 rely less on aggressive legal threats than smaller localized services or those
 in highly contested content markets.
@@ -1880,25 +1980,19 @@ in highly contested content markets.
 		            (Fortress Index values below 2.1\%), suggesting enforcement
 		            through licensing agreements rather than active
 		            technical measures.
-		      \item \textbf{Low Variance / Low Enforcement (The Xbox Case):}
+		      \item \textbf{Moderate Variance / Low Enforcement (The Xbox Case):}
 		            \textbf{Xbox Game Pass} serves as a useful control case.
 		            Governed by the Microsoft ecosystem (and combined with Microsoft 365 in the
 		            qualitative analysis, as both services share the same \gls{tos}),
-		            it has relatively harmonized global pricing (DSPI StdDev $\approx 0.25$)
-		            and correspondingly low enforcement intensity ($\approx 1.9\%$).
-		            This suggested that when a content provider harmonized prices
-		            (reducing the arbitrage incentive), the need for a ``Fortress'' strategy diminishes.
-	      \end{itemize}
-
-	\item \textbf{Utility Software (The Strategic Split):}
-	      \begin{itemize}
-		      \item \textbf{Adobe Creative Cloud} is a significant anomaly.
-		            It rivaled Content Providers in price discrimination
-		            (DSPI StdDev $\approx 0.59$) yet maintained very low ToS enforcement
-		            ($\approx 0.9\%$). This confirmed the \textbf{``Utility Paradox''}:
-		            downloadable software relies on cryptographic license keys
-		            (``Hard'' barriers) rather than the ``Soft'' IP-blocking threats
-		            required by streaming services.
+		            Xbox Game Pass has moderate global price variance
+		            (DSPI StdDev $= 0.27$), higher than Microsoft 365's own
+		            ($0.21$), yet shares Microsoft's low enforcement intensity
+		            (EI $= 0.87\%$).
+		            This suggested that when a firm's enforcement posture is
+		            set at the ecosystem level (via shared \gls{tos}), even a product
+		            with moderate pricing variance can exhibit low enforcement
+		            if the parent entity favors identity-based rather than
+		            location-based controls.
 	      \end{itemize}
 
 	\item \textbf{VPN Enablers (NordVPN, ExpressVPN):} As expected, these
@@ -2002,9 +2096,8 @@ rather than Technical Blocking. This suggested Amazon managed cross-border
 access through account-level shipping/billing addresses rather than active network filtering.
 In contrast, \textbf{Apple Music} (Figure \ref{fig:evol_music_vs_video}) remained
 the most ``static'' of all services, with very low enforcement counts that have
-barely changed since 2020. This stability reinforced the hypothesis that Apple relied
-on hardware-locked ecosystem barriers (Apple ID region locks), or its convenience-focused ecosystem as \textbf{Business Model},
-rather than dynamic \gls{tos} enforcement.
+barely changed since 2020. The strategic implications of this stability are
+discussed in Section~\ref{sec:detailed_analysis}.
 
 \section{Strategic Shifts and Fortress Index Ranking}
 \label{sec:detailed_analysis}
@@ -2085,14 +2178,6 @@ abandoned active enforcement for its productivity suite, relying instead on
 ecosystem lock-in, whereas \textbf{YouTube} has pursued aggressive boundary
 enforcement followed by a consolidation period, as seen in the fluctuation of
 its ``Technical Blocking'' and ``Legal Threat'' clauses over time.
-
-The sector-level clustering patterns identified in Section~\ref{sec:correlation}
-(Content Providers, Utility Software, and VPN Enablers) are equally visible
-in this granular data, reinforcing the conclusion that \textbf{Business Model}
-(Streaming vs.\ Download) is a stronger predictor of enforcement strategy
-than \textbf{Price Opportunity} alone.
-
-
 
 \chapter{Discussion}
 \label{chap:discussion}
@@ -2280,8 +2365,9 @@ system could match.
 
 \subsection{The Enterprise Fortress: Identity-Based Value Capture}
 A new archetype identified in this study is the ``Enterprise Fortress,'' exemplified by
-\textbf{Microsoft}. Despite having the lowest global price variance in the dataset (indicating
-a relatively harmonized global price for Microsoft 365), Microsoft exhibits the highest
+\textbf{Microsoft}. Despite having the lowest global price variance among digital service
+providers (DSPI StdDev $= 0.21$, indicating a relatively harmonized global price for
+Microsoft 365), Microsoft exhibits the highest
 intensity of \textbf{Legal Threat} clauses (53 total, the highest among all service providers).
 This suggests that for utility software, the \textbf{Value Capture} is protected not
 by \textit{network} blocking (which targets Location), but by \textit{identity}
@@ -2308,8 +2394,9 @@ subscription savings. The ``Enterprise Fortress'' thus works primarily because
 the target customer segment has fundamentally different risk tolerances than individual consumers.
 
 \subsection{The Utility Paradox (Adobe)}
-\textbf{Adobe} presents a unique case. It has high price discrimination (similar to Netflix)
-but relatively low ``Technical Blocking'' enforcement. Based on our analysis of Adobe's Terms
+\textbf{Adobe} presents a unique case. Despite moderate price discrimination
+(DSPI StdDev $= 0.25$, comparable to Microsoft rather than the higher-variance content
+streaming providers), it maintains remarkably low ``Technical Blocking'' enforcement. Based on our analysis of Adobe's Terms
 of Service and product documentation, this appears to be because Adobe's enforcement mechanism
 is ``on-device'' (software activation keys) rather than ``on-network'' (IP filtering). This
 observation suggests that ``Technical Blocking'' is a strategy specific to
@@ -2704,6 +2791,7 @@ The result is an uneasy equilibrium
 where both sides have invested heavily in competing technologies, and the marginal
 cost of gaining a further advantage is rising for both platforms and circumvention providers.
 \section{The Secret Tech Race}
+\label{sec:secret_tech_race}
 Returning to the history of piracy, the modern world is defined by a growing tech race. Our
 research shows that companies are getting much better at finding where users really are, even
 with a high-quality \gls{vpn}. They no longer just block IP addresses. They use advanced tools like
@@ -2802,18 +2890,12 @@ trends are best visualized by focusing exclusively on non-boilerplate
 categories, as shown in Figure \ref{fig:dist_strategic}.
 
 \subsection{Service-Level Enforcement Trends}
-Table \ref{tab:timeline_count} details the enforcement intensity per company.
-Two distinct patterns emerge:
-\begin{itemize}
-	\item \textbf{Microsoft's Withdrawal:}
-	      Microsoft shows a consistent but low-level ``background radiation''
-	      of legal checks (6-12 counts), but no sudden spikes. This supports the
-	      ``Enterprise Fortress'' theory—they rely on identity, not new blocking waves.
-	\item \textbf{YouTube's War:} YouTube shows a massive spike in 2023 (53 counts),
-	      confirming the ``Enforcement Surge'' visualized in the timeline.
-	      However, this drops to 31 in 2024 and 20 in 2025, suggesting a ``cooldown''
-	      period where the new blocking rules became standard practice rather than new aggressive maneuvers.
-\end{itemize}
+At the service level (Table~\ref{tab:timeline_count}), two patterns stand out.
+Microsoft maintains a consistent low-level ``background radiation'' of legal checks
+without sudden spikes, consistent with the Enterprise Fortress archetype.
+YouTube's enforcement surge peaked in 2023 before declining in 2024--2025,
+suggesting a ``cooldown'' period where blocking rules became standard practice
+(see Section~\ref{sec:service_deep_dive} for the full temporal analysis).
 
 
 
@@ -2939,8 +3021,9 @@ The correlation analysis relies on a strategic sample of $N=10$ digital service
 providers. While these firms represent a significant majority of the consumer subscription
 market by revenue and user base, the sample is small in statistical terms. With 10 observations,
 correlation coefficients are inherently unstable: a single outlier can substantially
-shift the Pearson $r$ value, as demonstrated by the dramatic change from $r = -0.55$ (full sample)
-to $r = -0.06$ (excluding VPN providers). Consequently, the findings
+shift the Pearson $r$ value, as demonstrated by the dramatic reversal from $r = -0.55$ (full sample)
+to $r = +0.35$ (excluding VPN providers)---not merely a reduction in magnitude but a
+complete sign change driven by the removal of just two data points. Consequently, the findings
 should be interpreted as ``exploratory'' evidence of strategic archetypes rather than a
 definitive ``law'' of digital economics.
 
@@ -3001,46 +3084,31 @@ The assumption that stated policy reflects actual enforcement behavior is not pe
 Companies might use strict rules for legal safety but only enforce some of them, or
 they may employ undisclosed detection technologies that extend beyond the scope of their stated policies.
 The ``Secret Tech Race'' discussed in Section
-\ref{sec:appendix_detailed_analysis} highlights this gap: the most effective enforcement
+\ref{sec:secret_tech_race} highlights this gap: the most effective enforcement
 technologies are precisely those that firms have the strongest incentive to conceal.
 Future research could complement document-based analysis with experimental methods
 (e.g., systematically testing \gls{vpn} access across services and regions) to
 measure actual enforcement rates rather than stated policies.
 
-The forward-fill imputation strategy used for temporal analysis also
-assumes that policies remain unchanged between documented updates. This strategy
-is applied consistently across all services at the individual document level:
-when a specific Terms of Service document (e.g., YouTube's Paid Service Terms) is
-not updated in a given year, its most recent version is carried forward until a replacement
-is published. While this is a reasonable assumption---Terms of Service typically remain
-legally active until explicitly revised---it may overcount the persistence of
-specific clauses if internal policies change without formal document updates.
-The forward-fill added 700 observations (2.8\% of the temporal dataset),
-primarily affecting Spotify, Adobe, Amazon Prime, and individual YouTube ToS
-document types with multi-year gaps between updates.
+The forward-fill imputation strategy (Chapter~\ref{chap:methodology}),
+which added 700 observations (2.8\% of the temporal dataset),
+assumes that policies remain unchanged between documented updates.
+While reasonable---Terms of Service typically remain legally active until
+explicitly revised---this may overcount the persistence of specific clauses
+if internal policies change without formal document updates.
 
 \subsection{Methodological Reflections}
 Beyond the substantive findings, this study shows important methodological
 lessons for researchers working with corporate legal documents.
-The comparison between the Gemini 3 Flash model and a traditional BERT-based
-Zero-Shot classifier (Section~\ref{sec:llm_methodology}) revealed that
-established NLI models are insufficient for complex legal text analysis
-without extensive domain-specific fine-tuning. The BERT model achieved only
-26.8\% agreement with Gemini's classifications (Cohen's Kappa = 0.032), a
-level effectively equivalent to random chance. This result is consistent with
-findings by \textcite{gilardi2023chatgpt}, who demonstrated that large language
+As documented in Section~\ref{sec:llm_methodology}, the Gemini 3 Flash model
+dramatically outperformed the traditional BERT-based Zero-Shot classifier
+(26.8\% agreement, Cohen's Kappa $= 0.032$), confirming that advanced
+generative models are essential for legal text analysis where the task
+requires distinguishing between the mere \textit{mention} of a concept
+and its active \textit{regulation}---a distinction that keyword-sensitive
+NLI models cannot reliably make. This is consistent with
+\textcite{gilardi2023chatgpt}, who demonstrated that large language
 models outperform traditional approaches in complex text annotation tasks.
-
-The core distinction lies in the difference between keyword-level sensitivity
-and semantic-level understanding. BERT's zero-shot approach identified surface-level
-keyword matches (e.g., flagging any sentence mentioning ``account'' as an ``Account Action''),
-while Gemini correctly distinguished between standard legal boilerplate that
-happens to reference accounts and clauses that specifically regulate account
-termination as an enforcement mechanism. For research on \gls{tos} documents
-(where over 90\% of content is legal boilerplate and the analytically
-relevant clauses constitute a small minority), this distinction is critical.
-A model that over-classifies boilerplate as strategic content would
-produce fundamentally misleading results about enforcement intensity.
 
 This finding suggests that future research on complex legal texts should
 employ advanced generative models rather than traditional NLI approaches,
@@ -3053,6 +3121,8 @@ for future replication. To mitigate this, we have documented the exact
 system prompt (Listing \ref{lst:system_prompt}), batch processing parameters,
 and confidence thresholds used in our pipeline, enabling methodological
 reproducibility even if exact numerical reproduction is not guaranteed.
+The complete source code, data processing pipelines, and the master dataset
+are publicly available in the accompanying GitHub repository~\parencite{weckbach2025repo}.
 We recommend that future studies employing \gls{llm}-based classification
 adopt a similar transparency protocol: publishing the complete system prompt,
 documenting the model version and API parameters, and reporting confidence
@@ -3081,24 +3151,23 @@ and the strategic responses firms deploy to counter it.
 	      These differences are not arbitrary. They follow a broadly predictable pattern aligned with national
 	      income levels, consistent with third-degree price discrimination theory \parencite{varian1989price}.
 	      However, the complementary \gls{ptw} analysis reveals an \textbf{Affordability Paradox}:
-	      these nominally ``cheap'' prices are often more expensive for local consumers in real terms.
-	      Netflix in Argentina consumes 3.28\% of the median monthly wage, compared to 0.27\% in the United States,
-	      a twelve-fold difference in economic burden. This finding fundamentally challenges the popular
-	      narrative that low-income markets receive ``bargain'' prices and reframes the arbitrage
-	      incentive as an exploitation of welfare-enhancing pricing structures.
+	      these nominally ``cheap'' prices are often significantly more expensive for local
+	      consumers in real terms (Section~\ref{sec:dspi_results}), fundamentally challenging
+	      the popular narrative that low-income markets receive ``bargain'' prices and reframing
+	      the arbitrage incentive as an exploitation of welfare-enhancing pricing structures.
 	\item[\gls{rq}2 (Strategic Response):] Enforcement strategies are primarily determined by
 	      \textbf{Business Model Architecture} rather than by the magnitude of price differences.
 	      This is the study's most counterintuitive finding. Content streaming firms enforce strict geographic
 	      blocking due to licensing requirements, with YouTube exhibiting the highest Fortress Index (33.68\%)
 	      among content providers. Software firms like Microsoft rely on identity verification and legal threats
-	      (53 Legal Threat clauses) rather than network-based blocking, reflecting the ``Enterprise Fortress'' archetype.
+	      rather than network-based blocking, reflecting the ``Enterprise Fortress'' archetype.
 	      Ecosystem platforms (Apple, Amazon) leverage multi-service bundle dependencies as implicit enforcement,
 	      making arbitrage impractical without relocating one's entire digital identity.
 	      \gls{vpn} providers, by their nature, implement no geographic restrictions, instead framing
 	      circumvention as a privacy right.
 	\item[Enforcement Evolution:] The temporal analysis reveals a clear escalation in
-	      enforcement intensity, with Technical Blocking clauses increasing from 6 in 2020 to a
-	      peak of 44 in 2023 before stabilizing at 24 in 2024. This surge, driven primarily by
+	      enforcement intensity, peaking in 2023 before stabilizing
+	      (Table~\ref{tab:qual_timeline_complete}). This surge, driven primarily by
 	      YouTube's enforcement campaign, coincides with post-pandemic increases in \gls{vpn}
 	      adoption and geo-arbitrage awareness. The subsequent stabilization suggests that
 	      firms have moved from active enforcement expansion to maintenance of established
@@ -3115,12 +3184,11 @@ era of physical media distribution and broadcast licensing, is under growing pre
 from the inherently borderless nature of digital delivery. Firms' responses to this
 pressure, whether through technological fortress-building, ecosystem lock-in, or
 adaptive global pricing, reveal fundamentally different theories about how digital
-markets should function. The long-term trajectory, informed by the piracy parallel,
-suggests that adaptive strategies (reducing the arbitrage incentive through pricing innovation)
+markets should function. The long-term trajectory, informed by the piracy
+parallel developed in Chapter~\ref{chap:theory}, suggests that adaptive strategies
+(reducing the arbitrage incentive through pricing innovation)
 may prove more sustainable than coercive strategies
-(raising the cost of circumvention through technology), just as the music industry's
-shift from \gls{drm} enforcement to convenient streaming ultimately proved more effective
-at reducing piracy than ever-more-aggressive copy protection.
+(raising the cost of circumvention through technology).
 
 \section{Contribution to Research}
 This study adds both methods and theory to digital economics.
@@ -3169,8 +3237,8 @@ This study adds both methods and theory to digital economics.
 	      the digital piracy wave of the 2000s and modern geo-arbitrage, this thesis
 	      contributes to a longer-term understanding of how digital disruption forces
 	      business model adaptation. The historical comparison suggests that the current
-	      enforcement-heavy phase may eventually give way to adaptive strategies. 
-		  This contribution is distinct from the existing piracy literature
+	      enforcement-heavy phase may eventually give way to adaptive strategies.
+	      This contribution is distinct from the existing piracy literature
 	      \parencite{oberholzer2007effect, peukert2017piracy} because it identifies geo-arbitrage
 	      as a \textit{qualitatively different} form of consumer circumvention
 	      (one involving payment rather than theft, location rather than access)
@@ -3459,6 +3527,47 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 	\label{fig:evol_software_vpn}
 \end{figure}
 
+
+\chapter{Quantitative Reference Data}
+\label{app:reference_data}
+
+Table~\ref{tab:wage_reference} documents the median monthly wage figures and
+exchange rates used to compute the \gls{dspi} and \gls{ptw} metrics throughout
+this thesis. All exchange rates reflect market rates recorded in December 2025
+at the time of data collection. The \gls{dspi} is calculated purely as the ratio
+of the USD-converted local price to the US baseline price
+(\(\text{DSPI} = \text{Price}_{\text{USD}} \;/\; \text{US Baseline Price}\)),
+without any wage adjustment. The \gls{ptw} ratio is calculated separately as
+the subscription price expressed as a percentage of the median monthly wage
+(\(\text{PTW} = \text{Price}_{\text{USD}} \;/\; \text{Monthly Wage}_{\text{USD}}\)).
+
+\begin{table}[ht]
+	\centering
+	\caption{Median Monthly Wages and Exchange Rates Used for \gls{ptw} Calculations
+		(December 2025). Countries are ordered by USD wage (descending).}
+	\label{tab:wage_reference}
+	\small
+	\renewcommand{\arraystretch}{1.15}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l l r r r l}
+			\toprule
+			\textbf{Country} & \textbf{Cur.} & \textbf{Monthly Wage} & \textbf{Rate to USD} & \textbf{Wage (USD)} & \textbf{Source}                                   \\
+			\midrule
+			Switzerland      & CHF           & 6{,}903               & 1.1300               & 7{,}800             & \parencite{tradingeconomics2023switzerland}       \\
+			United States    & USD           & 6{,}600               & 1.0000               & 6{,}600             & \parencite{oecd2023wages}                         \\
+			United Kingdom   & GBP           & 4{,}500               & 1.2700               & 5{,}715             & \parencite{oecd2023wages}                         \\
+			Germany          & EUR           & 4{,}800               & 1.0900               & 5{,}232             & \parencite{oecd2023wages}                         \\
+			Poland           & PLN           & 6{,}700               & 0.2500               & 1{,}675             & \parencite{gus2024poland}\textsuperscript{a}      \\
+			Turkey           & TRY           & 23{,}789              & 0.0320               & 761                 & \parencite{tradingeconomics2023turkey}            \\
+			Brazil           & BRL           & 3{,}000               & 0.2000               & 600                 & \parencite{oecd2023wages}                         \\
+			Argentina        & ARS           & 456{,}813             & 0.0012               & 548                 & \parencite{indec2023argentina}                    \\
+			Ukraine          & UAH           & 19{,}600              & 0.0260               & 510                 & \parencite{sssu2024ukraine}\textsuperscript{a}    \\
+			Philippines      & PHP           & 20{,}583              & 0.0180               & 370                 & \parencite{psa2024philippines}\textsuperscript{a} \\
+			Pakistan         & PKR           & 70{,}700              & 0.0036               & 255                 & \parencite{pbs2024pakistan}\textsuperscript{a}    \\
+			\bottomrule
+			\multicolumn{6}{l}{\footnotesize \textsuperscript{a} Median estimate derived from national statistical office data (2024).}
+		\end{tabular}}
+\end{table}
 
 
 \backmatter
