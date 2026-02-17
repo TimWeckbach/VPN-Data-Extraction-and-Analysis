@@ -1,0 +1,821 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudapub.cls
+Document Class: tudapub 2025-04-02 v4.03 Publications using TU Darmstadt's Corp
+orate Design (TUDa-CI)
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/urcls\URspecialopts.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cl
+s
+Document Class: scrreprt 2025/06/04 v3.45 KOMA-Script document class (report)
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+))) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt
+.clo)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudafonts.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/anyfontsize\anyfontsize
+.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xcharter\XCharter.sty
+`XCharter' v1.25, 2023/07/21 Text macros for XCharter, an extension of Charter 
+(msharpe)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex)
+))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex))
+ (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureve
+rsions.sty)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+)) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/roboto\roboto.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xcharter\t1xcharter-tlf
+.fd)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/roboto\roboto-mono.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudacolors.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudacolors.def)
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg))) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\pdfx.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty){
+C:/Users/Titan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\l8u-penc.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\AdobeColorProfiles
+.tex) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def)
+** pdfx: Metadata file main.xmpdata read successfully.
+(main.xmpdata)<<sRGB.icc>>
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode
+.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-cmr
+.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-ntx
+.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xmpincl\xmpincl.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def)
+Using XMP template file: pdfa.xmp
+<<pdfa.xmpi>>
+
+Package pdfx Warning: Setting all color commands to rgb,
+consistent with the Color Model for PDF/A  on input line 3126.
+
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu))
+
+Package tuda-ci Warning: You use pdfa-mode in PDFTeX.
+(tuda-ci)                This can lead to incompatiblities especially with
+(tuda-ci)                older compiler versions.
+(tuda-ci)                You should prefer using lualatex.
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudarules.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tuda-a4paper.cl
+o)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tuda-ci\tudathesis.cfg)
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\german.ldf
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-german.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\germanb.ld
+f))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-ngerman.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg))
+ (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
+ttable.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.misc.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.misc.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.symbols.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.symbols.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.arrows.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.arrows.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.callouts.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.multipart.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.multipart.code.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.contourlua.code.tex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.colormaps.code.tex)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.st
+o)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty)
+ (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty)
+ (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+) (C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
+ies.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
+ex))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
+saries-english.ldf)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
+sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.
+def)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.
+ldf)
+
+Package tracklang Warning: No `datatool' support for dialect `english'  on inpu
+t line 9908.
+
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-hypernav.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-list.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-long.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-super.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
+ar.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-tree.sty))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty)
+(main.aux)
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 247.
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-bch.cfg)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-ap
+a.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-a
+pa.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
+bx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x))))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\ngerman-ap
+a.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\german-apa
+.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+)))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\german-apa
+.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+))))
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\german-apa
+.lbx
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+)) (main.bbl)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
+saries-dictionary-English.dict)
+
+Package tudapub/thesis Warning: I can't recognize your department Business
+(tudapub/thesis)                Informatics.
+(tudapub/thesis)                I will use the string 'Business Informatics'
+(tudapub/thesis)                directly.
+(tudapub/thesis)                Ensure your department has to shortcut.
+(tudapub/thesis)                See tudathesis documentation for further
+(tudapub/thesis)                details.
+
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/roboto\t1roboto-lf.fd)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/roboto\t1roboto-tlf.fd)
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg)
+[1{C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_b5r
+ac7.enc}{C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rb
+to_4jpen6.enc} <./figures/tuda_logo.pdf>]
+[2{C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch_ry
+dp4l.enc}] (main.toc
+[3]
+[4]
+Overfull \hbox (1.36795pt too wide) detected at line 96
+ \T1/Roboto-LF/bold/n/12 100
+
+Overfull \hbox (1.12794pt too wide) detected at line 97
+ \T1/Roboto-LF/bold/n/12 102
+
+Overfull \hbox (1.12794pt too wide) detected at line 98
+ \T1/Roboto-LF/bold/n/12 104
+
+Overfull \hbox (1.12794pt too wide) detected at line 99
+ \T1/Roboto-LF/bold/n/12 106
+)
+[5]
+chapter 1.
+
+[6]
+[7]
+[8]
+[9]
+chapter 2.
+
+Underfull \hbox (badness 4316) in paragraph at lines 441--441
+[]\T1/Roboto-LF/bold/n/17.28 (+20) Economic Foun-da-tions of In-ter-na-tional P
+rice
+
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+Underfull \hbox (badness 6978) in paragraph at lines 625--625
+[]\T1/Roboto-LF/bold/n/17.28 (+20) Strategic Man-age-ment and Busi-ness Model
+
+[16]
+[17]
+[18]
+[19]
+[20]
+[21]
+[22]
+chapter 3.
+
+[23]
+[24]
+[25]
+[26]
+[27]
+[28]
+[29]
+(C:\Users\Titan\AppData\Local\Programs\MiKTeX\tex/latex/roboto\t1robotomono-tlf
+.fd)
+[30{C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_e2
+4joy.enc}]
+[31]
+[32]
+Underfull \hbox (badness 10000) in alignment at lines 1148--1148
+[][][][] 
+
+[33]
+[34]
+[35]
+[36]
+[37]
+chapter 4.
+
+[38]
+[39]
+[40]
+[41]
+[42]
+[43]
+[44]
+[45]
+[46]
+[47]
+[48]
+[49]
+[50 <./figures/affordability_heatmap.pdf>]
+[51]
+[52]
+[53 <./figures/protection_vs_pricing_updated.pdf>]
+[54]
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2069--2070
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2089--2090
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2109--2110
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2129--2130
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2167--2168
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2187--2188
+ [][] 
+
+[55]
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2225--2226
+ [][] 
+
+Overfull \hbox (1.63359pt too wide) in paragraph at lines 2245--2246
+ [][] 
+
+[56]
+[57]
+[58]
+[59]
+chapter 5.
+
+[60]
+[61]
+[62]
+[63]
+[64]
+[65]
+[66]
+[67]
+[68]
+[69]
+[70]
+[71]
+[72]
+[73]
+[74]
+[75]
+[76]
+[77]
+[78]
+[79]
+chapter 6.
+
+[80]
+[81]
+[82]
+[83]
+[84]
+[85]
+[86]
+chapter A.
+
+[87]
+[88]
+[89]
+chapter B.
+
+[90]
+[91]
+[92]
+[93]
+[94]
+Overfull \hbox (0.58836pt too wide) in paragraph at lines 3556--3556
+[][]\T1/XCharter-TLF/m/n/12 (-20) IFRS Foun-da-tion. (2023). IAS 29 fi-nan-cial
+ re-port-ing in hy-per-in-fla-tion-ary economies
+
+[95]
+[96]
+[97]
+[98]
+[99] (main.lof
+[100])
+[101] (main.lot
+[102]
+Overfull \hbox (0.47993pt too wide) in paragraph at lines 15--15
+ \T1/XCharter-TLF/m/n/12 (-20) Tech-ni-cal Block-ing peaks sharply in 2023, co-
+in-cid-ing with YouTube's 
+)
+[103] (main.gls) (main.acr
+[104])
+[105]
+[106]
+[107]
+
+Package tudapub Warning: You did not provide a Label for key introduction.
+(tudapub)                Either you need to recompile your document or add a
+(tudapub)                label using \IMRADlabel.
+
+
+Package tudapub Warning: You did not provide a Label for key methods.
+(tudapub)                Either you need to recompile your document or add a
+(tudapub)                label using \IMRADlabel.
+
+
+Package tudapub Warning: You did not provide a Label for key results.
+(tudapub)                Either you need to recompile your document or add a
+(tudapub)                label using \IMRADlabel.
+
+
+Package tudapub Warning: You did not provide a Label for key discussion.
+(tudapub)                Either you need to recompile your document or add a
+(tudapub)                label using \IMRADlabel.
+
+(main.aux) )
+(see the transcript file for additional information)<C:/Users/Titan/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Users/Titan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Regular.pfb><C:/Us
+ers/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/RobotoMono-Re
+gular.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcha
+rter/XCharter-Bold.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/xcharter/XCharter-Italic.pfb><C:/Users/Titan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/Titan/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Titan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
+C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Users/Titan/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Titan/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (107 pages, 1561216 bytes).
+Transcript written on main.log.
