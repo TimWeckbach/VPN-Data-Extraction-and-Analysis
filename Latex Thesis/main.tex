@@ -1470,9 +1470,12 @@ arbitrage can shift over relatively short periods.
 Table~\ref{tab:app_dspi} presents the complete \gls{dspi} and affordability
 metrics for all 11 countries in the dataset. Notably, while
 \textbf{Pakistan} appears cheapest ($\text{DSPI}=0.45$), it is by far the most
-expensive for locals ($13.88\%$ of median wage across available services). In contrast, \textbf{Turkey} ($\text{DSPI}=0.65$)
-and \textbf{Argentina} ($\text{DSPI}=0.76$) show high nominal discounts,
-but Argentina's high \gls{ptw} ($5.48\%$) suggested pricing there was
+expensive for locals ($13.88\%$ of median wage across available services).
+In contrast, \textbf{Turkey} ($\text{DSPI}=0.65$, \gls{ptw} $= 4.94\%$)
+and \textbf{Argentina} ($\text{DSPI}=0.76$, \gls{ptw} $= 5.48\%$) show
+high nominal discounts, but their \gls{ptw} values reveal that these
+services still consume a significant share of local income.
+Argentina's particularly high ratio suggested pricing there was
 effectively ``dollarized'' for elites or external arbitrageurs.
 
 \begin{table}[ht]
@@ -1497,6 +1500,41 @@ effectively ``dollarized'' for elites or external arbitrageurs.
 	\end{tabular}
 	\caption{Complete \gls{dspi} Summary by Country. \gls{ptw} = average subscription cost across all available services as \% of median monthly wage. Lower \gls{dspi} indicates cheaper markets relative to the US baseline.}
 	\label{tab:app_dspi}
+\end{table}
+
+Table~\ref{tab:ptw_matrix} breaks these averages down to the individual service level,
+showing the cost of each digital service as a percentage of the median monthly wage
+in each country. Values above 10\% indicate that
+a single subscription would consume more than a tenth of the median monthly
+income, highlighting the severity of the Affordability Paradox in low-income markets.
+
+\begin{table}[ht]
+	\centering
+	\caption{Complete \gls{ptw} Matrix: Subscription Cost as \% of Median Monthly Wage
+		by Service and Country (December 2025). Cells marked ``--'' indicate
+		the service is unavailable in that country. Values $\geq 10\%$ are
+		highlighted in \textbf{bold}.}
+	\label{tab:ptw_matrix}
+	\scriptsize
+	\renewcommand{\arraystretch}{1.1}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l *{11}{r}}
+			\toprule
+			\textbf{Country} & \rotatebox{70}{\textbf{Netflix}} & \rotatebox{70}{\textbf{YouTube}} & \rotatebox{70}{\textbf{Disney+}} & \rotatebox{70}{\textbf{Amazon}} & \rotatebox{70}{\textbf{Spotify}} & \rotatebox{70}{\textbf{Apple M.}} & \rotatebox{70}{\textbf{MS 365}} & \rotatebox{70}{\textbf{Adobe CC}} & \rotatebox{70}{\textbf{Xbox GP}} & \rotatebox{70}{\textbf{NordVPN}} & \rotatebox{70}{\textbf{ExpressVPN}} \\
+			\midrule
+			Switzerland      & 0.33                             & 0.26                             & 0.24                             & 0.14                            & 0.23                             & 0.20                              & 1.45                            & 1.11                              & 0.14                             & 1.35                             & 1.35                                \\
+			United Kingdom   & 0.24                             & 0.29                             & 0.24                             & 0.20                            & 0.27                             & 0.24                              & 1.89                            & 1.48                              & 0.16                             & 1.64                             & 1.86                                \\
+			Germany          & 0.29                             & 0.27                             & 0.23                             & 0.19                            & 0.27                             & 0.23                              & 2.06                            & 1.62                              & 0.19                             & 2.00                             & 2.08                                \\
+			United States    & 0.27                             & 0.21                             & 0.20                             & 0.23                            & 0.18                             & 0.17                              & 1.51                            & 1.06                              & 0.15                             & 1.46                             & 1.61                                \\
+			Poland           & 0.73                             & 0.58                             & 0.52                             & 0.16                            & 0.36                             & 0.33                              & 6.42                            & 5.25                              & 0.55                             & 4.90                             & 7.18                                \\
+			Argentina        & 3.28                             & 1.88                             & 2.69                             & 1.74                            & 0.72                             & 1.31                              & 8.15                            & \textbf{12.93}                    & 1.97                             & 7.77                             & \textbf{17.83}                      \\
+			Turkey           & 1.22                             & 0.32                             & 1.89                             & 0.29                            & 0.42                             & 0.25                              & \textbf{13.88}                  & 6.84                              & 1.13                             & \textbf{12.73}                   & \textbf{15.41}                      \\
+			Ukraine          & 1.60                             & 0.50                             & --                               & 1.49                            & 0.98                             & 0.98                              & \textbf{13.76}                  & 8.00                              & 1.48                             & \textbf{19.00}                   & \textbf{22.99}                      \\
+			Brazil           & 1.50                             & 0.83                             & 1.56                             & 0.66                            & 0.80                             & 0.73                              & \textbf{16.97}                  & 7.13                              & 1.46                             & 7.11                             & \textbf{16.29}                      \\
+			Philippines      & 2.18                             & 0.92                             & 1.21                             & 0.72                            & 0.82                             & 0.68                              & \textbf{23.83}                  & \textbf{18.49}                    & 1.56                             & \textbf{23.35}                   & \textbf{26.41}                      \\
+			Pakistan         & 1.13                             & 0.67                             & --                               & 0.85                            & 0.49                             & --                                & \textbf{32.47}                  & \textbf{27.45}                    & 0.71                             & \textbf{30.48}                   & \textbf{30.66}                      \\
+			\bottomrule
+		\end{tabular}}
 \end{table}
 
 Table~\ref{tab:dspi_matrix} presents the complete per-service \gls{dspi} values across
@@ -3515,44 +3553,6 @@ the subscription price expressed as a percentage of the median monthly wage
 			\multicolumn{6}{l}{\footnotesize \textsuperscript{a} Median estimate derived from national statistical office data (2024).}
 		\end{tabular}}
 \end{table}
-
-Table~\ref{tab:ptw_matrix} presents the complete \gls{ptw} matrix, showing
-the cost of each digital service as a percentage of the median monthly wage
-in each country. This table complements the nominal USD prices
-(Table~\ref{tab:dspi_usd}) and the \gls{dspi} indices (Table~\ref{tab:dspi_matrix})
-by expressing prices in affordability terms. Values above 10\% indicate that
-a single subscription would consume more than a tenth of the median monthly
-income, highlighting the severity of the Affordability Paradox in low-income markets.
-
-\begin{table}[ht]
-	\centering
-	\caption{Complete \gls{ptw} Matrix: Subscription Cost as \% of Median Monthly Wage
-		by Service and Country (December 2025). Cells marked ``--'' indicate
-		the service is unavailable in that country. Values $\geq 10\%$ are
-		highlighted in \textbf{bold}.}
-	\label{tab:ptw_matrix}
-	\scriptsize
-	\renewcommand{\arraystretch}{1.1}
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{l *{11}{r}}
-			\toprule
-			\textbf{Country} & \rotatebox{70}{\textbf{Netflix}} & \rotatebox{70}{\textbf{YouTube}} & \rotatebox{70}{\textbf{Disney+}} & \rotatebox{70}{\textbf{Amazon}} & \rotatebox{70}{\textbf{Spotify}} & \rotatebox{70}{\textbf{Apple M.}} & \rotatebox{70}{\textbf{MS 365}} & \rotatebox{70}{\textbf{Adobe CC}} & \rotatebox{70}{\textbf{Xbox GP}} & \rotatebox{70}{\textbf{NordVPN}} & \rotatebox{70}{\textbf{ExpressVPN}} \\
-			\midrule
-			Switzerland      & 0.33                             & 0.26                             & 0.24                             & 0.14                            & 0.23                             & 0.20                              & 1.45                            & 1.11                              & 0.14                             & 1.35                             & 1.35                                \\
-			United Kingdom   & 0.24                             & 0.29                             & 0.24                             & 0.20                            & 0.27                             & 0.24                              & 1.89                            & 1.48                              & 0.16                             & 1.64                             & 1.86                                \\
-			Germany          & 0.29                             & 0.27                             & 0.23                             & 0.19                            & 0.27                             & 0.23                              & 2.06                            & 1.62                              & 0.19                             & 2.00                             & 2.08                                \\
-			United States    & 0.27                             & 0.21                             & 0.20                             & 0.23                            & 0.18                             & 0.17                              & 1.51                            & 1.06                              & 0.15                             & 1.46                             & 1.61                                \\
-			Poland           & 0.73                             & 0.58                             & 0.52                             & 0.16                            & 0.36                             & 0.33                              & 6.42                            & 5.25                              & 0.55                             & 4.90                             & 7.18                                \\
-			Argentina        & 3.28                             & 1.88                             & 2.69                             & 1.74                            & 0.72                             & 1.31                              & 8.15                            & \textbf{12.93}                    & 1.97                             & 7.77                             & \textbf{17.83}                      \\
-			Turkey           & 1.22                             & 0.32                             & 1.89                             & 0.29                            & 0.42                             & 0.25                              & \textbf{13.88}                  & 6.84                              & 1.13                             & \textbf{12.73}                   & \textbf{15.41}                      \\
-			Ukraine          & 1.60                             & 0.50                             & --                               & 1.49                            & 0.98                             & 0.98                              & \textbf{13.76}                  & 8.00                              & 1.48                             & \textbf{19.00}                   & \textbf{22.99}                      \\
-			Brazil           & 1.50                             & 0.83                             & 1.56                             & 0.66                            & 0.80                             & 0.73                              & \textbf{16.97}                  & 7.13                              & 1.46                             & 7.11                             & \textbf{16.29}                      \\
-			Philippines      & 2.18                             & 0.92                             & 1.21                             & 0.72                            & 0.82                             & 0.68                              & \textbf{23.83}                  & \textbf{18.49}                    & 1.56                             & \textbf{23.35}                   & \textbf{26.41}                      \\
-			Pakistan         & 1.13                             & 0.67                             & --                               & 0.85                            & 0.49                             & --                                & \textbf{32.47}                  & \textbf{27.45}                    & 0.71                             & \textbf{30.48}                   & \textbf{30.66}                      \\
-			\bottomrule
-		\end{tabular}}
-\end{table}
-
 
 \backmatter
 \addcontentsline{toc}{chapter}{Bibliography}
