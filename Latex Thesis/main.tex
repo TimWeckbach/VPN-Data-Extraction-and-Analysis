@@ -2701,12 +2701,16 @@ reveals a clear ``Action-Reaction'' cycle, visualized in Figure \ref{fig:timelin
 
 This timeline illustrates the dynamic relationship between corporate enforcement and consumer
 behavior. Early enforcement measures by streaming providers led \gls{vpn} providers to develop ``Obfuscated
-Servers'' (techniques similar to those used to circumvent China's Great Firewall
-\parencite{ensafi2015examining}), which subsequently led to more sophisticated blocking techniques (circa
-2021). This pattern suggests an ongoing adaptation process on both sides.
+Servers'', specialized modes that disguise \gls{vpn} traffic as ordinary HTTPS browsing, using techniques
+such as XOR scrambling or the Chameleon protocol, originally developed to circumvent state-level
+censorship like China's Great Firewall \parencite{ensafi2015examining}. This in turn prompted platforms
+to deploy more sophisticated blocking techniques (circa 2021), suggesting an ongoing
+adaptation process on both sides.
 
-The adversarial cycle can be decomposed into four distinct phases, each characterized by a
-shift in the balance of power between platforms and circumvention tools:
+The temporal patterns in our enforcement data (Table~\ref{tab:timeline_count},
+Figures~\ref{fig:timeline_all}--\ref{fig:strategic_frames_evolution}) reveal four distinct
+phases, each marked by a qualitative shift in the balance of power between platforms and
+circumvention tools:
 
 \textbf{Phase 1: The Wild West (Pre-2020).}
 In the earliest phase of widespread streaming, geographic enforcement was minimal and inconsistent.
