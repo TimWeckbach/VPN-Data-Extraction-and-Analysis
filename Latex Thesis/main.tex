@@ -87,6 +87,17 @@
 \DeclareCaptionFont{tenpoint}{\fontsize{10}{12}\selectfont}
 \captionsetup{font=tenpoint}
 
+\usepackage{placeins}  % Float section management
+\usepackage{float}     % Provides [H] specifier for exact float positioning
+
+% Relax float placement constraints so figures/tables stay near their references
+\renewcommand{\topfraction}{0.9}        % Allow up to 90% of a page to be floats (top)
+\renewcommand{\bottomfraction}{0.8}     % Allow up to 80% of a page to be floats (bottom)
+\renewcommand{\textfraction}{0.1}       % Require at least 10% text on a float page
+\renewcommand{\floatpagefraction}{0.7}  % Float-only pages must be at least 70% full
+\setcounter{topnumber}{3}               % Allow up to 3 floats at top of page
+\setcounter{bottomnumber}{2}            % Allow up to 2 floats at bottom of page
+\setcounter{totalnumber}{5}             % Allow up to 5 floats total per page
 
 \usepackage[backend=biber, style=apa, sorting=nyt]{biblatex}
 \addbibresource{Bibliography.bib}
@@ -123,37 +134,7 @@
 	description={The paradox that the more aggressively a firm discriminates on price across regions, the greater the arbitrage incentive it creates and the higher the enforcement costs required to maintain market segmentation}
 }
 
-%  Strategic Archetypes 
-
-\newglossaryentry{contentfortress}{
-	name={Content Fortress},
-	description={Strategic archetype in which content streaming firms (e.g., Netflix, YouTube, Disney+) defend geographic price segmentation primarily through technical blocking and content-licensing restrictions}
-}
-
-\newglossaryentry{enterprisefortress}{
-	name={Enterprise Fortress},
-	description={Strategic archetype in which utility software firms (e.g., Microsoft) protect value capture through identity verification and legal threats at the point of purchase rather than network-level blocking during use}
-}
-
-\newglossaryentry{ecosystemfortress}{
-	name={Ecosystem Fortress},
-	description={Strategic archetype in which platform firms (e.g., Apple, Amazon) make geo-arbitrage impractical by embedding digital services within broader product ecosystems tied to a user's physical identity, creating high switching costs that serve as implicit enforcement}
-}
-
-\newglossaryentry{utilityparadox}{
-	name={Utility Paradox},
-	description={Strategic archetype describing firms like Adobe whose moderate price discrimination and low technical blocking enforcement stem from reliance on on-device software activation (cryptographic license keys) rather than on-network IP filtering, revealing that available enforcement mechanisms depend on value-delivery architecture rather than pricing strategy}
-}
-
-\newglossaryentry{affordabilityparadox}{
-	name={Affordability Paradox},
-	description={The finding that nominally ``cheap'' digital subscription prices in low-income markets are often significantly more expensive for local consumers in real terms (as a share of local wages), challenging the assumption that geographic price discrimination primarily benefits developing-economy consumers}
-}
-
-\newglossaryentry{bureaucraticfortress}{
-	name={Bureaucratic Fortress},
-	description={A variant of the Ecosystem Fortress strategy (used for Amazon Prime) where the barrier to geo-arbitrage is not an IP filter but a valid residential address and local credit card, making arbitrage logistically difficult rather than technically impossible}
-}
+%  Strategic Archetypes (defined inline in the Discussion chapter, not as glossary entries)
 
 %  Key Metrics 
 
@@ -404,7 +385,7 @@ further complicated by the asymmetric nature of the contest: while firms must
 invest in detection systems that work across all users, circumvention tools need
 only succeed for some users some of the time to remain commercially viable.
 
-\section[Research Questions (\glspl{rq})]{Research Questions (\glspl{rq})}
+\section{Research Questions (\glspl{rq})}
 To analyze this conflict, this thesis addresses two main research questions
 that address both why users engage in geo-arbitrage and how companies respond to
 it.
@@ -1148,7 +1129,7 @@ human-coded benchmark would strengthen confidence in the automated coding.
 Table \ref{tab:model_comparison} and Figure \ref{fig:model_comparison_viz}
 provide a detailed breakdown of the category distribution discrepancies.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\small
 	\begin{tabularx}{\textwidth}{l c c c}
@@ -1171,7 +1152,7 @@ provide a detailed breakdown of the category distribution discrepancies.
 	\label{tab:model_comparison}
 \end{table}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -1343,7 +1324,7 @@ Figure~\ref{fig:app_company_dist} shows the distribution of clause counts by com
 while Figure~\ref{fig:app_doctype_dist} presents the breakdown by document type.
 Table~\ref{tab:app_service_stats} provides the full category-level breakdown per service.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\resizebox{\linewidth}{!}{%
 		\begin{tikzpicture}
@@ -1379,7 +1360,7 @@ Table~\ref{tab:app_service_stats} provides the full category-level breakdown per
 	\label{fig:app_company_dist}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\resizebox{\linewidth}{!}{%
 		\begin{tikzpicture}
@@ -1414,7 +1395,7 @@ Table~\ref{tab:app_service_stats} provides the full category-level breakdown per
 	\label{fig:app_doctype_dist}
 \end{figure}
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\scriptsize
 	\renewcommand{\arraystretch}{1.1}
@@ -1440,6 +1421,7 @@ Table~\ref{tab:app_service_stats} provides the full category-level breakdown per
 	\caption{Absolute Category Counts by Service. YouTube dominates Technical Blocking (N=94), while streaming services rely heavily on Content Licensing.}
 	\label{tab:app_service_stats}
 \end{table}
+
 
 \section{The Landscape of International Pricing: Findings from the \gls{dspi}}
 \label{sec:dspi_results}
@@ -1476,7 +1458,7 @@ high-income countries (where average \gls{ptw} stays below $0.35\%$).
 Argentina's particularly high ratio suggested pricing there was
 effectively ``dollarized'' for elites or external arbitrageurs.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\small
 	\begin{tabular}{l c c c}
@@ -1507,7 +1489,7 @@ a single subscription would consume more than a tenth of the median monthly
 income; notably, only Adobe Creative Cloud exceeds this threshold,
 reaching 12.93\% in Argentina, 18.49\% in the Philippines, and 27.45\% in Pakistan.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Complete \gls{ptw} Matrix: Subscription Cost as \% of Median Monthly Wage
 		by Service and Country (December 2025). Cells marked ``--'' indicate
@@ -1541,7 +1523,7 @@ all 11 countries in the dataset (recall that the \gls{dspi} scale is defined in
 Chapter~\ref{chap:methodology}). Cells marked with ``--''
 indicate that the service is not available in that country.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Complete \gls{dspi} Matrix: Per-Service Price Index by Country (US = 1.00).
 		Values $< 0.50$ are highlighted as high-arbitrage opportunities.}
@@ -1581,7 +1563,7 @@ differences, consistent with their global pricing model.
 Table~\ref{tab:dspi_usd} shows the raw monthly subscription prices in USD
 for direct comparison across all services and markets.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Monthly Subscription Prices in USD Across All Services and Countries
 		(December 2025). Microsoft 365 and NordVPN/ExpressVPN show the equivalent
@@ -1647,7 +1629,7 @@ threats that justify circumvention. Both groups are kept in one ranking
 to show the industry's split: the most rule-focused players sit at
 opposite ends of the value chain.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\resizebox{\linewidth}{!}{%
 		\begin{tikzpicture}
@@ -1681,6 +1663,7 @@ highest among digital service providers, while Netflix and Spotify remained
 at the low end. The strategic implications of this ranking are discussed in
 Section~\ref{sec:detailed_analysis}.
 
+
 \subsubsection{Strategic Framing by \gls{vpn} Providers}
 In sharp contrast, \gls{vpn} companies adopt a ``Liberation'' and ``Privacy'' frame.
 The analysis revealed a consistent narrative that reframes circumvention as \textbf{User Freedom}.
@@ -1693,13 +1676,14 @@ However, research has shown that not all \gls{vpn} applications deliver on their
 security promises \parencite{ikram2016analysis}, adding complexity to the
 trust dynamic between providers and users.
 
+
 \subsection{Temporal Evolution of Enforcement}
 To understand how these strategies have evolved over time, we analyzed
 the frequency of category-specific clauses across the dataset's years.
 Table \ref{tab:timeline_count} shows the raw count of enforcement-related
 incidents detected per service per year.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\small
 	\begin{tabular}{l cccccc c}
@@ -1732,7 +1716,7 @@ This suggested that restrictive clauses had become more prevalent and more
 specific over the analyzed period, transitioning from general boilerplate
 to active regulatory language.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -1765,7 +1749,7 @@ to active regulatory language.
 	\label{fig:timeline_all}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -1801,6 +1785,7 @@ to active regulatory language.
 	\label{fig:strategic_frames_evolution}
 \end{figure}
 
+
 \section{Deep Dive: Service-Specific Strategic Evolution}
 \label{sec:service_deep_dive}
 
@@ -1826,6 +1811,7 @@ after-the-fact legal threats. \gls{vpn} providers (\textbf{NordVPN},
 encryption and user protection as primary value propositions
 (see Appendix~\ref{app:service_evolution} for \gls{vpn}-specific
 evolution data and absolute count charts).
+
 
 \subsection{High-Confidence Findings: The Core Clauses}
 The Gemini 3 Flash model identified specific, high-confidence
@@ -1868,6 +1854,7 @@ formal, documented part of their legal frameworks rather than
 relying solely on undisclosed technical measures.
 
 
+
 \subsection{The Affordability Paradox: Real vs. Nominal Cost}
 While the \gls{dspi} measured the \textit{nominal} price difference
 (relevant to arbitrageurs), it is important to analyze the ``Real Cost''
@@ -1876,7 +1863,7 @@ cost of digital services as a percentage of the \textbf{Median National Monthly 
 serving as a digital equivalent to ``Time-to-Earn'' indices used in
 purchasing power comparisons (e.g., the Big Mac Index's affordability variant).
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/affordability_heatmap.pdf}
 	\caption{The Affordability Gap: Digital Service Cost as Percentage of
@@ -1939,6 +1926,7 @@ severe affordability barrier, making it the service where
 professional users in low-income countries face the strongest motivation
 to seek workarounds in order to participate in the global digital economy.
 
+
 \section{Correlation Analysis: The Strategic Trade-off}
 \label{sec:correlation}
 To test the relationship between pricing strategy and enforcement intensity,
@@ -1946,7 +1934,7 @@ we used the cleaned dataset to calculate the correlation between Price Discrimin
 (PD) and observed Enforcement Intensity (EI).
 Table \ref{tab:correlation_data} summarizes the key metrics.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\small
 	\begin{tabular}{l c c}
@@ -1980,7 +1968,7 @@ Table \ref{tab:correlation_data} summarizes the key metrics.
 	\label{tab:correlation_data}
 \end{table}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/protection_vs_pricing_updated.pdf}
 	\caption{Strategic Alignment: Comparison of Price Discrimination scores
@@ -2044,6 +2032,7 @@ possibly linked to new regional pricing structures.
 ``Licensing'' and passive ``Regulatory Compliance,'' showing less active
 technical enforcement than their video counterparts.
 
+
 \subsubsection{Evolution of Ecosystem Players (Amazon \& Apple)}
 Beyond the pure content and \gls{vpn} providers, the ``Ecosystem'' players
 (\textbf{Amazon Prime}, \textbf{Apple Music}) showed distinct evolutionary
@@ -2058,9 +2047,9 @@ barely changed since 2020. The strategic implications of this stability are
 discussed in Section~\ref{sec:detailed_analysis}.
 
 %  Generated Video Group (proportional evolution) 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2078,9 +2067,9 @@ discussed in Section~\ref{sec:detailed_analysis}.
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,3.2) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,4.2)  };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2100,7 +2089,7 @@ discussed in Section~\ref{sec:detailed_analysis}.
 		\end{tikzpicture}
 	\end{minipage}
 	\vspace{0.5cm}
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2118,9 +2107,9 @@ discussed in Section~\ref{sec:detailed_analysis}.
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,5.4) (2025,0.0)  };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2154,10 +2143,11 @@ discussed in Section~\ref{sec:detailed_analysis}.
 	\label{fig:evol_video_main}
 \end{figure}
 
+
 %  Music Streaming 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2175,9 +2165,9 @@ discussed in Section~\ref{sec:detailed_analysis}.
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0.0) (2021,0.0) (2022,0.0) (2023,0.0) (2024,0.0) (2025,0.0)  };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2211,10 +2201,11 @@ discussed in Section~\ref{sec:detailed_analysis}.
 	\label{fig:evol_music_vs_video}
 \end{figure}
 
+
 %  Software Utilities 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2232,9 +2223,9 @@ discussed in Section~\ref{sec:detailed_analysis}.
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,25.0) (2021,30.4) (2022,26.7) (2023,35.5) (2024,22.2) (2025,23.8)  };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -2268,13 +2259,14 @@ discussed in Section~\ref{sec:detailed_analysis}.
 	\label{fig:evol_software_main}
 \end{figure}
 
+
 \section{Strategic Shifts and Fortress Index Ranking}
 \label{sec:detailed_analysis}
 
 This section provides a granular view of the enforcement picture, detailing the specific category
 shifts and the calculated ``Fortress Index values'' for each service.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Complete Fortress Index Ranking. \gls{vpn} providers score highest due
 		to their security-focused framing, followed by YouTube and Microsoft
@@ -2306,7 +2298,7 @@ The Fortress Index (Table \ref{tab:fortress_index_complete}) confirms the split 
 incumbents like \textbf{Netflix} (2.03\%) and \textbf{Spotify} (0.43\%),
 which continue to rely on passive licensing terms.
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\footnotesize
 	\renewcommand{\arraystretch}{1.1}
@@ -2341,7 +2333,7 @@ forward-fill strategy ensures that each service's most recent \gls{tos} is
 carried into years without an update, providing an accurate picture of the active
 regulatory environment at any given time.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -2372,6 +2364,7 @@ ecosystem lock-in, whereas \textbf{YouTube} has pursued aggressive boundary
 enforcement followed by a consolidation period, as seen in the fluctuation of
 its ``Technical Blocking'' and ``Legal Threat'' clauses over time.
 
+
 \chapter{Discussion}
 \label{chap:discussion}
 
@@ -2398,25 +2391,26 @@ and 2 \gls{vpn} enablers), we organize the findings around three high-level
 \textbf{Macro-Categories} that aggregate the initial 10 coding categories
 to facilitate cross-sectoral comparison:
 \begin{enumerate}
-	\item \textbf{Business Model Adaptation \& Pricing (\gls{bma}):}
+	\item \textbf{Business Model Adaptation \& Pricing (\acrshort{bma}):}
 	      Aggregates \textit{Content Licensing}, \textit{Regulatory Compliance},
 	      \textit{Price Discrimination}, and \textit{Legitimate Portability}.
 	      This represents the ``soft'' strategic layer where firms adjust their offerings
 	      to local market conditions.
-	\item \textbf{Coercive Restriction \& Legal Threat (\gls{crl}):}
+	\item \textbf{Coercive Restriction \& Legal Threat (\acrshort{crl}):}
 	      Aggregates \textit{Technical Blocking}, \textit{Legal Threat},
 	      \textit{Account Action}, and \textit{Security Risk}.
 	      This represents the ``hard'' enforcement layer designed to physically or
 	      legally prevent circumvention.
-	\item \textbf{General Corporate Operations (\gls{gco}):}
+	\item \textbf{General Corporate Operations (\acrshort{gco}):}
 	      Aggregates \textit{Privacy/Security} (\gls{vpn} frame) and \textit{User Workaround}.
 	      This captures supporting narratives and adversarial user behavior descriptions.
 \end{enumerate}
+\glsunset{bma}\glsunset{crl}\glsunset{gco}
 
 Figure \ref{fig:strategic_framing_pivot} provides a high-level overview of
 how these macro-strategies appear across the analyzed companies.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -2446,7 +2440,7 @@ how these macro-strategies appear across the analyzed companies.
 			\addplot[fill=tudagreen!80] coordinates {
 					(1.1,Adobe) (2.4,Amazon Prime) (2.2,Apple Music) (0.2,Disney+) (3.3,ExpressVPN) (0.9,Microsoft) (0.9,Netflix) (5.5,NordVPN) (0.7,Spotify) (0.6,YouTube Premium)
 				};
-			\legend{\gls{bma} (Adaptation), \gls{crl} (Enforcement), \gls{gco} (Operations)}
+			\legend{\acrshort{bma} (Adaptation), \acrshort{crl} (Enforcement), \acrshort{gco} (Operations)}
 		\end{axis}
 	\end{tikzpicture}
 	\caption{Strategic Framing by Company: Macro-Category Distribution. \gls{vpn} providers (ExpressVPN, NordVPN) show the highest proportion of coercive/legal framing (\gls{crl} $>$ 60\%), while software companies (Microsoft, Adobe) and streaming platforms overwhelmingly use business model adaptation framing (\gls{bma} $>$ 70\%).}
@@ -2514,11 +2508,11 @@ geographic blocking. Over time, this strategy may also lower the arbitrage motiv
 Netflix Originals are available globally without regional restrictions.
 This represents a transition from defensive innovation (Value Capture) toward
 adaptive innovation (Value Proposition): rather than building higher walls, Netflix is
-making the walls less necessary by producing content it fully controls.
+making the walls less necessary by producing content it fully controls \parencite{teece2010business, karimi2020strategic}.
 
 \subsection{The Ecosystem Fortress: Adaptive Value Proposition}
 Platforms like \textbf{Apple Music} and \textbf{Amazon Prime} show a ``Globalist''
-approach that innovates on the \textbf{Value Proposition}. Unlike the Content Fortress,
+approach that innovates on the \textbf{Value Proposition} \parencite{cusumano2019platform}. Unlike the Content Fortress,
 which defends existing revenue models through technical barriers, the Ecosystem
 Fortress makes arbitrage impractical by embedding digital services within broader
 product ecosystems that are inherently tied to a user's physical identity and location.
@@ -2545,7 +2539,7 @@ the ``cost'' of maintaining a foreign account extends far beyond the subscriptio
 
 \textbf{Amazon Prime} adopts a similar but legally distinct strategy. As shown in the
 proportional evolution analysis (Figure \ref{fig:evol_video_main},
-Section~\ref{sec:service_deep_dive}), Amazon relies heavily on \textbf{Regulatory Compliance} language.
+Section~\ref{sec:service_deep_dive}), Amazon relies heavily on \textbf{Regulatory Compliance} language \parencite{eu2018geoblocking, trimble2024geoblocking}.
 Instead of technical cat-and-mouse games, Amazon anchors its digital services to physical
 shipping addresses and tax jurisdictions. This creates a ``Bureaucratic Fortress'' where the
 barrier to entry is not an IP filter, but a valid residential address and local credit card,
@@ -2558,7 +2552,7 @@ system could match.
 
 \subsection{The Enterprise Fortress: Identity-Based Value Capture}
 A new archetype identified in this study is the ``Enterprise Fortress,'' shown by
-\textbf{Microsoft}. Despite having the lowest global price variance among digital service
+\textbf{Microsoft} \parencite{teece2010business, sundararajan2004managing}. Despite having the lowest global price variance among digital service
 providers (\gls{dspi} StdDev $= 0.21$, indicating a relatively harmonized global price for
 Microsoft 365), Microsoft exhibits the highest
 intensity of \textbf{Legal Threat} clauses (53 total, the highest among all service providers).
@@ -2634,7 +2628,7 @@ The Utility Paradox thus reveals a broader pattern in digital economics:
 the enforcement mechanism available to a firm depends not on its pricing strategy
 or market power, but on the \textit{technical architecture of value delivery}.
 Downloaded software can embed cryptographic verification, streamed content requires
-network-level control, and ecosystem-embedded services leverage identity dependencies.
+network-level control, and ecosystem-integrated services leverage identity dependencies.
 As these architectures converge through cloud computing and AI-dependent features,
 the strategic archetypes identified in this study may themselves evolve,
 potentially collapsing the current diversity of enforcement approaches into a
@@ -2649,7 +2643,7 @@ enforcement as a by-product of the service architecture itself.
 The relationship between providers and consumers is not static. Our historical analysis
 reveals a clear ``Action-Reaction'' cycle, visualized in Figure \ref{fig:timeline}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\resizebox{\textwidth}{!}{%
 		\begin{tikzpicture}[x=2.1cm, y=1cm]
@@ -2827,7 +2821,7 @@ the baseline ``noise'' of digital business, while \textbf{Technical Blocking}
 and \textbf{Account Action} show specific, event-driven spikes.
 
 %  Distribution Strategic Categories Only 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
@@ -3328,9 +3322,9 @@ This appendix presents evolution data for \gls{vpn} providers
 (Figure~\ref{fig:app_vpn_evolution}), as the detailed evolution charts
 for other services have been integrated into Chapter \ref{chap:results} and Chapter \ref{chap:discussion}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3358,9 +3352,9 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 	\label{fig:app_vpn_evolution}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3378,9 +3372,9 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,1) (2021,0) (2022,0) (2023,0) (2024,0) (2025,3) };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3402,7 +3396,7 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 
 	\vspace{0.5cm}
 
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3420,9 +3414,9 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,0) (2021,0) (2022,0) (2023,0) (2024,4) (2025,0) };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3456,9 +3450,9 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 	\label{fig:evol_streaming}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.47\textwidth}
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3476,9 +3470,9 @@ for other services have been integrated into Chapter \ref{chap:results} and Chap
 				\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,8) (2021,7) (2022,8) (2023,11) (2024,6) (2025,5) };
 			\end{axis}
 		\end{tikzpicture}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.47\textwidth}
+	\end{minipage}%
+	\hfill%
+	\begin{minipage}{0.46\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
@@ -3526,7 +3520,7 @@ without any wage adjustment. The \gls{ptw} ratio is calculated separately as
 the subscription price expressed as a percentage of the median monthly wage
 (\(\text{PTW} = \text{Price}_{\text{USD}} \;/\; \text{Monthly Wage}_{\text{USD}}\)).
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Median Monthly Wages and Exchange Rates Used for \gls{ptw} Calculations
 		(December 2025). Countries are ordered by USD wage (descending).}
@@ -3556,7 +3550,10 @@ the subscription price expressed as a percentage of the median monthly wage
 
 \backmatter
 \addcontentsline{toc}{chapter}{Bibliography}
+\begingroup
+\emergencystretch=1em
 \printbibliography
+\endgroup
 
 % List of Figures and Tables 
 \cleardoublepage
