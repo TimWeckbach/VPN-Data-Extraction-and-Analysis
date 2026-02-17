@@ -1677,7 +1677,7 @@ security promises \parencite{ikram2016analysis}, adding complexity to the
 trust dynamic between providers and users.
 
 
-\subsection{Temporal Evolution of Enforcement}
+\subsection{Evolution of Enforcement Over Time}
 To understand how these strategies have evolved over time, we analyzed
 the frequency of category-specific clauses across the dataset's years.
 Table \ref{tab:timeline_count} shows the raw count of enforcement-related
@@ -3009,19 +3009,16 @@ and consumer expectations of borderless digital access will likely intensify as
 digital services become a larger share of household expenditure globally.
 
 \subsection{Technological Evolution}
-The arms race between blocking technology and bypassing tools shows no signs of slowing.
-Advanced techniques such as residential IP proxies, browser fingerprinting, and machine
-learning-based detection create a technically complex environment that demands continuous
-investment from both sides. On the enforcement side, the integration of artificial intelligence
-into detection systems, including behavioral pattern recognition and cross-signal analysis,
-promises to make \gls{vpn} detection more accurate but also more invasive. On the circumvention
-side, emerging technologies such as decentralized \gls{vpn} networks (\glspl{dvpn}) built on blockchain
-infrastructure \parencite{mysterium2020dvpn} could make traditional IP-based blocking fundamentally
-ineffective by distributing exit nodes across millions of individual devices rather than identifiable
-data centers. Researchers
-should investigate whether the rising cost of this arms race eventually makes geographic price
-discrimination economically unsustainable, particularly for smaller platforms that cannot afford
-enterprise-grade detection infrastructure.
+As documented in Section~\ref{sec:secret_tech_race}, the arms race between
+platform enforcement and circumvention tools is escalating on both sides.
+A potentially disruptive development on the circumvention side is the emergence
+of decentralized \gls{vpn} networks (\glspl{dvpn}) built on blockchain
+infrastructure \parencite{mysterium2020dvpn}. Unlike traditional \gls{vpn}
+providers that operate identifiable data centers, \glspl{dvpn} distribute
+exit nodes across millions of individual devices, making IP-based blocking
+fundamentally ineffective. If this technology matures, the detection layers
+described in Section~\ref{sec:secret_tech_race} may become obsolete,
+forcing platforms to rely entirely on identity-based and behavioral enforcement.
 
 \subsection{Market Convergence}
 Ultimately, the cycle of blocking and bypassing may end not through better technology, but
@@ -3220,10 +3217,9 @@ sample beyond 11 services to include mid-tier \gls{saas} providers, gaming platf
 (e.g., PlayStation Plus and Steam),
 and emerging categories (e.g., AI subscription services like ChatGPT Plus or Midjourney)
 would test whether the strategic archetypes identified here generalize across the broader
-digital economy. Second, longitudinal tracking of the \gls{dspi} over multiple years would
-capture how companies adjust prices in response to macroeconomic events
-(currency devaluations, inflation spikes) and regulatory changes, transforming
-the current snapshot into a dynamic monitoring tool. Third, demand-side research
+digital economy. Second, tracking the \gls{dspi} over multiple years would
+reveal how companies adjust prices in response to currency devaluations,
+inflation spikes, and regulatory changes. Third, demand-side research
 using surveys or interviews with consumers who engage in geo-arbitrage would complement
 this supply-side analysis, particularly regarding ethical perceptions, risk assessment,
 and the social dynamics of circumvention communities. Fourth, comparative regulatory
@@ -3235,9 +3231,19 @@ digital boundaries, such as data localization requirements, content moderation p
 or algorithmic pricing disclosures. Additionally, experimental methods
 (e.g., systematically testing \gls{vpn} access across services and regions)
 could complement document-based analysis by measuring actual enforcement rates
-rather than stated policies.
+rather than stated policies. Moreover, as detection and circumvention technologies
+grow more sophisticated on both sides (Section~\ref{sec:secret_tech_race}),
+researchers should investigate whether the rising cost of this arms race
+eventually makes geographic price discrimination economically unsustainable,
+particularly for smaller platforms that cannot afford enterprise-grade
+detection infrastructure.
 
-
+Ultimately, this thesis suggests that the history of digital piracy holds a clear lesson
+for the geo-arbitrage conflict: coercive enforcement alone cannot resolve a problem
+rooted in global income inequality and borderless technology. Just as the music industry
+eventually moved from fighting piracy to offering convenient, fairly priced alternatives,
+digital service providers may find that adapting their business models is more sustainable
+than investing in increasingly aggressive enforcement.
 
 \backmatter
 \addcontentsline{toc}{chapter}{Bibliography}
