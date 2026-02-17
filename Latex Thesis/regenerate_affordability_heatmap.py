@@ -22,9 +22,9 @@ def main():
     pivot_df = df.pivot(index="Country", columns="Service", values="Affordability_%")
 
     # Sort by average affordability (most expensive countries at top)
-    pivot_df["Mean"] = pivot_df.mean(axis=1)
-    pivot_df = pivot_df.sort_values("Mean", ascending=False)
-    pivot_df.drop(columns=["Mean"], inplace=True)
+    pivot_df["_mean"] = pivot_df.mean(axis=1)
+    pivot_df = pivot_df.sort_values("_mean", ascending=False)
+    pivot_df.drop(columns=["_mean"], inplace=True)
 
     # Reorder columns to match thesis order
     col_order = [
@@ -36,8 +36,11 @@ def main():
     col_order = [c for c in col_order if c in pivot_df.columns]
     pivot_df = pivot_df[col_order]
 
+    # Add Country Average column (mean across all services per country)
+    pivot_df["Country\nAvg"] = pivot_df.mean(axis=1)
+
     # Plot
-    plt.figure(figsize=(14, 8))
+    plt.figure(figsize=(15, 8))
     sns.set_style("whitegrid")
     sns.heatmap(
         pivot_df, annot=True, fmt=".2f",
