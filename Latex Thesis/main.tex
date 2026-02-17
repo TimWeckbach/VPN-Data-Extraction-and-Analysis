@@ -185,8 +185,8 @@
 }
 
 \newglossaryentry{forwardfill}{
-	name={forward-fill imputation},
-	description={A data imputation strategy applied in the longitudinal \gls{tos} analysis where a document's clauses are assumed to remain valid for subsequent years until a new version is detected, distinguishing between ``missing data'' and ``persistent rules''}
+	name={forward-fill strategy},
+	description={A gap-filling method used in the longitudinal \gls{tos} analysis: when no new document was published in a given year, the most recent version is carried forward on the assumption that its clauses remain in effect until explicitly replaced, distinguishing between ``missing data'' and ``persistent rules''}
 }
 
 \newglossaryentry{coerciveinnovation}{
@@ -1093,16 +1093,18 @@ or rate limits (HTTP 429). The script included a ``circuit breaker'' to
 halt execution upon repeated failures and a resume function to continue
 processing from the last saved state.
 
-\subsubsection{Data Imputation and Longitudinal Consistency}
+\subsubsection{Forward-Fill Strategy for Longitudinal Consistency}
 A key challenge in analyzing longitudinal \gls{tos} data is
 the rarity of document updates, as companies do not release
-new \gls{tos} documents every year. To address this, a ``Forward-Fill''
-imputation strategy was applied. If a document was released in a
-given year (e.g., 2020), its clauses were assumed to remain valid
-for subsequent years (2021, 2022) until a new document was detected.
-This ensured the dataset accurately reflected the \textit{active}
-regulatory environment in any given year, distinguishing between
-``missing data'' and ``persistent rules.''
+new \gls{tos} documents every year. To address this, a ``forward-fill''
+strategy was applied: whenever no new document was published for a
+given year, the most recent version was carried forward on the
+assumption that its clauses remain legally in effect until explicitly
+replaced. For example, if a document was released in 2020 and the
+next update appeared in 2023, the 2020 version was treated as active
+for 2021 and 2022. This ensured the dataset accurately reflected the
+\textit{active} regulatory environment in every year, distinguishing
+between genuinely ``missing data'' and ``persistent rules.''
 
 \subsection{Methodological Validation: Gemini vs. Zero-Shot BERT}
 To validate the choice of the Gemini 3 Flash model, a comparison
@@ -1338,8 +1340,8 @@ Figure~\ref{fig:app_company_dist} shows the distribution of total sentences by
 company, while Figure~\ref{fig:app_doctype_dist} breaks down the corpus by document type.
 Table~\ref{tab:app_service_stats} presents the complete distribution of strategic
 frame counts for each of the 10 analyzed services. The master corpus
-($N=25{,}570$, Table~\ref{tab:app_service_stats}) includes 700 forward-filled
-observations (see Chapter~\ref{chap:methodology} for details on how missing data was handled).
+($N=25{,}570$, Table~\ref{tab:app_service_stats}) includes 700 carry-forward
+observations (see Chapter~\ref{chap:methodology} for details on how gaps in document coverage were handled).
 The year-by-year analysis in
 Table~\ref{tab:qual_timeline_complete} ($N=25{,}345$) excludes 225 sentences
 from documents that could not be reliably assigned to a specific publication year.
@@ -1744,32 +1746,30 @@ with $>0.95$ confidence. Similarly, clauses referencing
 from a country different from your registration country''
 were classified as \textit{Legal Threat} with comparable confidence levels.
 
-The high-confidence classifications cluster around four distinct linguistic patterns:
-\begin{itemize}
-	\item \textbf{Explicit technology prohibition:}
-	      Direct references to \glspl{vpn}, proxies, or location-disguising tools.
-	      These clauses appeared primarily in YouTube
-	      ($N=94$ Technical Blocking clauses) and Microsoft ($N=4$)
-	      documentation, representing the most unambiguous form of
-	      coercive enforcement language.
-	\item \textbf{Geographic conditionality:}
-	      Clauses that tie service access, pricing, or content availability to the
-	      user's verified geographic location. These were most prevalent in
-	      Netflix ($N=36$ Price Discrimination clauses) and
-	      Disney+ ($N=41$), reflecting their territorial licensing models.
-	\item \textbf{Account integrity requirements:}
-	      Provisions requiring accurate registration information,
-	      particularly regarding country of residence. These appeared
-	      across all service providers but were most concentrated in
-	      Microsoft's documentation ($N=53$ Legal Threat clauses).
-	\item \textbf{Compliance framing:}
-	      Clauses that justify geographic restrictions by referencing
-	      legal obligations, licensing agreements, or regulatory requirements.
-	      These were the most common non-boilerplate category overall
-	      ($N=525$ Content Licensing clauses), reflecting the industry's
-	      preferred strategy of attributing restrictions
-	      to external legal constraints rather than corporate pricing decisions.
-\end{itemize}
+The high-confidence classifications cluster around four distinct linguistic patterns.
+The first is \textbf{explicit technology prohibition}, consisting of
+direct references to \glspl{vpn}, proxies, or location-disguising tools.
+These clauses appeared primarily in YouTube
+($N=94$ Technical Blocking clauses) and Microsoft ($N=4$)
+documentation, representing the most unambiguous form of
+coercive enforcement language.
+The second pattern is \textbf{geographic conditionality},
+where clauses tie service access, pricing, or content availability to the
+user's verified geographic location. These were most prevalent in
+Netflix ($N=36$ Price Discrimination clauses) and
+Disney+ ($N=41$), reflecting their territorial licensing models.
+Third, \textbf{account integrity requirements} encompass
+provisions requiring accurate registration information,
+particularly regarding country of residence. These appeared
+across all service providers but were most concentrated in
+Microsoft's documentation ($N=53$ Legal Threat clauses).
+Finally, \textbf{compliance framing} refers to
+clauses that justify geographic restrictions by referencing
+legal obligations, licensing agreements, or regulatory requirements.
+These were the most common non-boilerplate category overall
+($N=525$ Content Licensing clauses), reflecting the industry's
+preferred strategy of attributing restrictions
+to external legal constraints rather than corporate pricing decisions.
 
 This confirmed that firms had made technical countermeasures a
 formal, documented part of their legal frameworks rather than
@@ -1880,47 +1880,40 @@ This suggests that firms with established global pricing power and providing rea
 rely less on aggressive legal threats than smaller localized services or those
 in highly contested content markets.
 
-\begin{itemize}
-	\item \textbf{Content Providers (Netflix, Disney+, YouTube, Xbox, etc.):}
-	      This group effectively formed a ``High Enforcement Cluster'' that illustrated
-	      the enforcement trade-off within the streaming sector.
-	      \begin{itemize}
-		      \item \textbf{High Variance / High Enforcement:}
-		            \textbf{YouTube} exhibits the largest combination of
-		            price variance and enforcement intensity
-		            (\gls{dspi} StdDev $= 0.46$, Enforcement Intensity $= 3.07\%$),
-		            with a Fortress Index of 33.68\% reflecting its aggressive
-		            Technical Blocking approach.
-		      \item \textbf{Moderate Variance / Low Enforcement:}
-		            \textbf{Disney+}, \textbf{Netflix}, and \textbf{Spotify}
-		            maintain substantial price variance
-		            (\gls{dspi} StdDev $0.32$--$0.49$) but rely on Content Licensing
-		            rather than Technical Blocking
-		            (Fortress Index values below 2.1\%), suggesting enforcement
-		            through licensing agreements rather than active
-		            technical measures.
-		      \item \textbf{Moderate Variance / Low Enforcement (The Xbox Case):}
-		            \textbf{Xbox Game Pass} serves as a useful control case.
-		            Governed by the Microsoft ecosystem (and combined with Microsoft 365 in the
-		            qualitative analysis, as both services share the same \gls{tos}),
-		            Xbox Game Pass has moderate global price variance
-		            (\gls{dspi} StdDev $= 0.27$), higher than Microsoft 365's own
-		            ($0.21$), yet shares Microsoft's low enforcement intensity
-		            (EI $= 0.87\%$).
-		            This suggested that when a firm's enforcement approach is
-		            set at the ecosystem level (via shared \gls{tos}), even a product
-		            with moderate pricing variance can exhibit low enforcement
-		            if the parent entity favors identity-based rather than
-		            location-based controls.
-	      \end{itemize}
+Among \textbf{content providers} (Netflix, Disney+, YouTube, Xbox, etc.),
+a ``High Enforcement Cluster'' emerged that illustrated
+the enforcement trade-off within the streaming sector.
+\textbf{YouTube} exhibits the largest combination of
+price variance and enforcement intensity
+(\gls{dspi} StdDev $= 0.46$, Enforcement Intensity $= 3.07\%$),
+with a Fortress Index of 33.68\% reflecting its aggressive
+Technical Blocking approach.
+By contrast, \textbf{Disney+}, \textbf{Netflix}, and \textbf{Spotify}
+maintain substantial price variance
+(\gls{dspi} StdDev $0.32$--$0.49$) but rely on Content Licensing
+rather than Technical Blocking
+(Fortress Index values below 2.1\%), suggesting enforcement
+through licensing agreements rather than active
+technical measures.
+\textbf{Xbox Game Pass} serves as a useful control case within this cluster.
+Governed by the Microsoft ecosystem (and combined with Microsoft 365 in the
+qualitative analysis, as both services share the same \gls{tos}),
+Xbox Game Pass has moderate global price variance
+(\gls{dspi} StdDev $= 0.27$), higher than Microsoft 365's own
+($0.21$), yet shares Microsoft's low enforcement intensity
+(EI $= 0.87\%$).
+This suggested that when a firm's enforcement approach is
+set at the ecosystem level (via shared \gls{tos}), even a product
+with moderate pricing variance can exhibit low enforcement
+if the parent entity favors identity-based rather than
+location-based controls.
 
-	\item \textbf{\gls{vpn} Enablers (NordVPN, ExpressVPN):} As expected, these
-	      ``Adversaries'' showed minimal ``Technical Blocking'' enforcement,
-	      as their business model depends on circumventing the very barriers
-	      erected by the Content Providers. The legal ambiguity surrounding \gls{vpn}
-	      usage for geo-arbitrage has been explored by \textcite{ariyarathna2022circumvention},
-	      who argues that digital location is an increasingly contested legal concept.
-\end{itemize}
+The \textbf{\gls{vpn} enablers} (NordVPN, ExpressVPN), as expected,
+showed minimal ``Technical Blocking'' enforcement,
+as their business model depends on circumventing the very barriers
+erected by the Content Providers. The legal ambiguity surrounding \gls{vpn}
+usage for geo-arbitrage has been explored by \textcite{ariyarathna2022circumvention},
+who argues that digital location is an increasingly contested legal concept.
 
 These data suggest that \textbf{Business Model} (Streaming vs. Download vs. Access)
 was a stronger predictor of enforcement strategy than \textbf{Price Opportunity} alone.
@@ -2087,8 +2080,8 @@ to the post-pandemic surge in \gls{vpn} usage. ``Regulatory Compliance''
 also saw a steady increase, reflecting the growing complexity of global
 digital trade laws. Note that the decrease in total counts for 2025 reflects the
 natural variation in document publication frequency across services. A consistent
-forward-fill imputation ensures that each service's most recent \gls{tos} remains
-counted in years without an update, providing an accurate picture of the active
+forward-fill strategy ensures that each service's most recent \gls{tos} is
+carried into years without an update, providing an accurate picture of the active
 regulatory environment at any given time.
 
 The distribution of these categories (Figure \ref{fig:category_dist_viz})
@@ -2828,31 +2821,31 @@ in the digital economy: platform operators, regulators, \gls{vpn} providers, and
 \subsection{Implications for Platform Operators}
 The strategic archetypes identified in this thesis suggest that firms should align
 their enforcement strategy with their underlying value delivery architecture rather
-than pursuing a ``one-size-fits-all'' approach to geo-arbitrage. Specifically:
+than pursuing a ``one-size-fits-all'' approach to geo-arbitrage.
 
-\begin{itemize}
-	\item \textbf{Content streaming platforms}
-	      (Netflix, YouTube, Disney+) should consider whether the escalating costs of
-	      the ``Content Fortress'' approach (both in terms of technology investment and user friction)
-	      justify the revenue protection achieved. Netflix's strategic pivot toward global
-	      original content production represents a potentially more sustainable long-term
-	      response than ever-more-sophisticated blocking technology. By owning content globally,
-	      platforms eliminate the territorial licensing constraints that necessitate
-	      geo-blocking in the first place, effectively making the ``fortress'' unnecessary.
-	\item \textbf{Software providers} (Adobe, Microsoft) already benefit from identity-based
-	      enforcement that is more robust than network-based blocking. These firms should
-	      focus on strengthening subscription management and license validation rather
-	      than investing in \gls{vpn} detection technologies that are more relevant to
-	      streaming platforms. The migration toward cloud-dependent features (e.g., Adobe Firefly)
-	      naturally strengthens enforcement without requiring explicit anti-circumvention measures.
-	\item \textbf{Ecosystem platforms} (Apple, Amazon) should recognize that their
-	      multi-service bundle strategy provides the most durable form of protection against
-	      geo-arbitrage. The switching costs embedded in ecosystem dependencies create natural
-	      barriers that are far more difficult to circumvent than any technical blocking system.
-	      Strategic investments in deepening ecosystem integration
-	      (e.g., linking subscription pricing to hardware ownership or loyalty programs)
-	      may be more effective than direct enforcement.
-\end{itemize}
+\textbf{Content streaming platforms}
+(Netflix, YouTube, Disney+) should consider whether the escalating costs of
+the ``Content Fortress'' approach (both in terms of technology investment and user friction)
+justify the revenue protection achieved. Netflix's strategic pivot toward global
+original content production represents a potentially more sustainable long-term
+response than ever-more-sophisticated blocking technology. By owning content globally,
+platforms eliminate the territorial licensing constraints that necessitate
+geo-blocking in the first place, effectively making the ``fortress'' unnecessary.
+
+\textbf{Software providers} (Adobe, Microsoft) already benefit from identity-based
+enforcement that is more robust than network-based blocking. These firms should
+focus on strengthening subscription management and license validation rather
+than investing in \gls{vpn} detection technologies that are more relevant to
+streaming platforms. The migration toward cloud-dependent features (e.g., Adobe Firefly)
+naturally strengthens enforcement without requiring explicit anti-circumvention measures.
+
+\textbf{Ecosystem platforms} (Apple, Amazon) should recognize that their
+multi-service bundle strategy provides the most durable form of protection against
+geo-arbitrage. The switching costs embedded in ecosystem dependencies create natural
+barriers that are far more difficult to circumvent than any technical blocking system.
+Strategic investments in deepening ecosystem integration
+(e.g., linking subscription pricing to hardware ownership or loyalty programs)
+may be more effective than direct enforcement.
 
 \subsection{Implications for Regulators}
 The Affordability Paradox documented in this study highlights a tension that
@@ -3009,12 +3002,12 @@ Future research could complement document-based analysis with experimental metho
 (e.g., systematically testing \gls{vpn} access across services and regions) to
 measure actual enforcement rates rather than stated policies.
 
-The forward-fill imputation strategy (Chapter~\ref{chap:methodology}),
-which added 700 observations (2.8\% of the time-series dataset),
+The forward-fill strategy (Chapter~\ref{chap:methodology}),
+which added 700 carry-forward observations (2.8\% of the time-series dataset),
 assumes that policies remain unchanged between documented updates.
-While reasonable, \gls{tos} typically remain legally active until
-explicitly revised, this may overcount the persistence of specific clauses
-if internal policies change without formal document updates.
+While this is reasonable because \gls{tos} typically remain legally active until
+explicitly revised, it may overcount the persistence of specific clauses
+if internal policies change without a formal document update.
 
 \subsection{Methodological Reflections}
 Beyond the substantive findings, this study shows important methodological
@@ -3061,41 +3054,41 @@ quantitative index (the \gls{dspi}) with \gls{llm}-based qualitative analysis of
 to provide the first complete mapping of both the economic forces driving geo-arbitrage
 and the strategic responses firms deploy to counter it.
 
-\begin{description}
-	\item[\gls{rq}1 (Economic Incentive):] The \gls{dspi} reveals substantial and systematic
-	      price differences across markets. The analysis of up to 11 digital services across
-	      11 countries demonstrates that subscriptions in low-income markets can cost up to 90\%
-	      less than identical services in high-income markets
-	      (e.g., YouTube Premium in Pakistan at 12\% of the US price, Spotify in Pakistan at 10\% of the US price).
-	      These differences are not arbitrary. They follow a broadly predictable pattern aligned with national
-	      income levels, consistent with third-degree price discrimination theory \parencite{varian1989price}.
-	      However, the complementary \gls{ptw} analysis reveals an \textbf{Affordability Paradox}:
-	      these nominally ``cheap'' prices are often significantly more expensive for local
-	      consumers in real terms (Section~\ref{sec:dspi_results}), fundamentally challenging
-	      the popular narrative that low-income markets receive ``bargain'' prices and reframing
-	      the arbitrage motivation as an exploitation of welfare-enhancing pricing structures.
-	\item[\gls{rq}2 (Strategic Response):] Enforcement strategies are primarily determined by
-	      \textbf{Business Model Architecture} rather than by the extent of price differences.
-	      This is the study's most surprising finding. Content streaming firms enforce strict geographic
-	      blocking due to licensing requirements, with YouTube exhibiting the highest Fortress Index (33.68\%)
-	      among content providers. Software firms like Microsoft rely on identity verification and legal threats
-	      rather than network-based blocking, reflecting the ``Enterprise Fortress'' archetype.
-	      Ecosystem platforms (Apple, Amazon) leverage multi-service bundle dependencies as implicit enforcement,
-	      making arbitrage impractical without relocating one's entire digital identity.
-	      \gls{vpn} providers, by their nature, implement no geographic restrictions, instead framing
-	      circumvention as a privacy right.
-	\item[Enforcement Evolution:] The year-by-year analysis reveals a clear escalation in
-	      enforcement intensity, peaking in 2023 before stabilizing
-	      (Table~\ref{tab:qual_timeline_complete}). This surge, driven primarily by
-	      YouTube's enforcement campaign, coincides with post-pandemic increases in \gls{vpn}
-	      adoption and geo-arbitrage awareness. The subsequent stabilization suggests that
-	      firms have moved from active enforcement expansion to maintenance of established
-	      blocking infrastructure. However, the constant presence of circumvention
-	      discussions in online communities suggests these barriers increase friction rather
-	      than eliminating arbitrage entirely, consistent with the game-theoretic prediction
-	      (Equation~\ref{eq:enforcement_optimization}) that perfect enforcement is neither
-	      achievable nor economically optimal.
-\end{description}
+Regarding \textbf{\gls{rq}1 (Economic Incentive)}, the \gls{dspi} reveals substantial and systematic
+price differences across markets. The analysis of up to 11 digital services across
+11 countries demonstrates that subscriptions in low-income markets can cost up to 90\%
+less than identical services in high-income markets
+(e.g., YouTube Premium in Pakistan at 12\% of the US price, Spotify in Pakistan at 10\% of the US price).
+These differences are not arbitrary. They follow a broadly predictable pattern aligned with national
+income levels, consistent with third-degree price discrimination theory \parencite{varian1989price}.
+However, the complementary \gls{ptw} analysis reveals an \textbf{Affordability Paradox}:
+these nominally ``cheap'' prices are often significantly more expensive for local
+consumers in real terms (Section~\ref{sec:dspi_results}), fundamentally challenging
+the popular narrative that low-income markets receive ``bargain'' prices and reframing
+the arbitrage motivation as an exploitation of welfare-enhancing pricing structures.
+
+Regarding \textbf{\gls{rq}2 (Strategic Response)}, enforcement strategies are primarily determined by
+\textbf{Business Model Architecture} rather than by the extent of price differences.
+This is the study's most surprising finding. Content streaming firms enforce strict geographic
+blocking due to licensing requirements, with YouTube exhibiting the highest Fortress Index (33.68\%)
+among content providers. Software firms like Microsoft rely on identity verification and legal threats
+rather than network-based blocking, reflecting the ``Enterprise Fortress'' archetype.
+Ecosystem platforms (Apple, Amazon) leverage multi-service bundle dependencies as implicit enforcement,
+making arbitrage impractical without relocating one's entire digital identity.
+\gls{vpn} providers, by their nature, implement no geographic restrictions, instead framing
+circumvention as a privacy right.
+
+Beyond the two research questions, the \textbf{enforcement evolution} analysis reveals a clear escalation in
+enforcement intensity, peaking in 2023 before stabilizing
+(Table~\ref{tab:qual_timeline_complete}). This surge, driven primarily by
+YouTube's enforcement campaign, coincides with post-pandemic increases in \gls{vpn}
+adoption and geo-arbitrage awareness. The subsequent stabilization suggests that
+firms have moved from active enforcement expansion to maintenance of established
+blocking infrastructure. However, the constant presence of circumvention
+discussions in online communities suggests these barriers increase friction rather
+than eliminating arbitrage entirely, consistent with the game-theoretic prediction
+(Equation~\ref{eq:enforcement_optimization}) that perfect enforcement is neither
+achievable nor economically optimal.
 
 Taken together, these findings paint a picture of a digital economy in transition.
 The current regime of territorial price discrimination, inherited from the pre-digital
@@ -3112,75 +3105,82 @@ may prove more sustainable than coercive strategies
 \section{Contribution to Research}
 This study adds both methods and theory to digital economics.
 
-\textbf{Methodological Contributions:}
-\begin{itemize}
-	\item \textbf{\gls{dspi}:} We created the \gls{dspi} as a new way to measure
-	      price discrimination for digital services. Unlike existing price indices
-	      (such as the Big Mac Index or the iPod Index), which measure a single product,
-	      the \gls{dspi} captures a basket of digital services across multiple categories,
-	      providing a fuller picture of digital pricing patterns.
-	      The complementary \gls{ptw} ratio adds an affordability dimension that purely
-	      nominal indices lack. Together, these metrics offer a replicable framework
-	      that future researchers can apply to track pricing changes over time or extend
-	      to additional service categories.
-	\item \textbf{AI Legal Analysis:} This study demonstrates that generative
-	      \gls{llm} models can successfully analyze thousands of legal sentences with
-	      high reliability (average confidence 0.947), significantly outperforming
-	      traditional \gls{nli} models for complex legal text classification.
-	      The pipeline architecture (combining structured system prompts, batch processing,
-	      and forward-fill imputation) provides a replicable template for future research
-	      on corporate policy documents at scale. This contribution is particularly
-	      relevant given the rapid growth of \gls{tos} documents, which makes
-	      traditional manual coding increasingly impractical.
-\end{itemize}
+\subsection{Methodological Contributions}
 
-\textbf{Theoretical Contributions:}
-\begin{itemize}
-	\item \textbf{Extension of \gls{bmi} Theory:}
-	      The study extends \gls{bmi} theory by showing that consumer bypassing behaviors
-	      work as a disruptive force similar to technological innovation, forcing firms
-	      to fundamentally change their value capture mechanisms. This finding adds a
-	      new category of external pressure to the \gls{bmi} literature, which has traditionally
-	      focused on competitor-driven or technology-driven disruption \parencite{foss2017fifteen}.
-	      Consumer-driven disruption through circumvention technology represents a distinct
-	      mechanism where the disruption originates from the demand side rather than the supply side.
-	\item \textbf{Strategic Archetypes:} The identification of four distinct types
-	      (Content Fortress, Ecosystem Fortress, Enterprise Fortress, Utility Paradox) provides a
-	      framework for understanding how different business models respond to the same external threat.
-	      The key finding that business model architecture is a stronger predictor of enforcement
-	      strategy than price gap size challenges the intuitive assumption that firms
-	      with the largest price differences would also have the strongest enforcement.
-	      Instead, the delivery mechanism (streaming vs.\ download vs.\ ecosystem) determines
-	      the available enforcement tools.
-	\item \textbf{Piracy-Arbitrage Parallel:} By drawing explicit parallels between
-	      the digital piracy wave of the 2000s and modern geo-arbitrage, this thesis
-	      contributes to a longer-term understanding of how digital disruption forces
-	      business model adaptation. The historical comparison suggests that the current
-	      enforcement-heavy phase may eventually give way to adaptive strategies.
-	      This contribution is distinct from the existing piracy literature
-	      \parencite{oberholzer2007effect, peukert2017piracy} because it identifies geo-arbitrage
-	      as a \textit{qualitatively different} form of consumer circumvention
-	      (one involving payment rather than theft, location rather than access)
-	      that nonetheless triggers similar strategic responses from firms. This suggests
-	      that the dynamics of disruption and adaptation in digital markets may follow
-	      recurring patterns regardless of the specific circumvention mechanism,
-	      a finding with implications for anticipating firm responses to future
-	      forms of consumer-driven boundary-crossing.
-	\item \textbf{Affordability Paradox:} The documentation of the Affordability Paradox,
-	      that nominally ``cheap'' prices in low-income markets are often more expensive
-	      in real terms (relative to local wages) than high-income market prices,
-	      challenges a widespread assumption in both the popular press and the academic
-	      literature that price discrimination in digital markets primarily benefits consumers
-	      in developing economies. By demonstrating that a Netflix subscription in
-	      Argentina consumes over twelve times the share of monthly income compared
-	      to the USA, this finding reframes the equity debate around geo-arbitrage
-	      and provides empirical grounding for policy discussions about digital inclusion and fair pricing.
-\end{itemize}
+\subsubsection{The Digital Subscription Price Index}
+The \gls{dspi} was created as a new way to measure
+price discrimination for digital services. Unlike existing price indices
+(such as the Big Mac Index or the iPod Index), which measure a single product,
+the \gls{dspi} captures a basket of digital services across multiple categories,
+providing a fuller picture of digital pricing patterns.
+The complementary \gls{ptw} ratio adds an affordability dimension that purely
+nominal indices lack. Together, these metrics offer a replicable framework
+that future researchers can apply to track pricing changes over time or extend
+to additional service categories.
+
+\subsubsection{AI-Assisted Legal Analysis}
+This study demonstrates that generative
+\gls{llm} models can successfully analyze thousands of legal sentences with
+high reliability (average confidence 0.947), significantly outperforming
+traditional \gls{nli} models for complex legal text classification.
+The pipeline architecture (combining structured system prompts, batch processing,
+and forward-fill gap handling) provides a replicable template for future research
+on corporate policy documents at scale. This contribution is particularly
+relevant given the rapid growth of \gls{tos} documents, which makes
+traditional manual coding increasingly impractical.
+
+\subsection{Theoretical Contributions}
+
+\subsubsection{Extension of Business Model Innovation Theory}
+The study extends \gls{bmi} theory by showing that consumer bypassing behaviors
+work as a disruptive force similar to technological innovation, forcing firms
+to fundamentally change their value capture mechanisms. This finding adds a
+new category of external pressure to the \gls{bmi} literature, which has traditionally
+focused on competitor-driven or technology-driven disruption \parencite{foss2017fifteen}.
+Consumer-driven disruption through circumvention technology represents a distinct
+mechanism where the disruption originates from the demand side rather than the supply side.
+
+\subsubsection{Strategic Archetypes}
+The identification of four distinct types
+(Content Fortress, Ecosystem Fortress, Enterprise Fortress, Utility Paradox) provides a
+framework for understanding how different business models respond to the same external threat.
+The key finding that business model architecture is a stronger predictor of enforcement
+strategy than price gap size challenges the intuitive assumption that firms
+with the largest price differences would also have the strongest enforcement.
+Instead, the delivery mechanism (streaming vs.\ download vs.\ ecosystem) determines
+the available enforcement tools.
+
+\subsubsection{The Piracy-Arbitrage Parallel}
+By drawing explicit parallels between
+the digital piracy wave of the 2000s and modern geo-arbitrage, this thesis
+contributes to a longer-term understanding of how digital disruption forces
+business model adaptation. The historical comparison suggests that the current
+enforcement-heavy phase may eventually give way to adaptive strategies.
+This contribution is distinct from the existing piracy literature
+\parencite{oberholzer2007effect, peukert2017piracy} because it identifies geo-arbitrage
+as a \textit{qualitatively different} form of consumer circumvention
+(one involving payment rather than theft, location rather than access)
+that nonetheless triggers similar strategic responses from firms. This suggests
+that the dynamics of disruption and adaptation in digital markets may follow
+recurring patterns regardless of the specific circumvention mechanism,
+a finding with implications for anticipating firm responses to future
+forms of consumer-driven boundary-crossing.
+
+\subsubsection{The Affordability Paradox}
+The documentation of the Affordability Paradox,
+that nominally ``cheap'' prices in low-income markets are often more expensive
+in real terms (relative to local wages) than high-income market prices,
+challenges a widespread assumption in both the popular press and the academic
+literature that price discrimination in digital markets primarily benefits consumers
+in developing economies. By demonstrating that a Netflix subscription in
+Argentina consumes over twelve times the share of monthly income compared
+to the USA, this finding reframes the equity debate around geo-arbitrage
+and provides empirical grounding for policy discussions about digital inclusion and fair pricing.
 
 \section{The Future}
 Geo-blocking is expected to undergo significant changes in the coming years.
 
-\textbf{Regulatory Evolution:}
+\subsection{Regulatory Evolution}
 As rules like the \gls{eu}'s Digital Single Market evolve
 (building on regulations such as the \gls{eu} Geo-Blocking Regulation \parencite{eu2018geoblocking}),
 geo-blocking practices may change significantly. The current regulation exempts
@@ -3197,7 +3197,7 @@ The tension between national tax regimes (which incentivize location-based prici
 and consumer expectations of borderless digital access will likely intensify as
 digital services become a larger share of household expenditure globally.
 
-\textbf{Technological Evolution:}
+\subsection{Technological Evolution}
 The arms race between blocking technology and bypassing tools shows no signs of slowing.
 Advanced techniques such as residential IP proxies, browser fingerprinting, and machine
 learning-based detection create a technically complex environment that demands continuous
@@ -3212,7 +3212,7 @@ should investigate whether the rising cost of this arms race eventually makes ge
 discrimination economically unsustainable, particularly for smaller platforms that cannot afford
 enterprise-grade detection infrastructure.
 
-\textbf{Market Convergence:}
+\subsection{Market Convergence}
 Ultimately, the cycle of blocking and bypassing may end not through better technology, but
 through market forces that promote global price convergence
 \parencite{goldfarb2019digital}. As digital services become increasingly
@@ -3231,7 +3231,7 @@ will narrow or that firms will accept lower margins in wealthy markets, assumpti
 that current macroeconomic trends do not uniformly support
 \parencite{worldbank2023wdi, rogoff1996ppp}.
 
-\textbf{Future Research:}
+\subsection{Future Research}
 Future studies could build on this work in several directions. First, expanding the service
 sample beyond 11 services to include mid-tier \gls{saas} providers, gaming platforms
 (e.g., PlayStation Plus and Steam),
