@@ -1338,6 +1338,11 @@ is presented in the Discussion (Chapter~\ref{chap:discussion}).
 \section{Dataset Overview}
 \label{sec:data_overview}
 
+The qualitative corpus comprises 25,570 sentences across 10 companies.
+Figure~\ref{fig:app_company_dist} shows the distribution of clause counts by company,
+while Figure~\ref{fig:app_doctype_dist} presents the breakdown by document type.
+Table~\ref{tab:app_service_stats} provides the full category-level breakdown per service.
+
 \begin{figure}[ht]
 	\centering
 	\resizebox{\linewidth}{!}{%
@@ -1604,29 +1609,6 @@ for direct comparison across all services and markets.
 		\end{tabular}}
 \end{table}
 
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-				xbar,
-				width=0.8\textwidth,
-				height=8cm,
-				xlabel={Share (\%)},
-				ytick={0,1,2,3,4,5},
-				yticklabels={Security Risk, Technical Blocking, Price Discrimination, Legal Threat, Regulatory Compliance, Content Licensing},
-				nodes near coords,
-				xmin=0,
-				bar width=15pt,
-				yticklabel style={font=\footnotesize},
-			]
-			\addplot[fill=tudared] coordinates {
-					(2.8,0) (7.2,1) (8.0,2) (8.0,3) (35.0,4) (37.2,5)
-				};
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Proportional Distribution of Enforcement Categories (Aggregate)}
-	\label{fig:category_dist_viz}
-\end{figure}
 
 
 To further quantify the intensity of these enforcement regimes, we propose the
@@ -1749,6 +1731,75 @@ and Figure~\ref{fig:strategic_frames_evolution} for the stacked category view).
 This suggested that restrictive clauses had become more prevalent and more
 specific over the analyzed period, transitioning from general boilerplate
 to active regulatory language.
+
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+				width=0.9\textwidth,
+				height=7cm,
+				xlabel={Year},
+				ylabel={Incident Count},
+				xmin=2019.5, xmax=2025.5,
+				xtick={2020,2021,2022,2023,2024,2025},
+				xticklabel style={/pgf/number format/set thousands separator={}},
+				grid=major,
+				legend style={at={(0.5,-0.22)}, anchor=north, legend columns=3, font=\footnotesize},
+				ymin=0
+			]
+			\addplot[thick, color=tudablue, mark=square*] coordinates { (2020,71) (2021,70) (2022,87) (2023,102) (2024,96) (2025,99) };
+			\addlegendentry{Content Licensing}
+			\addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,55) (2021,74) (2022,72) (2023,117) (2024,114) (2025,87) };
+			\addlegendentry{Regulatory Compliance}
+			\addplot[thick, color=tudared, mark=x] coordinates { (2020,6) (2021,5) (2022,13) (2023,44) (2024,24) (2025,14) };
+			\addlegendentry{Technical Blocking}
+			\addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,16) (2021,26) (2022,20) (2023,12) (2024,33) (2025,13) };
+			\addlegendentry{Price Discrimination}
+			\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,15) (2021,12) (2022,13) (2023,25) (2024,20) (2025,21) };
+			\addlegendentry{Legal Threat}
+			\addplot[thick, color=tudagray, mark=otimes] coordinates { (2020,10) (2021,4) (2022,10) (2023,2) (2024,7) (2025,6) };
+			\addlegendentry{Security Risk}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Temporal Evolution of Category Incident Counts (Aggregate, Excluding \gls{vpn} Providers)}
+	\label{fig:timeline_all}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+				ybar stacked,
+				width=0.85\textwidth,
+				height=7cm,
+				xlabel={Year},
+				ylabel={Count (Excl.\ General Terms)},
+				xmin=2019.5, xmax=2025.5,
+				ymin=0,
+				xtick={2020,2021,2022,2023,2024,2025},
+				xticklabel style={/pgf/number format/set thousands separator={}},
+				legend style={at={(0.5,-0.22)}, anchor=north, legend columns=3, font=\footnotesize},
+				legend cell align={left},
+				bar width=15pt,
+				enlarge x limits=0.08,
+			]
+			\addplot[ybar stacked, fill=tudablue, draw=black!30] coordinates { (2020,71) (2021,70) (2022,87) (2023,102) (2024,96) (2025,99) };
+			\addlegendentry{Content Licensing}
+			\addplot[ybar stacked, fill=tudagreen, draw=black!30] coordinates { (2020,55) (2021,74) (2022,72) (2023,117) (2024,114) (2025,87) };
+			\addlegendentry{Regulatory Compliance}
+			\addplot[ybar stacked, fill=tudared, draw=black!30] coordinates { (2020,6) (2021,5) (2022,13) (2023,44) (2024,24) (2025,14) };
+			\addlegendentry{Technical Blocking}
+			\addplot[ybar stacked, fill=cyan!70, draw=black!30] coordinates { (2020,16) (2021,26) (2022,20) (2023,12) (2024,33) (2025,13) };
+			\addlegendentry{Price Discrimination}
+			\addplot[ybar stacked, fill=orange!80, draw=black!30] coordinates { (2020,15) (2021,12) (2022,13) (2023,25) (2024,20) (2025,21) };
+			\addlegendentry{Legal Threat}
+			\addplot[ybar stacked, fill=tudagray, draw=black!30] coordinates { (2020,10) (2021,6) (2022,14) (2023,15) (2024,9) (2025,13) };
+			\addlegendentry{Other (Privacy, Sec.~Risk, Portab.)}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Evolution of Strategic Frames over Time (Excluding General Terms and \gls{vpn} Providers)}
+	\label{fig:strategic_frames_evolution}
+\end{figure}
 
 \section{Deep Dive: Service-Specific Strategic Evolution}
 \label{sec:service_deep_dive}
@@ -1982,75 +2033,6 @@ who argues that digital location is an increasingly contested legal concept.
 These data suggest that \textbf{Business Model} (Streaming vs. Download vs. Access)
 was a stronger predictor of enforcement strategy than \textbf{Price Opportunity} alone.
 
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-				width=0.9\textwidth,
-				height=7cm,
-				xlabel={Year},
-				ylabel={Incident Count},
-				xmin=2019.5, xmax=2025.5,
-				xtick={2020,2021,2022,2023,2024,2025},
-				xticklabel style={/pgf/number format/set thousands separator={}},
-				grid=major,
-				legend style={at={(0.5,-0.22)}, anchor=north, legend columns=3, font=\footnotesize},
-				ymin=0
-			]
-			\addplot[thick, color=tudablue, mark=square*] coordinates { (2020,71) (2021,70) (2022,87) (2023,102) (2024,96) (2025,99) };
-			\addlegendentry{Content Licensing}
-			\addplot[thick, color=tudagreen, mark=triangle*] coordinates { (2020,55) (2021,74) (2022,72) (2023,117) (2024,114) (2025,87) };
-			\addlegendentry{Regulatory Compliance}
-			\addplot[thick, color=tudared, mark=x] coordinates { (2020,6) (2021,5) (2022,13) (2023,44) (2024,24) (2025,14) };
-			\addlegendentry{Technical Blocking}
-			\addplot[thick, color=cyan, mark=diamond*] coordinates { (2020,16) (2021,26) (2022,20) (2023,12) (2024,33) (2025,13) };
-			\addlegendentry{Price Discrimination}
-			\addplot[thick, color=orange, mark=pentagon*] coordinates { (2020,15) (2021,12) (2022,13) (2023,25) (2024,20) (2025,21) };
-			\addlegendentry{Legal Threat}
-			\addplot[thick, color=tudagray, mark=otimes] coordinates { (2020,10) (2021,4) (2022,10) (2023,2) (2024,7) (2025,6) };
-			\addlegendentry{Security Risk}
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Temporal Evolution of Category Incident Counts (Aggregate, Excluding \gls{vpn} Providers)}
-	\label{fig:timeline_all}
-\end{figure}
-
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-				ybar stacked,
-				width=0.85\textwidth,
-				height=7cm,
-				xlabel={Year},
-				ylabel={Count (Excl.\ General Terms)},
-				xmin=2019.5, xmax=2025.5,
-				ymin=0,
-				xtick={2020,2021,2022,2023,2024,2025},
-				xticklabel style={/pgf/number format/set thousands separator={}},
-				legend style={at={(0.5,-0.22)}, anchor=north, legend columns=3, font=\footnotesize},
-				legend cell align={left},
-				bar width=15pt,
-				enlarge x limits=0.08,
-			]
-			\addplot[ybar stacked, fill=tudablue, draw=black!30] coordinates { (2020,71) (2021,70) (2022,87) (2023,102) (2024,96) (2025,99) };
-			\addlegendentry{Content Licensing}
-			\addplot[ybar stacked, fill=tudagreen, draw=black!30] coordinates { (2020,55) (2021,74) (2022,72) (2023,117) (2024,114) (2025,87) };
-			\addlegendentry{Regulatory Compliance}
-			\addplot[ybar stacked, fill=tudared, draw=black!30] coordinates { (2020,6) (2021,5) (2022,13) (2023,44) (2024,24) (2025,14) };
-			\addlegendentry{Technical Blocking}
-			\addplot[ybar stacked, fill=cyan!70, draw=black!30] coordinates { (2020,16) (2021,26) (2022,20) (2023,12) (2024,33) (2025,13) };
-			\addlegendentry{Price Discrimination}
-			\addplot[ybar stacked, fill=orange!80, draw=black!30] coordinates { (2020,15) (2021,12) (2022,13) (2023,25) (2024,20) (2025,21) };
-			\addlegendentry{Legal Threat}
-			\addplot[ybar stacked, fill=tudagray, draw=black!30] coordinates { (2020,10) (2021,6) (2022,14) (2023,15) (2024,9) (2025,13) };
-			\addlegendentry{Other (Privacy, Sec.~Risk, Portab.)}
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Evolution of Strategic Frames over Time (Excluding General Terms and \gls{vpn} Providers)}
-	\label{fig:strategic_frames_evolution}
-\end{figure}
-
 
 In the ``Software and Music'' category (see Figure~\ref{fig:evol_software_main}
 for the proportional evolution), \textbf{Microsoft}
@@ -2075,421 +2057,7 @@ the most ``static'' of all services, with very low enforcement counts that have
 barely changed since 2020. The strategic implications of this stability are
 discussed in Section~\ref{sec:detailed_analysis}.
 
-\section{Strategic Shifts and Fortress Index Ranking}
-\label{sec:detailed_analysis}
-
-This section provides a granular view of the enforcement picture, detailing the specific category
-shifts and the calculated ``Fortress Index values'' for each service.
-
-\begin{table}[ht]
-	\centering
-	\caption{Complete Fortress Index Ranking. \gls{vpn} providers score highest due
-		to their security-focused framing, followed by YouTube and Microsoft
-		with active enforcement strategies.}
-	\label{tab:fortress_index_complete}
-	\begin{tabular}{l r l}
-		\toprule
-		\textbf{Company} & \textbf{Fortress Index (\%)} & \textbf{Archetype}  \\
-		\midrule
-		ExpressVPN       & 55.56                        & \gls{vpn} Enabler   \\
-		NordVPN          & 50.00                        & \gls{vpn} Enabler   \\
-		YouTube Premium  & 33.68                        & Content Fortress    \\
-		Microsoft        & 32.76                        & Enterprise Fortress \\
-		Apple Music      & 12.50                        & Ecosystem Fortress  \\
-		Adobe            & 5.48                         & Utility Paradox     \\
-		Amazon Prime     & 3.88                         & Ecosystem Fortress  \\
-		Disney+          & 2.04                         & Content Fortress    \\
-		Netflix          & 2.03                         & Content Fortress    \\
-		Spotify          & 0.43                         & Content Fortress    \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-
-
-The Fortress Index (Table \ref{tab:fortress_index_complete}) confirms the split in the market.
-\textbf{YouTube Premium} (33.68\%) and \textbf{Microsoft} (32.76\%) have effectively built
-``digital fortresses,'' distinguishing themselves from the lower-scoring streaming
-incumbents like \textbf{Netflix} (2.03\%) and \textbf{Spotify} (0.43\%),
-which continue to rely on passive licensing terms.
-
-\begin{table}[ht]
-	\centering
-	\footnotesize
-	\renewcommand{\arraystretch}{1.1}
-	\caption{Absolute Category Counts by Year Across All Services (2020--2025).
-		Technical Blocking peaks sharply in 2023, coinciding with YouTube's enforcement escalation.}
-	\label{tab:qual_timeline_complete}
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{l *{11}{r} | r}
-			\toprule
-			\textbf{Year}  & \rotatebox{70}{\textbf{Tech. Block.}} & \rotatebox{70}{\textbf{Price Discr.}} & \rotatebox{70}{\textbf{Licensing}} & \rotatebox{70}{\textbf{Regulatory}} & \rotatebox{70}{\textbf{Legal Thr.}} & \rotatebox{70}{\textbf{Acc.\ Act.}} & \rotatebox{70}{\textbf{Privacy}} & \rotatebox{70}{\textbf{Sec.\ Risk}} & \rotatebox{70}{\textbf{Portab.}} & \rotatebox{70}{\textbf{Workaro.}} & \rotatebox{70}{\textbf{General}} & \rotatebox{70}{\textbf{Total}} \\
-			\midrule
-			2020           & 6                                     & 16                                    & 71                                 & 55                                  & 15                                  & 0                                   & 0                                & 10                                  & 0                                & 0                                 & 3,386                            & 3,559                          \\
-			2021           & 5                                     & 26                                    & 70                                 & 74                                  & 12                                  & 0                                   & 2                                & 4                                   & 0                                & 0                                 & 3,645                            & 3,838                          \\
-			2022           & 13                                    & 20                                    & 87                                 & 72                                  & 13                                  & 0                                   & 4                                & 10                                  & 0                                & 0                                 & 4,001                            & 4,220                          \\
-			2023           & 44                                    & 12                                    & 102                                & 117                                 & 25                                  & 0                                   & 11                               & 2                                   & 2                                & 0                                 & 4,567                            & 4,882                          \\
-			2024           & 24                                    & 33                                    & 96                                 & 114                                 & 23                                  & 0                                   & 2                                & 10                                  & 0                                & 0                                 & 4,880                            & 5,182                          \\
-			2025           & 15                                    & 14                                    & 99                                 & 89                                  & 28                                  & 0                                   & 8                                & 9                                   & 0                                & 0                                 & 3,402                            & 3,664                          \\
-			\midrule
-			\textbf{Total} & \textbf{107}                          & \textbf{121}                          & \textbf{525}                       & \textbf{521}                        & \textbf{116}                        & \textbf{0}                          & \textbf{27}                      & \textbf{45}                         & \textbf{2}                       & \textbf{0}                        & \textbf{23,881}                  & \textbf{25,345}                \\
-			\bottomrule
-		\end{tabular}}
-\end{table}
-
-Table \ref{tab:qual_timeline_complete} reveals the year-by-year trends
-behind these scores. The aggregate data show a clear spike
-in ``Technical Blocking'' clauses in 2023 (44 incidents), a direct response
-to the post-pandemic surge in \gls{vpn} usage. ``Regulatory Compliance''
-also saw a steady increase, reflecting the growing complexity of global
-digital trade laws. Note that the decrease in total counts for 2025 reflects the
-natural variation in document publication frequency across services. A consistent
-forward-fill strategy ensures that each service's most recent \gls{tos} is
-carried into years without an update, providing an accurate picture of the active
-regulatory environment at any given time.
-
-The distribution of these categories (Figure \ref{fig:category_dist_viz})
-highlighted distinct enforcement styles. Notably, \textbf{Microsoft} has largely
-abandoned active enforcement for its productivity suite, relying instead on
-ecosystem lock-in, whereas \textbf{YouTube} has pursued aggressive boundary
-enforcement followed by a consolidation period, as seen in the fluctuation of
-its ``Technical Blocking'' and ``Legal Threat'' clauses over time.
-
-\chapter{Discussion}
-\label{chap:discussion}
-
-This chapter brings together the pricing data and the corporate strategy findings
-to answer the main question of this thesis:
-how do digital service providers strategically respond to \gls{vpn}-enabled geo-arbitrage,
-and what determines the nature of that response? The results from Chapter~\ref{chap:results}
-established two key findings that require interpretation. First, the \gls{dspi}
-demonstrated that price differences across markets are substantial and systematic,
-with content streaming services showing the highest variance. Second, the \gls{tos}
-analysis revealed that enforcement intensity varies dramatically across providers,
-with YouTube and Microsoft exhibiting far higher enforcement density than Netflix
-or Spotify. The key question is \textit{why} these differences exist.
-The following discussion identifies distinct strategic archetypes that illustrate
-how different industry segments respond to arbitrage, arguing that business model
-architecture (not the size of the price gap) is the primary determinant of
-enforcement strategy. The chapter concludes by exploring the broader implications
-of the ongoing technological contest between platforms and consumers and the policy
-questions this contest raises.
-
-\section{Strategic Archetypes}
-Based on the \gls{tos} analysis ($N=10$, covering 8 digital service providers
-and 2 \gls{vpn} enablers), we organize the findings around three high-level
-\textbf{Macro-Categories} that aggregate the initial 10 coding categories
-to facilitate cross-sectoral comparison:
-\begin{enumerate}
-	\item \textbf{Business Model Adaptation \& Pricing (\gls{bma}):}
-	      Aggregates \textit{Content Licensing}, \textit{Regulatory Compliance},
-	      \textit{Price Discrimination}, and \textit{Legitimate Portability}.
-	      This represents the ``soft'' strategic layer where firms adjust their offerings
-	      to local market conditions.
-	\item \textbf{Coercive Restriction \& Legal Threat (\gls{crl}):}
-	      Aggregates \textit{Technical Blocking}, \textit{Legal Threat},
-	      \textit{Account Action}, and \textit{Security Risk}.
-	      This represents the ``hard'' enforcement layer designed to physically or
-	      legally prevent circumvention.
-	\item \textbf{General Corporate Operations (\gls{gco}):}
-	      Aggregates \textit{Privacy/Security} (\gls{vpn} frame) and \textit{User Workaround}.
-	      This captures supporting narratives and adversarial user behavior descriptions.
-\end{enumerate}
-
-Figure \ref{fig:strategic_framing_pivot} provides a high-level overview of
-how these macro-strategies appear across the analyzed companies.
-
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-				xbar stacked,
-				width=0.85\textwidth,
-				height=10cm,
-				symbolic y coords={ExpressVPN,NordVPN,Apple Music,YouTube Premium,Spotify,Netflix,Disney+,Amazon Prime,Adobe,Microsoft},
-				ytick=data,
-				yticklabel style={font=\small},
-				xlabel={Share of Strategic Sentences (\%)},
-				xmin=0, xmax=105,
-				legend style={at={(0.5,-0.15)}, anchor=north, legend columns=-1, font=\footnotesize},
-				bar width=12pt,
-				nodes near coords,
-				every node near coord/.append style={font=\tiny},
-				/pgf/number format/fixed, /pgf/number format/precision=1,
-			]
-			% Business Model Adaptation & Pricing
-			\addplot[fill=tudablue!80] coordinates {
-					(80.3,Adobe) (79.6,Amazon Prime) (57.1,Apple Music) (73.2,Disney+) (35.0,ExpressVPN) (82.0,Microsoft) (69.4,Netflix) (34.5,NordVPN) (75.7,Spotify) (60.4,YouTube Premium)
-				};
-			% Coercive Restriction & Legal Threat
-			\addplot[fill=tudared!80] coordinates {
-					(18.6,Adobe) (18.0,Amazon Prime) (40.7,Apple Music) (26.6,Disney+) (61.7,ExpressVPN) (17.1,Microsoft) (29.8,Netflix) (60.0,NordVPN) (23.5,Spotify) (39.0,YouTube Premium)
-				};
-			% General Corporate Operations
-			\addplot[fill=tudagreen!80] coordinates {
-					(1.1,Adobe) (2.4,Amazon Prime) (2.2,Apple Music) (0.2,Disney+) (3.3,ExpressVPN) (0.9,Microsoft) (0.9,Netflix) (5.5,NordVPN) (0.7,Spotify) (0.6,YouTube Premium)
-				};
-			\legend{\gls{bma} (Adaptation), \gls{crl} (Enforcement), \gls{gco} (Operations)}
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Strategic Framing by Company: Macro-Category Distribution. \gls{vpn} providers (ExpressVPN, NordVPN) show the highest proportion of coercive/legal framing (\gls{crl} $>$ 60\%), while software companies (Microsoft, Adobe) and streaming platforms overwhelmingly use business model adaptation framing (\gls{bma} $>$ 70\%).}
-	\label{fig:strategic_framing_pivot}
-\end{figure}
-
-The change over time in these categories, as previously detailed in
-Table \ref{tab:qual_timeline_complete}, confirms the shifting focus
-toward technical countermeasures within the \gls{crl} macro-category.
-
-
-
-\subsection{The Content Fortress: Defensive Value Capture}
-Firms like \textbf{Netflix} and \textbf{Disney+} focus on keeping their prices separate rather
-than making things easy for the user. Our data shows that in this sector, high price
-differences and strict blocking go together. This finding is consistent with
-\textcite{cardona2015consumer}, who demonstrate that geo-blocking significantly
-affects consumer shopping behavior and willingness to pay. This shows that blocking
-is not just a reaction
-to price hops, but a standard way these companies work to protect their content in each region.
-
-The ``Content Fortress'' strategy is deeply rooted in the structure of the
-entertainment industry's licensing model. Content rights are typically sold on a
-territory-by-territory basis \parencite{lobato2019geoblocking}, meaning that a
-streaming platform may hold the rights to show a film in Germany but not in the
-United Kingdom, where a competing platform may hold the license. This territorial
-licensing model is older than digital distribution, as it was designed for
-theatrical releases and broadcast television, where geographic boundaries were
-enforced by physical infrastructure. The transition to digital streaming has
-not eliminated these territorial rights. Instead, it has created a situation
-where platforms must enforce artificial geographic boundaries on an inherently
-borderless medium.
-
-This aligns with the ``Fortress'' strategy described by \textcite{alaveras2017geoblocking},
-where incumbent firms construct digital barriers to protect legacy revenue streams. However,
-as noted by \textcite{lobato2019geoblocking}, such strategies often suffer from a ``clarity''
-problem: users encounter ``This content is not available'' error messages without understanding
-the underlying legal framework. The frustration this creates among consumers should not be
-underestimated: when users perceive restrictions as arbitrary or unfair, they are more
-likely to seek circumvention tools \parencite{xia2004price}, feeding the very arbitrage
-cycle that the fortress strategy aims to prevent.
-
-\textbf{YouTube Premium} stands out as the most aggressive enforcer in this category,
-with a Fortress Index of 33.68\%. YouTube's enforcement surge beginning in 2022
-(Table~\ref{tab:timeline_count}) coincides with a sharp rise in Technical Blocking
-clauses from 13 in 2022 to 44 in 2023 (Table~\ref{tab:qual_timeline_complete}),
-reflecting a systematic crackdown on users who had subscribed through Turkish or
-Argentine accounts to exploit significantly lower regional prices. Unlike Netflix
-or Disney+, YouTube's
-enforcement is not primarily driven by third-party licensing constraints
-(since much of YouTube's content is user-generated), but rather by direct revenue
-protection for its Premium subscription tier. This makes YouTube a ``pure'' case
-of the Content Fortress strategy: blocking is motivated entirely by pricing integrity
-rather than contractual obligations.
-
-Interestingly, \textbf{Netflix's} low Fortress score (2.03\%) is surprising given its role
-as a streaming pioneer. \textcite{aguiar2018netflix} examine whether Netflix acts as
-a ``global hegemon'' or a facilitator of frictionless digital trade, finding that its
-catalog varies dramatically across countries, a direct consequence of territorial licensing
-that gives users an additional motivation to circumvent geo-blocking beyond price alone.
-This low score can be explained by a strategic shift in \gls{bmi}: Netflix has moved
-heavily toward in-house content production (``Netflix Originals''). By owning its own
-content, Netflix faces fewer regional licensing problems, which reduces the need for strict
-geographic blocking. Over time, this strategy may also lower the arbitrage motivation, as
-Netflix Originals are available globally without regional restrictions.
-This represents a transition from defensive innovation (Value Capture) toward
-adaptive innovation (Value Proposition): rather than building higher walls, Netflix is
-making the walls less necessary by producing content it fully controls.
-
-\subsection{The Ecosystem Fortress: Adaptive Value Proposition}
-Platforms like \textbf{Apple Music} and \textbf{Amazon Prime} show a ``Globalist''
-approach that innovates on the \textbf{Value Proposition}. Unlike the Content Fortress,
-which defends existing revenue models through technical barriers, the Ecosystem
-Fortress makes arbitrage impractical by embedding digital services within broader
-product ecosystems that are inherently tied to a user's physical identity and location.
-
-\textbf{Apple Music}, with a low focus on \textbf{Technical Blocking}
-(only 2 clauses, representing 12.5\% of its strategic focus but only 0.15\% of total policy volume)
-and a strong emphasis on \textbf{Price Discrimination} (5.7\%), appears to accept the reality
-of international price division \parencite{brouthers2016explaining}. Rather than ``repairing''
-the Value Capture mechanism through blocking, they rely on a superior Value Delivery ecosystem
-(hardware integration, iCloud) that makes the friction of using a \gls{vpn}-based ``foreign'' account
-essentially ``not worth it'' for the user. To use a foreign Apple Music account, a user would
-need to change their entire Apple ID region, which affects App Store purchases, iCloud storage,
-warranty coverage, and payment methods across all Apple devices. This ``switching cost''
-is far higher than the potential savings from a cheaper music subscription, effectively
-making the ecosystem itself the enforcement mechanism. This aligns with the concept of
-platform lock-in described by \textcite{shapiro1998information}, where compatibility
-and integration costs deter users from switching between ecosystems.
-\textcite{burnham2003switching} identify three types of switching costs, namely procedural
-(learning and setup effort), financial (sunk costs and lost benefits), and relational
-(emotional attachment), all of which are high in Apple's ecosystem. Also,
-\textcite{zhu2012platform} show that platform-based markets with strong indirect network
-effects create substantial entry barriers, which in the context of geo-arbitrage means that
-the ``cost'' of maintaining a foreign account extends far beyond the subscription price itself.
-
-\textbf{Amazon Prime} adopts a similar but legally distinct strategy. As shown in our
-\textbf{Detailed Evolution Analysis} (Appendix \ref{app:service_evolution},
-Figure \ref{fig:evol_video_main}), Amazon relies heavily on \textbf{Regulatory Compliance} language.
-Instead of technical cat-and-mouse games, Amazon anchors its digital services to physical
-shipping addresses and tax jurisdictions. This creates a ``Bureaucratic Fortress'' where the
-barrier to entry is not an IP filter, but a valid residential address and local credit card,
-making \gls{vpn}-based arbitrage logistically difficult rather than technically impossible.
-The bundle nature of Amazon Prime (combining video streaming, music, e-book lending,
-free shipping, and cloud storage) further increases the switching cost. A user seeking
-cheaper streaming prices through a foreign Amazon account would lose access to shipping
-benefits in their home country, creating a natural deterrent that no technical blocking
-system could match.
-
-\subsection{The Enterprise Fortress: Identity-Based Value Capture}
-A new archetype identified in this study is the ``Enterprise Fortress,'' shown by
-\textbf{Microsoft}. Despite having the lowest global price variance among digital service
-providers (\gls{dspi} StdDev $= 0.21$, indicating a relatively harmonized global price for
-Microsoft 365), Microsoft exhibits the highest
-intensity of \textbf{Legal Threat} clauses (53 total, the highest among all service providers).
-This suggests that for utility software, the \textbf{Value Capture} is protected not
-by \textit{network} blocking (which targets Location), but by \textit{identity}
-verification (which targets the User). The ``Fortress'' is built to keep unauthorized resellers
-out, reinforcing the subscription model's integrity without compromising the global
-\textbf{Value Delivery} of the software itself.
-
-Microsoft's approach reflects a fundamentally different enforcement philosophy compared
-to streaming services. While Netflix and YouTube must verify a user's location in real
-time during every streaming session, Microsoft only needs to verify identity at the
-point of purchase and during periodic license validation checks. This means that
-Microsoft's enforcement is ``front-loaded'' (concentrated at the point of sale)
-rather than ``continuous'' (ongoing during use). This distinction has important
-implications: a user who successfully purchases a Microsoft 365 license through a
-\gls{vpn}-enabled foreign account can use the software without further geographic
-verification, whereas a Netflix user must maintain their \gls{vpn} connection
-during every viewing session.
-
-Microsoft's enterprise customer base also creates a natural deterrent
-against arbitrage. Corporate IT departments purchasing Microsoft 365 licenses
-in bulk are unlikely to route their procurement through foreign \gls{vpn} servers,
-as this would create compliance, tax, and audit risks that far outweigh any
-subscription savings. The ``Enterprise Fortress'' thus works primarily because
-the target customer segment has fundamentally different risk tolerances than individual consumers.
-
-\subsection{The Utility Paradox (Adobe)}
-\textbf{Adobe} presents a unique case. Despite moderate price discrimination
-(\gls{dspi} StdDev $= 0.25$, comparable to Microsoft rather than the higher-variance content
-streaming providers), it maintains remarkably low ``Technical Blocking'' enforcement. Based on our analysis of Adobe's Terms
-of Service and product documentation, this appears to be because Adobe's enforcement mechanism
-is ``on-device'' (software activation keys) rather than ``on-network'' (IP filtering). This
-observation suggests that ``Technical Blocking'' is a strategy specific to
-\textit{cloud-streamed} content, whereas \textit{downloaded software} may rely on different
-protection mechanisms.
-
-This is consistent with the broader literature on digital content protection.
-As \textcite{aguiar2016digital} demonstrate, digital consumption patterns are
-shaped by access mechanisms, and \gls{drm} plays a role in how consumers interact
-with digital products. Interestingly,
-\textcite{sinha2010drm} demonstrated that removing \gls{drm} from music files actually
-\textit{increased} legitimate purchases by converting pirates into paying customers,
-suggesting that overly restrictive protection can be self-defeating.
-Adobe's position is best understood through the historical evolution of software protection.
-In the era of physical media distribution (1990s--2000s), software piracy was widespread
-because protection was limited to serial numbers and basic installation checks that
-were trivially circumvented. The transition to subscription-based \gls{saas} models
-(Adobe's shift from perpetual licenses to Creative Cloud in 2013 \parencite{adobe2013creative})
-fundamentally changed the enforcement situation: instead of protecting a one-time purchase,
-Adobe now validates subscriptions continuously through cloud authentication.
-This ``always-connected'' model provides a built-in enforcement mechanism that
-streaming services lack: while Netflix must verify location during playback,
-Adobe verifies identity and license validity during software launch,
-making the enforcement architecture fundamentally different.
-
-
-However, a hybrid future appears to be emerging in the form of \textbf{``Always-Online \gls{drm}''}.
-Features like Adobe's cloud-dependent generative tools (Firefly, Neural Filters)
-require authenticated connections to
-function, effectively merging network-based verification with identity authentication.
-As more software features migrate from local computation to cloud processing, the
-distinction between ``downloaded software'' and ``streamed content'' blurs.
-Adobe's Fortress Index of 5.48\% may therefore understate its future enforcement
-trajectory: as cloud-dependent features become the primary value proposition,
-Adobe may converge toward the Content Fortress model, where the delivery mechanism
-itself enforces geographic restrictions. This convergence raises important questions
-about the impact of such mechanisms on user privacy and security \parencite{lindsay2006copyright}.
-This reflects the ``Opportunities and Risks'' of \gls{saas} adoption \parencite{benlian2011opportunities},
-where control shifts from the client device to the cloud provider.
-
-The Utility Paradox thus reveals a broader pattern in digital economics:
-the enforcement mechanism available to a firm depends not on its pricing strategy
-or market power, but on the \textit{technical architecture of value delivery}.
-Downloaded software can embed cryptographic verification, streamed content requires
-network-level control, and ecosystem-embedded services leverage identity dependencies.
-As these architectures converge through cloud computing and AI-dependent features,
-the strategic archetypes identified in this study may themselves evolve,
-potentially collapsing the current diversity of enforcement approaches into a
-more uniform ``cloud fortress'' model where all digital services require
-continuous authenticated connections. The accelerating integration of AI into
-digital services reinforces this trajectory: features such as Adobe's Firefly
-generative tools or Spotify's AI-curated playlists are inherently server-side,
-requiring real-time authentication that simultaneously enables geographic
-enforcement as a by-product of the service architecture itself.
-
-\subsection{The Adversarial Cycle: A View Over Time}
-The relationship between providers and consumers is not static. Our historical analysis
-reveals a clear ``Action-Reaction'' cycle, visualized in Figure \ref{fig:timeline}.
-
-\begin{figure}[ht]
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tikzpicture}[x=2.1cm, y=1cm]
-			% Draw the timeline line
-			\draw[->, thick] (0,0) -- (7.0,0) node[right] {Year};
-
-			% Ticks and Labels
-			\foreach \x/\year in {0.5/2020, 1.7/2021, 2.9/2022, 4.1/2023, 5.3/2024, 6.5/2025} {
-					\draw[thick] (\x,0.1) -- (\x,-0.1);
-					\node[below=0.2cm] at (\x,0) {\textbf{\year}};
-				}
-
-			% Events Top (Corporate/Coercive)
-			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (pandemic) at
-			(0.5,0) {\textbf{Pandemic Surge}\\(Arbitrage Wave)\\[-2pt]{\scriptsize\parencite{atlasvpn2021covid}}};
-			\draw[thin] (0.5,0.2) -- (pandemic);
-
-			\node[align=center, text width=3.0cm, above=0.5cm, font=\footnotesize] (resip) at
-			(1.7,0) {\textbf{Residential IP Crackdown}\\(The ``Hard'' Filter)\\[-2pt]{\scriptsize\parencite{maxmind2021geolocation}}};
-			\draw[thin] (1.7,0.2) -- (resip);
-
-			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (youtube) at
-			(2.9,0) {\textbf{YouTube Enforcement Surge}\\(Technical Blocking)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
-			\draw[thin] (2.9,0.2) -- (youtube);
-
-			\node[align=center, text width=3.0cm, above=0.5cm, font=\footnotesize] (peak) at
-			(4.1,0) {\textbf{Peak Enforcement}\\(44 Tech.\ Block.\ clauses)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
-			\draw[thin] (4.1,0.2) -- (peak);
-
-			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (equilib) at
-			(5.9,0) {\textbf{New Equilibrium}\\(Blocking as Standard)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
-			\draw[thin] (5.9,0.2) -- (equilib);
-
-			% Events Bottom (VPN/Adaptive)
-			\node[align=center, text width=3.0cm, below=1.8cm, font=\footnotesize] (obfus) at
-			(0.5,0) {\textbf{Obfuscated Servers}\\(Chameleon/XOR)\\[-2pt]{\scriptsize\parencite{winter2013scramblesuit}}};
-			\draw[thin] (0.5,-0.2) -- (obfus);
-
-			\node[align=center, text width=3.0cm, below=2.8cm, font=\footnotesize] (wireguard) at (1.7,0) {\textbf{WireGuard \& NordLynx}\\(Speed + Stealth)\\[-2pt]{\scriptsize\parencite{donenfeld2017wireguard}}};
-			\draw[thin] (1.7,-0.2) -- (wireguard);
-
-			\node[align=center, text width=3.0cm, below=1.8cm, font=\footnotesize] (residential) at
-			(4.1,0) {\textbf{Residential Proxies}\\(Undetectable IPs)\\[-2pt]{\scriptsize\parencite{mi2019residential}}};
-			\draw[thin] (4.1,-0.2) -- (residential);
-
-			\node[align=center, text width=3.0cm, below=2.8cm, font=\footnotesize] (dvpn) at (5.9,0) {\textbf{Decentralized VPNs}\\(Blockchain dVPNs)\\[-2pt]{\scriptsize\parencite{mysterium2020dvpn}}};
-			\draw[thin] (5.9,-0.2) -- (dvpn);
-
-		\end{tikzpicture}}
-	\caption{The Adversarial Timeline: Coercive Barriers vs. Technical Circumvention (2020--2025). Events above the timeline reflect corporate enforcement measures documented in the \gls{tos} analysis; events below the timeline represent circumvention technologies.}
-	\label{fig:timeline}
-\end{figure}
-
-%  Generated Video Group 
-% Note: The following proportional (percentage-based) evolution figures are placed
-% in the Discussion rather than Results because they support the interpretive
-% analysis of strategic archetypes. Absolute-count charts appear in Appendix A.
+%  Generated Video Group (proportional evolution) 
 \begin{figure}[ht]
 	\centering
 	\begin{minipage}{0.47\textwidth}
@@ -2700,6 +2268,440 @@ reveals a clear ``Action-Reaction'' cycle, visualized in Figure \ref{fig:timelin
 	\label{fig:evol_software_main}
 \end{figure}
 
+\section{Strategic Shifts and Fortress Index Ranking}
+\label{sec:detailed_analysis}
+
+This section provides a granular view of the enforcement picture, detailing the specific category
+shifts and the calculated ``Fortress Index values'' for each service.
+
+\begin{table}[ht]
+	\centering
+	\caption{Complete Fortress Index Ranking. \gls{vpn} providers score highest due
+		to their security-focused framing, followed by YouTube and Microsoft
+		with active enforcement strategies.}
+	\label{tab:fortress_index_complete}
+	\begin{tabular}{l r l}
+		\toprule
+		\textbf{Company} & \textbf{Fortress Index (\%)} & \textbf{Archetype}  \\
+		\midrule
+		ExpressVPN       & 55.56                        & \gls{vpn} Enabler   \\
+		NordVPN          & 50.00                        & \gls{vpn} Enabler   \\
+		YouTube Premium  & 33.68                        & Content Fortress    \\
+		Microsoft        & 32.76                        & Enterprise Fortress \\
+		Apple Music      & 12.50                        & Ecosystem Fortress  \\
+		Adobe            & 5.48                         & Utility Paradox     \\
+		Amazon Prime     & 3.88                         & Ecosystem Fortress  \\
+		Disney+          & 2.04                         & Content Fortress    \\
+		Netflix          & 2.03                         & Content Fortress    \\
+		Spotify          & 0.43                         & Content Fortress    \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+The Fortress Index (Table \ref{tab:fortress_index_complete}) confirms the split in the market.
+\textbf{YouTube Premium} (33.68\%) and \textbf{Microsoft} (32.76\%) have effectively built
+``digital fortresses,'' distinguishing themselves from the lower-scoring streaming
+incumbents like \textbf{Netflix} (2.03\%) and \textbf{Spotify} (0.43\%),
+which continue to rely on passive licensing terms.
+
+\begin{table}[ht]
+	\centering
+	\footnotesize
+	\renewcommand{\arraystretch}{1.1}
+	\caption{Absolute Category Counts by Year Across All Services (2020--2025).
+		Technical Blocking peaks sharply in 2023, coinciding with YouTube's enforcement escalation.}
+	\label{tab:qual_timeline_complete}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l *{11}{r} | r}
+			\toprule
+			\textbf{Year}  & \rotatebox{70}{\textbf{Tech. Block.}} & \rotatebox{70}{\textbf{Price Discr.}} & \rotatebox{70}{\textbf{Licensing}} & \rotatebox{70}{\textbf{Regulatory}} & \rotatebox{70}{\textbf{Legal Thr.}} & \rotatebox{70}{\textbf{Acc.\ Act.}} & \rotatebox{70}{\textbf{Privacy}} & \rotatebox{70}{\textbf{Sec.\ Risk}} & \rotatebox{70}{\textbf{Portab.}} & \rotatebox{70}{\textbf{Workaro.}} & \rotatebox{70}{\textbf{General}} & \rotatebox{70}{\textbf{Total}} \\
+			\midrule
+			2020           & 6                                     & 16                                    & 71                                 & 55                                  & 15                                  & 0                                   & 0                                & 10                                  & 0                                & 0                                 & 3,386                            & 3,559                          \\
+			2021           & 5                                     & 26                                    & 70                                 & 74                                  & 12                                  & 0                                   & 2                                & 4                                   & 0                                & 0                                 & 3,645                            & 3,838                          \\
+			2022           & 13                                    & 20                                    & 87                                 & 72                                  & 13                                  & 0                                   & 4                                & 10                                  & 0                                & 0                                 & 4,001                            & 4,220                          \\
+			2023           & 44                                    & 12                                    & 102                                & 117                                 & 25                                  & 0                                   & 11                               & 2                                   & 2                                & 0                                 & 4,567                            & 4,882                          \\
+			2024           & 24                                    & 33                                    & 96                                 & 114                                 & 23                                  & 0                                   & 2                                & 10                                  & 0                                & 0                                 & 4,880                            & 5,182                          \\
+			2025           & 15                                    & 14                                    & 99                                 & 89                                  & 28                                  & 0                                   & 8                                & 9                                   & 0                                & 0                                 & 3,402                            & 3,664                          \\
+			\midrule
+			\textbf{Total} & \textbf{107}                          & \textbf{121}                          & \textbf{525}                       & \textbf{521}                        & \textbf{116}                        & \textbf{0}                          & \textbf{27}                      & \textbf{45}                         & \textbf{2}                       & \textbf{0}                        & \textbf{23,881}                  & \textbf{25,345}                \\
+			\bottomrule
+		\end{tabular}}
+\end{table}
+
+Table \ref{tab:qual_timeline_complete} reveals the year-by-year trends
+behind these scores. The aggregate data show a clear spike
+in ``Technical Blocking'' clauses in 2023 (44 incidents), a direct response
+to the post-pandemic surge in \gls{vpn} usage. ``Regulatory Compliance''
+also saw a steady increase, reflecting the growing complexity of global
+digital trade laws. Note that the decrease in total counts for 2025 reflects the
+natural variation in document publication frequency across services. A consistent
+forward-fill strategy ensures that each service's most recent \gls{tos} is
+carried into years without an update, providing an accurate picture of the active
+regulatory environment at any given time.
+
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+				xbar,
+				width=0.8\textwidth,
+				height=8cm,
+				xlabel={Share (\%)},
+				ytick={0,1,2,3,4,5},
+				yticklabels={Security Risk, Technical Blocking, Price Discrimination, Legal Threat, Regulatory Compliance, Content Licensing},
+				nodes near coords,
+				xmin=0,
+				bar width=15pt,
+				yticklabel style={font=\footnotesize},
+			]
+			\addplot[fill=tudared] coordinates {
+					(2.8,0) (7.2,1) (8.0,2) (8.0,3) (35.0,4) (37.2,5)
+				};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Proportional Distribution of Enforcement Categories (Aggregate)}
+	\label{fig:category_dist_viz}
+\end{figure}
+
+The distribution of these categories (Figure \ref{fig:category_dist_viz})
+highlighted distinct enforcement styles. Notably, \textbf{Microsoft} has largely
+abandoned active enforcement for its productivity suite, relying instead on
+ecosystem lock-in, whereas \textbf{YouTube} has pursued aggressive boundary
+enforcement followed by a consolidation period, as seen in the fluctuation of
+its ``Technical Blocking'' and ``Legal Threat'' clauses over time.
+
+\chapter{Discussion}
+\label{chap:discussion}
+
+This chapter brings together the pricing data and the corporate strategy findings
+to answer the main question of this thesis:
+how do digital service providers strategically respond to \gls{vpn}-enabled geo-arbitrage,
+and what determines the nature of that response? The results from Chapter~\ref{chap:results}
+established two key findings that require interpretation. First, the \gls{dspi}
+demonstrated that price differences across markets are substantial and systematic,
+with content streaming services showing the highest variance. Second, the \gls{tos}
+analysis revealed that enforcement intensity varies dramatically across providers,
+with YouTube and Microsoft exhibiting far higher enforcement density than Netflix
+or Spotify. The key question is \textit{why} these differences exist.
+The following discussion identifies distinct strategic archetypes that illustrate
+how different industry segments respond to arbitrage, arguing that business model
+architecture (not the size of the price gap) is the primary determinant of
+enforcement strategy. The chapter concludes by exploring the broader implications
+of the ongoing technological contest between platforms and consumers and the policy
+questions this contest raises.
+
+\section{Strategic Archetypes}
+Based on the \gls{tos} analysis ($N=10$, covering 8 digital service providers
+and 2 \gls{vpn} enablers), we organize the findings around three high-level
+\textbf{Macro-Categories} that aggregate the initial 10 coding categories
+to facilitate cross-sectoral comparison:
+\begin{enumerate}
+	\item \textbf{Business Model Adaptation \& Pricing (\gls{bma}):}
+	      Aggregates \textit{Content Licensing}, \textit{Regulatory Compliance},
+	      \textit{Price Discrimination}, and \textit{Legitimate Portability}.
+	      This represents the ``soft'' strategic layer where firms adjust their offerings
+	      to local market conditions.
+	\item \textbf{Coercive Restriction \& Legal Threat (\gls{crl}):}
+	      Aggregates \textit{Technical Blocking}, \textit{Legal Threat},
+	      \textit{Account Action}, and \textit{Security Risk}.
+	      This represents the ``hard'' enforcement layer designed to physically or
+	      legally prevent circumvention.
+	\item \textbf{General Corporate Operations (\gls{gco}):}
+	      Aggregates \textit{Privacy/Security} (\gls{vpn} frame) and \textit{User Workaround}.
+	      This captures supporting narratives and adversarial user behavior descriptions.
+\end{enumerate}
+
+Figure \ref{fig:strategic_framing_pivot} provides a high-level overview of
+how these macro-strategies appear across the analyzed companies.
+
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+				xbar stacked,
+				width=0.85\textwidth,
+				height=10cm,
+				symbolic y coords={ExpressVPN,NordVPN,Apple Music,YouTube Premium,Spotify,Netflix,Disney+,Amazon Prime,Adobe,Microsoft},
+				ytick=data,
+				yticklabel style={font=\small},
+				xlabel={Share of Strategic Sentences (\%)},
+				xmin=0, xmax=105,
+				legend style={at={(0.5,-0.15)}, anchor=north, legend columns=-1, font=\footnotesize},
+				bar width=12pt,
+				nodes near coords,
+				every node near coord/.append style={font=\tiny},
+				/pgf/number format/fixed, /pgf/number format/precision=1,
+			]
+			% Business Model Adaptation & Pricing
+			\addplot[fill=tudablue!80] coordinates {
+					(80.3,Adobe) (79.6,Amazon Prime) (57.1,Apple Music) (73.2,Disney+) (35.0,ExpressVPN) (82.0,Microsoft) (69.4,Netflix) (34.5,NordVPN) (75.7,Spotify) (60.4,YouTube Premium)
+				};
+			% Coercive Restriction & Legal Threat
+			\addplot[fill=tudared!80] coordinates {
+					(18.6,Adobe) (18.0,Amazon Prime) (40.7,Apple Music) (26.6,Disney+) (61.7,ExpressVPN) (17.1,Microsoft) (29.8,Netflix) (60.0,NordVPN) (23.5,Spotify) (39.0,YouTube Premium)
+				};
+			% General Corporate Operations
+			\addplot[fill=tudagreen!80] coordinates {
+					(1.1,Adobe) (2.4,Amazon Prime) (2.2,Apple Music) (0.2,Disney+) (3.3,ExpressVPN) (0.9,Microsoft) (0.9,Netflix) (5.5,NordVPN) (0.7,Spotify) (0.6,YouTube Premium)
+				};
+			\legend{\gls{bma} (Adaptation), \gls{crl} (Enforcement), \gls{gco} (Operations)}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Strategic Framing by Company: Macro-Category Distribution. \gls{vpn} providers (ExpressVPN, NordVPN) show the highest proportion of coercive/legal framing (\gls{crl} $>$ 60\%), while software companies (Microsoft, Adobe) and streaming platforms overwhelmingly use business model adaptation framing (\gls{bma} $>$ 70\%).}
+	\label{fig:strategic_framing_pivot}
+\end{figure}
+
+The change over time in these categories, as previously detailed in
+Table \ref{tab:qual_timeline_complete}, confirms the shifting focus
+toward technical countermeasures within the \gls{crl} macro-category.
+
+
+
+\subsection{The Content Fortress: Defensive Value Capture}
+Firms like \textbf{Netflix} and \textbf{Disney+} focus on keeping their prices separate rather
+than making things easy for the user. Our data shows that in this sector, high price
+differences and strict blocking go together. This finding is consistent with
+\textcite{cardona2015consumer}, who demonstrate that geo-blocking significantly
+affects consumer shopping behavior and willingness to pay. This shows that blocking
+is not just a reaction
+to price hops, but a standard way these companies work to protect their content in each region.
+
+The ``Content Fortress'' strategy is deeply rooted in the structure of the
+entertainment industry's licensing model. Content rights are typically sold on a
+territory-by-territory basis \parencite{lobato2019geoblocking}, meaning that a
+streaming platform may hold the rights to show a film in Germany but not in the
+United Kingdom, where a competing platform may hold the license. This territorial
+licensing model is older than digital distribution, as it was designed for
+theatrical releases and broadcast television, where geographic boundaries were
+enforced by physical infrastructure. The transition to digital streaming has
+not eliminated these territorial rights. Instead, it has created a situation
+where platforms must enforce artificial geographic boundaries on an inherently
+borderless medium.
+
+This aligns with the ``Fortress'' strategy described by \textcite{alaveras2017geoblocking},
+where incumbent firms construct digital barriers to protect legacy revenue streams. However,
+as noted by \textcite{lobato2019geoblocking}, such strategies often suffer from a ``clarity''
+problem: users encounter ``This content is not available'' error messages without understanding
+the underlying legal framework. The frustration this creates among consumers should not be
+underestimated: when users perceive restrictions as arbitrary or unfair, they are more
+likely to seek circumvention tools \parencite{xia2004price}, feeding the very arbitrage
+cycle that the fortress strategy aims to prevent.
+
+\textbf{YouTube Premium} stands out as the most aggressive enforcer in this category,
+with a Fortress Index of 33.68\%. YouTube's enforcement surge beginning in 2022
+(Table~\ref{tab:timeline_count}) coincides with a sharp rise in Technical Blocking
+clauses from 13 in 2022 to 44 in 2023 (Table~\ref{tab:qual_timeline_complete}),
+reflecting a systematic crackdown on users who had subscribed through Turkish or
+Argentine accounts to exploit significantly lower regional prices. Unlike Netflix
+or Disney+, YouTube's
+enforcement is not primarily driven by third-party licensing constraints
+(since much of YouTube's content is user-generated), but rather by direct revenue
+protection for its Premium subscription tier. This makes YouTube a ``pure'' case
+of the Content Fortress strategy: blocking is motivated entirely by pricing integrity
+rather than contractual obligations.
+
+Interestingly, \textbf{Netflix's} low Fortress score (2.03\%) is surprising given its role
+as a streaming pioneer. \textcite{aguiar2018netflix} examine whether Netflix acts as
+a ``global hegemon'' or a facilitator of frictionless digital trade, finding that its
+catalog varies dramatically across countries, a direct consequence of territorial licensing
+that gives users an additional motivation to circumvent geo-blocking beyond price alone.
+This low score can be explained by a strategic shift in \gls{bmi}: Netflix has moved
+heavily toward in-house content production (``Netflix Originals''). By owning its own
+content, Netflix faces fewer regional licensing problems, which reduces the need for strict
+geographic blocking. Over time, this strategy may also lower the arbitrage motivation, as
+Netflix Originals are available globally without regional restrictions.
+This represents a transition from defensive innovation (Value Capture) toward
+adaptive innovation (Value Proposition): rather than building higher walls, Netflix is
+making the walls less necessary by producing content it fully controls.
+
+\subsection{The Ecosystem Fortress: Adaptive Value Proposition}
+Platforms like \textbf{Apple Music} and \textbf{Amazon Prime} show a ``Globalist''
+approach that innovates on the \textbf{Value Proposition}. Unlike the Content Fortress,
+which defends existing revenue models through technical barriers, the Ecosystem
+Fortress makes arbitrage impractical by embedding digital services within broader
+product ecosystems that are inherently tied to a user's physical identity and location.
+
+\textbf{Apple Music}, with a low focus on \textbf{Technical Blocking}
+(only 2 clauses, representing 12.5\% of its strategic focus but only 0.15\% of total policy volume)
+and a strong emphasis on \textbf{Price Discrimination} (5.7\%), appears to accept the reality
+of international price division \parencite{brouthers2016explaining}. Rather than ``repairing''
+the Value Capture mechanism through blocking, they rely on a superior Value Delivery ecosystem
+(hardware integration, iCloud) that makes the friction of using a \gls{vpn}-based ``foreign'' account
+essentially ``not worth it'' for the user. To use a foreign Apple Music account, a user would
+need to change their entire Apple ID region, which affects App Store purchases, iCloud storage,
+warranty coverage, and payment methods across all Apple devices. This ``switching cost''
+is far higher than the potential savings from a cheaper music subscription, effectively
+making the ecosystem itself the enforcement mechanism. This aligns with the concept of
+platform lock-in described by \textcite{shapiro1998information}, where compatibility
+and integration costs deter users from switching between ecosystems.
+\textcite{burnham2003switching} identify three types of switching costs, namely procedural
+(learning and setup effort), financial (sunk costs and lost benefits), and relational
+(emotional attachment), all of which are high in Apple's ecosystem. Also,
+\textcite{zhu2012platform} show that platform-based markets with strong indirect network
+effects create substantial entry barriers, which in the context of geo-arbitrage means that
+the ``cost'' of maintaining a foreign account extends far beyond the subscription price itself.
+
+\textbf{Amazon Prime} adopts a similar but legally distinct strategy. As shown in the
+proportional evolution analysis (Figure \ref{fig:evol_video_main},
+Section~\ref{sec:service_deep_dive}), Amazon relies heavily on \textbf{Regulatory Compliance} language.
+Instead of technical cat-and-mouse games, Amazon anchors its digital services to physical
+shipping addresses and tax jurisdictions. This creates a ``Bureaucratic Fortress'' where the
+barrier to entry is not an IP filter, but a valid residential address and local credit card,
+making \gls{vpn}-based arbitrage logistically difficult rather than technically impossible.
+The bundle nature of Amazon Prime (combining video streaming, music, e-book lending,
+free shipping, and cloud storage) further increases the switching cost. A user seeking
+cheaper streaming prices through a foreign Amazon account would lose access to shipping
+benefits in their home country, creating a natural deterrent that no technical blocking
+system could match.
+
+\subsection{The Enterprise Fortress: Identity-Based Value Capture}
+A new archetype identified in this study is the ``Enterprise Fortress,'' shown by
+\textbf{Microsoft}. Despite having the lowest global price variance among digital service
+providers (\gls{dspi} StdDev $= 0.21$, indicating a relatively harmonized global price for
+Microsoft 365), Microsoft exhibits the highest
+intensity of \textbf{Legal Threat} clauses (53 total, the highest among all service providers).
+This suggests that for utility software, the \textbf{Value Capture} is protected not
+by \textit{network} blocking (which targets Location), but by \textit{identity}
+verification (which targets the User). The ``Fortress'' is built to keep unauthorized resellers
+out, reinforcing the subscription model's integrity without compromising the global
+\textbf{Value Delivery} of the software itself.
+
+Microsoft's approach reflects a fundamentally different enforcement philosophy compared
+to streaming services. While Netflix and YouTube must verify a user's location in real
+time during every streaming session, Microsoft only needs to verify identity at the
+point of purchase and during periodic license validation checks. This means that
+Microsoft's enforcement is ``front-loaded'' (concentrated at the point of sale)
+rather than ``continuous'' (ongoing during use). This distinction has important
+implications: a user who successfully purchases a Microsoft 365 license through a
+\gls{vpn}-enabled foreign account can use the software without further geographic
+verification, whereas a Netflix user must maintain their \gls{vpn} connection
+during every viewing session.
+
+Microsoft's enterprise customer base also creates a natural deterrent
+against arbitrage. Corporate IT departments purchasing Microsoft 365 licenses
+in bulk are unlikely to route their procurement through foreign \gls{vpn} servers,
+as this would create compliance, tax, and audit risks that far outweigh any
+subscription savings. The ``Enterprise Fortress'' thus works primarily because
+the target customer segment has fundamentally different risk tolerances than individual consumers.
+
+\subsection{The Utility Paradox (Adobe)}
+\textbf{Adobe} presents a unique case. Despite moderate price discrimination
+(\gls{dspi} StdDev $= 0.25$, comparable to Microsoft rather than the higher-variance content
+streaming providers), it maintains remarkably low ``Technical Blocking'' enforcement. Based on our analysis of Adobe's Terms
+of Service and product documentation, this appears to be because Adobe's enforcement mechanism
+is ``on-device'' (software activation keys) rather than ``on-network'' (IP filtering). This
+observation suggests that ``Technical Blocking'' is a strategy specific to
+\textit{cloud-streamed} content, whereas \textit{downloaded software} may rely on different
+protection mechanisms.
+
+This is consistent with the broader literature on digital content protection.
+As \textcite{aguiar2016digital} demonstrate, digital consumption patterns are
+shaped by access mechanisms, and \gls{drm} plays a role in how consumers interact
+with digital products. Interestingly,
+\textcite{sinha2010drm} demonstrated that removing \gls{drm} from music files actually
+\textit{increased} legitimate purchases by converting pirates into paying customers,
+suggesting that overly restrictive protection can be self-defeating.
+Adobe's position is best understood through the historical evolution of software protection.
+In the era of physical media distribution (1990s--2000s), software piracy was widespread
+because protection was limited to serial numbers and basic installation checks that
+were trivially circumvented. The transition to subscription-based \gls{saas} models
+(Adobe's shift from perpetual licenses to Creative Cloud in 2013 \parencite{adobe2013creative})
+fundamentally changed the enforcement situation: instead of protecting a one-time purchase,
+Adobe now validates subscriptions continuously through cloud authentication.
+This ``always-connected'' model provides a built-in enforcement mechanism that
+streaming services lack: while Netflix must verify location during playback,
+Adobe verifies identity and license validity during software launch,
+making the enforcement architecture fundamentally different.
+
+
+However, a hybrid future appears to be emerging in the form of \textbf{``Always-Online \gls{drm}''}.
+Features like Adobe's cloud-dependent generative tools (Firefly, Neural Filters)
+require authenticated connections to
+function, effectively merging network-based verification with identity authentication.
+As more software features migrate from local computation to cloud processing, the
+distinction between ``downloaded software'' and ``streamed content'' blurs.
+Adobe's Fortress Index of 5.48\% may therefore understate its future enforcement
+trajectory: as cloud-dependent features become the primary value proposition,
+Adobe may converge toward the Content Fortress model, where the delivery mechanism
+itself enforces geographic restrictions. This convergence raises important questions
+about the impact of such mechanisms on user privacy and security \parencite{lindsay2006copyright}.
+This reflects the ``Opportunities and Risks'' of \gls{saas} adoption \parencite{benlian2011opportunities},
+where control shifts from the client device to the cloud provider.
+
+The Utility Paradox thus reveals a broader pattern in digital economics:
+the enforcement mechanism available to a firm depends not on its pricing strategy
+or market power, but on the \textit{technical architecture of value delivery}.
+Downloaded software can embed cryptographic verification, streamed content requires
+network-level control, and ecosystem-embedded services leverage identity dependencies.
+As these architectures converge through cloud computing and AI-dependent features,
+the strategic archetypes identified in this study may themselves evolve,
+potentially collapsing the current diversity of enforcement approaches into a
+more uniform ``cloud fortress'' model where all digital services require
+continuous authenticated connections. The accelerating integration of AI into
+digital services reinforces this trajectory: features such as Adobe's Firefly
+generative tools or Spotify's AI-curated playlists are inherently server-side,
+requiring real-time authentication that simultaneously enables geographic
+enforcement as a by-product of the service architecture itself.
+
+\subsection{The Adversarial Cycle: A View Over Time}
+The relationship between providers and consumers is not static. Our historical analysis
+reveals a clear ``Action-Reaction'' cycle, visualized in Figure \ref{fig:timeline}.
+
+\begin{figure}[ht]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tikzpicture}[x=2.1cm, y=1cm]
+			% Draw the timeline line
+			\draw[->, thick] (0,0) -- (7.0,0) node[right] {Year};
+
+			% Ticks and Labels
+			\foreach \x/\year in {0.5/2020, 1.7/2021, 2.9/2022, 4.1/2023, 5.3/2024, 6.5/2025} {
+					\draw[thick] (\x,0.1) -- (\x,-0.1);
+					\node[below=0.2cm] at (\x,0) {\textbf{\year}};
+				}
+
+			% Events Top (Corporate/Coercive)
+			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (pandemic) at
+			(0.5,0) {\textbf{Pandemic Surge}\\(Arbitrage Wave)\\[-2pt]{\scriptsize\parencite{atlasvpn2021covid}}};
+			\draw[thin] (0.5,0.2) -- (pandemic);
+
+			\node[align=center, text width=3.0cm, above=0.5cm, font=\footnotesize] (resip) at
+			(1.7,0) {\textbf{Residential IP Crackdown}\\(The ``Hard'' Filter)\\[-2pt]{\scriptsize\parencite{maxmind2021geolocation}}};
+			\draw[thin] (1.7,0.2) -- (resip);
+
+			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (youtube) at
+			(2.9,0) {\textbf{YouTube Enforcement Surge}\\(Technical Blocking)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
+			\draw[thin] (2.9,0.2) -- (youtube);
+
+			\node[align=center, text width=3.0cm, above=0.5cm, font=\footnotesize] (peak) at
+			(4.1,0) {\textbf{Peak Enforcement}\\(44 Tech.\ Block.\ clauses)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
+			\draw[thin] (4.1,0.2) -- (peak);
+
+			\node[align=center, text width=3.0cm, above=1.8cm, font=\footnotesize] (equilib) at
+			(5.9,0) {\textbf{New Equilibrium}\\(Blocking as Standard)\\[-2pt]{\scriptsize Table~\ref{tab:qual_timeline_complete}}};
+			\draw[thin] (5.9,0.2) -- (equilib);
+
+			% Events Bottom (VPN/Adaptive)
+			\node[align=center, text width=3.0cm, below=1.8cm, font=\footnotesize] (obfus) at
+			(0.5,0) {\textbf{Obfuscated Servers}\\(Chameleon/XOR)\\[-2pt]{\scriptsize\parencite{winter2013scramblesuit}}};
+			\draw[thin] (0.5,-0.2) -- (obfus);
+
+			\node[align=center, text width=3.0cm, below=2.8cm, font=\footnotesize] (wireguard) at (1.7,0) {\textbf{WireGuard \& NordLynx}\\(Speed + Stealth)\\[-2pt]{\scriptsize\parencite{donenfeld2017wireguard}}};
+			\draw[thin] (1.7,-0.2) -- (wireguard);
+
+			\node[align=center, text width=3.0cm, below=1.8cm, font=\footnotesize] (residential) at
+			(4.1,0) {\textbf{Residential Proxies}\\(Undetectable IPs)\\[-2pt]{\scriptsize\parencite{mi2019residential}}};
+			\draw[thin] (4.1,-0.2) -- (residential);
+
+			\node[align=center, text width=3.0cm, below=2.8cm, font=\footnotesize] (dvpn) at (5.9,0) {\textbf{Decentralized VPNs}\\(Blockchain dVPNs)\\[-2pt]{\scriptsize\parencite{mysterium2020dvpn}}};
+			\draw[thin] (5.9,-0.2) -- (dvpn);
+
+		\end{tikzpicture}}
+	\caption{The Adversarial Timeline: Coercive Barriers vs. Technical Circumvention (2020--2025). Events above the timeline reflect corporate enforcement measures documented in the \gls{tos} analysis; events below the timeline represent circumvention technologies.}
+	\label{fig:timeline}
+\end{figure}
 
 
 
